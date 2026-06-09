@@ -51,6 +51,20 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+         <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=G-GD0EY5KGY1`}
+        strategy="afterInteractive"
+      />
+
+      <Script id="ga-script" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-GD0EY5KGY1');
+        `}
+      </Script>
         <Navbar></Navbar>
         {children}
       
