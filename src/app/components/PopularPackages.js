@@ -1,126 +1,162 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { FaArrowRight } from "react-icons/fa";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  FaHeart,
+  FaTint,
+  FaBrain,
+  FaUserMd,
+  FaArrowRight,
+} from "react-icons/fa";
 
-const packages = [
+const categories = [
   {
-    id: "01",
-    name: "Full Body Checkup",
-    price: "₹1,999",
+    icon: FaUserMd,
+    title: "Full Body",
+    package: "Full Body Checkup",
     tests: "75+ Parameters",
-    description:
-      "Comprehensive screening designed to provide a complete overview of your health.",
+    price: "₹1,999",
+    desc:
+      "A complete preventive screening package designed to give a detailed overview of your overall health.",
   },
   {
-    id: "02",
-    name: "Heart Health",
-    price: "₹2,499",
+    icon: FaHeart,
+    title: "Heart Health",
+    package: "Heart Health Package",
     tests: "35+ Parameters",
-    description:
-      "Advanced cardiovascular screening for early risk detection and monitoring.",
+    price: "₹2,499",
+    desc:
+      "Advanced cardiovascular screening focused on early risk detection and monitoring.",
   },
   {
-    id: "03",
-    name: "Diabetes Care",
-    price: "₹1,499",
+    icon: FaTint,
+    title: "Diabetes",
+    package: "Diabetes Care",
     tests: "20+ Parameters",
-    description:
-      "Essential glucose and metabolic markers for proactive diabetes management.",
+    price: "₹1,499",
+    desc:
+      "Track blood sugar, metabolic health and key diabetic risk indicators.",
   },
   {
-    id: "04",
-    name: "Thyroid Profile",
-    price: "₹999",
+    icon: FaBrain,
+    title: "Thyroid",
+    package: "Thyroid Profile",
     tests: "10+ Parameters",
-    description:
-      "Accurate thyroid assessment to evaluate hormonal balance and function.",
+    price: "₹999",
+    desc:
+      "Evaluate thyroid hormone levels and maintain hormonal balance.",
   },
 ];
 
 export default function PopularPackages() {
-  return (
-    <section className="relative bg-[#050816] py-28 overflow-hidden">
-      {/* Background Glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-cyan-500/10 blur-[180px]" />
+  const [active, setActive] = useState(categories[0]);
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-10">
+  return (
+    <section className="relative py-24 bg-white overflow-hidden">
+      {/* Background Glow */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-gradient-to-r from-green-100/30 to-blue-100/30 blur-3xl" />
+
+      <div className="relative max-w-7xl mx-auto px-5">
         {/* Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="mb-20"
-        >
-          <span className="text-cyan-400 uppercase tracking-[4px] text-sm">
-            Health Packages
+        <div className="text-center max-w-3xl mx-auto">
+          <span className="inline-flex px-4 py-2 rounded-full bg-green-50 border border-green-100 text-[#78BE43] text-sm font-semibold">
+            HEALTH PACKAGES
           </span>
 
-          <h2 className="mt-4 text-5xl md:text-6xl font-black text-white leading-tight">
-            Prevent Today.
-            <br />
-            Detect Earlier.
+          <h2 className="mt-6 text-4xl md:text-6xl font-black text-slate-900">
+            What Would You Like
+            <span className="block text-[#0A4F8A]">
+              To Monitor?
+            </span>
           </h2>
 
-          <p className="mt-6 max-w-2xl text-lg text-gray-400">
-            Curated diagnostic packages designed to help you stay ahead of
-            health concerns through accurate and proactive screening.
+          <p className="mt-5 text-slate-600">
+            Select a health concern and discover the recommended diagnostic package.
           </p>
-        </motion.div>
+        </div>
 
-        {/* Cards */}
-        <div className="grid lg:grid-cols-2 gap-8">
-          {packages.map((pkg, index) => (
+        {/* Interactive Section */}
+        <div className="mt-16 grid lg:grid-cols-2 gap-10 items-center">
+          {/* Left Menu */}
+          <div className="space-y-4">
+            {categories.map((item) => {
+              const Icon = item.icon;
+
+              return (
+                <button
+                  key={item.title}
+                  onClick={() => setActive(item)}
+                  className={`w-full text-left p-5 rounded-3xl transition-all duration-300 border ${
+                    active.title === item.title
+                      ? "border-[#0A4F8A] bg-blue-50"
+                      : "border-slate-100 bg-white hover:border-slate-200"
+                  }`}
+                >
+                  <div className="flex items-center gap-4">
+                    <div
+                      className={`h-14 w-14 rounded-2xl flex items-center justify-center ${
+                        active.title === item.title
+                          ? "bg-[#0A4F8A] text-white"
+                          : "bg-slate-100 text-slate-700"
+                      }`}
+                    >
+                      <Icon />
+                    </div>
+
+                    <div>
+                      <h3 className="font-bold text-lg text-slate-900">
+                        {item.title}
+                      </h3>
+
+                      <p className="text-sm text-slate-500">
+                        Recommended Screening
+                      </p>
+                    </div>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Right Showcase */}
+          <AnimatePresence mode="wait">
             <motion.div
-              key={pkg.id}
-              initial={{ opacity: 0, y: 70 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
-              viewport={{ once: true }}
-              whileHover={{ y: -8 }}
-              className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-8"
+              key={active.title}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -30 }}
+              transition={{ duration: 0.3 }}
+              className="relative overflow-hidden rounded-[32px] bg-gradient-to-br from-[#0A4F8A] to-[#08345c] p-8 md:p-12 text-white"
             >
-              {/* Hover Glow */}
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500">
-                <div className="absolute -top-24 right-0 h-48 w-48 rounded-full bg-cyan-500/20 blur-3xl" />
+              <div className="absolute top-0 right-0 text-[180px] font-black opacity-10 leading-none">
+                01
               </div>
 
-              {/* Package Number */}
-              <div className="flex items-start justify-between">
-                <span className="text-6xl font-black text-white/10">
-                  {pkg.id}
+              <div className="relative">
+                <span className="inline-flex px-3 py-1 rounded-full bg-white/10 border border-white/10 text-sm">
+                  {active.tests}
                 </span>
 
-                <span className="text-cyan-400 text-sm uppercase tracking-[3px]">
-                  {pkg.tests}
-                </span>
-              </div>
-
-              {/* Content */}
-              <div className="relative mt-10">
-                <h3 className="text-3xl font-bold text-white">
-                  {pkg.name}
+                <h3 className="mt-6 text-4xl md:text-5xl font-black">
+                  {active.package}
                 </h3>
 
-                <div className="mt-4 text-4xl font-black text-cyan-400">
-                  {pkg.price}
+                <div className="mt-5 text-5xl font-black text-green-300">
+                  {active.price}
                 </div>
 
-                <p className="mt-5 text-gray-400 leading-relaxed">
-                  {pkg.description}
+                <p className="mt-6 text-blue-100 leading-relaxed max-w-lg">
+                  {active.desc}
                 </p>
 
-                <button className="mt-8 flex items-center gap-3 text-white font-medium group/button">
+                <button className="mt-10 inline-flex items-center gap-3 bg-white text-[#0A4F8A] px-6 py-3 rounded-xl font-semibold">
                   Explore Package
-
-                  <FaArrowRight className="transition-transform duration-300 group-hover/button:translate-x-1" />
+                  <FaArrowRight />
                 </button>
               </div>
-
-              {/* Bottom Line */}
-              <div className="absolute bottom-0 left-0 h-[2px] w-0 bg-cyan-400 group-hover:w-full transition-all duration-500" />
             </motion.div>
-          ))}
+          </AnimatePresence>
         </div>
       </div>
     </section>

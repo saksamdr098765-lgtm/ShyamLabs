@@ -2,154 +2,170 @@
 
 import { motion } from "framer-motion";
 import {
+  FaFlask,
   FaMicroscope,
-  FaRobot,
   FaShieldAlt,
   FaChartLine,
-  FaArrowRight,
+  FaCheckCircle,
 } from "react-icons/fa";
 
-const technologies = [
+const workflow = [
   {
-    title: "Automated Analysis",
+    title: "Sample Collection",
     description:
-      "Advanced analyzers process samples with exceptional speed and consistency.",
-    icon: FaRobot,
+      "Convenient in-lab or home sample collection by trained professionals.",
+    icon: FaFlask,
   },
   {
-    title: "Multi-Level Quality Control",
+    title: "Laboratory Analysis",
     description:
-      "Every test undergoes rigorous validation procedures before reporting.",
-    icon: FaShieldAlt,
-  },
-  {
-    title: "Precision Diagnostics",
-    description:
-      "High-sensitivity testing helps support early detection and monitoring.",
+      "Samples processed using modern diagnostic equipment and workflows.",
     icon: FaMicroscope,
+  },
+  {
+    title: "Quality Validation",
+    description:
+      "Every result passes through strict quality-control verification.",
+    icon: FaShieldAlt,
   },
   {
     title: "Digital Reporting",
     description:
-      "Secure online access to reports with faster turnaround times.",
+      "Secure reports delivered quickly and accessible online.",
     icon: FaChartLine,
   },
 ];
 
 export default function DiagnosticTechnology() {
   return (
-    <section className="relative bg-[#050816] py-32 overflow-hidden">
-      {/* Background Effects */}
-      <div className="absolute left-1/2 top-20 -translate-x-1/2 h-[600px] w-[600px] rounded-full bg-cyan-500/10 blur-[180px]" />
+    <section className="relative py-20 md:py-32 bg-white overflow-hidden">
+      {/* Grid */}
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage: `
+            linear-gradient(#0A4F8A 1px, transparent 1px),
+            linear-gradient(90deg, #0A4F8A 1px, transparent 1px)
+          `,
+          backgroundSize: "60px 60px",
+        }}
+      />
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-10">
+      {/* Glow */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 h-[500px] w-[500px] md:h-[700px] md:w-[700px] bg-gradient-to-r from-green-100/60 to-blue-100/60 blur-3xl" />
+
+      <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
           <motion.div
-            initial={{ opacity: 0, x: -60 }}
+            initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <span className="text-cyan-400 uppercase tracking-[4px] text-sm">
-              Diagnostic Technology
+            <span className="inline-flex px-4 py-2 rounded-full border border-green-100 bg-green-50 text-[#78BE43] text-xs sm:text-sm font-semibold">
+              LABORATORY EXCELLENCE
             </span>
 
-            <h2 className="mt-5 text-5xl md:text-6xl font-black text-white leading-tight">
-              The Science
-              <br />
-              Behind Every
-              <br />
-              Report.
+            <h2 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-black text-slate-900 leading-[1]">
+              Every Report
+              <span className="block text-[#0A4F8A]">
+                Starts With Precision.
+              </span>
             </h2>
 
-            <p className="mt-8 text-lg text-gray-400 leading-relaxed max-w-xl">
-              Every diagnostic result is powered by automated
-              laboratory systems, precision workflows, and strict
-              quality-control protocols designed to deliver
-              reliable healthcare insights.
+            <p className="mt-6 text-base md:text-lg text-slate-600 leading-relaxed max-w-xl">
+              From sample collection to final reporting, every step
+              follows a carefully monitored process designed to
+              deliver reliable, affordable, and accurate diagnostics.
             </p>
 
-            <button className="group mt-10 flex items-center gap-3 text-cyan-400 font-medium">
-              Explore Technology
+            {/* Trust Points */}
+            <div className="mt-8 space-y-4">
+              {[
+                "Automated Diagnostic Systems",
+                "Multi-Level Quality Validation",
+                "Fast Digital Reports",
+                "Home Sample Collection",
+              ].map((item) => (
+                <div
+                  key={item}
+                  className="flex items-center gap-3"
+                >
+                  <FaCheckCircle className="text-[#78BE43]" />
 
-              <FaArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
-            </button>
+                  <span className="text-slate-700 font-medium">
+                    {item}
+                  </span>
+                </div>
+              ))}
+            </div>
           </motion.div>
 
-          {/* Right Bento Layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {technologies.map((item, index) => {
-              const Icon = item.icon;
+          {/* Workflow Card */}
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+          >
+            <div className="rounded-[32px] border border-slate-100 bg-white shadow-[0_30px_80px_rgba(10,79,138,0.08)] p-5 md:p-8">
+              <div className="space-y-4">
+                {workflow.map((step, index) => {
+                  const Icon = step.icon;
 
-              return (
-                <motion.div
-                  key={item.title}
-                  initial={{ opacity: 0, y: 50 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  whileHover={{ y: -8 }}
-                  className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-8"
-                >
-                  {/* Hover Glow */}
-                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500">
-                    <div className="absolute top-0 right-0 h-32 w-32 rounded-full bg-cyan-500/20 blur-3xl" />
-                  </div>
+                  return (
+                    <div key={step.title}>
+                      <div className="flex items-start gap-4 rounded-3xl border border-slate-100 p-5 hover:border-[#0A4F8A]/20 transition-all">
+                        <div className="h-12 w-12 rounded-2xl bg-[#0A4F8A]/5 flex items-center justify-center shrink-0">
+                          <Icon className="text-[#0A4F8A]" />
+                        </div>
 
-                  <div className="relative h-14 w-14 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center">
-                    <Icon className="text-cyan-400 text-xl" />
-                  </div>
+                        <div>
+                          <h3 className="font-bold text-slate-900">
+                            {step.title}
+                          </h3>
 
-                  <h3 className="relative mt-6 text-2xl font-bold text-white">
-                    {item.title}
-                  </h3>
+                          <p className="mt-2 text-sm text-slate-600 leading-relaxed">
+                            {step.description}
+                          </p>
+                        </div>
+                      </div>
 
-                  <p className="relative mt-4 text-gray-400 leading-relaxed">
-                    {item.description}
-                  </p>
-                </motion.div>
-              );
-            })}
-          </div>
+                      {index !== workflow.length - 1 && (
+                        <div className="flex justify-center py-2">
+                          <div className="h-6 w-[2px] bg-slate-200" />
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </motion.div>
         </div>
 
-        {/* Bottom Highlight */}
+        {/* Bottom Trust Strip */}
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-24 rounded-[32px] border border-cyan-500/20 bg-gradient-to-r from-cyan-500/10 via-transparent to-cyan-500/10 backdrop-blur-xl p-10"
+          className="mt-16 md:mt-24"
         >
-          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
-            <div>
-              <span className="text-cyan-400 uppercase tracking-[4px] text-sm">
-                Laboratory Excellence
-              </span>
-
-              <h3 className="mt-4 text-3xl md:text-4xl font-black text-white">
-                Trusted Diagnostics Powered By Modern Technology
-              </h3>
-            </div>
-
-            <div className="flex gap-10">
-              <div>
-                <h4 className="text-4xl font-black text-cyan-400">
-                  99.8%
-                </h4>
-                <p className="text-gray-400 mt-2">
-                  Accuracy
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              "Certified Laboratory",
+              "Fast Reporting",
+              "Home Collection",
+              "Patient-First Care",
+            ].map((item) => (
+              <div
+                key={item}
+                className="rounded-2xl border border-slate-100 bg-white p-5 text-center shadow-sm"
+              >
+                <p className="font-semibold text-slate-700 text-sm md:text-base">
+                  {item}
                 </p>
               </div>
-
-              <div>
-                <h4 className="text-4xl font-black text-cyan-400">
-                  24H
-                </h4>
-                <p className="text-gray-400 mt-2">
-                  Reporting
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </motion.div>
       </div>

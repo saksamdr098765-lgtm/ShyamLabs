@@ -1,82 +1,131 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
-import { FaArrowRight, FaMicroscope } from "react-icons/fa";
-
-const navLinks = [
-  { name: "Services", href: "#" },
-  { name: "Packages", href: "#" },
-  { name: "Technology", href: "#" },
-  { name: "About", href: "#" },
-];
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { FaBars, FaTimes, FaPhoneAlt } from "react-icons/fa";
+import { SITE_CONFIG } from "../siteConfig";
+import { useRouter } from "next/navigation";
 
 export default function Navbar() {
+  const {name,phone}=SITE_CONFIG
+  const router=useRouter()
+  const [open, setOpen] = useState(false);
+
+ const links = [
+  {
+    name: "Home",
+    path: "/",
+  },
+  {
+    name: "Gallery",
+    path: "/gallery",
+  },
+  {
+    name: "Health Packages",
+    path: "/packages",
+  },
+  {
+    name: "About",
+    path: "/about",
+  },
+  {
+    name: "Contact",
+    path: "/contact",
+  },
+];
+
   return (
-    <motion.header
-      initial={{ opacity: 0, y: -40 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.7 }}
-      className="fixed top-6 left-0 right-0 z-50 px-4 lg:px-8"
-    >
-      <div className="max-w-7xl mx-auto">
-        <div className="relative h-16 px-6 rounded-full border border-cyan-500/20 bg-[#0B1220]/80 backdrop-blur-2xl shadow-[0_0_40px_rgba(6,182,212,0.12)] flex items-center justify-between">
-          
-          {/* Top Glow Line */}
-          <div className="absolute inset-0 rounded-full overflow-hidden pointer-events-none">
-            <div className="absolute top-0 left-0 h-px w-full bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent" />
+    <header className="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-100">
+      <nav className="max-w-7xl mx-auto px-5 lg:px-8 h-20 flex items-center justify-between">
+        
+        {/* Logo */}
+        <Link href="/" className="flex items-center gap-3">
+          <div className="relative w-12 h-12">
+            <Image
+              src="/logo.png"
+              alt="Shyam Labs"
+              fill
+              priority
+              className="object-contain"
+            />
           </div>
 
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 z-10">
-            <div className="relative h-11 w-11 rounded-xl bg-cyan-500/10 border border-cyan-400/20 flex items-center justify-center">
-              <div className="absolute inset-0 rounded-xl bg-cyan-400/10 blur-md" />
-              <FaMicroscope className="relative text-cyan-400 text-sm" />
-            </div>
-
-            <div>
-              <h2 className="font-bold text-white tracking-wide">
-                SHYAM LABS
-              </h2>
-              <p className="text-[10px] uppercase tracking-[3px] text-cyan-400/70">
-                Precision Diagnostics
-              </p>
-            </div>
-          </Link>
-
-          {/* Desktop Menu */}
-          <nav className="hidden lg:flex items-center gap-10">
-            {navLinks.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="relative text-sm text-gray-400 hover:text-white transition duration-300 group"
-              >
-                {item.name}
-
-                <span className="absolute -bottom-2 left-0 h-px w-0 bg-cyan-400 transition-all duration-300 group-hover:w-full" />
-              </Link>
-            ))}
-          </nav>
-
-          {/* CTA */}
-          <div className="hidden lg:block">
-            <button className="group relative overflow-hidden rounded-full bg-cyan-500 px-5 py-2.5 font-semibold text-black transition-all duration-300 hover:scale-105 hover:bg-cyan-400">
-              <span className="relative flex items-center gap-3">
-                Book Test
-                <FaArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
-              </span>
-            </button>
+          <div>
+            <h2 className="font-bold text-slate-900 text-lg leading-none">
+             {name}
+            </h2>
+            <p className="text-xs text-[#78BE43] font-medium">
+              YOUR HEALTH, OUR PRIORITY
+            </p>
           </div>
+        </Link>
 
-          {/* Mobile Menu Button */}
-          <button className="lg:hidden flex flex-col gap-1.5 z-10">
-            <span className="h-[2px] w-5 rounded-full bg-white" />
-            <span className="h-[2px] w-5 rounded-full bg-white" />
-            <span className="h-[2px] w-5 rounded-full bg-white" />
+        {/* Desktop Links */}
+        <div className="hidden lg:flex items-center gap-10">
+          {links.map(({name,path},index) => (
+            <Link
+              key={index}
+              href={path}
+              className="text-slate-700 font-medium hover:text-[#0A4F8A] transition"
+            >
+              {name}
+            </Link>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <div className="hidden cursor-pointer lg:flex items-center gap-4">
+          <a
+            href={`tel:${phone}`}
+            className="flex items-center gap-2 text-slate-700 font-medium"
+          >
+            <FaPhoneAlt className="text-[#78BE43]" />
+            Call Us
+          </a>
+          <button onClick={()=>{router.push('/contact')}}  className="bg-[#0A4F8A] cursor-pointer text-white px-5 py-3 rounded-xl font-semibold hover:bg-[#083c69] transition">
+            Book Test
           </button>
         </div>
-      </div>
-    </motion.header>
+
+        {/* Mobile Toggle */}
+        <button
+          onClick={() => setOpen(!open)}
+          className="lg:hidden text-slate-700 text-xl"
+        >
+          {open ? <FaTimes /> : <FaBars />}
+        </button>
+      </nav>
+
+      {/* Mobile Menu */}
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            className="lg:hidden bg-white border-t border-slate-100 overflow-hidden"
+          >
+            <div className="px-5 py-5 flex flex-col gap-5">
+              {links.map(({name,path},index) => (
+                <Link
+                  key={index}
+                  href={path}
+                  onClick={() => setOpen(false)}
+                  className="font-medium text-slate-700"
+                >
+                  {name}
+                </Link>
+              ))}
+
+              <button className="bg-[#0A4F8A] text-white py-3 rounded-xl font-semibold">
+                Book Test
+              </button>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </header>
   );
 }

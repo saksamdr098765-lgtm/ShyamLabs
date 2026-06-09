@@ -2,132 +2,202 @@
 
 import { motion } from "framer-motion";
 import {
-  FaArrowRight,
   FaTint,
   FaHeartbeat,
   FaBrain,
   FaBolt,
+  FaArrowRight,
 } from "react-icons/fa";
 
 const categories = [
   {
     title: "Blood Tests",
-    tests: "120+ Tests Available",
+    tests: "120+ Parameters",
     icon: FaTint,
-  },
-  {
-    title: "Diabetes",
-    tests: "HbA1c, Fasting, PP",
-    icon: FaBolt,
-  },
-  {
-    title: "Thyroid",
-    tests: "T3, T4, TSH Profiles",
-    icon: FaBrain,
+    color: "bg-red-50",
+    accent: "text-red-500",
+    border: "border-red-100",
   },
   {
     title: "Heart Health",
     tests: "Cardiac Risk Assessment",
     icon: FaHeartbeat,
+    color: "bg-pink-50",
+    accent: "text-pink-500",
+    border: "border-pink-100",
   },
   {
-    title: "Liver Profile",
-    tests: "Comprehensive Liver Screening",
-    icon: FaTint,
-  },
-  {
-    title: "Kidney Function",
-    tests: "Renal Health Diagnostics",
+    title: "Diabetes",
+    tests: "HbA1c • Fasting • PP",
     icon: FaBolt,
+    color: "bg-orange-50",
+    accent: "text-orange-500",
+    border: "border-orange-100",
+  },
+  {
+    title: "Thyroid",
+    tests: "T3 • T4 • TSH",
+    icon: FaBrain,
+    color: "bg-sky-50",
+    accent: "text-sky-500",
+    border: "border-sky-100",
   },
 ];
 
 export default function TestCategories() {
   return (
-    <section className="relative bg-[#050816] py-28 overflow-hidden">
-      {/* Glow */}
-      <div className="absolute left-1/2 top-0 -translate-x-1/2 h-[600px] w-[600px] bg-cyan-500/10 blur-[180px]" />
+    <section className="relative py-20 md:py-32 bg-white overflow-hidden">
+      {/* Grid */}
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage: `
+            linear-gradient(#0A4F8A 1px, transparent 1px),
+            linear-gradient(90deg, #0A4F8A 1px, transparent 1px)
+          `,
+          backgroundSize: "60px 60px",
+        }}
+      />
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-10">
+      {/* Glow */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 h-[500px] w-[500px] bg-gradient-to-r from-green-100/40 to-blue-100/40 blur-3xl" />
+
+      <div className="relative max-w-7xl mx-auto px-5">
         {/* Header */}
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="mb-20"
+          className="text-center max-w-3xl mx-auto"
         >
-          <span className="text-cyan-400 uppercase tracking-[4px] text-sm">
-            Diagnostic Categories
+          <span className="inline-flex px-4 py-2 rounded-full border border-green-100 bg-green-50 text-[#78BE43] text-sm font-semibold">
+            POPULAR DIAGNOSTICS
           </span>
 
-          <h2 className="mt-4 text-5xl md:text-6xl font-black text-white">
-            Explore
-            <br />
-            Health Insights.
+          <h2 className="mt-6 text-4xl md:text-6xl font-black text-slate-900 leading-tight">
+            Choose The Right
+            <span className="block text-[#0A4F8A]">
+              Health Screening
+            </span>
           </h2>
 
-          <p className="mt-6 max-w-2xl text-lg text-gray-400">
-            Comprehensive testing solutions designed to help
-            detect, monitor, and prevent health concerns with
-            precision diagnostics.
+          <p className="mt-6 text-slate-600 text-lg">
+            Preventive screening packages designed to detect
+            health concerns early and help you stay ahead.
           </p>
         </motion.div>
 
-        {/* Categories */}
-        <div className="space-y-4">
-          {categories.map((category, index) => {
-            const Icon = category.icon;
+        {/* Main Layout */}
+        <div className="mt-16 grid lg:grid-cols-12 gap-6">
+          {/* Featured Card */}
+          <motion.div
+            whileHover={{ y: -6 }}
+            className="
+              lg:col-span-6
+              rounded-[36px]
+              bg-gradient-to-br
+              from-[#0A4F8A]
+              to-[#08345c]
+              overflow-hidden
+              p-8
+              md:p-10
+              relative
+              text-white
+            "
+          >
+            <div className="absolute right-0 top-0 text-[250px] opacity-10">
+              🩸
+            </div>
 
-            return (
-              <motion.div
-                key={category.title}
-                initial={{ opacity: 0, x: -60 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ delay: index * 0.08 }}
-                viewport={{ once: true }}
-                whileHover={{ x: 10 }}
-                className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl"
-              >
-                {/* Hover Glow */}
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500">
-                  <div className="absolute right-0 top-0 h-40 w-40 bg-cyan-500/20 blur-3xl rounded-full" />
-                </div>
+            <span className="text-green-300 text-sm font-semibold tracking-wider">
+              MOST BOOKED TEST
+            </span>
 
-                <div className="relative flex items-center justify-between px-8 py-8">
-                  {/* Left */}
-                  <div className="flex items-center gap-6">
-                    <div className="h-14 w-14 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center">
-                      <Icon className="text-cyan-400 text-xl" />
-                    </div>
+            <h3 className="mt-4 text-4xl md:text-6xl font-black">
+              Blood
+              <br />
+              Testing
+            </h3>
 
-                    <div>
-                      <h3 className="text-2xl md:text-3xl font-bold text-white">
-                        {category.title}
-                      </h3>
+            <p className="mt-6 text-white/70 max-w-md">
+              Comprehensive blood analysis for cholesterol,
+              diabetes, thyroid, vitamin deficiency and
+              preventive screening.
+            </p>
 
-                      <p className="mt-1 text-gray-400">
-                        {category.tests}
-                      </p>
-                    </div>
+            <div className="mt-10 flex items-center gap-8">
+              <div>
+                <h4 className="text-5xl font-black">120+</h4>
+                <p className="text-white/60">
+                  Parameters
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-5xl font-black">24H</h4>
+                <p className="text-white/60">
+                  Reporting
+                </p>
+              </div>
+            </div>
+
+            <button className="mt-10 bg-white text-[#0A4F8A] px-6 py-4 rounded-2xl font-semibold flex items-center gap-3">
+              Explore Tests
+              <FaArrowRight />
+            </button>
+          </motion.div>
+
+          {/* Side Cards */}
+          <div className="lg:col-span-6 grid sm:grid-cols-2 gap-6">
+            {categories.slice(1).map((item) => {
+              const Icon = item.icon;
+
+              return (
+                <motion.div
+                  key={item.title}
+                  whileHover={{ y: -6 }}
+                  className={`
+                    rounded-[30px]
+                    ${item.color}
+                    border
+                    ${item.border}
+                    p-6
+                    relative
+                    overflow-hidden
+                  `}
+                >
+                  <div className="absolute right-3 top-3 opacity-10">
+                    <Icon size={120} />
                   </div>
 
-                  {/* Right */}
-                  <div className="flex items-center gap-4">
-                    <span className="hidden md:block text-gray-500 uppercase tracking-[3px] text-sm">
-                      Explore
-                    </span>
-
-                    <div className="h-12 w-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-cyan-400 transition">
-                      <FaArrowRight className="text-white group-hover:text-cyan-400 transition group-hover:translate-x-1" />
-                    </div>
+                  <div
+                    className={`
+                      h-14 w-14 rounded-2xl bg-white
+                      flex items-center justify-center
+                      shadow-sm
+                    `}
+                  >
+                    <Icon
+                      className={`${item.accent} text-xl`}
+                    />
                   </div>
-                </div>
 
-                {/* Bottom Border Animation */}
-                <div className="absolute bottom-0 left-0 h-[2px] w-0 bg-cyan-400 group-hover:w-full transition-all duration-500" />
-              </motion.div>
-            );
-          })}
+                  <h3 className="mt-6 text-2xl font-black text-slate-900">
+                    {item.title}
+                  </h3>
+
+                  <p className="mt-2 text-slate-600">
+                    {item.tests}
+                  </p>
+
+                  <button className="mt-8 flex items-center gap-2 font-semibold text-[#0A4F8A]">
+                    View Details
+                    <FaArrowRight size={12} />
+                  </button>
+                </motion.div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>

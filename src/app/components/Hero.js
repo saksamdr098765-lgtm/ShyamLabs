@@ -1,206 +1,198 @@
 "use client";
+
+import Image from "next/image";
 import { motion } from "framer-motion";
 import {
-FaArrowRight,
-FaFlask,
-FaHeartbeat,
-FaMicroscope,
-FaDna,
-FaShieldAlt,
+  FaArrowRight,
+  FaFlask,
+  FaMicroscope,
+  FaDna,
 } from "react-icons/fa";
-
-const tests = [
-"CBC",
-"THYROID",
-"HBA1C",
-"LIVER",
-"KIDNEY",
-"VITAMIN D",
-"LIPID PROFILE",
-"HEART HEALTH",
-];
+import { useRouter } from "next/navigation";
 
 export default function Hero() {
-return ( <section className="relative min-h-[100svh] bg-[#050816] text-white overflow-hidden">
-{/* Grid */}
-<div
-className="absolute inset-0 opacity-[0.05]"
-style={{
-backgroundImage: `             linear-gradient(to right, white 1px, transparent 1px),
-            linear-gradient(to bottom, white 1px, transparent 1px)
-          `,
-backgroundSize: "80px 80px",
-}}
-/>
-
-
-  {/* Glow */}
-  <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-cyan-500/15 blur-[180px] rounded-full" />
-
-  <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 pt-28 md:pt-36 pb-16">
-    <div className="grid lg:grid-cols-[1.2fr_0.8fr] gap-12 items-center">
-      {/* LEFT */}
-      <div>
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md"
-        >
-          <FaMicroscope className="text-cyan-400" />
-          <span className="text-xs sm:text-sm tracking-wide text-gray-300">
-            SHYAM LABS • ADVANCED PATHOLOGY
-          </span>
-        </motion.div>
-
-        <motion.h1
-          initial={{ opacity: 0, y: 60 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="
-            mt-8
-            text-5xl
-            sm:text-6xl
-            md:text-7xl
-            lg:text-[95px]
-            font-black
-            leading-[0.95]
-            tracking-tight
-          "
-        >
-          Health Data
-          <br />
-          <span className="text-cyan-400">
-            Before Symptoms.
-          </span>
-        </motion.h1>
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3 }}
-          className="
-            max-w-xl
-            mt-6
-            text-base
-            sm:text-lg
-            text-gray-400
-            leading-relaxed
-          "
-        >
-          Modern diagnostics designed for faster decisions,
-          early detection, and complete peace of mind.
-          Precision testing powered by advanced pathology
-          technology.
-        </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-          className="flex flex-col sm:flex-row gap-4 mt-8"
-        >
-          <button className="w-full sm:w-auto group px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-black rounded-full font-semibold flex items-center justify-center gap-3 transition-all">
-            Book a Test
-            <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
-          </button>
-
-          <button className="w-full sm:w-auto px-8 py-4 border border-white/10 hover:border-cyan-400 rounded-full font-medium transition">
-            Explore Packages
-          </button>
-        </motion.div>
-
-        {/* Stats */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10 max-w-3xl">
-          {[
-            ["25K+", "Tests Completed"],
-            ["99.8%", "Accuracy Rate"],
-            ["24H", "Report Delivery"],
-          ].map(([value, label]) => (
-            <div
-              key={label}
-              className="rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-xl p-5"
-            >
-              <h3 className="text-3xl sm:text-4xl font-bold text-cyan-400">
-                {value}
-              </h3>
-              <p className="text-gray-400 mt-2 text-sm">
-                {label}
-              </p>
-            </div>
-          ))}
-        </div>
+  const router=useRouter()
+  return (
+    <section className="relative min-h-screen overflow-x-hidden bg-white">
+      {/* Background */}
+      <div className="absolute inset-0">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 h-[500px] md:h-[700px] w-[500px] md:w-[700px] rounded-full bg-gradient-to-r from-green-100/50 to-blue-100/50 blur-3xl" />
       </div>
 
-      {/* RIGHT */}
-      <motion.div
-        initial={{ opacity: 0, x: 60 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ delay: 0.3 }}
-        className="relative"
-      >
-        <div className="rounded-[32px] border border-white/10 bg-white/[0.03] backdrop-blur-xl p-6 md:p-8">
-          <div className="flex items-center justify-between mb-8">
-            <h3 className="font-bold text-xl">
-              Diagnostic Overview
-            </h3>
+      {/* Scientific Grid */}
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage: `
+            linear-gradient(#0A4F8A 1px, transparent 1px),
+            linear-gradient(90deg, #0A4F8A 1px, transparent 1px)
+          `,
+          backgroundSize: "60px 60px",
+        }}
+      />
 
-            <div className="h-12 w-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center">
-              <FaMicroscope className="text-cyan-400" />
-            </div>
+      <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+        <div className="min-h-screen flex flex-col items-center justify-center text-center py-24">
+          {/* Badge */}
+          <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mb-8"
+          >
+            <span className="px-4 py-2 rounded-full border border-green-200 bg-green-50 text-green-700 text-xs sm:text-sm font-semibold tracking-wide">
+              TRUSTED DIAGNOSTIC LABORATORY
+            </span>
+          </motion.div>
+
+          {/* Scientific Visual */}
+          <div className="relative h-[280px] sm:h-[340px] md:h-[450px] w-full flex items-center justify-center">
+            {/* Orbit Rings */}
+            <motion.div
+              animate={{ rotate: 360 }}
+              transition={{
+                duration: 50,
+                repeat: Infinity,
+                ease: "linear",
+              }}
+              className="absolute w-[220px] h-[220px] sm:w-[300px] sm:h-[300px] md:w-[420px] md:h-[420px] rounded-full border border-blue-100"
+            />
+
+            <motion.div
+              animate={{ rotate: -360 }}
+              transition={{
+                duration: 70,
+                repeat: Infinity,
+                ease: "linear",
+              }}
+              className="absolute w-[280px] h-[280px] sm:w-[380px] sm:h-[380px] md:w-[520px] md:h-[520px] rounded-full border border-green-100"
+            />
+
+            {/* Blood Tests */}
+            <motion.div
+              animate={{ y: [0, -8, 0] }}
+              transition={{ duration: 4, repeat: Infinity }}
+              className="absolute left-0 sm:left-8 md:left-16 top-1/2 -translate-y-1/2"
+            >
+              <div className="bg-white border border-slate-100 shadow-lg rounded-xl px-3 py-2 md:px-5 md:py-4">
+                <div className="flex items-center gap-2">
+                  <FaFlask className="text-[#0A4F8A]" />
+                  <span className="text-xs md:text-sm font-medium">
+                    Blood Tests
+                  </span>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Pathology */}
+            <motion.div
+              animate={{ y: [0, -10, 0] }}
+              transition={{ duration: 5, repeat: Infinity }}
+              className="absolute right-0 sm:right-8 md:right-16 top-12"
+            >
+              <div className="bg-white border border-slate-100 shadow-lg rounded-xl px-3 py-2 md:px-5 md:py-4">
+                <div className="flex items-center gap-2">
+                  <FaMicroscope className="text-[#0A4F8A]" />
+                  <span className="text-xs md:text-sm font-medium">
+                    Pathology
+                  </span>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Screening */}
+            <motion.div
+              animate={{ y: [0, -12, 0] }}
+              transition={{ duration: 6, repeat: Infinity }}
+              className="absolute bottom-0"
+            >
+              <div className="bg-white border border-slate-100 shadow-lg rounded-xl px-3 py-2 md:px-5 md:py-4">
+                <div className="flex items-center gap-2">
+                  <FaDna className="text-[#0A4F8A]" />
+                  <span className="text-xs md:text-sm font-medium">
+                    Screening
+                  </span>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Center Logo */}
+            <motion.div
+              animate={{ y: [0, -12, 0] }}
+              transition={{
+                duration: 6,
+                repeat: Infinity,
+              }}
+              className="relative"
+            >
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-green-400/20 to-blue-400/20 blur-3xl scale-125" />
+
+             <div className="relative h-[180px] w-[180px] sm:h-[240px] sm:w-[240px] md:h-[320px] md:w-[320px]">
+  <Image
+    src="/logo.png"
+    alt="Shyam Budget Friendly Labs"
+    fill
+    priority
+    className="object-contain"
+  />
+</div>
+            </motion.div>
+
+            {/* DNA Icon */}
+            <motion.div
+              animate={{
+                y: [0, -15, 0],
+              }}
+              transition={{
+                duration: 8,
+                repeat: Infinity,
+              }}
+              className="absolute right-10 top-0 opacity-10 hidden lg:block"
+            >
+              <FaDna size={140} className="text-[#0A4F8A]" />
+            </motion.div>
           </div>
 
-          <div className="space-y-4">
-            <div className="rounded-2xl bg-cyan-500/10 border border-cyan-500/20 p-5">
-              <div className="flex items-center gap-3">
-                <FaHeartbeat className="text-red-400" />
-                <span>Heart Health Screening</span>
-              </div>
-            </div>
+          {/* Heading */}
+          <motion.h1
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            className="max-w-5xl text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-[1.05] text-slate-900"
+          >
+            Science Backed Testing.
+            <span className="block text-[#0A4F8A]">
+              Results You Can Trust.
+            </span>
+          </motion.h1>
 
-            <div className="rounded-2xl bg-white/[0.03] border border-white/10 p-5">
-              <div className="flex items-center gap-3">
-                <FaDna className="text-cyan-400" />
-                <span>Genetic Diagnostics</span>
-              </div>
-            </div>
+          {/* Description */}
+          <p className="mt-6 md:mt-8 max-w-2xl text-base md:text-lg text-slate-600 leading-relaxed">
+            Affordable pathology testing, preventive health screening,
+            and reliable diagnostics designed to make quality healthcare
+            accessible for every family.
+          </p>
 
-            <div className="rounded-2xl bg-white/[0.03] border border-white/10 p-5">
-              <div className="flex items-center gap-3">
-                <FaFlask className="text-green-400" />
-                <span>Advanced Blood Analysis</span>
-              </div>
-            </div>
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-10 w-full sm:w-auto">
+            <button onClick={()=>{router.push('/contact')}} className="bg-[#0A4F8A] cursor-pointer text-white px-8 py-4 rounded-xl font-semibold flex items-center justify-center gap-3 hover:scale-105 transition">
+              Book A Test
+              <FaArrowRight />
+            </button>
 
-            <div className="rounded-2xl bg-white/[0.03] border border-white/10 p-5">
-              <div className="flex items-center gap-3">
-                <FaShieldAlt className="text-cyan-400" />
-                <span>99.8% Diagnostic Accuracy</span>
-              </div>
-            </div>
+            <button onClick={()=>{router.push('/packages')}}  className="border cursor-pointer border-slate-200 px-8 py-4 rounded-xl font-semibold hover:border-[#78BE43] transition">
+              View Packages
+            </button>
+          </div>
+
+          {/* Trust Strip */}
+          <div className="mt-12 grid grid-cols-2 md:flex md:flex-wrap justify-center gap-4 md:gap-8 text-sm font-medium text-slate-600">
+            <span>✓ Blood Testing</span>
+            <span>✓ Thyroid Profile</span>
+            <span>✓ Diabetes Screening</span>
+            <span>✓ Home Collection</span>
+            <span>✓ Digital Reports</span>
           </div>
         </div>
-      </motion.div>
-    </div>
-
-    {/* Marquee */}
-    <div className="mt-14 border-t border-white/10 pt-6 overflow-hidden">
-      <motion.div
-        animate={{ x: ["0%", "-50%"] }}
-        transition={{
-          repeat: Infinity,
-          duration: 20,
-          ease: "linear",
-        }}
-        className="flex gap-12 sm:gap-20 whitespace-nowrap text-gray-400 text-sm sm:text-lg font-medium"
-      >
-        {[...tests, ...tests].map((item, index) => (
-          <span key={index}>{item}</span>
-        ))}
-      </motion.div>
-    </div>
-  </div>
-</section>
-
-
-);
+      </div>
+    </section>
+  );
 }

@@ -1,168 +1,206 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import {
-  FaMicroscope,
   FaPhoneAlt,
   FaEnvelope,
   FaMapMarkerAlt,
   FaArrowUp,
+  FaCheckCircle,
 } from "react-icons/fa";
-
+import { useRouter } from "next/navigation";
+import { SITE_CONFIG } from "../siteConfig";
+ const links = [
+  {
+    name: "Home",
+    path: "/",
+  },
+  {
+    name: "Gallery",
+    path: "/gallery",
+  },
+  {
+    name: "Health Packages",
+    path: "/packages",
+  },
+  {
+    name: "About",
+    path: "/about",
+  },
+  {
+    name: "Contact",
+    path: "/contact",
+  },
+];
 export default function Footer() {
+  const router=useRouter()
+  const {phone,address,email,map,fullName}=SITE_CONFIG
   return (
-    <footer className="relative bg-[#050816] overflow-hidden border-t border-white/10">
+    <footer className="relative bg-white overflow-hidden border-t border-slate-100">
+      {/* Background Grid */}
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage: `
+            linear-gradient(#0A4F8A 1px, transparent 1px),
+            linear-gradient(90deg, #0A4F8A 1px, transparent 1px)
+          `,
+          backgroundSize: "60px 60px",
+        }}
+      />
+
       {/* Glow */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 h-[400px] w-[400px] rounded-full bg-cyan-500/10 blur-[160px]" />
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 h-[500px] w-[500px] bg-gradient-to-r from-green-100/50 to-blue-100/50 blur-3xl" />
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-10 pt-24 pb-10">
-        {/* Top Section */}
-        <div className="grid lg:grid-cols-2 gap-16 pb-16 border-b border-white/10">
-          {/* Brand */}
-          <div>
-            <div className="flex items-center gap-4">
-              <div className="h-14 w-14 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center">
-                <FaMicroscope className="text-cyan-400 text-xl" />
+      <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-10">
+        {/* Main Footer */}
+        <div className="py-16 md:py-24">
+          <div className="grid gap-14 lg:grid-cols-[1.2fr_1fr]">
+            {/* Left */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+            >
+              {/* Logo */}
+              <div className="flex items-center gap-4">
+                <div className="h-16 w-16 rounded-full overflow-hidden border border-slate-200 bg-white shadow-sm">
+                  <Image
+                    src="/logo.png"
+                    alt="Shyam Labs"
+                    width={64}
+                    height={64}
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+
+                <div>
+                  <h2 className="text-2xl font-black text-slate-900">
+                   {fullName}
+                  </h2>
+
+                  <p className="text-[#0A4F8A] font-medium text-sm">
+                    Budget Friendly Diagnostic Centre
+                  </p>
+                </div>
               </div>
 
-              <div>
-                <h2 className="text-2xl font-black text-white">
-                  SHYAM LABS
-                </h2>
+              {/* Description */}
+              <p className="mt-8 max-w-xl text-slate-600 leading-relaxed">
+                Delivering accurate pathology testing, preventive
+                health screening, and reliable diagnostics with a
+                commitment to affordability, trust, and patient care.
+              </p>
 
-                <p className="text-cyan-400 text-sm tracking-[3px] uppercase">
-                  Precision Diagnostics
-                </p>
+              {/* Trust Points */}
+              <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:gap-6">
+                <div className="flex items-center gap-2 text-sm font-medium text-slate-700">
+                  <FaCheckCircle className="text-[#78BE43]" />
+                  Certified Laboratory
+                </div>
+
+                <div className="flex items-center gap-2 text-sm font-medium text-slate-700">
+                  <FaCheckCircle className="text-[#78BE43]" />
+                  Home Collection
+                </div>
+
+                <div className="flex items-center gap-2 text-sm font-medium text-slate-700">
+                  <FaCheckCircle className="text-[#78BE43]" />
+                  Fast Reports
+                </div>
               </div>
-            </div>
+            </motion.div>
 
-            <p className="mt-8 max-w-lg text-gray-400 leading-relaxed">
-              Delivering accurate diagnostic insights through
-              advanced laboratory technology, trusted expertise,
-              and a commitment to better healthcare outcomes.
-            </p>
-
-            <div className="flex gap-10 mt-10">
+            {/* Right */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
+              {/* Navigation */}
               <div>
-                <h3 className="text-4xl font-black text-cyan-400">
-                  25K+
+                <h3 className="font-bold text-slate-900 mb-5">
+                  Navigation
                 </h3>
-                <p className="text-gray-500 text-sm">
-                  Tests Processed
-                </p>
+
+                <div className="space-y-3">
+                  {links.map(({name,path},index) => (
+                    <Link
+                      key={index}
+                      href={path}
+                      className="block text-slate-600 hover:text-[#0A4F8A] transition"
+                    >
+                      {name}
+                    </Link>
+                  ))}
+                </div>
               </div>
 
+              {/* Services */}
               <div>
-                <h3 className="text-4xl font-black text-cyan-400">
-                  99.8%
+                <h3 className="font-bold text-slate-900 mb-5">
+                  Services
                 </h3>
-                <p className="text-gray-500 text-sm">
-                  Accuracy Rate
-                </p>
+
+                <div className="space-y-3">
+                  {[
+                    "Blood Tests",
+                    "Diabetes",
+                    "Thyroid",
+                    "Heart Health",
+                    "Full Body Checkup",
+                  ].map((item) => (
+                    <Link
+                      key={item}
+                      href="#"
+                      className="block text-slate-600 hover:text-[#0A4F8A] transition"
+                    >
+                      {item}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
+              {/* Contact */}
+              <div>
+                <h3 className="font-bold text-slate-900 mb-5">
+                  Contact
+                </h3>
+
+                <div className="space-y-5">
+                  <div className="flex items-start gap-3">
+                    <FaPhoneAlt className="text-[#0A4F8A] mt-1" />
+                    <span className="text-slate-600">
+                      {phone}
+                    </span>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <FaEnvelope className="text-[#0A4F8A] mt-1 shrink-0" />
+                    <span className="text-slate-600">
+                     {email}
+                    </span>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <FaMapMarkerAlt className="text-[#0A4F8A] mt-1 shrink-0" />
+                    <span className="text-slate-600">
+                      {address}
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
-          {/* Links */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-10">
-            {/* Quick Links */}
-            <div>
-              <h3 className="text-white font-semibold mb-5">
-                Navigation
-              </h3>
-
-              <div className="space-y-3">
-                {[
-                  "Home",
-                  "Packages",
-                  "Tests",
-                  "Technology",
-                  "Contact",
-                ].map((item) => (
-                  <Link
-                    key={item}
-                    href="#"
-                    className="block text-gray-400 hover:text-cyan-400 transition"
-                  >
-                    {item}
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Services */}
-            <div>
-              <h3 className="text-white font-semibold mb-5">
-                Services
-              </h3>
-
-              <div className="space-y-3">
-                {[
-                  "Blood Tests",
-                  "Diabetes",
-                  "Thyroid",
-                  "Heart Health",
-                  "Home Collection",
-                ].map((item) => (
-                  <Link
-                    key={item}
-                    href="#"
-                    className="block text-gray-400 hover:text-cyan-400 transition"
-                  >
-                    {item}
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Contact */}
-            <div>
-              <h3 className="text-white font-semibold mb-5">
-                Contact
-              </h3>
-
-              <div className="space-y-5">
-                <div className="flex items-start gap-3">
-                  <FaPhoneAlt className="text-cyan-400 mt-1" />
-                  <span className="text-gray-400">
-                    +91 XXXXX XXXXX
-                  </span>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <FaEnvelope className="text-cyan-400 mt-1" />
-                  <span className="text-gray-400">
-                    info@shyamlabs.com
-                  </span>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <FaMapMarkerAlt className="text-cyan-400 mt-1" />
-                  <span className="text-gray-400">
-                    Your City, India
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Large Brand Text */}
-        <div className="relative py-14">
-          <h1 className="text-center text-[60px] md:text-[140px] lg:text-[180px] font-black leading-none text-white/[0.03] select-none">
-            SHYAM LABS
-          </h1>
         </div>
 
         {/* Bottom */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6 border-t border-white/10 pt-8">
-          <p className="text-gray-500 text-sm">
+        <div className="border-t border-slate-200 py-6 flex flex-col md:flex-row items-center justify-between gap-5">
+          <p className="text-sm text-slate-500 text-center md:text-left">
             © {new Date().getFullYear()} Shyam Labs. All rights reserved.
           </p>
 
           <div className="flex items-center gap-4">
-            <p className="text-gray-500 text-sm">
-              Designed for modern healthcare.
+            <p className="hidden sm:block text-sm text-slate-500">
+              Trusted Diagnostics For Every Family
             </p>
 
             <button
@@ -172,13 +210,64 @@ export default function Footer() {
                   behavior: "smooth",
                 })
               }
-              className="h-10 w-10 rounded-full border border-white/10 hover:border-cyan-400 flex items-center justify-center text-white transition"
+              className="
+                h-11
+                w-11
+                rounded-full
+                bg-[#0A4F8A]
+                text-white
+                flex
+                items-center
+                justify-center
+                hover:scale-110
+                transition
+              "
             >
               <FaArrowUp />
             </button>
           </div>
         </div>
+        {/* Location Section */}
+<div className="border-t border-slate-200 py-10">
+  <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-6">
+    <div>
+      <span className="text-sm font-semibold tracking-wider text-[#78BE43] uppercase">
+        Visit Our Laboratory
+      </span>
+
+      <h3 className="mt-2 text-2xl md:text-3xl font-black text-slate-900">
+        {fullName}
+      </h3>
+
+      <p className="mt-2 text-slate-600">
+        {address}
+      </p>
+    </div>
+
+    <a
+      href={map}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-[#0A4F8A] text-white font-medium hover:scale-105 transition"
+    >
+      Get Directions
+    </a>
+  </div>
+
+  <div className="overflow-hidden rounded-[32px] border border-slate-200 shadow-lg">
+    <iframe
+      src={map}
+      width="100%"
+      height="350"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    />
+  </div>
+</div>
       </div>
+      
     </footer>
   );
 }

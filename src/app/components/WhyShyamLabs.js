@@ -2,158 +2,209 @@
 
 import { motion } from "framer-motion";
 import {
-  FaMicroscope,
+  FaShieldAlt,
   FaHome,
   FaClock,
-  FaShieldAlt,
+  FaMicroscope,
   FaFlask,
 } from "react-icons/fa";
 
-const cards = [
-  {
-    title: "99.8% Diagnostic Accuracy",
-    description:
-      "Every sample is processed through rigorous quality-control protocols.",
-    icon: FaShieldAlt,
-    size: "large",
-  },
-  {
-    title: "Home Sample Collection",
-    description:
-      "Certified professionals collect samples safely at your doorstep.",
-    icon: FaHome,
-  },
-  {
-    title: "Fast Digital Reports",
-    description:
-      "Access reports securely online with rapid turnaround times.",
-    icon: FaClock,
-  },
-  {
-    title: "Advanced Laboratory Systems",
-    description:
-      "Modern analyzers and automated workflows reduce human error.",
-    icon: FaMicroscope,
-  },
-  {
-    title: "25000+ Tests Processed",
-    description:
-      "Trusted by thousands of patients and healthcare professionals.",
-    icon: FaFlask,
-  },
-];
-
 export default function WhyShyamLabs() {
-  return (
-    <section className="relative bg-[#050816] py-20 md:py-28 overflow-hidden">
-      {/* Glow */}
-      <div className="absolute top-0 right-0 w-[400px] md:w-[500px] h-[400px] md:h-[500px] bg-cyan-500/10 blur-[180px]" />
+  const nodes = [
+    {
+      icon: FaHome,
+      title: "Home Collection",
+      position:
+        "top-0 left-1/2 -translate-x-1/2",
+    },
+    {
+      icon: FaClock,
+      title: "24H Reports",
+      position:
+        "top-1/2 right-0 -translate-y-1/2",
+    },
+    {
+      icon: FaMicroscope,
+      title: "Modern Lab",
+      position:
+        "bottom-0 left-1/2 -translate-x-1/2",
+    },
+    {
+      icon: FaFlask,
+      title: "25K+ Tests",
+      position:
+        "top-1/2 left-0 -translate-y-1/2",
+    },
+  ];
 
-      <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-10">
+  return (
+    <section className="relative py-24 lg:py-32 bg-white overflow-hidden">
+      {/* Grid */}
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage: `
+            linear-gradient(#0A4F8A 1px, transparent 1px),
+            linear-gradient(90deg, #0A4F8A 1px, transparent 1px)
+          `,
+          backgroundSize: "60px 60px",
+        }}
+      />
+
+      {/* Glow */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-gradient-to-r from-green-100/40 to-blue-100/40 blur-3xl" />
+
+      <div className="relative max-w-7xl mx-auto px-5">
         {/* Header */}
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="max-w-3xl mb-12 md:mb-16"
+          className="max-w-3xl mx-auto text-center"
         >
-          <span className="text-cyan-400 uppercase tracking-[3px] md:tracking-[4px] text-xs md:text-sm">
-            Why Choose Us
+          <span className="inline-flex px-4 py-2 rounded-full bg-green-50 border border-green-100 text-[#78BE43] text-sm font-semibold">
+            WHY SHYAM LABS
           </span>
 
-          <h2 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-black text-white leading-[1]">
-            Precision.
-            <br />
-            Trust.
-            <br />
-            Confidence.
+          <h2 className="mt-6 text-4xl md:text-6xl font-black text-slate-900 leading-tight">
+            Built On
+            <span className="block text-[#0A4F8A]">
+              Accuracy & Trust
+            </span>
           </h2>
 
-          <p className="mt-5 md:mt-6 text-base md:text-lg text-gray-400 leading-relaxed">
-            At Shyam Labs, diagnostics isn't just about reports.
-            It's about providing the confidence to make informed
-            health decisions.
+          <p className="mt-6 text-lg text-slate-600">
+            Every diagnostic report is supported by
+            advanced laboratory systems, quality
+            assurance protocols, and patient-first care.
           </p>
         </motion.div>
 
-        {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
-          {cards.map((card, index) => {
-            const Icon = card.icon;
+        {/* Desktop Network */}
+        <div className="hidden lg:flex mt-24 justify-center">
+          <div className="relative w-[700px] h-[700px]">
+            {/* Connection Lines */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="w-[420px] h-[420px] rounded-full border border-blue-100" />
+            </div>
 
-            return (
-              <motion.div
-                key={card.title}
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.08 }}
-                viewport={{ once: true }}
-                whileHover={{
-                  y: -6,
-                }}
-                className={`
-                  group
-                  relative
-                  overflow-hidden
-                  rounded-3xl
-                  border
-                  border-white/10
-                  bg-white/[0.03]
-                  backdrop-blur-xl
-                  p-6 md:p-8
-                  min-h-[250px]
-                  md:min-h-[280px]
+            {/* Center */}
+            <motion.div
+              animate={{
+                y: [0, -8, 0],
+              }}
+              transition={{
+                duration: 5,
+                repeat: Infinity,
+              }}
+              className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+            >
+              <div className="w-[280px] h-[280px] rounded-full bg-gradient-to-br from-[#0A4F8A] to-[#08345c] text-white flex flex-col items-center justify-center shadow-2xl">
+                <FaShieldAlt size={42} />
 
-                  ${
-                    card.size === "large"
-                      ? "lg:col-span-2 lg:row-span-2 lg:min-h-[580px]"
-                      : ""
-                  }
-                `}
-              >
-                {/* Hover Glow */}
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500">
-                  <div className="absolute -right-10 -top-10 w-40 h-40 rounded-full bg-cyan-500/20 blur-3xl" />
+                <div className="mt-4 text-6xl font-black">
+                  99.8%
                 </div>
 
-                {/* Icon */}
-                <div className="relative h-12 w-12 md:h-14 md:w-14 rounded-2xl border border-cyan-500/20 bg-cyan-500/10 flex items-center justify-center">
-                  <Icon className="text-cyan-400 text-lg md:text-xl" />
-                </div>
+                <p className="mt-2 text-center text-blue-100 text-sm">
+                  Diagnostic Accuracy
+                </p>
+              </div>
+            </motion.div>
 
-                {/* Content */}
-                <div className="relative mt-6 md:mt-8">
-                  <h3 className="text-xl md:text-2xl font-bold text-white leading-tight">
-                    {card.title}
+            {/* Floating Nodes */}
+            {nodes.map((node, index) => {
+              const Icon = node.icon;
+
+              return (
+                <motion.div
+                  key={node.title}
+                  animate={{
+                    y: [0, -10, 0],
+                  }}
+                  transition={{
+                    duration: 4 + index,
+                    repeat: Infinity,
+                  }}
+                  className={`absolute ${node.position}`}
+                >
+                  <div className="bg-white border border-slate-100 shadow-xl rounded-3xl p-6 w-[180px] text-center">
+                    <div className="w-14 h-14 mx-auto rounded-2xl bg-blue-50 flex items-center justify-center">
+                      <Icon className="text-[#0A4F8A] text-xl" />
+                    </div>
+
+                    <h3 className="mt-4 font-bold text-slate-900">
+                      {node.title}
+                    </h3>
+                  </div>
+                </motion.div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Mobile Layout */}
+        <div className="lg:hidden mt-16">
+          {/* Accuracy Card */}
+          <div className="rounded-[32px] bg-gradient-to-br from-[#0A4F8A] to-[#08345c] text-white p-10 text-center shadow-xl">
+            <FaShieldAlt
+              size={36}
+              className="mx-auto"
+            />
+
+            <h3 className="mt-5 text-5xl font-black">
+              99.8%
+            </h3>
+
+            <p className="mt-2 text-blue-100">
+              Diagnostic Accuracy
+            </p>
+          </div>
+
+          {/* Features */}
+          <div className="grid grid-cols-2 gap-4 mt-6">
+            {nodes.map((node) => {
+              const Icon = node.icon;
+
+              return (
+                <div
+                  key={node.title}
+                  className="bg-white border border-slate-100 rounded-3xl p-5 text-center shadow-sm"
+                >
+                  <div className="w-12 h-12 mx-auto rounded-xl bg-blue-50 flex items-center justify-center">
+                    <Icon className="text-[#0A4F8A]" />
+                  </div>
+
+                  <h3 className="mt-4 font-semibold text-slate-900">
+                    {node.title}
                   </h3>
-
-                  <p className="mt-3 md:mt-4 text-sm md:text-base text-gray-400 leading-relaxed">
-                    {card.description}
-                  </p>
                 </div>
+              );
+            })}
+          </div>
+        </div>
 
-                {/* Large Card */}
-                {card.size === "large" && (
-                  <>
-                    <div className="mt-8 md:mt-12">
-                      <div className="text-5xl sm:text-6xl md:text-7xl font-black text-cyan-400">
-                        99.8%
-                      </div>
+        {/* Bottom Stats */}
+        <div className="mt-20 grid grid-cols-2 lg:grid-cols-4 gap-5">
+          {[
+            ["25K+", "Tests Processed"],
+            ["24H", "Report Delivery"],
+            ["100%", "Quality Checked"],
+            ["7 Days", "Home Collection"],
+          ].map(([value, label]) => (
+            <div
+              key={label}
+              className="bg-white border border-slate-100 rounded-3xl p-6 text-center shadow-sm"
+            >
+              <div className="text-3xl md:text-4xl font-black text-[#0A4F8A]">
+                {value}
+              </div>
 
-                      <p className="mt-3 text-gray-400 max-w-sm">
-                        Industry-leading diagnostic reliability
-                        powered by modern laboratory workflows.
-                      </p>
-                    </div>
-
-                    <div className="absolute bottom-4 md:bottom-6 right-4 md:right-8 text-[70px] md:text-[120px] font-black text-white/[0.03] pointer-events-none">
-                      99.8
-                    </div>
-                  </>
-                )}
-              </motion.div>
-            );
-          })}
+              <p className="mt-2 text-slate-500">
+                {label}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
