@@ -9,7 +9,38 @@ import PopularPackages from "./components/PopularPackages";
 import TestCategories from "./components/TestCategories";
 import Testimonials from "./components/Testimonials";
 import WhyShyamLabs from "./components/WhyShyamLabs";
-
+export const metadata = {
+  title: "Shyam Budget Friendly Labs | Affordable Diagnostic Tests",
+  description:
+    "Get accurate and affordable pathology tests at Shyam Budget Friendly Labs. Blood tests, full body checkups, home sample collection available.",
+  keywords: [
+  "pathology lab in Panchkula",
+  "blood test near me",
+  "diagnostic centre in Panchkula",
+  "affordable lab tests",
+  "full body checkup Panchkula",
+  "home sample collection Panchkula",
+  "health checkup packages",
+  "cheap blood test near me",
+  "accurate blood test reports",
+  "Shyam Budget Friendly Labs",
+],
+  openGraph: {
+    title: "Shyam Budget Friendly Labs",
+    description: "Affordable and accurate diagnostic services",
+    url: "https://www.shyambudgetfriendlylabs.com/",
+    siteName: "Shyam Budget Friendly Labs",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
 export default function Home() {
   return (
   <>
