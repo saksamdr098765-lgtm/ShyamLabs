@@ -32,7 +32,7 @@ export const metadata = {
     siteName: "Shyam Budget Friendly Labs",
     images: [
       {
-        url: "/logo.png",
+        url: "https://www.shyambudgetfriendlylabs.com/logo.png",
         width: 1200,
         height: 630,
       },
@@ -46,7 +46,7 @@ export default function Home() {
   <>
   <Hero></Hero>
   <PopularPackages></PopularPackages>
-  <TestCategories></TestCategories>
+  {/* <TestCategories></TestCategories> */}
   <WhyShyamLabs></WhyShyamLabs>
   <DiagnosticTechnology></DiagnosticTechnology>
 

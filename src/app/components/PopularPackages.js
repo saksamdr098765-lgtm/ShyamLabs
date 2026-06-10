@@ -3,53 +3,69 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
+  FaHeartbeat,
+  FaTemperatureHigh,
   FaHeart,
-  FaTint,
-  FaBrain,
-  FaUserMd,
-  FaArrowRight,
+  FaNotesMedical,
+  FaArrowRight
 } from "react-icons/fa";
-
+import { useRouter } from "next/navigation";
+import { SITE_CONFIG } from "../siteConfig";
+import trackEvent from "../utils/Analytics";
 const categories = [
   {
-    icon: FaUserMd,
+    icon: FaNotesMedical,
     title: "Full Body",
     package: "Full Body Checkup",
-    tests: "123+ Parameters",
-    price: "₹1,800",
+    tests: "126 Tests",
+    price: "₹1800",
+    slug: "full-body-checkup",
     desc:
-      "A complete preventive screening package designed to give a detailed overview of your overall health.",
+      "Complete preventive health screening with diabetes, liver, kidney, thyroid and heart risk assessment.",
   },
+
+  {
+    icon: FaTemperatureHigh,
+    title: "Fever Care",
+    package: "Fever Panel Advance",
+    tests: "7 Tests",
+    price: "₹1100",
+    slug: "fever-panel-advance",
+    desc:
+      "Advanced fever diagnostic package covering malaria, typhoid, liver markers, infection screening, and blood analysis.",
+  },
+
   {
     icon: FaHeart,
     title: "Heart Health",
-    package: "Heart Health Package",
-    tests: "35+ Parameters",
-    price: "₹2,499",
+    package: "Heart Screening",
+    tests: "16 Parameters",
+    price: "₹899",
+    slug: "jaanch-heart-screening",
     desc:
-      "Advanced cardiovascular screening focused on early risk detection and monitoring.",
+      "Early detection of cardiovascular risk with cardiac risk markers and lipid profile.",
   },
+
   {
-    icon: FaTint,
-    title: "Diabetes",
-    package: "Diabetes Care",
-    tests: "20+ Parameters",
-    price: "₹1,499",
-    desc:
-      "Track blood sugar, metabolic health and key diabetic risk indicators.",
-  },
-  {
-    icon: FaBrain,
+    icon: FaHeartbeat,
     title: "Thyroid",
     package: "Thyroid Profile",
-    tests: "5+ Parameters",
+    tests: "5 Tests",
     price: "₹360",
+    slug: "thyroid-profile",
     desc:
       "Evaluate thyroid hormone levels and maintain hormonal balance.",
   },
 ];
 
+
 export default function PopularPackages() {
+  const {whatsapp}=SITE_CONFIG
+   const openWhatsApp = (message) => {
+    const url = `https://wa.me/${whatsapp}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
+  const router=useRouter()
   const [active, setActive] = useState(categories[0]);
 
   return (
@@ -150,8 +166,15 @@ export default function PopularPackages() {
                   {active.desc}
                 </p>
 
-                <button className="mt-10 inline-flex items-center gap-3 bg-white text-[#0A4F8A] px-6 py-3 rounded-xl font-semibold">
-                  Explore Package
+                <button   onClick={() =>{
+                     trackEvent(`whatsApp_click`,{
+                page_location:window.location.href
+              })
+                openWhatsApp(
+                  `Hello, I want to book the *${active.title}* package (${active.price}). Please provide details and availability.`
+                )
+                }} className="mt-10 inline-flex items-center gap-3 cursor-pointer bg-white text-[#0A4F8A] px-6 py-3 rounded-xl font-semibold">
+                  Book Package
                   <FaArrowRight />
                 </button>
               </div>

@@ -13,6 +13,7 @@ import {
 
 import packagesData from "../packagesData";
 import { SITE_CONFIG } from "../siteConfig";
+import trackEvent from "../utils/Analytics";
 
 
 
@@ -148,7 +149,7 @@ export default function PackagesClient() {
   onClick={() => {
     router.push(`/package-detail-page/${pkg.slug}`);
   }}
-  className="mt-auto pt-6 flex items-center gap-3 font-semibold text-[#0A4F8A] w-full"
+  className="mt-auto pt-6 cursor-pointer flex items-center gap-3 font-semibold text-[#0A4F8A] w-full"
 >                  View Package
                   <FaArrowRight />
                 </button>
@@ -191,12 +192,15 @@ export default function PackagesClient() {
             </span>
           </div>
 
-          <button   onClick={() =>
+          <button   onClick={() =>{
+                 trackEvent(`whatsApp_click`,{
+                page_location:window.location.href
+              })
                 openWhatsApp(
                   `Hello, I want to book the *${test.name}* package (${test.price}). Please provide details and availability.`
                 )
-              }
-              className="mt-4 w-full flex items-center justify-center gap-2 py-2 rounded-xl bg-[#0A4F8A] text-white hover:bg-[#083a66] transition">
+              }}
+              className="mt-4 w-full cursor-pointer flex items-center justify-center gap-2 py-2 rounded-xl bg-[#0A4F8A] text-white hover:bg-[#083a66] transition">
             Book Test
             <FaArrowRight />
           </button>
@@ -227,7 +231,7 @@ export default function PackagesClient() {
               "Hello, I would like to book a Home Sample Collection. Please share the available slots."
             )
           }
-          className="px-8 py-4 rounded-full bg-white text-[#0A4F8A] font-semibold hover:bg-slate-100 transition"
+          className="px-8 py-4 cursor-pointer rounded-full bg-white text-[#0A4F8A] font-semibold hover:bg-slate-100 transition"
         >
           Book Home Collection
         </button>
@@ -237,7 +241,7 @@ export default function PackagesClient() {
           onClick={() =>
           router.push('/contact')
           }
-          className="px-8 py-4 rounded-full border border-white text-white font-semibold hover:bg-white/10 transition"
+          className="px-8 cursor-pointer py-4 rounded-full border border-white text-white font-semibold hover:bg-white/10 transition"
         >
           Ask For a Test
         </button>

@@ -10,8 +10,31 @@ import {
   FaArrowUp,
   FaCheckCircle,
 } from "react-icons/fa";
-import { useRouter } from "next/navigation";
+
 import { SITE_CONFIG } from "../siteConfig";
+import trackEvent from "../utils/Analytics";
+const packages = [
+  {
+    name: "Lipid Profile Test",
+    path: "/package-detail-page/lipid-profile-test",
+  },
+  {
+    name: "Arthritis Checkup",
+    path: "/package-detail-page/arthritis-checkup",
+  },
+  {
+    name: "Fever Panel Basic",
+    path: "/package-detail-page/fever-panel-basic",
+  },
+  {
+    name: "Aarogyam A Pro",
+    path: "/package-detail-page/aarogyam-a-pro",
+  },
+  {
+    name: "Fasting Blood Sugar",
+    path: "/package-detail-page/fasting-blood-sugar",
+  },
+];
  const links = [
   {
     name: "Home",
@@ -35,7 +58,7 @@ import { SITE_CONFIG } from "../siteConfig";
   },
 ];
 export default function Footer() {
-  const router=useRouter()
+
   const {phone,address,email,map,fullName}=SITE_CONFIG
   return (
     <footer className="relative bg-white overflow-hidden border-t border-slate-100">
@@ -141,19 +164,13 @@ export default function Footer() {
                 </h3>
 
                 <div className="space-y-3">
-                  {[
-                    "Blood Tests",
-                    "Diabetes",
-                    "Thyroid",
-                    "Heart Health",
-                    "Full Body Checkup",
-                  ].map((item) => (
+                  {packages.map((item) => (
                     <Link
-                      key={item}
-                      href="#"
+                      key={item.name}
+                      href={item.path}
                       className="block text-slate-600 hover:text-[#0A4F8A] transition"
                     >
-                      {item}
+                      {item.name}
                     </Link>
                   ))}
                 </div>
@@ -193,40 +210,73 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-slate-200 py-6 flex flex-col md:flex-row items-center justify-between gap-5">
-          <p className="text-sm text-slate-500 text-center md:text-left">
-            © {new Date().getFullYear()} Shyam Labs. All rights reserved.
-          </p>
+   <div className="border-t border-slate-200 py-6 flex flex-col md:flex-row items-center justify-between gap-5">
+  <p className="text-sm text-slate-500 text-center md:text-left">
+    © {new Date().getFullYear()} Shyam Labs. All rights reserved.
+  </p>
 
-          <div className="flex items-center gap-4">
-            <p className="hidden sm:block text-sm text-slate-500">
-              Trusted Diagnostics For Every Family
-            </p>
+  <div className="flex items-center gap-4 flex-wrap justify-center">
+    <p className="hidden lg:block text-sm text-slate-500">
+      Trusted Diagnostics For Every Family
+    </p>
 
-            <button
-              onClick={() =>
-                window.scrollTo({
-                  top: 0,
-                  behavior: "smooth",
-                })
-              }
-              className="
-                h-11
-                w-11
-                rounded-full
-                bg-[#0A4F8A]
-                text-white
-                flex
-                items-center
-                justify-center
-                hover:scale-110
-                transition
-              "
-            >
-              <FaArrowUp />
-            </button>
-          </div>
-        </div>
+    <a
+      href="https://rohitdevstack.online"
+      onClick={()=>{  trackEvent(`site_click`)}}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="
+        group
+        flex
+        items-center
+        gap-2
+        px-4
+        py-2
+        rounded-full
+        border
+        border-slate-200
+        bg-white
+        hover:border-[#0A4F8A]/30
+        hover:shadow-md
+        transition-all
+        duration-300
+      "
+    >
+      <span className="h-2 w-2 rounded-full bg-[#78BE43]" />
+
+      <span className="text-xs text-slate-500">
+        Developed by
+      </span>
+
+      <span className="text-sm font-semibold text-[#0A4F8A]">
+        Rohit DevStack
+      </span>
+    </a>
+
+    <button
+      onClick={() =>
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        })
+      }
+      className="
+        h-11
+        w-11
+        rounded-full
+        bg-[#0A4F8A]
+        text-white
+        flex
+        items-center
+        justify-center
+        hover:scale-110
+        transition
+      "
+    >
+      <FaArrowUp />
+    </button>
+  </div>
+</div>
         {/* Location Section */}
 <div className="border-t border-slate-200 py-10">
   <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-6">
@@ -245,7 +295,7 @@ export default function Footer() {
     </div>
 
     <a
-      href={map}
+      href="https://maps.app.goo.gl/8g9ZPeXZqHMb7Wfn7?g_st=ac"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-[#0A4F8A] text-white font-medium hover:scale-105 transition"
@@ -266,6 +316,7 @@ export default function Footer() {
     />
   </div>
 </div>
+
       </div>
       
     </footer>

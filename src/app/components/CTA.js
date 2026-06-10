@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { SITE_CONFIG } from "../siteConfig";
 import { useRouter } from "next/navigation";
+import trackEvent from "../utils/Analytics";
 
 export default function CTA() {
   const router=useRouter()
@@ -112,7 +113,9 @@ export default function CTA() {
               </button>
 
               <button
-              onClick={()=>{window.location.href=`tel:${phone}`}}
+              onClick={()=>{
+                     trackEvent(`phone_click`)
+                window.location.href=`tel:${phone}`}}
                 className="
                   w-full
                   sm:w-auto

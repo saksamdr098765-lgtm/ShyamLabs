@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { FaCheckCircle, FaArrowRight, FaHeartbeat } from "react-icons/fa";
 import { SITE_CONFIG } from "@/app/siteConfig";
+import trackEvent from "@/app/utils/Analytics";
 
 export default function PackageDetailPage({ packageData }) {
   const {
@@ -65,12 +66,15 @@ export default function PackageDetailPage({ packageData }) {
 
             {/* BOOK NOW → WHATSAPP */}
             <button
-              onClick={() =>
+              onClick={() =>{
+                     trackEvent(`whatsApp_click`,{
+                page_location:window.location.href
+              })
                 openWhatsApp(
                   `Hello, I want to book the *${title}* package (${price}). Please provide details and availability.`
                 )
-              }
-              className="px-6 py-3 rounded-full bg-[#0A4F8A] text-white font-semibold flex items-center gap-2 hover:bg-[#083a66] transition"
+              }}
+              className="px-6 cursor-pointer py-3 rounded-full bg-[#0A4F8A] text-white font-semibold flex items-center gap-2 hover:bg-[#083a66] transition"
             >
               Book Now <FaArrowRight />
             </button>
@@ -146,12 +150,15 @@ export default function PackageDetailPage({ packageData }) {
               </p>
 
               <button
-                onClick={() =>
+                onClick={() =>{
+                       trackEvent(`whatsApp_click`,{
+                page_location:window.location.href
+              })
                   openWhatsApp(
                     `Hello, I want to schedule a *home sample collection* for ${title}. Please confirm available time slots and process.`
                   )
-                }
-                className="mt-5 w-full py-3 rounded-full bg-white text-[#0A4F8A] font-semibold hover:bg-slate-100 transition"
+                }}
+                className="mt-5 cursor-pointer w-full py-3 rounded-full bg-white text-[#0A4F8A] font-semibold hover:bg-slate-100 transition"
               >
                 Schedule Appointment
               </button>

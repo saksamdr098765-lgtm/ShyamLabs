@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaBars, FaTimes, FaPhoneAlt } from "react-icons/fa";
 import { SITE_CONFIG } from "../siteConfig";
 import { useRouter } from "next/navigation";
+import trackEvent from "../utils/Analytics";
 
 export default function Navbar() {
   const {name,phone}=SITE_CONFIG
@@ -79,6 +80,7 @@ export default function Navbar() {
         <div className="hidden cursor-pointer lg:flex items-center gap-4">
           <a
             href={`tel:${phone}`}
+            onClick={()=>{trackEvent(`phone_click`)}}
             className="flex items-center gap-2 text-slate-700 font-medium"
           >
             <FaPhoneAlt className="text-[#78BE43]" />
@@ -119,7 +121,7 @@ export default function Navbar() {
                 </Link>
               ))}
 
-              <button className="bg-[#0A4F8A] text-white py-3 rounded-xl font-semibold">
+              <button onClick={()=>{router.push('/contact')}} className="bg-[#0A4F8A] text-white py-3 rounded-xl font-semibold">
                 Book Test
               </button>
             </div>

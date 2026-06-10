@@ -10,6 +10,7 @@ import {
   FaArrowRight,
 } from "react-icons/fa";
 import { SITE_CONFIG } from "../siteConfig";
+import trackEvent from "../utils/Analytics";
 
 export default function ContactClient() {
  const { phone, email, address, map, whatsapp } = SITE_CONFIG;
@@ -237,6 +238,7 @@ Sent from Shyam Labs Website`;
       justify-center
       gap-3
       transition
+      cursor-pointer
     "
   >
     Submit Request
@@ -273,7 +275,9 @@ Sent from Shyam Labs Website`;
               healthcare professionals.
             </p>
 
-            <button onClick={()=>{window.location.href=`tel:${phone}`}} className="mt-8 px-8 h-14 rounded-full bg-white text-[#0A4F8A] font-semibold">
+            <button onClick={()=>{
+                trackEvent(`phone_click`)
+              window.location.href=`tel:${phone}`}} className="mt-8 px-8 cursor-pointer h-14 rounded-full bg-white text-[#0A4F8A] font-semibold">
               Call Now
             </button>
           </div>

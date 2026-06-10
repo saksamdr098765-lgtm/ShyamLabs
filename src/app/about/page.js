@@ -20,7 +20,7 @@ export const metadata = {
     url: "https://www.shyambudgetfriendlylabs.com/about",
     images: [
       {
-        url: "/logo.png",
+        url: "https://www.shyambudgetfriendlylabs.com/logo.png",
         width: 1200,
         height: 630,
       },
