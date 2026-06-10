@@ -1,50 +1,51 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 import {
-  FaTint,
   FaHeartbeat,
   FaBrain,
-  FaBolt,
+ FaUserMd,
+ FaBaby,
+ FaWalking,
   FaArrowRight,
 } from "react-icons/fa";
 
 const categories = [
   {
-    title: "Blood Tests",
-    tests: "120+ Parameters",
-    icon: FaTint,
-    color: "bg-red-50",
-    accent: "text-red-500",
-    border: "border-red-100",
+    title: "Gynecology",
+    tests: "Women's Health",
+    icon: FaUserMd,
   },
   {
-    title: "Heart Health",
-    tests: "Cardiac Risk Assessment",
+    title: "Pediatrics",
+    tests: "Child Care",
+    icon: FaBaby,
+  },
+  {
+    title: "Dermatology",
+    tests: "Skin Specialist",
+    icon: FaUserMd,
+  },
+  {
+    title: "Orthopedics",
+    tests: "Bones & Joints",
+    icon: FaWalking,
+  },
+  {
+    title: "Diabetology",
+    tests: "Diabetes Care",
     icon: FaHeartbeat,
-    color: "bg-pink-50",
-    accent: "text-pink-500",
-    border: "border-pink-100",
   },
   {
-    title: "Diabetes",
-    tests: "HbA1c • Fasting • PP",
-    icon: FaBolt,
-    color: "bg-orange-50",
-    accent: "text-orange-500",
-    border: "border-orange-100",
-  },
-  {
-    title: "Thyroid",
-    tests: "T3 • T4 • TSH",
+    title: "Psychiatry",
+    tests: "Mental Wellness",
     icon: FaBrain,
-    color: "bg-sky-50",
-    accent: "text-sky-500",
-    border: "border-sky-100",
   },
 ];
 
 export default function TestCategories() {
+  const router=useRouter()
   return (
     <section className="relative py-20 md:py-32 bg-white overflow-hidden">
       {/* Grid */}
@@ -70,82 +71,81 @@ export default function TestCategories() {
           viewport={{ once: true }}
           className="text-center max-w-3xl mx-auto"
         >
-          <span className="inline-flex px-4 py-2 rounded-full border border-green-100 bg-green-50 text-[#78BE43] text-sm font-semibold">
-            POPULAR DIAGNOSTICS
-          </span>
+        <span className="inline-flex px-4 py-2 rounded-full border border-green-100 bg-green-50 text-[#78BE43] text-sm font-semibold">
+  E-CLINIC SERVICES
+</span>
 
-          <h2 className="mt-6 text-4xl md:text-6xl font-black text-slate-900 leading-tight">
-            Choose The Right
-            <span className="block text-[#0A4F8A]">
-              Health Screening
-            </span>
-          </h2>
+<h2 className="mt-6 text-4xl md:text-6xl font-black text-slate-900">
+  Consult
+  <span className="block text-[#0A4F8A]">
+    MBBS Specialists Online
+  </span>
+</h2>
 
-          <p className="mt-6 text-slate-600 text-lg">
-            Preventive screening packages designed to detect
-            health concerns early and help you stay ahead.
-          </p>
+<p className="mt-6 text-slate-600 text-lg">
+  Access expert medical advice through secure video consultations
+  at Shyam Budget Friendly Labs.
+</p>
         </motion.div>
 
         {/* Main Layout */}
         <div className="mt-16 grid lg:grid-cols-12 gap-6">
           {/* Featured Card */}
-          <motion.div
-            whileHover={{ y: -6 }}
-            className="
-              lg:col-span-6
-              rounded-[36px]
-              bg-gradient-to-br
-              from-[#0A4F8A]
-              to-[#08345c]
-              overflow-hidden
-              p-8
-              md:p-10
-              relative
-              text-white
-            "
-          >
-            <div className="absolute right-0 top-0 text-[250px] opacity-10">
-              🩸
-            </div>
+        <motion.div
+  whileHover={{ y: -6 }}
+  className="
+    lg:col-span-6
+    rounded-[36px]
+    bg-gradient-to-br
+    from-[#0A4F8A]
+    to-[#08345c]
+    overflow-hidden
+    p-8
+    md:p-10
+    relative
+    text-white
+  "
+>
+  <div className="absolute right-0 top-0 text-[220px] opacity-10">
+    👨‍⚕️
+  </div>
 
-            <span className="text-green-300 text-sm font-semibold tracking-wider">
-              MOST BOOKED TEST
-            </span>
+  <span className="text-green-300 text-sm font-semibold tracking-wider">
+    NEW SERVICE
+  </span>
 
-            <h3 className="mt-4 text-4xl md:text-6xl font-black">
-              Blood
-              <br />
-              Testing
-            </h3>
+  <h3 className="mt-4 text-4xl md:text-6xl font-black leading-none">
+    E-Clinic
+    <br />
+    Consultation
+  </h3>
 
-            <p className="mt-6 text-white/70 max-w-md">
-              Comprehensive blood analysis for cholesterol,
-              diabetes, thyroid, vitamin deficiency and
-              preventive screening.
-            </p>
+  <p className="mt-6 text-white/75 max-w-md">
+    Connect with experienced MBBS specialists through
+    online video consultation directly from Shyam Labs.
+  </p>
 
-            <div className="mt-10 flex items-center gap-8">
-              <div>
-                <h4 className="text-5xl font-black">120+</h4>
-                <p className="text-white/60">
-                  Parameters
-                </p>
-              </div>
+  <div className="mt-10 flex gap-8">
+    <div>
+      <h4 className="text-5xl font-black">8+</h4>
+      <p className="text-white/60">
+        Specialities
+      </p>
+    </div>
 
-              <div>
-                <h4 className="text-5xl font-black">24H</h4>
-                <p className="text-white/60">
-                  Reporting
-                </p>
-              </div>
-            </div>
+    <div>
+      <h4 className="text-5xl font-black">100%</h4>
+      <p className="text-white/60">
+        Online Support
+      </p>
+    </div>
+  </div>
 
-            <button className="mt-10 bg-white text-[#0A4F8A] px-6 py-4 rounded-2xl font-semibold flex items-center gap-3">
-              Explore Tests
-              <FaArrowRight />
-            </button>
-          </motion.div>
+  <button onClick={()=>{router.push('/contact')}} className="mt-10 bg-white text-[#0A4F8A] px-6 py-4 rounded-2xl font-semibold flex items-center gap-3">
+    Book Consultation
+    <FaArrowRight />
+  </button>
+</motion.div>
 
           {/* Side Cards */}
           <div className="lg:col-span-6 grid sm:grid-cols-2 gap-6">
@@ -190,10 +190,7 @@ export default function TestCategories() {
                     {item.tests}
                   </p>
 
-                  <button className="mt-8 flex items-center gap-2 font-semibold text-[#0A4F8A]">
-                    View Details
-                    <FaArrowRight size={12} />
-                  </button>
+               
                 </motion.div>
               );
             })}

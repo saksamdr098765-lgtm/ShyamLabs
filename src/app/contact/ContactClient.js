@@ -220,7 +220,7 @@ Sent from Shyam Labs Website`;
     value={formData.message}
     onChange={handleChange}
     placeholder="Tell us about your requirements..."
-    className="w-full p-5 rounded-2xl border border-slate-200 outline-none resize-none focus:border-[#0A4F8A]"
+    className="w-full p-5 rounded-2xl border border-slate-200 placeholder:text-black outline-none resize-none focus:border-[#0A4F8A]"
   />
 
   <button
