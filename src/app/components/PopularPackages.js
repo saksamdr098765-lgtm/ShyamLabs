@@ -15,8 +15,8 @@ const categories = [
     icon: FaUserMd,
     title: "Full Body",
     package: "Full Body Checkup",
-    tests: "75+ Parameters",
-    price: "₹1,999",
+    tests: "123+ Parameters",
+    price: "₹1,800",
     desc:
       "A complete preventive screening package designed to give a detailed overview of your overall health.",
   },
@@ -42,8 +42,8 @@ const categories = [
     icon: FaBrain,
     title: "Thyroid",
     package: "Thyroid Profile",
-    tests: "10+ Parameters",
-    price: "₹999",
+    tests: "5+ Parameters",
+    price: "₹360",
     desc:
       "Evaluate thyroid hormone levels and maintain hormonal balance.",
   },

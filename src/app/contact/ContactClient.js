@@ -202,38 +202,16 @@ Sent from Shyam Labs Website`;
     placeholder="Email Address"
     className="w-full h-14 px-5 rounded-2xl border border-slate-200 outline-none focus:border-[#0A4F8A]"
   />
-
-  <select
-    name="package"
+  <input
+    type="text"
+   name="package"
     value={formData.package}
     onChange={handleChange}
-    required
-    className="w-full h-14 px-5 rounded-2xl border border-slate-200 outline-none"
-  >
-    <option value="">
-      Select Test Package
-    </option>
+    placeholder="Enter test name"
+    className="w-full h-14 px-5 rounded-2xl border border-slate-200 outline-none focus:border-[#0A4F8A]"
+  />
 
-    <option value="Full Body Checkup">
-      Full Body Checkup
-    </option>
 
-    <option value="Diabetes Profile">
-      Diabetes Profile
-    </option>
-
-    <option value="Heart Health Package">
-      Heart Health Package
-    </option>
-
-    <option value="Thyroid Profile">
-      Thyroid Profile
-    </option>
-
-    <option value="Home Sample Collection">
-      Home Sample Collection
-    </option>
-  </select>
 
   <textarea
     rows={5}

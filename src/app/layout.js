@@ -3,10 +3,12 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Script from "next/script";
 import { SITE_CONFIG } from "./siteConfig";
+import FloatingButtons from "./components/FixedButtons";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -42,8 +44,6 @@ export const metadata = {
     ],
   },
 };
-
-
 export default function RootLayout({ children }) {
   return (
     <html
@@ -65,6 +65,7 @@ export default function RootLayout({ children }) {
           gtag('config', 'G-GD0EY5KGY1');
         `}
       </Script>
+      <FloatingButtons></FloatingButtons>
         <Navbar></Navbar>
         {children}
       
