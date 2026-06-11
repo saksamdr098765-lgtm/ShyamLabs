@@ -16,7 +16,7 @@ export default function PackageDetailPage({ packageData }) {
     preparation = [],
   } = packageData;
 
-  const phone = SITE_CONFIG?.whatsapp || "91XXXXXXXXXX";
+  const phone = SITE_CONFIG?.whatsapp ;
 
   // WhatsApp helper
   const openWhatsApp = (message) => {
