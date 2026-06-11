@@ -1,4 +1,5 @@
 
+import Blogs from "./components/Blogs";
 import CTA from "./components/CTA";
 import DiagnosticTechnology from "./components/DaignosticTechnology";
 import Footer from "./components/Footer";
@@ -47,6 +48,7 @@ export default function Home() {
   <>
   <Hero></Hero>
   <WeekendOffers></WeekendOffers>
+  <Blogs></Blogs>
   <PopularPackages></PopularPackages>
   <TestCategories></TestCategories>
   <WhyShyamLabs></WhyShyamLabs>

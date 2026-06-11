@@ -53,7 +53,8 @@ export default function BlogPage() {
                 <Image
                   src={blog.image}
                   alt={blog.title}
-                  fill
+                   width={600}
+  height={400}
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
               </div>
