@@ -3,7 +3,11 @@
 import { notFound } from "next/navigation";
 import PackageDetailPage from "./packagedetailpageClient";
 import packagesData from "@/app/packagesData";
-
+export async function generateStaticParams() {
+  return packagesData.map((pac) => ({
+    slug: pac.slug,
+  }));
+}
 export async function generateMetadata({ params }) {
   const { slug } = await params;
 

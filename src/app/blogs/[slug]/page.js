@@ -3,7 +3,11 @@
 import { blogs } from "@/app/blogs";
 import { notFound } from "next/navigation";
 import BlogDetailPage from "./BlogDetailPage";
-
+export async function generateStaticParams() {
+  return blogs.map((blog) => ({
+    slug: blog.slug,
+  }));
+}
 export async function generateMetadata({ params }) {
   const { slug } = await params;
 

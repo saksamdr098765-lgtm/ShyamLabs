@@ -4,7 +4,60 @@ import Link from "next/link";
 import Image from "next/image";
 import { blogs } from "../blogs";
 import { FaArrowRight } from "react-icons/fa";
+export const metadata = {
+  title: "Health Blogs & Diagnostic Insights | Shyam Budget Friendly Labs",
+  description:
+    "Read expert articles on blood tests, pathology diagnostics, preventive healthcare, wellness tips, and medical test awareness from Shyam Budget Friendly Labs.",
+  keywords: [
+    "health blogs",
+    "pathology blog",
+    "diagnostic tests",
+    "blood test guide",
+    "CBC test",
+    "Vitamin D test",
+    "health checkup",
+    "medical tests",
+    "pathology lab",
+    "Shyam Budget Friendly Labs",
+  ],
 
+  alternates: {
+    canonical: "https://www.shyambudgetfriendlylabs.com/blogs",
+  },
+
+  openGraph: {
+    title: "Health Blogs & Diagnostic Insights",
+    description:
+      "Expert healthcare articles, pathology insights, blood test guides, and wellness information.",
+
+    url: "https://www.shyambudgetfriendlylabs.com/blogs",
+    siteName: "Shyam Budget Friendly Labs",
+
+    images: [
+      {
+        url: "https://www.shyambudgetfriendlylabs.com/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Shyam Budget Friendly Labs Blog",
+      },
+    ],
+
+    locale: "en_IN",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Health Blogs & Diagnostic Insights",
+    description:
+      "Expert articles on pathology, blood tests, preventive healthcare, and wellness.",
+
+    images: [
+      "https://www.shyambudgetfriendlylabs.com/logo.png",
+    ],
+  },
+
+};
 export default function BlogPage() {
   return (
     <main className="bg-white min-h-screen">

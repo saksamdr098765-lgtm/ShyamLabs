@@ -5,7 +5,11 @@ import { notFound } from "next/navigation";
 import LocationDetailPage from "./LocationClient";
 import { locations } from "@/app/locations";
 
-
+export async function generateStaticParams() {
+  return locations.map((location) => ({
+    slug: location.slug,
+  }));
+}
 export async function generateMetadata({ params }) {
   const { slug } = await params;
 
