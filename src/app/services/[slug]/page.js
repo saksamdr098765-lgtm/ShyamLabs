@@ -11,7 +11,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
 const { slug } = await params;
 
-const service = packages.find(
+const service = services.find(
 (item) => item.slug === slug
 );
 
