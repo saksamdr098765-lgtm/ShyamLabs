@@ -27,6 +27,9 @@ export const metadata = {
       },
     ],
   },
+    alternates: {
+      canonical: `https://www.shyambudgetfriendlylabs.com/contact`,
+    },
 };
 export default function ContactPage() {
 

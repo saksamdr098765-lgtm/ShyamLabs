@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import Image from "next/image";
 import { SITE_CONFIG } from "@/app/siteConfig";
 import trackEvent from "@/app/utils/Analytics";
@@ -10,6 +10,7 @@ import {
   FaMapMarkerAlt,
   FaQuestionCircle,
 } from "react-icons/fa";
+import packagesData from "@/app/packagesData";
 
 export default function LocationDetailPage({ location }) {
   const openWhatsApp = (message) => {
@@ -26,7 +27,7 @@ export default function LocationDetailPage({ location }) {
   };
 
   return (
-    <main className="bg-white min-h-screen py-24">
+    <main className="bg-white min-h-screen ">
 
       {/* GRID BG */}
       <div
@@ -82,7 +83,7 @@ export default function LocationDetailPage({ location }) {
       </section>
 
       {/* IMAGE */}
-      <section className="mt-10">
+      <section className="">
         <div className="max-w-6xl mx-auto px-5">
 
           <div className="relative h-[250px] md:h-[550px] rounded-3xl overflow-hidden shadow-xl">
@@ -124,36 +125,102 @@ export default function LocationDetailPage({ location }) {
 
         </div>
       </section>
+<section className="pb-10">
+  <div className="max-w-6xl mx-auto px-5">
 
-      {/* SERVICES */}
-      <section className="pb-14">
-        <div className="max-w-6xl mx-auto px-5">
+    <h2 className="text-3xl font-black">
+      Why Choose Shyam Labs in {location.city}
+    </h2>
 
-          <div className="rounded-[36px] bg-gradient-to-br from-[#F8FBFF] to-white border border-blue-100 p-8 md:p-10">
-
-            <h2 className="text-3xl font-black text-slate-900">
-              Available Services in {location.city}
-            </h2>
-
-            <div className="grid md:grid-cols-2 gap-4 mt-8">
-
-              {location.services?.map((service) => (
-                <div
-                  key={service}
-                  className="flex items-center gap-3 bg-white border border-slate-100 rounded-2xl px-5 py-4"
-                >
-                  <FaCheckCircle className="text-[#78BE43]" />
-                  <span>{service}</span>
-                </div>
-              ))}
-
-            </div>
-
-          </div>
-
+    <div className="grid md:grid-cols-3 gap-6 mt-8">
+      {[
+        "NABL Associated Labs",
+        "Home Sample Collection",
+        "Fast Report Delivery",
+        "Affordable Pricing",
+        "Experienced Phlebotomists",
+        "Online Report Access"
+      ].map((item) => (
+        <div key={item} className="p-6 border rounded-2xl">
+          {item}
         </div>
-      </section>
+      ))}
+    </div>
 
+  </div>
+</section>
+      {/* SERVICES */}
+    <section className="pb-14">
+  <div className="max-w-6xl mx-auto px-5">
+
+    <div className="rounded-[36px] bg-gradient-to-br from-[#F8FBFF] to-white border border-blue-100 p-8 md:p-10 shadow-sm">
+
+      <h2 className="text-3xl font-black text-slate-900">
+        Available Services in {location.city}
+      </h2>
+
+      <div className="grid md:grid-cols-2 gap-4 mt-8">
+
+        {location.services.map((item) => (
+          <Link
+            key={item.slug}
+            href={item.slug}
+            className="
+              group flex items-center gap-3
+              bg-white border border-slate-100
+              rounded-2xl px-5 py-4
+              transition-all duration-300
+              hover:border-[#0A4F8A]
+              hover:shadow-md
+              hover:-translate-y-1
+              active:scale-[0.98]
+              cursor-pointer
+            "
+          >
+            <FaCheckCircle className="text-[#78BE43] group-hover:scale-110 transition" />
+
+            <span className="text-slate-800 font-medium group-hover:text-[#0A4F8A] transition">
+              {item.name}
+            </span>
+
+            {/* subtle arrow indicator */}
+            <span className="ml-auto text-slate-300 group-hover:text-[#0A4F8A] transition">
+              →
+            </span>
+
+          </Link>
+        ))}
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+{/* POPULAR TESTS */}
+<section className="py-16 bg-slate-50">
+  <div className="max-w-6xl mx-auto px-5">
+
+    <h2 className="text-3xl font-black text-slate-900">
+      Popular Tests in {location.city}
+    </h2>
+
+    <div className="flex flex-wrap gap-3 mt-8">
+
+      {packagesData.slice(0,10)?.map((item) => (
+        <Link
+        href={item.slug}
+          key={item.title}
+          className="px-5 py-3 shadow rounded-full bg-white border text-blue-300 "
+        >
+          {item.title}
+        </Link>
+      ))}
+
+    </div>
+
+  </div>
+</section>
       {/* CONTENT SECTIONS */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-6xl mx-auto px-5">
@@ -216,7 +283,41 @@ export default function LocationDetailPage({ location }) {
 
         </div>
       </section>
+{/* HOW IT WORKS */}
+<section className="py-16 bg-slate-50">
+  <div className="max-w-6xl mx-auto px-5">
 
+    <h2 className="text-3xl font-black text-center">
+      How Home Sample Collection Works
+    </h2>
+
+    <div className="grid md:grid-cols-5 gap-6 mt-10">
+
+      {[
+        "Book Your Test",
+        "Schedule Visit",
+        "Sample Collection",
+        "Lab Processing",
+        "Get Reports Online",
+      ].map((step, index) => (
+        <div
+          key={step}
+          className="bg-white border rounded-3xl p-6 text-center"
+        >
+          <div className="w-12 h-12 rounded-full bg-[#0A4F8A] text-white flex items-center justify-center mx-auto mb-4">
+            {index + 1}
+          </div>
+
+          <p className="font-semibold">
+            {step}
+          </p>
+        </div>
+      ))}
+
+    </div>
+
+  </div>
+</section>
       {/* FAQ */}
       <section className="py-16">
         <div className="max-w-6xl mx-auto px-5">
@@ -247,7 +348,65 @@ export default function LocationDetailPage({ location }) {
 
         </div>
       </section>
+      {/* TESTIMONIALS */}
+<section className="py-16">
+  <div className="max-w-6xl mx-auto px-5">
 
+    <h2 className="text-3xl font-black text-center">
+      What Patients Say
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-6 mt-10">
+
+      {location.testimonials?.map((item) => (
+        <div
+          key={item.name}
+          className="bg-white border rounded-3xl p-6"
+        >
+          <p className="text-slate-600 italic">
+            "{item.review}"
+          </p>
+
+          <h4 className="mt-5 font-bold">
+            {item.name}
+          </h4>
+        </div>
+      ))}
+
+    </div>
+
+  </div>
+</section>
+{/* RELATED LOCATIONS */}
+<section className="py-16 bg-slate-50">
+  <div className="max-w-6xl mx-auto px-5">
+
+    <h2 className="text-3xl font-black">
+      Explore Nearby Locations
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-6 mt-8">
+
+      {location.relatedLocations?.map((item) => (
+        <Link
+          key={item.city}
+          href={item.slug}
+          className="border rounded-3xl p-6 bg-white hover:border-[#0A4F8A]"
+        >
+          <h3 className="font-bold">
+            Blood Test in {item.city}
+          </h3>
+
+          <p className="mt-2 text-slate-600">
+            Home sample collection available.
+          </p>
+        </Link>
+      ))}
+
+    </div>
+
+  </div>
+</section>
     </main>
   );
 }

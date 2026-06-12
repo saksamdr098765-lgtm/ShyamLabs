@@ -24,6 +24,9 @@ export const metadata = {
       },
     ],
   },
+    alternates: {
+      canonical: `https://www.shyambudgetfriendlylabs.com/gallery`,
+    },
 };
 
 export default function GalleryPage() {

@@ -30,6 +30,9 @@ export const metadata = {
       },
     ],
   },
+    alternates: {
+      canonical: `https://www.shyambudgetfriendlylabs.com/packages`,
+    },
   
 };
 export default function PackagesPage() {
