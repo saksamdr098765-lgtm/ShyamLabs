@@ -14,6 +14,7 @@ import {
 import packagesData from "../packagesData";
 import { SITE_CONFIG } from "../siteConfig";
 import trackEvent from "../utils/Analytics";
+import Link from "next/link";
 
 
 
@@ -145,14 +146,12 @@ export default function PackagesClient() {
                   {pkg.price}
                 </div>
 
-<button
-  onClick={() => {
-    router.push(`/package-detail-page/${pkg.slug}`);
-  }}
+<Link
+  href={`/package-detail-page/${pkg.slug}`}
   className="mt-auto pt-6 cursor-pointer flex items-center gap-3 font-semibold text-[#0A4F8A] w-full"
 >                  View Package
                   <FaArrowRight />
-                </button>
+                </Link>
               </motion.div>
             ))}
           </div>
@@ -237,14 +236,12 @@ export default function PackagesClient() {
         </button>
 
         {/* Ask For Particular Test */}
-        <button
-          onClick={() =>
-          router.push('/contact')
-          }
+        <Link
+         href='/contact'
           className="px-8 cursor-pointer py-4 rounded-full border border-white text-white font-semibold hover:bg-white/10 transition"
         >
           Ask For a Test
-        </button>
+        </Link>
       </div>
     </div>
   </div>

@@ -55,19 +55,21 @@ export default function Blogs() {
         >
 
           {/* Image */}
-        <div className="relative h-60 overflow-hidden">
+   <div className="h-44 md:h-48 overflow-hidden">
   <Image
     src={blog.image}
     alt={blog.title}
-  width={600}
-  height={400}
+    width={800}
+    height={500}
     className="
-       w-full
-    h-60
-    object-cover
-    group-hover:scale-105
-    transition-transform
-    duration-500
+      block
+      w-full
+      h-52
+      md:h-56
+      object-cover
+      transition-transform
+      duration-500
+      group-hover:scale-105
     "
   />
 </div>

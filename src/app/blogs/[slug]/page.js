@@ -92,6 +92,88 @@ export default async function BlogPage({ params }) {
   if (!blog) return notFound();
 
   return (
+    <>
+    {blog.faqs?.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: blog.faqs.map((faq) => ({
+                "@type": "Question",
+                name: faq.question,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: faq.answer,
+                },
+              })),
+            }),
+          }}
+        />
+      )}
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.shyambudgetfriendlylabs.com",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Blogs",
+                item: "https://www.shyambudgetfriendlylabs.com/blogs",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: blog.title,
+                item: `https://www.shyambudgetfriendlylabs.com/blogs/${blog.slug}`,
+              },
+            ],
+          }),
+        }}
+      />
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: blog.title,
+      description: blog.description,
+      image: [
+        `https://www.shyambudgetfriendlylabs.com${blog.image}`,
+      ],
+      author: {
+        "@type": "Organization",
+        name: "Shyam Budget Friendly Labs",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Shyam Budget Friendly Labs",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://www.shyambudgetfriendlylabs.com/logo.png",
+        },
+      },
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": `https://www.shyambudgetfriendlylabs.com/blogs/${blog.slug}`,
+      },
+      datePublished: blog.datePublished,
+      dateModified: blog.dateModified || blog.datePublished,
+    }),
+  }}
+/>
 <BlogDetailPage blog={blog}></BlogDetailPage>
+    </>
   );
 }

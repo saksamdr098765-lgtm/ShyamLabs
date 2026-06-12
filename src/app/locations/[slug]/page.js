@@ -105,5 +105,38 @@ export default async function Page({ params }) {
     notFound();
   }
 
-  return <LocationDetailPage location={location}></LocationDetailPage>
+  return(
+    <>
+    <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.shyambudgetfriendlylabs.com",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Locations",
+          item: "https://www.shyambudgetfriendlylabs.com/locations",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: location.title,
+          item: `https://www.shyambudgetfriendlylabs.com/locations/${location.slug}`,
+        },
+      ],
+    }),
+  }}
+/>
+    <LocationDetailPage location={location}></LocationDetailPage>
+    </>
+  )
 }

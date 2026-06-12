@@ -109,6 +109,57 @@ export default async function Page ({params}) {
         notFound(); 
       }
   return (
-  <ServiceDetailPage service={service}></ServiceDetailPage>
+    <>
+     {service.faqs?.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: service.faqs.map((faq) => ({
+                "@type": "Question",
+                name: faq.question,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: faq.answer,
+                },
+              })),
+            }),
+          }}
+        />
+      )}
+    <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.shyambudgetfriendlylabs.com",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Services",
+          item: "https://www.shyambudgetfriendlylabs.com/services",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: service.title,
+          item: `https://www.shyambudgetfriendlylabs.com/services/${service.slug}`,
+        },
+      ],
+    }),
+  }}
+/>
+  
+    <ServiceDetailPage service={service}></ServiceDetailPage>
+    </>
   )
 }

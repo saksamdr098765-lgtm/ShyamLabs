@@ -84,5 +84,38 @@ export default async function Page({ params }) {
     notFound();
   }
 
-  return <PackageDetailPage packageData={packageData}></PackageDetailPage>
+  return(
+   <>
+   <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.shyambudgetfriendlylabs.com",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Health Packages",
+          item: "https://www.shyambudgetfriendlylabs.com/package-detail-page",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: packageData.title,
+          item: `https://www.shyambudgetfriendlylabs.com/package-detail-page/${packageData.slug}`,
+        },
+      ],
+    }),
+  }}
+/>
+   <PackageDetailPage packageData={packageData}></PackageDetailPage>
+   </> 
+  )
 }
