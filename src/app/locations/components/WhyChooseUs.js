@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function WhyChooseUs() {
+export default function WhyChooseUs({location}) {
   return location.whyChooseUs?.length > 0 && (
   <section className="py-16 bg-white">
     <div className="max-w-6xl mx-auto px-5">

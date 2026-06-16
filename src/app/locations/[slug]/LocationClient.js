@@ -59,7 +59,7 @@ export default function LocationDetailPage({ location }) {
       {/* FACTS */}
     
 <Facts location={location}></Facts>
-<WhyChooseUs></WhyChooseUs>
+<WhyChooseUs location={location}></WhyChooseUs>
       {/* SERVICES */}
   <Services location={location}></Services>
 {/* POPULAR TESTS */}

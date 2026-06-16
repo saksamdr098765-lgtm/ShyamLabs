@@ -43,7 +43,7 @@ export default function PopularTests({ location }) {
           {locationPackages.map((item) => (
             <Link
               key={item.slug}
-              href={`/${item.slug}`}
+              href={`/package-detail-page/${item.slug}`}
               className="group bg-white border border-slate-100 rounded-3xl p-7 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
               <div className="flex items-start justify-between gap-4">
