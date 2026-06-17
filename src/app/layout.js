@@ -63,6 +63,7 @@ export default function RootLayout({ children }) {
           gtag('js', new Date());
 
           gtag('config', 'G-GD0EY5KGY1');
+          gtag('config', 'AW-18240277765');
         `}
       </Script>
       <FloatingButtons></FloatingButtons>
