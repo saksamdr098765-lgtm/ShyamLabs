@@ -1414,7 +1414,835 @@ relatedTests: [
   name: "Aarogyam A Pro",
   },
 ],
-}
+},
+{
+  slug: "dengue-test-symptoms-guide",
+
+  datePublished: "2026-06-26",
+  dateModified: "2026-06-26",
+
+  quickSummary: [
+    "Detects Dengue infection using NS1 Antigen, IgM and IgG tests",
+    "Helps diagnose dengue during early and late stages",
+    "Often performed along with CBC to monitor platelet count",
+    "Supports timely treatment and prevents severe complications"
+  ],
+
+  normalRanges: [
+    "Platelet Count: 150,000–450,000 /µL",
+    "WBC: 4,000–11,000 /µL",
+    "Hematocrit: As per age and gender",
+    "NS1: Negative",
+    "IgM: Negative",
+    "IgG: Negative"
+  ],
+
+  benefits: [
+    "Early detection of Dengue infection",
+    "Helps monitor platelet count",
+    "Supports timely medical treatment",
+    "Reduces the risk of severe dengue complications"
+  ],
+
+  title:
+    "Dengue Test Guide: Symptoms, NS1, IgM, IgG, Platelet Count & When to Get Tested",
+
+  description:
+    "Learn everything about Dengue testing including NS1 Antigen, IgM, IgG, platelet count, symptoms, diagnosis, preparation, and Dengue testing in Panchkula.",
+
+  metaTitle:
+    "Dengue Test Guide: Symptoms, NS1, IgM, IgG & Platelet Count",
+
+  metaDescription:
+    "Know the symptoms of Dengue, when to get tested, NS1 Antigen, IgM, IgG blood tests, platelet count, home sample collection, and Dengue testing in Panchkula.",
+
+  focusKeyword: "Dengue Test",
+
+  secondaryKeywords: [
+    "NS1 Antigen Test",
+    "Dengue Blood Test",
+    "Dengue IgM Test",
+    "Dengue IgG Test",
+    "Platelet Count Test",
+    "CBC Test for Dengue",
+    "Dengue Symptoms",
+    "Dengue Test in Panchkula",
+    "Dengue Test Near Me",
+    "Fever Blood Test"
+  ],
+
+  relatedBlogs: [
+    {
+      title: "CBC Test Guide",
+      slug: "complete-blood-count-cbc-test"
+    },
+    {
+      title: "Liver Function Test Guide",
+      slug: "liver-health-lft-test-guide"
+    },
+    {
+      title: "Vitamin D Test Guide",
+      slug: "vitamin-d-test-guide"
+    },
+    {
+      title: "Thyroid Test Guide",
+      slug: "thyroid-test-symptoms-guide"
+    }
+  ],
+
+  image: "/blogs/dengue-test.png",
+
+  tableOfContents: [
+    "What Is a Dengue Test?",
+    "What Causes Dengue?",
+    "Common Symptoms of Dengue",
+    "Types of Dengue Tests",
+    "When Should You Get Tested?",
+    "Platelet Count & CBC in Dengue",
+    "Understanding Dengue Test Results",
+    "How To Prepare For A Dengue Test",
+    "Dengue Testing in Panchkula",
+    "Frequently Asked Questions"
+  ],
+
+  tags: [
+    "Dengue Test",
+    "NS1 Test",
+    "IgM Dengue",
+    "IgG Dengue",
+    "Platelet Count",
+    "CBC Test",
+    "Dengue Symptoms",
+    "High Fever",
+    "Mosquito Borne Disease",
+    "Blood Test",
+    "Dengue Blood Test",
+    "Diagnostic Lab",
+    "Pathology Lab",
+    "Same Day Report",
+    "Home Sample Collection",
+    "Dengue Test Near Me",
+    "Dengue Test in Panchkula",
+    "Dengue Test in Chandigarh",
+    "Dengue Test in Mohali",
+    "Dengue Test in Zirakpur",
+    "Monsoon Diseases",
+    "Seasonal Fever Test",
+    "Viral Fever Test"
+  ],
+
+  date: "June 26, 2026",
+
+  author: "Shyam Pathology Lab",
+
+  readTime: "9 Min Read",
+
+  facts: [
+    {
+      label: "Sample Type",
+      value: "Blood"
+    },
+    {
+      label: "Report Time",
+      value: "Same Day"
+    },
+    {
+      label: "Home Collection",
+      value: "Available"
+    },
+    {
+      label: "Fasting",
+      value: "Not Required"
+    }
+  ],
+
+  symptoms: [
+    "High fever",
+    "Severe headache",
+    "Pain behind the eyes",
+    "Joint pain",
+    "Muscle pain",
+    "Skin rash",
+    "Nausea",
+    "Vomiting",
+    "Extreme weakness",
+    "Low platelet count"
+  ],
+
+  sections: [
+
+    {
+      title: "What Is a Dengue Test?",
+      content: `
+A Dengue Test is a blood test used to detect infection caused by the dengue virus.
+
+Dengue is a mosquito-borne viral disease that spreads through the bite of infected Aedes mosquitoes.
+
+Early diagnosis is important because dengue symptoms often resemble viral fever, typhoid, or malaria.
+
+Doctors commonly recommend Dengue testing for individuals experiencing sudden high fever, severe body pain, headache, rash, or a rapidly falling platelet count.
+
+Accurate testing allows doctors to begin appropriate treatment and monitor patients before serious complications develop.
+`
+    },
+
+    {
+      title: "What Causes Dengue?",
+      content: `
+Dengue is caused by the Dengue virus (DENV), which is transmitted through the bite of infected Aedes aegypti mosquitoes.
+
+The disease spreads more frequently during the rainy and monsoon seasons when mosquito breeding increases.
+
+Unlike the common cold, dengue does not spread directly from one person to another.
+
+People living in mosquito-prone areas are at a higher risk, especially if stagnant water is present around homes or workplaces.
+
+Preventing mosquito bites remains the most effective way to reduce dengue infections.
+`
+    },
+
+    {
+      title: "Common Symptoms of Dengue",
+      content: `
+Dengue symptoms usually begin four to ten days after being bitten by an infected mosquito.
+
+Common symptoms include:
+
+• High fever
+• Severe headache
+• Pain behind the eyes
+• Muscle pain
+• Joint pain
+• Nausea
+• Vomiting
+• Skin rash
+• Fatigue
+• Weakness
+
+Some patients may also experience bleeding gums, nosebleeds, abdominal pain, or a rapid drop in platelet count.
+
+If severe symptoms develop, immediate medical attention is required.
+`
+    },
+
+    {
+      title: "Types of Dengue Tests",
+      content: `
+Several laboratory tests help diagnose Dengue depending on how many days symptoms have been present.
+
+The most commonly recommended tests include:
+
+• NS1 Antigen Test
+• Dengue IgM Antibody Test
+• Dengue IgG Antibody Test
+• CBC Test
+• Platelet Count
+
+The NS1 Antigen Test is most useful during the first five days of illness.
+
+IgM antibodies generally appear after the fifth day and indicate a recent infection.
+
+IgG antibodies usually suggest a previous infection or a later stage of the disease.
+
+Doctors often combine Dengue testing with CBC testing to monitor platelet count and white blood cell levels.
+`
+    },
+
+    {
+      title: "When Should You Get Tested?",
+      content: `
+Doctors may recommend Dengue testing if you have:
+
+• Fever lasting more than two days
+• Severe headache
+• Muscle and joint pain
+• Rash
+• Pain behind the eyes
+• Nausea or vomiting
+• Recent mosquito exposure
+• Sudden fall in platelet count
+
+Early testing allows doctors to confirm the diagnosis and begin supportive treatment before complications develop.
+
+People living in dengue-prone regions should not ignore persistent fever during the monsoon season.
+`
+    },
+
+    {
+      title: "Platelet Count & CBC in Dengue",
+      content: `
+One of the biggest concerns during Dengue infection is a falling platelet count.
+
+Platelets help control bleeding, and a significant reduction may increase the risk of complications.
+
+Doctors usually order a Complete Blood Count (CBC) along with Dengue testing to evaluate:
+
+• Platelet Count
+• White Blood Cell Count
+• Hematocrit
+• Hemoglobin
+
+Platelet counts should always be interpreted by a healthcare professional because not every patient with a low platelet count requires platelet transfusion.
+
+Regular monitoring helps doctors decide the appropriate course of treatment.
+`
+    },
+        {
+      title: "Understanding Dengue Test Results",
+      content: `
+A Dengue report should always be interpreted along with your symptoms, physical examination, and medical history.
+
+Generally:
+
+• NS1 Positive – Suggests an early dengue infection, usually within the first five days of illness.
+
+• IgM Positive – Indicates a recent dengue infection. IgM antibodies generally become detectable after the fifth day of fever.
+
+• IgG Positive – May indicate a previous dengue infection or a secondary dengue infection when present with IgM.
+
+• CBC Findings – Dengue commonly causes a decrease in platelet count and white blood cells (leukopenia). In some patients, hematocrit levels may increase because of plasma leakage.
+
+Doctors may repeat CBC testing daily in moderate to severe dengue cases to monitor platelet trends and overall recovery.
+
+Never rely solely on platelet count to determine the severity of dengue. Your doctor will evaluate all laboratory findings together with your symptoms.
+`
+    },
+
+    {
+      title: "How To Prepare For A Dengue Test",
+      content: `
+A Dengue blood test usually requires very little preparation.
+
+Patients generally do not need to fast before testing.
+
+For the most accurate diagnosis:
+
+• Stay well hydrated.
+• Inform your doctor about any medications you are taking.
+• Mention the first day your fever started, as it helps determine whether NS1 or antibody testing is more appropriate.
+• Wear loose-fitting clothing to make blood collection easier.
+
+The blood sample collection takes only a few minutes, and most reports are available on the same day.
+`
+    },
+
+    {
+      title: "How Can You Prevent Dengue?",
+      content: `
+Preventing mosquito bites is the best way to reduce the risk of dengue infection.
+
+Simple preventive measures include:
+
+• Avoid stagnant water around your home.
+• Use mosquito repellents regularly.
+• Wear full-sleeved clothing, especially during early morning and evening hours.
+• Install window screens and mosquito nets.
+• Cover water storage containers properly.
+• Keep your surroundings clean to prevent mosquito breeding.
+
+Community awareness and early diagnosis play an important role in controlling dengue outbreaks during the monsoon season.
+`
+    },
+
+    {
+      title: "Dengue Testing in Panchkula",
+      content: `
+Shyam Pathology Lab provides reliable Dengue Testing in Panchkula with accurate reporting and convenient home blood sample collection.
+
+Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, and nearby areas can easily book Dengue testing from home.
+
+Our laboratory offers:
+
+• NS1 Antigen Testing
+• Dengue IgM & IgG Testing
+• CBC Testing
+• Platelet Count Monitoring
+• Fast and Reliable Reports
+• Home Sample Collection
+
+Early diagnosis helps doctors monitor patients closely and reduces the risk of severe dengue complications.
+`
+    }
+  ],
+
+  faqs: [
+    {
+      question: "When should I get a Dengue Test?",
+      answer:
+        "If you have high fever, severe body pain, headache, rash, or other symptoms suggestive of dengue, your doctor may recommend testing. Early testing improves diagnosis and treatment."
+    },
+    {
+      question: "What is the NS1 Antigen Test?",
+      answer:
+        "The NS1 Antigen Test detects the dengue virus during the early stage of infection, usually within the first five days after symptoms begin."
+    },
+    {
+      question: "Is fasting required before a Dengue Test?",
+      answer:
+        "No. Fasting is generally not required before a Dengue blood test."
+    },
+    {
+      question: "Why is CBC recommended with a Dengue Test?",
+      answer:
+        "A CBC helps monitor platelet count, white blood cells, hemoglobin, and hematocrit, all of which are important during dengue infection."
+    },
+    {
+      question: "Can a normal platelet count rule out Dengue?",
+      answer:
+        "No. Platelet counts may remain normal during the early stages of dengue. Doctors interpret platelet counts together with NS1, IgM, IgG results, symptoms, and physical examination."
+    },
+    {
+      question: "How long does a Dengue Test take?",
+      answer:
+        "Blood sample collection usually takes only a few minutes, and most reports are available the same day depending on the test performed."
+    },
+    {
+      question: "Can I book a Dengue Test at home in Panchkula?",
+      answer:
+        "Yes. Shyam Pathology Lab offers convenient home blood sample collection for Dengue testing in Panchkula and nearby areas."
+    }
+  ],
+
+  relatedTests: [
+    {
+      slug: "complete-blood-count-cbc-test",
+      name: "Complete Blood Count (CBC)"
+    },
+    {
+      slug: "full-body-checkup",
+      name: "Full Body Checkup"
+    },
+    {
+      slug: "monsoon-gastro-infection-panel",
+      name: "Monsoon Gastro Infection Panel"
+    },
+    {
+      slug: "liver-function-test",
+      name: "Liver Function Test (LFT)"
+    },
+    {
+      slug: "health-checkup-camp",
+      name: "Health Checkup Camp"
+    }
+  ],
+
+  cta: {
+    title: "Book Your Dengue Test Today",
+    description:
+      "Get accurate Dengue testing with NS1, IgM, IgG, CBC, platelet count monitoring, home sample collection, and same-day reporting from Shyam Pathology Lab.",
+    buttonText: "Book Dengue Test",
+    buttonLink: "/services/dengue-test"
+  }
+
+},
+{
+  slug: "typhoid-test-symptoms-guide",
+
+  datePublished: "2026-06-26",
+  dateModified: "2026-06-26",
+
+  quickSummary: [
+    "Detects Typhoid fever using Widal, Typhi Dot, and Blood Culture tests",
+    "Helps diagnose Salmonella Typhi infection",
+    "Useful for persistent fever lasting more than 3 days",
+    "Supports early treatment and prevents complications"
+  ],
+
+  normalRanges: [
+    "Typhi Dot IgM: Negative",
+    "Typhi Dot IgG: Negative",
+    "Blood Culture: No Salmonella Growth",
+    "WBC: 4,000–11,000 /µL",
+    "Platelets: 150,000–450,000 /µL"
+  ],
+
+  benefits: [
+    "Early diagnosis of Typhoid fever",
+    "Supports timely antibiotic treatment",
+    "Helps distinguish typhoid from dengue or malaria",
+    "Reduces risk of severe complications"
+  ],
+
+  title:
+    "Typhoid Test Guide: Symptoms, Widal Test, Typhi Dot, Blood Culture & When to Get Tested",
+
+  description:
+    "Learn everything about Typhoid testing including Widal Test, Typhi Dot, Blood Culture, symptoms, diagnosis, preparation, and Typhoid testing in Panchkula.",
+
+  metaTitle:
+    "Typhoid Test Guide: Widal Test, Typhi Dot, Symptoms & Blood Culture",
+
+  metaDescription:
+    "Know the symptoms of Typhoid fever, Widal Test, Typhi Dot, Blood Culture, preparation, home sample collection, and Typhoid testing in Panchkula.",
+
+  focusKeyword: "Typhoid Test",
+
+  secondaryKeywords: [
+    "Widal Test",
+    "Typhi Dot Test",
+    "Typhoid Blood Test",
+    "Blood Culture Test",
+    "Typhoid Symptoms",
+    "Typhoid Fever Test",
+    "Typhoid Test in Panchkula",
+    "Typhoid Test Near Me",
+    "Persistent Fever Test",
+    "Salmonella Test"
+  ],
+
+  relatedBlogs: [
+    {
+      title: "CBC Test Guide",
+      slug: "complete-blood-count-cbc-test"
+    },
+    {
+      title: "Dengue Test Guide",
+      slug: "dengue-test-symptoms-guide"
+    },
+    {
+      title: "Liver Function Test Guide",
+      slug: "liver-health-lft-test-guide"
+    },
+    {
+      title: "Vitamin D Test Guide",
+      slug: "vitamin-d-test-guide"
+    }
+  ],
+
+  image: "/blogs/typhoid-test.png",
+
+  tableOfContents: [
+    "What Is a Typhoid Test?",
+    "What Causes Typhoid?",
+    "Symptoms of Typhoid Fever",
+    "Types of Typhoid Tests",
+    "Who Should Get Tested?",
+    "Understanding Typhoid Test Results",
+    "Benefits of Early Diagnosis",
+    "How To Prepare For A Typhoid Test",
+    "Typhoid Testing in Panchkula",
+    "Frequently Asked Questions"
+  ],
+
+  tags: [
+    "Typhoid Test",
+    "Typhoid Fever",
+    "Widal Test",
+    "Typhi Dot",
+    "Blood Culture",
+    "Salmonella Typhi",
+    "Persistent Fever",
+    "High Fever",
+    "Blood Test",
+    "Typhoid Blood Test",
+    "Diagnostic Lab",
+    "Pathology Lab",
+    "Same Day Report",
+    "Home Sample Collection",
+    "Typhoid Test Near Me",
+    "Typhoid Test in Panchkula",
+    "Typhoid Test in Chandigarh",
+    "Typhoid Test in Mohali",
+    "Typhoid Test in Zirakpur",
+    "Monsoon Diseases",
+    "Seasonal Fever",
+    "Fever Blood Test"
+  ],
+
+  date: "June 26, 2026",
+
+  author: "Shyam Pathology Lab",
+
+  readTime: "9 Min Read",
+
+  facts: [
+    {
+      label: "Sample Type",
+      value: "Blood"
+    },
+    {
+      label: "Report Time",
+      value: "Same Day"
+    },
+    {
+      label: "Home Collection",
+      value: "Available"
+    },
+    {
+      label: "Fasting",
+      value: "Not Required"
+    }
+  ],
+
+  symptoms: [
+    "Persistent high fever",
+    "Headache",
+    "Loss of appetite",
+    "Weakness",
+    "Abdominal pain",
+    "Constipation",
+    "Diarrhea",
+    "Body ache",
+    "Nausea",
+    "Fatigue"
+  ],
+
+  sections: [
+
+    {
+      title: "What Is a Typhoid Test?",
+      content: `
+A Typhoid Test is a blood test used to detect infection caused by Salmonella Typhi bacteria.
+
+Typhoid fever is a bacterial infection that spreads through contaminated food and water.
+
+Early diagnosis is important because typhoid symptoms often resemble dengue, malaria, and viral fever.
+
+Doctors recommend Typhoid testing for people with persistent fever, weakness, abdominal discomfort, or digestive symptoms lasting several days.
+
+Timely diagnosis helps doctors begin appropriate antibiotic treatment and prevents serious complications.
+`
+    },
+
+    {
+      title: "What Causes Typhoid?",
+      content: `
+Typhoid fever is caused by the bacterium Salmonella Typhi.
+
+The infection spreads through contaminated food, unsafe drinking water, or poor hygiene.
+
+People may become infected after consuming food prepared by someone carrying the bacteria or drinking contaminated water.
+
+Maintaining proper hand hygiene, drinking clean water, and eating hygienically prepared food significantly reduce the risk of typhoid.
+`
+    },
+
+    {
+      title: "Common Symptoms of Typhoid Fever",
+      content: `
+Typhoid symptoms usually develop gradually over several days.
+
+Common symptoms include:
+
+• Persistent high fever
+• Headache
+• Weakness
+• Fatigue
+• Loss of appetite
+• Abdominal pain
+• Constipation or diarrhea
+• Muscle pain
+• Nausea
+• Dry cough
+
+Some patients may also experience confusion, dehydration, or intestinal complications if treatment is delayed.
+`
+    },
+
+    {
+      title: "Types of Typhoid Tests",
+      content: `
+Doctors may recommend different tests depending on the duration of illness.
+
+Common Typhoid investigations include:
+
+• Widal Test
+• Typhi Dot IgM
+• Typhi Dot IgG
+• Blood Culture
+• Complete Blood Count (CBC)
+
+Blood culture is considered the gold standard during the early stage of infection.
+
+Typhi Dot tests help detect antibodies against Salmonella Typhi, while the Widal Test may be used as an additional investigation depending on clinical findings.
+
+Doctors often combine these tests with CBC to evaluate the patient's overall health.
+`
+    },
+
+    {
+      title: "Who Should Get a Typhoid Test?",
+      content: `
+A Typhoid Test may be recommended if you have:
+
+• Fever lasting more than three days
+• Persistent weakness
+• Headache
+• Abdominal pain
+• Loss of appetite
+• Diarrhea or constipation
+• Recent consumption of contaminated food or water
+• Travel to areas where typhoid is common
+
+Early diagnosis helps prevent severe complications and improves recovery.
+`
+    },
+        {
+      title: "Understanding Typhoid Test Results",
+      content: `
+Typhoid test results should always be interpreted together with your symptoms, physical examination, and medical history.
+
+Different laboratory tests provide different information:
+
+• Blood Culture Positive – Confirms the presence of Salmonella Typhi bacteria and is considered the gold standard during the early stage of illness.
+
+• Typhi Dot IgM Positive – Usually indicates a recent or active Typhoid infection.
+
+• Typhi Dot IgG Positive – May indicate a previous infection or a later stage of illness.
+
+• Widal Test – Measures antibodies against Salmonella Typhi. Results should always be interpreted carefully because previous infections, vaccinations, or other illnesses may affect antibody levels.
+
+Doctors may also review CBC findings because some patients develop reduced white blood cell counts during Typhoid fever.
+
+Your healthcare provider will combine laboratory findings with your symptoms before confirming the diagnosis.
+`
+    },
+
+    {
+      title: "Benefits of Early Diagnosis",
+      content: `
+Early diagnosis plays a crucial role in preventing complications associated with Typhoid fever.
+
+Benefits of early testing include:
+
+• Timely antibiotic treatment
+• Faster recovery
+• Reduced risk of intestinal bleeding
+• Lower risk of intestinal perforation
+• Prevention of dehydration
+• Reduced spread of infection to others
+• Better monitoring of recovery
+
+Delaying diagnosis may increase the likelihood of hospitalization and prolonged illness.
+`
+    },
+
+    {
+      title: "How To Prepare For A Typhoid Test",
+      content: `
+Typhoid testing usually requires very little preparation.
+
+In most cases:
+
+• Fasting is not required.
+• Drink adequate water before sample collection.
+• Inform your doctor about any antibiotics you have recently taken because they may affect Blood Culture results.
+• Tell your healthcare provider when your fever started, as this helps determine which laboratory test is most appropriate.
+
+Blood sample collection generally takes only a few minutes, and most reports are available the same day depending on the test performed.
+`
+    },
+
+    {
+      title: "How Can You Prevent Typhoid?",
+      content: `
+Although Typhoid fever is treatable, prevention is always the best approach.
+
+Simple preventive measures include:
+
+• Drink clean and purified water.
+• Wash hands thoroughly before eating.
+• Avoid eating food from unhygienic places.
+• Wash fruits and vegetables properly.
+• Maintain good personal hygiene.
+• Consume freshly cooked food whenever possible.
+• Consider Typhoid vaccination if recommended by your doctor.
+
+Following these practices significantly reduces the risk of infection.
+`
+    },
+
+    {
+      title: "Typhoid Testing in Panchkula",
+      content: `
+Shyam Pathology Lab offers accurate Typhoid Testing in Panchkula with reliable reports and convenient home blood sample collection services.
+
+Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, and nearby areas can easily book Typhoid testing from home.
+
+Available investigations include:
+
+• Blood Culture
+• Widal Test
+• Typhi Dot IgM & IgG
+• CBC Test
+• Home Sample Collection
+• Same-Day Reporting for most tests
+
+Accurate diagnosis allows doctors to begin treatment early and helps reduce the risk of serious complications.
+`
+    }
+
+  ],
+
+  faqs: [
+    {
+      question: "When should I get a Typhoid Test?",
+      answer:
+        "A Typhoid Test is recommended if you have a persistent fever lasting more than three days, weakness, abdominal discomfort, headache, or digestive symptoms. Your doctor will decide which test is most appropriate based on your symptoms and illness duration."
+    },
+    {
+      question: "Which test is best for Typhoid?",
+      answer:
+        "Blood Culture is considered the gold standard during the early stage of infection. Depending on the duration of illness, your doctor may also recommend Typhi Dot or Widal testing."
+    },
+    {
+      question: "Is fasting required before a Typhoid Test?",
+      answer:
+        "No. Fasting is generally not required before Typhoid blood tests."
+    },
+    {
+      question: "Can Typhoid and Dengue occur together?",
+      answer:
+        "Yes. In some cases, a person may have both infections simultaneously, especially during the monsoon season. Your doctor may recommend multiple blood tests to identify the exact cause of fever."
+    },
+    {
+      question: "How long does a Typhoid Test take?",
+      answer:
+        "Blood sample collection usually takes only a few minutes. Report availability depends on the test performed, with many results available on the same day."
+    },
+    {
+      question: "Can I book a Typhoid Test at home in Panchkula?",
+      answer:
+        "Yes. Shyam Pathology Lab provides convenient home blood sample collection services for Typhoid testing in Panchkula and nearby areas."
+    },
+    {
+      question: "Can Typhoid be cured if detected early?",
+      answer:
+        "Yes. Early diagnosis and appropriate antibiotic treatment prescribed by a qualified doctor usually result in complete recovery and help prevent serious complications."
+    }
+  ],
+
+  relatedTests: [
+    {
+      slug: "complete-blood-count-cbc-test",
+      name: "Complete Blood Count (CBC)"
+    },
+    {
+      slug: "dengue-test-symptoms-guide",
+      name: "Dengue Test Guide"
+    },
+    {
+      slug: "malaria-test-guide",
+      name: "Malaria Test Guide"
+    },
+    {
+      slug: "full-body-checkup",
+      name: "Full Body Checkup"
+    },
+    {
+      slug: "health-checkup-camp",
+      name: "Health Checkup Camp"
+    }
+  ],
+
+  cta: {
+    title: "Book Your Typhoid Test Today",
+    description:
+      "Get accurate Typhoid testing with Blood Culture, Widal Test, Typhi Dot, home sample collection, and fast reporting from Shyam Pathology Lab.",
+    buttonText: "Book Typhoid Test",
+    buttonLink: "/services/typhoid-test"
+  }
+},
 
 
 ];

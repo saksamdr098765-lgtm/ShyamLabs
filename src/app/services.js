@@ -1159,7 +1159,219 @@ keywords: [
 "Liver Screening Test",
 "Shyam Budget Friendly Labs"
 ]
-}
+},
+{
+  slug: "kidney-function-test-panchkula",
+
+  title: "Kidney Function Test (KFT/RFT) in Panchkula | Accurate Kidney Health Screening",
+
+  subtitle:
+    "Comprehensive Kidney Function Testing with Home Sample Collection and Fast Reports",
+
+  description:
+    "Book a Kidney Function Test (KFT/RFT) in Panchkula with free home sample collection from Shyam Budget Friendly Labs. Measure Creatinine, Urea, Uric Acid, BUN, Electrolytes, and eGFR to evaluate kidney health, detect kidney disease, and monitor ongoing treatment. Accurate reports within 24 hours.",
+
+  image: "/services/kft-test.png",
+
+  category: "Kidney Test",
+
+  related: [
+    "cbc-test",
+    "liver-function-test-panchkula",
+    "lipid-profile-test-panchkula"
+  ],
+
+  symptoms: [
+    "Swelling in feet or ankles",
+    "Frequent urination",
+    "Reduced urine output",
+    "Fatigue",
+    "Loss of appetite",
+    "Nausea",
+    "High blood pressure",
+    "Foamy urine"
+  ],
+
+  whoShouldGet: [
+    "People with diabetes",
+    "Patients with high blood pressure",
+    "Individuals with kidney disease symptoms",
+    "Older adults",
+    "People with family history of kidney disease",
+    "Patients taking long-term medications"
+  ],
+
+  procedure: [
+    "A blood sample is collected from a vein.",
+    "Kidney function markers are analyzed.",
+    "Electrolytes and waste products are measured.",
+    "Results are reviewed by laboratory experts.",
+    "Reports are delivered within 24 hours."
+  ],
+
+  normalRanges: [
+    {
+      parameter: "Creatinine",
+      range: "0.6–1.3 mg/dL"
+    },
+    {
+      parameter: "Blood Urea",
+      range: "15–40 mg/dL"
+    },
+    {
+      parameter: "Uric Acid",
+      range: "3.5–7.2 mg/dL"
+    },
+    {
+      parameter: "eGFR",
+      range: ">90 mL/min/1.73m²"
+    }
+  ],
+
+  facts: [
+    {
+      label: "Report Time",
+      value: "24 Hours"
+    },
+    {
+      label: "Sample Type",
+      value: "Blood"
+    },
+    {
+      label: "Fasting",
+      value: "Not Required"
+    },
+    {
+      label: "Home Collection",
+      value: "Available"
+    }
+  ],
+
+  benefits: [
+    "Evaluates kidney function",
+    "Detects early kidney disease",
+    "Monitors chronic kidney disease",
+    "Assesses electrolyte balance",
+    "Helps monitor diabetes-related kidney damage",
+    "Supports treatment planning",
+    "Useful before surgery",
+    "Recommended for routine health screening"
+  ],
+
+  parameters: [
+    "Serum Creatinine",
+    "Blood Urea",
+    "Blood Urea Nitrogen (BUN)",
+    "Uric Acid",
+    "Sodium",
+    "Potassium",
+    "Chloride",
+    "Calcium",
+    "Estimated Glomerular Filtration Rate (eGFR)"
+  ],
+
+  preparation: [
+    "Fasting is usually not required",
+    "Drink adequate water before testing",
+    "Inform your doctor about current medications",
+    "Avoid strenuous exercise before sample collection",
+    "Carry previous reports if available"
+  ],
+
+  sections: [
+    {
+      title: "What Is a Kidney Function Test (KFT)?",
+      content: [
+        "A Kidney Function Test (KFT), also known as a Renal Function Test (RFT), is a group of blood tests that evaluate how well your kidneys filter waste products and maintain fluid and electrolyte balance.",
+        "The test measures important kidney markers such as Creatinine, Blood Urea, Uric Acid, Electrolytes, and eGFR to assess overall kidney health."
+      ]
+    },
+    {
+      title: "Why Is a Kidney Function Test Important?",
+      content: [
+        "Healthy kidneys remove waste products, regulate blood pressure, maintain electrolyte balance, and support overall body function.",
+        "Kidney disease often develops silently. Early testing helps detect abnormalities before symptoms become severe."
+      ]
+    },
+    {
+      title: "Who Should Get a Kidney Function Test?",
+      content: [
+        "People with diabetes, hypertension, obesity, recurrent urinary infections, kidney stone history, or a family history of kidney disease should consider regular kidney screening.",
+        "Doctors also recommend KFT for patients taking certain long-term medications or before major surgeries."
+      ]
+    },
+    {
+      title: "Kidney Function Test in Panchkula with Home Collection",
+      content: [
+        "Shyam Budget Friendly Labs offers affordable Kidney Function Tests in Panchkula with free home sample collection and accurate laboratory analysis.",
+        "We serve patients across Panchkula, Chandigarh, Mohali, Zirakpur, and nearby areas with reliable diagnostics and timely reports."
+      ]
+    },
+    {
+      title: "Understanding Kidney Function Test Results",
+      content: [
+        "Creatinine, Blood Urea, and eGFR values help doctors evaluate kidney filtration and identify possible kidney damage.",
+        "Results should always be interpreted by your healthcare provider along with your symptoms and medical history."
+      ]
+    }
+  ],
+
+  faqs: [
+    {
+      question: "What does a Kidney Function Test measure?",
+      answer:
+        "It measures Creatinine, Blood Urea, Uric Acid, Electrolytes, and eGFR to assess kidney function."
+    },
+    {
+      question: "Is fasting required before a Kidney Function Test?",
+      answer:
+        "No, fasting is generally not required unless advised by your doctor."
+    },
+    {
+      question: "How long does it take to receive the report?",
+      answer:
+        "Most Kidney Function Test reports are available within 24 hours."
+    },
+    {
+      question: "Can I book a Kidney Function Test at home?",
+      answer:
+        "Yes, Shyam Budget Friendly Labs provides home sample collection across Panchkula and nearby areas."
+    },
+    {
+      question: "Who should undergo regular kidney function testing?",
+      answer:
+        "People with diabetes, high blood pressure, kidney disease, or a family history of kidney disorders should undergo periodic testing."
+    },
+    {
+      question: "Can KFT detect kidney disease early?",
+      answer:
+        "Yes, Kidney Function Tests can help identify early signs of kidney dysfunction before symptoms become severe."
+    }
+  ],
+
+  keywords: [
+    "Kidney Function Test in Panchkula",
+    "KFT Test Panchkula",
+    "RFT Test Panchkula",
+    "Renal Function Test",
+    "Creatinine Test",
+    "Blood Urea Test",
+    "Kidney Blood Test",
+    "eGFR Test",
+    "Kidney Disease Test",
+    "Kidney Health Check",
+    "Diagnostic Lab Panchkula",
+    "Pathology Lab Panchkula",
+    "Blood Test at Home Panchkula",
+    "Home Sample Collection Panchkula",
+    "Kidney Function Test Chandigarh",
+    "Kidney Function Test Mohali",
+    "Kidney Function Test Zirakpur",
+    "Affordable Kidney Test",
+    "Kidney Screening",
+    "Shyam Budget Friendly Labs"
+  ]
+},
 
 
 ]

@@ -9,6 +9,7 @@ export default function PackageDetailPage({ packageData }) {
   const {
     title,
     price,
+    image,
     subtitle,
     description,
     includedTests = [],
@@ -37,50 +38,74 @@ export default function PackageDetailPage({ packageData }) {
         }}
       />
 
-      {/* HEADER */}
-      <section className="relative pt-28 pb-16">
-        <div className="max-w-5xl mx-auto px-5">
+ {/* HEADER */}
+<section className="relative pt-28 pb-16">
+  <div className="max-w-6xl mx-auto px-5">
 
-          <span className="text-sm font-semibold text-[#78BE43]">
-            HEALTH PACKAGE DETAILS
-          </span>
+    <div className="grid lg:grid-cols-2 gap-12 items-center">
 
-          <h1 className="mt-4 text-4xl md:text-6xl font-black text-slate-900">
-            {title}
-          </h1>
+      {/* LEFT CONTENT */}
+      <div>
+        <span className="text-sm font-semibold text-[#78BE43]">
+          HEALTH PACKAGE DETAILS
+        </span>
 
-          {subtitle && (
-            <p className="mt-3 text-lg text-[#0A4F8A] font-medium">
-              {subtitle}
-            </p>
-          )}
+        <h1 className="mt-4 text-4xl md:text-6xl font-black text-slate-900">
+          {title}
+        </h1>
 
-          <p className="mt-4 text-slate-600 max-w-2xl">
-            {description}
+        {subtitle && (
+          <p className="mt-3 text-lg text-[#0A4F8A] font-medium">
+            {subtitle}
           </p>
+        )}
 
-          <div className="mt-8 flex flex-wrap items-center gap-4">
-            <div className="text-4xl font-black text-[#0A4F8A]">
-              {price}
-            </div>
+        <p className="mt-4 text-slate-600 max-w-2xl">
+          {description}
+        </p>
 
-            {/* BOOK NOW → WHATSAPP */}
-            <button
-              onClick={() =>{
-                     trackEvent(`whatsApp_click`,{
-                page_location:window.location.href
-              })
-                openWhatsApp(
-                  `Hello, I want to book the *${title}* package (${price}). Please provide details and availability.`
-                )
-              }}
-              className="px-6 cursor-pointer py-3 rounded-full bg-[#0A4F8A] text-white font-semibold flex items-center gap-2 hover:bg-[#083a66] transition"
-            >
-              Book Now <FaArrowRight />
-            </button>
+        <div className="mt-8 flex flex-wrap items-center gap-4">
+          <div className="text-4xl font-black text-[#0A4F8A]">
+            {price}
           </div>
+
+          <button
+            onClick={() => {
+              trackEvent("whatsApp_click", {
+                page_location: window.location.href,
+              });
+
+              openWhatsApp(
+                `Hello, I want to book the *${title}* package (${price}). Please provide details and availability.`
+              );
+            }}
+            className="px-6 py-3 rounded-full bg-[#0A4F8A] text-white font-semibold flex items-center gap-2 hover:bg-[#083a66] transition"
+          >
+            Book Now <FaArrowRight />
+          </button>
         </div>
-      </section>
+      </div>
+
+      {/* RIGHT IMAGE */}
+      {image && <motion.div
+        initial={{ opacity: 0, x: 30 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+        className="relative"
+      >
+        <div className="absolute -top-5 -left-5 w-32 h-32 bg-[#78BE43]/10 rounded-full blur-3xl" />
+
+        <img
+          src={image}
+          alt={title}
+          className="w-full h-[420px] object-cover rounded-3xl shadow-xl"
+        />
+      </motion.div>}
+
+    </div>
+
+  </div>
+</section>
 
       {/* CONTENT */}
       <section className="pb-24">

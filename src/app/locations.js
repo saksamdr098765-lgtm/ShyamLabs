@@ -1425,4 +1425,272 @@ At Shyam Budget Friendly Labs, we focus on providing accurate diagnostics, affor
     "Schedule home sample collection anywhere in Panchkula and receive accurate pathology reports from a trusted diagnostic laboratory."
 
 },
+
+{
+  slug: "mohali",
+
+  city: "Mohali",
+
+  title: "Blood Test in Mohali | Home Sample Collection & Health Checkups",
+
+  description:
+    "Looking for a blood test in Mohali? Shyam Budget Friendly Labs offers affordable pathology services, home sample collection, CBC tests, thyroid tests, diabetes screening, vitamin tests, and full body health checkups with accurate reports.",
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/mohali.png",
+
+  featuredPackages: [
+    "full-body-checkup",
+    "executive-full-body-checkup",
+    "swasthya-mitra-advance",
+    "lipid-profile-test",
+    "vitamin-d-b12-combo",
+    "hba1c-test",
+    "senior-citizen-male-package",
+    "home-sample-collection"
+  ],
+
+  heroTitle:
+    "Affordable Blood Tests & Home Sample Collection in Mohali",
+
+  heroSubtitle:
+    "Book diagnostic tests from your home with certified sample collection, accurate pathology testing, and fast online reports.",
+
+  cityOverview: {
+    title: "Healthcare & Diagnostic Services in Mohali",
+    content: `
+    Mohali (SAS Nagar) is one of Punjab's fastest-growing cities and a major part of the Chandigarh Tricity region. Home to IT companies, educational institutions, hospitals, and residential communities, Mohali has witnessed increasing demand for preventive healthcare and convenient diagnostic services.
+
+    Shyam Budget Friendly Labs provides affordable pathology testing, doorstep blood sample collection, and quick digital reports across Mohali, helping residents access quality healthcare without visiting a diagnostic centre.
+    `
+  },
+
+  whyChooseUs: [
+    {
+      title: "Home Sample Collection",
+      description:
+        "Book blood tests from any sector in Mohali with convenient doorstep sample collection."
+    },
+    {
+      title: "Affordable Diagnostic Services",
+      description:
+        "Transparent pricing for routine blood tests and preventive health packages."
+    },
+    {
+      title: "Experienced Collection Team",
+      description:
+        "Certified professionals ensure safe, hygienic, and accurate sample collection."
+    },
+    {
+      title: "Fast Digital Reports",
+      description:
+        "Receive reports through WhatsApp, email, and secure online access."
+    }
+  ],
+
+  healthConditions: [
+    "Diabetes Monitoring",
+    "Thyroid Disorders",
+    "Vitamin D Deficiency",
+    "Vitamin B12 Deficiency",
+    "High Cholesterol",
+    "Anemia",
+    "Liver Function Disorders",
+    "Kidney Health Monitoring"
+  ],
+
+  whoShouldGetTested: [
+    "IT Professionals",
+    "Working Professionals",
+    "Senior Citizens",
+    "Students",
+    "Women",
+    "Fitness Enthusiasts",
+    "Patients with Diabetes",
+    "Individuals Seeking Preventive Healthcare"
+  ],
+
+  popularSearches: [
+    "Blood Test in Mohali",
+    "CBC Test Mohali",
+    "Thyroid Test Mohali",
+    "Vitamin D Test Mohali",
+    "HbA1c Test Mohali",
+    "Full Body Checkup Mohali",
+    "Home Sample Collection Mohali",
+    "Diagnostic Lab Near Me Mohali"
+  ],
+
+  cityDescription: `
+Mohali, officially known as Sahibzada Ajit Singh Nagar, has emerged as one of North India's leading IT and healthcare hubs. The city is home to numerous multinational companies, educational institutions, hospitals, and rapidly expanding residential sectors.
+
+With increasingly busy lifestyles and greater awareness of preventive healthcare, residents frequently book routine blood tests and annual health checkups to monitor diabetes, thyroid disorders, cholesterol levels, vitamin deficiencies, liver health, kidney function, and overall wellness.
+
+Shyam Budget Friendly Labs offers reliable pathology services across Mohali with affordable pricing and professional home sample collection. Patients across Phase 3B2, Phase 5, Phase 7, Phase 10, Sector 68, Sector 70, Aerocity, Kharar Road, and Airport Road rely on our diagnostic services.
+
+Popular investigations include CBC Tests, Thyroid Profiles, Vitamin D Tests, Vitamin B12 Tests, HbA1c Diabetes Screening, Lipid Profiles, Liver Function Tests, Kidney Function Tests, Blood Sugar Tests, and comprehensive Full Body Health Checkups.
+
+Our trained collection professionals ensure hygienic sample collection while patients enjoy the convenience of receiving reports digitally without unnecessary travel.
+`,
+
+  services: [
+    {
+      name: "CBC Test in Mohali",
+      slug: "/services/cbc-test"
+    },
+    {
+      name: "Thyroid Profile Test in Mohali",
+      slug: "/services/thyroid-test-panchkula"
+    },
+    {
+      name: "Vitamin D Test in Mohali",
+      slug: "/services/vitamin-d-test-panchkula"
+    },
+    {
+      name: "HbA1c Diabetes Test in Mohali",
+      slug: "/services/hba1c-test"
+    },
+    {
+      name: "Full Body Checkup in Mohali",
+      slug: "/services/full-body-checkup"
+    }
+  ],
+
+  popularTests: [
+    "CBC Blood Test Mohali",
+    "Full Body Checkup Mohali",
+    "HbA1c Test Mohali",
+    "Vitamin D Test Mohali",
+    "Thyroid Profile Mohali",
+    "Lipid Profile Mohali",
+    "Kidney Function Test Mohali",
+    "Liver Function Test Mohali",
+    "Blood Sugar Test Mohali",
+    "Vitamin B12 Test Mohali"
+  ],
+
+  facts: [
+    { label: "Areas Served", value: "35+ Mohali Locations" },
+    { label: "Tests Available", value: "150+ Diagnostic Tests" },
+    { label: "Collection Service", value: "Doorstep Sample Pickup" },
+    { label: "Report Delivery", value: "Online & WhatsApp Reports" }
+  ],
+
+  sections: [
+    {
+      title: "Diagnostic Testing Across Mohali",
+      content: [
+        "Residents across Mohali trust Shyam Budget Friendly Labs for routine blood investigations and preventive healthcare.",
+        "We provide diagnostic services for professionals, families, students, and senior citizens."
+      ]
+    },
+    {
+      title: "Doorstep Blood Collection in Mohali",
+      content: [
+        "Book blood sample collection from your home without visiting a laboratory.",
+        "Certified phlebotomists follow strict hygiene and quality standards."
+      ]
+    },
+    {
+      title: "Preventive Health Screening",
+      content: [
+        "Routine health screening helps identify diseases early.",
+        "Our packages cover diabetes, thyroid disorders, cholesterol, liver function, kidney function, and nutritional deficiencies."
+      ]
+    },
+    {
+      title: "Why Mohali Residents Choose Us",
+      content: [
+        "Affordable pricing, dependable reports, professional staff, and convenient home collection make us a preferred diagnostic partner.",
+        "We focus on delivering quality healthcare with maximum convenience."
+      ]
+    }
+  ],
+
+  nearbyAreas: [
+    "Phase 3B2",
+    "Phase 5",
+    "Phase 7",
+    "Phase 10",
+    "Sector 68",
+    "Sector 70",
+    "Aerocity",
+    "Airport Road"
+  ],
+
+  testimonials: [
+    {
+      name: "Rahul Mehta",
+      review:
+        "Booked a full body checkup from Phase 7. Home collection was punctual and reports arrived quickly."
+    },
+    {
+      name: "Simran Kaur",
+      review:
+        "Affordable blood testing with excellent customer support. Highly recommended."
+    },
+    {
+      name: "Anil Sharma",
+      review:
+        "Professional staff and convenient home sample collection service."
+    }
+  ],
+
+  faqs: [
+    {
+      question: "Do you provide home sample collection across Mohali?",
+      answer:
+        "Yes, we offer doorstep blood collection throughout Mohali and nearby areas."
+    },
+    {
+      question: "Which sectors do you cover?",
+      answer:
+        "We serve Phase 3B2, Phase 5, Phase 7, Phase 10, Aerocity, Sector 68, Sector 70, Airport Road, and surrounding areas."
+    },
+    {
+      question: "Which blood tests are commonly booked?",
+      answer:
+        "CBC, Thyroid Profile, HbA1c, Vitamin D, Lipid Profile, Blood Sugar Tests, and Full Body Checkups are among the most popular."
+    },
+    {
+      question: "Can I schedule an early morning appointment?",
+      answer:
+        "Yes, early morning fasting sample collection appointments are available."
+    },
+    {
+      question: "How are reports delivered?",
+      answer:
+        "Reports are delivered digitally through WhatsApp, email, and secure online access."
+    }
+  ],
+
+  relatedLocations: [
+    { city: "Chandigarh", slug: "/locations/chandigarh" },
+    { city: "Panchkula", slug: "/locations/panchkula" },
+    { city: "Rajpura", slug: "/locations/rajpura" }
+  ],
+
+  tags: [
+    "Blood Test in Mohali",
+    "Pathology Lab Mohali",
+    "Diagnostic Centre Mohali",
+    "CBC Test Mohali",
+    "Thyroid Test Mohali",
+    "Home Sample Collection Mohali",
+    "Full Body Checkup Mohali",
+    "Diabetes Test Mohali",
+    "Vitamin D Test Mohali",
+    "Health Checkup Packages Mohali",
+    "Preventive Health Screening Mohali",
+    "Medical Lab Mohali"
+  ],
+
+  ctaTitle: "Book a Blood Test in Mohali Today",
+
+  ctaDescription:
+    "Schedule home sample collection anywhere in Mohali and receive accurate pathology reports from a trusted diagnostic laboratory."
+}
+
+
 ];
