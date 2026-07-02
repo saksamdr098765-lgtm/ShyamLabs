@@ -1372,6 +1372,208 @@ keywords: [
     "Shyam Budget Friendly Labs"
   ]
 },
+{
+  slug: "vitamin-b12-test-panchkula",
 
+  title:
+    "Vitamin B12 Test in Panchkula | Accurate Vitamin B12 Blood Test with Home Collection",
+
+  subtitle:
+    "Affordable Vitamin B12 Testing for Energy, Nerve Health & Overall Wellness",
+
+  description:
+    "Book a Vitamin B12 Test in Panchkula with home sample collection from Shyam Budget Friendly Labs. Detect Vitamin B12 deficiency, monitor treatment, evaluate anemia, nerve health, fatigue, and nutritional status with accurate reports delivered within 24 hours.",
+
+  image: "/services/vitamin-b12-test.png",
+
+  category: "Vitamin Test",
+
+  related: [
+    "vitamin-d-test-panchkula",
+    "cbc-test",
+    "hba1c-test"
+  ],
+
+  symptoms: [
+    "Persistent fatigue",
+    "Weakness",
+    "Numbness in hands and feet",
+    "Tingling sensation",
+    "Memory problems",
+    "Difficulty concentrating",
+    "Dizziness",
+    "Pale skin",
+    "Shortness of breath",
+    "Mouth ulcers"
+  ],
+
+  whoShouldGet: [
+    "Vegetarians and vegans",
+    "Older adults",
+    "People with fatigue",
+    "Patients with anemia",
+    "People taking Metformin",
+    "Patients with digestive disorders",
+    "Pregnant women",
+    "People with nerve-related symptoms"
+  ],
+
+  procedure: [
+    "A certified phlebotomist collects a blood sample.",
+    "The sample is processed using advanced laboratory analyzers.",
+    "Vitamin B12 concentration is measured.",
+    "Results are reviewed by laboratory professionals.",
+    "Digital reports are shared within 24 hours."
+  ],
+
+  normalRanges: [
+    {
+      parameter: "Vitamin B12",
+      range: "200–900 pg/mL"
+    }
+  ],
+
+  facts: [
+    {
+      label: "Report Time",
+      value: "24 Hours"
+    },
+    {
+      label: "Sample Type",
+      value: "Blood"
+    },
+    {
+      label: "Fasting",
+      value: "Not Required"
+    },
+    {
+      label: "Home Collection",
+      value: "Available"
+    }
+  ],
+
+  benefits: [
+    "Detects Vitamin B12 deficiency",
+    "Helps investigate unexplained fatigue",
+    "Supports diagnosis of megaloblastic anemia",
+    "Evaluates nerve health",
+    "Monitors Vitamin B12 supplementation",
+    "Assesses nutritional deficiencies",
+    "Supports preventive health screening",
+    "Improves long-term wellness monitoring"
+  ],
+
+  parameters: [
+    "Serum Vitamin B12"
+  ],
+
+  preparation: [
+    "Fasting is generally not required.",
+    "Drink adequate water before sample collection.",
+    "Inform your doctor about Vitamin B12 supplements.",
+    "Carry previous reports if available."
+  ],
+
+  sections: [
+    {
+      title: "What Is a Vitamin B12 Test?",
+      content: [
+        "A Vitamin B12 Test measures the level of Vitamin B12 in your blood. Vitamin B12 is essential for red blood cell production, healthy nerves, DNA synthesis, and proper brain function.",
+        "Deficiency may develop gradually and can lead to fatigue, weakness, anemia, numbness, memory problems, and neurological complications if left untreated."
+      ]
+    },
+    {
+      title: "Why Is Vitamin B12 Important?",
+      content: [
+        "Vitamin B12 supports healthy nerve cells, brain function, and red blood cell production.",
+        "Maintaining normal Vitamin B12 levels helps improve energy, cognitive health, and overall well-being."
+      ]
+    },
+    {
+      title: "Common Symptoms of Vitamin B12 Deficiency",
+      content: [
+        "Symptoms may include tiredness, weakness, pale skin, dizziness, numbness, tingling sensations, memory problems, mood changes, poor concentration, and difficulty walking.",
+        "Testing helps identify deficiency before permanent nerve damage occurs."
+      ]
+    },
+    {
+      title: "Who Should Get a Vitamin B12 Test?",
+      content: [
+        "Vegetarians, vegans, older adults, patients taking Metformin, people with digestive disorders, pregnant women, and individuals experiencing fatigue or anemia should consider Vitamin B12 testing.",
+        "Regular screening is also beneficial for preventive healthcare."
+      ]
+    },
+    {
+      title: "Vitamin B12 Test in Panchkula with Home Sample Collection",
+      content: [
+        "Shyam Budget Friendly Labs provides affordable Vitamin B12 testing with doorstep blood sample collection throughout Panchkula, Chandigarh, Mohali, and Zirakpur.",
+        "Patients receive accurate reports digitally without visiting a laboratory."
+      ]
+    },
+    {
+      title: "Understanding Vitamin B12 Test Results",
+      content: [
+        "Low Vitamin B12 levels may indicate nutritional deficiency, poor absorption, or underlying medical conditions.",
+        "Your healthcare provider will interpret the results along with your symptoms and medical history."
+      ]
+    }
+  ],
+
+  faqs: [
+    {
+      question: "What does a Vitamin B12 Test measure?",
+      answer:
+        "It measures the amount of Vitamin B12 in your blood to detect deficiency or monitor treatment."
+    },
+    {
+      question: "Do I need fasting before a Vitamin B12 Test?",
+      answer:
+        "Fasting is generally not required unless your doctor recommends otherwise."
+    },
+    {
+      question: "How long does it take to receive reports?",
+      answer:
+        "Most reports are available within 24 hours."
+    },
+    {
+      question: "Can I book home sample collection?",
+      answer:
+        "Yes, home sample collection is available across Panchkula, Chandigarh, Mohali, and Zirakpur."
+    },
+    {
+      question: "Who is at risk of Vitamin B12 deficiency?",
+      answer:
+        "Vegetarians, older adults, people taking Metformin, individuals with digestive disorders, and patients with anemia are at higher risk."
+    },
+    {
+      question: "Can Vitamin B12 deficiency cause fatigue?",
+      answer:
+        "Yes. Fatigue, weakness, poor concentration, and nerve-related symptoms are common signs of Vitamin B12 deficiency."
+    }
+  ],
+
+  keywords: [
+    "Vitamin B12 Test in Panchkula",
+    "Vitamin B12 Blood Test",
+    "Vitamin B12 Test Price",
+    "Vitamin B12 Test Near Me",
+    "Vitamin B12 Deficiency Test",
+    "Vitamin B12 Test Chandigarh",
+    "Vitamin B12 Test Mohali",
+    "Vitamin B12 Test Zirakpur",
+    "Serum Vitamin B12 Test",
+    "Vitamin B12 Blood Test at Home",
+    "Blood Test at Home Panchkula",
+    "Home Sample Collection Panchkula",
+    "Pathology Lab Panchkula",
+    "Diagnostic Lab Panchkula",
+    "Vitamin Deficiency Test",
+    "Fatigue Blood Test",
+    "Anemia Blood Test",
+    "Best Vitamin B12 Test",
+    "Affordable Vitamin B12 Test",
+    "Shyam Budget Friendly Labs"
+  ]
+}
 
 ]

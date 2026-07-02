@@ -1690,6 +1690,308 @@ Our trained collection professionals ensure hygienic sample collection while pat
 
   ctaDescription:
     "Schedule home sample collection anywhere in Mohali and receive accurate pathology reports from a trusted diagnostic laboratory."
+},
+{
+  slug: "zirakpur",
+
+  city: "Zirakpur",
+
+  title:
+    "Blood Test in Zirakpur | Home Sample Collection & Full Body Checkup",
+
+  description:
+    "Book affordable blood tests in Zirakpur with Shyam Budget Friendly Labs. Get home sample collection, CBC test, thyroid profile, HbA1c diabetes test, vitamin D & B12 tests, lipid profile, full body checkups, and accurate digital pathology reports.",
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/zirakpur.png",
+
+  featuredPackages: [
+    "full-body-checkup",
+    "executive-full-body-checkup",
+    "swasthya-mitra-advance",
+    "lipid-profile-test",
+    "vitamin-d-b12-combo",
+    "hba1c-test",
+    "senior-citizen-male-package",
+    "home-sample-collection"
+  ],
+
+  heroTitle:
+    "Affordable Blood Tests & Home Sample Collection in Zirakpur",
+
+  heroSubtitle:
+    "Book reliable pathology tests from the comfort of your home with certified sample collection, affordable pricing, and fast online reports across Zirakpur.",
+
+  cityOverview: {
+    title: "Trusted Pathology & Diagnostic Services in Zirakpur",
+    content: `
+    Zirakpur is one of the fastest-growing cities in Punjab and an important gateway to Chandigarh, Mohali, and Panchkula. With rapidly expanding residential societies, commercial complexes, educational institutions, and business hubs, the demand for quality diagnostic services has increased significantly.
+
+    Shyam Budget Friendly Labs offers affordable pathology testing, doorstep blood sample collection, preventive health checkups, and quick digital reports throughout Zirakpur. Our mission is to make quality diagnostics convenient, accessible, and budget-friendly for every family.
+    `
+  },
+
+  whyChooseUs: [
+    {
+      title: "Doorstep Sample Collection",
+      description:
+        "Book blood tests online and get professional sample collection at your home anywhere in Zirakpur."
+    },
+    {
+      title: "Affordable Pricing",
+      description:
+        "Transparent pricing on routine blood investigations and preventive health packages without compromising quality."
+    },
+    {
+      title: "Certified Professionals",
+      description:
+        "Experienced and trained phlebotomists ensure safe, hygienic, and painless sample collection."
+    },
+    {
+      title: "Quick Online Reports",
+      description:
+        "Receive accurate pathology reports via WhatsApp, email, and secure online access."
+    }
+  ],
+
+  healthConditions: [
+    "Diabetes Monitoring",
+    "Thyroid Disorders",
+    "Vitamin D Deficiency",
+    "Vitamin B12 Deficiency",
+    "High Cholesterol",
+    "Anemia",
+    "Liver Function Disorders",
+    "Kidney Disease Monitoring",
+    "Heart Health Risk Assessment",
+    "General Health Screening"
+  ],
+
+  whoShouldGetTested: [
+    "Working Professionals",
+    "Corporate Employees",
+    "Senior Citizens",
+    "Women",
+    "Students",
+    "Fitness Enthusiasts",
+    "Patients with Diabetes",
+    "Individuals Seeking Preventive Healthcare",
+    "People with Family History of Lifestyle Diseases"
+  ],
+
+  popularSearches: [
+    "Blood Test in Zirakpur",
+    "CBC Test Zirakpur",
+    "Thyroid Test Zirakpur",
+    "Vitamin D Test Zirakpur",
+    "HbA1c Test Zirakpur",
+    "Full Body Checkup Zirakpur",
+    "Diagnostic Lab Zirakpur",
+    "Home Sample Collection Zirakpur",
+    "Blood Test Near Me Zirakpur",
+    "Pathology Lab in Zirakpur"
+  ],
+
+  cityDescription: `
+Zirakpur has become one of the fastest-developing residential and commercial destinations in North India. Located near Chandigarh International Airport and well connected to Chandigarh, Mohali, Panchkula, and Ambala, the city is home to thousands of professionals, families, students, and senior citizens.
+
+As awareness about preventive healthcare continues to grow, residents regularly book blood tests to monitor diabetes, thyroid disorders, cholesterol levels, vitamin deficiencies, liver function, kidney health, infections, and overall wellness.
+
+Shyam Budget Friendly Labs provides comprehensive pathology services throughout Zirakpur with affordable pricing, home sample collection, and reliable digital reports. We serve residents across VIP Road, Dhakoli, Baltana, Highland Marg, Patiala Road, Chandigarh Ambala Highway, Gazipur, Peer Muchalla, Lohgarh, and nearby societies.
+
+Our diagnostic services include CBC Tests, Thyroid Profiles, HbA1c Diabetes Tests, Vitamin D Tests, Vitamin B12 Tests, Lipid Profiles, Liver Function Tests, Kidney Function Tests, Blood Sugar Tests, Urine Tests, Allergy Tests, and comprehensive Full Body Health Checkups.
+
+Whether you need routine health monitoring, preventive screening, or doctor-prescribed investigations, our trained collection professionals ensure safe doorstep sample collection while maintaining strict quality standards. Patients receive accurate pathology reports digitally, making healthcare more convenient than ever.
+`,
+
+  services: [
+    {
+      name: "CBC Test in Zirakpur",
+      slug: "/services/cbc-test"
+    },
+    {
+      name: "Thyroid Profile Test in Zirakpur",
+      slug: "/services/thyroid-test-panchkula"
+    },
+    {
+      name: "Vitamin D Test in Zirakpur",
+      slug: "/services/vitamin-d-test-panchkula"
+    },
+    {
+      name: "HbA1c Diabetes Test in Zirakpur",
+      slug: "/services/hba1c-test"
+    },
+    {
+      name: "Full Body Checkup in Zirakpur",
+      slug: "/services/full-body-checkup"
+    }
+  ],
+
+  popularTests: [
+    "CBC Blood Test Zirakpur",
+    "HbA1c Test Zirakpur",
+    "Full Body Checkup Zirakpur",
+    "Thyroid Profile Zirakpur",
+    "Vitamin D Test Zirakpur",
+    "Vitamin B12 Test Zirakpur",
+    "Blood Sugar Test Zirakpur",
+    "Lipid Profile Zirakpur",
+    "Liver Function Test Zirakpur",
+    "Kidney Function Test Zirakpur",
+    "Urine Routine Test Zirakpur",
+    "Dengue Test Zirakpur"
+  ],
+
+  facts: [
+    {
+      label: "Areas Served",
+      value: "40+ Locations in Zirakpur"
+    },
+    {
+      label: "Diagnostic Tests",
+      value: "150+ Blood & Health Tests"
+    },
+    {
+      label: "Collection Service",
+      value: "Doorstep Home Sample Collection"
+    },
+    {
+      label: "Report Delivery",
+      value: "WhatsApp, Email & Online Reports"
+    }
+  ],
+
+  sections: [
+    {
+      title: "Reliable Blood Testing Across Zirakpur",
+      content: [
+        "Residents across Zirakpur trust Shyam Budget Friendly Labs for affordable blood investigations and preventive health checkups.",
+        "We provide pathology services for families, working professionals, senior citizens, students, and corporate employees."
+      ]
+    },
+    {
+      title: "Home Sample Collection in Zirakpur",
+      content: [
+        "Avoid unnecessary travel by booking doorstep blood collection at your preferred time.",
+        "Our certified phlebotomists maintain strict hygiene and international safety protocols during every collection."
+      ]
+    },
+    {
+      title: "Preventive Health Checkups",
+      content: [
+        "Regular health screening helps identify lifestyle diseases before symptoms become serious.",
+        "Our preventive health packages include diabetes screening, thyroid tests, cholesterol profiles, liver function, kidney function, vitamin testing, and complete wellness assessments."
+      ]
+    },
+    {
+      title: "Why Residents Prefer Shyam Budget Friendly Labs",
+      content: [
+        "Affordable pricing, accurate pathology reports, experienced professionals, modern laboratory practices, and convenient home collection have made us a trusted diagnostic partner across Zirakpur.",
+        "Our goal is to provide dependable healthcare services with maximum comfort and convenience."
+      ]
+    }
+  ],
+
+  nearbyAreas: [
+    "VIP Road",
+    "Baltana",
+    "Dhakoli",
+    "Peer Muchalla",
+    "Lohgarh",
+    "Gazipur",
+    "Patiala Road",
+    "Highland Marg",
+    "Chandigarh Ambala Highway",
+    "Maya Garden",
+    "SBP Homes",
+    "Motia Royal City"
+  ],
+
+  testimonials: [
+    {
+      name: "Aman Gupta",
+      review:
+        "Excellent home sample collection service in VIP Road. Reports were accurate and delivered on time."
+    },
+    {
+      name: "Neha Sharma",
+      review:
+        "Booked a full body checkup for my parents. Professional staff, affordable pricing, and hassle-free experience."
+    },
+    {
+      name: "Rohit Verma",
+      review:
+        "Very satisfied with the pathology services. Highly recommended for blood tests in Zirakpur."
+    }
+  ],
+
+  faqs: [
+    {
+      question: "Do you provide home sample collection throughout Zirakpur?",
+      answer:
+        "Yes. We provide doorstep blood sample collection across all major residential and commercial areas of Zirakpur."
+    },
+    {
+      question: "Which areas of Zirakpur do you cover?",
+      answer:
+        "We serve VIP Road, Baltana, Dhakoli, Peer Muchalla, Lohgarh, Gazipur, Patiala Road, Highland Marg, Chandigarh Ambala Highway, and nearby societies."
+    },
+    {
+      question: "Which blood tests are most commonly booked in Zirakpur?",
+      answer:
+        "CBC, Thyroid Profile, HbA1c, Vitamin D, Lipid Profile, Blood Sugar Tests, Liver Function Tests, Kidney Function Tests, and Full Body Health Checkups are among the most popular."
+    },
+    {
+      question: "Can I schedule an early morning fasting blood test?",
+      answer:
+        "Yes. Early morning fasting appointments are available for tests requiring fasting."
+    },
+    {
+      question: "How will I receive my pathology reports?",
+      answer:
+        "Reports are delivered digitally through WhatsApp, email, and secure online access for maximum convenience."
+    }
+  ],
+
+  relatedLocations: [
+    {
+      city: "Chandigarh",
+      slug: "/locations/chandigarh"
+    },
+    {
+      city: "Mohali",
+      slug: "/locations/mohali"
+    },
+    {
+      city: "Panchkula",
+      slug: "/locations/panchkula"
+    }
+  ],
+
+  tags: [
+    "Blood Test in Zirakpur",
+    "Pathology Lab Zirakpur",
+    "Diagnostic Centre Zirakpur",
+    "CBC Test Zirakpur",
+    "HbA1c Test Zirakpur",
+    "Thyroid Test Zirakpur",
+    "Vitamin D Test Zirakpur",
+    "Vitamin B12 Test Zirakpur",
+    "Full Body Checkup Zirakpur",
+    "Home Sample Collection Zirakpur",
+    "Blood Test Near Me Zirakpur",
+    "Health Checkup Packages Zirakpur",
+    "Medical Lab Zirakpur",
+    "Affordable Blood Test Zirakpur",
+    "Diagnostic Lab Near Me Zirakpur"
+  ],
+
+  ctaTitle:
+    "Book Your Blood Test in Zirakpur Today",
+
+  ctaDescription:
+    "Schedule affordable home sample collection anywhere in Zirakpur and receive accurate pathology reports from Shyam Budget Friendly Labs. Book your blood test online for convenient, reliable, and budget-friendly diagnostic services."
 }
 
 
