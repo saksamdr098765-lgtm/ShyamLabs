@@ -1992,6 +1992,351 @@ Whether you need routine health monitoring, preventive screening, or doctor-pres
 
   ctaDescription:
     "Schedule affordable home sample collection anywhere in Zirakpur and receive accurate pathology reports from Shyam Budget Friendly Labs. Book your blood test online for convenient, reliable, and budget-friendly diagnostic services."
+},
+{
+  slug: "pinjore",
+
+  city: "Pinjore",
+
+  title:
+    "Blood Test in Pinjore | Home Sample Collection & Full Body Checkup",
+
+  description:
+    "Book affordable blood tests in Pinjore with Shyam Budget Friendly Labs. Get home sample collection, CBC Test, Thyroid Profile, HbA1c Diabetes Test, Vitamin D & B12 Tests, Lipid Profile, Full Body Health Checkups, Kidney Function Tests, Liver Function Tests, and accurate digital pathology reports across Pinjore and nearby areas.",
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/pinjore.webp",
+
+  featuredPackages: [
+    "full-body-checkup",
+    "executive-full-body-checkup",
+    "swasthya-mitra-advance",
+    "lipid-profile-test",
+    "vitamin-d-b12-combo",
+    "hba1c-test",
+    "senior-citizen-male-package",
+    "home-sample-collection"
+  ],
+
+  heroTitle:
+    "Reliable Blood Testing & Home Sample Collection in Pinjore",
+
+  heroSubtitle:
+    "Book affordable pathology tests with certified home sample collection, accurate laboratory reports, and preventive health packages throughout Pinjore and nearby areas.",
+
+  cityOverview: {
+    title: "Trusted Pathology Laboratory Services in Pinjore",
+    content: `
+Pinjore is one of the fastest-growing towns in Haryana's Panchkula district, known for its historic Yadavindra Gardens, residential colonies, industries, educational institutions, and easy connectivity to Kalka, Panchkula, Chandigarh, Baddi, and Parwanoo. As healthcare awareness continues to increase, more families are choosing preventive blood testing to monitor their overall health and detect diseases at an early stage.
+
+Shyam Budget Friendly Labs proudly provides reliable pathology services across Pinjore with affordable pricing, professional home sample collection, advanced diagnostic testing, and quick digital reports. Whether you require routine blood investigations, preventive health screening, diabetes monitoring, thyroid testing, vitamin deficiency assessment, or full body health checkups, our experienced team ensures a smooth, safe, and convenient diagnostic experience.
+
+Our goal is to make high-quality pathology services accessible for every household in Pinjore by offering doorstep sample collection, transparent pricing, modern laboratory practices, and dependable reporting that doctors and patients can trust.
+`
+  },
+
+  whyChooseUs: [
+    {
+      title: "Doorstep Blood Collection",
+      description:
+        "Book your blood test from home and our trained phlebotomists will collect your sample safely anywhere in Pinjore."
+    },
+    {
+      title: "Affordable Diagnostic Services",
+      description:
+        "Transparent pricing on routine pathology tests and preventive health packages without compromising accuracy."
+    },
+    {
+      title: "Experienced Collection Team",
+      description:
+        "Certified professionals follow strict hygiene protocols to provide comfortable and safe blood sample collection."
+    },
+    {
+      title: "Fast Digital Reports",
+      description:
+        "Receive your pathology reports quickly through WhatsApp, email, and secure online report delivery."
+    }
+  ],
+
+  healthConditions: [
+    "Diabetes Monitoring",
+    "Thyroid Disorders",
+    "Vitamin D Deficiency",
+    "Vitamin B12 Deficiency",
+    "High Cholesterol",
+    "Anemia",
+    "Kidney Disease Monitoring",
+    "Liver Function Disorders",
+    "Heart Health Assessment",
+    "Seasonal Infections",
+    "Dengue Screening",
+    "Typhoid Testing",
+    "Malaria Testing",
+    "Preventive Health Screening"
+  ],
+
+  whoShouldGetTested: [
+    "Working Professionals",
+    "Senior Citizens",
+    "Women",
+    "Children",
+    "College Students",
+    "Corporate Employees",
+    "People with Diabetes",
+    "Individuals with Thyroid Disorders",
+    "Fitness Enthusiasts",
+    "People Looking for Preventive Health Checkups",
+    "Patients with Doctor-Prescribed Blood Tests"
+  ],
+
+  popularSearches: [
+    "Blood Test in Pinjore",
+    "Pathology Lab in Pinjore",
+    "CBC Test Pinjore",
+    "Thyroid Test Pinjore",
+    "HbA1c Test Pinjore",
+    "Vitamin D Test Pinjore",
+    "Vitamin B12 Test Pinjore",
+    "Kidney Function Test Pinjore",
+    "Liver Function Test Pinjore",
+    "Blood Sugar Test Pinjore",
+    "Full Body Checkup Pinjore",
+    "Diagnostic Centre Pinjore",
+    "Home Sample Collection Pinjore",
+    "Blood Test Near Me Pinjore",
+    "Affordable Blood Test Pinjore"
+  ],
+    cityDescription: `
+Pinjore is a rapidly developing town in the Panchkula district of Haryana, strategically located on the Chandigarh–Shimla Highway. Famous for the historic Yadavindra Gardens (Pinjore Gardens), the town has witnessed significant residential, commercial, and industrial growth over the past decade. Its excellent connectivity to Kalka, Panchkula, Chandigarh, Parwanoo, Baddi, and nearby hill stations has made Pinjore a preferred residential destination for families, working professionals, business owners, and senior citizens.
+
+With increasing awareness about preventive healthcare, more residents now prefer regular blood testing to monitor diabetes, thyroid disorders, cholesterol levels, vitamin deficiencies, liver function, kidney health, infections, and other common health conditions. Routine pathology investigations help identify potential health problems before symptoms become serious, allowing timely medical treatment and improved long-term health outcomes.
+
+Shyam Budget Friendly Labs proudly offers comprehensive pathology and diagnostic services across Pinjore with affordable pricing, modern laboratory technology, home sample collection, and quick digital reporting. Our mission is to make quality diagnostics convenient and accessible for every household without requiring patients to travel long distances.
+
+We provide a wide range of blood investigations including Complete Blood Count (CBC), Blood Sugar Tests, HbA1c Diabetes Monitoring, Thyroid Profile (T3, T4 & TSH), Vitamin D Test, Vitamin B12 Test, Lipid Profile, Liver Function Test (LFT), Kidney Function Test (KFT), Urine Routine Examination, Dengue Test, Malaria Test, Typhoid Test, Allergy Testing, Pregnancy Testing, and comprehensive Full Body Health Checkup Packages.
+
+Our trained and certified phlebotomists provide safe doorstep blood sample collection throughout Pinjore, ensuring a comfortable experience for senior citizens, children, working professionals, pregnant women, and patients with mobility challenges. Every sample is collected using strict hygiene protocols and transported under controlled conditions to maintain accuracy and reliability.
+
+Patients receive accurate pathology reports digitally through WhatsApp, email, and secure online access, allowing doctors to review results quickly and begin treatment without unnecessary delays. Whether you require routine annual screening, preventive healthcare, chronic disease monitoring, or doctor-prescribed investigations, Shyam Budget Friendly Labs is committed to delivering dependable diagnostic services with professional care, affordable pricing, and complete convenience across Pinjore and nearby locations.
+`,
+
+  services: [
+    {
+      name: "CBC Test in Pinjore",
+      slug: "/services/cbc-test"
+    },
+    {
+      name: "Thyroid Profile Test in Pinjore",
+      slug: "/services/thyroid-test-panchkula"
+    },
+    {
+      name: "HbA1c Diabetes Test in Pinjore",
+      slug: "/services/hba1c-test"
+    },
+    {
+      name: "Vitamin D Test in Pinjore",
+      slug: "/services/vitamin-d-test-panchkula"
+    },
+    {
+      name: "Kidney Function Test in Pinjore",
+      slug: "/services/kidney-function-test"
+    },
+    {
+      name: "Liver Function Test in Pinjore",
+      slug: "/services/liver-function-test"
+    },
+    {
+      name: "Lipid Profile Test in Pinjore",
+      slug: "/services/lipid-profile-test"
+    },
+    {
+      name: "Full Body Checkup in Pinjore",
+      slug: "/services/full-body-checkup"
+    }
+  ],
+
+  popularTests: [
+    "CBC Test Pinjore",
+    "Complete Blood Count Pinjore",
+    "Blood Sugar Test Pinjore",
+    "HbA1c Test Pinjore",
+    "Thyroid Profile Pinjore",
+    "Vitamin D Test Pinjore",
+    "Vitamin B12 Test Pinjore",
+    "Lipid Profile Pinjore",
+    "Kidney Function Test Pinjore",
+    "Liver Function Test Pinjore",
+    "Dengue Test Pinjore",
+    "Malaria Test Pinjore",
+    "Typhoid Test Pinjore",
+    "Urine Routine Test Pinjore",
+    "Full Body Checkup Pinjore"
+  ],
+
+  facts: [
+    {
+      label: "Areas Served",
+      value: "35+ Locations Across Pinjore"
+    },
+    {
+      label: "Diagnostic Tests",
+      value: "150+ Blood & Health Tests"
+    },
+    {
+      label: "Home Collection",
+      value: "Available 7 Days a Week"
+    },
+    {
+      label: "Report Delivery",
+      value: "WhatsApp, Email & Online Reports"
+    }
+  ],
+    sections: [
+    {
+      title: "Reliable Blood Testing Across Pinjore",
+      content: [
+        "Residents across Pinjore trust Shyam Budget Friendly Labs for accurate pathology testing, preventive health checkups, and affordable diagnostic services. Whether you require a routine blood investigation or doctor-prescribed laboratory tests, our experienced team is committed to delivering reliable results with complete convenience.",
+        "We serve individuals, families, senior citizens, corporate employees, students, and patients with chronic medical conditions by providing high-quality diagnostic services supported by modern laboratory practices and professional sample collection."
+      ]
+    },
+    {
+      title: "Home Sample Collection in Pinjore",
+      content: [
+        "Traveling to a diagnostic center can be difficult for elderly patients, busy professionals, young children, and individuals recovering from illness. Our doorstep blood sample collection service allows patients to undergo laboratory testing from the comfort of their homes.",
+        "Our certified phlebotomists follow strict hygiene protocols, use sterile equipment, and ensure safe sample transportation to the laboratory. Patients can schedule appointments according to their convenience and receive digital reports without unnecessary travel."
+      ]
+    },
+    {
+      title: "Comprehensive Preventive Health Checkups",
+      content: [
+        "Preventive healthcare helps detect health problems before symptoms become severe. Regular health screening enables early diagnosis of diabetes, thyroid disorders, vitamin deficiencies, high cholesterol, liver diseases, kidney disorders, anemia, and several lifestyle-related conditions.",
+        "Our preventive health packages are designed for working professionals, senior citizens, families, and individuals who wish to monitor their overall health regularly. Early diagnosis often results in simpler treatment, better disease management, and improved long-term well-being."
+      ]
+    },
+    {
+      title: "Wide Range of Blood Tests Available",
+      content: [
+        "Shyam Budget Friendly Labs provides more than 150 diagnostic investigations including CBC Tests, Blood Sugar Tests, HbA1c Diabetes Monitoring, Thyroid Profiles, Vitamin D Tests, Vitamin B12 Tests, Lipid Profiles, Liver Function Tests, Kidney Function Tests, Urine Tests, Dengue Tests, Malaria Tests, Typhoid Tests, Pregnancy Tests, Allergy Tests, and Full Body Health Checkup Packages.",
+        "All investigations are performed following standardized laboratory protocols to ensure reliable and clinically useful reports that assist doctors in making accurate treatment decisions."
+      ]
+    },
+    {
+      title: "Why Families in Pinjore Trust Shyam Budget Friendly Labs",
+      content: [
+        "Our commitment to quality, affordability, convenience, and patient satisfaction has made us one of the trusted diagnostic service providers for residents of Pinjore and nearby areas. We combine experienced healthcare professionals with modern laboratory technology to provide dependable pathology services.",
+        "From online booking and home sample collection to digital report delivery and responsive customer support, every step of our diagnostic process is designed to make healthcare simple, transparent, and accessible for every patient."
+      ]
+    }
+  ],
+
+  nearbyAreas: [
+    "Pinjore Gardens",
+    "Bitna Road",
+    "Housing Board Colony",
+    "Mallah Road",
+    "Kalka Road",
+    "Sector 28",
+    "Sector 27",
+    "Baddi Road",
+    "Amravati",
+    "Kalka",
+    "Parwanoo",
+    "Bharatgarh",
+    "Surajpur",
+    "Bhogpur",
+    "Nanakpur"
+  ],
+
+  testimonials: [
+    {
+      name: "Deepak Sharma",
+      review:
+        "Very professional home sample collection service in Pinjore. Reports were delivered quickly, and the entire experience was smooth."
+    },
+    {
+      name: "Pooja Verma",
+      review:
+        "Booked a Full Body Checkup for my parents. The staff was polite, sample collection was painless, and reports were shared on WhatsApp the same day."
+    },
+    {
+      name: "Rajesh Kumar",
+      review:
+        "Affordable pricing with accurate reports. I highly recommend Shyam Budget Friendly Labs for blood tests in Pinjore."
+    }
+  ],
+
+  faqs: [
+    {
+      question: "Do you provide home sample collection throughout Pinjore?",
+      answer:
+        "Yes. We provide doorstep blood sample collection across all major residential and commercial areas of Pinjore."
+    },
+    {
+      question: "Which blood tests are most commonly booked in Pinjore?",
+      answer:
+        "CBC Tests, Blood Sugar Tests, HbA1c, Thyroid Profile, Vitamin D, Vitamin B12, Lipid Profile, Liver Function Test, Kidney Function Test, Dengue Test, Malaria Test, Typhoid Test, and Full Body Health Checkups are among the most commonly booked investigations."
+    },
+    {
+      question: "How can I book a blood test in Pinjore?",
+      answer:
+        "You can contact Shyam Budget Friendly Labs by phone or online to schedule a laboratory visit or home sample collection at your preferred time."
+    },
+    {
+      question: "Are fasting blood tests available in Pinjore?",
+      answer:
+        "Yes. Early morning fasting appointments are available for investigations such as Blood Sugar, Lipid Profile, and other fasting-required tests."
+    },
+    {
+      question: "How will I receive my pathology reports?",
+      answer:
+        "Reports are delivered digitally through WhatsApp, email, and secure online access, making it easy to share them with your doctor."
+    }
+  ],
+
+  relatedLocations: [
+    {
+      city: "Panchkula",
+      slug: "/locations/panchkula"
+    },
+    {
+      city: "Kalka",
+      slug: "/locations/kalka"
+    },
+    {
+      city: "Chandigarh",
+      slug: "/locations/chandigarh"
+    }
+  ],
+
+  tags: [
+    "Blood Test in Pinjore",
+    "Pathology Lab Pinjore",
+    "Diagnostic Centre Pinjore",
+    "Blood Test Near Me Pinjore",
+    "CBC Test Pinjore",
+    "HbA1c Test Pinjore",
+    "Thyroid Test Pinjore",
+    "Vitamin D Test Pinjore",
+    "Vitamin B12 Test Pinjore",
+    "Kidney Function Test Pinjore",
+    "Liver Function Test Pinjore",
+    "Lipid Profile Pinjore",
+    "Full Body Checkup Pinjore",
+    "Home Sample Collection Pinjore",
+    "Affordable Blood Test Pinjore",
+    "Diagnostic Lab Near Me Pinjore",
+    "Health Checkup Packages Pinjore",
+    "Blood Collection at Home Pinjore",
+    "Medical Lab Pinjore",
+    "Shyam Budget Friendly Labs"
+  ],
+
+  ctaTitle:
+    "Book Your Blood Test in Pinjore Today",
+
+  ctaDescription:
+    "Schedule affordable blood tests with convenient home sample collection anywhere in Pinjore. Get accurate pathology reports, preventive health checkups, and reliable diagnostic services from Shyam Budget Friendly Labs with fast digital report delivery."
 }
 
 

@@ -2877,7 +2877,992 @@ Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Kari
     buttonText: "Book Vitamin B12 Test",
     buttonLink: "/services/vitamin-b12-test"
   }
-}
+},
+
+{
+  slug: "kidney-function-test-kft-guide",
+
+  datePublished: "2026-07-11",
+  dateModified: "2026-07-11",
+
+  quickSummary: [
+    "Measures kidney function using Creatinine, Urea, Uric Acid, and eGFR",
+    "Helps detect kidney disease at an early stage",
+    "Useful for people with diabetes, high blood pressure, and kidney-related symptoms",
+    "Supports regular monitoring of kidney health and treatment"
+  ],
+
+  normalRanges: [
+    "Serum Creatinine (Male): 0.7–1.3 mg/dL",
+    "Serum Creatinine (Female): 0.6–1.1 mg/dL",
+    "Blood Urea: 15–40 mg/dL",
+    "Blood Urea Nitrogen (BUN): 7–20 mg/dL",
+    "eGFR: Above 90 mL/min/1.73m²",
+    "Uric Acid (Male): 3.5–7.2 mg/dL",
+    "Uric Acid (Female): 2.6–6.0 mg/dL"
+  ],
+
+  benefits: [
+    "Detects kidney disease before symptoms appear",
+    "Monitors chronic kidney disease (CKD)",
+    "Evaluates kidney damage caused by diabetes and hypertension",
+    "Helps doctors plan appropriate treatment",
+    "Supports preventive health screening"
+  ],
+
+  title:
+    "Kidney Function Test (KFT): Creatinine, Urea, eGFR, Normal Range & Kidney Health Guide",
+
+  description:
+    "Learn everything about Kidney Function Tests including Creatinine, Blood Urea, eGFR, symptoms, preparation, normal ranges, kidney disease, and KFT testing in Panchkula.",
+
+  metaTitle:
+    "Kidney Function Test (KFT): Creatinine, Urea, eGFR & Kidney Test Guide",
+
+  metaDescription:
+    "Know Kidney Function Test normal ranges, Creatinine, Urea, eGFR, kidney disease symptoms, preparation, home sample collection, and Kidney Function Testing in Panchkula.",
+
+  focusKeyword: "Kidney Function Test",
+
+  secondaryKeywords: [
+    "KFT Test",
+    "Kidney Function Blood Test",
+    "Kidney Profile Test",
+    "Creatinine Test",
+    "Blood Urea Test",
+    "eGFR Test",
+    "Renal Function Test",
+    "Kidney Disease Test",
+    "Kidney Test Near Me",
+    "Kidney Function Test in Panchkula",
+    "Creatinine Normal Range",
+    "Kidney Health Test",
+    "Chronic Kidney Disease Test",
+    "Kidney Blood Test",
+    "Best Kidney Test Lab"
+  ],
+
+  relatedBlogs: [
+    {
+      title: "HbA1c Test Guide",
+      slug: "hba1c-diabetes-test-guide"
+    },
+    {
+      title: "Liver Function Test Guide",
+      slug: "liver-health-lft-test-guide"
+    },
+    {
+      title: "CBC Test Guide",
+      slug: "complete-blood-count-cbc-test"
+    },
+    {
+      title: "Lipid Profile Test Guide",
+      slug: "cholesterol-lipid-profile-test-guide"
+    }
+  ],
+
+  image: "/blogs/kidney-function-test.webp",
+
+  tableOfContents: [
+    "What Is a Kidney Function Test?",
+    "Why Are Kidneys Important?",
+    "What Does a Kidney Function Test Measure?",
+    "Who Should Get a Kidney Function Test?",
+    "Symptoms of Kidney Disease",
+    "Normal Kidney Function Test Values",
+    "Understanding Creatinine, Urea & eGFR",
+    "Common Causes of Kidney Damage",
+    "How To Prepare For A Kidney Function Test",
+    "Kidney Function Testing in Panchkula",
+    "Frequently Asked Questions"
+  ],
+
+  tags: [
+    "Kidney Function Test",
+    "KFT Test",
+    "Kidney Test",
+    "Renal Function Test",
+    "Creatinine Test",
+    "Blood Urea Test",
+    "eGFR Test",
+    "Kidney Disease",
+    "Chronic Kidney Disease",
+    "Kidney Failure",
+    "Kidney Health",
+    "Diabetes Kidney Disease",
+    "High Blood Pressure Kidney",
+    "Blood Test",
+    "Diagnostic Lab",
+    "Pathology Lab",
+    "Kidney Test Near Me",
+    "Kidney Test in Panchkula",
+    "Kidney Test in Chandigarh",
+    "Kidney Test in Mohali",
+    "Kidney Test in Zirakpur",
+    "Kidney Test in Karimpur",
+    "Home Sample Collection",
+    "Same Day Report",
+    "Preventive Health Checkup"
+  ],
+
+  date: "July 11, 2026",
+
+  author: "Shyam Pathology Lab",
+
+  readTime: "10 Min Read",
+
+  facts: [
+    {
+      label: "Sample Type",
+      value: "Blood"
+    },
+    {
+      label: "Report Time",
+      value: "Same Day"
+    },
+    {
+      label: "Home Collection",
+      value: "Available"
+    },
+    {
+      label: "Fasting",
+      value: "Usually Not Required"
+    }
+  ],
+
+  symptoms: [
+    "Swelling of feet or ankles",
+    "Frequent urination",
+    "Reduced urine output",
+    "Foamy urine",
+    "Blood in urine",
+    "Persistent fatigue",
+    "Loss of appetite",
+    "Nausea",
+    "High blood pressure",
+    "Difficulty concentrating",
+    "Shortness of breath",
+    "Muscle cramps"
+  ],
+
+  sections: [
+    {
+      title: "What Is a Kidney Function Test?",
+      content: `
+A Kidney Function Test (KFT), also known as a Renal Function Test (RFT), is a group of blood tests that evaluates how efficiently your kidneys filter waste products and maintain the body's fluid and electrolyte balance.
+
+Healthy kidneys remove toxins, excess water, and waste materials from the bloodstream while maintaining proper levels of minerals, salts, and blood pressure.
+
+A Kidney Function Test commonly measures Creatinine, Blood Urea, Blood Urea Nitrogen (BUN), Uric Acid, and estimates the Glomerular Filtration Rate (eGFR).
+
+Doctors recommend this test to detect kidney disease early, monitor chronic kidney disorders, evaluate treatment response, and assess kidney damage caused by diabetes, hypertension, or certain medications.
+
+Since kidney disease often develops silently without noticeable symptoms, regular Kidney Function Testing plays a vital role in preventive healthcare.
+`
+    },
+
+    {
+      title: "Why Are Kidneys Important?",
+      content: `
+The kidneys are two bean-shaped organs located on either side of the spine just below the rib cage.
+
+Although small in size, they perform several life-sustaining functions every day.
+
+Healthy kidneys continuously filter waste products, toxins, and excess fluid from your blood before converting them into urine.
+
+They also regulate blood pressure, maintain electrolyte balance, produce hormones responsible for red blood cell production, activate Vitamin D for healthy bones, and help control the body's acid-base balance.
+
+When kidney function declines, harmful waste begins to accumulate in the bloodstream, increasing the risk of serious complications such as chronic kidney disease, cardiovascular disease, anemia, electrolyte imbalance, and kidney failure.
+
+Routine Kidney Function Testing helps identify problems before irreversible kidney damage occurs.
+`
+    },
+        {
+      title: "What Does a Kidney Function Test Measure?",
+      content: `
+A Kidney Function Test consists of several blood investigations that help doctors understand how efficiently your kidneys are working.
+
+The most commonly measured parameters include:
+
+• Serum Creatinine – A waste product produced by muscles. Healthy kidneys remove creatinine from the bloodstream. Elevated creatinine levels may indicate reduced kidney function.
+
+• Blood Urea – Urea is produced when the body breaks down protein. High blood urea levels may suggest dehydration, kidney disease, or impaired kidney filtration.
+
+• Blood Urea Nitrogen (BUN) – BUN provides additional information about kidney performance and hydration status.
+
+• Estimated Glomerular Filtration Rate (eGFR) – eGFR estimates how well the kidneys are filtering blood. It is one of the most important indicators of kidney health.
+
+• Uric Acid – Elevated uric acid levels may increase the risk of kidney stones, gout, and reduced kidney function.
+
+• Electrolytes – Sodium, potassium, chloride, and bicarbonate may also be evaluated because kidney disease often affects electrolyte balance.
+
+Doctors interpret these results together rather than relying on a single value. Your age, sex, medical history, medications, hydration status, and other laboratory findings are considered before making a diagnosis.
+
+A Kidney Function Test provides valuable information for diagnosing kidney disease, monitoring treatment, and preventing serious complications.
+`
+    },
+
+    {
+      title: "Who Should Get a Kidney Function Test?",
+      content: `
+Anyone can benefit from routine kidney screening, but certain individuals have a significantly higher risk of developing kidney disease.
+
+Doctors commonly recommend a Kidney Function Test for:
+
+• Adults above 40 years of age
+• People with diabetes
+• Individuals with high blood pressure
+• Patients with heart disease
+• People with obesity
+• Individuals with recurrent kidney stones
+• Patients with urinary tract infections
+• People taking long-term painkillers or certain medications
+• Individuals with a family history of kidney disease
+• Smokers
+• Older adults
+• Anyone experiencing symptoms suggestive of kidney dysfunction
+
+People living with diabetes and hypertension are particularly vulnerable because these conditions are among the leading causes of chronic kidney disease worldwide.
+
+Routine testing allows kidney damage to be detected early—often before noticeable symptoms develop—giving doctors the opportunity to begin treatment that may slow or prevent further kidney damage.
+
+Even healthy individuals should consider periodic Kidney Function Testing as part of a preventive health checkup, especially if they have lifestyle or family-related risk factors.
+`
+    },
+
+    {
+      title: "Symptoms of Kidney Disease",
+      content: `
+Kidney disease is often called a "silent disease" because many people experience no symptoms during its early stages.
+
+As kidney function gradually declines, waste products begin accumulating in the bloodstream, leading to various symptoms.
+
+Common signs that may require a Kidney Function Test include:
+
+• Swelling of the feet, ankles, or face
+• Persistent fatigue
+• Weakness
+• Reduced urine output
+• Frequent urination, especially at night
+• Foamy urine
+• Blood in urine
+• Difficulty concentrating
+• Loss of appetite
+• Nausea or vomiting
+• Persistent itching
+• Muscle cramps
+• High blood pressure
+• Shortness of breath
+• Puffiness around the eyes
+
+These symptoms do not always indicate kidney disease, but they should never be ignored.
+
+Prompt laboratory testing helps doctors identify whether the kidneys are functioning normally or whether additional investigations are required.
+
+Early diagnosis significantly improves treatment outcomes and reduces the risk of permanent kidney damage.
+`
+    },
+
+    {
+      title: "Normal Kidney Function Test Values",
+      content: `
+Kidney Function Test reports contain several important measurements that help evaluate kidney health.
+
+Although reference ranges may vary slightly between laboratories, general guidelines include:
+
+• Serum Creatinine (Male): 0.7–1.3 mg/dL
+• Serum Creatinine (Female): 0.6–1.1 mg/dL
+• Blood Urea: 15–40 mg/dL
+• Blood Urea Nitrogen (BUN): 7–20 mg/dL
+• eGFR: Above 90 mL/min/1.73m²
+• Uric Acid (Male): 3.5–7.2 mg/dL
+• Uric Acid (Female): 2.6–6.0 mg/dL
+
+Values outside these ranges do not always mean serious kidney disease.
+
+Temporary dehydration, medications, strenuous exercise, dietary protein intake, pregnancy, age, and certain medical conditions may also influence laboratory results.
+
+For this reason, Kidney Function Test reports should always be interpreted by a qualified healthcare professional who considers your complete medical history and clinical condition.
+`
+    },
+
+    {
+      title: "Understanding Creatinine, Urea & eGFR",
+      content: `
+Creatinine, Blood Urea, and eGFR are among the most important indicators used to evaluate kidney function.
+
+Serum Creatinine rises when the kidneys become less efficient at removing waste products from the bloodstream. Persistently elevated creatinine levels may indicate kidney damage or reduced filtration.
+
+Blood Urea reflects the body's protein metabolism. Increased urea levels may occur because of kidney disease, dehydration, gastrointestinal bleeding, or excessive protein intake. Low levels are less common but may occur in certain liver disorders or poor nutritional status.
+
+Estimated Glomerular Filtration Rate (eGFR) is calculated using serum creatinine along with age and sex. It estimates how effectively your kidneys filter blood.
+
+General interpretation of eGFR includes:
+
+• Above 90 — Normal kidney function
+• 60–89 — Mild reduction in kidney function
+• 30–59 — Moderate kidney disease
+• 15–29 — Severe kidney disease
+• Below 15 — Kidney failure requiring urgent specialist care
+
+Doctors never rely on a single laboratory value alone.
+
+They evaluate creatinine, urea, eGFR, urine examination, blood pressure, diabetes status, imaging studies, symptoms, and previous reports together before confirming a diagnosis.
+
+Regular monitoring of these values helps detect kidney disease early, assess treatment effectiveness, and reduce the risk of long-term complications such as chronic kidney disease or kidney failure.
+`
+    },
+        {
+      title: "Common Causes of Kidney Damage",
+      content: `
+Kidney disease can develop gradually over many years or occur suddenly because of injury, infection, or reduced blood flow.
+
+Understanding the causes of kidney damage helps individuals take preventive measures and seek timely medical care.
+
+Some of the most common causes include:
+
+• Diabetes – High blood sugar can damage the tiny blood vessels responsible for filtering waste from the blood. Diabetes is the leading cause of chronic kidney disease worldwide.
+
+• High Blood Pressure (Hypertension) – Persistently elevated blood pressure places excessive stress on kidney blood vessels, reducing their filtering ability over time.
+
+• Kidney Stones – Recurrent kidney stones may block urine flow and increase the risk of kidney infection or long-term kidney damage if left untreated.
+
+• Urinary Tract Infections (UTIs) – Severe or untreated urinary tract infections can spread to the kidneys, causing inflammation and permanent scarring.
+
+• Glomerulonephritis – This condition involves inflammation of the kidney's filtering units (glomeruli) and may result from infections, autoimmune diseases, or unknown causes.
+
+• Polycystic Kidney Disease (PKD) – An inherited disorder in which multiple fluid-filled cysts gradually replace healthy kidney tissue.
+
+• Long-Term Use of Painkillers – Frequent use of certain pain-relieving medicines (NSAIDs) may reduce blood flow to the kidneys and contribute to chronic kidney damage.
+
+• Dehydration – Severe or prolonged dehydration can temporarily reduce kidney function and may worsen existing kidney disease.
+
+• Autoimmune Disorders – Diseases such as lupus may attack healthy kidney tissue, causing inflammation and impaired function.
+
+• Heart Disease – Reduced blood circulation caused by heart disease may decrease blood supply to the kidneys, affecting their ability to filter waste.
+
+Maintaining healthy blood sugar, controlling blood pressure, drinking adequate water, avoiding unnecessary medications, eating a balanced diet, exercising regularly, and undergoing routine health checkups can significantly reduce the risk of kidney disease.
+
+Early Kidney Function Testing allows doctors to detect abnormalities before permanent kidney damage develops.
+`
+    },
+
+    {
+      title: "How To Prepare For A Kidney Function Test",
+      content: `
+Most Kidney Function Tests require very little preparation.
+
+However, following a few simple precautions helps ensure more accurate laboratory results.
+
+Before your Kidney Function Test:
+
+• Drink sufficient water unless your doctor has advised fluid restriction.
+• Continue taking medications only as directed by your doctor.
+• Inform the laboratory if you are taking medicines that may affect kidney function, including painkillers, antibiotics, blood pressure medications, or diuretics.
+• Avoid strenuous exercise for 24 hours before the test because intense physical activity may temporarily increase creatinine levels.
+• Avoid excessive alcohol consumption before sample collection.
+• Inform your doctor if you are pregnant or have recently undergone radiological procedures involving contrast dye.
+
+In most cases, fasting is not required for a Kidney Function Test.
+
+However, if your doctor has ordered additional investigations such as Blood Sugar or Lipid Profile along with Kidney Function Testing, fasting instructions may differ.
+
+Blood sample collection usually takes only a few minutes, and most reports are available on the same day depending on the tests performed.
+
+Following your healthcare provider's instructions helps ensure reliable and clinically useful results.
+`
+    },
+
+    {
+      title: "Kidney Function Testing in Panchkula",
+      content: `
+Shyam Pathology Lab provides accurate Kidney Function Testing (KFT) in Panchkula with reliable reporting and convenient home blood sample collection services.
+
+Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, Kalka, and nearby areas can book Kidney Function Tests from the comfort of their homes.
+
+Our laboratory offers comprehensive kidney health screening, including:
+
+• Serum Creatinine
+• Blood Urea
+• Blood Urea Nitrogen (BUN)
+• Estimated Glomerular Filtration Rate (eGFR)
+• Uric Acid Testing
+• Electrolyte Testing
+• Home Sample Collection
+• Same-Day Reporting for most investigations
+
+Kidney diseases often progress silently without noticeable symptoms.
+
+Regular Kidney Function Testing helps identify early abnormalities, supports timely medical intervention, and reduces the risk of chronic kidney disease and kidney failure.
+
+Our experienced pathology team follows strict quality standards to provide accurate and dependable diagnostic reports that doctors can confidently use for treatment planning.
+`
+    },
+
+  ],
+
+  faqs: [
+    {
+      question: "What is a Kidney Function Test?",
+      answer:
+        "A Kidney Function Test (KFT) is a group of blood tests that evaluate how well your kidneys remove waste products and maintain fluid and electrolyte balance."
+    },
+    {
+      question: "Is fasting required before a Kidney Function Test?",
+      answer:
+        "Usually, fasting is not required. However, if other blood tests are being performed at the same time, your doctor may recommend fasting."
+    },
+    {
+      question: "What does high creatinine indicate?",
+      answer:
+        "High creatinine levels may suggest reduced kidney function, dehydration, certain medications, or other medical conditions. Results should always be interpreted by your doctor."
+    },
+    {
+      question: "What is eGFR?",
+      answer:
+        "Estimated Glomerular Filtration Rate (eGFR) measures how efficiently your kidneys filter blood and is one of the most important indicators of kidney health."
+    },
+    {
+      question: "Who should get a Kidney Function Test?",
+      answer:
+        "People with diabetes, high blood pressure, kidney stones, urinary infections, heart disease, a family history of kidney disease, or symptoms such as swelling, fatigue, or abnormal urination should consider Kidney Function Testing."
+    },
+    {
+      question: "Can kidney disease develop without symptoms?",
+      answer:
+        "Yes. Early kidney disease often develops silently, making routine Kidney Function Testing essential for early diagnosis."
+    },
+    {
+      question: "How often should Kidney Function Tests be performed?",
+      answer:
+        "The frequency depends on your age, medical history, and risk factors. Individuals with diabetes, hypertension, or chronic kidney disease usually require regular monitoring as advised by their doctor."
+    },
+    {
+      question: "Can I book a Kidney Function Test at home in Panchkula?",
+      answer:
+        "Yes. Shyam Pathology Lab offers convenient home blood sample collection for Kidney Function Testing in Panchkula and nearby areas."
+    }
+  ],
+
+  relatedTests: [
+    {
+      slug: "hba1c-diabetes-test",
+      name: "HbA1c Test"
+    },
+    {
+      slug: "fasting-blood-sugar",
+      name: "Fasting Blood Sugar"
+    },
+    {
+      slug: "complete-blood-count-cbc-test",
+      name: "Complete Blood Count (CBC)"
+    },
+    {
+      slug: "liver-function-test",
+      name: "Liver Function Test (LFT)"
+    },
+    {
+      slug: "full-body-checkup",
+      name: "Full Body Checkup"
+    }
+  ],
+
+  cta: {
+    title: "Book Your Kidney Function Test Today",
+    description:
+      "Monitor your kidney health with accurate Kidney Function Testing, home sample collection, and fast reporting from Shyam Pathology Lab.",
+    buttonText: "Book Kidney Function Test",
+    buttonLink: "/services/kidney-function-test"
+  }
+},
+{
+  slug: "malaria-test-symptoms-treatment-guide",
+
+  datePublished: "2026-07-11",
+
+  dateModified: "2026-07-11",
+
+  quickSummary: [
+    "Malaria is a mosquito-borne disease caused by Plasmodium parasites.",
+    "Early diagnosis through a Malaria Blood Test helps prevent serious complications.",
+    "Common symptoms include high fever, chills, sweating, headache, and body aches.",
+    "Rapid treatment significantly improves recovery and reduces the risk of severe malaria."
+  ],
+
+  normalRanges: [
+    "Malaria Parasite (MP): Negative",
+    "Rapid Malaria Antigen Test: Negative",
+    "Peripheral Blood Smear: No malarial parasites detected",
+    "Platelet Count: 150,000–450,000/µL",
+    "Hemoglobin (Adult Male): 13.5–17.5 g/dL",
+    "Hemoglobin (Adult Female): 12–15.5 g/dL"
+  ],
+
+  benefits: [
+    "Detects malaria infection quickly",
+    "Helps differentiate malaria from dengue and typhoid",
+    "Supports early treatment",
+    "Reduces risk of severe malaria complications",
+    "Monitors response to treatment"
+  ],
+
+  title:
+    "Malaria Test Guide: Symptoms, Causes, Diagnosis, Treatment & Prevention",
+
+  description:
+    "Learn about malaria symptoms, causes, diagnosis, blood tests, treatment, prevention, complications, and malaria testing in Panchkula.",
+
+  metaTitle:
+    "Malaria Test Guide | Symptoms, Blood Test & Treatment",
+
+  metaDescription:
+    "Know malaria symptoms, mosquito transmission, malaria blood tests, diagnosis, treatment, prevention, and home sample collection in Panchkula.",
+
+  focusKeyword: "Malaria Test",
+
+  secondaryKeywords: [
+    "Malaria Blood Test",
+    "Malaria Symptoms",
+    "Malaria Parasite Test",
+    "Rapid Malaria Test",
+    "MP Test",
+    "Malaria Diagnosis",
+    "Malaria Treatment",
+    "Malaria Prevention",
+    "Malaria Test Near Me",
+    "Malaria Test in Panchkula",
+    "Fever Blood Test",
+    "Mosquito Borne Disease",
+    "Plasmodium Infection",
+    "Peripheral Smear Malaria",
+    "Best Pathology Lab for Malaria Test"
+  ],
+
+  relatedBlogs: [
+    {
+      title: "Dengue Test Guide",
+      slug: "dengue-test-symptoms-guide"
+    },
+    {
+      title: "Typhoid Test Guide",
+      slug: "typhoid-test-guide"
+    },
+    {
+      title: "CBC Test Guide",
+      slug: "complete-blood-count-cbc-test"
+    },
+    {
+      title: "Vitamin D Test Guide",
+      slug: "vitamin-d-test-guide"
+    }
+  ],
+
+  image: "/blogs/malaria-test.webp",
+
+  tableOfContents: [
+    "What Is Malaria?",
+    "How Malaria Spreads",
+    "Types of Malaria",
+    "Symptoms of Malaria",
+    "When Should You Get Tested?",
+    "Malaria Blood Tests",
+    "Difference Between Malaria, Dengue & Typhoid",
+    "Treatment",
+    "Prevention",
+    "Malaria Testing in Panchkula",
+    "Frequently Asked Questions"
+  ],
+
+  tags: [
+    "Malaria",
+    "Malaria Test",
+    "Malaria Blood Test",
+    "Rapid Malaria Test",
+    "MP Test",
+    "Peripheral Smear",
+    "Mosquito Disease",
+    "Fever Test",
+    "Blood Test",
+    "Diagnostic Lab",
+    "Pathology Lab",
+    "Malaria Test Panchkula",
+    "Malaria Test Chandigarh",
+    "Malaria Test Mohali",
+    "Malaria Test Zirakpur",
+    "Home Sample Collection",
+    "Same Day Report",
+    "Monsoon Diseases",
+    "Infectious Diseases",
+    "Healthcare"
+  ],
+
+  date: "July 11, 2026",
+
+  author: "Shyam Pathology Lab",
+
+  readTime: "11 Min Read",
+
+  facts: [
+    {
+      label: "Sample Type",
+      value: "Blood"
+    },
+    {
+      label: "Report Time",
+      value: "Same Day"
+    },
+    {
+      label: "Home Collection",
+      value: "Available"
+    },
+    {
+      label: "Fasting",
+      value: "Not Required"
+    }
+  ],
+
+  symptoms: [
+    "High Fever",
+    "Chills",
+    "Sweating",
+    "Headache",
+    "Body Pain",
+    "Muscle Pain",
+    "Fatigue",
+    "Vomiting",
+    "Nausea",
+    "Loss of Appetite",
+    "Abdominal Pain",
+    "Weakness"
+  ],
+
+  sections: [
+    {
+      title: "What Is Malaria?",
+      content: `
+Malaria is a serious mosquito-borne infectious disease caused by Plasmodium parasites. Humans become infected when bitten by an infected female Anopheles mosquito carrying the parasite.
+
+Once inside the body, the parasite first infects the liver and then enters the bloodstream, where it destroys red blood cells. This leads to symptoms such as fever, chills, sweating, headache, fatigue, and body aches.
+
+Malaria remains one of the most common infectious diseases in tropical and subtropical countries, including India. During the monsoon season, the number of malaria cases usually increases because stagnant water provides ideal breeding grounds for mosquitoes.
+
+Early diagnosis using a Malaria Blood Test is extremely important because prompt treatment prevents severe complications such as cerebral malaria, anemia, kidney failure, breathing problems, and multi-organ damage.
+
+If you experience recurrent fever with chills—especially during or after the rainy season—you should consult a healthcare professional and undergo malaria testing as soon as possible.
+`
+    },
+
+    {
+      title: "How Does Malaria Spread?",
+      content: `
+Malaria spreads primarily through the bite of an infected female Anopheles mosquito.
+
+When the mosquito bites a person, Plasmodium parasites enter the bloodstream and travel to the liver, where they multiply before infecting red blood cells.
+
+Malaria does not usually spread through casual contact such as shaking hands, sharing food, coughing, or sneezing.
+
+In rare situations, malaria may also spread through infected blood transfusions, organ transplantation, contaminated needles, or from a pregnant mother to her baby.
+
+Mosquitoes breed in stagnant water found around homes, construction sites, open containers, coolers, and drains. Eliminating mosquito breeding sites is one of the most effective ways to reduce malaria transmission.
+
+Using mosquito nets, insect repellents, wearing full-sleeved clothing, and keeping surroundings clean are simple but highly effective preventive measures.
+`
+    },
+        {
+      title: "Types of Malaria",
+      content: `
+Malaria is caused by different species of the Plasmodium parasite. Although all types affect the red blood cells, some are more severe than others.
+
+The five species known to infect humans include:
+
+• Plasmodium falciparum – The most dangerous form of malaria. It can rapidly cause severe illness, cerebral malaria, organ failure, and even death if not treated promptly.
+
+• Plasmodium vivax – The most common cause of malaria in India. It generally causes less severe disease than P. falciparum but has the ability to remain dormant in the liver, leading to relapses months after the initial infection.
+
+• Plasmodium malariae – A less common species that may cause prolonged, mild infections lasting for several years if left untreated.
+
+• Plasmodium ovale – Found mainly in parts of Africa and capable of causing relapsing malaria due to dormant liver stages.
+
+• Plasmodium knowlesi – Primarily infects monkeys but can occasionally infect humans in certain parts of Southeast Asia. It can progress rapidly and requires prompt diagnosis.
+
+Identifying the specific Plasmodium species helps doctors select the most effective treatment and determine the likelihood of recurrence or complications.
+
+Modern diagnostic laboratories use Rapid Malaria Antigen Tests along with Peripheral Blood Smear Examination to accurately identify malaria parasites.
+`
+    },
+
+    {
+      title: "Symptoms of Malaria",
+      content: `
+Malaria symptoms usually develop between 7 and 30 days after being bitten by an infected mosquito, although the incubation period may vary depending on the parasite species.
+
+The classic symptom of malaria is a recurring cycle of chills, high fever, and heavy sweating. However, symptoms can differ from person to person.
+
+Common symptoms include:
+
+• High fever that may come and go
+• Severe chills and shivering
+• Excessive sweating
+• Headache
+• Muscle pain
+• Joint pain
+• Weakness and fatigue
+• Nausea and vomiting
+• Loss of appetite
+• Abdominal pain
+• Diarrhea in some patients
+• Rapid heartbeat
+• Pale skin due to anemia
+
+Severe malaria may present with:
+
+• Difficulty breathing
+• Confusion
+• Seizures
+• Unconsciousness
+• Jaundice
+• Kidney failure
+• Severe anemia
+• Low blood pressure
+• Bleeding disorders
+
+Children, elderly individuals, pregnant women, and people with weakened immune systems are at greater risk of developing severe malaria.
+
+Anyone experiencing high fever with chills, particularly during the rainy season or after traveling to a malaria-prone area, should seek immediate medical attention and undergo malaria testing.
+`
+    },
+
+    {
+      title: "When Should You Get a Malaria Test?",
+      content: `
+Early diagnosis is one of the most important factors in preventing serious complications from malaria.
+
+Doctors recommend a Malaria Blood Test if you experience:
+
+• Fever with chills
+• Fever occurring every 48–72 hours
+• Persistent headache with body pain
+• Fever after mosquito exposure
+• Fever after visiting a malaria-endemic region
+• Unexplained fatigue
+• Vomiting with fever
+• Sudden weakness
+• Low platelet count detected on a CBC
+• Symptoms that resemble dengue or typhoid
+
+Malaria shares many symptoms with dengue, typhoid, viral fever, influenza, and COVID-19. Because these illnesses require different treatments, laboratory confirmation is essential.
+
+Doctors often recommend a combination of investigations such as:
+
+• Malaria Parasite Test
+• Rapid Malaria Antigen Test
+• Complete Blood Count (CBC)
+• Dengue NS1 Antigen Test
+• Typhoid Test
+
+Prompt testing allows treatment to begin before the infection progresses to severe malaria or causes complications affecting the brain, kidneys, liver, or lungs.
+`
+    },
+
+    {
+      title: "Malaria Blood Tests",
+      content: `
+Several laboratory tests are available to diagnose malaria accurately.
+
+The most commonly used tests include:
+
+• Rapid Malaria Antigen Test (RMAT)
+This test detects malaria-specific proteins in the blood and produces results within a short time. It is widely used for rapid diagnosis.
+
+• Peripheral Blood Smear Examination
+A laboratory specialist examines blood under a microscope to identify malaria parasites and determine the Plasmodium species responsible for infection. It remains the gold standard for malaria diagnosis.
+
+• Complete Blood Count (CBC)
+Although CBC cannot diagnose malaria directly, it often reveals low platelet count, anemia, and reduced white blood cell counts that support the diagnosis.
+
+• Polymerase Chain Reaction (PCR)
+PCR testing is highly sensitive and can detect very small amounts of parasite DNA. It is generally reserved for specialized laboratories.
+
+• Quantitative Buffy Coat (QBC) Test
+Some laboratories use QBC technology for faster microscopic detection of malaria parasites.
+
+Doctors may recommend repeating the malaria test if symptoms strongly suggest malaria but the initial report is negative, since parasite levels may be too low to detect during the early stage of infection.
+
+Early laboratory confirmation enables faster treatment and greatly improves recovery outcomes.
+`
+    },
+        {
+      title: "Difference Between Malaria, Dengue & Typhoid",
+      content: `
+Malaria, dengue, and typhoid are among the most common causes of fever in India, particularly during the monsoon season. Since their early symptoms are often similar, it is difficult to distinguish between them without laboratory testing.
+
+Although all three illnesses may cause fever, body aches, weakness, and headache, they are caused by completely different organisms and require different treatments.
+
+Malaria is caused by Plasmodium parasites and spreads through the bite of infected female Anopheles mosquitoes.
+
+Dengue is caused by the Dengue virus and spreads through Aedes mosquitoes that usually bite during the daytime.
+
+Typhoid is caused by the bacterium Salmonella Typhi and spreads through contaminated food and drinking water.
+
+Some key differences include:
+
+• Malaria commonly causes recurring fever with chills, shivering, and heavy sweating.
+
+• Dengue often presents with sudden high fever, severe headache, pain behind the eyes, muscle pain, skin rash, and a significant drop in platelet count.
+
+• Typhoid usually causes gradually increasing fever, abdominal pain, constipation or diarrhea, weakness, and loss of appetite.
+
+Doctors often recommend a combination of investigations such as CBC, Malaria Parasite Test, Dengue NS1 Antigen Test, Dengue IgM/IgG Antibody Test, and Typhoid Test (Widal or TyphiDot) to identify the exact cause of fever.
+
+Accurate diagnosis ensures appropriate treatment and prevents unnecessary medications or delayed care.
+`
+    },
+
+    {
+      title: "Treatment for Malaria",
+      content: `
+Malaria is a treatable disease when diagnosed early.
+
+Treatment depends on several factors, including the Plasmodium species, severity of infection, patient age, pregnancy status, and local treatment guidelines.
+
+Doctors usually prescribe antimalarial medications that effectively eliminate the parasite from the bloodstream. In some cases, additional medicines may be required to prevent relapse, especially for Plasmodium vivax infections.
+
+Supportive treatment may include:
+
+• Adequate hydration
+• Medicines to reduce fever
+• Rest
+• Nutritional support
+• Monitoring blood counts
+• Hospitalization for severe malaria
+
+Patients with severe malaria may require intravenous medications, oxygen therapy, blood transfusion, kidney support, or intensive care monitoring.
+
+It is extremely important to complete the full course of prescribed medication even if symptoms improve within a few days.
+
+Self-medication should be avoided because incorrect treatment may lead to drug resistance, treatment failure, or serious complications.
+
+Anyone experiencing worsening symptoms such as confusion, breathing difficulty, seizures, persistent vomiting, or reduced urine output should seek emergency medical attention immediately.
+`
+    },
+
+    {
+      title: "How Can Malaria Be Prevented?",
+      content: `
+Preventing mosquito bites remains the most effective way to reduce the risk of malaria.
+
+Simple preventive measures include:
+
+• Sleep under mosquito nets, especially during the rainy season.
+• Apply mosquito repellents to exposed skin.
+• Wear full-sleeved clothing and long trousers in the evening and at night.
+• Install mosquito screens on doors and windows.
+• Remove stagnant water from coolers, flower pots, buckets, old tyres, and water tanks.
+• Keep water storage containers properly covered.
+• Maintain clean surroundings to prevent mosquito breeding.
+• Use mosquito coils, vaporizers, or insecticide sprays where appropriate.
+• Seek early medical evaluation for any unexplained fever.
+
+Travellers visiting malaria-endemic regions may also require preventive antimalarial medicines based on medical advice.
+
+Community awareness, mosquito control measures, and prompt diagnosis remain essential for reducing malaria transmission and protecting public health.
+`
+    },
+
+    {
+      title: "Malaria Testing in Panchkula",
+      content: `
+Shyam Pathology Lab offers accurate and reliable Malaria Blood Testing in Panchkula with fast reporting and convenient home sample collection.
+
+Our experienced laboratory team performs malaria investigations using modern diagnostic methods to ensure dependable results for patients and healthcare professionals.
+
+We provide:
+
+• Rapid Malaria Antigen Test
+• Malaria Parasite (MP) Test
+• Peripheral Blood Smear Examination
+• Complete Blood Count (CBC)
+• Platelet Count
+• Dengue & Typhoid Fever Panels
+• Home Blood Sample Collection
+• Same-Day Reports for most routine investigations
+
+Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Pinjore, Kalka, Karimpur, and nearby areas can conveniently book malaria testing from home.
+
+During the monsoon season, timely diagnosis becomes especially important because malaria cases often increase. Early testing allows prompt treatment and significantly reduces the risk of severe complications.
+
+If you develop fever with chills, body pain, or excessive sweating, consult a healthcare professional and consider getting a Malaria Blood Test without delay.
+`
+    }
+
+  ],
+
+  faqs: [
+    {
+      question: "What is a Malaria Test?",
+      answer: "A Malaria Test is a blood test used to detect Plasmodium parasites or malaria antigens in the bloodstream for accurate diagnosis."
+    },
+    {
+      question: "How is malaria diagnosed?",
+      answer: "Malaria is diagnosed using Rapid Malaria Antigen Tests, Peripheral Blood Smear Examination, and other laboratory investigations recommended by your doctor."
+    },
+    {
+      question: "Can malaria be cured completely?",
+      answer: "Yes. Most malaria infections can be treated successfully when diagnosed early and managed with appropriate antimalarial medicines."
+    },
+    {
+      question: "Is fasting required before a malaria blood test?",
+      answer: "No. Fasting is generally not required before a Malaria Blood Test."
+    },
+    {
+      question: "Can malaria and dengue occur together?",
+      answer: "Yes. Although uncommon, a person may be infected with both malaria and dengue simultaneously, making laboratory testing extremely important."
+    },
+    {
+      question: "How long does a malaria test take?",
+      answer: "Rapid Malaria Tests provide results quickly, while microscopic examination and confirmatory investigations may take a few hours depending on the laboratory."
+    },
+    {
+      question: "When should I get tested for malaria?",
+      answer: "Anyone experiencing fever with chills, sweating, headache, or body aches—especially during the rainy season or after mosquito exposure—should consult a doctor and consider malaria testing."
+    },
+    {
+      question: "Can I book a Malaria Test at home in Panchkula?",
+      answer: "Yes. Shyam Pathology Lab provides home blood sample collection for Malaria Testing across Panchkula, Chandigarh, Mohali, Zirakpur, and nearby areas."
+    }
+  ],
+
+  relatedTests: [
+    {
+      slug: "complete-blood-count-cbc-test",
+      name: "Complete Blood Count (CBC)"
+    },
+    {
+      slug: "dengue-test-symptoms-guide",
+      name: "Dengue Test"
+    },
+    {
+      slug: "typhoid-test-guide",
+      name: "Typhoid Test"
+    },
+    {
+      slug: "c-reactive-protein-crp-test-guide",
+      name: "CRP Test"
+    },
+    {
+      slug: "full-body-checkup",
+      name: "Full Body Checkup"
+    }
+  ],
+
+  cta: {
+    title: "Book Your Malaria Blood Test Today",
+    description:
+      "Get accurate Malaria Blood Testing with home sample collection, experienced laboratory professionals, and fast reporting from Shyam Pathology Lab.",
+    buttonText: "Book Malaria Test",
+    buttonLink: "/services/malaria-test"
+  }
+},
 
 
 
