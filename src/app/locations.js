@@ -2337,6 +2337,429 @@ Patients receive accurate pathology reports digitally through WhatsApp, email, a
 
   ctaDescription:
     "Schedule affordable blood tests with convenient home sample collection anywhere in Pinjore. Get accurate pathology reports, preventive health checkups, and reliable diagnostic services from Shyam Budget Friendly Labs with fast digital report delivery."
+},
+{
+  slug: "kalka",
+
+  city: "Kalka",
+
+  title:
+    "Blood Test in Kalka | Home Sample Collection & Full Body Checkup",
+
+  description:
+    "Book affordable blood tests in Kalka with Shyam Budget Friendly Labs. Get home sample collection, CBC Test, Blood Sugar Test, Thyroid Profile, HbA1c Diabetes Test, Vitamin D & B12 Tests, Lipid Profile, Kidney Function Test, Liver Function Test, Urine Tests, Full Body Health Checkups, and accurate pathology reports across Kalka and nearby areas.",
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/kalka.webp",
+
+  featuredPackages: [
+    "full-body-checkup",
+    "executive-full-body-checkup",
+    "swasthya-mitra-advance",
+    "lipid-profile-test",
+    "vitamin-d-b12-combo",
+    "hba1c-test",
+    "senior-citizen-male-package",
+    "home-sample-collection"
+  ],
+
+  heroTitle:
+    "Affordable Blood Tests & Home Sample Collection in Kalka",
+
+  heroSubtitle:
+    "Book accurate pathology tests with certified home sample collection, experienced phlebotomists, fast digital reports, and preventive health packages across Kalka and surrounding areas.",
+
+  cityOverview: {
+    title: "Trusted Diagnostic & Pathology Services in Kalka",
+
+    content: `
+Kalka is a historic town located at the foothills of the Shivalik Hills in Haryana and serves as the gateway to Himachal Pradesh. The town connects thousands of travelers and residents through the famous Kalka-Shimla Railway while also being closely connected to Panchkula, Chandigarh, Pinjore, Parwanoo, and Baddi. Over the years, Kalka has developed into an important residential and commercial hub where people increasingly recognize the importance of preventive healthcare and timely diagnostic testing.
+
+Regular pathology investigations play a significant role in detecting diseases before symptoms become severe. Whether it is diabetes monitoring, thyroid disorders, vitamin deficiencies, liver diseases, kidney disorders, infections, or routine annual health screening, accurate laboratory testing helps doctors make informed medical decisions and allows patients to receive timely treatment.
+
+Shyam Budget Friendly Labs proudly provides reliable pathology services throughout Kalka with affordable pricing, professional home sample collection, modern laboratory practices, and accurate digital reports. Our experienced team is committed to making healthcare convenient for every household by offering doorstep blood collection, quick turnaround times, and dependable diagnostic services.
+
+From routine blood investigations to comprehensive preventive health packages, we help individuals, families, senior citizens, children, working professionals, and patients with chronic medical conditions access high-quality pathology services without unnecessary travel. Our focus on patient comfort, laboratory accuracy, transparent pricing, and responsive customer support has made us a trusted choice for blood testing in Kalka and nearby locations.
+`
+  },
+    whyChooseUs: [
+    {
+      title: "Convenient Home Sample Collection",
+      description:
+        "Avoid long queues and unnecessary travel by booking doorstep blood sample collection anywhere in Kalka. Our trained phlebotomists collect samples safely at your preferred time while following strict hygiene and safety protocols."
+    },
+    {
+      title: "Affordable Blood Tests & Health Packages",
+      description:
+        "We believe quality diagnostics should be accessible to everyone. Our routine blood tests, preventive health packages, diabetes profiles, thyroid tests, and wellness screenings are competitively priced without compromising on quality."
+    },
+    {
+      title: "Modern Laboratory Standards",
+      description:
+        "Every sample is processed using standardized laboratory procedures with advanced diagnostic equipment to deliver accurate, reliable, and clinically useful pathology reports that healthcare professionals can trust."
+    },
+    {
+      title: "Quick Digital Report Delivery",
+      description:
+        "Receive your pathology reports through WhatsApp, email, or secure online access. Most routine investigations are processed quickly, helping doctors begin treatment without unnecessary delays."
+    }
+  ],
+
+  healthConditions: [
+    "Diabetes Screening & Monitoring",
+    "Prediabetes Detection",
+    "Thyroid Disorders",
+    "Vitamin D Deficiency",
+    "Vitamin B12 Deficiency",
+    "High Cholesterol",
+    "Heart Health Assessment",
+    "Anemia Detection",
+    "Kidney Function Monitoring",
+    "Liver Function Disorders",
+    "Urinary Tract Infections (UTI)",
+    "Dengue Screening",
+    "Typhoid Testing",
+    "Malaria Testing",
+    "Seasonal Viral Infections",
+    "Routine Preventive Health Screening"
+  ],
+
+  whoShouldGetTested: [
+    "Working Professionals",
+    "Senior Citizens",
+    "Women",
+    "Children",
+    "College Students",
+    "Business Owners",
+    "Corporate Employees",
+    "Patients with Diabetes",
+    "Individuals with Thyroid Disorders",
+    "People with High Blood Pressure",
+    "Fitness Enthusiasts",
+    "Pregnant Women (As Advised by Their Doctor)",
+    "Patients Recovering from Illness",
+    "Individuals Planning Annual Health Checkups",
+    "Anyone with Doctor-Prescribed Blood Tests"
+  ],
+
+  popularSearches: [
+    "Blood Test in Kalka",
+    "Pathology Lab in Kalka",
+    "Diagnostic Centre Kalka",
+    "Home Sample Collection Kalka",
+    "Blood Test Near Me Kalka",
+    "CBC Test in Kalka",
+    "Blood Sugar Test Kalka",
+    "HbA1c Test Kalka",
+    "Thyroid Test Kalka",
+    "Vitamin D Test Kalka",
+    "Vitamin B12 Test Kalka",
+    "Lipid Profile Kalka",
+    "Kidney Function Test Kalka",
+    "Liver Function Test Kalka",
+    "Urine Test Kalka",
+    "Dengue Test Kalka",
+    "Typhoid Test Kalka",
+    "Malaria Test Kalka",
+    "Full Body Checkup Kalka",
+    "Affordable Blood Test Kalka"
+  ],
+    cityDescription: `
+Kalka is one of the most important towns in northern Haryana and serves as the gateway to the beautiful hill stations of Himachal Pradesh. Located at the foothills of the Shivalik Hills, Kalka is widely known for the historic Kalka–Shimla Railway, a UNESCO World Heritage attraction, and its excellent road and rail connectivity to Panchkula, Chandigarh, Pinjore, Parwanoo, Solan, and Baddi. Along with its historical significance, Kalka has grown into a vibrant residential and commercial town where thousands of families, students, business owners, government employees, and travelers depend on quality healthcare services throughout the year.
+
+As awareness about preventive healthcare continues to increase, more people in Kalka are choosing regular blood tests to monitor their health instead of waiting for symptoms to appear. Routine pathology investigations help identify conditions such as diabetes, thyroid disorders, vitamin deficiencies, anemia, liver disease, kidney disorders, infections, and high cholesterol at an early stage. Early diagnosis allows timely treatment, prevents complications, and supports a healthier lifestyle.
+
+Shyam Budget Friendly Labs is committed to making reliable diagnostic services easily accessible for residents of Kalka by providing affordable blood tests, professional home sample collection, accurate laboratory analysis, and fast digital report delivery. Whether you need a routine blood investigation prescribed by your doctor or wish to undergo a preventive health checkup for your family, our experienced team ensures a smooth and comfortable testing experience from start to finish.
+
+We offer a comprehensive range of pathology services including Complete Blood Count (CBC), Blood Sugar Tests, HbA1c Diabetes Monitoring, Thyroid Profile (T3, T4 & TSH), Lipid Profile, Liver Function Test (LFT), Kidney Function Test (KFT), Vitamin D Test, Vitamin B12 Test, Urine Routine Examination, Dengue Test, Malaria Test, Typhoid Test, Pregnancy Tests, Allergy Testing, Infection Screening, and comprehensive Full Body Health Checkup Packages. Every investigation is performed following strict quality control procedures to ensure dependable and clinically accurate results.
+
+For many patients, visiting a laboratory can be challenging because of busy work schedules, advanced age, illness, or transportation issues. To make healthcare more convenient, Shyam Budget Friendly Labs offers doorstep blood sample collection throughout Kalka and surrounding areas. Our trained phlebotomists visit your home at a scheduled time, collect samples using sterile equipment, follow strict hygiene standards, and safely transport specimens to our laboratory for analysis. This service is especially helpful for senior citizens, children, pregnant women, and patients recovering from illness who prefer testing from the comfort of their homes.
+
+Preventive healthcare is becoming increasingly important because lifestyle-related diseases often develop silently. Conditions like diabetes, hypertension, thyroid disorders, high cholesterol, fatty liver disease, and vitamin deficiencies may not show noticeable symptoms during their early stages. Regular blood testing helps identify these conditions before they become serious, enabling doctors to recommend lifestyle changes or medical treatment at the right time. Annual health screening is one of the simplest ways to maintain long-term wellness for individuals of all age groups.
+
+Our preventive health packages are carefully designed to meet the needs of working professionals, senior citizens, families, corporate employees, students, and individuals looking for complete wellness assessments. These packages combine multiple diagnostic investigations into a single affordable health checkup, providing a comprehensive overview of your overall health. Regular monitoring also helps patients with existing medical conditions track treatment progress and make informed healthcare decisions with their physicians.
+
+Accuracy and reliability remain at the heart of every pathology investigation we perform. Our laboratory follows standardized operating procedures, maintains strict quality assurance protocols, and uses modern diagnostic technology to produce reports that healthcare professionals can confidently rely upon. Every sample is handled carefully from collection to reporting, ensuring consistency, precision, and patient safety throughout the testing process.
+
+In addition to quality diagnostics, we believe healthcare should be simple and stress-free. Patients can conveniently schedule appointments, choose home sample collection when required, and receive reports digitally through WhatsApp, email, or secure online access. This allows doctors to review results quickly and begin treatment without unnecessary delays while patients enjoy a hassle-free diagnostic experience.
+
+Residents from Kalka and nearby locations such as Pinjore, Parwanoo, Amravati, Taksal, Bitna, Surajpur, Baddi, Panchkula, and Chandigarh trust Shyam Budget Friendly Labs for reliable pathology services, transparent pricing, professional sample collection, and compassionate customer support. Whether you require routine blood testing, preventive health screening, chronic disease monitoring, or specialized laboratory investigations, our mission is to deliver accurate diagnostic services that help you make informed decisions about your health.
+
+By combining experienced healthcare professionals, modern laboratory practices, affordable pricing, and convenient home sample collection, Shyam Budget Friendly Labs continues to support healthier communities across Kalka. We are dedicated to providing trusted pathology services that make preventive healthcare accessible, dependable, and convenient for every patient.
+`,
+  services: [
+    {
+      name: "CBC Test in Kalka",
+      slug: "/services/cbc-test"
+    },
+    {
+      name: "Blood Sugar Test in Kalka",
+      slug: "/services/fasting-blood-sugar"
+    },
+    {
+      name: "HbA1c Diabetes Test in Kalka",
+      slug: "/services/hba1c-test"
+    },
+    {
+      name: "Thyroid Profile Test in Kalka",
+      slug: "/services/thyroid-test-panchkula"
+    },
+    {
+      name: "Vitamin D Test in Kalka",
+      slug: "/services/vitamin-d-test-panchkula"
+    },
+    {
+      name: "Vitamin B12 Test in Kalka",
+      slug: "/services/vitamin-b12-test"
+    },
+    {
+      name: "Kidney Function Test in Kalka",
+      slug: "/services/kidney-function-test"
+    },
+    {
+      name: "Liver Function Test in Kalka",
+      slug: "/services/liver-function-test"
+    },
+    {
+      name: "Lipid Profile Test in Kalka",
+      slug: "/services/lipid-profile-test"
+    },
+    {
+      name: "Urine Routine Test in Kalka",
+      slug: "/services/urine-routine-examination"
+    },
+    {
+      name: "Full Body Checkup in Kalka",
+      slug: "/services/full-body-checkup"
+    }
+  ],
+
+  popularTests: [
+    "CBC Test Kalka",
+    "Complete Blood Count Kalka",
+    "Blood Sugar Test Kalka",
+    "HbA1c Test Kalka",
+    "Thyroid Profile Kalka",
+    "Vitamin D Test Kalka",
+    "Vitamin B12 Test Kalka",
+    "Lipid Profile Kalka",
+    "Kidney Function Test Kalka",
+    "Liver Function Test Kalka",
+    "Urine Routine Test Kalka",
+    "Dengue Test Kalka",
+    "Typhoid Test Kalka",
+    "Malaria Test Kalka",
+    "Full Body Checkup Kalka",
+    "Health Checkup Package Kalka",
+    "Home Blood Collection Kalka",
+    "Diagnostic Lab Kalka",
+    "Blood Test Near Me Kalka",
+    "Affordable Blood Test Kalka"
+  ],
+
+  facts: [
+    {
+      label: "Areas Served",
+      value: "40+ Locations Across Kalka & Nearby Areas"
+    },
+    {
+      label: "Diagnostic Tests",
+      value: "150+ Blood, Urine & Preventive Health Tests"
+    },
+    {
+      label: "Home Collection",
+      value: "Available 7 Days a Week"
+    },
+    {
+      label: "Report Delivery",
+      value: "WhatsApp, Email & Secure Online Reports"
+    }
+  ],
+    sections: [
+    {
+      title: "Reliable Blood Testing Services in Kalka",
+      content: [
+        "Residents across Kalka trust Shyam Budget Friendly Labs for accurate pathology testing, preventive health checkups, and reliable diagnostic services. Whether you need a routine blood test, a doctor-prescribed investigation, or a comprehensive wellness screening, our experienced team is committed to delivering dependable results with complete convenience. Every test is performed following standardized laboratory protocols to ensure quality, accuracy, and timely reporting.",
+
+        "Our diagnostic services support individuals of all age groups, including children, adults, senior citizens, and patients managing chronic medical conditions. From routine health monitoring to specialized investigations, we focus on making laboratory testing affordable, accessible, and stress-free for every family in Kalka."
+      ]
+    },
+
+    {
+      title: "Convenient Home Sample Collection Across Kalka",
+      content: [
+        "Visiting a diagnostic laboratory is not always convenient, especially for senior citizens, working professionals, pregnant women, young children, and patients recovering from illness. Our doorstep blood sample collection service allows patients to undergo testing from the comfort of their homes without compromising quality or safety.",
+
+        "Our trained phlebotomists arrive at your preferred location with sterile equipment, follow strict hygiene protocols, and safely transport every sample to our laboratory under controlled conditions. Patients can schedule appointments at a convenient time and receive digital pathology reports through WhatsApp, email, or secure online access, making healthcare more accessible than ever."
+      ]
+    },
+
+    {
+      title: "Comprehensive Blood Tests & Preventive Health Checkups",
+      content: [
+        "Preventive healthcare has become an essential part of maintaining long-term wellness. Regular blood investigations help detect diabetes, thyroid disorders, anemia, vitamin deficiencies, high cholesterol, kidney disease, liver disorders, infections, and several lifestyle-related conditions before noticeable symptoms appear. Early diagnosis allows doctors to recommend timely treatment and helps patients avoid future complications.",
+
+        "Shyam Budget Friendly Labs offers a wide range of diagnostic investigations including Complete Blood Count (CBC), Blood Sugar Tests, HbA1c Diabetes Monitoring, Thyroid Profile, Lipid Profile, Liver Function Test (LFT), Kidney Function Test (KFT), Vitamin D Test, Vitamin B12 Test, Urine Routine Examination, Dengue Test, Typhoid Test, Malaria Test, and comprehensive Full Body Health Checkup Packages. Our preventive health packages provide a convenient way to monitor multiple health parameters in a single visit."
+      ]
+    },
+        {
+      title: "Modern Laboratory Technology with Trusted Accuracy",
+      content: [
+        "Accurate diagnostic reports are the foundation of effective medical treatment. At Shyam Budget Friendly Labs, every blood, urine, and diagnostic sample is processed using modern laboratory equipment and standardized quality control procedures. Our experienced laboratory professionals carefully handle each sample to maintain precision, consistency, and reliability throughout the testing process.",
+
+        "We understand that doctors rely on pathology reports to diagnose diseases and plan treatments. That is why we follow strict sample handling protocols, maintain high laboratory standards, and continuously focus on delivering reports that healthcare professionals and patients can trust. Whether you are undergoing a routine health checkup or specialized diagnostic investigation, our commitment to quality remains the same."
+      ]
+    },
+
+    {
+      title: "Why Families Across Kalka Choose Shyam Budget Friendly Labs",
+      content: [
+        "Thousands of patients prefer Shyam Budget Friendly Labs because we combine affordability, convenience, professional service, and reliable diagnostic reporting under one roof. From the moment you book your appointment until you receive your pathology report, our team works to provide a smooth and hassle-free experience. Transparent pricing, responsive customer support, and convenient home sample collection make healthcare easier for busy families and working professionals.",
+
+        "Our laboratory serves students, corporate employees, senior citizens, children, and patients managing long-term medical conditions by offering dependable pathology services without unnecessary waiting or complicated booking procedures. Every patient receives personalized attention, timely report delivery, and professional assistance whenever required."
+      ]
+    },
+
+    {
+      title: "Supporting Better Health Through Preventive Diagnostics",
+      content: [
+        "Many serious health conditions develop gradually and may not show noticeable symptoms during their early stages. Regular diagnostic screening allows doctors to identify potential health concerns before they become severe. Annual blood tests, diabetes monitoring, thyroid screening, cholesterol testing, kidney function assessment, and vitamin deficiency evaluation are valuable tools for maintaining long-term health and reducing future medical risks.",
+
+        "At Shyam Budget Friendly Labs, our goal is to encourage preventive healthcare by making high-quality diagnostic services affordable and easily accessible across Kalka. Whether you need a routine blood investigation, a comprehensive health package, or regular monitoring for an existing medical condition, our experienced team is committed to helping you make informed healthcare decisions with confidence."
+      ]
+    }
+  ],
+    nearbyAreas: [
+    "Railway Road",
+    "Old Kalka",
+    "Main Bazaar",
+    "Taksal",
+    "Bitna",
+    "Parwanoo",
+    "Pinjore",
+    "Amravati",
+    "Surajpur",
+    "Sector 1 Panchkula",
+    "Sector 20 Panchkula",
+    "Sector 21 Panchkula",
+    "Baddi",
+    "Dharampur",
+    "Koti",
+    "Chandimandir"
+  ],
+
+  testimonials: [
+    {
+      name: "Amit Sharma",
+      review:
+        "Excellent home sample collection service in Kalka. The technician arrived on time, the sample collection was smooth, and I received my reports digitally the very same day. Highly recommended for anyone looking for reliable pathology services."
+    },
+    {
+      name: "Neha Gupta",
+      review:
+        "I booked a Full Body Health Checkup for my parents. The booking process was simple, the staff was courteous, and the reports were detailed and easy to understand. The home collection service made everything very convenient."
+    },
+    {
+      name: "Sandeep Verma",
+      review:
+        "Affordable pricing, professional staff, and accurate pathology reports. I regularly book my diabetes and thyroid tests here because the service is always reliable and the report delivery is quick."
+    }
+  ],
+
+  faqs: [
+    {
+      question: "Do you provide home sample collection throughout Kalka?",
+      answer:
+        "Yes. We offer doorstep blood sample collection across Kalka and nearby locations, allowing patients to book pathology tests from the comfort of their homes."
+    },
+    {
+      question: "Which blood tests are most commonly booked in Kalka?",
+      answer:
+        "The most frequently booked investigations include CBC Test, Blood Sugar Test, HbA1c Test, Thyroid Profile, Lipid Profile, Liver Function Test (LFT), Kidney Function Test (KFT), Vitamin D Test, Vitamin B12 Test, Urine Routine Examination, and Full Body Health Checkup Packages."
+    },
+    {
+      question: "Can I book a Full Body Health Checkup in Kalka?",
+      answer:
+        "Yes. We provide affordable preventive health checkup packages that include multiple blood investigations to help monitor your overall health and detect potential medical conditions early."
+    },
+    {
+      question: "Are fasting blood tests available in Kalka?",
+      answer:
+        "Yes. Early morning appointments are available for fasting investigations such as Blood Sugar Tests, Lipid Profile, and other tests that require fasting. Our team will provide preparation instructions while booking your appointment."
+    },
+    {
+      question: "How will I receive my pathology reports?",
+      answer:
+        "Most reports are delivered digitally through WhatsApp, email, and secure online access, making it convenient to review or share them with your doctor."
+    },
+    {
+      question: "Why should I choose Shyam Budget Friendly Labs in Kalka?",
+      answer:
+        "Patients choose us for our accurate pathology reports, experienced collection staff, affordable pricing, convenient home sample collection, fast report delivery, modern laboratory standards, and patient-focused service."
+    }
+  ],
+    relatedLocations: [
+    {
+      city: "Panchkula",
+      slug: "/locations/panchkula"
+    },
+    {
+      city: "Pinjore",
+      slug: "/locations/pinjore"
+    },
+    {
+      city: "Chandigarh",
+      slug: "/locations/chandigarh"
+    },
+    {
+      city: "Zirakpur",
+      slug: "/locations/zirakpur"
+    },
+    {
+      city: "Parwanoo",
+      slug: "/locations/parwanoo"
+    }
+  ],
+
+  tags: [
+    "Blood Test in Kalka",
+    "Pathology Lab Kalka",
+    "Diagnostic Centre Kalka",
+    "Blood Test Near Me Kalka",
+    "Home Sample Collection Kalka",
+    "CBC Test Kalka",
+    "Complete Blood Count Kalka",
+    "Blood Sugar Test Kalka",
+    "HbA1c Test Kalka",
+    "Diabetes Test Kalka",
+    "Thyroid Test Kalka",
+    "Thyroid Profile Kalka",
+    "Vitamin D Test Kalka",
+    "Vitamin B12 Test Kalka",
+    "Lipid Profile Kalka",
+    "Kidney Function Test Kalka",
+    "Liver Function Test Kalka",
+    "Urine Routine Test Kalka",
+    "Dengue Test Kalka",
+    "Typhoid Test Kalka",
+    "Malaria Test Kalka",
+    "Health Checkup Kalka",
+    "Full Body Checkup Kalka",
+    "Preventive Health Checkup Kalka",
+    "Blood Collection at Home Kalka",
+    "Medical Lab Kalka",
+    "Affordable Blood Test Kalka",
+    "Diagnostic Lab Near Me Kalka",
+    "Health Packages Kalka",
+    "Shyam Budget Friendly Labs"
+  ],
+
+  ctaTitle:
+    "Book Your Blood Test in Kalka Today",
+
+  ctaDescription:
+    "Schedule affordable blood tests with convenient home sample collection anywhere in Kalka. From CBC, Blood Sugar, Thyroid Profile, Vitamin D, HbA1c, Lipid Profile, Kidney & Liver Function Tests to comprehensive Full Body Health Checkups, Shyam Budget Friendly Labs provides accurate pathology reports, fast digital report delivery, and trusted diagnostic services designed to keep you and your family healthy."
 }
 
 
