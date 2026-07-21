@@ -2225,5 +2225,252 @@ keywords: [
     "Shyam Budget Friendly Labs"
   ]
 },
+{
+  slug: "home-sample-collection",
+
+  title:
+    "Home Sample Collection in Panchkula | Blood Test at Home",
+
+  subtitle:
+    "Safe, Convenient & Professional Home Blood Sample Collection with Fast Digital Reports",
+
+  description:
+    "Book home sample collection in Panchkula with Shyam Budget Friendly Labs. Our trained phlebotomists collect blood and urine samples from your home using sterile equipment. Get accurate pathology testing, affordable pricing, same-day collection, and fast digital reports without visiting a laboratory.",
+
+  image: "/services/home-sample-collection.webp",
+
+  category: "Home Collection",
+
+  related: [
+    "full-body-checkup",
+    "cbc-test",
+    "blood-sugar-test",
+    "thyroid-test-panchkula"
+  ],
+
+  symptoms: [
+    "Unable to visit a diagnostic center",
+    "Bedridden patients",
+    "Senior citizens needing routine monitoring",
+    "Pregnant women requiring regular blood tests",
+    "Busy professionals with limited time",
+    "Patients recovering after surgery",
+    "People requiring fasting blood tests",
+    "Children requiring laboratory investigations",
+    "Patients with chronic diseases needing regular monitoring"
+  ],
+
+  whoShouldGet: [
+    "Senior Citizens",
+    "Working Professionals",
+    "Pregnant Women",
+    "Children",
+    "Patients Recovering at Home",
+    "Individuals with Diabetes",
+    "Patients with Hypertension",
+    "People requiring regular blood monitoring",
+    "Anyone who prefers testing from home"
+  ],
+
+  procedure: [
+    "Book your appointment online or by phone.",
+    "Choose your preferred date and collection time.",
+    "Our trained phlebotomist visits your home.",
+    "Samples are collected using sterile disposable equipment.",
+    "Samples are transported safely to our laboratory.",
+    "Reports are shared digitally via WhatsApp, Email, or Online Portal."
+  ],
+
+  normalRanges: [],
+
+  facts: [
+    {
+      label: "Home Visit",
+      value: "Available 7 Days"
+    },
+    {
+      label: "Sample Types",
+      value: "Blood, Urine & Other Laboratory Samples"
+    },
+    {
+      label: "Report Delivery",
+      value: "WhatsApp, Email & Online"
+    },
+    {
+      label: "Booking",
+      value: "Online & Phone"
+    }
+  ],
+
+  benefits: [
+    "No need to visit the laboratory",
+    "Comfortable sample collection at home",
+    "Ideal for elderly and bedridden patients",
+    "Professional trained phlebotomists",
+    "Safe sterile collection procedure",
+    "Saves travel time",
+    "Fast digital report delivery",
+    "Affordable diagnostic services"
+  ],
+
+  parameters: [
+    "Blood Sample Collection",
+    "Urine Sample Collection",
+    "Fasting Sample Collection",
+    "CBC Test Collection",
+    "Blood Sugar Sample",
+    "HbA1c Sample",
+    "Thyroid Profile Collection",
+    "Vitamin D Sample",
+    "Vitamin B12 Sample",
+    "Lipid Profile Collection",
+    "Kidney Function Test Sample",
+    "Liver Function Test Sample",
+    "Dengue Sample",
+    "Typhoid Sample",
+    "Malaria Sample",
+    "Hormone Test Collection",
+    "Health Package Sample Collection"
+  ],
+
+  preparation: [
+    "Keep your doctor prescription ready if available.",
+    "Follow fasting instructions if your test requires fasting.",
+    "Drink adequate water before blood collection unless instructed otherwise.",
+    "Keep a valid ID if required.",
+    "Wear clothing that allows easy access to your arm.",
+    "Be available during your scheduled appointment."
+  ],
+    sections: [
+    {
+      title: "Professional Home Sample Collection in Panchkula",
+      content: [
+        "Shyam Budget Friendly Labs provides safe, convenient, and professional Home Sample Collection services across Panchkula, Chandigarh, Mohali, Zirakpur, Pinjore, Kalka, New Chandigarh, and nearby areas. Instead of traveling to a diagnostic center or waiting in long queues, you can schedule a laboratory technician to visit your home at a time that suits you. Our service is designed to make pathology testing simple, comfortable, and accessible for everyone.",
+
+        "Whether you require a routine blood test, preventive health package, diabetes monitoring, thyroid profile, vitamin testing, urine examination, or doctor-prescribed investigations, our experienced phlebotomists collect samples using sterile disposable equipment while following strict hygiene and safety protocols. Every sample is transported safely to our laboratory to ensure accurate and reliable results."
+      ]
+    },
+
+    {
+      title: "Why Choose Home Sample Collection?",
+      content: [
+        "Home sample collection eliminates the inconvenience of visiting a laboratory, making healthcare more comfortable for busy professionals, senior citizens, children, pregnant women, and patients recovering from illness. Our trained collection staff visits your home at the scheduled time, ensuring a smooth and stress-free experience while maintaining the highest standards of patient safety.",
+
+        "Patients also benefit from reduced travel time, flexible appointment scheduling, and digital report delivery through WhatsApp, email, or secure online access. This convenient service allows individuals and families to complete essential diagnostic testing without disrupting their daily routine."
+      ]
+    },
+
+    {
+      title: "Tests Available Through Home Collection",
+      content: [
+        "Our Home Sample Collection service covers a wide range of pathology investigations. Patients can book Complete Blood Count (CBC), Blood Sugar Tests, HbA1c Diabetes Test, Thyroid Profile (T3, T4 & TSH), Lipid Profile, Liver Function Test (LFT), Kidney Function Test (KFT), Vitamin D Test, Vitamin B12 Test, Urine Routine Examination, Dengue Test, Typhoid Test, Malaria Test, Pregnancy Tests, Allergy Testing, Hormone Tests, and comprehensive Full Body Health Checkup Packages.",
+
+        "Whether you need a single blood investigation or an extensive preventive health package, our team ensures every sample is collected safely and processed according to standardized laboratory procedures."
+      ]
+    },
+
+    {
+      title: "Who Should Use Home Sample Collection?",
+      content: [
+        "Home sample collection is ideal for senior citizens, patients with limited mobility, individuals recovering after surgery, pregnant women, children, working professionals, and patients managing chronic medical conditions like diabetes, thyroid disorders, hypertension, kidney disease, or high cholesterol. It is also an excellent option for anyone who prefers the comfort and privacy of home while undergoing diagnostic testing.",
+
+        "Patients who require regular blood monitoring or fasting investigations especially benefit from early morning doorstep sample collection without needing to travel to a laboratory."
+      ]
+    },
+
+    {
+      title: "Safe Collection Process & Accurate Reporting",
+      content: [
+        "Every home visit is carried out by trained and experienced phlebotomists using sterile, single-use collection equipment. Samples are labeled correctly, handled carefully, and transported under recommended conditions to maintain sample quality and ensure reliable laboratory analysis.",
+
+        "After testing, reports are reviewed by experienced laboratory professionals and delivered digitally through WhatsApp, email, or secure online access. Most routine pathology investigations are reported quickly, allowing your doctor to review results and begin treatment without unnecessary delays."
+      ]
+    },
+
+    {
+      title: "Book Home Sample Collection Today",
+      content: [
+        "Booking Home Sample Collection with Shyam Budget Friendly Labs is simple and convenient. Patients can schedule appointments online or by phone, choose their preferred collection time, and complete their laboratory testing from the comfort of home. Our goal is to make high-quality diagnostic services affordable, reliable, and easily accessible for every family.",
+
+        "Whether you need routine blood investigations, preventive health screening, chronic disease monitoring, or doctor-prescribed laboratory tests, our professional home collection service ensures a safe, hassle-free experience with accurate reports you can trust."
+      ]
+    }
+  ],
+
+  faqs: [
+    {
+      question: "What is Home Sample Collection?",
+      answer:
+        "Home Sample Collection is a service where a trained phlebotomist visits your home to collect blood, urine, or other laboratory samples, eliminating the need to visit a diagnostic center."
+    },
+    {
+      question: "Which tests are available through Home Sample Collection?",
+      answer:
+        "Most routine pathology tests including CBC, Blood Sugar, HbA1c, Thyroid Profile, Lipid Profile, Liver Function Test, Kidney Function Test, Vitamin D, Vitamin B12, Urine Tests, Dengue, Typhoid, Malaria, and Full Body Health Checkup Packages are available."
+    },
+    {
+      question: "Is Home Sample Collection safe?",
+      answer:
+        "Yes. Our trained phlebotomists use sterile disposable collection equipment, follow strict hygiene protocols, and safely transport samples to the laboratory for analysis."
+    },
+    {
+      question: "Can I book early morning fasting sample collection?",
+      answer:
+        "Yes. Early morning appointments are available for fasting investigations such as Blood Sugar and Lipid Profile."
+    },
+    {
+      question: "How will I receive my reports?",
+      answer:
+        "Reports are delivered digitally through WhatsApp, email, and secure online access. Printed reports may also be available upon request."
+    },
+    {
+      question: "Which areas do you cover for Home Sample Collection?",
+      answer:
+        "We provide doorstep sample collection across Panchkula, Chandigarh, Mohali, Zirakpur, Pinjore, Kalka, New Chandigarh, Mullanpur, and nearby locations."
+    },
+    {
+      question: "How do I book Home Sample Collection?",
+      answer:
+        "You can book online or call our team to schedule a convenient date and time for sample collection at your home."
+    },
+    {
+      question: "Is there an additional charge for Home Collection?",
+      answer:
+        "Home collection charges may vary depending on your location and the tests booked. Please contact our team for current pricing."
+    }
+  ],
+
+  keywords: [
+    "Home Sample Collection",
+    "Blood Test at Home",
+    "Home Blood Collection",
+    "Doorstep Blood Collection",
+    "Home Blood Test Panchkula",
+    "Blood Collection at Home",
+    "Lab Test at Home",
+    "Diagnostic Home Collection",
+    "Home Collection Near Me",
+    "Home Sample Collection Panchkula",
+    "Home Blood Test Chandigarh",
+    "Home Blood Test Mohali",
+    "Home Sample Collection Zirakpur",
+    "Home Collection Pinjore",
+    "Home Blood Collection Kalka",
+    "CBC Test at Home",
+    "Blood Sugar Test at Home",
+    "Thyroid Test at Home",
+    "Vitamin D Test at Home",
+    "HbA1c Test at Home",
+    "Full Body Checkup at Home",
+    "Urine Sample Collection",
+    "Preventive Health Checkup",
+    "Diagnostic Lab Panchkula",
+    "Pathology Lab Near Me",
+    "Affordable Home Blood Test",
+    "Online Blood Test Booking",
+    "Doorstep Lab Services",
+    "Shyam Budget Friendly Labs"
+  ]
+}
 
 ]

@@ -2760,6 +2760,433 @@ By combining experienced healthcare professionals, modern laboratory practices, 
 
   ctaDescription:
     "Schedule affordable blood tests with convenient home sample collection anywhere in Kalka. From CBC, Blood Sugar, Thyroid Profile, Vitamin D, HbA1c, Lipid Profile, Kidney & Liver Function Tests to comprehensive Full Body Health Checkups, Shyam Budget Friendly Labs provides accurate pathology reports, fast digital report delivery, and trusted diagnostic services designed to keep you and your family healthy."
+},
+{
+  slug: "new-chandigarh-mullanpur",
+
+  city: "New Chandigarh (Mullanpur)",
+
+  title:
+    "Blood Test in New Chandigarh (Mullanpur) | Home Sample Collection & Full Body Checkup",
+
+  description:
+    "Book affordable blood tests in New Chandigarh (Mullanpur) with Shyam Budget Friendly Labs. Get home sample collection, CBC Test, Blood Sugar Test, Thyroid Profile, HbA1c Diabetes Test, Vitamin D & B12 Tests, Lipid Profile, Kidney Function Test, Liver Function Test, Urine Tests, Full Body Health Checkups, and accurate pathology reports across New Chandigarh, Mullanpur, Omaxe New Chandigarh, DLF Hyde Park, Eco City, and nearby areas.",
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/new-chandigarh-mullanpur.webp",
+
+  featuredPackages: [
+    "full-body-checkup",
+    "executive-full-body-checkup",
+    "swasthya-mitra-advance",
+    "lipid-profile-test",
+    "vitamin-d-b12-combo",
+    "hba1c-test",
+    "senior-citizen-male-package",
+    "home-sample-collection"
+  ],
+
+  heroTitle:
+    "Affordable Blood Tests & Home Sample Collection in New Chandigarh (Mullanpur)",
+
+  heroSubtitle:
+    "Book accurate pathology tests with certified home sample collection, experienced phlebotomists, fast digital reports, and preventive health packages across New Chandigarh (Mullanpur) and surrounding areas.",
+
+  cityOverview: {
+    title: "Trusted Diagnostic & Pathology Services in New Chandigarh (Mullanpur)",
+
+    content: `
+New Chandigarh, also known as Mullanpur, is one of North India's fastest-growing planned cities located adjacent to Chandigarh in SAS Nagar (Mohali) district, Punjab. The city is home to premium residential townships, educational institutions, healthcare facilities, and rapidly expanding commercial developments. Areas such as Omaxe New Chandigarh, DLF Hyde Park, Eco City, Aerocity Extension, and GMADA sectors have attracted thousands of families seeking modern infrastructure and quality healthcare services.
+
+As New Chandigarh continues to grow, preventive healthcare has become increasingly important for residents. Routine pathology investigations help detect diabetes, thyroid disorders, anemia, vitamin deficiencies, kidney disease, liver disorders, infections, and heart-related risk factors before symptoms become severe.
+
+Shyam Budget Friendly Labs proudly provides reliable pathology services throughout New Chandigarh (Mullanpur) with affordable blood tests, professional home sample collection, accurate laboratory analysis, and fast digital reports. Our trained phlebotomists collect samples from your home while maintaining strict hygiene and safety standards, ensuring a comfortable testing experience.
+
+Whether you require routine blood investigations, preventive health packages, chronic disease monitoring, or doctor-prescribed laboratory tests, we are committed to delivering dependable diagnostic services with transparent pricing, modern laboratory standards, and patient-focused care.
+`
+  },
+
+  whyChooseUs: [
+    {
+      title: "Doorstep Home Sample Collection",
+      description:
+        "Book blood sample collection anywhere across New Chandigarh (Mullanpur). Our trained phlebotomists visit your home at your preferred time using sterile equipment and safe collection procedures."
+    },
+    {
+      title: "Affordable Diagnostic Services",
+      description:
+        "We offer affordable blood investigations, preventive health checkups, diabetes screening, thyroid tests, cholesterol profiles, and wellness packages without compromising laboratory quality."
+    },
+    {
+      title: "Modern Laboratory Standards",
+      description:
+        "Every sample is processed using advanced diagnostic equipment and standardized laboratory quality control procedures to ensure reliable and clinically accurate reports."
+    },
+    {
+      title: "Quick Digital Reports",
+      description:
+        "Receive pathology reports through WhatsApp, email, or secure online access with fast turnaround times for most routine investigations."
+    }
+  ],
+
+  healthConditions: [
+    "Diabetes Screening & Monitoring",
+    "Prediabetes Detection",
+    "High Cholesterol",
+    "Heart Health Assessment",
+    "Thyroid Disorders",
+    "Vitamin D Deficiency",
+    "Vitamin B12 Deficiency",
+    "Iron Deficiency & Anemia",
+    "Kidney Function Monitoring",
+    "Liver Function Disorders",
+    "Urinary Tract Infections (UTI)",
+    "Dengue Screening",
+    "Typhoid Testing",
+    "Malaria Testing",
+    "Seasonal Viral Infections",
+    "Routine Preventive Health Screening"
+  ],
+
+  whoShouldGetTested: [
+    "Working Professionals",
+    "Senior Citizens",
+    "Women",
+    "Children",
+    "Students",
+    "Corporate Employees",
+    "Business Owners",
+    "Patients with Diabetes",
+    "Individuals with Thyroid Disorders",
+    "People with High Blood Pressure",
+    "Fitness Enthusiasts",
+    "Pregnant Women (As Advised by Their Doctor)",
+    "Patients Recovering from Illness",
+    "Individuals Planning Annual Health Checkups",
+    "Anyone with Doctor-Prescribed Blood Tests"
+  ],
+
+  popularSearches: [
+    "Blood Test in New Chandigarh",
+    "Blood Test in Mullanpur",
+    "Pathology Lab in New Chandigarh",
+    "Diagnostic Centre Mullanpur",
+    "Blood Test Near Me New Chandigarh",
+    "Home Sample Collection New Chandigarh",
+    "CBC Test New Chandigarh",
+    "Blood Sugar Test Mullanpur",
+    "HbA1c Test New Chandigarh",
+    "Thyroid Test Mullanpur",
+    "Vitamin D Test New Chandigarh",
+    "Vitamin B12 Test Mullanpur",
+    "Lipid Profile New Chandigarh",
+    "Kidney Function Test Mullanpur",
+    "Liver Function Test New Chandigarh",
+    "Urine Test Mullanpur",
+    "Dengue Test New Chandigarh",
+    "Typhoid Test Mullanpur",
+    "Full Body Checkup New Chandigarh",
+    "Affordable Blood Test Mullanpur"
+  ],
+    cityDescription: `
+New Chandigarh (Mullanpur) is one of the most rapidly developing planned cities in North India, located in the SAS Nagar (Mohali) district of Punjab, just a few minutes from Chandigarh. Developed by GMADA as an extension of Chandigarh, the city features modern residential sectors, premium townships, educational institutions, healthcare facilities, wide roads, and green surroundings. Popular communities such as Omaxe New Chandigarh, DLF Hyde Park, Eco City, Altus Space Builders, and other residential projects have attracted thousands of families seeking a healthy and well-planned lifestyle.
+
+With a growing population of professionals, families, senior citizens, and students, the demand for reliable diagnostic and pathology services has increased significantly. Regular blood tests help detect diabetes, thyroid disorders, vitamin deficiencies, anemia, liver diseases, kidney disorders, infections, and heart-related conditions before they progress into serious health problems. Preventive healthcare enables early diagnosis, timely treatment, and improved long-term wellness.
+
+Shyam Budget Friendly Labs proudly provides affordable blood testing services in New Chandigarh (Mullanpur) with professional home sample collection, accurate laboratory investigations, and fast digital report delivery. Whether your doctor has prescribed a routine blood test or you wish to undergo a preventive health checkup, our experienced laboratory team ensures dependable testing with complete patient comfort.
+
+We offer a comprehensive range of pathology services including Complete Blood Count (CBC), Blood Sugar Test, HbA1c Diabetes Test, Thyroid Profile (T3, T4 & TSH), Lipid Profile, Kidney Function Test (KFT), Liver Function Test (LFT), Vitamin D Test, Vitamin B12 Test, Urine Routine Examination, Dengue Test, Typhoid Test, Malaria Test, Pregnancy Tests, Infection Screening, Allergy Testing, and comprehensive Full Body Health Checkup Packages. Every investigation follows strict quality control standards to provide reliable reports that healthcare professionals can confidently use for diagnosis and treatment.
+
+Many residents prefer home sample collection because it saves travel time and offers greater convenience. Our trained phlebotomists visit your home at the scheduled time, collect blood samples using sterile equipment, maintain proper hygiene protocols, and safely transport specimens to our laboratory for analysis. This service is especially beneficial for senior citizens, children, pregnant women, busy professionals, and patients recovering from illness.
+
+Lifestyle-related diseases such as diabetes, hypertension, thyroid disorders, high cholesterol, fatty liver disease, and vitamin deficiencies often develop silently without noticeable symptoms. Routine blood investigations play a crucial role in identifying these conditions at an early stage, allowing doctors to recommend lifestyle changes or medical treatment before complications arise. Annual health screening is therefore recommended for individuals of all age groups.
+
+Our preventive health packages are carefully designed for working professionals, families, senior citizens, students, corporate employees, and individuals seeking complete wellness assessments. These packages combine multiple blood investigations into a single affordable health checkup, helping monitor overall health while reducing the need for separate tests.
+
+At Shyam Budget Friendly Labs, every pathology investigation is performed using standardized laboratory procedures, modern diagnostic equipment, and experienced laboratory professionals. We maintain strict quality assurance throughout sample collection, processing, analysis, and reporting to ensure dependable diagnostic accuracy.
+
+Patients can conveniently book appointments online or by phone and receive pathology reports through WhatsApp, email, or secure online access. This enables doctors to review reports quickly and begin treatment without unnecessary delays while patients enjoy a smooth and hassle-free diagnostic experience.
+
+Residents from New Chandigarh (Mullanpur) and nearby locations including Omaxe New Chandigarh, DLF Hyde Park, Eco City, Kurali Road, Kansal, Chandigarh, Mohali, Nayagaon, Kharar, and surrounding areas trust Shyam Budget Friendly Labs for affordable pathology services, professional home sample collection, transparent pricing, and reliable laboratory reporting.
+
+By combining experienced healthcare professionals, modern laboratory technology, convenient home sample collection, and patient-focused care, Shyam Budget Friendly Labs continues to make preventive healthcare easily accessible across New Chandigarh (Mullanpur). Our commitment is to provide accurate diagnostics that help every individual make informed decisions about their health and well-being.
+`,
+
+services: [
+  {
+    name: "CBC Test in New Chandigarh",
+    slug: "/services/cbc-test"
+  },
+  {
+    name: "Blood Sugar Test in New Chandigarh",
+    slug: "/services/fasting-blood-sugar"
+  },
+  {
+    name: "HbA1c Diabetes Test in New Chandigarh",
+    slug: "/services/hba1c-test"
+  },
+  {
+    name: "Thyroid Profile Test in New Chandigarh",
+    slug: "/services/thyroid-test-panchkula"
+  },
+  {
+    name: "Vitamin D Test in New Chandigarh",
+    slug: "/services/vitamin-d-test-panchkula"
+  },
+  {
+    name: "Vitamin B12 Test in New Chandigarh",
+    slug: "/services/vitamin-b12-test"
+  },
+  {
+    name: "Kidney Function Test in New Chandigarh",
+    slug: "/services/kidney-function-test"
+  },
+  {
+    name: "Liver Function Test in New Chandigarh",
+    slug: "/services/liver-function-test"
+  },
+  {
+    name: "Lipid Profile Test in New Chandigarh",
+    slug: "/services/lipid-profile-test"
+  },
+  {
+    name: "Urine Routine Test in New Chandigarh",
+    slug: "/services/urine-routine-examination"
+  },
+  {
+    name: "Full Body Checkup in New Chandigarh",
+    slug: "/services/full-body-checkup"
+  }
+],
+
+popularTests: [
+  "CBC Test New Chandigarh",
+  "Complete Blood Count Mullanpur",
+  "Blood Sugar Test New Chandigarh",
+  "HbA1c Test Mullanpur",
+  "Thyroid Profile New Chandigarh",
+  "Vitamin D Test Mullanpur",
+  "Vitamin B12 Test New Chandigarh",
+  "Lipid Profile Mullanpur",
+  "Kidney Function Test New Chandigarh",
+  "Liver Function Test Mullanpur",
+  "Urine Routine Test New Chandigarh",
+  "Dengue Test Mullanpur",
+  "Typhoid Test New Chandigarh",
+  "Malaria Test Mullanpur",
+  "Full Body Checkup New Chandigarh",
+  "Health Checkup Package Mullanpur",
+  "Home Blood Collection New Chandigarh",
+  "Diagnostic Lab Mullanpur",
+  "Blood Test Near Me New Chandigarh",
+  "Affordable Blood Test Mullanpur"
+],
+
+facts: [
+  {
+    label: "Areas Served",
+    value: "40+ Locations Across New Chandigarh & Nearby Areas"
+  },
+  {
+    label: "Diagnostic Tests",
+    value: "150+ Blood, Urine & Preventive Health Tests"
+  },
+  {
+    label: "Home Collection",
+    value: "Available 7 Days a Week"
+  },
+  {
+    label: "Report Delivery",
+    value: "WhatsApp, Email & Secure Online Reports"
+  }
+],
+sections: [
+  {
+    title: "Reliable Blood Testing Services in New Chandigarh (Mullanpur)",
+    content: [
+      "Residents across New Chandigarh (Mullanpur) trust Shyam Budget Friendly Labs for accurate pathology testing, preventive health checkups, and dependable diagnostic services. Whether you require a routine blood test, a doctor-prescribed investigation, or a comprehensive wellness screening, our experienced laboratory team is committed to providing reliable results with complete convenience. Every sample is processed following standardized laboratory protocols to ensure accuracy, quality, and timely reporting.",
+
+      "Our pathology services support children, adults, senior citizens, working professionals, and patients managing chronic health conditions. From routine health monitoring to specialized investigations, we make laboratory testing affordable, accessible, and stress-free for every family in New Chandigarh."
+    ]
+  },
+
+  {
+    title: "Convenient Home Sample Collection Across New Chandigarh",
+    content: [
+      "Visiting a diagnostic laboratory isn't always convenient, especially for senior citizens, busy professionals, pregnant women, young children, or patients recovering from illness. Our doorstep blood sample collection service allows patients to complete diagnostic testing from the comfort of their homes without compromising quality or safety.",
+
+      "Our trained phlebotomists visit your preferred location using sterile equipment, follow strict hygiene protocols, and safely transport every sample to our laboratory under controlled conditions. Patients can book appointments at convenient times and receive digital reports through WhatsApp, email, or secure online access."
+    ]
+  },
+
+  {
+    title: "Comprehensive Blood Tests & Preventive Health Checkups",
+    content: [
+      "Preventive healthcare plays a vital role in maintaining long-term wellness. Routine blood investigations help identify diabetes, thyroid disorders, anemia, vitamin deficiencies, high cholesterol, kidney disease, liver disorders, infections, and other lifestyle-related conditions before noticeable symptoms develop. Early diagnosis allows timely medical intervention and better health outcomes.",
+
+      "Shyam Budget Friendly Labs offers a complete range of pathology investigations including Complete Blood Count (CBC), Blood Sugar Tests, HbA1c Diabetes Monitoring, Thyroid Profile, Lipid Profile, Liver Function Test (LFT), Kidney Function Test (KFT), Vitamin D Test, Vitamin B12 Test, Urine Routine Examination, Dengue Test, Typhoid Test, Malaria Test, and comprehensive Full Body Health Checkup Packages. Our preventive health packages provide a convenient and affordable way to evaluate overall health."
+    ]
+  },
+
+  {
+    title: "Modern Laboratory Technology with Trusted Accuracy",
+    content: [
+      "Accurate pathology reports are essential for proper diagnosis and treatment. At Shyam Budget Friendly Labs, every blood, urine, and diagnostic sample is processed using advanced laboratory equipment and standardized quality control procedures. Our experienced laboratory professionals ensure precision, consistency, and reliability throughout every stage of testing.",
+
+      "Healthcare professionals rely on laboratory reports to make important clinical decisions. That is why we follow strict sample handling protocols, maintain high laboratory standards, and continuously focus on delivering accurate diagnostic reports that doctors and patients can trust."
+    ]
+  },
+
+  {
+    title: "Why Families Across New Chandigarh Choose Shyam Budget Friendly Labs",
+    content: [
+      "Thousands of patients choose Shyam Budget Friendly Labs because we combine affordable pricing, reliable diagnostic services, experienced staff, and convenient home sample collection under one roof. From booking your appointment to receiving your pathology report, we strive to provide a smooth and hassle-free healthcare experience.",
+
+      "Our laboratory serves working professionals, students, families, senior citizens, and patients managing chronic medical conditions by offering transparent pricing, responsive customer support, professional sample collection, and timely digital report delivery."
+    ]
+  },
+
+  {
+    title: "Supporting Better Health Through Preventive Diagnostics",
+    content: [
+      "Many serious medical conditions develop gradually and often remain unnoticed during their early stages. Regular blood testing allows doctors to identify health concerns before they become severe. Annual health screening, diabetes monitoring, thyroid evaluation, cholesterol testing, kidney function assessment, liver function testing, and vitamin deficiency screening are valuable tools for maintaining long-term wellness.",
+
+      "At Shyam Budget Friendly Labs, our mission is to make preventive healthcare affordable and accessible throughout New Chandigarh (Mullanpur). Whether you require routine blood investigations, a preventive health package, or regular monitoring for an existing medical condition, our experienced team is dedicated to helping you make informed healthcare decisions with confidence."
+    ]
+  }
+],
+
+nearbyAreas: [
+  "Omaxe New Chandigarh",
+  "DLF Hyde Park",
+  "Eco City",
+  "Mullanpur Garibdass",
+  "Kansal",
+  "Karoran",
+  "Nayagaon",
+  "Kurali Road",
+  "North Mullanpur",
+  "South Mullanpur",
+  "Sector 1 New Chandigarh",
+  "Sector 2 New Chandigarh",
+  "Sector 3 New Chandigarh",
+  "Chandigarh",
+  "Mohali",
+  "Kharar"
+],
+
+testimonials: [
+  {
+    name: "Rahul Mehta",
+    review:
+      "Booked a home sample collection in Omaxe New Chandigarh. The technician arrived on time, the sample collection was quick, and I received my reports the same day. Excellent service."
+  },
+  {
+    name: "Priya Sharma",
+    review:
+      "Very professional pathology service. We booked a full body checkup for our parents, and everything from booking to report delivery was smooth and affordable."
+  },
+  {
+    name: "Aman Verma",
+    review:
+      "I regularly book my diabetes and thyroid tests here. Reports are accurate, staff is courteous, and home collection makes the process extremely convenient."
+  }
+],
+faqs: [
+  {
+    question: "Do you provide home sample collection in New Chandigarh (Mullanpur)?",
+    answer:
+      "Yes. We offer doorstep blood sample collection throughout New Chandigarh (Mullanpur), including Omaxe New Chandigarh, DLF Hyde Park, Eco City, North Mullanpur, South Mullanpur, Kansal, Karoran, and nearby areas."
+  },
+  {
+    question: "Which blood tests are commonly booked in New Chandigarh?",
+    answer:
+      "The most frequently booked investigations include CBC Test, Blood Sugar Test, HbA1c Test, Thyroid Profile, Lipid Profile, Liver Function Test (LFT), Kidney Function Test (KFT), Vitamin D Test, Vitamin B12 Test, Urine Routine Examination, and Full Body Health Checkup Packages."
+  },
+  {
+    question: "Can I book a Full Body Health Checkup in New Chandigarh?",
+    answer:
+      "Yes. We offer comprehensive preventive health checkup packages that include multiple blood investigations to evaluate your overall health and detect potential medical conditions at an early stage."
+  },
+  {
+    question: "Are fasting blood tests available in New Chandigarh?",
+    answer:
+      "Yes. Early morning appointments are available for fasting investigations such as Blood Sugar Tests, Lipid Profile, and other doctor-prescribed fasting tests. Our team will guide you regarding preparation while booking your appointment."
+  },
+  {
+    question: "How will I receive my pathology reports?",
+    answer:
+      "Most pathology reports are delivered digitally through WhatsApp, email, and secure online access. This allows you to easily share reports with your doctor whenever required."
+  },
+  {
+    question: "Why should I choose Shyam Budget Friendly Labs in New Chandigarh?",
+    answer:
+      "Patients choose us for our accurate pathology reports, experienced collection staff, affordable pricing, convenient home sample collection, fast report delivery, modern laboratory standards, and patient-focused diagnostic services."
+  }
+],
+
+relatedLocations: [
+  {
+    city: "Chandigarh",
+    slug: "/locations/chandigarh"
+  },
+  {
+    city: "Mohali",
+    slug: "/locations/mohali"
+  },
+  {
+    city: "Panchkula",
+    slug: "/locations/panchkula"
+  },
+  {
+    city: "Kharar",
+    slug: "/locations/kharar"
+  },
+  {
+    city: "Dera Bassi",
+    slug: "/locations/dera-bassi"
+  }
+],
+
+tags: [
+  "Blood Test in New Chandigarh",
+  "Blood Test in Mullanpur",
+  "Pathology Lab New Chandigarh",
+  "Diagnostic Centre Mullanpur",
+  "Blood Test Near Me New Chandigarh",
+  "Home Sample Collection New Chandigarh",
+  "CBC Test New Chandigarh",
+  "Complete Blood Count Mullanpur",
+  "Blood Sugar Test New Chandigarh",
+  "HbA1c Test Mullanpur",
+  "Diabetes Test New Chandigarh",
+  "Thyroid Test Mullanpur",
+  "Thyroid Profile New Chandigarh",
+  "Vitamin D Test Mullanpur",
+  "Vitamin B12 Test New Chandigarh",
+  "Lipid Profile Mullanpur",
+  "Kidney Function Test New Chandigarh",
+  "Liver Function Test Mullanpur",
+  "Urine Routine Test New Chandigarh",
+  "Dengue Test Mullanpur",
+  "Typhoid Test New Chandigarh",
+  "Malaria Test Mullanpur",
+  "Health Checkup New Chandigarh",
+  "Full Body Checkup Mullanpur",
+  "Preventive Health Checkup New Chandigarh",
+  "Blood Collection at Home Mullanpur",
+  "Medical Lab New Chandigarh",
+  "Affordable Blood Test Mullanpur",
+  "Health Packages New Chandigarh",
+  "Shyam Budget Friendly Labs"
+],
+
+ctaTitle:
+  "Book Your Blood Test in New Chandigarh (Mullanpur) Today",
+
+ctaDescription:
+  "Schedule affordable blood tests with convenient home sample collection anywhere in New Chandigarh (Mullanpur). From CBC, Blood Sugar, Thyroid Profile, Vitamin D, HbA1c, Lipid Profile, Kidney & Liver Function Tests to comprehensive Full Body Health Checkups, Shyam Budget Friendly Labs provides accurate pathology reports, fast digital report delivery, and trusted diagnostic services designed to keep you and your family healthy."
 }
 
 
