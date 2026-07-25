@@ -71,7 +71,7 @@ export default function IncludedTests({ pkg }) {
 
         <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
 
-          {pkg.testCategories.map((category, index) => {
+          {pkg?.testCategories?.map((category, index) => {
 
             const Icon =
               Object.entries(iconMap).find(([key]) =>

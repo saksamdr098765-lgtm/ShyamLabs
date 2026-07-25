@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
+# Host
+Host: https://www.shyambudgetfriendlylabs.com
+
+# Sitemaps
 Sitemap: https://www.shyambudgetfriendlylabs.com/sitemap.xml
