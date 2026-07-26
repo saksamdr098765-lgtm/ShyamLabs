@@ -22,13 +22,13 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${packageData.title} | Shyam Budget Friendly Labs`,
+    title: `${packageData.name} | Shyam Budget Friendly Labs`,
     description:
       packageData.description ||
-      `Book ${packageData.title} at affordable prices. Fast reports, accurate diagnostics, and trusted pathology services.`,
+      `Book ${packageData.name} at affordable prices. Fast reports, accurate diagnostics, and trusted pathology services.`,
 
     keywords: [
-      packageData.title,
+      packageData.name,
       "pathology lab",
       "diagnostic tests",
       "health checkup",
@@ -37,10 +37,10 @@ export async function generateMetadata({ params }) {
     ],
 
     openGraph: {
-      title: packageData.title,
+      title: packageData.name,
       description:
         packageData.description ||
-        `Book ${packageData.title} online.`,
+        `Book ${packageData.name} online.`,
       url: `https://www.shyambudgetfriendlylabs.com/package-detail-page/${slug}`,
       siteName: "Shyam Budget Friendly Labs",
       images: [
@@ -50,7 +50,7 @@ export async function generateMetadata({ params }) {
             "https://www.shyambudgetfriendlylabs.com/logo.png",
           width: 1200,
           height: 630,
-          alt: packageData.title,
+          alt: packageData.name,
         },
       ],
       locale: "en_IN",
@@ -59,10 +59,10 @@ export async function generateMetadata({ params }) {
 
     twitter: {
       card: "summary_large_image",
-      title: packageData.title,
+      title: packageData.name,
       description:
         packageData.description ||
-        `Book ${packageData.title} online.`,
+        `Book ${packageData.name} online.`,
       images: [
           "https://www.shyambudgetfriendlylabs.com/og-image.jpg",
       ],
@@ -108,7 +108,7 @@ export default async function Page({ params }) {
         {
           "@type": "ListItem",
           position: 3,
-          name: packageData.title,
+          name: packageData.name,
           item: `https://www.shyambudgetfriendlylabs.com/package-detail-page/${packageData.slug}`,
         },
       ],

@@ -1,5 +1,22 @@
-import { FaBaby, FaBone, FaBriefcaseMedical, FaCapsules, FaDna, FaHospital, FaShieldVirus, FaSpa, FaStethoscope, FaSun, FaSyringe, FaVirus } from "react-icons/fa";
-import { FaDroplet, FaHeartPulse, FaHouseMedical, FaPerson, FaPersonDress } from "react-icons/fa6";
+import {
+  FaBaby,
+  FaBone,
+  FaBriefcaseMedical,
+  FaCapsules,
+  FaDna,
+  FaDroplet,
+  FaHeartPulse,
+  FaHospital,
+  FaHouseMedical,
+  FaPerson,
+  FaPersonDress,
+  FaShieldVirus,
+  FaSpa,
+  FaStethoscope,
+  FaSun,
+  FaSyringe,
+  FaVirus,
+} from "react-icons/fa6";
 
  const packagesData = [
 {
@@ -109,7 +126,7 @@ preparation: [
 
   reviews: 176,
 
-  image: "/packages/full-body-package.jpg",
+  image: "/packages/full-body-package.webp",
 
   highlights: [
     "12 Essential Test Categories",
@@ -363,7 +380,7 @@ preparation: [
 
   reviews: 168,
 
-  image: "/packages/lipid-profile.jpg",
+  image: "/packages/lipid-profile.webp",
 
   highlights: [
     "9 Lipid Parameters",
@@ -569,7 +586,7 @@ preparation: [
 
   reviews: 112,
 
-  image: "/packages/essential-tests.jpg",
+  image: "/packages/essential-tests.webp",
 
   highlights: [
     "Thyroid Profile",
@@ -764,7 +781,7 @@ preparation: [
 
   reviews: 154,
 
-  image: "/packages/senior-citizen-male-package.jpg",
+  image: "/packages/senior-citizen-male-package.webp",
 
   highlights: [
     "PSA Prostate Screening",
@@ -1005,7 +1022,7 @@ preparation: [
 
   reviews: 148,
 
-  image: "/packages/senior-citizen-female-package.jpg",
+  image: "/packages/senior-citizen-female-package.webp",
 
   highlights: [
     "CA-125 Screening",
@@ -9580,30 +9597,31 @@ preparation: [
 // },
 //  ]
 
+
 export const packageTheme = {
   women: {
     icon: FaPersonDress,
-    iconBg: "bg-pink-50",
-    iconColor: "text-pink-600",
-    badgeBg: "bg-pink-50",
-    badgeColor: "text-pink-700",
+    iconBg: "bg-violet-50",
+    iconColor: "text-violet-600",
+    badgeBg: "bg-violet-50",
+    badgeColor: "text-violet-700",
     cardBg: "bg-white",
-    button: "bg-pink-600 hover:bg-pink-700",
-    glow: "bg-pink-100/70",
-    border: "border-pink-200",
-    topBar: "bg-pink-600",
+    button: "bg-violet-600 hover:bg-violet-700",
+    glow: "bg-violet-100/70",
+    border: "border-violet-200",
+    topBar: "bg-violet-600",
   },
 
   preventive: {
     icon: FaStethoscope,
     iconBg: "bg-blue-50",
     iconColor: "text-blue-600",
-    badgeBg: "bg-slate-100",
-    badgeColor: "text-slate-700",
+    badgeBg: "bg-blue-50",
+    badgeColor: "text-blue-700",
     cardBg: "bg-white",
     button: "bg-blue-600 hover:bg-blue-700",
     glow: "bg-blue-100/70",
-    border: "border-slate-200",
+    border: "border-blue-200",
     topBar: "bg-blue-600",
   },
 
@@ -9648,41 +9666,41 @@ export const packageTheme = {
 
   arthritis: {
     icon: FaBone,
-    iconBg: "bg-orange-50",
-    iconColor: "text-orange-600",
-    badgeBg: "bg-orange-50",
-    badgeColor: "text-orange-700",
+    iconBg: "bg-blue-50",
+    iconColor: "text-blue-600",
+    badgeBg: "bg-blue-50",
+    badgeColor: "text-blue-700",
     cardBg: "bg-white",
-    button: "bg-orange-600 hover:bg-orange-700",
-    glow: "bg-orange-100/70",
-    border: "border-orange-200",
-    topBar: "bg-orange-600",
+    button: "bg-blue-600 hover:bg-blue-700",
+    glow: "bg-blue-100/70",
+    border: "border-blue-200",
+    topBar: "bg-blue-600",
   },
 
   seniorMale: {
     icon: FaPerson,
-    iconBg: "bg-sky-50",
-    iconColor: "text-sky-600",
-    badgeBg: "bg-sky-50",
-    badgeColor: "text-sky-700",
+    iconBg: "bg-blue-50",
+    iconColor: "text-blue-600",
+    badgeBg: "bg-blue-50",
+    badgeColor: "text-blue-700",
     cardBg: "bg-white",
-    button: "bg-sky-600 hover:bg-sky-700",
-    glow: "bg-sky-100/70",
-    border: "border-sky-200",
-    topBar: "bg-sky-600",
+    button: "bg-blue-600 hover:bg-blue-700",
+    glow: "bg-blue-100/70",
+    border: "border-blue-200",
+    topBar: "bg-blue-600",
   },
 
   seniorFemale: {
     icon: FaPersonDress,
-    iconBg: "bg-pink-50",
-    iconColor: "text-pink-600",
-    badgeBg: "bg-pink-50",
-    badgeColor: "text-pink-700",
+    iconBg: "bg-violet-50",
+    iconColor: "text-violet-600",
+    badgeBg: "bg-violet-50",
+    badgeColor: "text-violet-700",
     cardBg: "bg-white",
-    button: "bg-pink-600 hover:bg-pink-700",
-    glow: "bg-pink-100/70",
-    border: "border-pink-200",
-    topBar: "bg-pink-600",
+    button: "bg-violet-600 hover:bg-violet-700",
+    glow: "bg-violet-100/70",
+    border: "border-violet-200",
+    topBar: "bg-violet-600",
   },
 
   home: {
@@ -9700,32 +9718,19 @@ export const packageTheme = {
 
   summer: {
     icon: FaSun,
-    iconBg: "bg-yellow-50",
-    iconColor: "text-yellow-600",
-    badgeBg: "bg-yellow-50",
-    badgeColor: "text-yellow-700",
+    iconBg: "bg-blue-50",
+    iconColor: "text-blue-600",
+    badgeBg: "bg-blue-50",
+    badgeColor: "text-blue-700",
     cardBg: "bg-white",
-    button: "bg-yellow-500 hover:bg-yellow-600",
-    glow: "bg-yellow-100/70",
-    border: "border-yellow-200",
-    topBar: "bg-yellow-500",
+    button: "bg-blue-600 hover:bg-blue-700",
+    glow: "bg-blue-100/70",
+    border: "border-blue-200",
+    topBar: "bg-blue-600",
   },
 
   blood: {
     icon: FaDroplet,
-    iconBg: "bg-rose-50",
-    iconColor: "text-rose-600",
-    badgeBg: "bg-rose-50",
-    badgeColor: "text-rose-700",
-    cardBg: "bg-white",
-    button: "bg-rose-600 hover:bg-rose-700",
-    glow: "bg-rose-100/70",
-    border: "border-rose-200",
-    topBar: "bg-rose-600",
-  },
-
-  fever: {
-    icon: FaVirus,
     iconBg: "bg-red-50",
     iconColor: "text-red-600",
     badgeBg: "bg-red-50",
@@ -9737,92 +9742,105 @@ export const packageTheme = {
     topBar: "bg-red-600",
   },
 
+  fever: {
+    icon: FaVirus,
+    iconBg: "bg-blue-50",
+    iconColor: "text-blue-600",
+    badgeBg: "bg-blue-50",
+    badgeColor: "text-blue-700",
+    cardBg: "bg-white",
+    button: "bg-blue-600 hover:bg-blue-700",
+    glow: "bg-blue-100/70",
+    border: "border-blue-200",
+    topBar: "bg-blue-600",
+  },
+
   diabetes: {
     icon: FaSyringe,
-    iconBg: "bg-indigo-50",
-    iconColor: "text-indigo-600",
-    badgeBg: "bg-indigo-50",
-    badgeColor: "text-indigo-700",
+    iconBg: "bg-blue-50",
+    iconColor: "text-blue-600",
+    badgeBg: "bg-blue-50",
+    badgeColor: "text-blue-700",
     cardBg: "bg-white",
-    button: "bg-indigo-600 hover:bg-indigo-700",
-    glow: "bg-indigo-100/70",
-    border: "border-indigo-200",
-    topBar: "bg-indigo-600",
+    button: "bg-blue-600 hover:bg-blue-700",
+    glow: "bg-blue-100/70",
+    border: "border-blue-200",
+    topBar: "bg-blue-600",
   },
 
   fertility: {
     icon: FaBaby,
-    iconBg: "bg-pink-50",
-    iconColor: "text-pink-600",
-    badgeBg: "bg-pink-50",
-    badgeColor: "text-pink-700",
+    iconBg: "bg-violet-50",
+    iconColor: "text-violet-600",
+    badgeBg: "bg-violet-50",
+    badgeColor: "text-violet-700",
     cardBg: "bg-white",
-    button: "bg-pink-600 hover:bg-pink-700",
-    glow: "bg-pink-100/70",
-    border: "border-pink-200",
-    topBar: "bg-pink-600",
+    button: "bg-violet-600 hover:bg-violet-700",
+    glow: "bg-violet-100/70",
+    border: "border-violet-200",
+    topBar: "bg-violet-600",
   },
 
   skin: {
     icon: FaSpa,
-    iconBg: "bg-lime-50",
-    iconColor: "text-lime-600",
-    badgeBg: "bg-lime-50",
-    badgeColor: "text-lime-700",
+    iconBg: "bg-amber-50",
+    iconColor: "text-amber-600",
+    badgeBg: "bg-amber-50",
+    badgeColor: "text-amber-700",
     cardBg: "bg-white",
-    button: "bg-lime-600 hover:bg-lime-700",
-    glow: "bg-lime-100/70",
-    border: "border-lime-200",
-    topBar: "bg-lime-600",
+    button: "bg-amber-600 hover:bg-amber-700",
+    glow: "bg-amber-100/70",
+    border: "border-amber-200",
+    topBar: "bg-amber-600",
   },
 
   infection: {
     icon: FaShieldVirus,
-    iconBg: "bg-cyan-50",
-    iconColor: "text-cyan-600",
-    badgeBg: "bg-cyan-50",
-    badgeColor: "text-cyan-700",
+    iconBg: "bg-blue-50",
+    iconColor: "text-blue-600",
+    badgeBg: "bg-blue-50",
+    badgeColor: "text-blue-700",
     cardBg: "bg-white",
-    button: "bg-cyan-600 hover:bg-cyan-700",
-    glow: "bg-cyan-100/70",
-    border: "border-cyan-200",
-    topBar: "bg-cyan-600",
+    button: "bg-blue-600 hover:bg-blue-700",
+    glow: "bg-blue-100/70",
+    border: "border-blue-200",
+    topBar: "bg-blue-600",
   },
 
   executive: {
     icon: FaBriefcaseMedical,
-    iconBg: "bg-slate-50",
-    iconColor: "text-slate-700",
-    badgeBg: "bg-slate-100",
-    badgeColor: "text-slate-700",
+    iconBg: "bg-blue-50",
+    iconColor: "text-blue-600",
+    badgeBg: "bg-blue-50",
+    badgeColor: "text-blue-700",
     cardBg: "bg-white",
-    button: "bg-slate-700 hover:bg-slate-800",
-    glow: "bg-slate-100/70",
-    border: "border-slate-200",
-    topBar: "bg-slate-700",
+    button: "bg-blue-600 hover:bg-blue-700",
+    glow: "bg-blue-100/70",
+    border: "border-blue-200",
+    topBar: "bg-blue-600",
   },
 
   camp: {
     icon: FaHospital,
-    iconBg: "bg-teal-50",
-    iconColor: "text-teal-600",
-    badgeBg: "bg-teal-50",
-    badgeColor: "text-teal-700",
+    iconBg: "bg-blue-50",
+    iconColor: "text-blue-600",
+    badgeBg: "bg-blue-50",
+    badgeColor: "text-blue-700",
     cardBg: "bg-white",
-    button: "bg-teal-600 hover:bg-teal-700",
-    glow: "bg-teal-100/70",
-    border: "border-teal-200",
-    topBar: "bg-teal-600",
+    button: "bg-blue-600 hover:bg-blue-700",
+    glow: "bg-blue-100/70",
+    border: "border-blue-200",
+    topBar: "bg-blue-600",
   },
 };
 export const packageThemeMap = {
-  // Women's Health
+  // Women
   "bcl-female-4-package": "women",
   "women-basic-profile-utsh": "women",
   "fertility-comprehensive-panel-female": "women",
   "torch-all-ten-profile": "women",
 
-  // Preventive / Full Body
+  // Preventive
   "full-body-checkup": "preventive",
   "health-checkup-camp": "preventive",
 
@@ -9841,7 +9859,7 @@ export const packageThemeMap = {
   "aarogyam-tax-saver-basic-utsh": "preventive",
   "aarogyam-tax-saver-advanced-utsh": "preventive",
 
-  "executive-full-body-checkup": "preventive",
+  "executive-full-body-checkup": "executive",
 
   "mega-health-checkup-advance-package": "preventive",
   "mega-health-checkup-premium-package": "preventive",
@@ -9851,7 +9869,6 @@ export const packageThemeMap = {
   "jaanch-heart-screening": "heart",
   "jaanch-heart-advanced": "heart",
   "jaanch-heart-comprehensive": "heart",
-
   "lipid-profile-test": "heart",
 
   // Thyroid
@@ -9861,32 +9878,37 @@ export const packageThemeMap = {
   "vitamin-d-b12-combo": "vitamin",
   "vitamin-d3-vitamin-b12-screening": "vitamin",
   "paleo-profile-basic-new": "vitamin",
-  "skin-aura-package-1": "vitamin",
+  "skin-aura-package-1": "skin",
 
   // Arthritis
   "arthritis-checkup": "arthritis",
 
-  // Senior Citizen
+  // Senior
   "senior-citizen-male-package": "seniorMale",
   "senior-citizen-female-package": "seniorFemale",
 
   // Home Collection
   "home-sample-collection": "home",
 
-  // Summer / Heat
+  // Summer
   "jaanch-heat-shield-basic": "summer",
   "jaanch-heat-shield-advanced": "summer",
 
-  // Blood Sugar / Diabetes
+  // Blood
   "essential-health-tests": "blood",
   "fasting-blood-sugar": "blood",
   "postprandial-blood-sugar": "blood",
   "random-blood-sugar": "blood",
 
-  // Fever Panels
-  "fever-panel-basic": "blood",
-  "fever-panel-advance": "blood",
-  "monsoon-gastro-infection-panel": "blood",
+  // Diabetes
+  "diabetes-screening-package": "diabetes",
+
+  // Fever
+  "fever-panel-basic": "fever",
+  "fever-panel-advance": "fever",
+
+  // Infection
+  "monsoon-gastro-infection-panel": "infection",
 };
 
 export default packagesData

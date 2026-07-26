@@ -186,7 +186,7 @@ py-3.5
 text-white
 transition-all
 duration-300
-${theme.button}
+bg-[#0A4F8A]
 `}
         >
           <div>
