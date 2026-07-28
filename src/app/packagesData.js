@@ -1263,7 +1263,7 @@ preparation: [
 
   reviews: 132,
 
-  image: "/packages/health-checkup-camp.jpg",
+  image: "/packages/health-checkup-camp.webp",
 
   highlights: [
     "Complete Blood Count",
@@ -1527,7 +1527,7 @@ preparation: [
 
   reviews: 92,
 
-  image: "/packages/fever-panel-basic.jpg",
+  image: "/packages/fever-panel-basic.webp",
 
   highlights: [
     "Malaria Screening",
@@ -1755,7 +1755,7 @@ preparation: [
 
   reviews: 86,
 
-  image: "/packages/fever-panel-advance.jpg",
+  image: "/packages/fever-panel-advance.webp",
 
   highlights: [
     "Advanced Fever Evaluation",
@@ -1978,7 +1978,7 @@ preparation: [
 
   reviews: 325,
 
-  image: "/packages/home-sample-collection.jpg",
+  image: "/packages/home-sample-collection.webp",
 
   highlights: [
     "Doorstep Sample Collection",
@@ -2153,7 +2153,7 @@ preparation: [
 
   reviews: 154,
 
-  image: "/packages/swasthya-mitra-basic.jpg",
+  image: "/packages/swasthya-mitra-basic.webp",
 
   highlights: [
     "Blood Sugar Screening",
@@ -2392,7 +2392,7 @@ preparation: [
 
   reviews: 167,
 
-  image: "/packages/swasthya-mitra-advance.jpg",
+  image: "/packages/swasthya-mitra-advance.webp",
 
   highlights: [
     "HbA1c Diabetes Screening",
@@ -2641,7 +2641,7 @@ preparation: [
 
   reviews: 193,
 
-  image: "/packages/swasthya-mitra-super.jpg",
+  image: "/packages/swasthya-mitra-super.webp",
 
   highlights: [
     "Advanced Lipid Profile",
@@ -2907,7 +2907,7 @@ preparation: [
 
   reviews: 128,
 
-  image: "/packages/jaanch-heart-screening.jpg",
+  image: "/packages/jaanch-heart-screening.webp",
 
   highlights: [
     "Advanced Cardiac Risk Markers",
@@ -3122,7 +3122,7 @@ preparation: [
 
   reviews: 152,
 
-  image: "/packages/jaanch-heart-advanced.jpg",
+  image: "/packages/jaanch-heart-advanced.webp",
 
   highlights: [
     "Advanced Cardiac Risk Assessment",
@@ -3348,7 +3348,7 @@ preparation: [
 
   reviews: 166,
 
-  image: "/packages/jaanch-heart-comprehensive.jpg",
+  image: "/packages/jaanch-heart-comprehensive.webp",
 
   highlights: [
     "Advanced Cardiac Biomarkers",
@@ -3586,7 +3586,7 @@ preparation: [
 
   reviews: 165,
 
-  image: "/packages/aarogyam-a-pro.jpg",
+  image: "/packages/aarogyam-a-pro.webp",
 
   highlights: [
     "Diabetes Screening",
@@ -3832,7 +3832,7 @@ preparation: [
 
   reviews: 98,
 
-  image: "/packages/aarogyam-xl-pro.jpg",
+  image: "/packages/aarogyam-xl-pro.webp",
 
   highlights: [
     "Advanced Executive Health Screening",
@@ -4113,7 +4113,7 @@ preparation: [
 
   reviews: 182,
 
-  image: "/packages/aarogyam-tax-saver-basic-utsh.jpg",
+  image: "/packages/aarogyam-tax-saver-basic-utsh.webp",
 
   highlights: [
     "83 Preventive Health Tests",
@@ -4374,7 +4374,7 @@ preparation: [
 
   reviews: 112,
 
-  image: "/packages/monsoon-gastro-infection-panel.jpg",
+  image: "/packages/monsoon-gastro-infection-panel.webp",
 
   highlights: [
     "Typhoid Screening",
@@ -4604,7 +4604,7 @@ preparation: [
 
   reviews: 248,
 
-  image: "/packages/fasting-blood-sugar.jpg",
+  image: "/packages/fasting-blood-sugar.webp",
 
   highlights: [
     "Early Diabetes Detection",
@@ -4789,7 +4789,7 @@ preparation: [
 
   reviews: 232,
 
-  image: "/packages/random-blood-sugar.jpg",
+  image: "/packages/random-blood-sugar.webp",
 
   highlights: [
     "No Fasting Required",
@@ -4985,7 +4985,7 @@ preparation: [
 
   reviews: 98,
 
-  image: "/packages/aarogyam-x-pro-utsh.jpg",
+  image: "/packages/aarogyam-x-pro-utsh.webp",
 
   highlights: [
     "126 Health Parameters",
@@ -5256,7 +5256,7 @@ preparation: [
 
   reviews: 187,
 
-  image: "/packages/executive-full-body-checkup.jpg",
+  image: "/packages/executive-full-body-checkup.webp",
 
   highlights: [
     "Complete Hemogram",
@@ -5498,7 +5498,7 @@ preparation: [
 
   reviews: 142,
 
-  image: "/packages/jaanch-thyroid-profile-advanced.jpg",
+  image: "/packages/jaanch-thyroid-profile-advanced.webp",
 
   highlights: [
     "Complete Thyroid Hormone Analysis",
@@ -5703,7 +5703,7 @@ preparation: [
 
   reviews: 132,
 
-  image: "/packages/vitamin-d-b12-combo.jpg",
+  image: "/packages/vitamin-d-b12-combo.webp",
 
   highlights: [
     "Vitamin D Total",
@@ -5893,7 +5893,7 @@ preparation: [
 
   reviews: 98,
 
-  image: "/packages/jaanch-heat-shield-basic.jpg",
+  image: "/packages/jaanch-heat-shield-basic.webp",
 
   highlights: [
     "Hydration Assessment",
@@ -6116,7 +6116,7 @@ preparation: [
 
   reviews: 118,
 
-  image: "/packages/jaanch-heat-shield-advanced.jpg",
+  image: "/packages/jaanch-heat-shield-advanced.webp",
 
   highlights: [
     "Electrolyte Assessment",
@@ -6373,7 +6373,7 @@ preparation: [
 
   reviews: 184,
 
-  image: "/packages/paleo-profile-basic-new.jpg",
+  image: "/packages/paleo-profile-basic-new.webp",
 
   highlights: [
     "95 Health Parameters",
@@ -6633,7 +6633,7 @@ preparation: [
 
   reviews: 162,
 
-  image: "/packages/women-basic-profile-utsh.jpg",
+  image: "/packages/women-basic-profile-utsh.webp",
 
   highlights: [
     "73 Health Parameters",
@@ -6895,7 +6895,7 @@ preparation: [
 
   reviews: 212,
 
-  image: "/packages/aarogyam-tax-saver-advanced-utsh.jpg",
+  image: "/packages/aarogyam-tax-saver-advanced-utsh.webp",
 
   highlights: [
     "136 Health Parameters",
@@ -7137,7 +7137,7 @@ preparation: [
 
   reviews: 142,
 
-  image: "/packages/skin-aura-package-1.jpg",
+  image: "/packages/skin-aura-package-1.webp",
 
   highlights: [
     "Vitamin D & B12",
@@ -7348,7 +7348,7 @@ preparation: [
 
   reviews: 96,
 
-  image: "/packages/fertility-comprehensive-panel-female.jpg",
+  image: "/packages/fertility-comprehensive-panel-female.webp",
 
   highlights: [
     "AMH (Ovarian Reserve)",
@@ -7560,7 +7560,7 @@ preparation: [
 
   reviews: 173,
 
-  image: "/packages/mega-health-checkup-advance-package.jpg",
+  image: "/packages/mega-health-checkup-advance-package.webp",
 
   highlights: [
     "89 Health Parameters",
@@ -7809,7 +7809,7 @@ preparation: [
 
   reviews: 164,
 
-  image: "/packages/mega-health-checkup-premium-package.jpg",
+  image: "/packages/mega-health-checkup-premium-package.webp",
 
   highlights: [
     "Vitamin D & B12 Screening",
@@ -8044,7 +8044,7 @@ preparation: [
 
   reviews: 182,
 
-  image: "/packages/mega-health-checkup-super-package.jpg",
+  image: "/packages/mega-health-checkup-super-package.webp",
 
   highlights: [
     "Vitamin D & B12",
@@ -8299,7 +8299,7 @@ preparation: [
 
   reviews: 138,
 
-  image: "/packages/vitamin-d3-vitamin-b12-screening.jpg",
+  image: "/packages/vitamin-d3-vitamin-b12-screening.webp",
 
   highlights: [
     "Vitamin D3 Test",
@@ -8498,7 +8498,7 @@ preparation: [
 
   reviews: 176,
 
-  image: "/packages/aarogyam-b-pro.jpg",
+  image: "/packages/aarogyam-b-pro.webp",
 
   highlights: [
     "Advanced Thyroid Profile",
@@ -8749,7 +8749,7 @@ preparation: [
 
   reviews: 194,
 
-  image: "/packages/aarogyam-c-pro.jpg",
+  image: "/packages/aarogyam-c-pro.webp",
 
   highlights: [
     "Advanced Cardiac Risk Markers",
@@ -9009,7 +9009,7 @@ preparation: [
 
   reviews: 192,
 
-  image: "/packages/aarogyam-d-pro.jpg",
+  image: "/packages/aarogyam-d-pro.webp",
 
   highlights: [
     "79 Health Parameters",
@@ -9242,7 +9242,7 @@ preparation: [
 
   reviews: 218,
 
-  image: "/packages/aarogyam-e-pro.jpg",
+  image: "/packages/aarogyam-e-pro.webp",
 
   highlights: [
     "86 Health Parameters",
