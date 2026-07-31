@@ -1,6 +1,5 @@
 "use client";
 import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
-// import trackEvent from "../Utils/Analytics";
 import { SITE_CONFIG } from "../siteConfig";
 import trackEvent from "../utils/Analytics";
 
@@ -13,6 +12,7 @@ export default function FloatingButtons() {
       {/* WhatsApp */}
       <a
         href={`https://wa.me/${whatsapp}`}
+          aria-label="Chat with us on WhatsApp"
         onClick={()=>{ 
              trackEvent("whatsapp_click",{
               page_location:window.location.href
@@ -27,6 +27,7 @@ export default function FloatingButtons() {
       {/* Call */}
       <a
         href={`tel:${phone}`}
+          aria-label="Call us"
         onClick={()=>{ trackEvent(`phone_click`)}}
         className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-600 text-white shadow-lg hover:scale-110 transition"
       >

@@ -1,8 +1,6 @@
-"use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const gallery = [
   {
@@ -40,7 +38,7 @@ const gallery = [
 ];
 
 export default function GalleryClient() {
-  const router=useRouter()
+
   return (
     <main className="bg-white overflow-hidden">
       {/* Grid Background */}
@@ -86,13 +84,10 @@ export default function GalleryClient() {
         <div className="max-w-7xl mx-auto px-5">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {gallery.map((item, index) => (
-              <motion.div
+              <div
                 key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                whileHover={{ y: -8 }}
-                className={`group relative overflow-hidden rounded-[32px]
+              
+                className={`group relative overflow-hidden rounded-[32px] animate-fade-up
                 ${
                   item.size === "large"
                     ? "lg:col-span-2 h-[500px]"
@@ -113,7 +108,7 @@ export default function GalleryClient() {
                     {item.title}
                   </h3>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
@@ -156,24 +151,47 @@ export default function GalleryClient() {
       </section>
 
       {/* CTA */}
-      <section className="pb-24">
-        <div className="max-w-7xl mx-auto px-5">
-          <div className="rounded-[40px] bg-[#0A4F8A] p-10 md:p-16 text-center">
-            <h2 className="text-4xl md:text-6xl font-black text-white">
-              Experience Trusted Diagnostics.
-            </h2>
+    <section className="pb-24">
+  <div className="max-w-7xl mx-auto px-5">
+    <div className="rounded-[40px] bg-[#0A4F8A] p-10 md:p-16 text-center">
+      <h2 className="text-4xl md:text-6xl font-black text-white">
+        Experience Trusted Diagnostics.
+      </h2>
 
-            <p className="mt-5 text-white/80 max-w-2xl mx-auto">
-              Visit our diagnostic centre or schedule a
-              home sample collection today.
-            </p>
+      <p className="mt-5 text-white/80 max-w-2xl mx-auto">
+        Visit our diagnostic centre or schedule a home sample collection today.
+      </p>
 
-            <button onClick={()=>{router.push('/contact')}} className="cursor-pointer mt-8 px-8 h-14 rounded-full bg-white text-[#0A4F8A] font-semibold">
-              Book A Test
-            </button>
-          </div>
-        </div>
-      </section>
+      <Link
+        href="/contact"
+        className="
+          mt-8
+          inline-flex
+          h-14
+          items-center
+          justify-center
+          rounded-full
+          bg-white
+          px-8
+          font-semibold
+          text-[#0A4F8A]
+          transition-all
+          duration-300
+          hover:bg-slate-100
+          hover:shadow-lg
+          hover:-translate-y-0.5
+          focus:outline-none
+          focus:ring-2
+          focus:ring-white
+          focus:ring-offset-2
+          focus:ring-offset-[#0A4F8A]
+        "
+      >
+        Book A Test
+      </Link>
+    </div>
+  </div>
+</section>
     </main>
   );
 }

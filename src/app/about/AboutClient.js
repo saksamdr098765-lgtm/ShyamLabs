@@ -1,6 +1,4 @@
-"use client";
 
-import { motion } from "framer-motion";
 import {
   FaMicroscope,
   FaShieldAlt,
@@ -9,8 +7,6 @@ import {
   FaUsers,
   FaCheckCircle,
 } from "react-icons/fa";
-
-export default function AboutClient() {
   const values = [
     {
       icon: FaShieldAlt,
@@ -51,11 +47,13 @@ export default function AboutClient() {
     },
   ];
 
+export default function AboutClient() {
+
   return (
     <main className="bg-white overflow-hidden">
       {/* Background */}
       <div
-        className="fixed inset-0 opacity-[0.03] pointer-events-none"
+        className="absolute inset-0 opacity-[0.03] pointer-events-none"
         style={{
           backgroundImage: `
           linear-gradient(#0A4F8A 1px, transparent 1px),
@@ -68,20 +66,18 @@ export default function AboutClient() {
       {/* HERO */}
       <section className="relative py-24 md:py-32">
         <div className="absolute inset-0">
-          <div className="absolute left-1/2 top-0 -translate-x-1/2 h-[500px] w-[500px] bg-gradient-to-r from-green-100/50 to-blue-100/50 blur-3xl" />
+          <div className="absolute left-1/2 top-0 -translate-x-1/2 h-[500px] w-[500px] bg-gradient-to-r from-green-100/50 to-blue-100/50 blur-xl" />
         </div>
 
         <div className="relative max-w-7xl mx-auto px-5">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="max-w-4xl"
+          <div
+            className="max-w-4xl animate-fade-up"
           >
             <span className="inline-flex px-4 py-2 rounded-full border border-green-100 bg-green-50 text-[#78BE43] text-sm font-semibold">
               ABOUT SHYAM LABS
             </span>
 
-            <h1 className="mt-6 text-5xl md:text-7xl font-black text-slate-900 leading-[0.95]">
+            <h1 className="mt-6 text-5xl md:text-6xl font-black text-slate-900 leading-[0.95]">
               Diagnostics Built
               <span className="block text-[#0A4F8A]">
                 Around Trust.
@@ -95,7 +91,7 @@ export default function AboutClient() {
               decisions through trusted pathology testing and
               preventive screening.
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
 
@@ -140,8 +136,7 @@ export default function AboutClient() {
         <div className="max-w-7xl mx-auto px-5">
           <div className="grid md:grid-cols-3 gap-6">
             {values.map((item) => {
-              const Icon = item.icon;
-
+const Icon=item.icon
               return (
                 <div
                   key={item.title}
