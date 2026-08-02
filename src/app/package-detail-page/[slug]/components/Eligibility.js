@@ -1,6 +1,4 @@
-"use client";
 
-import { motion } from "framer-motion";
 import {
   FiActivity,
   FiBriefcase,
@@ -37,10 +35,7 @@ export default function Eligibility({ pkg }) {
 
         {/* Heading */}
 
-        <motion.div
-          initial={{ opacity: 0, y: 25 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+        <div
           className="mx-auto max-w-3xl text-center"
         >
 
@@ -61,7 +56,7 @@ export default function Eligibility({ pkg }) {
             of different age groups and lifestyles.
           </p>
 
-        </motion.div>
+        </div>
 
         {/* Cards */}
 
@@ -73,16 +68,8 @@ export default function Eligibility({ pkg }) {
 
             return (
 
-              <motion.article
+              <article
                 key={item.title}
-                initial={{ opacity: 0, y: 25 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{
-                  duration: .4,
-                  delay: index * .08,
-                }}
-                viewport={{ once: true }}
-                whileHover={{ y: -6 }}
                 className="
 group
 relative
@@ -126,7 +113,7 @@ sm:p-7
 
                 <div className="mt-6 h-1 w-14 rounded-full bg-gradient-to-r from-[#0A4F8A] to-[#78BE43]" />
 
-              </motion.article>
+              </article>
 
             );
 
@@ -136,10 +123,7 @@ sm:p-7
 
         {/* Bottom CTA */}
 
-        <motion.div
-          initial={{ opacity: 0, y: 25 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+        <div
           className="mt-10 rounded-3xl bg-gradient-to-r from-[#0A4F8A] to-[#78BE43] p-6 text-white sm:mt-16 sm:p-10"
         >
 
@@ -157,7 +141,7 @@ sm:p-7
             ✓ Free Consultation Available
           </div>
 
-        </motion.div>
+        </div>
 
       </div>
 

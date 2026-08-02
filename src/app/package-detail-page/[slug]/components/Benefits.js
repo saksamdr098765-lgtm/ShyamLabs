@@ -1,6 +1,4 @@
-"use client";
 
-import { motion } from "framer-motion";
 import {
   FiHeart,
   FiActivity,
@@ -37,10 +35,7 @@ export default function Benefits({ benefits }) {
 
         {/* Heading */}
 
-        <motion.div
-          initial={{ opacity: 0, y: 25 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+        <div
           className="mx-auto max-w-3xl text-center"
         >
           <span className="inline-flex rounded-full border border-green-200 bg-green-50 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-[#78BE43] sm:px-4 sm:py-2 sm:text-xs">
@@ -59,7 +54,7 @@ export default function Benefits({ benefits }) {
             before symptoms appear, allowing timely treatment and healthier
             living.
           </p>
-        </motion.div>
+        </div>
 
         {/* Cards */}
 
@@ -71,16 +66,8 @@ export default function Benefits({ benefits }) {
 
             return (
 
-              <motion.article
+              <article
                 key={benefit.title}
-                initial={{ opacity: 0, y: 25 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{
-                  duration: 0.4,
-                  delay: index * 0.08,
-                }}
-                viewport={{ once: true }}
-                whileHover={{ y: -6 }}
                 className="
 group
 relative
@@ -130,7 +117,7 @@ sm:p-7
 
                 <div className="mt-5 h-1 w-12 rounded-full bg-gradient-to-r from-[#0A4F8A] to-[#78BE43] sm:mt-6 sm:w-16" />
 
-              </motion.article>
+              </article>
 
             );
 
