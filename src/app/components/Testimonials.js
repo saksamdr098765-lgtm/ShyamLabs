@@ -129,9 +129,9 @@ export default function Testimonials() {
                 </p>
 
                 <div className="mt-6 pt-4 border-t border-slate-100">
-                  <h4 className="font-bold text-slate-900">
+                  <p className="font-bold text-slate-900">
                     {item.name}
-                  </h4>
+                  </p>
 
                   <span className="text-sm text-[#78BE43]">
                     Verified Patient

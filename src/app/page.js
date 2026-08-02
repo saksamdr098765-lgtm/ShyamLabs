@@ -2,7 +2,6 @@
 import Blogs from "./components/Blogs";
 import CTA from "./components/CTA";
 import DiagnosticTechnology from "./components/DaignosticTechnology";
-import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 
 import PopularPackages from "./components/PopularPackages";
@@ -56,7 +55,6 @@ export default function Home() {
 
 <Testimonials></Testimonials>
 <CTA></CTA>
-<Footer></Footer>
   </>
   );
 }

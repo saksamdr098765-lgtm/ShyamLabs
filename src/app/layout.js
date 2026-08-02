@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Script from "next/script";
 import { SITE_CONFIG } from "./siteConfig";
 import FloatingButtons from "./components/FixedButtons";
+import Footer from "./components/Footer";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -69,7 +70,7 @@ export default function RootLayout({ children }) {
       <FloatingButtons></FloatingButtons>
         <Navbar></Navbar>
         {children}
-      
+      <Footer></Footer>
     <Script
       id="local-business-schema"
       type="application/ld+json"
