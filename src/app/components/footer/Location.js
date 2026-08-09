@@ -16,7 +16,7 @@ export default function Location() {
       </h3>
 
       <p className="mt-2 text-slate-600">
-        {address}
+        {typeof address === "object" ? (address.full || `${address.line1}, ${address.city}`) : address}
       </p>
     </div>
 

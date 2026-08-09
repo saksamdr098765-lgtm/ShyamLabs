@@ -1,6 +1,6 @@
-  import Link from "next/link";
+import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
-import { blogs } from "../blogs";
+import { blogs } from "@/app/data/blogs";
 import Image from "next/image";
 
 export default function Blogs() {
@@ -57,7 +57,7 @@ export default function Blogs() {
           {/* Image */}
    <div className="h-44 md:h-48 overflow-hidden">
   <Image
-    src={blog.image}
+    src={blog.coverImage || blog.image || "/logo.png"}
     alt={blog.title}
     width={800}
     height={500}

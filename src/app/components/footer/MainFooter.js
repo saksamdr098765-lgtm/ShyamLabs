@@ -124,7 +124,7 @@ export default function MainFooter({links,packages}) {
                   <div className="flex items-start gap-3">
                     <FaMapMarkerAlt className="text-[#0A4F8A] mt-1 shrink-0" />
                     <span className="text-slate-600">
-                      {address}
+                      {typeof address === "object" ? (address.full || `${address.line1}, ${address.city}`) : address}
                     </span>
                   </div>
                 </div>

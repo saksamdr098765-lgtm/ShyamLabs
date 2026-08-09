@@ -1,179 +1,147 @@
-
-
-import { blogs } from "@/app/blogs";
+import { blogs } from "@/app/data/blogs";
+import ReadingProgress from "./components/ReadingProgress";
+import Breadcrumb from "./components/Breadcrumb";
+import BlogHero from "./components/BlogHero";
+import BlogContent from "./components/BlogContent";
+import BlogSidebar from "./components/BlogSideBar";
+import PreviousNext from "./components/PreviousNext";
+import RelatedPosts from "./components/RelatedPosts";
+import FAQSection from "./components/FAQSection";
+import ShareButtons from "./components/ShareButton";
+import TableOfContents from "./components/TableOfContent";
+import RelatedPackages from "./components/RelatedPackages";
+import { getBlogSchema } from "@/schema/BlogSchema";
+import SITE_CONFIG from "@/app/siteConfig";
+import BlogCTA from "./components/BlogCTA";
+import BlogQuickInfo from "./components/BlogQuickInfo";
+import RelatedTests from "./components/RelatedTest";
 import { notFound } from "next/navigation";
-import BlogDetailPage from "./BlogDetailPage";
+
 export async function generateStaticParams() {
-  return blogs.map((blog) => ({
+  return (blogs || []).map((blog) => ({
     slug: blog.slug,
   }));
 }
+
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-
-  const blog = blogs.find((b) => b.slug === slug);
+  const blog = (blogs || []).find((item) => item.slug === slug);
 
   if (!blog) {
-    return {
-      title: "Blog Not Found | Shyam Budget Friendly Labs",
-      description: "The requested blog article could not be found.",
-    };
+    return {};
   }
 
-  const blogUrl = `https://www.shyambudgetfriendlylabs.com/blogs/${slug}`;
+  const url = `${SITE_CONFIG.url}/blogs/${blog.slug}`;
 
   return {
-    title: `${blog.title} | Shyam Budget Friendly Labs`,
-    description:
-      blog.description ||
-      blog.excerpt ||
-      "Read expert healthcare insights and diagnostic guidance from Shyam Budget Friendly Labs.",
-
-    keywords: [
-      blog.title,
-      ...(blog.tags || []),
-      "health blog",
-      "diagnostic tests",
-      "pathology lab",
-      "health checkup",
-      "medical tests",
-      "Shyam Budget Friendly Labs",
-    ],
-
+    title: blog.seo?.title || blog.title,
+    description: blog.seo?.description || blog.excerpt,
+    keywords: blog.seo?.keywords || blog.tags,
+    alternates: {
+      canonical: url,
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
     openGraph: {
-      title: blog.title,
-      description:
-        blog.description ||
-        "Expert healthcare and pathology insights.",
-
-      url: blogUrl,
-      siteName: "Shyam Budget Friendly Labs",
+      title: blog.seo?.title || blog.title,
+      description: blog.seo?.description || blog.excerpt,
+      url,
+      siteName: SITE_CONFIG.name,
+      type: "article",
+      locale: "en_IN",
+      publishedTime: blog.publishedAt,
+      modifiedTime: blog.updatedAt || blog.publishedAt,
+      authors: [blog.author?.name || SITE_CONFIG.name],
       images: [
         {
-          url:
-            blog.image ||
-            "https://www.shyambudgetfriendlylabs.com/og-image.jpg",
+          url: `${SITE_CONFIG.url}${blog.coverImage || "/logo.png"}`,
           width: 1200,
           height: 630,
           alt: blog.title,
         },
       ],
-
-      locale: "en_IN",
-      type: "article",
     },
-
     twitter: {
       card: "summary_large_image",
-      title: blog.title,
-      description:
-        blog.description ||
-        blog.excerpt ||
-        "Expert healthcare and pathology insights.",
-
-      images: [
-        blog.image ||
-          "https://www.shyambudgetfriendlylabs.com/og-image.jpg",
-      ],
-    },
-
-    alternates: {
-      canonical: blogUrl,
+      title: blog.seo?.title || blog.title,
+      description: blog.seo?.description || blog.excerpt,
+      images: [`${SITE_CONFIG.url}${blog.coverImage || "/logo.png"}`],
     },
   };
 }
 
-
 export default async function BlogPage({ params }) {
-    const {slug}=await params
-   
-  const blog = blogs.find((b) => b.slug === slug);
+  const { slug } = await params;
+  const blog = (blogs || []).find((item) => item.slug === slug);
 
-  if (!blog) return notFound();
+  if (!blog) {
+    notFound();
+  }
+  const schemas = getBlogSchema(blog);
+  const relatedBlogs = (blogs || [])
+    .filter((item) => item.slug !== blog.slug)
+    .slice(0, 3);
 
   return (
     <>
-    {blog.faqs?.length > 0 && (
+      {schemas.map((schema, index) => (
         <script
+          key={index}
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              mainEntity: blog.faqs.map((faq) => ({
-                "@type": "Question",
-                name: faq.question,
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: faq.answer,
-                },
-              })),
-            }),
+            __html: JSON.stringify(schema),
           }}
         />
-      )}
-       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://www.shyambudgetfriendlylabs.com",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: "Blogs",
-                item: "https://www.shyambudgetfriendlylabs.com/blogs",
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: blog.title,
-                item: `https://www.shyambudgetfriendlylabs.com/blogs/${blog.slug}`,
-              },
-            ],
-          }),
-        }}
-      />
-      <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Article",
-      headline: blog.title,
-      description: blog.description,
-      image: [
-        `https://www.shyambudgetfriendlylabs.com${blog.image}`,
-      ],
-      author: {
-        "@type": "Organization",
-        name: "Shyam Budget Friendly Labs",
-      },
-      publisher: {
-        "@type": "Organization",
-        name: "Shyam Budget Friendly Labs",
-        logo: {
-          "@type": "ImageObject",
-          url: "https://www.shyambudgetfriendlylabs.com/logo.png",
-        },
-      },
-      mainEntityOfPage: {
-        "@type": "WebPage",
-        "@id": `https://www.shyambudgetfriendlylabs.com/blogs/${blog.slug}`,
-      },
-      datePublished: blog.datePublished,
-      dateModified: blog.dateModified || blog.datePublished,
-    }),
-  }}
-/>
-<BlogDetailPage blog={blog}></BlogDetailPage>
+      ))}
+      <ReadingProgress />
+
+      <main className="bg-white py-20">
+        {/* Hero Section */}
+        <section className="border-b border-gray-100">
+          <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 sm:py-6 lg:px-8">
+            <Breadcrumb blog={blog} />
+            <BlogHero blog={blog} />
+            <BlogQuickInfo blog={blog} />
+          </div>
+        </section>
+
+        {/* Content & Sidebars Section */}
+        <section className="mx-auto max-w-[1500px] px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
+          <div className="grid gap-6 lg:gap-8 xl:grid-cols-[240px_minmax(0,1fr)_300px]">
+            {/* Left Sidebar */}
+            <aside className="hidden xl:block">
+              <div className="sticky top-24">
+                <TableOfContents content={blog.content} />
+              </div>
+            </aside>
+
+            {/* Main Content */}
+            <article className="min-w-0">
+              <BlogContent content={blog.content} />
+              <FAQSection faq={blog.faq} />
+              <BlogCTA CTA={blog.cta} />
+              <RelatedTests relatedTests={blog.relatedTests} />
+              <RelatedPackages relatedPackages={blog.relatedPackages} />
+              <ShareButtons blog={blog} />
+              <PreviousNext currentBlog={blog} blogs={blogs} />
+            </article>
+
+            {/* Right Sidebar */}
+            <aside className="hidden lg:block">
+              <BlogSidebar currentBlog={blog} blogs={blogs} />
+            </aside>
+          </div>
+        </section>
+
+        {/* Related Posts Section */}
+        <section className="border-t border-gray-100 bg-slate-50">
+          <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+            <RelatedPosts blogs={relatedBlogs} />
+          </div>
+        </section>
+      </main>
     </>
   );
 }

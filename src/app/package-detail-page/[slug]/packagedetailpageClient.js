@@ -16,7 +16,8 @@ import RelatedPackages from "./components/RelatedTest";
 import FAQ from "./components/FAQ";
 import CTA from "./components/CTA";
 import Eligibility from "./components/Eligibility";
-import packagesData from "@/app/packagesData";
+import packages from "@/app/data/packages";
+
 
 export default function PackageDetailPage({ packageData }) {
   // const {
@@ -220,7 +221,7 @@ export default function PackageDetailPage({ packageData }) {
       <Preparation pkg={packageData}></Preparation>
       <Process pkg={packageData}></Process>
       <WhyChooseUs ></WhyChooseUs>
-      <RelatedPackages packages={packagesData} currentSlug={packageData.slug}></RelatedPackages>
+      <RelatedPackages packages={packages} currentSlug={packageData.slug}></RelatedPackages>
       <FAQ ></FAQ>
       {/* <SEOContent pkg={packageData}></SEOContent> */}
     <CTA pkg={packageData}></CTA>

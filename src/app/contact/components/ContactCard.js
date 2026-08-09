@@ -17,7 +17,7 @@ const cards=[
               {
                 icon: FaMapMarkerAlt,
                 title: "Location",
-                value: address,
+                value: typeof address === "object" ? (address.full || `${address.line1}, ${address.city}`) : address,
               },
               {
                 icon: FaClock,

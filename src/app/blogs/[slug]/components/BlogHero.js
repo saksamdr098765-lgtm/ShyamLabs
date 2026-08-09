@@ -1,0 +1,93 @@
+import SITE_CONFIG from "@/app/siteConfig";
+import Image from "next/image";
+import { FiCalendar, FiClock, FiUser, FiCheck } from "react-icons/fi";
+
+export default function BlogHero({ blog }) {
+  return (
+    <section className="space-y-6 sm:space-y-8 lg:space-y-10">
+      {/* Category */}
+      <div>
+        <span className="inline-flex items-center rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold tracking-wide text-[#0A4F8A] sm:px-4 sm:py-1.5 sm:text-sm">
+          {blog.category}
+        </span>
+      </div>
+
+      {/* Title */}
+      <div className="max-w-4xl">
+        <h1 className="text-3xl font-black leading-tight tracking-tight text-slate-900 sm:text-4xl lg:text-5xl xl:text-6xl">
+          {blog.title}
+        </h1>
+
+        <p className="mt-4 text-base leading-7 text-slate-600 sm:mt-5 sm:text-lg sm:leading-8 lg:text-xl">
+          {blog.excerpt}
+        </p>
+
+        {/* Trust Badges */}
+        <div className="mt-5 flex flex-wrap gap-2 sm:mt-6 sm:gap-3">
+          {(blog.cta?.features?.length > 0
+            ? blog.cta.features
+            : ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"]
+          ).map((feature, index) => (
+            <span
+              key={index}
+              className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 border border-emerald-100 px-3.5 py-1.5 text-xs font-semibold text-emerald-800 sm:text-sm shadow-2xs"
+            >
+              <FiCheck className="h-4 w-4 shrink-0 text-emerald-600" />
+              {feature}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Author & Meta */}
+      <div className="flex flex-col gap-5 border-y border-slate-200 py-5 sm:flex-row sm:items-center sm:justify-between sm:py-6">
+        {/* Author */}
+        <div className="flex items-center gap-3">
+          {blog.author?.image ? (
+            <Image
+              src={SITE_CONFIG.logo}
+              alt={blog.author.name || "Shyam Labs"}
+              width={52}
+              height={52}
+              className="h-12 w-12 rounded-full object-cover ring-2 ring-blue-100 sm:h-14 sm:w-14"
+            />
+          ) : (
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-[#0A4F8A] sm:h-14 sm:w-14">
+              <FiUser className="h-6 w-6" />
+            </div>
+          )}
+
+          <div>
+            <p className="font-semibold text-slate-900">{blog.author?.name || "Shyam Labs"}</p>
+            <p className="text-sm text-slate-500">Healthcare Expert</p>
+          </div>
+        </div>
+
+        {/* Meta */}
+        <div className="flex flex-wrap gap-5 text-sm text-slate-500">
+          <div className="flex items-center gap-2">
+            <FiCalendar className="text-[#0A4F8A]" />
+            <span>{blog.publishedAt}</span>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <FiClock className="text-[#0A4F8A]" />
+            <span>{blog.readingTime}</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Cover Image */}
+      <div className="overflow-hidden rounded-2xl shadow-lg ring-1 ring-slate-200 sm:rounded-3xl">
+        <Image
+          src={blog.coverImage || "/logo.png"}
+          alt={blog.title}
+          width={1600}
+          height={900}
+          priority
+          className="aspect-[16/9] h-auto w-full object-cover transition-transform duration-500 hover:scale-105"
+        />
+      </div>
+    </section>
+  );
+}
