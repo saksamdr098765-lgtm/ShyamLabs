@@ -6,9 +6,12 @@ export default function ReadingProgress() {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    const calculateProgress = () => {
-      const scrollTop = window.scrollY;
+    let mounted = true;
 
+    const calculateProgress = () => {
+      if (!mounted) return;
+
+      const scrollTop = window.scrollY;
       const scrollHeight =
         document.documentElement.scrollHeight - window.innerHeight;
 
@@ -18,15 +21,18 @@ export default function ReadingProgress() {
       }
 
       const percentage = (scrollTop / scrollHeight) * 100;
-
       setProgress(Math.min(100, Math.max(0, percentage)));
     };
 
-    calculateProgress();
+    const timer = setTimeout(() => {
+      calculateProgress();
+    }, 0);
 
     window.addEventListener("scroll", calculateProgress);
 
     return () => {
+      mounted = false;
+      clearTimeout(timer);
       window.removeEventListener("scroll", calculateProgress);
     };
   }, []);

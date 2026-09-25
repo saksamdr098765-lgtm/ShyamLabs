@@ -22,6 +22,7 @@ export default function TestComparison({ testTitle, relatedTests, priceData, slu
           return {
             name: found.name,
             slug: found.slug,
+            status: found.status,
             description: found.description || "Comprehensive pathology screening.",
             price: found.price || 399,
           };
@@ -34,12 +35,17 @@ export default function TestComparison({ testTitle, relatedTests, priceData, slu
         return {
           name: nameFormatted,
           slug: item,
+          status: "draft",
           description: "Pathology diagnostic investigation.",
           price: 399,
         };
       }
 
-      return item;
+      const match = (allTests || []).find((t) => t.slug === item.slug || t.name === item.name);
+      return {
+        ...item,
+        status: item.status || match?.status || "draft",
+      };
     })
     .filter(Boolean);
 
@@ -50,6 +56,7 @@ export default function TestComparison({ testTitle, relatedTests, priceData, slu
       .map((t) => ({
         name: t.name,
         slug: t.slug,
+        status: t.status,
         description: t.description || "Comprehensive pathology screening.",
         price: t.price || 399,
       }));
@@ -80,6 +87,7 @@ export default function TestComparison({ testTitle, relatedTests, priceData, slu
         <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 sm:gap-4">
           {list.map((t, index) => {
             const testSlug = t.slug || t.name?.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+            const isPublished = t.status === "published";
             const whatsappText = `Hi, I want to book/inquire about the "${t.name}" test at ₹${t.price}.`;
 
             return (
@@ -103,14 +111,25 @@ export default function TestComparison({ testTitle, relatedTests, priceData, slu
                 </div>
 
                 <div className="mt-4 flex items-center gap-2 pt-3 border-t border-slate-100">
-                  <TrackedWhatsappLink
-                    text={whatsappText}
-                    location={`test-comparison-whatsapp-${testSlug}-${slug}`}
-                    className="inline-flex items-center justify-center gap-1 rounded-lg bg-green-600 px-3 py-1.5 text-xs font-bold text-white transition hover:bg-green-700"
-                  >
-                    <FaWhatsapp className="text-xs" />
-                    Book
-                  </TrackedWhatsappLink>
+                  {isPublished ? (
+                    <TrackingLink
+                      href={`/tests/${testSlug}`}
+                      tracking={`test-comparison-page-${testSlug}-${slug}`}
+                      className="inline-flex items-center justify-center gap-1 rounded-lg bg-[#0A4F8A] px-3 py-1.5 text-xs font-bold text-white transition hover:bg-[#083a66]"
+                    >
+                      <FiArrowRight className="text-xs" />
+                      View Test
+                    </TrackingLink>
+                  ) : (
+                    <TrackedWhatsappLink
+                      text={whatsappText}
+                      location={`test-comparison-whatsapp-${testSlug}-${slug}`}
+                      className="inline-flex items-center justify-center gap-1 rounded-lg bg-green-600 px-3 py-1.5 text-xs font-bold text-white transition hover:bg-green-700"
+                    >
+                      <FaWhatsapp className="text-xs" />
+                      Book
+                    </TrackedWhatsappLink>
+                  )}
                 </div>
               </div>
             );

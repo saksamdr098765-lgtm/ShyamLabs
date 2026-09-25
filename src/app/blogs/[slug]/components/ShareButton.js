@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   FiCheck,
   FiCopy,
@@ -13,11 +13,15 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function ShareButtons({ blog }) {
   const [copied, setCopied] = useState(false);
+  const [url, setUrl] = useState("");
+  const [canShare, setCanShare] = useState(false);
 
-  const url =
-    typeof window !== "undefined"
-      ? window.location.href
-      : "";
+  useEffect(() => {
+    setUrl(window.location.href);
+    if (typeof navigator !== "undefined" && navigator.share) {
+      setCanShare(true);
+    }
+  }, []);
 
   const shareText = blog.title;
 
@@ -68,7 +72,7 @@ export default function ShareButtons({ blog }) {
           {/* Share Buttons */}
           <div className="w-full lg:w-auto">
             <div className="grid grid-cols-3 gap-3 sm:flex sm:flex-wrap">
-              {typeof navigator !== "undefined" && navigator.share && (
+              {canShare && (
                 <button
                   onClick={nativeShare}
                   className="flex h-12 w-full items-center justify-center rounded-xl bg-[#0A4F8A] text-white transition-all duration-300 hover:scale-105 hover:bg-blue-800 sm:h-12 sm:w-12"

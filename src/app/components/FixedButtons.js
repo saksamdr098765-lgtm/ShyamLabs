@@ -9,40 +9,46 @@ function FloatingButtons() {
   const { whatsapp, phone } = SITE_CONFIG;
 
   const handleWhatsAppClick = useCallback(() => {
-    trackEvent("whatsapp_click", {
-      page_location: window.location.href,
+    trackEvent?.("whatsapp_click", {
+      page_location: typeof window !== "undefined" ? window.location.href : "",
     });
   }, []);
 
   const handlePhoneClick = useCallback(() => {
-    trackEvent("phone_click");
+    trackEvent?.("phone_click");
   }, []);
 
   return (
     <div
-      className="fixed bottom-5 right-5 z-50 flex flex-col gap-3"
+      className="fixed bottom-4 right-4 z-50 flex flex-col gap-2.5 sm:bottom-6 sm:right-6"
       aria-label="Quick contact options"
     >
-      {/* WhatsApp */}
+      {/* WhatsApp Floating Action */}
       <a
-        href={`https://wa.me/${whatsapp}`}
+        href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Hello, I would like to book a blood test / health package.")}`}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat with us on WhatsApp"
+        aria-label="Chat on WhatsApp"
         onClick={handleWhatsAppClick}
-        className="flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition-transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+        className="group relative flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-[#78BE43] text-white shadow-lg shadow-green-600/30 transition-all duration-300 hover:scale-110 active:scale-95 focus:outline-none"
       >
-        <FaWhatsapp size={26} aria-hidden="true" />
+        <FaWhatsapp className="h-6 w-6 sm:h-7 sm:w-7" aria-hidden="true" />
+        <span className="absolute right-full mr-3 hidden rounded-xl bg-slate-900 px-3 py-1.5 text-xs font-bold text-white shadow-md sm:group-hover:block whitespace-nowrap">
+          Chat on WhatsApp
+        </span>
       </a>
 
-      {/* Call */}
+      {/* Call Floating Action */}
       <a
         href={`tel:${phone}`}
-        aria-label="Call us"
+        aria-label="Call lab doctor"
         onClick={handlePhoneClick}
-        className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-600 text-white shadow-lg transition-transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+        className="group relative flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-[#0A4F8A] text-white shadow-lg shadow-blue-900/30 transition-all duration-300 hover:scale-110 active:scale-95 focus:outline-none"
       >
-        <FaPhoneAlt size={22} aria-hidden="true" />
+        <FaPhoneAlt className="h-5 w-5 sm:h-6 sm:w-6" aria-hidden="true" />
+        <span className="absolute right-full mr-3 hidden rounded-xl bg-slate-900 px-3 py-1.5 text-xs font-bold text-white shadow-md sm:group-hover:block whitespace-nowrap">
+          Call Lab Doctor
+        </span>
       </a>
     </div>
   );

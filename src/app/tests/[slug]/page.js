@@ -14,26 +14,63 @@ import { notFound } from "next/navigation";
 import SITE_CONFIG from "@/app/siteConfig";
 
 export async function generateStaticParams() {
-  return (tests || []).map((test) => ({
-    slug: test.slug,
-  }));
+  return (tests || [])
+    .filter((test) => test.status === "published")
+    .map((test) => ({
+      slug: test.slug,
+    }));
 }
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const test = (tests || []).find((t) => t.slug === slug);
+  const test = (tests || []).find((t) => t.slug === slug && t.status === "published");
 
   if (!test) return {};
 
+  const url = `${SITE_CONFIG.url}/tests/${test.slug}`;
+  const title = test.seo?.title || test.name || test.hero?.title;
+  const description = test.seo?.description || test.shortDescription || test.hero?.description || test.description;
+  const image = test.hero?.image ? `${SITE_CONFIG.url}${test.hero.image}` : `${SITE_CONFIG.url}/logo.png`;
+
   return {
-    title: test.seo?.title || test.name || test.hero?.title,
-    description: test.seo?.description || test.shortDescription || test.hero?.description,
+    title,
+    description,
+    keywords: test.seo?.keywords || [],
+    alternates: {
+      canonical: url,
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: SITE_CONFIG.name,
+      type: "website",
+      locale: "en_IN",
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: test.hero?.imageAlt || test.name,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [image],
+    },
   };
 }
 
 export default async function TestSlugPage({ params }) {
   const { slug } = await params;
-  const test = (tests || []).find((t) => t.slug === slug);
+  const test = (tests || []).find((t) => t.slug === slug && t.status === "published");
 
   if (!test) {
     notFound();

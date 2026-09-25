@@ -1,77 +1,5 @@
 export const locations = [
-  // {
-  //   id: 1,
-  //   slug: "blood-test-in-panchkula",
-  //   city: "Panchkula",
-  //   state: "Haryana",
-  //   title: "Blood Test in Panchkula",
-  //   shortDescription:
-  //     "Book accurate blood tests in Panchkula with Shyam Budget Friendly Labs. Home sample collection, fast reports, and affordable pricing for CBC, thyroid, diabetes, and full body checkups.",
-  //   coverImage: "/logo.png",
-  //   hours: "07:00-20:00",
-  //   areas: ["Sector 21", "Sector 20", "Sector 15", "MDC Sector 5", "Panchkula Extension"],
-  //   services: ["cbc-test", "thyroid-test-panchkula", "lipid-profile-test-panchkula"],
-  //   seo: {
-  //     title: "Blood Test in Panchkula | Home Sample Collection & Lab Visit",
-  //     description:
-  //       "Get your blood test done in Panchkula with Shyam Budget Friendly Labs — accurate reports, home sample collection, affordable prices, and same-day results. Book online today.",
-  //     keywords: [
-  //       "Blood Test in Panchkula",
-  //       "Blood Test Panchkula",
-  //       "Blood Test Lab Panchkula",
-  //       "Home Sample Collection Panchkula",
-  //       "CBC Test Panchkula",
-  //     ],
-  //   },
-  //   overview: {
-  //     heading: "Blood Test in Panchkula",
-  //     paragraphs: [
-  //       "Looking for a reliable blood test in Panchkula? Shyam Budget Friendly Labs is a trusted diagnostic lab offering accurate blood testing for individuals and families across Panchkula. From routine screening to specialized investigations, our laboratory uses modern automated equipment and strict quality protocols to ensure dependable results every time.",
-  //       "Whether you need a single test like CBC or Blood Sugar, or a complete health checkup package, we make blood testing in Panchkula simple, affordable, and convenient.",
-  //     ],
-  //     highlights: [
-  //       "100+ Blood Tests Available",
-  //       "Home Sample Collection",
-  //       "Same-Day Reports for Routine Tests",
-  //       "Affordable, Transparent Pricing",
-  //       "Experienced Lab Technicians",
-  //     ],
-  //   },
-  //   popularTests: {
-  //     heading: "Popular Blood Tests in Panchkula",
-  //     test: [
-  //       "total-cholesterol",
-  //       "lipid-profile",
-  //       "blood-urea",
-  //       "kidney-function-test",
-  //       "blood-sugar-test",
-  //       "cbc-test",
-  //     ]
-  //   },
-  //   packages: [
-  //     "swasthya-mitra-premium-package",
-  //     "full-body-checkup",
-  //   ],
-  //   process: {
-  //     heading: "How to Get a Blood Test in Panchkula",
-  //     steps: [
-  //       { title: "Select Your Test", description: "Choose from single blood tests or full body health packages." },
-  //       { title: "Schedule Sample Collection", description: "Book home collection or visit our Sector 21 lab booth." },
-  //       { title: "Sample Collection", description: "Trained phlebotomist collects your sample safely using sterile kits." },
-  //       { title: "Receive Digital Reports", description: "Get verified digital reports on WhatsApp & Email within 24 hours." },
-  //     ]
-  //   },
-  //   faq: [
-  //     {
-  //       question: "Where is Shyam Labs located in Panchkula?",
-  //       answer: "We are located at Booth No. 199, Sector 21, Panchkula near Doon Public School.",
-  //     },
-  //     {
-  //       question: "Is home sample collection available across Panchkula?",
-  //       answer: "Yes, home collection is available across all sectors of Panchkula.",
-  //     }
-  //   ]
-  // },
+
   {
   id: 1,
   slug: "chandigarh",
@@ -3775,17 +3703,310 @@ By combining experienced healthcare professionals, modern laboratory practices, 
       slug: "/locations/dera-bassi"
     }
   ]
+},
+{
+  id: 1,
+
+  slug: "cbc-test-in-chandigarh",
+
+  city: "Chandigarh",
+
+  state: "Chandigarh",
+
+  title: "CBC Test in Chandigarh",
+
+  shortDescription:
+    "Looking for a CBC test in Chandigarh? Shyam Labs provides affordable and reliable Complete Blood Count testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
+
+  coverImage: "/locations/chandigarh-cbc-test.jpeg",
+
+  hours: "07:00-20:00",
+
+  areas: [
+    "Chandigarh",
+    "Panchkula",
+    "Mohali",
+  ],
+
+  services: [
+    "cbc-test",
+  ],
+
+  seo: {
+    title: "CBC Test in Chandigarh | Home Sample Collection",
+
+    description:
+      "Looking for a CBC test in Chandigarh? Shyam Labs offers affordable CBC testing with home sample collection and fast digital reports.",
+
+    keywords: [
+      "CBC Test in Chandigarh",
+      "CBC Blood Test Chandigarh",
+      "Complete Blood Count Chandigarh",
+      "Home Sample Collection Chandigarh",
+      "Diagnostic Lab Near Me Chandigarh",
+      "CBC Test Price Chandigarh",
+      "CBC Test Panchkula",
+      "CBC Test Mohali",
+      "CBC Test Tricity",
+      "Blood Test Chandigarh",
+      "Pathology Lab Chandigarh",
+    ],
+  },
+
+  overview: {
+    heading:
+      "Affordable CBC Testing & Home Sample Collection in Chandigarh",
+
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. A CBC (Complete Blood Count) test is often one of the first blood tests recommended when investigating fatigue, fever, weakness, or suspected infection, and it is also commonly included in routine health checkups.
+
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+
+      `For people living or working in Chandigarh, home sample collection can make routine blood testing more convenient. Instead of travelling to a diagnostic centre, you can schedule a collection at a suitable time and have your sample collected by a trained phlebotomist.
+
+CBC testing can help assess parameters such as hemoglobin, red blood cells, white blood cells, platelets, and hematocrit. The results can provide useful information for doctors when evaluating conditions such as anemia, infection, and other blood-related concerns.`,
+
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+
+    highlights: [
+      "Convenient Home Sample Collection",
+      "Fast Digital Reports",
+      "Affordable, Transparent Pricing",
+      "Professional Sample Collection",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+
+    test: [
+      "CBC Blood Test Chandigarh",
+      "Blood Sugar / HbA1c Test Chandigarh",
+      "Full Body Checkup Chandigarh",
+      "Platelet Count Test",
+      "ESR Test",
+    ],
+  },
+
+  packages: [
+    "home-sample-collection",
+  ],
+
+  process: {
+    heading: "How to Get a CBC Test in Chandigarh",
+
+    steps: [
+      {
+        title: "Book Your Test",
+
+        description:
+          "Book your CBC test online or contact Shyam Labs to arrange convenient sample collection in Chandigarh.",
+      },
+      {
+        title: "Schedule Home Collection",
+
+        description:
+          "Choose a convenient collection time and provide your Chandigarh address during booking.",
+      },
+      {
+        title: "Sample Collection",
+
+        description:
+          "A trained phlebotomist follows appropriate safety and hygiene procedures during the collection visit.",
+      },
+      {
+        title: "Receive Digital Report",
+
+        description:
+          "Get your CBC report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+
+  healthConditions: [
+    "Anemia Detection",
+    "Infection Screening",
+    "Clotting Disorders",
+    "General Health Monitoring",
+  ],
+
+  whoShouldGetTested: [
+    "Anyone with Fatigue or Weakness",
+    "Patients with Fever or Suspected Infection",
+    "Pre-Surgery Patients",
+    "Pregnant Women (as advised by a doctor)",
+    "Individuals Doing an Annual Health Checkup",
+    "Senior Citizens",
+  ],
+
+  popularSearches: [
+    "CBC Test in Chandigarh",
+    "CBC Test Price Chandigarh",
+    "CBC Test Near Me",
+    "Home Sample Collection Chandigarh",
+    "Blood Test in Chandigarh",
+    "Diagnostic Lab Near Me Chandigarh",
+    "CBC Test Panchkula",
+    "CBC Test Mohali",
+  ],
+
+  sections: [
+    {
+      title: "CBC Testing Services in Chandigarh",
+
+      content: [
+        "Residents across Chandigarh can book CBC testing through Shyam Labs with convenient home sample collection where service coverage is available.",
+        "Our testing services are designed for working professionals, families, senior citizens, and patients who need routine or regular blood monitoring.",
+      ],
+    },
+
+    {
+      title: "Doorstep Blood Collection in Chandigarh",
+
+      content: [
+        "Our home sample collection service lets you schedule a CBC test from home without waiting at a diagnostic centre.",
+        "Trained phlebotomists follow appropriate safety and hygiene procedures during every collection visit.",
+      ],
+    },
+
+    {
+      title: "Why Choose Shyam Labs for CBC Testing?",
+
+      content: [
+        "Affordable pricing, convenient sample collection, and digital reporting make Shyam Labs a convenient option for CBC testing across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+
+  nearbyAreas: [
+    "Chandigarh",
+    "Panchkula",
+    "Mohali",
+  ],
+
+  faq: [
+    {
+      question:
+        "Which areas around Chandigarh are covered for home sample collection?",
+
+      answer:
+        "Shyam Labs provides home sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+
+    {
+      question:
+        "Can I book a CBC test online in Chandigarh?",
+
+      answer:
+        "Yes, you can schedule your CBC test online or by phone and choose a convenient collection time.",
+    },
+
+    {
+      question:
+        "What is the CBC test price in Chandigarh?",
+
+      answer:
+        "The CBC test is available at an offer price of ₹300. Check the pricing page for current offers and booking details.",
+    },
+
+    {
+      question:
+        "Is fasting required before a CBC test?",
+
+      answer:
+        "No, fasting is generally not required before a CBC test.",
+    },
+
+    {
+      question:
+        "How quickly are CBC reports available in Chandigarh?",
+
+      answer:
+        "CBC reports are typically available digitally within 24 hours of sample collection.",
+    },
+
+    {
+      question:
+        "Can senior citizens book a CBC test from home in Chandigarh?",
+
+      answer:
+        "Yes, home sample collection can be convenient for elderly patients who prefer to avoid travelling to a diagnostic centre, subject to service availability.",
+    },
+  ],
+
+  relatedLocations: [
+    {
+      city: "Panchkula",
+      slug: "/locations/cbc-test-in-panchkula",
+    },
+    {
+      city: "Mohali",
+      slug: "/locations/cbc-test-in-mohali",
+    },
+  ],
+
+  facts: [
+    {
+      label: "Test Price",
+      value: "₹300",
+    },
+    {
+      label: "Report Time",
+      value: "24 Hours",
+    },
+    {
+      label: "Collection Service",
+      value: "Doorstep Sample Pickup",
+    },
+    {
+      label: "Report Delivery",
+      value: "Online & WhatsApp Reports",
+    },
+    {
+      label: "Lab Location",
+      value: "Sector 21, Panchkula",
+    },
+  ],
+
+  tags: [
+    "CBC Test Chandigarh",
+    "Pathology Lab Chandigarh",
+    "Complete Blood Count Chandigarh",
+    "Home Sample Collection Chandigarh",
+    "Blood Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "CBC Test Panchkula",
+    "CBC Test Mohali",
+    "CBC Test Tricity",
+  ],
+
+  cta: {
+    title: "Book a CBC Test in Chandigarh Today",
+
+    description:
+      "Schedule convenient home sample collection in Chandigarh and receive your CBC report digitally from Shyam Budget Friendly Labs.",
+
+    phone: "tel:+919914899300",
+
+    highlights: [
+      "Home Sample Collection",
+      "Affordable CBC Testing",
+      "Fast Digital Reports",
+    ],
+  },
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/chandigarh-cbc-test.jpeg",
+
+  heroTitle:
+    "Affordable CBC Testing & Home Sample Collection in Chandigarh",
+
+  heroSubtitle:
+    "Book your CBC test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
 }
-
-
-  /*
-  // Additional Location Entries (Commented out template)
-  {
-    id: 2,
-    slug: "blood-test-in-chandigarh",
-    city: "Chandigarh",
-    ...
-  }
-  */
 ];
 

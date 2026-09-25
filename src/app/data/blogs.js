@@ -1,597 +1,388 @@
 import SITE_CONFIG from "../siteConfig";
 
 export const blogs = [
-//new one blog 
-// {
-//     id: 2,
-//     slug: "cbc-test",
-//     title: "CBC Test: Full Form, Normal Range, Procedure & What It Detects",
-//     excerpt:
-//       "Learn everything about the CBC (Complete Blood Count) test, including its full form, normal range, procedure, fasting requirements, and what conditions it can detect.",
-//     category: "Health Tips",
-//     author: {
-//       name: "Shyam Budget Friendly Labs",
-//       image: "/logo.png",
-//     },
-//     publishedAt: "August 08, 2026",
-//     readingTime: "9 min read",
-//     coverImage: "/logo.png",
-//     featured: true,
-//     relatedPackages: ["swasthya-mitra-premium-package"],
-//     relatedTests: [
-//       { name: "CBC (Complete Blood Count) Test", price: 299, slug: "cbc-test-chandigarh" },
-//     ],
-//     seo: {
-//       title: "CBC Test: Full Form, Normal Range, Procedure & What It Detects | Shyam Labs",
-//       description:
-//         "Everything you need to know about the CBC test — full form, normal range, procedure, fasting requirements, price, and what conditions it can detect. Expert health information from Shyam Labs.",
-//       keywords: [
-//         "CBC test",
-//         "CBC test full form",
-//         "what is CBC test",
-//         "CBC test normal range",
-//         "CBC test price",
-//         "CBC test near me",
-//         "Shyam Budget Friendly Labs",
-//       ],
-//     },
-//     quickInfo: {
-//       "What You Will Learn": "CBC (Complete Blood Count) Test",
-//       price: "₹299",
-//       sample: "Blood Sample",
-//       fasting: "Not Required",
-//       reportTime: "Same Day",
-//       homeCollection: "Available",
-//       recommendedFor: "Fatigue, Fever, Infection, Weakness, Routine Checkup",
-//       booking: "Online / Phone / WhatsApp",
-//     },
-//     tags: [
-//       "CBC Test",
-//       "Complete Blood Count",
-//       "Blood Tests",
-//       "Diagnostics",
-//       "Health Checkup",
-//     ],
-//     content: [
-//       {
-//         type: "paragraph",
-//         text: "A CBC test, or Complete Blood Count test, is one of the most commonly prescribed blood tests. It gives doctors a detailed picture of your overall health by measuring different components of your blood, helping detect infections, anemia, and many other conditions early.",
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "What is a CBC Test?",
-//       },
-//       {
-//         type: "paragraph",
-//         text: "CBC stands for Complete Blood Count. It is a blood test that evaluates the cells circulating in your blood, including red blood cells (RBCs), white blood cells (WBCs), and platelets. It also measures hemoglobin, hematocrit, and related indices such as MCV, MCH, and MCHC.",
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "What is CBC in Detail?",
-//       },
-//       {
-//         type: "paragraph",
-//         text: "A Complete Blood Count (CBC) is a comprehensive blood test that analyzes the cellular components of your blood — red blood cells, white blood cells, and platelets — along with related measurements like hemoglobin and hematocrit. It's performed by drawing a small blood sample, usually from a vein in your arm, which is then run through an automated analyzer at the lab. The results give your doctor a broad snapshot of your overall health, immune function, and blood-related conditions.",
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "4 Main Components of a CBC Test",
-//       },
-//       {
-//         type: "list",
-//         items: [
-//           "Red Blood Cells (RBC) — carry oxygen from lungs to the rest of the body",
-//           "White Blood Cells (WBC) — fight infections and support immune response",
-//           "Platelets — help blood clot and prevent excessive bleeding",
-//           "Hemoglobin & Hematocrit — measure oxygen-carrying capacity and blood volume",
-//         ],
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "CBC Test Normal Range",
-//       },
-//       {
-//         type: "list",
-//         items: [
-//           "Hemoglobin: 13.5–17.5 g/dL (men), 12–15.5 g/dL (women)",
-//           "WBC Count: 4,000–11,000 cells/mcL",
-//           "Platelet Count: 150,000–450,000/mcL",
-//           "RBC Count: 4.7–6.1 million cells/mcL (men), 4.2–5.4 million cells/mcL (women)",
-//           "Hematocrit: 38.8–50% (men), 34.9–44.5% (women)",
-//         ],
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "What Does a CBC Test Check For?",
-//       },
-//       {
-//         type: "list",
-//         items: [
-//           "Anemia (low hemoglobin/RBC levels)",
-//           "Infections (through WBC count changes)",
-//           "Bleeding or clotting disorders (through platelet count)",
-//           "Dehydration or fluid imbalance",
-//           "Certain blood cancers (as an initial screening indicator)",
-//         ],
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "5 Things a CBC Test Can Show Signs Of",
-//       },
-//       {
-//         type: "list",
-//         items: [
-//           "Anemia (low RBC or hemoglobin)",
-//           "Infection or inflammation (abnormal WBC count)",
-//           "Bleeding or clotting disorders (abnormal platelet count)",
-//           "Dehydration (elevated hematocrit)",
-//           "Certain blood cancers like leukemia (as an early screening indicator)",
-//         ],
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "Which Diseases Can CBC Detect?",
-//       },
-//       {
-//         type: "list",
-//         items: [
-//           "Iron-deficiency and other types of anemia",
-//           "Bacterial or viral infections",
-//           "Dengue and typhoid (often shows characteristic patterns)",
-//           "Blood clotting disorders",
-//           "Leukemia and other blood cancers (screening indicator, not a confirmed diagnosis)",
-//           "Autoimmune conditions affecting blood cells",
-//         ],
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "When Do You Need a CBC Test?",
-//       },
-//       {
-//         type: "paragraph",
-//         text: "A CBC test is commonly recommended when you experience unexplained fatigue, fever, frequent infections, unusual bruising or bleeding, or during routine annual health checkups. Doctors also order it before surgery, during pregnancy, or to monitor existing conditions like anemia or ongoing treatments such as chemotherapy.",
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "Is CBC Test Done Fasting?",
-//       },
-//       {
-//         type: "paragraph",
-//         text: "In most cases, a CBC test does not require fasting. However, if it is being done alongside other tests like blood sugar or lipid profile, your doctor may advise fasting for 8-12 hours.",
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "What Happens if CBC is High or Low?",
-//       },
-//       {
-//         type: "paragraph",
-//         text: "A high WBC count can indicate infection, inflammation, or stress on the body, while a low WBC count may suggest a weakened immune system. High RBC/hemoglobin can point to dehydration or a condition called polycythemia, while low levels usually indicate anemia. High platelets can raise clotting risk; low platelets increase bleeding risk. Any high or low reading should be reviewed by a doctor alongside your symptoms, not interpreted alone.",
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "What is Alarming in a CBC Report?",
-//       },
-//       {
-//         type: "paragraph",
-//         text: "Results that typically need urgent medical attention include a very low platelet count (risk of spontaneous bleeding), a very high or very low WBC count (possible severe infection or immune suppression), a sharp drop in hemoglobin (severe anemia), or the presence of abnormal or immature blood cells flagged by the lab. These findings usually prompt further testing rather than an immediate diagnosis.",
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "Are There Any Risks in a CBC Test?",
-//       },
-//       {
-//         type: "paragraph",
-//         text: "A CBC test is very low-risk. It involves a standard blood draw, so you may experience minor bruising, slight pain at the needle site, or brief lightheadedness. Serious complications are extremely rare. No special recovery time is needed and you can resume normal activities immediately after the test.",
-//       },
-//       {
-//         type: "heading",
-//         level: 2,
-//         text: "Why is a CBC Test Important?",
-//       },
-//       {
-//         type: "paragraph",
-//         text: "A CBC test is often the first step in diagnosing a wide range of conditions, from common infections to chronic illnesses. It's frequently included in routine health checkups because it offers a quick, affordable overview of your blood health.",
-//       },
-//      {
-//         type: "heading",
-//         level: 2,
-//         text: "Key Takeaways",
-//       },
-//       {
-//         type: "list",
-//         items: [
-//           "CBC (Complete Blood Count) measures RBCs, WBCs, platelets, hemoglobin, and hematocrit",
-//           "Fasting is generally not required unless combined with other tests",
-//           "It can help detect anemia, infections, clotting disorders, and act as an early screening indicator for blood cancers",
-//           "Very high or very low results should always be reviewed by a doctor alongside your symptoms",
-//           "The test is low-risk, affordable, and available with same-day reports and home sample collection",
-//         ],
-//       },
-//      {
-//       type: "interlinking",
-//       title: "CBC Test — Areas We Serve",
-//       description: "We provide CBC (Complete Blood Count) test with home sample collection across the following locations.",
-//       items: [
-//         {
-//           title: "Chandigarh",
-//           description: "CBC test with home sample collection.",
-//           href: "/locations/cbc-test-in-chandigarh",
-//         },
-//         {
-//           title: "Mohali",
-//           description: "CBC test and diagnostic services with home collection.",
-//           // href: "/locations/cbc-test-in-mohali",
-//         },
-//         {
-//           title: "Panchkula",
-//           description: "CBC test with same-day report and home collection.",
-//           // href: "/locations/cbc-test-in-panchkula",
-//         },
-//         {
-//           title: "Zirakpur",
-//           description: "CBC test and pathology services.",
-//           // href: "/locations/cbc-test-in-zirakpur",
-//         },
-       
-//       ],
-//     },
-//       {
-//       type: "references",
-//       items: [
-//         {
-//           title: "Complete Blood Count (CBC)",
-//           publisher: "MedlinePlus",
-//           url: "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
-//         },
-//         {
-//           title: "CBC Blood Test",
-//           publisher: "MedlinePlus Medical Encyclopedia",
-//           url: "https://medlineplus.gov/ency/article/003642.htm",
-//         },
-//         {
-//           title: "WBC Count",
-//           publisher: "MedlinePlus Medical Encyclopedia",
-//           url: "https://medlineplus.gov/ency/article/003643.htm",
-//         },
-//         {
-//           title: "Complete Blood Count (CBC): What It Is & Normal Ranges",
-//           publisher: "Cleveland Clinic",
-//           url: "https://my.clevelandclinic.org/health/diagnostics/4053-complete-blood-count",
-//         },
-//         {
-//           title: "Blood Tests",
-//           publisher: "National Heart, Lung, and Blood Institute (NIH)",
-//           url: "https://www.nhlbi.nih.gov/health/blood-tests",
-//         },
-//         {
-//           title: "Understanding Your Lab Test Results",
-//           publisher: "Mayo Clinic",
-//           url: "https://www.mayoclinic.org/",
-//         },
-//       ],
-//     },
-//     ],
-//     faq: [
-//       {
-//         question: "What is a CBC test?",
-//         answer: "A CBC (Complete Blood Count) test measures red blood cells, white blood cells, platelets, and hemoglobin to give an overall picture of your blood health.",
-//       },
-//       {
-//         question: "What is CBC full form?",
-//         answer: "CBC stands for Complete Blood Count.",
-//       },
-//       {
-//         question: "What are the 4 components of a CBC?",
-//         answer: "The four main components are Red Blood Cells (RBC), White Blood Cells (WBC), Platelets, and Hemoglobin/Hematocrit.",
-//       },
-//       {
-//         question: "What is a normal CBC level?",
-//         answer: "Normal ranges vary by component — for example, hemoglobin is typically 13.5–17.5 g/dL in men and 12–15.5 g/dL in women. Your report will list the exact reference range used by the lab.",
-//       },
-//       {
-//         question: "What does a CBC test check for?",
-//         answer: "It checks for anemia, infections, clotting disorders, dehydration, and can flag early signs of certain blood-related conditions.",
-//       },
-//       {
-//         question: "What are 5 things the CBC can show signs of?",
-//         answer: "CBC can show signs of anemia, infection or inflammation, bleeding/clotting disorders, dehydration, and certain blood cancers like leukemia.",
-//       },
-//       {
-//         question: "Which diseases can CBC detect?",
-//         answer: "CBC can help detect anemia, infections, dengue, typhoid, clotting disorders, and act as an early screening indicator for leukemia and other blood cancers.",
-//       },
-//       {
-//         question: "When should you take a CBC test?",
-//         answer: "You should consider a CBC test if you have unexplained fatigue, fever, frequent infections, unusual bruising, or as part of a routine annual checkup or pre-surgery screening.",
-//       },
-//       {
-//         question: "What CBC test is done during pregnancy?",
-//         answer: "A standard CBC with differential is commonly done during pregnancy to monitor hemoglobin, platelet count, and detect anemia or infection risk.",
-//       },
-//       {
-//         question: "Is CBC test done fasting?",
-//         answer: "No, fasting is generally not required for a CBC test unless it's combined with other tests that need it.",
-//       },
-//       {
-//         question: "What happens if a CBC is high?",
-//         answer: "A high reading depends on which component is elevated — high WBC often points to infection or inflammation, high RBC/hemoglobin to dehydration, and high platelets to increased clotting risk. A doctor should interpret this alongside your symptoms.",
-//       },
-//       {
-//         question: "What is alarming in a CBC report?",
-//         answer: "Very low platelet counts, very high or very low WBC counts, a sharp drop in hemoglobin, or abnormal cell flags are typically considered alarming and warrant prompt medical review.",
-//       },
-//       {
-//         question: "Are there any risks with a CBC test?",
-//         answer: "CBC testing is very low-risk, involving only a standard blood draw. Minor bruising or brief discomfort at the needle site is possible, but serious complications are rare.",
-//       },
-//       {
-//         question: "Why is CBC test important?",
-//         answer: "It helps detect infections, anemia, and other conditions early, and is a standard part of routine health checkups.",
-//       },
-//       {
-//         question: "Can I do a CBC test at home?",
-//         answer: "Yes, home sample collection is available — a phlebotomist visits your location to collect the sample, which is then processed at the lab.",
-//       },
-//       {
-//         question: "How much does a CBC test cost?",
-//         answer: "Our CBC test is priced at ₹299, with same-day reports and free home sample collection available.",
-//       },
-//     ],
-//     cta: {
-//       title: "Book CBC Test",
-//       description: "Get accurate CBC testing with doorstep sample collection and same-day reports.",
-//       buttonText: "Book Test Now",
-//       whatsappText: "Hi, I want to book a CBC test.",
-//       features:["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"]
-//     },
-//   },
 
-  //old blogs
-
-  {
+ {
   id: 1, 
 
-  slug: "complete-blood-count-cbc-test", // kept old slug — no URL change needed here since content/URL are same topic; only add a redirect if you're actually renaming it
+  slug: "complete-blood-count-cbc-test", 
 
-  title: "CBC Test Guide: Purpose, Normal Range, Results, Benefits & When You Need One",
+  title: "CBC Test Guide: Full Form, Normal Range, Procedure, Price & What It Detects",
 
   excerpt:
-    "Learn everything about CBC testing, including RBC, WBC, hemoglobin, platelet counts, normal ranges, symptoms, preparation, and CBC testing in Panchkula.",
+    "Everything you need to know about the CBC (Complete Blood Count) test — full form, normal range, procedure, fasting rules, price, report reading, and what it can detect.",
 
   category: "Health Tips",
 
   author: {
-    name: SITE_CONFIG.fullName, // old schema had this as a plain string — now an object
-    image: SITE_CONFIG.logo, // ⚠️ confirm this is the correct author image path used across other blogs
+    name: SITE_CONFIG.fullName,
+    image: SITE_CONFIG.logo,
   },
 
-  publishedAt: "June 01, 2026", // from datePublished, reformatted to match doc2's style
+  publishedAt: "August 12, 2026",
 
-  readingTime: "5 min read",
+  readingTime: "10 min read",
 
-  coverImage: "/blogs/cbc-test.jpg",
+  coverImage: "/blogs/cbc-test-guide.webp",
 
-  featured: false, // ⚠️ set true if you want this one featured
+  featured: true,
 
-  relatedPackages: [
-    "essential-health-tests",
-    "lipid-profile-test",
-    "swasthya-mitra-premium-package"
-  ], // ⚠️ old schema had no equivalent — add package slugs if relevant, e.g. ["full-body-checkup"]
+  relatedPackages: ["swasthya-mitra-premium-package"],
 
-  relatedTests: [],
+  relatedTests: [
+    { name: "CBC (Complete Blood Count) Test", price: 200, slug: "cbc-test-chandigarh" },
+  ],
 
   seo: {
-    title: "CBC Test Guide: Normal Range, Results, Cost & CBC Test in Panchkula",
+    // Title kept under 60 characters so Google doesn't truncate it in search results
+    title: "CBC Test: Full Form, Normal Range, Price & Procedure",
+    // Meta description kept under 160 characters for the same reason
     description:
-      "Learn about CBC Test normal ranges, hemoglobin levels, RBC, WBC, platelet counts, symptoms, benefits, preparation, and CBC testing in Panchkula with home sample collection.",
+      "Complete guide to CBC test: full form, normal range, procedure, fasting rules & price. Same-day reports with home sample collection in Panchkula & Chandigarh.",
     keywords: [
-      "CBC Test",
-      "Complete Blood Count Test",
-      "CBC Test Normal Range",
-      "CBC Blood Test",
-      "Hemoglobin Test",
-      "Platelet Count Test",
-      "CBC Test in Panchkula",
-      "CBC Test Near Me",
-      "WBC Count Test",
-      "RBC Count Test",
-      "Anemia Blood Test",
+      "CBC test",
+      "CBC test full form",
+      "CBC blood test",
+      "CBC test price",
+      "CBC test near me",
+      "CBC test normal range",
+      "CBC test procedure",
+      "CBC test at home",
+      "CBC test in Panchkula",
+      "CBC test in Chandigarh",
+      "pathology lab near me",
+      "diagnostic lab near me",
+      "blood test home sample collection",
+      "hemoglobin test",
+      "platelet count test",
     ],
   },
 
   quickInfo: {
     "What You Will Learn": "CBC (Complete Blood Count) Test",
+    price: "₹200",
     sample: "Blood",
-    fasting: "Usually Not Required",
+    fasting: "Not Required",
     reportTime: "Same Day",
     homeCollection: "Available",
-    recommendedFor: "Fatigue, Weakness, Frequent Infections, Dizziness, Routine Checkup",
+    recommendedFor: "Fatigue, Fever, Infection, Weakness, Routine Checkup",
     booking: "Online / Phone / WhatsApp",
-    price:"₹200"
-    // ⚠️ old schema had no price — add price: "₹XXX" if you charge for this test
   },
 
   tags: [
     "CBC Test",
     "Complete Blood Count",
-    "Blood Test",
+    "CBC Test Full Form",
     "CBC Test Price",
-    "CBC Normal Range",
-    "Hemoglobin Test",
-    "Red Blood Cell Count",
-    "White Blood Cell Count",
-    "Platelet Count Test",
-    "Anemia Test",
-    "Infection Detection Test",
-    "Routine Health Checkup",
-    "Pathology Lab",
-    "Diagnostic Lab",
-    "Blood Testing Services",
+    "CBC Test Normal Range",
     "CBC Test Near Me",
-    "CBC Test in Punjab",
+    "CBC Test at Home",
+    "Hemoglobin Test",
+    "Platelet Count Test",
+    "RBC Count Test",
+    "WBC Count Test",
+    "Blood Tests",
+    "Diagnostics",
+    "Health Checkup",
     "CBC Test in Panchkula",
     "CBC Test in Chandigarh",
-    "Same Day CBC Report",
-    "Home Blood Collection",
+    "CBC Test in Mohali",
+    "Home Sample Collection",
+    "Pathology Lab",
+    "Same Day Report",
   ],
 
   content: [
     {
       type: "paragraph",
-      text: "A Complete Blood Count (CBC) is one of the most commonly recommended blood tests. It evaluates your overall health and helps detect disorders such as anemia, infections, inflammation, and blood-related conditions. Doctors often include CBC testing as part of routine health checkups.",
+      text: "The CBC test, or Complete Blood Count test, is one of the most frequently prescribed blood tests in routine healthcare. It gives your doctor a detailed snapshot of your blood health in a single report, helping detect infections, anemia, dehydration, and many other conditions — often before you notice any symptoms.",
     },
     {
       type: "heading",
       level: 2,
-      text: "What Does a CBC Measure?",
+      text: "What Is the Full Form of CBC Test?",
+    },
+    {
+      type: "paragraph",
+      text: "CBC stands for Complete Blood Count. It is a blood test that evaluates the different cells circulating in your bloodstream — red blood cells (RBCs), white blood cells (WBCs), and platelets — along with hemoglobin, hematocrit, and related indices such as MCV, MCH, and MCHC.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Does a CBC Test Check For?",
     },
     {
       type: "list",
       items: [
-        "Red Blood Cells (RBC)",
-        "White Blood Cells (WBC)",
-        "Hemoglobin",
-        "Hematocrit",
-        "Platelets",
+        "Anemia (low hemoglobin or RBC count)",
+        "Bacterial or viral infections (changes in WBC count)",
+        "Bleeding or clotting disorders (abnormal platelet count)",
+        "Dehydration or fluid imbalance",
+        "General immunity and overall blood health",
+        "Early screening indicators for certain blood disorders",
       ],
     },
     {
       type: "heading",
       level: 2,
-      text: "Who Should Get a CBC Test?",
-    },
-    {
-      type: "paragraph",
-      text: "A CBC Test may be recommended for people experiencing fatigue, weakness, dizziness, unexplained weight loss, recurrent infections, fever, excessive bleeding, or easy bruising. Doctors also recommend CBC testing during routine health checkups, before surgeries, and while monitoring chronic illnesses.",
-    },
-    {
-      type: "heading",
-      level: 2,
-      text: "Symptoms Requiring CBC Testing",
+      text: "4 Main Components of a CBC Test",
     },
     {
       type: "list",
       items: [
-        "Persistent fatigue",
-        "Weakness",
-        "Dizziness",
-        "Frequent infections",
-        "Fever",
-        "Pale skin",
-        "Shortness of breath",
-        "Unexplained bruising",
-        "Excessive bleeding",
+        "Red Blood Cells (RBC) — carry oxygen from your lungs to the rest of your body",
+        "White Blood Cells (WBC) — fight infection and support your immune response",
+        "Platelets — help your blood clot and prevent excessive bleeding",
+        "Hemoglobin & Hematocrit — measure your blood's oxygen-carrying capacity and volume",
       ],
     },
     {
       type: "heading",
       level: 2,
-      text: "Normal CBC Values",
+      text: "CBC Test Normal Range Chart",
     },
     {
       type: "list",
       items: [
-        "Hemoglobin: 12–17 g/dL",
-        "WBC: 4,000–11,000 /µL",
-        "RBC: 4.2–6.1 million/µL",
-        "Platelets: 150,000–450,000 /µL",
+        "Hemoglobin: 13.5–17.5 g/dL (men), 12–15.5 g/dL (women)",
+        "WBC Count: 4,000–11,000 cells/mcL",
+        "Platelet Count: 150,000–450,000/mcL",
+        "RBC Count: 4.7–6.1 million cells/mcL (men), 4.2–5.4 million cells/mcL (women)",
+        "Hematocrit: 38.8–50% (men), 34.9–44.5% (women)",
       ],
     },
     {
+      type: "paragraph",
+      text: "These ranges can vary slightly between laboratories depending on the analyzer and reference population used, so always compare your result against the range printed on your own report, not just figures found online.",
+    },
+    {
       type: "heading",
       level: 2,
-      text: "Understanding CBC Test Results",
+      text: "CBC Test Procedure: How Is It Done?",
     },
     {
       type: "paragraph",
-      text: "Low hemoglobin or RBC levels may suggest anemia. High or low WBC levels can indicate infections, inflammation, immune disorders, or other medical conditions. Abnormal platelet counts may affect blood clotting and require further medical evaluation. Your doctor will interpret CBC results along with symptoms, medical history, and other investigations.",
+      text: "A CBC test only requires a small blood sample, usually drawn from a vein in your arm. The sample is collected into a tube and run through an automated hematology analyzer at the lab, which counts and measures each blood component within minutes. The entire collection process takes only a couple of minutes and causes minimal discomfort.",
     },
     {
       type: "heading",
       level: 2,
-      text: "Benefits of Regular CBC Testing",
+      text: "Is CBC Test Fasting Required? Before or After Food?",
+    },
+    {
+      type: "paragraph",
+      text: "In most cases, a CBC test does not require fasting and can be done before or after food. However, if your doctor has ordered it alongside tests like fasting blood sugar or a lipid profile, you may be asked to fast for 8–12 hours beforehand — the fasting requirement in that case applies to the other test, not the CBC itself.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How To Read Your CBC Report",
+    },
+    {
+      type: "paragraph",
+      text: "A CBC report typically lists each parameter (like Hemoglobin or WBC Count) alongside your result, the unit of measurement, and the lab's normal reference range. Results outside the range are usually flagged 'H' (high) or 'L' (low). A flag doesn't automatically mean disease — it simply tells your doctor which values need a closer look alongside your symptoms and history.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What If Your CBC Is High or Low?",
+    },
+    {
+      type: "paragraph",
+      text: "A high WBC count can point to infection, inflammation, or physical stress on the body, while a low WBC count may suggest a weakened immune system. High RBC or hemoglobin can indicate dehydration, while low levels typically point to anemia. High platelets may raise clotting risk, and low platelets can increase bleeding risk. Any abnormal reading should be reviewed by a doctor alongside your symptoms rather than interpreted in isolation.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "The 'Rule of Three' in CBC",
+    },
+    {
+      type: "paragraph",
+      text: "Lab professionals sometimes use a quick cross-check called the 'rule of three': hemoglobin (g/dL) multiplied by three should roughly equal the hematocrit (%), and the RBC count (in millions/µL) multiplied by three should roughly equal the hemoglobin value. It's a way for technicians to spot possible sample or measurement errors — not a formula patients need to calculate themselves.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Diseases Can a CBC Test Detect?",
     },
     {
       type: "list",
       items: [
-        "Early detection of anemia",
-        "Identification of infections",
-        "Monitoring chronic diseases",
-        "Evaluating treatment response",
-        "Assessing overall health status",
-        "Supporting routine health checkups",
+        "Iron-deficiency and other types of anemia",
+        "Bacterial or viral infections",
+        "Dengue and typhoid (often show characteristic CBC patterns)",
+        "Blood clotting disorders",
+        "Dehydration",
+        "Certain blood cancers like leukemia — as an early screening indicator only, never a standalone diagnosis",
       ],
     },
     {
-      type: "heading",
-      level: 2,
-      text: "How To Prepare For A CBC Test",
-    },
-    {
       type: "paragraph",
-      text: "CBC testing usually requires minimal preparation. Most people do not need fasting before a CBC Test unless it is being performed alongside other tests that require fasting. Patients should stay hydrated and inform their doctor about any medications or ongoing medical conditions before sample collection.",
+      text: "It's worth being clear on one point people often search for: a CBC test cannot diagnose cancer on its own. Certain patterns — such as an unusually high or low WBC count with abnormal cell types — can prompt a doctor to order further tests like a peripheral smear or bone marrow biopsy, but the CBC itself only flags where to look closer.",
     },
     {
       type: "heading",
       level: 2,
-      text: "CBC Test in Panchkula",
+      text: "Understanding CBC With Differential",
     },
     {
       type: "paragraph",
-      text: "Shyam Pathology Lab provides accurate CBC Testing in Panchkula with convenient home blood sample collection services. Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, and nearby areas can book CBC testing from home and receive reliable reports quickly.",
+      text: "A 'CBC with differential' breaks the WBC count down further into its five sub-types — neutrophils, lymphocytes, monocytes, eosinophils, and basophils. An abnormal differential (for example, high neutrophils) can help doctors narrow down whether an infection is likely bacterial, viral, or allergic in nature, which plain WBC count alone can't always tell you.",
     },
-  
-  
-    // ⚠️ old schema had no "references" block — add real medical sources (MedlinePlus, Cleveland Clinic, etc.)
-    // like your other blog does, if you want this one to carry the same authority/credibility signal
+    {
+      type: "heading",
+      level: 2,
+      text: "Who Needs a CBC Test? When Should You Get One?",
+    },
+    {
+      type: "paragraph",
+      text: "A CBC test is commonly recommended for unexplained fatigue, fever, frequent infections, unusual bruising or bleeding, or during routine annual health checkups. Doctors also order it before surgery, during pregnancy, or to monitor ongoing conditions like anemia or treatments such as chemotherapy.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Long Is a CBC Test Valid For?",
+    },
+    {
+      type: "paragraph",
+      text: "A CBC report doesn't have a fixed 'expiry date' — it's a snapshot of your blood at the time of collection. For routine checkups, doctors often consider a report reliable for a few weeks to a few months. But if your symptoms change, or you're being monitored for a specific condition, your doctor may want a fresh test regardless of how recent the last one was.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "CBC Test Price and Report Time",
+    },
+    {
+      type: "paragraph",
+      text: "Our CBC test is priced at ₹200, with same-day reports and free home sample collection available — so you don't need to visit the lab in person or wait days for results.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "CBC Test in Panchkula, Chandigarh & Nearby Areas",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Pathology Lab provides accurate CBC testing with convenient home blood sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Key Takeaways",
+    },
+    {
+      type: "list",
+      items: [
+        "CBC (Complete Blood Count) measures RBCs, WBCs, platelets, hemoglobin, and hematocrit",
+        "Fasting is generally not required unless combined with other tests",
+        "It can help detect anemia, infections, clotting disorders, and act as an early screening indicator for blood cancers — never a standalone diagnosis",
+        "Compare your results against the range printed on your own report, since ranges vary slightly by lab",
+        "The test is affordable, fast, and available with same-day reports and home sample collection",
+      ],
+    },
+    {
+      type: "interlinking",
+      title: "CBC Test — Areas We Serve",
+      description: "We provide CBC (Complete Blood Count) test with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "CBC test with home sample collection.",
+          href: "/locations/cbc-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "CBC test and diagnostic services with home collection.",
+        },
+        {
+          title: "Panchkula",
+          description: "CBC test with same-day report and home collection.",
+        },
+        {
+          title: "Zirakpur",
+          description: "CBC test and pathology services.",
+        },
+      ],
+    },
+    {
+      type: "references",
+      items: [
+        {
+          title: "Complete Blood Count (CBC)",
+          publisher: "MedlinePlus",
+          url: "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
+        },
+        {
+          title: "Complete Blood Count (CBC): What It Is & Normal Ranges",
+          publisher: "Cleveland Clinic",
+          url: "https://my.clevelandclinic.org/health/diagnostics/4053-complete-blood-count",
+        },
+        {
+          title: "Blood Tests",
+          publisher: "National Heart, Lung, and Blood Institute (NIH)",
+          url: "https://www.nhlbi.nih.gov/health/blood-tests",
+        },
+      ],
+    },
   ],
 
   faq: [
     {
-      question: "Is fasting required for a CBC Test?",
-      answer: "In most cases fasting is not required for a CBC Test unless your doctor has advised additional fasting tests.",
+      question: "What is the full form of CBC test?",
+      answer: "CBC stands for Complete Blood Count — a blood test that measures red blood cells, white blood cells, platelets, hemoglobin, and hematocrit.",
     },
     {
-      question: "What diseases can a CBC Test detect?",
-      answer: "A CBC Test can help identify anemia, infections, inflammation, blood disorders, nutritional deficiencies, and other health conditions.",
+      question: "What is a normal CBC test result?",
+      answer: "A normal CBC means all your values — hemoglobin, WBC, RBC, platelets, and hematocrit — fall within the reference range printed on your report. Exact ranges vary slightly by age, sex, and lab.",
     },
     {
-      question: "Can a CBC Test detect infection?",
-      answer: "Yes. Changes in white blood cell counts may indicate bacterial, viral, or other infections.",
+      question: "What does a CBC test check for?",
+      answer: "It checks for anemia, infections, clotting disorders, dehydration, and can flag early signs of certain blood-related conditions.",
     },
     {
-      question: "How long does a CBC Test take?",
-      answer: "Blood collection usually takes only a few minutes and most reports are available the same day.",
+      question: "What are 5 things a CBC test can show signs of?",
+      answer: "A CBC can show signs of anemia, infection or inflammation, bleeding or clotting disorders, dehydration, and — as a screening indicator only — certain blood cancers like leukemia.",
     },
     {
-      question: "Can I book a CBC Test at home in Panchkula?",
-      answer: "Yes. Shyam Pathology Lab provides convenient home blood sample collection services in Panchkula and nearby areas.",
+      question: "Is fasting required for a CBC test, or can it be done any time?",
+      answer: "No, fasting is generally not required, and the test can be done at any time of day. If it's combined with a fasting test like blood sugar, that fasting rule applies to the other test, not the CBC.",
     },
     {
-      question: "How often should I get a CBC Test?",
-      answer: "The frequency depends on your health condition and your doctor's recommendation. Many people include CBC testing in annual health checkups.",
+      question: "What happens if a CBC is high or low?",
+      answer: "It depends on which value is abnormal — high WBC often points to infection, low hemoglobin usually suggests anemia, and abnormal platelets affect clotting risk. Your doctor interprets this alongside your symptoms.",
+    },
+    {
+      question: "Can a CBC blood test indicate cancer?",
+      answer: "Not on its own. Certain abnormal patterns in a CBC may prompt a doctor to order further tests, but a CBC alone cannot diagnose cancer.",
+    },
+    {
+      question: "How long is a CBC test report valid?",
+      answer: "There's no fixed expiry, but most doctors treat a CBC as reliable for routine purposes for a few weeks to a few months, unless your symptoms change sooner.",
+    },
+    {
+      question: "Who needs a CBC test?",
+      answer: "Anyone with fatigue, fever, frequent infections, unusual bruising, or as part of a routine checkup, pre-surgery screening, or pregnancy monitoring.",
+    },
+    {
+      question: "How much does a CBC test cost?",
+      answer: "Our CBC test is priced at ₹200, with same-day reports and free home sample collection available.",
+    },
+    {
+      question: "Can I get a CBC test done at home?",
+      answer: "Yes, home sample collection is available — a phlebotomist visits your location to collect the sample, which is then processed at the lab.",
+    },
+    {
+      question: "What is a CBC test with differential?",
+      answer: "It's a CBC that also breaks the white blood cell count into its five sub-types, helping doctors narrow down whether an infection is likely bacterial, viral, or allergic.",
     },
   ],
 
   cta: {
-    title: "Book Your CBC Test Today",
-    description: "Get accurate CBC testing with home sample collection and fast reporting from Shyam Pathology Lab.",
-    buttonText: "Book CBC Test",
-    whatsappText: "Hi, I want to book a CBC test.", // ⚠️ old schema didn't have this — added to match new format
-    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"], // ⚠️ copied from your other blog's pattern — confirm these are accurate for this test/lab
+    title: "Book CBC Test",
+    description: "Get accurate CBC testing with doorstep sample collection and same-day reports.",
+    buttonText: "Book Test Now",
+    whatsappText: "Hi, I want to book a CBC test.",
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
   },
 },
 

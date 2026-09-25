@@ -32,6 +32,7 @@ export default function PopularTests({ location }) {
         {/* Tests Grid */}
         <div className="mt-6 grid grid-cols-2 gap-2.5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 sm:gap-3.5">
           {popularTests.map((test, index) => {
+            const isPublished = test.status === "published";
             const whatsappText = `Hi, I want to book the "${test.name}" test in ${location.city || "Panchkula"}. Please share availability and pricing.`;
 
             return (
@@ -71,16 +72,27 @@ export default function PopularTests({ location }) {
                   )}
                 </div>
 
-                {/* WhatsApp Booking CTA */}
+                {/* CTA */}
                 <div className="mt-3 border-t border-slate-100 pt-2">
-                  <TrackedWhatsappLink
-                    text={whatsappText}
-                    location={`location-popular-test-whatsapp-${test.slug}-${location.city}`}
-                    className="inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-green-50 px-2.5 py-1.5 text-[11px] font-bold text-green-700 transition hover:bg-green-600 hover:text-white"
-                  >
-                    <FaWhatsapp className="text-xs" />
-                    <span>Book Test</span>
-                  </TrackedWhatsappLink>
+                  {isPublished ? (
+                    <TrackingLink
+                      href={`/tests/${test.slug}`}
+                      tracking={`location-popular-test-page-${test.slug}-${location.city}`}
+                      className="inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-blue-50 px-2.5 py-1.5 text-[11px] font-bold text-[#0A4F8A] transition hover:bg-[#0A4F8A] hover:text-white"
+                    >
+                      <FiArrowRight className="text-xs" />
+                      <span>View Test</span>
+                    </TrackingLink>
+                  ) : (
+                    <TrackedWhatsappLink
+                      text={whatsappText}
+                      location={`location-popular-test-whatsapp-${test.slug}-${location.city}`}
+                      className="inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-green-50 px-2.5 py-1.5 text-[11px] font-bold text-green-700 transition hover:bg-green-600 hover:text-white"
+                    >
+                      <FaWhatsapp className="text-xs" />
+                      <span>Book Test</span>
+                    </TrackedWhatsappLink>
+                  )}
                 </div>
               </div>
             );

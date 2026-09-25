@@ -117,11 +117,196 @@ export const prices = [
     },
   },
 
-  /*
-  // Additional Price Entries (Commented out template)
-  {
-    slug: "cbc-test-price-panchkula",
-    ...
-  }
-  */
+ {
+   slug: "cbc-test-price-chandigarh",
+ 
+   seo: {
+     title: "CBC Test Price in Chandigarh | Book CBC Blood Test",
+ 
+     description:
+       "Check CBC test price in Chandigarh starting at ₹300, with home sample collection, digital reports & convenient online booking.",
+ 
+     keywords: [
+       "cbc test price chandigarh",
+       "cbc test cost chandigarh",
+       "cbc blood test price chandigarh",
+       "cbc test price near me",
+       "affordable cbc test chandigarh",
+       "cbc test price list chandigarh",
+       "cbc test panchkula",
+       "cbc test mohali",
+       "cbc test tricity",
+     ],
+   },
+ 
+   hero: {
+     badge: "Quality Testing Standards",
+ 
+     title: "CBC Test Price in Chandigarh",
+ 
+     subtitle:
+       "Check the CBC (Complete Blood Count) test price in Chandigarh with accurate testing and convenient doorstep home sample collection from Shyam Labs.",
+ 
+     image: "/prices/cbc-test.webp",
+   },
+ 
+   priceCard: {
+     actualPrice: 400,
+     offerPrice: 300,
+     offerText: "Offer Price",
+     reportTime: "24 Hours",
+     fasting: "Not Required",
+     sampleType: "Blood",
+     homeCollection: true,
+     labVisit: true,
+ 
+     includes: {
+       title: "Every Booking Includes",
+ 
+       items: [
+         "Free Doorstep Home Sample Collection",
+         "Digital Report on WhatsApp & Email",
+         "No Advance Payment Required",
+       ],
+     },
+   },
+ 
+   whyGetTest: {
+     title: "Why Get a CBC Test in Chandigarh",
+ 
+     description:
+       "A CBC test is one of the most useful starting points for understanding your overall blood health, whether you have symptoms or just want a routine check.",
+ 
+     reasons: [
+       {
+         title: "Early Detection of Common Issues",
+         description:
+           "Helps identify anemia, infections, and clotting concerns before symptoms become serious.",
+       },
+       {
+         title: "Useful for Routine & Pre-Surgery Screening",
+         description:
+           "Commonly ordered as part of an annual health checkup, before surgery, or during pregnancy monitoring.",
+       },
+       {
+         title: "Convenient & Affordable",
+         description:
+           "Home sample collection and transparent pricing make it easy to get tested without visiting a lab in person.",
+       },
+     ],
+   },
+ 
+   faqs: [
+     {
+       question: "How much does a CBC test cost in Chandigarh?",
+       answer:
+         "The CBC test is available at an offer price of ₹300 at Shyam Labs, with home sample collection available subject to service coverage.",
+     },
+     {
+       question: "Is home sample collection available in Chandigarh?",
+       answer:
+         "Yes, Shyam Labs provides doorstep home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+     },
+     {
+       question: "Do I need to pay in advance to book a CBC test?",
+       answer:
+         "No advance payment is required — you can pay at the time of sample collection or according to the payment option provided during booking.",
+     },
+     {
+       question: "How soon will I get my CBC report after booking?",
+       answer:
+         "Reports are typically delivered digitally within 24 hours of sample collection.",
+     },
+   ],
+ 
+   relatedTests: [
+     "platelet-count",
+     "esr-test",
+     "blood-group-test",
+   ],
+ 
+   interlinks: {
+     badge: "Included Services & Chandigarh Availability",
+ 
+     heading: "What's Included & Chandigarh Availability",
+ 
+     description:
+       "Checking the CBC test price? Explore what's included in this price and confirm home collection availability near you in Chandigarh and the Tricity.",
+ 
+     items: [
+       {
+         title: "What's Included in This Price?",
+         subtitle: "CBC Test Service Details",
+ 
+         description:
+           "See everything included in your CBC test — from sample collection to laboratory analysis and report delivery.",
+ 
+         href: "/tests/cbc-test",
+ 
+         icon: "FiActivity",
+ 
+         badge: "Test Details",
+ 
+         badgeColor:
+           "bg-teal-100 text-teal-800 border-teal-200",
+ 
+         btnText: "Explore Test Details",
+ 
+         tracking: "price-interlink-service",
+       },
+ 
+       {
+         title: "CBC Test Available in Chandigarh",
+ 
+         subtitle: "Location & Home Collection",
+ 
+         description:
+           "Check CBC test home sample collection availability across Chandigarh and nearby Tricity areas.",
+ 
+         href: "/locations/cbc-test-in-chandigarh",
+ 
+         icon: "FiMapPin",
+ 
+         badge: "Chandigarh Location",
+ 
+         badgeColor:
+           "bg-sky-100 text-sky-800 border-sky-200",
+ 
+         btnText: "Visit Chandigarh Page",
+ 
+         tracking: "price-interlink-location",
+       },
+     ],
+   },
+ 
+   cta: {
+     title: "Book Your CBC Test in Chandigarh Today",
+ 
+     description:
+       "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
+ 
+     offerPrice: 300,
+ 
+     actualPrice: 400,
+ 
+     buttonText: "Book a Test",
+ 
+     testName: "CBC Test",
+ 
+     blogUrl: "/blogs/cbc-test-full-guide",
+ 
+     serviceUrl: "/tests/cbc-test",
+ 
+     locationUrl: "/locations/cbc-test-in-chandigarh",
+ 
+     packageUrl: "/packages",
+ 
+     highlights: [
+       "Home Sample Collection",
+       "Digital Report",
+       "Affordable Rate",
+       "Fast Turnaround",
+     ],
+   },
+ }
 ];

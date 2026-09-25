@@ -1,11 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 
 export default function TableOfContents({ content = [] }) {
-  const headings = content.filter(
-    (item) => item.type === "heading" && item.level === 2
-  );
+  const headings = useMemo(() => {
+    return content.filter(
+      (item) => item.type === "heading" && item.level === 2
+    );
+  }, [content]);
 
   const [activeId, setActiveId] = useState("");
 

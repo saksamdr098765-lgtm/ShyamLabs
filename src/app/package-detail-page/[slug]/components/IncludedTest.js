@@ -53,7 +53,7 @@ export default function IncludedTests({ pkg }) {
           </span>
 
           <h2 className="mt-5 text-3xl font-black leading-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            What's Included In
+            What&apos;s Included In
             <span className="block text-[#0A4F8A]">
               {pkg.name}
             </span>

@@ -34,16 +34,13 @@ export default function RelatedTests({ relatedTests = [] }) {
       {/* Compact responsive grid */}
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {recommended.map((test, index) => {
+          const isPublished = test.status === "published";
+          const formattedPrice = test.price ? `₹${test.price}` : null;
           const baseClasses =
-            "flex items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white px-3.5 py-3 transition-colors hover:bg-blue-50";
+            "flex items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white px-3.5 py-3 transition-colors";
 
-          return (
-            <TrackingLink
-              key={test.slug ?? index}
-              href={`/tests/${test.slug}`}
-              tracking={`blog-related-test-${test.slug}`}
-              className={baseClasses}
-            >
+          const innerContent = (
+            <>
               <div className="flex min-w-0 items-center gap-2.5">
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-100 text-[#0A4F8A]">
                   <FaFlask className="h-3.5 w-3.5" />
@@ -52,17 +49,50 @@ export default function RelatedTests({ relatedTests = [] }) {
                   <p className="truncate text-sm font-semibold text-slate-900">
                     {test.name}
                   </p>
-                  {test.price && (
-                    <p className="text-xs text-slate-500">₹{test.price}</p>
+                  {formattedPrice && (
+                    <p className="text-xs text-slate-500">{formattedPrice}</p>
                   )}
                 </div>
               </div>
 
-              <span className="flex shrink-0 items-center gap-1 text-xs font-semibold text-[#0A4F8A]">
-                View
-                <FaArrowRight className="h-3 w-3" />
+              <span
+                className={`flex shrink-0 items-center gap-1 text-xs font-semibold ${
+                  isPublished ? "text-[#0A4F8A]" : "text-green-600"
+                }`}
+              >
+                {isPublished ? (
+                  <>
+                    View
+                    <FaArrowRight className="h-3 w-3" />
+                  </>
+                ) : (
+                  <>
+                    Book Now
+                    <FaWhatsapp className="h-3.5 w-3.5" />
+                  </>
+                )}
               </span>
+            </>
+          );
+
+          return isPublished ? (
+            <TrackingLink
+              key={test.slug ?? index}
+              href={`/tests/${test.slug}`}
+              tracking={`blog-related-test-${test.slug}`}
+              className={`${baseClasses} hover:bg-blue-50`}
+            >
+              {innerContent}
             </TrackingLink>
+          ) : (
+            <TrackedWhatsappLink
+              key={test.slug ?? index}
+              text={`Hello, I want to book the *${test.name}* test (${formattedPrice || "Price on request"}). Please provide details and availability.`}
+              location={`blog-related-test-${test.slug}`}
+              className={`${baseClasses} hover:bg-green-50`}
+            >
+              {innerContent}
+            </TrackedWhatsappLink>
           );
         })}
       </div>
