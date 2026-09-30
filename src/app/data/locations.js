@@ -1,3 +1,5 @@
+import { getTestPrice } from "./tests";
+
 export const locations = [
 
   {
@@ -3705,7 +3707,7 @@ By combining experienced healthcare professionals, modern laboratory practices, 
   ]
 },
 {
-  id: 1,
+  id: 11,
 
   slug: "cbc-test-in-chandigarh",
 
@@ -3729,7 +3731,7 @@ By combining experienced healthcare professionals, modern laboratory practices, 
   ],
 
   services: [
-    "cbc-test",
+    "home-sample-collection",
   ],
 
   seo: {
@@ -3782,16 +3784,25 @@ CBC testing can help assess parameters such as hemoglobin, red blood cells, whit
     heading: "Popular Blood Tests Near Chandigarh",
 
     test: [
-      "CBC Blood Test Chandigarh",
-      "Blood Sugar / HbA1c Test Chandigarh",
-      "Full Body Checkup Chandigarh",
-      "Platelet Count Test",
-      "ESR Test",
-    ],
+    "cbc-test",
+  "platelet-count",
+  "absolute-eosinophil-count",
+  "esr-test",
+  "peripheral-blood-film",
+  "bleeding-time-clotting-time",
+  "blood-group-test",
+  "dengue-test",
+  "mp-antigen-test",
+],
   },
 
   packages: [
-    "home-sample-collection",
+  "fever-panel-basic",
+  "fever-panel-advance",
+  "health-checkup-camp",
+  "swasthya-mitra-premium-package",
+  "senior-citizen-male-package",
+  "senior-citizen-female-package",
   ],
 
   process: {
@@ -3885,6 +3896,8 @@ CBC testing can help assess parameters such as hemoglobin, red blood cells, whit
     "Chandigarh",
     "Panchkula",
     "Mohali",
+    "kalka",
+    "zirakpur",
   ],
 
   faq: [
@@ -3909,7 +3922,7 @@ CBC testing can help assess parameters such as hemoglobin, red blood cells, whit
         "What is the CBC test price in Chandigarh?",
 
       answer:
-        "The CBC test is available at an offer price of ₹300. Check the pricing page for current offers and booking details.",
+        `The CBC test is available at an offer price of ₹${getTestPrice('cbc-test')}. Check the pricing page for current offers and booking details.`,
     },
 
     {
@@ -3951,7 +3964,7 @@ CBC testing can help assess parameters such as hemoglobin, red blood cells, whit
   facts: [
     {
       label: "Test Price",
-      value: "₹300",
+      value: getTestPrice('cbc-test'),
     },
     {
       label: "Report Time",

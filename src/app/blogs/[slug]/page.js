@@ -97,7 +97,7 @@ export default async function BlogPage({ params }) {
       ))}
       <ReadingProgress />
 
-      <main className="bg-white py-20">
+      <main className="bg-white pt-28 sm:pt-32 pb-20">
         {/* Hero Section */}
         <section className="border-b border-gray-100">
           <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 sm:py-6 lg:px-8">

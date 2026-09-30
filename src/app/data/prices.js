@@ -1,4 +1,4 @@
-import { tests } from "./tests";
+import { getTestPrice, tests } from "./tests";
 
 export const prices = [
   {
@@ -124,7 +124,7 @@ export const prices = [
      title: "CBC Test Price in Chandigarh | Book CBC Blood Test",
  
      description:
-       "Check CBC test price in Chandigarh starting at ₹300, with home sample collection, digital reports & convenient online booking.",
+       `Check CBC test price in Chandigarh starting at ₹${getTestPrice('cbc-test')}, with home sample collection, digital reports & convenient online booking.`,
  
      keywords: [
        "cbc test price chandigarh",
@@ -151,8 +151,8 @@ export const prices = [
    },
  
    priceCard: {
-     actualPrice: 400,
-     offerPrice: 300,
+     actualPrice: 300,
+     offerPrice: getTestPrice('cbc-test'),
      offerText: "Offer Price",
      reportTime: "24 Hours",
      fasting: "Not Required",
@@ -200,7 +200,7 @@ export const prices = [
      {
        question: "How much does a CBC test cost in Chandigarh?",
        answer:
-         "The CBC test is available at an offer price of ₹300 at Shyam Labs, with home sample collection available subject to service coverage.",
+         `The CBC test is available at an offer price of ₹${getTestPrice('cbc-test')} at Shyam Labs, with home sample collection available subject to service coverage.`,
      },
      {
        question: "Is home sample collection available in Chandigarh?",
@@ -219,11 +219,17 @@ export const prices = [
      },
    ],
  
-   relatedTests: [
-     "platelet-count",
-     "esr-test",
-     "blood-group-test",
-   ],
+   relatedTests:[
+    "cbc-test",
+  "platelet-count",
+  "absolute-eosinophil-count",
+  "esr-test",
+  "peripheral-blood-film",
+  "bleeding-time-clotting-time",
+  "blood-group-test",
+  "dengue-test",
+  "mp-antigen-test",
+],
  
    interlinks: {
      badge: "Included Services & Chandigarh Availability",
@@ -285,9 +291,9 @@ export const prices = [
      description:
        "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
  
-     offerPrice: 300,
+     offerPrice: getTestPrice('cbc-test'),
  
-     actualPrice: 400,
+     actualPrice: 300,
  
      buttonText: "Book a Test",
  

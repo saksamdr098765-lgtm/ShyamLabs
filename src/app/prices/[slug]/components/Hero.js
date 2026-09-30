@@ -16,7 +16,7 @@ export default function Hero({ hero, priceCard, slug }) {
   if (!hero || !priceCard) return null;
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 via-white to-white py-6 sm:py-10 lg:py-14">
+    <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 via-white to-white pt-28 pb-6 sm:pt-32 sm:pb-10 lg:pt-36 lg:pb-14">
       {/* Background Glow */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute left-0 top-0 h-64 w-64 rounded-full bg-blue-100/60 blur-3xl" />

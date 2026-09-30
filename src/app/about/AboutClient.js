@@ -80,7 +80,7 @@ export default function AboutClient() {
       />
 
       {/* HERO */}
-      <section className="relative pt-24 pb-14 sm:pt-32 sm:pb-20 bg-gradient-to-b from-blue-50/60 via-white to-white">
+      <section className="relative pt-28 pb-14 sm:pt-32 sm:pb-20 lg:pt-36 bg-gradient-to-b from-blue-50/60 via-white to-white">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute left-1/2 top-0 -translate-x-1/2 h-[350px] w-full max-w-7xl bg-radial from-blue-200/40 via-green-100/30 to-transparent blur-3xl" />
         </div>

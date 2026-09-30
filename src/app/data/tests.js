@@ -7,7 +7,7 @@ import {
   FaDna,
   FaVirus,
   FaShieldVirus,
-  // FaKidney,
+
 
   FaCapsules,
 
@@ -20,8 +20,6 @@ export const tests = [
   // =========================
   // HAEMATOLOGY
   // =========================
-
-
   {
     slug: "mp-antigen-test",
     name: "MP Antigen Test",
@@ -35,10 +33,28 @@ export const tests = [
     popular: false,
     description:
       "Detects malaria parasite antigen for early diagnosis of malaria infection.",
-    price: 200,
+    price: 150,
     reportTime: "24 Hours",
     status:"draft"
   },
+   {
+    slug: "esr-test",
+    name: "Erythrocyte Sedimentation Rate",
+    shortName: "ESR",
+    category: "Haematology",
+    organ: "Blood",
+    sampleType: "Blood",
+    parameterCount: 1,
+    fasting: false,
+    homeCollection: true,
+    popular: true,
+    description:
+      "Measures inflammation in the body associated with infections and autoimmune diseases.",
+    price: 90,
+    reportTime: "24 Hours",
+       status:"draft"
+  },
+  //done
 
   {
     slug: "platelet-count",
@@ -75,23 +91,7 @@ export const tests = [
      status:"draft"
   },
 
-  {
-    slug: "esr-test",
-    name: "Erythrocyte Sedimentation Rate",
-    shortName: "ESR",
-    category: "Haematology",
-    organ: "Blood",
-    sampleType: "Blood",
-    parameterCount: 1,
-    fasting: false,
-    homeCollection: true,
-    popular: true,
-    description:
-      "Measures inflammation in the body associated with infections and autoimmune diseases.",
-    price: 100,
-    reportTime: "24 Hours",
-       status:"draft"
-  },
+ 
 
 {
   slug: "cbc-test",
@@ -108,7 +108,7 @@ export const tests = [
   description:
     "CBC (Complete Blood Count) test measures red blood cells, white blood cells, platelets, and hemoglobin to give a complete picture of your blood health in one report.",
 
-  price: 300,
+  price: 200,
   reportTime: "24 Hours",
   status: "published",
 
@@ -284,7 +284,7 @@ export const tests = [
     description:
       "Check the latest CBC test price in Chandigarh and book with convenient home sample collection.",
 
-    price: 300,
+    price: 200,
 
     priceUrl: "/prices/cbc-test-price-chandigarh",
   },
@@ -380,7 +380,7 @@ export const tests = [
       {
         question: "What is the CBC test price in Chandigarh?",
         answer:
-          "The CBC test is priced at ₹300. Check our pricing page for the latest offers and book online with home sample collection.",
+          "The CBC test is priced at ₹200. Check our pricing page for the latest offers and book online with home sample collection.",
       },
     ],
   },
@@ -397,7 +397,7 @@ export const tests = [
       "Professional Collection Process",
     ],
 
-    price: "300",
+    price: "200",
 
     priceText:
       "Check detailed CBC test pricing and booking options.",
@@ -514,7 +514,7 @@ export const tests = [
   description:
     "Blood Sugar test measures glucose levels in your blood — as Fasting, Post-Prandial, or Random Sugar — to screen for and monitor diabetes.",
  
-  price: 30,
+  price: 49,
  
   reportTime: "24 Hours",
  
@@ -692,7 +692,7 @@ export const tests = [
     description:
       "Check the latest blood sugar test price near you and book your test with convenient home sample collection.",
  
-    price: 30,
+    price: 49,
  
     priceUrl: "/prices/blood-sugar-hba1c-test-price-garhshankar",
   },
@@ -768,7 +768,7 @@ export const tests = [
       "Professional Collection Process",
     ],
  
-    price: "30",
+    price: "49",
  
     priceText: "Check detailed blood sugar test pricing and booking options.",
  
@@ -1038,10 +1038,11 @@ export const tests = [
   popular: true,
   description:
     "Comprehensive liver profile that evaluates liver enzymes, bilirubin and protein levels.",
-  price: 500,
+  price: 350,
   reportTime: "24 Hours",
    status:"draft"
 },
+//done
 
 {
   slug: "bilirubin-total",
@@ -1167,10 +1168,11 @@ export const tests = [
   popular: true,
   description:
     "Detects antibodies against Salmonella bacteria to help diagnose typhoid fever.",
-  price: 50,
+  price: 200,
   reportTime: "24 Hours",
    status:"draft"
 },
+//done
 
 {
   slug: "typhidot-test",
@@ -1607,10 +1609,11 @@ export const tests = [
   popular: true,
   description:
     "Routine urine examination used to detect urinary tract infections, kidney disorders, diabetes and other metabolic conditions.",
-  price: 50,
+  price: 110,
   reportTime: "24 Hours",
    status:"draft"
 },
+//done
 
 {
   slug: "semen-examination",

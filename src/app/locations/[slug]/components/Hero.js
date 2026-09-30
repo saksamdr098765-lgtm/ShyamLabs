@@ -20,7 +20,7 @@ const features = [
 
 export default function Hero({ location }) {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-[#0A4F8A] via-blue-900 to-slate-900 py-6 sm:py-10 lg:py-16">
+    <section className="relative overflow-hidden bg-gradient-to-br from-[#0A4F8A] via-blue-900 to-slate-900 pt-28 pb-6 sm:pt-32 sm:pb-10 lg:pt-36 lg:pb-16">
       {/* Background Glow */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -right-16 -top-16 h-48 w-48 rounded-full bg-white/10 blur-2xl lg:h-80 lg:w-80" />

@@ -16,7 +16,7 @@ export default function Hero({ hero, slug, testName }) {
   if (!hero) return null;
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-white py-12 lg:py-20">
+    <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-white pt-28 pb-12 sm:pt-32 lg:pt-36 lg:pb-20">
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-6 lg:grid-cols-2 lg:px-8">
         {/* Left */}
         <div>

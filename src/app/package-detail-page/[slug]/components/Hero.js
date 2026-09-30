@@ -43,7 +43,7 @@ Thank you.`;
   };
 
   return (
-    <section className="relative overflow-hidden bg-white py-14 sm:py-20 lg:py-24">
+    <section className="relative overflow-hidden bg-white pt-28 pb-14 sm:pt-32 sm:pb-20 lg:pt-36 lg:pb-24">
 
       {/* Background */}
 

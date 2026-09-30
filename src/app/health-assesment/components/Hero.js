@@ -26,7 +26,7 @@ const features = [
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-slate-50 pt-16 pb-10 sm:pt-20 sm:pb-12 lg:pt-24 lg:pb-16">
+    <section className="relative overflow-hidden bg-slate-50 pt-28 pb-10 sm:pt-32 sm:pb-12 lg:pt-36 lg:pb-16">
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,#dbeafe_0%,transparent_45%)] opacity-70" />
 

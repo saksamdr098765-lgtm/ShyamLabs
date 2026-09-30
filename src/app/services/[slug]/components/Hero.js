@@ -10,7 +10,7 @@ import TrackedWhatsappLink from "@/app/components/TrackedWhatsappLink";
 
 export default function ServiceHero({ service }) {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 via-white to-white py-6 sm:py-10 lg:py-16">
+    <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 via-white to-white pt-28 pb-6 sm:pt-32 sm:pb-10 lg:pt-36 lg:pb-16">
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -right-20 -top-20 h-52 w-52 rounded-full bg-blue-100/70 blur-3xl sm:h-72 sm:w-72 lg:h-96 lg:w-96" />

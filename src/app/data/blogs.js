@@ -1,8 +1,8 @@
 import SITE_CONFIG from "../siteConfig";
+import { getTestPrice } from "./tests";
 
 export const blogs = [
-
- {
+{
   id: 1, 
 
   slug: "complete-blood-count-cbc-test", 
@@ -27,11 +27,26 @@ export const blogs = [
 
   featured: true,
 
-  relatedPackages: ["swasthya-mitra-premium-package"],
+  relatedPackages: [
+  "fever-panel-basic",
+  "fever-panel-advance",
+  "health-checkup-camp",
+  "swasthya-mitra-premium-package",
+  "senior-citizen-male-package",
+  "senior-citizen-female-package",
+  ],
 
   relatedTests: [
-    { name: "CBC (Complete Blood Count) Test", price: 200, slug: "cbc-test-chandigarh" },
-  ],
+    "cbc-test",
+  "platelet-count",
+  "absolute-eosinophil-count",
+  "esr-test",
+  "peripheral-blood-film",
+  "bleeding-time-clotting-time",
+  "blood-group-test",
+  "dengue-test",
+  "mp-antigen-test",
+],
 
   seo: {
     // Title kept under 60 characters so Google doesn't truncate it in search results
@@ -60,7 +75,7 @@ export const blogs = [
 
   quickInfo: {
     "What You Will Learn": "CBC (Complete Blood Count) Test",
-    price: "₹200",
+    price: getTestPrice('cbc-test'),
     sample: "Blood",
     fasting: "Not Required",
     reportTime: "Same Day",
@@ -254,8 +269,28 @@ export const blogs = [
     },
     {
       type: "paragraph",
-      text: "Our CBC test is priced at ₹200, with same-day reports and free home sample collection available — so you don't need to visit the lab in person or wait days for results.",
+      text: `Our CBC test is priced at ${getTestPrice('cbc-test')}, with same-day reports and free home sample collection available — so you don't need to visit the lab in person or wait days for results.`,
     },
+  {
+  type: "interlinking",
+  title: "CBC Test Services & Pricing",
+  description:
+    "Explore CBC test details, pricing, and convenient home sample collection services.",
+  items: [
+    {
+      title: "CBC Test Price",
+      description:
+        "Check the latest CBC test price and available home sample collection options.",
+      href: "/prices/cbc-test-price-chandigarh",
+    },
+    {
+      title: "CBC Test Details",
+      description:
+        "Learn about the CBC test, parameters included, sample requirements, and preparation.",
+      href: "/tests/cbc-test",
+    },
+  ],
+},
     {
       type: "heading",
       level: 2,
@@ -264,6 +299,33 @@ export const blogs = [
     {
       type: "paragraph",
       text: "Shyam Pathology Lab provides accurate CBC testing with convenient home blood sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+     {
+      type: "interlinking",
+      title: "CBC Test — Areas We Serve",
+      description: "We provide CBC (Complete Blood Count) test with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "CBC test with home sample collection.",
+          href: "/locations/cbc-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "CBC test and diagnostic services with home collection.",
+            href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "CBC test with same-day report and home collection.",
+            href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "CBC test and pathology services.",
+            href: "/locations/zirakpur",
+        },
+      ],
     },
     {
       type: "heading",
@@ -280,30 +342,7 @@ export const blogs = [
         "The test is affordable, fast, and available with same-day reports and home sample collection",
       ],
     },
-    {
-      type: "interlinking",
-      title: "CBC Test — Areas We Serve",
-      description: "We provide CBC (Complete Blood Count) test with home sample collection across the following locations.",
-      items: [
-        {
-          title: "Chandigarh",
-          description: "CBC test with home sample collection.",
-          href: "/locations/cbc-test-in-chandigarh",
-        },
-        {
-          title: "Mohali",
-          description: "CBC test and diagnostic services with home collection.",
-        },
-        {
-          title: "Panchkula",
-          description: "CBC test with same-day report and home collection.",
-        },
-        {
-          title: "Zirakpur",
-          description: "CBC test and pathology services.",
-        },
-      ],
-    },
+   
     {
       type: "references",
       items: [
@@ -365,7 +404,7 @@ export const blogs = [
     },
     {
       question: "How much does a CBC test cost?",
-      answer: "Our CBC test is priced at ₹200, with same-day reports and free home sample collection available.",
+      answer: `Our CBC test is priced at ${getTestPrice('cbc-test')}, with same-day reports and free home sample collection available.`,
     },
     {
       question: "Can I get a CBC test done at home?",
@@ -383,6 +422,7 @@ export const blogs = [
     buttonText: "Book Test Now",
     whatsappText: "Hi, I want to book a CBC test.",
     features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink:"/tests/cbc-test"
   },
 },
 

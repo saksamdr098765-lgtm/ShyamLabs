@@ -63,7 +63,7 @@ export default function BlogPage() {
       />
 
       {/* Hero */}
-      <section className="pt-24 pb-12 sm:pt-28 sm:pb-16 relative">
+      <section className="pt-28 pb-12 sm:pt-32 sm:pb-16 lg:pt-36 relative">
         <div className="max-w-7xl mx-auto px-5">
           <span className="text-xs font-bold uppercase tracking-wider text-[#78BE43]">
             SHYAM PATHOLOGY LAB

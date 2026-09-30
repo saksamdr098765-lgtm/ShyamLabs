@@ -10,7 +10,7 @@ export default function BlogCTA({ CTA }) {
     description,
     serviceName = "Test",
     serviceLink = "/packages",
-    bookingLink = "/contact",
+    whatsappText,
     features = [],
   } = CTA;
 
@@ -48,14 +48,15 @@ export default function BlogCTA({ CTA }) {
 
         {/* CTA */}
         <div className="flex w-full flex-col gap-2 shrink-0 lg:w-64">
-          <TrackingLink
-            href={bookingLink}
-            tracking={`blog-cta-book-${serviceName}`}
+          <TrackedWhatsappLink
+            location={`blog-cta-${title}`}
+            text={whatsappText}
             className="flex items-center justify-center gap-2 rounded-xl bg-white px-4 py-2.5 text-center text-xs font-bold text-[#0A4F8A] transition hover:bg-slate-100 sm:text-sm"
           >
-            <FaCalendarCheck />
-            Book {serviceName}
-          </TrackingLink>
+            <FaWhatsapp className="text-green-400" />
+            <span>{title}</span>
+          </TrackedWhatsappLink>
+       
 
           {serviceLink && (
             <TrackingLink

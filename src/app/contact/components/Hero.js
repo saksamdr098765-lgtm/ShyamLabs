@@ -1,7 +1,7 @@
 
 export default function Hero() {
   return (
-    <section className="relative pt-28 pb-16">
+    <section className="relative pt-28 sm:pt-32 lg:pt-36 pb-16">
            <div className="absolute left-1/2 top-0 -translate-x-1/2 h-[450px] w-[450px] bg-gradient-to-r from-green-100/50 to-blue-100/50 blur-3xl" />
    
            <div className="relative max-w-7xl mx-auto px-5">

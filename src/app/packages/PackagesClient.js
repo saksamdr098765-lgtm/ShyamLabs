@@ -245,7 +245,7 @@ export default function PackagesClient() {
       />
 
       {/* Mobile-First Hero Section */}
-      <section className="relative pt-24 pb-12 sm:pt-32 sm:pb-16 bg-gradient-to-b from-blue-50/60 via-white to-white">
+      <section className="relative pt-28 pb-12 sm:pt-32 sm:pb-16 lg:pt-36 bg-gradient-to-b from-blue-50/60 via-white to-white">
         <div className="absolute left-1/2 top-0 -translate-x-1/2 h-[350px] w-full max-w-7xl bg-radial from-blue-200/40 via-green-100/30 to-transparent blur-3xl pointer-events-none" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
@@ -309,7 +309,7 @@ export default function PackagesClient() {
       </section>
 
       {/* Quick Section Navigation Bar (Mobile Scrollable) */}
-      <div className="sticky top-16 z-30 bg-white/95 backdrop-blur border-y border-slate-200/80 py-2.5 shadow-2xs">
+      <div className="sticky top-20 z-30 bg-white/95 backdrop-blur border-y border-slate-200/80 py-2.5 shadow-2xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth">
             <button
