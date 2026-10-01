@@ -91,7 +91,301 @@ export const tests = [
      status:"draft"
   },
 
- 
+ {
+  slug: "thyroid-profile-test",
+  name: "Thyroid Profile Test",
+  shortName: "Thyroid Profile",
+  category: "Thyroid Function",
+  organ: "Thyroid",
+  sampleType: "Blood",
+  parameterCount: 5,
+  fasting: false,
+  homeCollection: true,
+  popular: true,
+
+
+  price: 360,
+  reportTime: "24 Hours",
+  status: "published",
+
+  seo: {
+    // 52 characters
+    title: "Thyroid Test in Chandigarh - Price, TSH Normal Range",
+    // 131 characters
+    description:
+      "Book thyroid test (T3, T4, TSH) in Chandigarh with home sample collection from Shyam Labs. Check thyroid test price & normal range.",
+    keywords: [
+      "thyroid test",
+      "tsh test",
+      "t3 t4 tsh test",
+      "tsh normal range",
+      "thyroid test chandigarh",
+      "thyroid test panchkula",
+      "thyroid test mohali",
+      "thyroid profile test",
+      "thyroid blood test",
+      "thyroid test near me",
+      "thyroid test price chandigarh",
+      "anti tpo test",
+    ],
+  },
+
+  hero: {
+    badge: "Home Sample Collection Available",
+
+    title: "Thyroid Profile Test - T3, T4 & TSH in Chandigarh",
+
+    description:
+      "Book a Thyroid Profile Test in Chandigarh and the Tricity with fast report delivery, professional sample collection, and convenient doorstep home collection from Shyam Labs. Check the latest thyroid test price and book online.",
+
+    image: "/tests/thyroid.webp",
+
+    imageAlt: "Thyroid Profile Blood Test - T3, T4, TSH in Chandigarh",
+
+    reportTime: "24 Hours",
+
+    homeCollection: "Available",
+
+    trustPoints: [
+      "Professional Sample Collection",
+      "Digital Reports",
+      "Affordable Thyroid Test Price",
+      "Quality-Controlled Testing",
+    ],
+
+    bookButton: "Book Thyroid Test",
+
+    bookingUrl: "/prices/thyroid-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+  },
+
+  quickFacts: {
+    sample: "Blood Sample",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    homeCollection: "Available",
+    ageGroup: "Adults & Children",
+  },
+
+  whyChooseUs: {
+    title: "Why Choose Shyam Labs for Your Thyroid Test?",
+
+    description:
+      "Get a dependable thyroid profile test in Chandigarh and the Tricity with easy booking, professional sample collection, convenient home collection, and quick access to your digital report.",
+
+    items: [
+      {
+        title: "Professional Sample Collection",
+        description:
+          "Every blood draw follows proper collection procedures for a comfortable, low-discomfort experience.",
+      },
+      {
+        title: "Standardised Testing Process",
+        description:
+          "Your thyroid sample is analysed on calibrated equipment following standard laboratory protocols.",
+      },
+      {
+        title: "Fast Digital Reports",
+        description:
+          "Your thyroid report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
+      },
+      {
+        title: "Home Collection Across Chandigarh & Tricity",
+        description:
+          "Book a thyroid test with convenient home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+    ],
+  },
+
+  testDetails: {
+    title: "About the Thyroid Profile Test (TSH, T3 & T4)",
+
+    description: [
+      "A Thyroid Profile Test measures the hormones your thyroid gland produces — primarily TSH (Thyroid Stimulating Hormone), Total T3, and Total T4 — to check whether your thyroid is underactive, overactive, or working normally.",
+      "TSH is the main screening value: it rises when your thyroid is underperforming and falls when it's overactive, which is why doctors usually look at it first before T3 and T4. A more detailed profile can add Free T3, Free T4, and Anti-TPO Antibody for autoimmune thyroid conditions like Hashimoto's or Graves' disease.",
+    ],
+
+    included: [
+      "TSH (Thyroid Stimulating Hormone)",
+      "Total T3 (Triiodothyronine)",
+      "Total T4 (Thyroxine)",
+    ],
+  },
+
+  preparation: {
+    title: "Preparation Before Your Thyroid Test",
+
+    description:
+      "A thyroid test needs almost no preparation — here's what to keep in mind before your appointment.",
+
+    items: [
+      {
+        title: "Thyroid Test Fasting Requirement",
+        description:
+          "Fasting is not required for a thyroid test. It can be done at any time of day, though morning samples are sometimes preferred for consistency between repeat tests.",
+      },
+      {
+        title: "Continue Thyroid Medicines Only as Advised",
+        description:
+          "If you're already on thyroid medication, follow your doctor's instructions about whether to take it before or after the blood draw.",
+      },
+      {
+        title: "Inform About Other Medications",
+        description:
+          "Mention any medicines or supplements you're currently taking to the phlebotomist before sample collection.",
+      },
+    ],
+  },
+
+  bookingProcess: {
+    title: "How to Book Your Thyroid Test in Chandigarh",
+
+    description:
+      "Booking a thyroid test with Shyam Labs takes just a few minutes, with convenient home sample collection available across Chandigarh and the Tricity.",
+
+    steps: [
+      {
+        title: "Book Test",
+        description:
+          "Select the Thyroid Profile Test and submit your booking request online or over a call.",
+      },
+      {
+        title: "Schedule Sample Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh or Tricity address.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is processed using standard laboratory procedures.",
+      },
+      {
+        title: "Receive Report",
+        description:
+          "Your digital thyroid report is sent to you within 24 hours of collection.",
+      },
+    ],
+  },
+
+  pricePreview: {
+    title: "Thyroid Test Price",
+
+    description:
+      "Check the latest thyroid test price in Chandigarh and book with convenient home sample collection.",
+
+    price: 360,
+
+    priceUrl: "/prices/thyroid-test-price-chandigarh",
+  },
+
+  relatedTests: [
+    "hba1c-test",
+    "lipid-profile",
+    "vitamin-d-test",
+    "vitamin-b12-test",
+    "kidney-function-test",
+    "liver-function-test",
+  ],
+
+  faq: {
+    title: "Frequently Asked Questions",
+
+    description:
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the thyroid test, its results, and booking.",
+
+    items: [
+      {
+        question: "What is a thyroid test, and what does TSH stand for?",
+        answer:
+          "A thyroid test checks how well your thyroid gland is working by measuring hormones in your blood. TSH stands for Thyroid Stimulating Hormone — the main value doctors check first, since it's the most sensitive indicator of thyroid function.",
+      },
+      {
+        question: "What are the main tests included in a thyroid profile?",
+        answer:
+          "A standard thyroid profile includes TSH, Total T3, and Total T4. An advanced profile can add Free T3, Free T4, and Anti-TPO Antibody for autoimmune thyroid conditions.",
+      },
+      {
+        question: "What is the normal range for TSH, T3, and T4?",
+        answer:
+          "TSH is typically 0.4–4.5 mIU/L, Total T3 is around 80–200 ng/dL, and Total T4 is around 5.0–12.0 µg/dL, though ranges vary slightly by lab, age, and sex — always check the range printed on your own report.",
+      },
+      {
+        question: "Is fasting required before a thyroid test?",
+        answer:
+          "No, fasting is not required. You can eat and drink normally before the test and have it done at any time of day.",
+      },
+      {
+        question: "What is the best time of day for a thyroid test?",
+        answer:
+          "Since fasting isn't required, a thyroid test can be done any time. Morning samples are sometimes preferred for consistency between repeat tests, but it isn't medically required.",
+      },
+      {
+        question: "What are the warning signs of a thyroid problem?",
+        answer:
+          "Common signs include fatigue, unexplained weight gain or loss, hair thinning, cold or heat intolerance, irregular periods, mood changes, dry skin, a noticeably fast or slow heartbeat, muscle weakness, and constipation or diarrhea. Having one or two of these doesn't confirm a thyroid issue — a blood test is what actually tells you.",
+      },
+      {
+        question: "What is a 'positive' thyroid test result?",
+        answer:
+          "Thyroid tests don't usually come back 'positive' or 'negative' the way an infection test does — they report numeric hormone levels that are then compared against a reference range. An 'abnormal' result just means a value falls outside that range and needs your doctor's interpretation.",
+      },
+      {
+        question: "Which is more important — TSH, T3, or T4?",
+        answer:
+          "TSH is considered the most important screening value because it's the most sensitive and usually the first to shift when thyroid function changes. T3 and T4 are checked alongside it to understand the full picture.",
+      },
+      {
+        question: "What is considered a dangerously high TSH level?",
+        answer:
+          "There's no single universal cutoff, but a TSH well above 10 mIU/L is generally considered significant and is usually a reason for your doctor to start or adjust treatment. Any high reading should be reviewed with a doctor rather than compared to online numbers alone.",
+      },
+      {
+        question: "Can I get a thyroid test done without a doctor's prescription?",
+        answer:
+          "Yes, you can book a thyroid test directly for preventive screening. However, interpreting the results and deciding on any treatment should involve a doctor.",
+      },
+      {
+        question: "How long is a thyroid test report valid?",
+        answer:
+          "There's no fixed expiry, but thyroid hormone levels can shift over weeks to months, so doctors often ask for a fresh test every few months when monitoring a condition or medication dose.",
+      },
+      {
+        question: "Is home sample collection available for thyroid test in Chandigarh?",
+        answer:
+          "Yes, Shyam Labs provides home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+      {
+        question: "What is the thyroid test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current thyroid test price and book online with home sample collection.",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Thyroid Test in Chandigarh Today",
+
+    description:
+      "Get convenient home sample collection, reliable thyroid testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+
+    highlights: [
+      "Home Sample Collection Available",
+      "Fast Report Delivery",
+      "Professional Collection Process",
+    ],
+
+    price: "360",
+
+    priceText: "Check detailed thyroid test pricing and booking options.",
+
+    bookingUrl: "/prices/thyroid-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+
+    buttonText: "Book Thyroid Test",
+  },
+},
 
 {
   slug: "cbc-test",

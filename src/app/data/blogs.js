@@ -426,345 +426,422 @@ export const blogs = [
   },
 },
 
-  {
-    id: 2,
-    slug: "thyroid-test-symptoms-guide",
-    title: "Thyroid Test Guide: Symptoms, TSH Levels, Causes & When to Get Tested",
-    excerpt: "Learn about thyroid symptoms, TSH, T3 and T4 hormone levels, hypothyroidism, hyperthyroidism, hair fall, weight changes, and thyroid testing in Panchkula.",
-    category: "Health Tips",
-     author: {
-    name: SITE_CONFIG.fullName, // old schema had this as a plain string — now an object
-    image: SITE_CONFIG.logo, // ⚠️ confirm this is the correct author image path used across other blogs
+ {
+  id: 2,
+
+  slug: "thyroid-test-symptoms-guide",
+
+  title: "Thyroid Test Guide: TSH, T3, T4, Normal Range, Symptoms & Price",
+
+  excerpt:
+    "Everything you need to know about the thyroid test — TSH, T3, T4, normal range, symptoms of thyroid problems, fasting rules, price, and when to get tested.",
+
+  category: "Health Tips",
+
+  author: {
+    name: SITE_CONFIG.fullName,
+    image: SITE_CONFIG.logo,
   },
-    publishedAt: "June 12, 2026",
-    readingTime: "8 min read",
-    coverImage: "/blogs/thyroid-test.jpg",
-    featured: false,
-    relatedPackages: [],
-    relatedTests: [
-     
+
+  publishedAt: "August 20, 2026",
+
+  readingTime: "9 min read",
+
+  coverImage: "/blogs/thyroid-test-guide.webp",
+
+  featured: true,
+
+  relatedPackages: [
+    "jaanch-thyroid-profile-advanced",
+    "essential-health-tests",
+    "swasthya-mitra-premium-package",
+    "women-basic-profile-utsh",
+    "health-checkup-camp",
+    "senior-citizen-female-package",
+  ],
+
+  relatedTests: [
+    "thyroid-profile-test",
+    "hba1c-test",
+    "lipid-profile",
+    "vitamin-d-test",
+    "vitamin-b12-test",
+    "kidney-function-test",
+    "liver-function-test",
+  ],
+
+  seo: {
+    // 53 characters
+    title: "Thyroid Test Guide: TSH, T3, T4, Normal Range & Price",
+    // 145 characters
+    description:
+      "Complete guide to the thyroid test: TSH, T3, T4, normal range, symptoms & price. Same-day reports with home collection in Chandigarh & Panchkula.",
+    keywords: [
+      "thyroid test",
+      "thyroid test full form",
+      "tsh test",
+      "thyroid profile test",
+      "thyroid test price",
+      "thyroid test near me",
+      "thyroid test normal range",
+      "hypothyroidism symptoms",
+      "hyperthyroidism symptoms",
+      "thyroid test in Chandigarh",
+      "thyroid test in Panchkula",
+      "pathology lab near me",
+      "diagnostic lab near me",
+      "blood test home sample collection",
     ],
-    seo: {
-      title: "Thyroid Test Guide: Symptoms, TSH Levels, Causes & When to Get Tested",
-      description: "Learn about thyroid symptoms, TSH, T3 and T4 hormone levels, hypothyroidism, hyperthyroidism, hair fall, weight changes, and thyroid testing in Panchkula.",
-      keywords: [
-        "Thyroid Test",
-        "TSH Test",
-        "Thyroid Profile Test",
-        "Thyroid Blood Test",
-        "Hypothyroidism Symptoms",
-        "Hyperthyroidism Symptoms",
-        "TSH Normal Range",
-        "Hair Fall Thyroid",
-        "Weight Gain Thyroid",
-        "Thyroid Test in Panchkula",
-        "Thyroid Test Near Me"
-      ]
-    },
-    quickInfo: {
-      "What You Will Learn": "Thyroid Test",
-      sample: "Blood",
-      fasting: "Not Required",
-      reportTime: "Same Day",
-      homeCollection: "Available",
-      recommendedFor: "Unexplained weight gain, Hair loss, Fatigue, Mood swings, Cold sensitivity, Heat sensitivity, Irregular periods, Sleep disturbances",
-      booking: "Online / Phone / WhatsApp"
-    },
-    tags: [
-      "Thyroid Test",
-      "TSH Test",
-      "Thyroid Symptoms",
-      "Hypothyroidism",
-      "Hyperthyroidism",
-      "Thyroid Blood Test",
-      "Hormone Test",
-      "Weight Gain Thyroid",
-      "Hair Fall Thyroid",
-      "Fatigue Causes",
-      "Thyroid Test in Panchkula",
-      "Thyroid Test in Chandigarh",
-      "Thyroid Test Near Me",
-      "TSH Normal Range",
-      "Thyroid Profile Test",
-      "Diagnostic Lab",
-      "Pathology Lab",
-      "Home Blood Collection",
-      "Health Checkup",
-      "Same Day Report"
-    ],
-    content: [
-      {
-        type: "heading",
-        level: 2,
-        text: "What Is a Thyroid Test?"
-      },
-      {
-        type: "paragraph",
-        text: "A thyroid test is a blood test used to evaluate how well your thyroid gland is functioning."
-      },
-      {
-        type: "paragraph",
-        text: "The thyroid gland produces hormones that regulate metabolism, energy production, body temperature, heart rate, and many other essential body functions."
-      },
-      {
-        type: "paragraph",
-        text: "A thyroid profile typically includes TSH (Thyroid Stimulating Hormone), T3, and T4 levels."
-      },
-      {
-        type: "paragraph",
-        text: "Abnormal thyroid hormone levels may indicate hypothyroidism, hyperthyroidism, or other thyroid-related disorders that require medical attention."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "What Does a Thyroid Test Measure?"
-      },
-      {
-        type: "paragraph",
-        text: "A thyroid blood test measures hormones that control metabolism and many important body functions."
-      },
-      {
-        type: "paragraph",
-        text: "The most common thyroid profile includes:"
-      },
-      {
-        type: "list",
-        items: [
-          "TSH (Thyroid Stimulating Hormone)",
-          "T3 (Triiodothyronine)",
-          "T4 (Thyroxine)"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "These hormones help regulate energy production, body temperature, heart rate, mood, and weight management."
-      },
-      {
-        type: "paragraph",
-        text: "Abnormal levels may indicate thyroid dysfunction and require further medical evaluation."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Common Thyroid Symptoms"
-      },
-      {
-        type: "paragraph",
-        text: "Thyroid disorders often develop gradually and may remain unnoticed during the early stages."
-      },
-      {
-        type: "paragraph",
-        text: "Common symptoms include:"
-      },
-      {
-        type: "list",
-        items: [
-          "Unexplained weight gain",
-          "Unexplained weight loss",
-          "Fatigue",
-          "Hair fall",
-          "Mood changes",
-          "Anxiety",
-          "Depression",
-          "Irregular sleep patterns",
-          "Sensitivity to cold or heat",
-          "Irregular menstrual cycles"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "Recognizing these symptoms early can help prevent complications."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Hypothyroidism vs Hyperthyroidism"
-      },
-      {
-        type: "paragraph",
-        text: "Thyroid disorders are generally categorized as hypothyroidism or hyperthyroidism."
-      },
-      {
-        type: "paragraph",
-        text: "Hypothyroidism occurs when the thyroid gland produces insufficient hormones."
-      },
-      {
-        type: "paragraph",
-        text: "Common symptoms include:"
-      },
-      {
-        type: "list",
-        items: [
-          "Weight gain",
-          "Fatigue",
-          "Hair fall",
-          "Depression",
-          "Cold intolerance",
-          "Dry skin"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "Hyperthyroidism occurs when the thyroid gland produces excessive hormones."
-      },
-      {
-        type: "paragraph",
-        text: "Common symptoms include:"
-      },
-      {
-        type: "list",
-        items: [
-          "Weight loss",
-          "Anxiety",
-          "Rapid heartbeat",
-          "Excessive sweating",
-          "Heat intolerance",
-          "Sleep disturbances"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "Early testing helps identify the underlying condition and guides appropriate treatment."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Who Should Get a Thyroid Test?"
-      },
-      {
-        type: "paragraph",
-        text: "A thyroid test may be recommended for individuals experiencing unexplained changes in weight, energy levels, mood, or menstrual cycles."
-      },
-      {
-        type: "paragraph",
-        text: "People who should consider testing include:"
-      },
-      {
-        type: "list",
-        items: [
-          "Individuals with persistent fatigue",
-          "Those experiencing hair thinning or hair loss",
-          "People with unexplained weight gain or weight loss",
-          "Women with irregular periods",
-          "Individuals with a family history of thyroid disorders",
-          "Pregnant women when recommended by their doctor"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "Regular screening may help identify thyroid disorders before symptoms become severe."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Understanding TSH, T3 and T4 Levels"
-      },
-      {
-        type: "paragraph",
-        text: "TSH is the primary screening marker used to evaluate thyroid function."
-      },
-      {
-        type: "paragraph",
-        text: "When thyroid hormone production decreases, TSH levels often rise."
-      },
-      {
-        type: "paragraph",
-        text: "When thyroid hormone production increases excessively, TSH levels may decrease."
-      },
-      {
-        type: "paragraph",
-        text: "Doctors evaluate TSH, T3, and T4 levels together to determine whether thyroid function is normal, underactive, or overactive."
-      },
-      {
-        type: "paragraph",
-        text: "Results should always be interpreted by a qualified healthcare professional."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Benefits of Early Thyroid Testing"
-      },
-      {
-        type: "paragraph",
-        text: "Early thyroid testing can help detect hormonal imbalances before serious complications develop."
-      },
-      {
-        type: "paragraph",
-        text: "Benefits include:"
-      },
-      {
-        type: "list",
-        items: [
-          "Early diagnosis of thyroid disorders",
-          "Better symptom management",
-          "Prevention of long-term complications",
-          "Improved energy levels and metabolism",
-          "Better treatment planning",
-          "Monitoring ongoing thyroid treatment"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "Regular thyroid testing supports long-term health and overall well-being."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Thyroid Test in Panchkula"
-      },
-      {
-        type: "paragraph",
-        text: "Shyam Pathology Lab offers accurate Thyroid Testing in Panchkula with convenient home sample collection services."
-      },
-      {
-        type: "paragraph",
-        text: "Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, and nearby areas can book thyroid testing from home and receive reliable reports quickly."
-      },
-      {
-        type: "paragraph",
-        text: "Accurate hormone testing helps doctors diagnose thyroid disorders early and recommend appropriate treatment."
-      },
-   
-    ],
-    faq: [
-      {
-        question: "What does a thyroid test measure?",
-        answer: "A thyroid test measures TSH, T3, and T4 hormone levels to evaluate thyroid gland function."
-      },
-      {
-        question: "Is fasting required for a thyroid test?",
-        answer: "No. Most thyroid blood tests do not require fasting."
-      },
-      {
-        question: "Can thyroid problems cause hair fall?",
-        answer: "Yes. Both hypothyroidism and hyperthyroidism may contribute to hair thinning and hair loss."
-      },
-      {
-        question: "Can thyroid disorders affect weight?",
-        answer: "Yes. An underactive thyroid may lead to weight gain, while an overactive thyroid may cause weight loss."
-      },
-      {
-        question: "How often should thyroid testing be done?",
-        answer: "The frequency depends on your symptoms, medical history, and your doctor's recommendation."
-      },
-      {
-        question: "Can I book a thyroid test at home in Panchkula?",
-        answer: "Yes. Home sample collection is available through Shyam Pathology Lab."
-      }
-    ],
-    cta: {
-      title: "Book Your Thyroid Test Today",
-      description: "Get accurate thyroid testing with home sample collection and same-day reporting from Shyam Pathology Lab.",
-      buttonText: "Book Thyroid Test",
-      whatsappText: "Hi, I want to book a thyroid test.",
-      features: [
-        "Experienced Lab",
-        "100+ Tests",
-        "Fast Reports",
-        "Experienced Staff"
-      ]
-    }
   },
+
+  quickInfo: {
+    "What You Will Learn": "Thyroid Profile Test (TSH, T3, T4)",
+    price: getTestPrice('thyroid-profile-test'),
+    sample: "Blood",
+    fasting: "Not Required",
+    reportTime: "Same Day",
+    homeCollection: "Available",
+    recommendedFor: "Fatigue, Weight Changes, Hair Fall, Irregular Periods, Routine Checkup",
+    booking: "Online / Phone / WhatsApp",
+  },
+
+  tags: [
+    "Thyroid Test",
+    "TSH Test",
+    "Thyroid Profile Test",
+    "Thyroid Test Price",
+    "Thyroid Test Normal Range",
+    "Thyroid Test Near Me",
+    "Hypothyroidism",
+    "Hyperthyroidism",
+    "T3 T4 TSH",
+    "Blood Tests",
+    "Diagnostics",
+    "Health Checkup",
+    "Thyroid Test in Chandigarh",
+    "Thyroid Test in Panchkula",
+    "Thyroid Test in Mohali",
+    "Home Sample Collection",
+    "Pathology Lab",
+    "Same Day Report",
+  ],
+
+  content: [
+    {
+      type: "paragraph",
+      text: "A thyroid test is one of the most commonly ordered hormone tests, and for good reason — your thyroid gland quietly controls your metabolism, energy levels, body temperature, and heart rate. This guide covers the full form, normal ranges, symptoms, fasting rules, and pricing so you know exactly what to expect.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is a Thyroid Test?",
+    },
+    {
+      type: "paragraph",
+      text: "A thyroid test is a blood test used to evaluate how well your thyroid gland is functioning. The most common version is a thyroid profile, which measures TSH (Thyroid Stimulating Hormone), Total T3, and Total T4 — the hormones responsible for regulating metabolism and energy production throughout your body.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Does a Thyroid Test Measure?",
+    },
+    {
+      type: "list",
+      items: [
+        "TSH (Thyroid Stimulating Hormone) — the primary screening marker",
+        "T3 (Triiodothyronine) — an active thyroid hormone",
+        "T4 (Thyroxine) — the main hormone produced by the thyroid gland",
+        "Free T3 / Free T4 — the unbound, active fraction (in advanced panels)",
+        "Anti-TPO Antibody — checks for autoimmune thyroid conditions (in advanced panels)",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Common Signs of a Thyroid Problem",
+    },
+    {
+      type: "paragraph",
+      text: "Thyroid disorders often develop gradually and can be easy to dismiss as everyday tiredness or stress. Common symptoms include:",
+    },
+    {
+      type: "list",
+      items: [
+        "Unexplained weight gain or weight loss",
+        "Persistent fatigue",
+        "Hair thinning or hair fall",
+        "Mood changes, anxiety, or low mood",
+        "Sensitivity to cold or heat",
+        "Irregular menstrual cycles",
+        "Dry skin",
+        "A noticeably fast or slow heartbeat",
+        "Muscle weakness",
+        "Constipation or diarrhea",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Having one or two of these on their own isn't a diagnosis — a blood test is what actually confirms whether your thyroid is involved.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Hypothyroidism vs Hyperthyroidism",
+    },
+    {
+      type: "paragraph",
+      text: "Hypothyroidism happens when the thyroid produces too little hormone, typically causing weight gain, fatigue, hair fall, cold intolerance, and dry skin. Hyperthyroidism is the opposite — too much hormone — and typically causes weight loss, anxiety, a rapid heartbeat, excessive sweating, and heat intolerance.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Thyroid Test Normal Range",
+    },
+    {
+      type: "list",
+      items: [
+        "TSH: approximately 0.4–4.5 mIU/L",
+        "Total T3: approximately 80–200 ng/dL",
+        "Total T4: approximately 5.0–12.0 µg/dL",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "These ranges vary slightly by lab, age, sex, and pregnancy status — always compare your result against the range printed on your own report rather than a generic figure found online.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Which Is More Important — TSH, T3, or T4?",
+    },
+    {
+      type: "paragraph",
+      text: "TSH is generally considered the most important screening value because it's the most sensitive indicator and usually the first to shift when thyroid function changes — it rises when the thyroid is underactive and falls when it's overactive. T3 and T4 are checked alongside TSH to build a fuller picture.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is Fasting Required for a Thyroid Test?",
+    },
+    {
+      type: "paragraph",
+      text: "No, fasting is not required for a thyroid test, and it can be done at any time of day. Morning samples are sometimes preferred simply for consistency when comparing repeat tests, but there's no medical requirement to test at a specific time.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Does a 'Positive' Thyroid Test Mean?",
+    },
+    {
+      type: "paragraph",
+      text: "Unlike an infection test, a thyroid test doesn't come back 'positive' or 'negative' — it reports numeric hormone levels that are then compared against a reference range. An 'abnormal' result simply means a value falls outside that range, and your doctor interprets it alongside your symptoms.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is a Dangerously High TSH Level?",
+    },
+    {
+      type: "paragraph",
+      text: "There's no single universal cutoff, but a TSH well above 10 mIU/L is generally considered significant and often prompts a doctor to start or adjust treatment. Any high or low reading should be reviewed with a doctor rather than compared against numbers found online.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can a Thyroid Test Be Done Without a Doctor's Prescription?",
+    },
+    {
+      type: "paragraph",
+      text: "Yes — you can book a thyroid test directly for preventive screening without a prescription. Interpreting the results and deciding on any treatment, however, should involve a doctor.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Long Is a Thyroid Test Valid For?",
+    },
+    {
+      type: "paragraph",
+      text: "There's no fixed expiry, but thyroid hormone levels can shift over weeks to months. Doctors monitoring a condition or a medication dose often ask for a fresh test every few months rather than relying on an older report.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Thyroid Test Price and Report Time",
+    },
+    {
+      type: "paragraph",
+      text: `Our thyroid profile test is priced at ${getTestPrice('thyroid-profile-test')}, with same-day reports and free home sample collection available — so you don't need to visit the lab in person or wait days for results.`,
+    },
+    {
+      type: "interlinking",
+      title: "Thyroid Test Services & Pricing",
+      description:
+        "Explore thyroid test details, pricing, and convenient home sample collection services.",
+      items: [
+        {
+          title: "Thyroid Test Price",
+          description:
+            "Check the latest thyroid test price and available home sample collection options.",
+          href: "/prices/thyroid-test-price-chandigarh",
+        },
+        {
+          title: "Thyroid Test Details",
+          description:
+            "Learn about the thyroid test, parameters included, sample requirements, and preparation.",
+          href: "/tests/thyroid-profile-test",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Thyroid Test in Panchkula, Chandigarh & Nearby Areas",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Budget Friendly Labs provides accurate thyroid testing with convenient home blood sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+    {
+      type: "interlinking",
+      title: "Thyroid Test — Areas We Serve",
+      description:
+        "We provide thyroid (T3, T4, TSH) testing with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "Thyroid test with home sample collection.",
+          href: "/locations/thyroid-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "Thyroid test and diagnostic services with home collection.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "Thyroid test with same-day report and home collection.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "Thyroid test and pathology services.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Key Takeaways",
+    },
+    {
+      type: "list",
+      items: [
+        "A thyroid profile measures TSH, T3, and T4 to check how well your thyroid is functioning",
+        "Fasting is not required and the test can be done at any time of day",
+        "TSH is the key screening value, since it shifts first when thyroid function changes",
+        "Results aren't 'positive' or 'negative' — they're numeric values compared to a reference range",
+        "Common symptoms include fatigue, weight changes, hair fall, and irregular periods, but only a blood test confirms a thyroid issue",
+      ],
+    },
+    {
+      type: "references",
+      items: [
+        {
+          title: "Thyroid Function Tests",
+          publisher: "MedlinePlus",
+          url: "https://medlineplus.gov/lab-tests/thyroid-function-tests/",
+        },
+        {
+          title: "Hypothyroidism (Underactive Thyroid)",
+          publisher: "Cleveland Clinic",
+          url: "https://my.clevelandclinic.org/health/diseases/12120-hypothyroidism",
+        },
+        {
+          title: "Hyperthyroidism (Overactive Thyroid)",
+          publisher: "Mayo Clinic",
+          url: "https://www.mayoclinic.org/diseases-conditions/hyperthyroidism/symptoms-causes/syc-20373659",
+        },
+      ],
+    },
+  ],
+
+  faq: [
+    {
+      question: "What is the full form of TSH in a thyroid test?",
+      answer:
+        "TSH stands for Thyroid Stimulating Hormone — the main hormone doctors check first when evaluating thyroid function.",
+    },
+    {
+      question: "What are the 5 main thyroid tests?",
+      answer:
+        "A full thyroid workup can include TSH, Total T3, Total T4, Free T3, and Free T4. A basic profile usually covers just TSH, T3, and T4.",
+    },
+    {
+      question: "What is the normal range for T3, T4, and TSH?",
+      answer:
+        "TSH is typically 0.4–4.5 mIU/L, Total T3 is around 80–200 ng/dL, and Total T4 is around 5.0–12.0 µg/dL, though exact ranges vary by lab, age, and sex.",
+    },
+    {
+      question: "Is fasting required for a thyroid test, or is it done empty stomach?",
+      answer:
+        "No, fasting is not required. You can have the test done on a full or empty stomach at any time of day.",
+    },
+    {
+      question: "What are the warning signs of a thyroid problem?",
+      answer:
+        "Common signs include fatigue, unexplained weight changes, hair fall, cold or heat intolerance, irregular periods, mood changes, dry skin, a fast or slow heartbeat, muscle weakness, and constipation or diarrhea.",
+    },
+    {
+      question: "What happens if a thyroid test is positive?",
+      answer:
+        "Thyroid tests don't give a 'positive' or 'negative' result like an infection test — they report hormone levels that are compared against a normal range. An abnormal value is reviewed by your doctor alongside your symptoms.",
+    },
+    {
+      question: "Which is more important — T3, T4, or TSH?",
+      answer:
+        "TSH is generally the most important, since it's the most sensitive and usually the first value to change when thyroid function shifts.",
+    },
+    {
+      question: "What TSH level is considered serious or dangerously high?",
+      answer:
+        "There's no single universal cutoff, but a TSH well above 10 mIU/L is generally considered significant and often prompts treatment. Your doctor will interpret this alongside your symptoms.",
+    },
+    {
+      question: "Can I do a thyroid test without a doctor's prescription?",
+      answer:
+        "Yes, you can book a thyroid test directly for preventive screening — but interpreting the results should involve a doctor.",
+    },
+    {
+      question: "How long is a thyroid test report valid?",
+      answer:
+        "There's no fixed expiry, but because thyroid levels can shift over weeks to months, doctors monitoring a condition often request a fresh test every few months.",
+    },
+    {
+      question: "What is the best time of day for a thyroid test?",
+      answer:
+        "Any time works, since fasting isn't required. Morning samples are sometimes preferred only for consistency between repeat tests.",
+    },
+    {
+      question: "How much does a thyroid test cost?",
+      answer: `Our thyroid profile test is priced at ${getTestPrice('thyroid-profile-test')}, with same-day reports and free home sample collection available.`,
+    },
+    {
+      question: "Can I get a thyroid test done at home?",
+      answer:
+        "Yes, home sample collection is available — a phlebotomist visits your location to collect the sample, which is then processed at the lab.",
+    },
+  ],
+
+  cta: {
+    title: "Book Thyroid Test",
+    description: "Get accurate TSH, T3 & T4 testing with doorstep sample collection and same-day reports.",
+    buttonText: "Book Test Now",
+    whatsappText: "Hi, I want to book a thyroid test.",
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/thyroid-profile-test",
+  },
+},
   {
     id: 3,
     slug: "cholesterol-lipid-profile-test-guide",

@@ -33,7 +33,7 @@ export const locations = [
     "thyroid-test-panchkula",
     "vitamin-d-test-panchkula",
     "hba1c-test",
-    "full-body-checkup"
+   
   ],
 
   seo: {
@@ -110,7 +110,6 @@ At Shyam Budget Friendly Labs, we focus on delivering accurate diagnostics, affo
 
   packages: [
     "executive-full-body-checkup",
-    "full-body-checkup",
     "aarogyam-b-pro",
     "aarogyam-tax-saver-basic-utsh",
     "jaanch-heart-screening",
@@ -474,7 +473,7 @@ At Shyam Budget Friendly Labs, we focus on affordable pricing, dependable diagno
   },
 
   packages: [
-    "full-body-checkup",
+
     "swasthya-mitra-basic",
     "executive-full-body-checkup",
     "lipid-profile-test",
@@ -843,7 +842,7 @@ At Shyam Budget Friendly Labs, we focus on affordable pricing, dependable diagno
   },
 
   packages: [
-    "full-body-checkup",
+
     "swasthya-mitra-advance",
     "executive-full-body-checkup",
     "jaanch-heart-screening",
@@ -1511,7 +1510,7 @@ Shyam Budget Friendly Labs is committed to making quality diagnostic testing aff
     "thyroid-test-panchkula",
     "vitamin-d-test-panchkula",
     "hba1c-test",
-    "full-body-checkup"
+   
   ],
 
   seo: {
@@ -1589,7 +1588,7 @@ At Shyam Budget Friendly Labs, we focus on affordable pricing, professional samp
   packages: [
     "senior-citizen-male-package",
     "senior-citizen-female-package",
-    "full-body-checkup",
+  
     "swasthya-mitra-basic",
     "lipid-profile-test",
     "vitamin-d-b12-combo",
@@ -1891,7 +1890,7 @@ At Shyam Budget Friendly Labs, we focus on affordable pricing, professional samp
     "thyroid-test-panchkula",
     "vitamin-d-test-panchkula",
     "hba1c-test",
-    "full-body-checkup"
+   
   ],
 
   seo: {
@@ -1967,7 +1966,7 @@ At Shyam Budget Friendly Labs, we focus on accurate diagnostics, affordable pric
   },
 
   packages: [
-    "full-body-checkup",
+  
     "executive-full-body-checkup",
     "swasthya-mitra-advance",
     "lipid-profile-test",
@@ -2264,7 +2263,7 @@ At Shyam Budget Friendly Labs, we focus on accurate diagnostics, affordable pric
     "thyroid-test-panchkula",
     "vitamin-d-test-panchkula",
     "hba1c-test",
-    "full-body-checkup"
+    
   ],
 
   seo: {
@@ -2344,7 +2343,7 @@ At Shyam Budget Friendly Labs, our goal is to provide accurate diagnostics, affo
   },
 
   packages: [
-    "full-body-checkup",
+  
     "executive-full-body-checkup",
     "swasthya-mitra-advance",
     "lipid-profile-test",
@@ -2655,7 +2654,7 @@ At Shyam Budget Friendly Labs, our goal is to provide accurate diagnostics, affo
     "kidney-function-test",
     "liver-function-test",
     "lipid-profile-test",
-    "full-body-checkup"
+   
   ],
 
   seo: {
@@ -2753,12 +2752,12 @@ Patients receive accurate pathology reports digitally through WhatsApp, email, a
       "malaria-test",
       "typhoid-test",
       "urine-routine-test",
-      "full-body-checkup"
+  
     ]
   },
 
   packages: [
-    "full-body-checkup",
+
     "executive-full-body-checkup",
     "swasthya-mitra-advance",
     "lipid-profile-test",
@@ -3026,7 +3025,7 @@ Patients receive accurate pathology reports digitally through WhatsApp, email, a
     "liver-function-test",
     "lipid-profile-test",
     "urine-routine-examination",
-    "full-body-checkup"
+  
   ],
 
   seo: {
@@ -3136,12 +3135,12 @@ By combining experienced healthcare professionals, modern laboratory practices, 
       "dengue-test",
       "typhoid-test",
       "malaria-test",
-      "full-body-checkup"
+  
     ]
   },
 
   packages: [
-    "full-body-checkup",
+ 
     "executive-full-body-checkup",
     "swasthya-mitra-advance",
     "lipid-profile-test",
@@ -3492,7 +3491,7 @@ By combining experienced healthcare professionals, modern laboratory practices, 
     "liver-function-test",
     "lipid-profile-test",
     "urine-routine-examination",
-    "full-body-checkup"
+  
   ],
 
   seo: {
@@ -3609,7 +3608,7 @@ By combining experienced healthcare professionals, modern laboratory practices, 
   },
 
   packages: [
-    "full-body-checkup",
+  
     "executive-full-body-checkup",
     "swasthya-mitra-advance",
     "lipid-profile-test",
@@ -4020,6 +4019,250 @@ CBC testing can help assess parameters such as hemoglobin, red blood cells, whit
 
   heroSubtitle:
     "Book your CBC test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
+},
+{
+  id: 12,
+
+  slug: "thyroid-test-in-chandigarh",
+
+  city: "Chandigarh",
+
+  state: "Chandigarh",
+
+  title: "Thyroid Test in Chandigarh",
+
+  shortDescription:
+    "Looking for a thyroid test in Chandigarh? Shyam Labs provides affordable and reliable T3, T4 & TSH testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
+
+  coverImage: "/locations/chandigarh-thyroid-test.jpeg",
+
+  hours: "07:00-20:00",
+
+  areas: ["Chandigarh", "Panchkula", "Mohali"],
+
+  services: ["home-sample-collection"],
+
+  seo: {
+    // 51 characters
+    title: "Thyroid Test in Chandigarh | Home Sample Collection",
+    // 137 characters
+    description:
+      "Looking for a thyroid test in Chandigarh? Shyam Labs offers affordable T3, T4 & TSH testing with home sample collection and fast reports.",
+    keywords: [
+      "Thyroid Test in Chandigarh",
+      "Thyroid Blood Test Chandigarh",
+      "TSH Test Chandigarh",
+      "T3 T4 Test Chandigarh",
+      "Home Sample Collection Chandigarh",
+      "Diagnostic Lab Near Me Chandigarh",
+      "Thyroid Test Price Chandigarh",
+      "Thyroid Test Panchkula",
+      "Thyroid Test Mohali",
+      "Thyroid Test Tricity",
+    ],
+  },
+
+  overview: {
+    heading: "Affordable Thyroid Testing & Home Sample Collection in Chandigarh",
+
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. A thyroid test is often recommended when investigating fatigue, unexplained weight changes, hair fall, or irregular periods, and it's also a common part of routine annual health checkups.
+
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+
+      `For people living or working in Chandigarh, home sample collection makes routine thyroid testing more convenient — schedule a collection at a suitable time and have your sample collected by a trained phlebotomist instead of visiting a diagnostic centre.
+
+Thyroid testing evaluates TSH, T3, and T4 levels, giving doctors useful information when assessing symptoms like fatigue, weight changes, hair loss, and mood or menstrual irregularities.`,
+
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+
+    highlights: [
+      "Convenient Home Sample Collection",
+      "Fast Digital Reports",
+      "Affordable, Transparent Pricing",
+      "Professional Sample Collection",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+
+    test: [
+      "thyroid-profile-test",
+      "cbc-test",
+      "hba1c-test",
+      "lipid-profile",
+      "vitamin-d-test",
+      "vitamin-b12-test",
+      "kidney-function-test",
+      "liver-function-test",
+    ],
+  },
+
+  packages: [
+    "jaanch-thyroid-profile-advanced",
+    "essential-health-tests",
+    "swasthya-mitra-premium-package",
+    "women-basic-profile-utsh",
+    "health-checkup-camp",
+    "senior-citizen-female-package",
+  ],
+
+  process: {
+    heading: "How to Get a Thyroid Test in Chandigarh",
+
+    steps: [
+      {
+        title: "Book Your Test",
+        description:
+          "Book your thyroid test online or contact Shyam Labs to arrange convenient sample collection in Chandigarh.",
+      },
+      {
+        title: "Schedule Home Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh address during booking.",
+      },
+      {
+        title: "Sample Collection",
+        description:
+          "A trained phlebotomist follows appropriate safety and hygiene procedures during the collection visit.",
+      },
+      {
+        title: "Receive Digital Report",
+        description:
+          "Get your thyroid report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+
+  healthConditions: [
+    "Hypothyroidism Screening",
+    "Hyperthyroidism Screening",
+    "Fatigue & Weight Change Evaluation",
+    "General Hormonal Health Monitoring",
+  ],
+
+  whoShouldGetTested: [
+    "Anyone with Persistent Fatigue",
+    "People with Unexplained Weight Changes",
+    "Women with Irregular Periods",
+    "Individuals with Hair Fall or Dry Skin",
+    "Pregnant Women (as advised by a doctor)",
+    "Individuals Doing an Annual Health Checkup",
+  ],
+
+  popularSearches: [
+    "Thyroid Test in Chandigarh",
+    "Thyroid Test Price Chandigarh",
+    "TSH Test Near Me",
+    "Home Sample Collection Chandigarh",
+    "Thyroid Blood Test in Chandigarh",
+    "Diagnostic Lab Near Me Chandigarh",
+    "Thyroid Test Panchkula",
+    "Thyroid Test Mohali",
+  ],
+
+  sections: [
+    {
+      title: "Thyroid Testing Services in Chandigarh",
+      content: [
+        "Residents across Chandigarh can book thyroid testing through Shyam Labs with convenient home sample collection where service coverage is available.",
+        "Our testing services are designed for working professionals, families, senior citizens, and patients who need routine or regular hormone monitoring.",
+      ],
+    },
+    {
+      title: "Doorstep Blood Collection in Chandigarh",
+      content: [
+        "Our home sample collection service lets you schedule a thyroid test from home without waiting at a diagnostic centre.",
+        "Trained phlebotomists follow appropriate safety and hygiene procedures during every collection visit.",
+      ],
+    },
+    {
+      title: "Why Choose Shyam Labs for Thyroid Testing?",
+      content: [
+        "Affordable pricing, convenient sample collection, and digital reporting make Shyam Labs a convenient option for thyroid testing across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+
+  faq: [
+    {
+      question: "Which areas around Chandigarh are covered for home sample collection?",
+      answer:
+        "Shyam Labs provides home sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+    {
+      question: "Can I book a thyroid test online in Chandigarh?",
+      answer: "Yes, you can schedule your thyroid test online or by phone and choose a convenient collection time.",
+    },
+    {
+      question: "What is the thyroid test price in Chandigarh?",
+      answer: `The thyroid profile test is available at an offer price of ₹${getTestPrice('thyroid-profile-test')}. Check the pricing page for current offers and booking details.`,
+    },
+    {
+      question: "Is fasting required before a thyroid test?",
+      answer: "No, fasting is generally not required before a thyroid test.",
+    },
+    {
+      question: "How quickly are thyroid reports available in Chandigarh?",
+      answer: "Thyroid reports are typically available digitally within 24 hours of sample collection.",
+    },
+    {
+      question: "Can senior citizens book a thyroid test from home in Chandigarh?",
+      answer:
+        "Yes, home sample collection can be convenient for elderly patients who prefer to avoid travelling to a diagnostic centre, subject to service availability.",
+    },
+  ],
+
+  relatedLocations: [
+    { city: "Panchkula", slug: "/locations/thyroid-test-in-panchkula" },
+    { city: "Mohali", slug: "/locations/thyroid-test-in-mohali" },
+  ],
+
+  facts: [
+    { label: "Test Price", value: getTestPrice('thyroid-profile-test') },
+    { label: "Report Time", value: "24 Hours" },
+    { label: "Collection Service", value: "Doorstep Sample Pickup" },
+    { label: "Report Delivery", value: "Online & WhatsApp Reports" },
+    { label: "Lab Location", value: "Sector 21, Panchkula" },
+  ],
+
+  tags: [
+    "Thyroid Test Chandigarh",
+    "Pathology Lab Chandigarh",
+    "TSH Test Chandigarh",
+    "Home Sample Collection Chandigarh",
+    "Blood Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "Thyroid Test Panchkula",
+    "Thyroid Test Mohali",
+    "Thyroid Test Tricity",
+  ],
+
+  cta: {
+    title: "Book a Thyroid Test in Chandigarh Today",
+
+    description:
+      "Schedule convenient home sample collection in Chandigarh and receive your thyroid report digitally from Shyam Budget Friendly Labs.",
+
+    phone: "tel:+919914899300",
+
+    highlights: ["Home Sample Collection", "Affordable Thyroid Testing", "Fast Digital Reports"],
+  },
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/chandigarh-thyroid-test.jpeg",
+
+  heroTitle: "Affordable Thyroid Testing & Home Sample Collection in Chandigarh",
+
+  heroSubtitle:
+    "Book your thyroid test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
 }
 ];
 

@@ -314,5 +314,173 @@ export const prices = [
        "Fast Turnaround",
      ],
    },
- }
+ },
+ {
+  slug: "thyroid-test-price-chandigarh",
+
+  seo: {
+    // 49 characters
+    title: "Thyroid Test Price in Chandigarh | Book T3 T4 TSH",
+    description: `Check thyroid test price in Chandigarh starting at ₹${getTestPrice('thyroid-profile-test')}, with home sample collection, digital reports & convenient online booking.`,
+    keywords: [
+      "thyroid test price chandigarh",
+      "thyroid test cost chandigarh",
+      "thyroid blood test price chandigarh",
+      "thyroid test price near me",
+      "affordable thyroid test chandigarh",
+      "thyroid test price list chandigarh",
+      "thyroid test panchkula",
+      "thyroid test mohali",
+      "thyroid test tricity",
+    ],
+  },
+
+  hero: {
+    badge: "Quality Testing Standards",
+
+    title: "Thyroid Test Price in Chandigarh",
+
+    subtitle:
+      "Check the Thyroid Profile Test (TSH, T3, T4) price in Chandigarh with accurate testing and convenient doorstep home sample collection from Shyam Labs.",
+
+    image: "/prices/thyroid-test.webp",
+  },
+
+  priceCard: {
+    actualPrice: 549,
+    offerPrice: getTestPrice('thyroid-profile-test'),
+    offerText: "Offer Price",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    sampleType: "Blood",
+    homeCollection: true,
+    labVisit: true,
+
+    includes: {
+      title: "Every Booking Includes",
+      items: [
+        "Free Doorstep Home Sample Collection",
+        "Digital Report on WhatsApp & Email",
+        "No Advance Payment Required",
+      ],
+    },
+  },
+
+  whyGetTest: {
+    title: "Why Get a Thyroid Test in Chandigarh",
+    description:
+      "Thyroid disorders develop gradually and are easy to mistake for everyday tiredness — a simple blood test is the only reliable way to check.",
+
+    reasons: [
+      {
+        title: "Catches Hidden Hormonal Imbalance",
+        description:
+          "Helps identify hypothyroidism or hyperthyroidism before symptoms become severe.",
+      },
+      {
+        title: "Useful for Fatigue, Weight & Hair Concerns",
+        description:
+          "Commonly ordered when experiencing unexplained fatigue, weight changes, or hair fall.",
+      },
+      {
+        title: "Convenient & Affordable",
+        description:
+          "Home sample collection and transparent pricing make it easy to get tested without visiting a lab in person.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How much does a thyroid test cost in Chandigarh?",
+      answer: `The thyroid profile test is available at an offer price of ₹${getTestPrice('thyroid-profile-test')} at Shyam Labs, with home sample collection available subject to service coverage.`,
+    },
+    {
+      question: "Is home sample collection available in Chandigarh?",
+      answer:
+        "Yes, Shyam Labs provides doorstep home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+    },
+    {
+      question: "Do I need to pay in advance to book a thyroid test?",
+      answer:
+        "No advance payment is required — you can pay at the time of sample collection or according to the payment option provided during booking.",
+    },
+    {
+      question: "How soon will I get my thyroid report after booking?",
+      answer:
+        "Reports are typically delivered digitally within 24 hours of sample collection.",
+    },
+  ],
+
+  relatedTests: [
+    "thyroid-profile-test",
+    "hba1c-test",
+    "lipid-profile",
+    "vitamin-d-test",
+    "vitamin-b12-test",
+    "kidney-function-test",
+    "liver-function-test",
+  ],
+
+  interlinks: {
+    badge: "Included Services & Chandigarh Availability",
+
+    heading: "What's Included & Chandigarh Availability",
+
+    description:
+      "Checking the thyroid test price? Explore what's included in this price and confirm home collection availability near you in Chandigarh and the Tricity.",
+
+    items: [
+      {
+        title: "What's Included in This Price?",
+        subtitle: "Thyroid Test Service Details",
+        description:
+          "See everything included in your thyroid test — from sample collection to laboratory analysis and report delivery.",
+        href: "/tests/thyroid-profile-test",
+        icon: "FiActivity",
+        badge: "Test Details",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Test Details",
+        tracking: "price-interlink-service",
+      },
+      {
+        title: "Thyroid Test Available in Chandigarh",
+        subtitle: "Location & Home Collection",
+        description:
+          "Check thyroid test home sample collection availability across Chandigarh and nearby Tricity areas.",
+        href: "/locations/thyroid-test-in-chandigarh",
+        icon: "FiMapPin",
+        badge: "Chandigarh Location",
+        badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+        btnText: "Visit Chandigarh Page",
+        tracking: "price-interlink-location",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Thyroid Test in Chandigarh Today",
+
+    description:
+      "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
+
+    offerPrice: getTestPrice('thyroid-profile-test'),
+
+    actualPrice: 549,
+
+    buttonText: "Book a Test",
+
+    testName: "Thyroid Test",
+
+    blogUrl: "/blogs/thyroid-test-symptoms-guide",
+
+    serviceUrl: "/tests/thyroid-profile-test",
+
+    locationUrl: "/locations/thyroid-test-in-chandigarh",
+
+    packageUrl: "/packages",
+
+    highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
+  },
+}
 ];
