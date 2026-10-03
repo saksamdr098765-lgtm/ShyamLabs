@@ -1218,11 +1218,292 @@ export const tests = [
   fasting: true,
   homeCollection: true,
   popular: true,
+ 
   description:
-    "Comprehensive cholesterol profile to assess cardiovascular disease risk.",
+    "Lipid Profile test measures Total Cholesterol, LDL, HDL, Triglycerides, and VLDL to assess your cardiovascular disease risk in one report.",
+ 
   price: 450,
   reportTime: "24 Hours",
-   status:"draft"
+  status: "published",
+ 
+  seo: {
+    // 55 characters
+    title: "Lipid Profile Test in Chandigarh - Price & Normal Range",
+    // 134 characters
+    description:
+      "Book lipid profile (cholesterol) test in Chandigarh with home sample collection. Check price, normal range & LDL, HDL, triglycerides.",
+    keywords: [
+      "lipid profile test",
+      "cholesterol test",
+      "lipid profile test price",
+      "lipid profile test chandigarh",
+      "lipid profile test near me",
+      "lipid profile test normal range",
+      "cholesterol test near me",
+      "ldl cholesterol test",
+      "hdl cholesterol test",
+      "triglycerides test",
+      "lipid panel test",
+      "lipid profile test fasting",
+    ],
+  },
+ 
+  hero: {
+    badge: "Home Sample Collection Available",
+ 
+    title: "Lipid Profile (Cholesterol) Test in Chandigarh",
+ 
+    description:
+      "Book a Lipid Profile Test in Chandigarh and the Tricity with fast report delivery, professional sample collection, and convenient doorstep home collection from Shyam Labs. Check the latest lipid profile test price and book online.",
+ 
+    image: "/tests/lipid-profile.webp",
+ 
+    imageAlt: "Lipid Profile Blood Test - Cholesterol, LDL, HDL in Chandigarh",
+ 
+    reportTime: "24 Hours",
+ 
+    homeCollection: "Available",
+ 
+    trustPoints: [
+      "Professional Sample Collection",
+      "Digital Reports",
+      "Affordable Lipid Profile Price",
+      "Quality-Controlled Testing",
+    ],
+ 
+    bookButton: "Book Lipid Profile Test",
+ 
+    bookingUrl: "/prices/lipid-profile-test-price-chandigarh",
+ 
+    phone: "tel:+919914899300",
+  },
+ 
+  quickFacts: {
+    sample: "Blood Sample",
+    reportTime: "24 Hours",
+    fasting: "9-12 Hours Recommended",
+    homeCollection: "Available",
+    ageGroup: "Adults",
+  },
+ 
+  whyChooseUs: {
+    title: "Why Choose Shyam Labs for Your Lipid Profile Test?",
+ 
+    description:
+      "Get a dependable lipid profile test in Chandigarh and the Tricity with easy booking, professional sample collection, convenient home collection, and quick access to your digital report.",
+ 
+    items: [
+      {
+        title: "Professional Sample Collection",
+        description:
+          "Every blood draw follows proper collection procedures for a comfortable, low-discomfort experience.",
+      },
+      {
+        title: "Standardised Testing Process",
+        description:
+          "Your lipid sample is analysed on calibrated equipment following standard laboratory protocols.",
+      },
+      {
+        title: "Fast Digital Reports",
+        description:
+          "Your lipid profile report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
+      },
+      {
+        title: "Home Collection Across Chandigarh & Tricity",
+        description:
+          "Book a lipid profile test with convenient home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+    ],
+  },
+ 
+  testDetails: {
+    title: "About the Lipid Profile Test (Cholesterol Panel)",
+ 
+    description: [
+      "A Lipid Profile test measures the different types of fat circulating in your blood — Total Cholesterol, LDL ('bad' cholesterol), HDL ('good' cholesterol), Triglycerides, and VLDL — to help assess your risk of heart disease and stroke.",
+      "It's one of the most commonly recommended preventive tests because high cholesterol usually has no symptoms. The test alone can't show whether an artery is actually blocked — that needs imaging such as an angiography — but it flags the risk factors a doctor would want to act on before that happens.",
+    ],
+ 
+    included: [
+      "Total Cholesterol",
+      "LDL Cholesterol",
+      "HDL Cholesterol",
+      "Triglycerides",
+      "VLDL Cholesterol",
+    ],
+  },
+ 
+  preparation: {
+    title: "Preparation Before Your Lipid Profile Test",
+ 
+    description:
+      "Unlike most routine blood tests, a lipid profile is usually done fasting — here's what to keep in mind before your appointment.",
+ 
+    items: [
+      {
+        title: "Fast for 9-12 Hours",
+        description:
+          "Avoid food for 9-12 hours before the test, as this is the conventional recommendation for accurate triglyceride and LDL readings. Plain water is fine during this window.",
+      },
+      {
+        title: "Avoid Alcohol Beforehand",
+        description:
+          "Avoid alcohol for at least 24 hours before the test, since it can temporarily raise triglyceride levels.",
+      },
+      {
+        title: "Continue Medicines Only as Advised",
+        description:
+          "If you're on cholesterol-lowering medication, don't stop it before the test unless your doctor tells you to — mention it to the phlebotomist instead.",
+      },
+    ],
+  },
+ 
+  bookingProcess: {
+    title: "How to Book Your Lipid Profile Test in Chandigarh",
+ 
+    description:
+      "Booking a lipid profile test with Shyam Labs takes just a few minutes, with convenient home sample collection available across Chandigarh and the Tricity.",
+ 
+    steps: [
+      {
+        title: "Book Test",
+        description:
+          "Select the Lipid Profile Test and submit your booking request online or over a call.",
+      },
+      {
+        title: "Schedule Sample Collection",
+        description:
+          "Choose an early-morning fasting slot and provide your Chandigarh or Tricity address.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is processed using standard laboratory procedures.",
+      },
+      {
+        title: "Receive Report",
+        description:
+          "Your digital lipid profile report is sent to you within 24 hours of collection.",
+      },
+    ],
+  },
+ 
+  pricePreview: {
+    title: "Lipid Profile Test Price",
+ 
+    description:
+      "Check the latest lipid profile test price in Chandigarh and book with convenient home sample collection.",
+ 
+    price: 450,
+ 
+    priceUrl: "/prices/lipid-profile-test-price-chandigarh",
+  },
+ 
+  relatedTests: [
+    "total-cholesterol",
+    "triglycerides-test",
+    "hdl-cholesterol",
+    "ldl-cholesterol",
+    "vldl-cholesterol",
+  ],
+ 
+  faq: {
+    title: "Frequently Asked Questions",
+ 
+    description:
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the lipid profile test, its results, and booking.",
+ 
+    items: [
+      {
+        question: "What is a lipid profile test, and what does it check?",
+        answer:
+          "A lipid profile is a blood test that measures Total Cholesterol, LDL, HDL, Triglycerides, and VLDL to evaluate your risk of heart disease and stroke.",
+      },
+      {
+        question: "Is fasting required for a lipid profile test?",
+        answer:
+          "Yes, 9-12 hours of fasting is the conventional recommendation for the most accurate triglyceride and LDL readings, though your doctor may sometimes order a non-fasting version depending on the purpose of the test.",
+      },
+      {
+        question: "Can I drink water before the test?",
+        answer:
+          "Yes, plain water is fine during the fasting period — avoid only food, tea, coffee, and sugary or alcoholic drinks.",
+      },
+      {
+        question: "What is the normal range for a lipid profile?",
+        answer:
+          "General guidelines: Total Cholesterol under 200 mg/dL, LDL under 100 mg/dL, HDL above 40 mg/dL (men) or 50 mg/dL (women), and Triglycerides under 150 mg/dL. Always check the exact range printed on your own report.",
+      },
+      {
+        question: "Which is bad, HDL or LDL?",
+        answer:
+          "LDL is often called 'bad' cholesterol because high levels contribute to plaque buildup in arteries. HDL is called 'good' cholesterol because it helps clear excess cholesterol from the bloodstream.",
+      },
+      {
+        question: "What is the danger zone for LDL cholesterol?",
+        answer:
+          "As a general guide, LDL of 160-189 mg/dL is considered high and 190 mg/dL or above is considered very high. These are population-level guidelines — your own risk depends on other factors your doctor will weigh in too.",
+      },
+      {
+        question: "Can a lipid profile test detect blockage or fatty liver?",
+        answer:
+          "No. A lipid profile only measures cholesterol and triglyceride levels in your blood — it doesn't visualize arteries or the liver. Detecting an actual blockage needs imaging like an angiography, and fatty liver needs a liver function test or ultrasound.",
+      },
+      {
+        question: "What happens if my lipid profile is high or abnormal?",
+        answer:
+          "High LDL or triglycerides generally raise cardiovascular risk, while low HDL removes a protective factor. Your doctor interprets the full panel together with your age, lifestyle, and other risk factors before recommending diet changes or medication.",
+      },
+      {
+        question: "At what age should I start checking my lipid profile?",
+        answer:
+          "Routine screening is commonly recommended from around age 20, and more frequently for people with diabetes, high blood pressure, obesity, or a family history of heart disease.",
+      },
+      {
+        question: "Is a lipid profile test painful?",
+        answer:
+          "No more than a standard blood draw — a small needle prick to collect the sample, with mild and brief discomfort.",
+      },
+      {
+        question: "How long does it take to receive the lipid profile report?",
+        answer:
+          "Reports are usually available within 24 hours of sample collection.",
+      },
+      {
+        question: "Is home sample collection available for lipid profile test in Chandigarh?",
+        answer:
+          "Yes, Shyam Labs provides home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+      {
+        question: "What is the lipid profile test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current lipid profile test price and book online with home sample collection.",
+      },
+    ],
+  },
+ 
+  cta: {
+    title: "Book Your Lipid Profile Test in Chandigarh Today",
+ 
+    description:
+      "Get convenient home sample collection, reliable cholesterol testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+ 
+    highlights: [
+      "Home Sample Collection Available",
+      "Fast Report Delivery",
+      "Professional Collection Process",
+    ],
+ 
+    price: "450",
+ 
+    priceText: "Check detailed lipid profile test pricing and booking options.",
+ 
+    bookingUrl: "/prices/lipid-profile-test-price-chandigarh",
+ 
+    phone: "tel:+919914899300",
+ 
+    buttonText: "Book Lipid Profile Test",
+  },
 },
 
 {

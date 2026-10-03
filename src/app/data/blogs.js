@@ -843,295 +843,491 @@ export const blogs = [
   },
 },
   {
-    id: 3,
-    slug: "cholesterol-lipid-profile-test-guide",
-    title: "Lipid Profile Test Guide: Cholesterol Levels, LDL, HDL & Heart Disease Risk",
-    excerpt: "Learn about lipid profile testing, cholesterol levels, LDL, HDL, triglycerides, normal ranges, heart disease risk factors, and when to get a cholesterol test.",
-    category: "Health Tips",
-     author: {
-    name: SITE_CONFIG.fullName, // old schema had this as a plain string — now an object
-    image: SITE_CONFIG.logo, // ⚠️ confirm this is the correct author image path used across other blogs
+  id: 3,
+ 
+  slug: "cholesterol-lipid-profile-test-guide",
+ 
+  title: "Lipid Profile Test: Full Form, Normal Range & Fasting",
+ 
+  excerpt:
+    "Lipid profile test full form, how it's done, fasting hours, normal range for LDL, HDL, VLDL and triglycerides, cholesterol symptoms, and price.",
+ 
+  category: "Health Tips",
+ 
+  author: {
+    name: SITE_CONFIG.fullName,
+    image: SITE_CONFIG.logo,
   },
-    publishedAt: "June 12, 2026",
-    readingTime: "8 min read",
-    coverImage: "/blogs/lipid-test.png",
-    featured: false,
-    relatedPackages: [],
-    relatedTests: [
-     
+ 
+  publishedAt: "September 05, 2026",
+ 
+  readingTime: "10 min read",
+ 
+  coverImage: "/blogs/lipid-profile-test-guide.webp",
+ 
+  featured: true,
+ 
+  relatedPackages: [
+    "lipid-profile-test",
+    "jaanch-heart-screening",
+    "jaanch-heart-advanced",
+    "jaanch-heart-comprehensive",
+    "essential-health-tests",
+    "executive-full-body-checkup",
+  ],
+ 
+  relatedTests: [
+    "lipid-profile",
+    "total-cholesterol",
+    "triglycerides-test",
+    "hdl-cholesterol",
+    "ldl-cholesterol",
+    "vldl-cholesterol",
+  ],
+ 
+  seo: {
+    // 53 characters
+    title: "Lipid Profile Test: Full Form, Normal Range & Fasting",
+    // 118 characters
+    description:
+      "Lipid profile test guide: full form, fasting hours, normal range, LDL HDL VLDL, price & home collection in Chandigarh.",
+    keywords: [
+      "lipid profile test",
+      "lipid profile test price",
+      "lipid profile test cost",
+      "cholesterol normal range",
+      "triglycerides normal range",
+      "high cholesterol symptoms",
+      "how to lower cholesterol",
+      "lipid panel test",
+      "lipid profile test near me",
+      "lipid profile test normal range",
+      "lipid profile test fasting",
+      "ldl normal range",
+      "hdl normal range",
+      "lipid profile test procedure",
+      "foods to avoid for cholesterol",
     ],
-    seo: {
-      title: "Lipid Profile Test Guide: Cholesterol Levels, LDL, HDL & Heart Health",
-      description: "Understand cholesterol levels, LDL, HDL, triglycerides, normal lipid profile values, heart disease risk factors, and lipid profile testing in Panchkula.",
-      keywords: [
-        "Lipid Profile Test",
-        "Cholesterol Test",
-        "HDL LDL Test",
-        "Triglycerides Test",
-        "Heart Health Test",
-        "Lipid Profile Normal Range",
-        "High Cholesterol Symptoms",
-        "LDL Cholesterol",
-        "HDL Cholesterol",
-        "Lipid Profile Test in Panchkula",
-        "Cholesterol Test Near Me"
-      ]
-    },
-    quickInfo: {
-      "What You Will Learn": "Lipid Profile Test",
-      sample: "Blood",
-      fasting: "8–12 Hours Recommended",
-      reportTime: "Same Day",
-      homeCollection: "Available",
-      recommendedFor: "High blood pressure, Weight gain, Chest discomfort, Fatigue, Family history of heart disease, No visible symptoms (silent condition)",
-      booking: "Online / Phone / WhatsApp"
-    },
-    tags: [
-      "Lipid Profile Test",
-      "Cholesterol Test",
-      "HDL LDL Test",
-      "Heart Health Test",
-      "Triglycerides Test",
-      "Cardiac Risk",
-      "Lipid Test Price",
-      "High Cholesterol Symptoms",
-      "Heart Disease Prevention",
-      "Blood Test Panchkula",
-      "Cholesterol Test Near Me",
-      "Lipid Profile Chandigarh",
-      "LDL Cholesterol",
-      "HDL Cholesterol",
-      "Total Cholesterol",
-      "Cardiology Screening",
-      "Diagnostic Lab",
-      "Pathology Lab",
-      "Home Sample Collection",
-      "Same Day Report",
-      "Health Checkup"
-    ],
-    content: [
-      {
-        type: "heading",
-        level: 2,
-        text: "What Is a Lipid Profile Test?"
-      },
-      {
-        type: "paragraph",
-        text: "A Lipid Profile Test is a blood test that measures different types of fats (lipids) present in your bloodstream."
-      },
-      {
-        type: "paragraph",
-        text: "The test evaluates cholesterol levels and helps determine your risk of developing heart disease, stroke, and other cardiovascular conditions."
-      },
-      {
-        type: "paragraph",
-        text: "Doctors commonly recommend lipid profile testing as part of routine preventive healthcare and cardiac risk assessment."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "What Does a Lipid Profile Measure?"
-      },
-      {
-        type: "paragraph",
-        text: "A complete lipid profile measures several important components:"
-      },
-      {
-        type: "list",
-        items: [
-          "Total Cholesterol",
-          "LDL (Low-Density Lipoprotein)",
-          "HDL (High-Density Lipoprotein)",
-          "Triglycerides",
-          "VLDL (Very Low-Density Lipoprotein)",
-          "Cholesterol/HDL Ratio"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "These values help doctors evaluate your cardiovascular health and determine whether lifestyle changes or treatment may be required."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Understanding LDL, HDL & Triglycerides"
-      },
-      {
-        type: "paragraph",
-        text: "LDL cholesterol is commonly known as \"bad cholesterol\" because high levels can lead to plaque buildup inside arteries."
-      },
-      {
-        type: "paragraph",
-        text: "HDL cholesterol is known as \"good cholesterol\" because it helps remove excess cholesterol from the bloodstream."
-      },
-      {
-        type: "paragraph",
-        text: "Triglycerides are another type of fat stored in the body for energy. Elevated triglyceride levels may increase the risk of heart disease, stroke, and metabolic disorders."
-      },
-      {
-        type: "paragraph",
-        text: "Maintaining healthy levels of LDL, HDL, and triglycerides is important for long-term cardiovascular health."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Why Cholesterol Testing Is Important"
-      },
-      {
-        type: "paragraph",
-        text: "High cholesterol usually develops without noticeable symptoms."
-      },
-      {
-        type: "paragraph",
-        text: "Many people are unaware that their cholesterol levels are elevated until complications occur."
-      },
-      {
-        type: "paragraph",
-        text: "Regular lipid profile testing helps:"
-      },
-      {
-        type: "list",
-        items: [
-          "Detect cardiovascular risk early",
-          "Monitor treatment effectiveness",
-          "Support preventive healthcare",
-          "Guide dietary and lifestyle changes",
-          "Reduce the risk of heart attack and stroke"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "Early detection can significantly improve long-term health outcomes."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Who Should Get a Lipid Profile Test?"
-      },
-      {
-        type: "paragraph",
-        text: "Doctors may recommend lipid profile testing for:"
-      },
-      {
-        type: "list",
-        items: [
-          "Adults above 20 years of age",
-          "People with diabetes",
-          "Individuals with obesity",
-          "Patients with high blood pressure",
-          "Smokers",
-          "Individuals with a family history of heart disease",
-          "People with sedentary lifestyles"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "Regular screening is especially important for individuals with cardiovascular risk factors."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Normal Cholesterol Levels"
-      },
-      {
-        type: "paragraph",
-        text: "While reference ranges may vary slightly between laboratories, general guidelines include:"
-      },
-      {
-        type: "list",
-        items: [
-          "Total Cholesterol: Less than 200 mg/dL",
-          "LDL Cholesterol: Less than 100 mg/dL",
-          "HDL Cholesterol: Above 40 mg/dL (men) and 50 mg/dL (women)",
-          "Triglycerides: Less than 150 mg/dL"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "Your doctor will interpret these values in the context of your overall health and risk profile."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Benefits of Early Detection"
-      },
-      {
-        type: "paragraph",
-        text: "Regular lipid profile testing offers several benefits:"
-      },
-      {
-        type: "list",
-        items: [
-          "Early identification of heart disease risk",
-          "Better management of cholesterol levels",
-          "Reduced risk of heart attack and stroke",
-          "Monitoring of medication effectiveness",
-          "Improved long-term cardiovascular health",
-          "Support for preventive healthcare strategies"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "Routine testing plays an important role in maintaining heart health."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Lipid Profile Test in Panchkula"
-      },
-      {
-        type: "paragraph",
-        text: "Shyam Pathology Lab provides accurate Lipid Profile Testing in Panchkula with convenient home sample collection services."
-      },
-      {
-        type: "paragraph",
-        text: "Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, and nearby areas can book cholesterol testing from home and receive reliable reports quickly."
-      },
-      {
-        type: "paragraph",
-        text: "Early cholesterol screening helps identify cardiovascular risks and supports better heart health management."
-      },
-    
-    ],
-    faq: [
-      {
-        question: "What is a lipid profile test?",
-        answer: "A lipid profile test measures cholesterol and triglyceride levels to assess cardiovascular health and heart disease risk."
-      },
-      {
-        question: "What is LDL cholesterol?",
-        answer: "LDL is often called bad cholesterol because high levels can contribute to plaque buildup in arteries."
-      },
-      {
-        question: "What is HDL cholesterol?",
-        answer: "HDL is known as good cholesterol because it helps remove excess cholesterol from the bloodstream."
-      },
-      {
-        question: "Is fasting required for a lipid profile test?",
-        answer: "Yes. Fasting for 8–12 hours is generally recommended for accurate lipid profile results."
-      },
-      {
-        question: "How often should cholesterol be checked?",
-        answer: "Adults should have their cholesterol checked periodically, especially if they have risk factors such as diabetes, obesity, or high blood pressure."
-      },
-      {
-        question: "Can I book a lipid profile test at home in Panchkula?",
-        answer: "Yes. Home sample collection is available through Shyam Pathology Lab."
-      }
-    ],
-    cta: {
-      title: "Book Your Lipid Profile Test Today",
-      description: "Monitor your cholesterol levels with accurate testing, home sample collection, and fast reporting from Shyam Pathology Lab.",
-      buttonText: "Book Lipid Profile Test",
-      whatsappText: "Hi, I want to book a lipid profile test.",
-      features: [
-        "Experienced Lab",
-        "100+ Tests",
-        "Fast Reports",
-        "Experienced Staff"
-      ]
-    }
   },
+ 
+  quickInfo: {
+    "What You Will Learn": "Lipid Profile (Cholesterol) Test",
+    price: getTestPrice('lipid-profile'),
+    sample: "Blood (Serum)",
+    fasting: "9-12 Hours Recommended",
+    reportTime: "Same Day",
+    homeCollection: "Available",
+    recommendedFor: "High Cholesterol Symptoms, Family History of Heart Disease, Diabetes, Routine Checkup",
+    booking: "Online / Phone / WhatsApp",
+  },
+ 
+  tags: [
+    "Lipid Profile Test",
+    "Lipid Profile Test Price",
+    "Lipid Profile Test Normal Range",
+    "Cholesterol Test",
+    "Cholesterol Normal Range",
+    "LDL Normal Range",
+    "HDL Normal Range",
+    "Triglycerides Normal Range",
+    "Lipid Panel Test",
+    "High Cholesterol Symptoms",
+    "Lipid Profile Test Fasting",
+    "Lipid Profile Test Procedure",
+    "Lipid Profile Test Near Me",
+    "Blood Tests",
+    "Health Checkup",
+    "Lipid Profile Test in Chandigarh",
+    "Lipid Profile Test in Panchkula",
+    "Home Sample Collection",
+    "Pathology Lab",
+    "Same Day Report",
+  ],
+ 
+  content: [
+    {
+      type: "paragraph",
+      text: "Searching for a lipid profile test usually starts with one of three questions: what does it actually check, do I need to fast, and what counts as normal? This guide answers all three, plus the fasting-hours confusion, the LDL danger zone, and whether the test can actually detect a blockage.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is a Lipid Profile Test? (Full Form & Meaning)",
+    },
+    {
+      type: "paragraph",
+      text: "Lipid profile doesn't have a medical 'full form' the way CBC does — 'lipid profile' simply means a profile (panel) of the fats, or lipids, in your blood. It's a single blood test that reports several values together: Total Cholesterol, LDL, HDL, Triglycerides, and VLDL.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Lipid Profile Test List: What's Included",
+    },
+    {
+      type: "list",
+      items: [
+        "Total Cholesterol",
+        "LDL Cholesterol (Low-Density Lipoprotein)",
+        "HDL Cholesterol (High-Density Lipoprotein)",
+        "Triglycerides",
+        "VLDL Cholesterol (Very Low-Density Lipoprotein)",
+        "Cholesterol/HDL Ratio (calculated, not separately measured)",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Are HDL, LDL, and VLDL?",
+    },
+    {
+      type: "paragraph",
+      text: "All three carry cholesterol through your blood, but they behave differently. LDL is called 'bad' cholesterol because high levels deposit cholesterol into artery walls. HDL is 'good' cholesterol because it carries excess cholesterol away for disposal. VLDL mainly carries triglycerides and is usually estimated, not measured directly, from your triglyceride value.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Is a Lipid Profile Test Done? (Procedure)",
+    },
+    {
+      type: "paragraph",
+      text: "It's a standard blood draw — a small sample is taken from a vein in your arm. The lab spins the sample to separate the serum (which is why you'll sometimes see it called a 'lipid profile serum test'), then runs it through an automated analyzer to measure each component. The draw itself takes a couple of minutes.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is a Lipid Profile Test Painful or Safe?",
+    },
+    {
+      type: "paragraph",
+      text: "No more than any routine blood draw — a brief needle prick with mild, short-lived discomfort. It's a standard, low-risk test; minor bruising at the site is the most common side effect, and it resolves on its own.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is Fasting Required for a Lipid Profile Test?",
+    },
+    {
+      type: "paragraph",
+      text: "Yes, fasting is the conventional recommendation, mainly because eating temporarily raises triglycerides and can skew the calculated LDL value. Some labs and doctors do order non-fasting lipid panels for general screening, but fasting is still the safer default if you want the most accurate individual numbers, especially for triglycerides.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Many Hours of Fasting? Is 7 Hours Enough, or Do You Need 12?",
+    },
+    {
+      type: "paragraph",
+      text: "The commonly recommended window is 9-12 hours. Seven hours is on the short side and may not fully settle your triglyceride levels after a meal, so it's better to aim for at least 9 hours if you can. The reason labs ask for up to 12 hours is simply to give triglycerides enough time to return to your fasting baseline, since they're the value most sensitive to recent food intake.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can You Drink Water Before a Lipid Profile Test?",
+    },
+    {
+      type: "paragraph",
+      text: "Yes. Plain water doesn't break a fast and is actually encouraged — staying hydrated makes the blood draw easier. Avoid anything besides water: no tea, coffee, juice, sugary drinks, or alcohol during the fasting window.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Best Time of Day for a Lipid Profile Test",
+    },
+    {
+      type: "paragraph",
+      text: "Morning appointments are the most practical choice simply because an overnight fast lines up naturally with waking up — you fast through the night and get tested before breakfast. There's no strict medical rule that it must be morning, but it's the easiest way to hit the fasting window without extra effort.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Lipid Profile Test Normal Range",
+    },
+    {
+      type: "list",
+      items: [
+        "Total Cholesterol: Less than 200 mg/dL",
+        "LDL Cholesterol: Less than 100 mg/dL",
+        "HDL Cholesterol: Above 40 mg/dL (men), above 50 mg/dL (women)",
+        "Triglycerides: Less than 150 mg/dL",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Some labs or international reports use mmol/L instead of mg/dL — to convert, divide cholesterol values (mg/dL) by about 38.67, and triglycerides by about 88.57. Normal ranges can vary slightly by lab and by sex, including the female-specific HDL threshold above, so always check the range printed on your own report.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Is LDL Calculated?",
+    },
+    {
+      type: "paragraph",
+      text: "Most labs don't measure LDL directly — they calculate it using the Friedewald formula: LDL = Total Cholesterol − HDL − (Triglycerides ÷ 5). This calculation becomes unreliable when triglycerides are very high (above roughly 400 mg/dL), in which case the lab may measure LDL directly instead.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is the Danger Zone for LDL Cholesterol?",
+    },
+    {
+      type: "paragraph",
+      text: "As a general guide, LDL of 160-189 mg/dL is considered high, and 190 mg/dL or above is considered very high. These are population-level cutoffs — your own risk also depends on your age, other conditions, and family history, which is why your doctor looks at the full picture rather than one number alone.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "5 Signs of High Cholesterol (and Why They're Easy to Miss)",
+    },
+    {
+      type: "paragraph",
+      text: "High cholesterol is often called a silent condition because it usually causes no symptoms at all until it leads to a complication. When signs do eventually appear, they tend to reflect advanced plaque buildup rather than cholesterol itself:",
+    },
+    {
+      type: "list",
+      items: [
+        "Chest pain or tightness (angina) from narrowed arteries",
+        "Numbness or coldness in the legs from reduced blood flow",
+        "Yellowish fatty deposits under the skin, often near the eyes (xanthomas)",
+        "Shortness of breath with exertion",
+        "No symptoms at all, in most people, until a cardiac event occurs",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Causes High Cholesterol?",
+    },
+    {
+      type: "list",
+      items: [
+        "A diet high in saturated fat, trans fat, and processed food",
+        "Lack of physical activity",
+        "Obesity or excess body weight",
+        "Smoking, which lowers HDL",
+        "Genetics and family history",
+        "Underlying conditions like diabetes or hypothyroidism",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Foods to Avoid and Foods That Help Lower Cholesterol",
+    },
+    {
+      type: "paragraph",
+      text: "Foods to limit: fried food, red and processed meat, full-fat dairy, baked goods made with butter or ghee, and packaged snacks high in trans fat. Foods that help: oats and whole grains, beans and lentils, nuts, fatty fish rich in omega-3s, and plenty of vegetables and fruit — all of which support a healthier cholesterol ratio over time alongside regular exercise.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What If My Lipid Profile Is High or Abnormal?",
+    },
+    {
+      type: "paragraph",
+      text: "An abnormal result doesn't mean a diagnosis on its own — it means your doctor will look at which value is off (LDL, HDL, or triglycerides), by how much, and alongside your age, weight, family history, and any existing conditions before deciding on lifestyle changes, monitoring, or medication.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can a Lipid Profile Test Detect Blockage or Fatty Liver?",
+    },
+    {
+      type: "paragraph",
+      text: "No. A lipid profile only measures the fats circulating in your blood — it can't see inside your arteries or your liver. Confirming an actual blockage needs imaging such as an angiography, and fatty liver needs a liver function test or an ultrasound. Think of the lipid profile as a risk indicator, not a picture of what's physically happening in an artery or organ.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "At What Age Should You Start Checking Your Lipid Profile?",
+    },
+    {
+      type: "paragraph",
+      text: "Routine screening is commonly recommended from around age 20, and more frequently — sometimes annually — for people with diabetes, high blood pressure, obesity, or a family history of heart disease.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Lipid Profile Test Price and Report Time",
+    },
+    {
+      type: "paragraph",
+      text: `Our lipid profile test is priced at ${getTestPrice('lipid-profile')}, with same-day reports and free home sample collection available — so you don't need to visit the lab in person or wait days for results.`,
+    },
+    {
+      type: "interlinking",
+      title: "Lipid Profile Test Services & Pricing",
+      description:
+        "Explore lipid profile test details, pricing, and convenient home sample collection services.",
+      items: [
+        {
+          title: "Lipid Profile Test Price",
+          description:
+            "Check the latest lipid profile test price and available home sample collection options.",
+          href: "/prices/lipid-profile-test-price-chandigarh",
+        },
+        {
+          title: "Lipid Profile Test Details",
+          description:
+            "Learn about the lipid profile test, parameters included, sample requirements, and preparation.",
+          href: "/tests/lipid-profile",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Lipid Profile Test in Panchkula, Chandigarh & Nearby Areas",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Budget Friendly Labs provides accurate lipid profile testing with convenient home blood sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+    {
+      type: "interlinking",
+      title: "Lipid Profile Test — Areas We Serve",
+      description:
+        "We provide lipid profile (cholesterol) testing with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "Lipid profile test with home sample collection.",
+          href: "/locations/lipid-profile-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "Lipid profile test and diagnostic services with home collection.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "Lipid profile test with same-day report and home collection.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "Lipid profile test and pathology services.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Key Takeaways",
+    },
+    {
+      type: "list",
+      items: [
+        "A lipid profile measures Total Cholesterol, LDL, HDL, VLDL, and Triglycerides in one serum blood test",
+        "9-12 hours of fasting is recommended, mainly to get an accurate triglyceride reading",
+        "LDL is usually calculated (Friedewald formula), not directly measured, unless triglycerides are very high",
+        "The test flags cardiovascular risk — it cannot detect an actual blockage or fatty liver on its own",
+        "High cholesterol has no symptoms in most people, which is why routine testing from around age 20 matters",
+      ],
+    },
+    {
+      type: "references",
+      items: [
+        {
+          title: "Cholesterol Testing and Results",
+          publisher: "MedlinePlus",
+          url: "https://medlineplus.gov/lab-tests/cholesterol-testing-and-results/",
+        },
+        {
+          title: "HDL, LDL, and Triglycerides",
+          publisher: "American Heart Association",
+          url: "https://www.heart.org/en/health-topics/cholesterol/hdl-good-ldl-bad-cholesterol-and-triglycerides",
+        },
+        {
+          title: "Cholesterol: Top Foods to Improve Your Numbers",
+          publisher: "Mayo Clinic",
+          url: "https://www.mayoclinic.org/diseases-conditions/high-blood-cholesterol/in-depth/cholesterol/art-20045192",
+        },
+      ],
+    },
+  ],
+ 
+  faq: [
+    {
+      question: "What is the full form of a lipid profile test?",
+      answer:
+        "There isn't a medical acronym to expand — 'lipid profile' means a panel of the different fats (lipids) in your blood, covering Total Cholesterol, LDL, HDL, Triglycerides, and VLDL.",
+    },
+    {
+      question: "Why is a lipid profile test done in fasting?",
+      answer:
+        "Eating temporarily raises triglyceride levels, which can also skew the calculated LDL value, so fasting gives a more accurate baseline reading.",
+    },
+    {
+      question: "How many hours of fasting are needed for a lipid profile test?",
+      answer:
+        "9-12 hours is the commonly recommended window. Shorter fasts, like 7 hours, may not fully settle triglyceride levels after a meal.",
+    },
+    {
+      question: "Can I drink water before a lipid profile test?",
+      answer:
+        "Yes, plain water is fine and encouraged during the fasting period — avoid only food, tea, coffee, sugary drinks, and alcohol.",
+    },
+    {
+      question: "Is a lipid profile test painful or safe?",
+      answer:
+        "It's a standard, low-risk blood draw with only brief discomfort from the needle — no different from any routine blood test.",
+    },
+    {
+      question: "What is the normal range for a lipid profile report?",
+      answer:
+        "General guidelines: Total Cholesterol under 200 mg/dL, LDL under 100 mg/dL, HDL above 40 mg/dL (men) or 50 mg/dL (women), and Triglycerides under 150 mg/dL.",
+    },
+    {
+      question: "How is LDL calculated in a lipid profile?",
+      answer:
+        "Most labs calculate it using the Friedewald formula: LDL = Total Cholesterol − HDL − (Triglycerides ÷ 5), unless triglycerides are very high, in which case LDL is measured directly.",
+    },
+    {
+      question: "What is the danger zone for LDL cholesterol?",
+      answer:
+        "As a general guide, 160-189 mg/dL is considered high and 190 mg/dL or above is considered very high, though your doctor weighs this alongside your overall risk profile.",
+    },
+    {
+      question: "What are 5 signs of high cholesterol?",
+      answer:
+        "Chest pain, leg numbness or coldness from reduced circulation, fatty deposits under the skin, shortness of breath on exertion, and — most commonly — no symptoms at all until a complication occurs.",
+    },
+    {
+      question: "Can a lipid profile test detect blockage or fatty liver?",
+      answer:
+        "No, it only measures cholesterol and triglyceride levels in the blood. A blockage needs imaging like an angiography, and fatty liver needs a liver function test or ultrasound.",
+    },
+    {
+      question: "What if my lipid profile test is high or abnormal?",
+      answer:
+        "Your doctor reviews which value is abnormal and by how much, alongside your age, weight, and other risk factors, before recommending lifestyle changes or treatment.",
+    },
+    {
+      question: "At what age should I start checking my lipid profile?",
+      answer:
+        "Routine screening is commonly recommended from around age 20, with more frequent testing for people with diabetes, hypertension, obesity, or a family history of heart disease.",
+    },
+    {
+      question: "How much does a lipid profile test cost?",
+      answer: `Our lipid profile test is priced at ${getTestPrice('lipid-profile')}, with same-day reports and free home sample collection available.`,
+    },
+    {
+      question: "Can I do a lipid profile test at home?",
+      answer:
+        "Yes, home sample collection is available — a phlebotomist visits your location to collect the sample, which is then processed at the lab.",
+    },
+  ],
+ 
+  cta: {
+    title: "Book Lipid Profile Test",
+    description: "Get accurate cholesterol testing with doorstep sample collection and same-day reports.",
+    buttonText: "Book Test Now",
+    whatsappText: "Hi, I want to book a lipid profile test.",
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/lipid-profile",
+  },
+},
   {
     id: 4,
     slug: "liver-health-lft-test-guide",

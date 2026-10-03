@@ -32,7 +32,7 @@ export default function RelatedPackages({ relatedPackages = [] }) {
         {recommended.map((pkg) => (
           <TrackingLink
             key={pkg.slug ?? pkg.id}
-            href={`/packages/package-detail-page/${pkg.slug}`}
+            href={`/package-detail-page/${pkg.slug}`}
             tracking={`blog-related-package-${pkg.slug}`}
             className="flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-white px-4 py-4 transition-colors hover:bg-blue-50 sm:px-5"
           >

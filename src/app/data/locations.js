@@ -4263,6 +4263,251 @@ Thyroid testing evaluates TSH, T3, and T4 levels, giving doctors useful informat
 
   heroSubtitle:
     "Book your thyroid test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
+},
+{
+  id: 13,
+ 
+  slug: "lipid-profile-test-in-chandigarh",
+ 
+  city: "Chandigarh",
+ 
+  state: "Chandigarh",
+ 
+  title: "Lipid Profile Test in Chandigarh",
+ 
+  shortDescription:
+    "Looking for a lipid profile (cholesterol) test in Chandigarh? Shyam Labs provides affordable and reliable LDL, HDL & triglyceride testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
+ 
+  coverImage: "/locations/chandigarh-lipid-profile-test.jpeg",
+ 
+  hours: "07:00-20:00",
+ 
+  areas: ["Chandigarh", "Panchkula", "Mohali"],
+ 
+  services: ["home-sample-collection"],
+ 
+  seo: {
+    // 50 characters
+    title: "Lipid Profile Test in Chandigarh | Home Collection",
+    // 148 characters
+    description:
+      "Looking for a lipid profile (cholesterol) test in Chandigarh? Shyam Labs offers affordable testing with home sample collection and fast reports.",
+    keywords: [
+      "Lipid Profile Test in Chandigarh",
+      "Cholesterol Test Chandigarh",
+      "LDL HDL Test Chandigarh",
+      "Triglycerides Test Chandigarh",
+      "Home Sample Collection Chandigarh",
+      "Diagnostic Lab Near Me Chandigarh",
+      "Lipid Profile Test Price Chandigarh",
+      "Lipid Profile Test Panchkula",
+      "Lipid Profile Test Mohali",
+      "Lipid Profile Test Tricity",
+    ],
+  },
+ 
+  overview: {
+    heading: "Affordable Lipid Profile Testing & Home Sample Collection in Chandigarh",
+ 
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. A lipid profile test is one of the most commonly recommended preventive tests, since high cholesterol usually has no symptoms at all until it leads to a cardiovascular event.
+ 
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+ 
+      `For people living or working in Chandigarh, home sample collection makes routine cholesterol testing more convenient — schedule a collection at a suitable time and have your sample collected by a trained phlebotomist instead of visiting a diagnostic centre.
+ 
+Lipid profile testing evaluates Total Cholesterol, LDL, HDL, Triglycerides, and VLDL, giving doctors useful information when assessing cardiovascular risk, especially for people with diabetes, high blood pressure, or a family history of heart disease.`,
+ 
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+ 
+    highlights: [
+      "Convenient Home Sample Collection",
+      "Fast Digital Reports",
+      "Affordable, Transparent Pricing",
+      "Professional Sample Collection",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+ 
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+ 
+    test: [
+      "lipid-profile",
+      "cbc-test",
+      "thyroid-profile-test",
+      "hba1c-test",
+      "kidney-function-test",
+      "liver-function-test",
+      "vitamin-d-test",
+      "vitamin-b12-test",
+    ],
+  },
+ 
+  packages: [
+    "lipid-profile-test",
+    "jaanch-heart-screening",
+    "jaanch-heart-advanced",
+    "jaanch-heart-comprehensive",
+    "essential-health-tests",
+    "executive-full-body-checkup",
+  ],
+ 
+  process: {
+    heading: "How to Get a Lipid Profile Test in Chandigarh",
+ 
+    steps: [
+      {
+        title: "Book Your Test",
+        description:
+          "Book your lipid profile test online or contact Shyam Labs to arrange convenient sample collection in Chandigarh.",
+      },
+      {
+        title: "Schedule Home Collection",
+        description:
+          "Choose an early-morning fasting slot and provide your Chandigarh address during booking.",
+      },
+      {
+        title: "Sample Collection",
+        description:
+          "A trained phlebotomist follows appropriate safety and hygiene procedures during the collection visit.",
+      },
+      {
+        title: "Receive Digital Report",
+        description:
+          "Get your lipid profile report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+ 
+  healthConditions: [
+    "High Cholesterol Screening",
+    "Heart Disease Risk Assessment",
+    "Diabetes-Related Cardiac Monitoring",
+    "General Cardiovascular Health",
+  ],
+ 
+  whoShouldGetTested: [
+    "Adults from Around Age 20 Onward",
+    "People with Diabetes or Hypertension",
+    "Individuals with Obesity",
+    "Smokers",
+    "People with a Family History of Heart Disease",
+    "Individuals Doing an Annual Health Checkup",
+  ],
+ 
+  popularSearches: [
+    "Lipid Profile Test in Chandigarh",
+    "Lipid Profile Test Price Chandigarh",
+    "Cholesterol Test Near Me",
+    "Home Sample Collection Chandigarh",
+    "LDL HDL Test in Chandigarh",
+    "Diagnostic Lab Near Me Chandigarh",
+    "Lipid Profile Test Panchkula",
+    "Lipid Profile Test Mohali",
+  ],
+ 
+  sections: [
+    {
+      title: "Lipid Profile Testing Services in Chandigarh",
+      content: [
+        "Residents across Chandigarh can book lipid profile testing through Shyam Labs with convenient home sample collection where service coverage is available.",
+        "Our testing services are designed for working professionals, families, senior citizens, and patients who need routine or regular cardiovascular monitoring.",
+      ],
+    },
+    {
+      title: "Doorstep Blood Collection in Chandigarh",
+      content: [
+        "Our home sample collection service lets you schedule a lipid profile test from home without waiting at a diagnostic centre.",
+        "Trained phlebotomists follow appropriate safety and hygiene procedures during every collection visit, including guidance on fasting timing.",
+      ],
+    },
+    {
+      title: "Why Choose Shyam Labs for Lipid Profile Testing?",
+      content: [
+        "Affordable pricing, convenient sample collection, and digital reporting make Shyam Labs a convenient option for cholesterol testing across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+ 
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+ 
+  faq: [
+    {
+      question: "Which areas around Chandigarh are covered for home sample collection?",
+      answer:
+        "Shyam Labs provides home sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+    {
+      question: "Can I book a lipid profile test online in Chandigarh?",
+      answer: "Yes, you can schedule your lipid profile test online or by phone and choose a convenient collection time.",
+    },
+    {
+      question: "What is the lipid profile test price in Chandigarh?",
+      answer: `The lipid profile test is available at an offer price of ₹${getTestPrice('lipid-profile')}. Check the pricing page for current offers and booking details.`,
+    },
+    {
+      question: "Is fasting required before a lipid profile test?",
+      answer: "Yes, 9-12 hours of fasting is recommended before a lipid profile test for the most accurate results.",
+    },
+    {
+      question: "How quickly are lipid profile reports available in Chandigarh?",
+      answer: "Lipid profile reports are typically available digitally within 24 hours of sample collection.",
+    },
+    {
+      question: "Can senior citizens book a lipid profile test from home in Chandigarh?",
+      answer:
+        "Yes, home sample collection can be convenient for elderly patients who prefer to avoid travelling to a diagnostic centre, subject to service availability.",
+    },
+  ],
+ 
+  relatedLocations: [
+    { city: "Panchkula", slug: "/locations/lipid-profile-test-in-panchkula" },
+    { city: "Mohali", slug: "/locations/lipid-profile-test-in-mohali" },
+  ],
+ 
+  facts: [
+    { label: "Test Price", value: getTestPrice('lipid-profile') },
+    { label: "Report Time", value: "24 Hours" },
+    { label: "Collection Service", value: "Doorstep Sample Pickup" },
+    { label: "Report Delivery", value: "Online & WhatsApp Reports" },
+    { label: "Lab Location", value: "Sector 21, Panchkula" },
+  ],
+ 
+  tags: [
+    "Lipid Profile Test Chandigarh",
+    "Cholesterol Test Chandigarh",
+    "Pathology Lab Chandigarh",
+    "LDL HDL Test Chandigarh",
+    "Home Sample Collection Chandigarh",
+    "Blood Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "Lipid Profile Test Panchkula",
+    "Lipid Profile Test Mohali",
+    "Lipid Profile Test Tricity",
+  ],
+ 
+  cta: {
+    title: "Book a Lipid Profile Test in Chandigarh Today",
+ 
+    description:
+      "Schedule convenient home sample collection in Chandigarh and receive your lipid profile report digitally from Shyam Budget Friendly Labs.",
+ 
+    phone: "tel:+919914899300",
+ 
+    highlights: ["Home Sample Collection", "Affordable Cholesterol Testing", "Fast Digital Reports"],
+  },
+ 
+  author: "Shyam Budget Friendly Labs",
+ 
+  image: "/locations/chandigarh-lipid-profile-test.jpeg",
+ 
+  heroTitle: "Affordable Lipid Profile Testing & Home Sample Collection in Chandigarh",
+ 
+  heroSubtitle:
+    "Book your lipid profile test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
 }
 ];
 

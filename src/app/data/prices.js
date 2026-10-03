@@ -482,5 +482,172 @@ export const prices = [
 
     highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
   },
+},
+{
+  slug: "lipid-profile-test-price-chandigarh",
+ 
+  seo: {
+    // 49 characters
+    title: "Lipid Profile Test Price in Chandigarh | Book Now",
+    description: `Check lipid profile test price in Chandigarh starting at ₹${getTestPrice('lipid-profile')}, with home sample collection, digital reports & fasting guidance.`,
+    keywords: [
+      "lipid profile test price chandigarh",
+      "cholesterol test price chandigarh",
+      "lipid profile test cost chandigarh",
+      "lipid profile test price near me",
+      "affordable lipid profile test chandigarh",
+      "lipid profile test price list chandigarh",
+      "lipid profile test panchkula",
+      "lipid profile test mohali",
+      "lipid profile test tricity",
+    ],
+  },
+ 
+  hero: {
+    badge: "Quality Testing Standards",
+ 
+    title: "Lipid Profile Test Price in Chandigarh",
+ 
+    subtitle:
+      "Check the Lipid Profile (Cholesterol) test price in Chandigarh with accurate testing and convenient doorstep home sample collection from Shyam Labs.",
+ 
+    image: "/prices/lipid-profile-test.webp",
+  },
+ 
+  priceCard: {
+    actualPrice: 650,
+    offerPrice: getTestPrice('lipid-profile'),
+    offerText: "Offer Price",
+    reportTime: "24 Hours",
+    fasting: "9-12 Hours Recommended",
+    sampleType: "Blood",
+    homeCollection: true,
+    labVisit: true,
+ 
+    includes: {
+      title: "Every Booking Includes",
+      items: [
+        "Free Doorstep Home Sample Collection",
+        "Digital Report on WhatsApp & Email",
+        "No Advance Payment Required",
+      ],
+    },
+  },
+ 
+  whyGetTest: {
+    title: "Why Get a Lipid Profile Test in Chandigarh",
+    description:
+      "High cholesterol has no symptoms, which makes the lipid profile one of the most useful preventive tests whether you have risk factors or just want a routine check.",
+ 
+    reasons: [
+      {
+        title: "Catches Hidden Cardiovascular Risk",
+        description:
+          "Helps identify high LDL, low HDL, or elevated triglycerides before symptoms ever appear.",
+      },
+      {
+        title: "Useful for Routine & Risk-Factor Screening",
+        description:
+          "Commonly ordered for annual checkups, diabetes, hypertension, or a family history of heart disease.",
+      },
+      {
+        title: "Convenient & Affordable",
+        description:
+          "Home sample collection and transparent pricing make it easy to get tested without visiting a lab in person.",
+      },
+    ],
+  },
+ 
+  faqs: [
+    {
+      question: "How much does a lipid profile test cost in Chandigarh?",
+      answer: `The lipid profile test is available at an offer price of ₹${getTestPrice('lipid-profile')} at Shyam Labs, with home sample collection available subject to service coverage.`,
+    },
+    {
+      question: "Is fasting required before the lipid profile test?",
+      answer:
+        "Yes, 9-12 hours of fasting is recommended for accurate results. Our team will guide you on timing when you book.",
+    },
+    {
+      question: "Is home sample collection available in Chandigarh?",
+      answer:
+        "Yes, Shyam Labs provides doorstep home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+    },
+    {
+      question: "How soon will I get my lipid profile report after booking?",
+      answer:
+        "Reports are typically delivered digitally within 24 hours of sample collection.",
+    },
+  ],
+ 
+  relatedTests: [
+    "lipid-profile",
+    "total-cholesterol",
+    "triglycerides-test",
+    "hdl-cholesterol",
+    "ldl-cholesterol",
+    "vldl-cholesterol",
+  ],
+ 
+  interlinks: {
+    badge: "Included Services & Chandigarh Availability",
+ 
+    heading: "What's Included & Chandigarh Availability",
+ 
+    description:
+      "Checking the lipid profile test price? Explore what's included in this price and confirm home collection availability near you in Chandigarh and the Tricity.",
+ 
+    items: [
+      {
+        title: "What's Included in This Price?",
+        subtitle: "Lipid Profile Test Service Details",
+        description:
+          "See everything included in your lipid profile test — from fasting guidance to sample collection and report delivery.",
+        href: "/tests/lipid-profile",
+        icon: "FiActivity",
+        badge: "Test Details",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Test Details",
+        tracking: "price-interlink-service",
+      },
+      {
+        title: "Lipid Profile Test Available in Chandigarh",
+        subtitle: "Location & Home Collection",
+        description:
+          "Check lipid profile test home sample collection availability across Chandigarh and nearby Tricity areas.",
+        href: "/locations/lipid-profile-test-in-chandigarh",
+        icon: "FiMapPin",
+        badge: "Chandigarh Location",
+        badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+        btnText: "Visit Chandigarh Page",
+        tracking: "price-interlink-location",
+      },
+    ],
+  },
+ 
+  cta: {
+    title: "Book Your Lipid Profile Test in Chandigarh Today",
+ 
+    description:
+      "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
+ 
+    offerPrice: getTestPrice('lipid-profile'),
+ 
+    actualPrice: 650,
+ 
+    buttonText: "Book a Test",
+ 
+    testName: "Lipid Profile Test",
+ 
+    blogUrl: "/blogs/cholesterol-lipid-profile-test-guide",
+ 
+    serviceUrl: "/tests/lipid-profile",
+ 
+    locationUrl: "/locations/lipid-profile-test-in-chandigarh",
+ 
+    packageUrl: "/packages",
+ 
+    highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
+  },
 }
 ];
