@@ -55,24 +55,15 @@ export default function Blogs() {
         >
 
           {/* Image */}
-   <div className="h-44 md:h-48 overflow-hidden">
-  <Image
-    src={blog.coverImage || blog.image || "/logo.png"}
-    alt={blog.title}
-    width={800}
-    height={500}
-    className="
-      block
-      w-full
-      h-52
-      md:h-56
-      object-cover
-      transition-transform
-      duration-500
-      group-hover:scale-105
-    "
-  />
-</div>
+          <div className="relative aspect-[16/9] w-full overflow-hidden bg-slate-50 flex items-center justify-center p-2">
+            <Image
+              src={blog.coverImage || blog.image || "/logo.png"}
+              alt={blog.title}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="object-contain p-1 transition-transform duration-500 group-hover:scale-105"
+            />
+          </div>
 
           {/* Content */}
           <div className="p-6">

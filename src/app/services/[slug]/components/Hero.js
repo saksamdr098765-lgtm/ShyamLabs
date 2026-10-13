@@ -116,23 +116,24 @@ export default function ServiceHero({ service }) {
             </div>
           </div>
 
-          {/* Right */}
+          {/* Right - Mobile-first order-1 & uncropped object-contain */}
           <div className="order-1 lg:order-2">
-            <div className="relative mx-auto max-w-sm lg:max-w-none">
-              <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white p-2 shadow-lg sm:rounded-3xl">
-                <div className="relative aspect-[16/10] sm:aspect-[4/3] lg:aspect-[4/5] overflow-hidden rounded-xl sm:rounded-2xl">
+            <div className="relative mx-auto w-full max-w-lg lg:max-w-none">
+              <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white p-2 sm:p-3 shadow-lg sm:rounded-3xl">
+                <div className="relative aspect-[4/3] sm:aspect-[3/2] lg:aspect-[4/3] w-full overflow-hidden rounded-xl sm:rounded-2xl bg-slate-50 flex items-center justify-center">
                   <Image
                     src={service.coverImage || "/logo.png"}
                     alt={service.title}
                     fill
                     priority
-                    className="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    className="object-contain"
                   />
                 </div>
               </div>
 
               {/* Floating Badge */}
-              <div className="absolute -bottom-3 left-3 right-3 rounded-xl border border-slate-200 bg-white/95 p-3 shadow-md backdrop-blur sm:bottom-4 sm:left-4 sm:right-auto sm:max-w-xs">
+              <div className="mt-3 sm:mt-0 sm:absolute sm:-bottom-4 sm:left-4 rounded-xl border border-slate-200 bg-white/95 p-3 shadow-md backdrop-blur sm:max-w-xs">
                 <div className="flex items-center gap-2.5">
                   <div className="rounded-lg bg-blue-100 p-2 text-[#0A4F8A]">
                     <FiShield className="text-lg" />

@@ -21,11 +21,9 @@ export default function Hero() {
   };
 
   const quickSearchTags = [
-    { label: "Full Body Checkup", path: "/packages" },
-    { label: "CBC Test", path: "/tests/cbc-complete-blood-count" },
-    { label: "Thyroid Profile", path: "/tests/thyroid-profile-t3-t4-tsh" },
-    { label: "Diabetes Screening", path: "/tests/hba1c-glycated-hemoglobin" },
-    { label: "Vitamin D", path: "/tests/vitamin-d-25-hydroxy" },
+    { label: "Full Body Checkup", path: "/package-detail-page/executive-full-body-checkup" },
+    { label: "CBC Test", path: "/tests/cbc-test" },
+    { label: "Thyroid Profile", path: "/tests/thyroid-profile-test" }
   ];
 
   return (

@@ -89,13 +89,13 @@ export default function BlogPage() {
               className="group bg-white border shadow-xl border-slate-100 rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-300 flex flex-col justify-between"
             >
               <div>
-                <div className="relative h-56 overflow-hidden bg-slate-50">
+                <div className="relative aspect-[16/9] w-full overflow-hidden bg-slate-50 flex items-center justify-center p-2">
                   <Image
                     src={blog.coverImage || blog.image || "/logo.png"}
                     alt={blog.title}
-                    width={600}
-                    height={400}
-                    className="object-cover h-full w-full group-hover:scale-105 transition duration-500"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-contain p-1 group-hover:scale-105 transition duration-500"
                   />
                 </div>
 

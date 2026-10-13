@@ -29,18 +29,18 @@ export default function FeaturedBlog({ blog }) {
       >
         <div className="grid lg:grid-cols-2">
           {/* Image */}
-          <div className="relative aspect-[16/9] overflow-hidden lg:aspect-auto">
+          <div className="relative aspect-[16/10] sm:aspect-[16/9] lg:aspect-auto lg:min-h-[340px] w-full overflow-hidden bg-slate-50 flex items-center justify-center p-2 sm:p-4">
             <Image
               src={blog.coverImage || "/logo.png"}
               alt={blog.title}
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              className="object-contain p-2 transition-transform duration-500 group-hover:scale-105"
             />
 
             <div className="absolute left-3 top-3 sm:left-4 sm:top-4">
-              <span className="rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-[#0A4F8A] backdrop-blur">
+              <span className="rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-[#0A4F8A] backdrop-blur shadow-2xs">
                 {blog.category}
               </span>
             </div>

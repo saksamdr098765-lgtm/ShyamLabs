@@ -25,8 +25,8 @@ export default function Hero({ hero, priceCard, slug }) {
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-10">
-          {/* Left */}
-          <div>
+          {/* Left - Mobile-first order-2 */}
+          <div className="order-2 lg:order-1">
             {hero.badge && (
               <span className="inline-flex items-center gap-1.5 rounded-full border border-blue-200 bg-white px-3 py-1 text-xs font-semibold text-[#0A4F8A] shadow-2xs">
                 <FiShield className="text-[#0A4F8A]" />
@@ -93,18 +93,20 @@ export default function Hero({ hero, priceCard, slug }) {
             </div>
           </div>
 
-          {/* Right Image */}
+          {/* Right Image - Mobile-first order-1 & uncropped object-contain */}
           {hero.image && (
-            <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-md">
-              <div className="relative aspect-[16/10] w-full sm:aspect-[16/9]">
-                <Image
-                  src={hero.image}
-                  alt={hero.title}
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  priority
-                  className="object-cover"
-                />
+            <div className="order-1 lg:order-2">
+              <div className="relative mx-auto w-full max-w-lg lg:max-w-none overflow-hidden rounded-2xl sm:rounded-3xl border border-slate-200 bg-white p-2 sm:p-3 shadow-lg">
+                <div className="relative aspect-[4/3] sm:aspect-[3/2] w-full overflow-hidden rounded-xl sm:rounded-2xl bg-slate-50 flex items-center justify-center">
+                  <Image
+                    src={hero.image}
+                    alt={hero.title}
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    priority
+                    className="object-contain"
+                  />
+                </div>
               </div>
             </div>
           )}

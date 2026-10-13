@@ -17,9 +17,9 @@ export default function Hero({ hero, slug, testName }) {
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-white pt-28 pb-12 sm:pt-32 lg:pt-36 lg:pb-20">
-      <div className="mx-auto grid max-w-7xl items-center gap-10 px-6 lg:grid-cols-2 lg:px-8">
-        {/* Left */}
-        <div>
+      <div className="mx-auto grid max-w-7xl items-center gap-8 px-4 sm:px-6 lg:grid-cols-2 lg:gap-12 lg:px-8">
+        {/* Left - Mobile-first order-2 */}
+        <div className="order-2 lg:order-1">
           {hero.badge && (
             <span className="inline-flex items-center rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-[#0A4F8A]">
               {hero.badge}
@@ -85,18 +85,20 @@ export default function Hero({ hero, slug, testName }) {
           </div>
         </div>
 
-        {/* Right */}
+        {/* Right - Mobile-first order-1 & uncropped object-contain */}
         {hero.image && (
-          <div>
-            <div className="overflow-hidden rounded-3xl bg-white shadow-xl border border-slate-200">
-              <Image
-                src={hero.image}
-                alt={hero.imageAlt || hero.title}
-                width={700}
-                height={700}
-                className="h-full w-full object-cover"
-                priority
-              />
+          <div className="order-1 lg:order-2">
+            <div className="relative mx-auto w-full max-w-lg lg:max-w-none overflow-hidden rounded-2xl sm:rounded-3xl border border-slate-200 bg-white p-2 sm:p-3 shadow-xl">
+              <div className="relative aspect-[4/3] sm:aspect-[3/2] lg:aspect-square w-full overflow-hidden rounded-xl sm:rounded-2xl bg-slate-50 flex items-center justify-center">
+                <Image
+                  src={hero.image}
+                  alt={hero.imageAlt || hero.title}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-contain"
+                  priority
+                />
+              </div>
             </div>
           </div>
         )}

@@ -116,7 +116,6 @@ export const prices = [
       highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
     },
   },
-
  {
    slug: "cbc-test-price-chandigarh",
  
@@ -649,5 +648,353 @@ export const prices = [
  
     highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
   },
+},
+{
+  slug: "liver-function-test-price-chandigarh",
+
+  seo: {
+    // 49 characters
+    title: "Liver Function Test Price in Chandigarh | Book LFT",
+    description: `Check liver function test (LFT) price in Chandigarh starting at ₹${getTestPrice('liver-function-test')}, with home sample collection, digital reports & easy online booking.`,
+    keywords: [
+      "liver function test price chandigarh",
+      "lft test price chandigarh",
+      "liver function test cost chandigarh",
+      "lft test price near me",
+      "affordable liver function test chandigarh",
+      "liver profile test price chandigarh",
+      "liver function test panchkula",
+      "liver function test mohali",
+      "liver function test tricity",
+    ],
+  },
+
+  hero: {
+    badge: "Quality Testing Standards",
+
+    title: "Liver Function Test (LFT) Price in Chandigarh",
+
+    subtitle:
+      "Check the Liver Function Test price in Chandigarh with accurate testing and convenient doorstep home sample collection from Shyam Labs.",
+
+    image: "/prices/liver-function-test.webp",
+  },
+
+  priceCard: {
+    actualPrice: 525,
+    offerPrice: getTestPrice('liver-function-test'),
+    offerText: "Offer Price",
+    reportTime: "24 Hours",
+    fasting: "Usually Not Required",
+    sampleType: "Blood",
+    homeCollection: true,
+    labVisit: true,
+
+    includes: {
+      title: "Every Booking Includes",
+      items: [
+        "Free Doorstep Home Sample Collection",
+        "Digital Report on WhatsApp & Email",
+        "No Advance Payment Required",
+      ],
+    },
+  },
+
+  whyGetTest: {
+    title: "Why Get a Liver Function Test in Chandigarh",
+    description:
+      "Liver disease often causes no symptoms until it is advanced, which makes a simple blood test the most reliable way to check how your liver is doing.",
+
+    reasons: [
+      {
+        title: "Catches Liver Stress Early",
+        description:
+          "Helps identify raised liver enzymes from fatty liver, alcohol, infection, or medicines before symptoms appear.",
+      },
+      {
+        title: "Useful for Jaundice, Fatigue & Medication Monitoring",
+        description:
+          "Commonly ordered for yellow eyes, unexplained tiredness, abdominal discomfort, or when taking long-term medicines.",
+      },
+      {
+        title: "Convenient & Affordable",
+        description:
+          "Home sample collection and transparent pricing make it easy to get tested without visiting a lab in person.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How much does a liver function test cost in Chandigarh?",
+      answer: `The liver function test is available at an offer price of ₹${getTestPrice('liver-function-test')} at Shyam Labs, with home sample collection available subject to service coverage.`,
+    },
+    {
+      question: "What is included in the LFT price?",
+      answer:
+        "The LFT covers SGOT, SGPT, ALP, total, direct and indirect bilirubin, total protein, albumin, globulin, and the A/G ratio, along with a digital report.",
+    },
+    {
+      question: "Is home sample collection available in Chandigarh?",
+      answer:
+        "Yes, Shyam Labs provides doorstep home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+    },
+    {
+      question: "Do I need to pay in advance to book a liver function test?",
+      answer:
+        "No advance payment is required — you can pay at the time of sample collection or according to the payment option provided during booking.",
+    },
+    {
+      question: "How soon will I get my LFT report after booking?",
+      answer:
+        "Reports are typically delivered digitally within 24 hours of sample collection.",
+    },
+  ],
+
+  relatedTests: [
+    "liver-function-test",
+    "sgot-test",
+    "sgpt-test",
+    "bilirubin-total",
+    "alkaline-phosphatase-test",
+    "serum-albumin",
+    "kidney-function-test",
+    "hbsag-test",
+  ],
+
+  interlinks: {
+    badge: "Included Services & Chandigarh Availability",
+
+    heading: "What's Included & Chandigarh Availability",
+
+    description:
+      "Checking the LFT price? Explore what's included in this price and confirm home collection availability near you in Chandigarh and the Tricity.",
+
+    items: [
+      {
+        title: "What's Included in This Price?",
+        subtitle: "Liver Function Test Service Details",
+        description:
+          "See everything included in your LFT — from sample collection to laboratory analysis and report delivery.",
+        href: "/tests/liver-function-test",
+        icon: "FiActivity",
+        badge: "Test Details",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Test Details",
+        tracking: "price-interlink-service",
+      },
+      {
+        title: "Liver Function Test Available in Chandigarh",
+        subtitle: "Location & Home Collection",
+        description:
+          "Check LFT home sample collection availability across Chandigarh and nearby Tricity areas.",
+        href: "/locations/liver-function-test-in-chandigarh",
+        icon: "FiMapPin",
+        badge: "Chandigarh Location",
+        badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+        btnText: "Visit Chandigarh Page",
+        tracking: "price-interlink-location",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Liver Function Test in Chandigarh Today",
+
+    description:
+      "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
+
+    offerPrice: getTestPrice('liver-function-test'),
+
+    actualPrice: 525,
+
+    buttonText: "Book a Test",
+
+    testName: "Liver Function Test",
+
+    blogUrl: "/blogs/liver-health-lft-test-guide",
+
+    serviceUrl: "/tests/liver-function-test",
+
+    locationUrl: "/locations/liver-function-test-in-chandigarh",
+
+    packageUrl: "/packages",
+
+    highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
+  },
+},
+ {
+  slug: "vitamin-d-test-price-chandigarh",
+
+  seo: {
+    // 47 characters
+    title: "Vitamin D Test Price in Chandigarh | Book 25-OH",
+    description: `Check vitamin D test price in Chandigarh starting at ₹${getTestPrice('vitamin-d-test')}, with home sample collection, digital reports & no fasting needed.`,
+    keywords: [
+      "vitamin d test price chandigarh",
+      "vitamin d test cost chandigarh",
+      "vitamin d3 test price chandigarh",
+      "vitamin d test price near me",
+      "affordable vitamin d test chandigarh",
+      "25 hydroxy vitamin d test price",
+      "vitamin d test panchkula",
+      "vitamin d test mohali",
+      "vitamin d test tricity",
+    ],
+  },
+
+  hero: {
+    badge: "Quality Testing Standards",
+
+    title: "Vitamin D Test Price in Chandigarh",
+
+    subtitle:
+      "Check the Vitamin D (25-OH) test price in Chandigarh with accurate testing and convenient doorstep home sample collection from Shyam Labs.",
+
+    image: "/prices/vitamin-d-test.webp",
+  },
+
+  priceCard: {
+    actualPrice: 675,
+    offerPrice: getTestPrice('vitamin-d-test'),
+    offerText: "Offer Price",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    sampleType: "Blood",
+    homeCollection: true,
+    labVisit: true,
+
+    includes: {
+      title: "Every Booking Includes",
+      items: [
+        "Free Doorstep Home Sample Collection",
+        "Digital Report on WhatsApp & Email",
+        "No Advance Payment Required",
+      ],
+    },
+  },
+
+  whyGetTest: {
+    title: "Why Get a Vitamin D Test in Chandigarh",
+    description:
+      "Low vitamin D is very common and often silent. A simple blood test is the only reliable way to know your level before starting any supplement.",
+
+    reasons: [
+      {
+        title: "Finds Hidden Deficiency",
+        description:
+          "Helps identify low vitamin D that may be behind tiredness, body ache, or bone pain.",
+      },
+      {
+        title: "Guides Safe Supplementation",
+        description:
+          "Knowing your level helps your doctor choose the right dose and avoid taking too much.",
+      },
+      {
+        title: "Convenient & Affordable",
+        description:
+          "Home sample collection, no fasting, and transparent pricing make it easy to get tested without visiting a lab.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How much does a vitamin D test cost in Chandigarh?",
+      answer: `The vitamin D test is available at an offer price of ₹${getTestPrice('vitamin-d-test')} at Shyam Labs, with home sample collection available subject to service coverage.`,
+    },
+    {
+      question: "Why is a vitamin D test costlier than other basic tests?",
+      answer:
+        "It uses specialised analyser reagents and is run in smaller volumes than routine tests like CBC or blood sugar. We keep the price affordable and include home collection.",
+    },
+    {
+      question: "Is fasting needed before the vitamin D test?",
+      answer:
+        "No, fasting is not required. You can have the test at any time of day.",
+    },
+    {
+      question: "Is home sample collection available in Chandigarh?",
+      answer:
+        "Yes, Shyam Labs provides doorstep home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+    },
+    {
+      question: "How soon will I get my vitamin D report after booking?",
+      answer:
+        "Reports are typically delivered digitally within 24 hours of sample collection.",
+    },
+  ],
+
+  relatedTests: [
+    "vitamin-d-test",
+    "vitamin-b12-test",
+    "serum-calcium",
+    "alkaline-phosphatase-test",
+    "thyroid-profile-test",
+    "cbc-test",
+  ],
+
+  interlinks: {
+    badge: "Included Services & Chandigarh Availability",
+
+    heading: "What's Included & Chandigarh Availability",
+
+    description:
+      "Checking the vitamin D test price? Explore what's included in this price and confirm home collection availability near you in Chandigarh and the Tricity.",
+
+    items: [
+      {
+        title: "What's Included in This Price?",
+        subtitle: "Vitamin D Test Service Details",
+        description:
+          "See everything included in your vitamin D test — from sample collection to laboratory analysis and report delivery.",
+        href: "/tests/vitamin-d-test",
+        icon: "FiActivity",
+        badge: "Test Details",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Test Details",
+        tracking: "price-interlink-service",
+      },
+      {
+        title: "Vitamin D Test Available in Chandigarh",
+        subtitle: "Location & Home Collection",
+        description:
+          "Check vitamin D test home sample collection availability across Chandigarh and nearby Tricity areas.",
+        href: "/locations/vitamin-d-test-in-chandigarh",
+        icon: "FiMapPin",
+        badge: "Chandigarh Location",
+        badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+        btnText: "Visit Chandigarh Page",
+        tracking: "price-interlink-location",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Vitamin D Test in Chandigarh Today",
+
+    description:
+      "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
+
+    offerPrice: getTestPrice('vitamin-d-test'),
+
+    actualPrice: 675,
+
+    buttonText: "Book a Test",
+
+    testName: "Vitamin D Test",
+
+    blogUrl: "/blogs/vitamin-d-test-guide",
+
+    serviceUrl: "/tests/vitamin-d-test",
+
+    locationUrl: "/locations/vitamin-d-test-in-chandigarh",
+
+    packageUrl: "/packages",
+
+    highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
+  },
 }
 ];
+
+

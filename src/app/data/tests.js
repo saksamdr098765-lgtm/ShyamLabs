@@ -90,7 +90,300 @@ export const tests = [
     reportTime: "24 Hours",
      status:"draft"
   },
+{
+  slug: "vitamin-d-test",
+  name: "Vitamin D Test (25-OH)",
+  shortName: "Vitamin D",
+  category: "Vitamin Test",
+  organ: "Nutrition",
+  sampleType: "Blood",
+  parameterCount: 1,
+  fasting: false,
+  homeCollection: true,
+  popular: true,
 
+  description:
+    "Vitamin D Test (25-Hydroxy Vitamin D) measures the level of vitamin D in your blood to check for deficiency, insufficiency, or excess.",
+
+  price: 450,
+  reportTime: "24 Hours",
+  status: "published",
+
+  seo: {
+    // 51 characters
+    title: "Vitamin D Test in Chandigarh - Price & Normal Range",
+    // 121 characters
+    description:
+      "Book vitamin D test (25-OH) in Chandigarh with home sample collection. Check vitamin D test price, normal range & levels.",
+    keywords: [
+      "vitamin d test",
+      "vitamin d test price",
+      "25 hydroxy vitamin d test",
+      "vitamin d blood test",
+      "vitamin d3 test",
+      "vitamin d test chandigarh",
+      "vitamin d test near me",
+      "vitamin d test at home",
+      "vitamin d normal range ng ml",
+      "vitamin d test cost",
+      "vitamin d total test",
+      "vitamin d test in pregnancy",
+    ],
+  },
+
+  hero: {
+    badge: "Home Sample Collection Available",
+
+    title: "Vitamin D Test (25-OH) in Chandigarh",
+
+    description:
+      "Book a Vitamin D Test in Chandigarh and the Tricity with fast report delivery, professional sample collection, and convenient doorstep home collection from Shyam Labs. No fasting needed. Check the latest vitamin D test price and book online.",
+
+    image: "/tests/vitamin-d.webp",
+
+    imageAlt: "Vitamin D Blood Test (25-OH Vitamin D) in Chandigarh",
+
+    reportTime: "24 Hours",
+
+    homeCollection: "Available",
+
+    trustPoints: [
+      "Professional Sample Collection",
+      "Digital Reports",
+      "Affordable Vitamin D Test Price",
+      "Quality-Controlled Testing",
+    ],
+
+    bookButton: "Book Vitamin D Test",
+
+    bookingUrl: "/prices/vitamin-d-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+  },
+
+  quickFacts: {
+    sample: "Blood Sample",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    homeCollection: "Available",
+    ageGroup: "Adults & Children",
+  },
+
+  whyChooseUs: {
+    title: "Why Choose Shyam Labs for Your Vitamin D Test?",
+
+    description:
+      "Get a dependable vitamin D test in Chandigarh and the Tricity with easy booking, professional sample collection, convenient home collection, and quick access to your digital report.",
+
+    items: [
+      {
+        title: "Professional Sample Collection",
+        description:
+          "Every blood draw follows proper collection procedures for a comfortable, low-discomfort experience.",
+      },
+      {
+        title: "Standardised Testing Process",
+        description:
+          "Your vitamin D sample is analysed on calibrated equipment following standard laboratory protocols.",
+      },
+      {
+        title: "Fast Digital Reports",
+        description:
+          "Your vitamin D report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
+      },
+      {
+        title: "Home Collection Across Chandigarh & Tricity",
+        description:
+          "Book a vitamin D test with convenient home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+    ],
+  },
+
+  testDetails: {
+    title: "About the Vitamin D Test (25-Hydroxy Vitamin D)",
+
+    description: [
+      "The vitamin D test measures 25-hydroxy vitamin D (25-OH vitamin D), the main form of vitamin D circulating in your blood and the best indicator of your vitamin D status. It is also listed as 'Vitamin D Total' or 'Vitamin D3' by many labs — these usually refer to the same blood test.",
+      "Vitamin D helps your body absorb calcium for strong bones, and also supports muscle function and immunity. The test shows whether your level is deficient, insufficient, sufficient, or unusually high. It cannot tell you why your level is low — your doctor works that out from your history, diet, sun exposure, and other tests such as calcium.",
+    ],
+
+    included: [
+      "25-Hydroxy Vitamin D (Total)",
+    ],
+  },
+
+  preparation: {
+    title: "Preparation Before Your Vitamin D Test",
+
+    description:
+      "A vitamin D test needs almost no preparation — here's what to keep in mind before your appointment.",
+
+    items: [
+      {
+        title: "Vitamin D Test Fasting Requirement",
+        description:
+          "Fasting is not required. You can eat and drink normally and have the test at any time of day.",
+      },
+      {
+        title: "Mention Supplements You Take",
+        description:
+          "Tell the phlebotomist if you are taking vitamin D tablets or sachets, as your result reflects your current level. Do not stop prescribed supplements unless your doctor advises it.",
+      },
+      {
+        title: "Mention Biotin or Hair-Skin-Nail Supplements",
+        description:
+          "High-dose biotin can interfere with some lab assays. If you take it, let the lab know when you book.",
+      },
+    ],
+  },
+
+  bookingProcess: {
+    title: "How to Book Your Vitamin D Test in Chandigarh",
+
+    description:
+      "Booking a vitamin D test with Shyam Labs takes just a few minutes, with convenient home sample collection available across Chandigarh and the Tricity.",
+
+    steps: [
+      {
+        title: "Book Test",
+        description:
+          "Select the Vitamin D Test and submit your booking request online or over a call.",
+      },
+      {
+        title: "Schedule Sample Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh or Tricity address.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is processed using standard laboratory procedures.",
+      },
+      {
+        title: "Receive Report",
+        description:
+          "Your digital vitamin D report is sent to you within 24 hours of collection.",
+      },
+    ],
+  },
+
+  pricePreview: {
+    title: "Vitamin D Test Price",
+
+    description:
+      "Check the latest vitamin D test price in Chandigarh and book with convenient home sample collection.",
+
+    price: 450,
+
+    priceUrl: "/prices/vitamin-d-test-price-chandigarh",
+  },
+
+  relatedTests: [
+    "vitamin-b12-test",
+    "serum-calcium",
+    "alkaline-phosphatase-test",
+    "thyroid-profile-test",
+    "cbc-test",
+  ],
+
+  faq: {
+    title: "Frequently Asked Questions",
+
+    description:
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the vitamin D test, its results, and booking.",
+
+    items: [
+      {
+        question: "What is a vitamin D test, and what is it called?",
+        answer:
+          "It is a blood test that measures 25-hydroxy vitamin D (25-OH vitamin D), often reported as 'Vitamin D Total'. It shows whether your vitamin D level is low, normal, or high.",
+      },
+      {
+        question: "Is the vitamin D test the same as the vitamin D3 test?",
+        answer:
+          "In most labs, yes — both refer to the 25-hydroxy vitamin D blood test. Some reports list 'Total (D2 + D3)' while others list D3 only, so check which one your report names.",
+      },
+      {
+        question: "What is the normal range for vitamin D?",
+        answer:
+          "In ng/mL, below 20 is deficient, 20-29 is insufficient, 30-100 is generally sufficient, and above 100 may be too high. In nmol/L, multiply ng/mL by 2.5. Always check the range on your own report.",
+      },
+      {
+        question: "Is a vitamin D level of 44 low?",
+        answer:
+          "No. If the value is in ng/mL, 44 falls within the usual sufficient range of 30-100. If your report is in nmol/L, 44 nmol/L would be low, so check the unit.",
+      },
+      {
+        question: "Is a vitamin D level of 6 or 8 dangerous?",
+        answer:
+          "A level of 6-8 ng/mL is severely low. It is not usually an emergency, but it needs treatment under a doctor's guidance, because long-term severe deficiency can weaken bones and muscles.",
+      },
+      {
+        question: "Is fasting required for a vitamin D test?",
+        answer:
+          "No. You can eat and drink normally and have the test at any time of day.",
+      },
+      {
+        question: "Why is a vitamin D test costly compared to basic blood tests?",
+        answer:
+          "It uses specialised analyser reagents and is run in smaller volumes than routine tests like blood sugar or CBC. At Shyam Labs we keep the price affordable and include home collection.",
+      },
+      {
+        question: "What are the symptoms of low vitamin D?",
+        answer:
+          "Fatigue, bone or back pain, muscle weakness or cramps, frequent infections, and low mood are common. Mild deficiency often has no symptoms, which is why a blood test is the only reliable way to check.",
+      },
+      {
+        question: "Can vitamin D levels be checked without a blood test?",
+        answer:
+          "Not reliably. Symptoms, sun exposure, or diet can suggest a risk but cannot tell you your actual level — only the blood test can.",
+      },
+      {
+        question: "Does a CBC test check vitamin D?",
+        answer:
+          "No. A CBC measures blood cells and hemoglobin. Vitamin D needs its own 25-OH vitamin D test.",
+      },
+      {
+        question: "How often should I get a vitamin D test?",
+        answer:
+          "If you are deficient, doctors commonly recheck after about 3 months of treatment. Otherwise, people at higher risk often test once a year, as your doctor advises.",
+      },
+      {
+        question: "Is home sample collection available for vitamin D test in Chandigarh?",
+        answer:
+          "Yes, Shyam Labs provides home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+      {
+        question: "What is the vitamin D test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current vitamin D test price and book online with home sample collection.",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Vitamin D Test in Chandigarh Today",
+
+    description:
+      "Get convenient home sample collection, reliable vitamin D testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+
+    highlights: [
+      "Home Sample Collection Available",
+      "Fast Report Delivery",
+      "Professional Collection Process",
+    ],
+
+    price: "450",
+
+    priceText: "Check detailed vitamin D test pricing and booking options.",
+
+    bookingUrl: "/prices/vitamin-d-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+
+    buttonText: "Book Vitamin D Test",
+  },
+},
  {
   slug: "thyroid-profile-test",
   name: "Thyroid Profile Test",
@@ -282,8 +575,6 @@ export const tests = [
   relatedTests: [
     "hba1c-test",
     "lipid-profile",
-    "vitamin-d-test",
-    "vitamin-b12-test",
     "kidney-function-test",
     "liver-function-test",
   ],
@@ -1607,15 +1898,309 @@ export const tests = [
   category: "Liver Function",
   organ: "Liver",
   sampleType: "Blood",
-  parameterCount: 6,
-  fasting: true,
+  parameterCount: 10,
+  fasting: false,
   homeCollection: true,
   popular: true,
+
   description:
-    "Comprehensive liver profile that evaluates liver enzymes, bilirubin and protein levels.",
+    "Liver Function Test (LFT) measures liver enzymes (SGOT, SGPT, ALP), bilirubin, and proteins like albumin to show how well your liver is working.",
+
   price: 350,
   reportTime: "24 Hours",
-   status:"draft"
+  status: "published",
+
+  seo: {
+    // 56 characters
+    title: "Liver Function Test in Chandigarh - Price & Normal Range",
+    // 128 characters
+    description:
+      "Book LFT (liver function test) in Chandigarh with home sample collection. Check LFT price, normal range, SGOT, SGPT & bilirubin.",
+    keywords: [
+      "liver function test",
+      "lft test",
+      "lft test price",
+      "liver function test price",
+      "liver function test chandigarh",
+      "liver function test near me",
+      "liver profile test",
+      "sgot sgpt test",
+      "sgpt normal range",
+      "sgot normal range",
+      "bilirubin test",
+      "liver function test normal range",
+    ],
+  },
+
+  hero: {
+    badge: "Home Sample Collection Available",
+
+    title: "Liver Function Test (LFT) in Chandigarh",
+
+    description:
+      "Book a Liver Function Test in Chandigarh and the Tricity with fast report delivery, professional sample collection, and convenient doorstep home collection from Shyam Labs. Check the latest LFT price and book online.",
+
+    image: "/tests/liver-function-test.webp",
+
+    imageAlt: "Liver Function Test (LFT) - SGOT, SGPT, Bilirubin in Chandigarh",
+
+    reportTime: "24 Hours",
+
+    homeCollection: "Available",
+
+    trustPoints: [
+      "Professional Sample Collection",
+      "Digital Reports",
+      "Affordable LFT Price",
+      "Quality-Controlled Testing",
+    ],
+
+    bookButton: "Book LFT Test",
+
+    bookingUrl: "/prices/liver-function-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+  },
+
+  quickFacts: {
+    sample: "Blood Sample",
+    reportTime: "24 Hours",
+    fasting: "Usually Not Required",
+    homeCollection: "Available",
+    ageGroup: "Adults & Children",
+  },
+
+  whyChooseUs: {
+    title: "Why Choose Shyam Labs for Your Liver Function Test?",
+
+    description:
+      "Get a dependable LFT in Chandigarh and the Tricity with easy booking, professional sample collection, convenient home collection, and quick access to your digital report.",
+
+    items: [
+      {
+        title: "Professional Sample Collection",
+        description:
+          "Every blood draw follows proper collection procedures for a comfortable, low-discomfort experience.",
+      },
+      {
+        title: "Standardised Testing Process",
+        description:
+          "Your LFT sample is analysed on calibrated equipment following standard laboratory protocols.",
+      },
+      {
+        title: "Fast Digital Reports",
+        description:
+          "Your LFT report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
+      },
+      {
+        title: "Home Collection Across Chandigarh & Tricity",
+        description:
+          "Book an LFT with convenient home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+    ],
+  },
+
+  testDetails: {
+    title: "About the Liver Function Test (LFT Full Form: Liver Function Test)",
+
+    description: [
+      "A Liver Function Test (LFT), also called a liver profile or liver panel, is a group of blood tests that measure liver enzymes, bilirubin, and proteins to show how well your liver is working and whether it may be inflamed or damaged.",
+      "An LFT can point towards conditions such as hepatitis, fatty liver, alcohol-related liver disease, bile duct problems, or drug-related liver stress. It cannot confirm fatty liver on its own, though — that needs an ultrasound or elastography — and viral hepatitis needs specific virus tests such as HBsAg or anti-HCV.",
+    ],
+
+    included: [
+      "SGOT (AST)",
+      "SGPT (ALT)",
+      "Alkaline Phosphatase (ALP)",
+      "Total Bilirubin",
+      "Direct Bilirubin",
+      "Indirect Bilirubin",
+      "Total Protein",
+      "Serum Albumin",
+      "Serum Globulin",
+      "A/G Ratio",
+    ],
+  },
+
+  preparation: {
+    title: "Preparation Before Your Liver Function Test",
+
+    description:
+      "An LFT needs very little preparation — here's what to keep in mind before your appointment.",
+
+    items: [
+      {
+        title: "Liver Function Test Fasting Requirement",
+        description:
+          "Fasting is usually not required, though some labs advise 8-12 hours of fasting, especially if the LFT is booked with blood sugar or a lipid profile. Our team will confirm when you book.",
+      },
+      {
+        title: "Avoid Alcohol Beforehand",
+        description:
+          "Avoid alcohol for at least 24 hours before the test, as it can temporarily raise liver enzymes such as SGOT and GGT.",
+      },
+      {
+        title: "Inform About Medications & Supplements",
+        description:
+          "Mention any medicines, herbal products, or supplements you take — some painkillers, antibiotics, and supplements can affect liver values. Don't stop prescribed medicines unless your doctor tells you to.",
+      },
+    ],
+  },
+
+  bookingProcess: {
+    title: "How to Book Your Liver Function Test in Chandigarh",
+
+    description:
+      "Booking an LFT with Shyam Labs takes just a few minutes, with convenient home sample collection available across Chandigarh and the Tricity.",
+
+    steps: [
+      {
+        title: "Book Test",
+        description:
+          "Select the Liver Function Test and submit your booking request online or over a call.",
+      },
+      {
+        title: "Schedule Sample Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh or Tricity address.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is processed using standard laboratory procedures.",
+      },
+      {
+        title: "Receive Report",
+        description:
+          "Your digital LFT report is sent to you within 24 hours of collection.",
+      },
+    ],
+  },
+
+  pricePreview: {
+    title: "Liver Function Test Price",
+
+    description:
+      "Check the latest LFT price in Chandigarh and book with convenient home sample collection.",
+
+    price: 350,
+
+    priceUrl: "/prices/liver-function-test-price-chandigarh",
+  },
+
+  relatedTests: [
+    "sgot-test",
+    "sgpt-test",
+    "bilirubin-total",
+    "alkaline-phosphatase-test",
+    "serum-albumin",
+    "kidney-function-test",
+    "hbsag-test",
+    "hcv-test",
+  ],
+
+  faq: {
+    title: "Frequently Asked Questions",
+
+    description:
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the liver function test, its results, and booking.",
+
+    items: [
+      {
+        question: "What is the full form of LFT test?",
+        answer:
+          "LFT stands for Liver Function Test — a group of blood tests that measure liver enzymes, bilirubin, and proteins to check how well your liver is working.",
+      },
+      {
+        question: "What tests are included in a liver function test?",
+        answer:
+          "A standard LFT includes SGOT (AST), SGPT (ALT), ALP, total, direct and indirect bilirubin, total protein, albumin, globulin, and the A/G ratio. GGT is sometimes added separately.",
+      },
+      {
+        question: "What is the SGOT and SGPT normal range?",
+        answer:
+          "As a general guide, SGOT (AST) is about 10-40 U/L and SGPT (ALT) is about 7-56 U/L in adults, though ranges vary by lab and sex. Always check the range printed on your own report.",
+      },
+      {
+        question: "What is the normal range for bilirubin, albumin, and ALP?",
+        answer:
+          "Typical adult ranges are total bilirubin about 0.2-1.2 mg/dL, direct bilirubin up to 0.3 mg/dL, albumin about 3.5-5.0 g/dL, and ALP about 44-147 U/L. Lab ranges differ slightly, so rely on your report.",
+      },
+      {
+        question: "Is fasting required for a liver function test?",
+        answer:
+          "Usually not. Some labs advise 8-12 hours of fasting, particularly if the LFT is combined with blood sugar or a lipid profile. Avoid alcohol for 24 hours beforehand.",
+      },
+      {
+        question: "Can an LFT confirm fatty liver?",
+        answer:
+          "No. Raised SGPT, SGOT, or GGT can point towards fatty liver, but many people with fatty liver have normal LFT values. An ultrasound or elastography is used to confirm it.",
+      },
+      {
+        question: "What if my LFT is high?",
+        answer:
+          "A high enzyme value means your liver may be inflamed or stressed, which has many possible causes — fatty liver, alcohol, viral hepatitis, medicines, or gallbladder problems. Your doctor looks at which values are raised, by how much, and your symptoms before advising next steps.",
+      },
+      {
+        question: "When should I worry about my liver function test?",
+        answer:
+          "Mildly raised values are common and often temporary. Values several times above the upper limit, high bilirubin with yellow eyes or skin, or abnormal results alongside symptoms like dark urine, pale stools, or abdominal swelling deserve prompt medical attention.",
+      },
+      {
+        question: "What are the signs of poor liver function?",
+        answer:
+          "Yellowing of the eyes or skin (jaundice), dark urine, pale stools, persistent fatigue, nausea or loss of appetite, itching, abdominal pain or swelling, and easy bruising. Early liver disease often has no symptoms, which is why testing matters.",
+      },
+      {
+        question: "Can I check liver function at home?",
+        answer:
+          "Symptoms alone can't tell you how your liver is working — only a blood test can. You can, however, book home sample collection so a phlebotomist collects the blood at your doorstep and the test is run at the lab.",
+      },
+      {
+        question: "What is the difference between a CBC and an LFT?",
+        answer:
+          "A CBC measures your blood cells (red cells, white cells, platelets, hemoglobin), while an LFT measures liver enzymes, bilirubin, and proteins. They check different things and are often ordered together.",
+      },
+      {
+        question: "How long does it take to get liver function test results?",
+        answer:
+          "LFT reports are usually available within 24 hours of sample collection.",
+      },
+      {
+        question: "Is home sample collection available for liver function test in Chandigarh?",
+        answer:
+          "Yes, Shyam Labs provides home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+      {
+        question: "What is the LFT test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current liver function test price and book online with home sample collection.",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Liver Function Test in Chandigarh Today",
+
+    description:
+      "Get convenient home sample collection, reliable LFT testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+
+    highlights: [
+      "Home Sample Collection Available",
+      "Fast Report Delivery",
+      "Professional Collection Process",
+    ],
+
+    price: "350",
+
+    priceText: "Check detailed LFT pricing and booking options.",
+
+    bookingUrl: "/prices/liver-function-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+
+    buttonText: "Book LFT Test",
+  },
 },
 //done
 

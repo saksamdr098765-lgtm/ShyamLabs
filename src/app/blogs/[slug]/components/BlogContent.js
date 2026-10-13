@@ -63,13 +63,13 @@ export default function BlogContent({ content = [] }) {
           case "image":
             return (
               <figure key={index} className="my-8 sm:my-10 lg:my-12">
-                <div className="overflow-hidden rounded-2xl shadow-lg ring-1 ring-slate-200 sm:rounded-3xl">
+                <div className="overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 p-2 sm:p-3 shadow-lg sm:rounded-3xl flex items-center justify-center">
                   <Image
                     src={block.src || "/logo.png"}
                     alt={block.alt || "Article Image"}
                     width={1400}
                     height={800}
-                    className="h-auto w-full object-cover transition-transform duration-500 hover:scale-105"
+                    className="h-auto max-h-[600px] w-auto max-w-full object-contain mx-auto transition-transform duration-500 hover:scale-102"
                   />
                 </div>
 

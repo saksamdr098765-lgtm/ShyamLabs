@@ -4508,6 +4508,491 @@ Lipid profile testing evaluates Total Cholesterol, LDL, HDL, Triglycerides, and 
  
   heroSubtitle:
     "Book your lipid profile test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
+},
+ {
+  id: 14,
+
+  slug: "liver-function-test-in-chandigarh",
+
+  city: "Chandigarh",
+
+  state: "Chandigarh",
+
+  title: "Liver Function Test in Chandigarh",
+
+  shortDescription:
+    "Looking for a liver function test (LFT) in Chandigarh? Shyam Labs provides affordable and reliable SGOT, SGPT & bilirubin testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
+
+  coverImage: "/locations/chandigarh-liver-function-test.jpeg",
+
+  hours: "07:00-20:00",
+
+  areas: ["Chandigarh", "Panchkula", "Mohali"],
+
+  services: ["home-sample-collection"],
+
+  seo: {
+    // 51 characters
+    title: "Liver Function Test in Chandigarh | Home Collection",
+    // 137 characters
+    description:
+      "Looking for a liver function test (LFT) in Chandigarh? Shyam Labs offers affordable testing with home sample collection and fast reports.",
+    keywords: [
+      "Liver Function Test in Chandigarh",
+      "LFT Test Chandigarh",
+      "SGOT SGPT Test Chandigarh",
+      "Bilirubin Test Chandigarh",
+      "Home Sample Collection Chandigarh",
+      "Diagnostic Lab Near Me Chandigarh",
+      "LFT Test Price Chandigarh",
+      "Liver Function Test Panchkula",
+      "Liver Function Test Mohali",
+      "Liver Function Test Tricity",
+    ],
+  },
+
+  overview: {
+    heading: "Affordable Liver Function Testing & Home Sample Collection in Chandigarh",
+
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. A liver function test is commonly recommended when investigating jaundice, unexplained fatigue, abdominal discomfort, or concerns about fatty liver, and it is often part of routine annual health checkups.
+
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+
+      `For people living or working in Chandigarh, home sample collection makes routine liver testing more convenient — schedule a collection at a suitable time and have your sample collected by a trained phlebotomist instead of visiting a diagnostic centre.
+
+A liver function test evaluates enzymes such as SGOT and SGPT, along with ALP, bilirubin, and proteins like albumin, giving doctors useful information when assessing liver health, medication effects, and alcohol or fatty-liver concerns.`,
+
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+
+    highlights: [
+      "Convenient Home Sample Collection",
+      "Fast Digital Reports",
+      "Affordable, Transparent Pricing",
+      "Professional Sample Collection",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+
+    test: [
+      "liver-function-test",
+      "cbc-test",
+      "kidney-function-test",
+      "lipid-profile",
+      "thyroid-profile-test",
+      "hba1c-test",
+      "hbsag-test",
+      "vitamin-d-test",
+    ],
+  },
+
+  packages: [
+    "monsoon-gastro-infection-panel",
+    "swasthya-mitra-basic",
+    "swasthya-mitra-advance",
+    "health-checkup-camp",
+    "executive-full-body-checkup",
+    "fever-panel-basic",
+  ],
+
+  process: {
+    heading: "How to Get a Liver Function Test in Chandigarh",
+
+    steps: [
+      {
+        title: "Book Your Test",
+        description:
+          "Book your liver function test online or contact Shyam Labs to arrange convenient sample collection in Chandigarh.",
+      },
+      {
+        title: "Schedule Home Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh address during booking.",
+      },
+      {
+        title: "Sample Collection",
+        description:
+          "A trained phlebotomist follows appropriate safety and hygiene procedures during the collection visit.",
+      },
+      {
+        title: "Receive Digital Report",
+        description:
+          "Get your LFT report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+
+  healthConditions: [
+    "Fatty Liver Screening",
+    "Hepatitis & Jaundice Evaluation",
+    "Alcohol-Related Liver Monitoring",
+    "Medication Safety Monitoring",
+  ],
+
+  whoShouldGetTested: [
+    "Anyone with Yellow Eyes, Dark Urine, or Pale Stools",
+    "People with Persistent Fatigue or Abdominal Discomfort",
+    "Individuals with Obesity, Diabetes, or Fatty Liver Concerns",
+    "People on Long-Term Medication",
+    "Regular Alcohol Consumers",
+    "Individuals Doing an Annual Health Checkup",
+  ],
+
+  popularSearches: [
+    "Liver Function Test in Chandigarh",
+    "LFT Test Price Chandigarh",
+    "Liver Function Test Near Me",
+    "Home Sample Collection Chandigarh",
+    "SGOT SGPT Test in Chandigarh",
+    "Diagnostic Lab Near Me Chandigarh",
+    "Liver Function Test Panchkula",
+    "Liver Function Test Mohali",
+  ],
+
+  sections: [
+    {
+      title: "Liver Function Testing Services in Chandigarh",
+      content: [
+        "Residents across Chandigarh can book liver function testing through Shyam Labs with convenient home sample collection where service coverage is available.",
+        "Our testing services are designed for working professionals, families, senior citizens, and patients who need routine or regular liver monitoring.",
+      ],
+    },
+    {
+      title: "Doorstep Blood Collection in Chandigarh",
+      content: [
+        "Our home sample collection service lets you schedule a liver function test from home without waiting at a diagnostic centre.",
+        "Trained phlebotomists follow appropriate safety and hygiene procedures during every collection visit.",
+      ],
+    },
+    {
+      title: "Why Choose Shyam Labs for Liver Function Testing?",
+      content: [
+        "Affordable pricing, convenient sample collection, and digital reporting make Shyam Labs a convenient option for LFT across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+
+  faq: [
+    {
+      question: "Which areas around Chandigarh are covered for home sample collection?",
+      answer:
+        "Shyam Labs provides home sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+    {
+      question: "Can I book a liver function test online in Chandigarh?",
+      answer: "Yes, you can schedule your liver function test online or by phone and choose a convenient collection time.",
+    },
+    {
+      question: "What is the liver function test price in Chandigarh?",
+      answer: `The liver function test is available at an offer price of ₹${getTestPrice('liver-function-test')}. Check the pricing page for current offers and booking details.`,
+    },
+    {
+      question: "Is fasting required before a liver function test?",
+      answer: "Usually not, though some labs advise 8-12 hours of fasting if the test is booked with sugar or lipid tests. Our team will guide you when you book.",
+    },
+    {
+      question: "How quickly are LFT reports available in Chandigarh?",
+      answer: "LFT reports are typically available digitally within 24 hours of sample collection.",
+    },
+    {
+      question: "Can senior citizens book a liver function test from home in Chandigarh?",
+      answer:
+        "Yes, home sample collection can be convenient for elderly patients who prefer to avoid travelling to a diagnostic centre, subject to service availability.",
+    },
+  ],
+
+ 
+
+  facts: [
+    { label: "Test Price", value: getTestPrice('liver-function-test') },
+    { label: "Report Time", value: "24 Hours" },
+    { label: "Collection Service", value: "Doorstep Sample Pickup" },
+    { label: "Report Delivery", value: "Online & WhatsApp Reports" },
+    { label: "Lab Location", value: "Sector 21, Panchkula" },
+  ],
+
+  tags: [
+    "Liver Function Test Chandigarh",
+    "LFT Test Chandigarh",
+    "Pathology Lab Chandigarh",
+    "SGOT SGPT Test Chandigarh",
+    "Home Sample Collection Chandigarh",
+    "Blood Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "Liver Function Test Panchkula",
+    "Liver Function Test Mohali",
+    "Liver Function Test Tricity",
+  ],
+
+  cta: {
+    title: "Book a Liver Function Test in Chandigarh Today",
+
+    description:
+      "Schedule convenient home sample collection in Chandigarh and receive your LFT report digitally from Shyam Budget Friendly Labs.",
+
+    phone: "tel:+919914899300",
+
+    highlights: ["Home Sample Collection", "Affordable LFT Testing", "Fast Digital Reports"],
+  },
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/chandigarh-liver-function-test.jpeg",
+
+  heroTitle: "Affordable Liver Function Testing & Home Sample Collection in Chandigarh",
+
+  heroSubtitle:
+    "Book your liver function test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
+},
+{
+  id: 15,
+
+  slug: "vitamin-d-test-in-chandigarh",
+
+  city: "Chandigarh",
+
+  state: "Chandigarh",
+
+  title: "Vitamin D Test in Chandigarh",
+
+  shortDescription:
+    "Looking for a vitamin D test in Chandigarh? Shyam Labs provides affordable and reliable 25-OH vitamin D testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
+
+  coverImage: "/locations/chandigarh-vitamin-d-test.jpeg",
+
+  hours: "07:00-20:00",
+
+  areas: ["Chandigarh", "Panchkula", "Mohali"],
+
+  services: ["home-sample-collection"],
+
+  seo: {
+    // 46 characters
+    title: "Vitamin D Test in Chandigarh | Home Collection",
+    // 141 characters
+    description:
+      "Looking for a vitamin D test in Chandigarh? Shyam Labs offers affordable 25-OH vitamin D testing with home sample collection and fast reports.",
+    keywords: [
+      "Vitamin D Test in Chandigarh",
+      "25 Hydroxy Vitamin D Test Chandigarh",
+      "Vitamin D3 Test Chandigarh",
+      "Vitamin D Test Price Chandigarh",
+      "Home Sample Collection Chandigarh",
+      "Diagnostic Lab Near Me Chandigarh",
+      "Vitamin D Test Panchkula",
+      "Vitamin D Test Mohali",
+      "Vitamin D Test Tricity",
+    ],
+  },
+
+  overview: {
+    heading: "Affordable Vitamin D Testing & Home Sample Collection in Chandigarh",
+
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. A vitamin D test is commonly recommended when investigating persistent tiredness, body or bone pain, muscle weakness, or hair fall, and it is often part of routine annual health checkups alongside vitamin B12.
+
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+
+      `Low vitamin D is common even in sunny regions, particularly among people who work indoors, cover most of their skin outdoors, or follow a mostly vegetarian diet. Home sample collection makes testing more convenient — schedule a collection at a suitable time, with no fasting needed, and have your sample collected by a trained phlebotomist instead of visiting a diagnostic centre.
+
+The test measures 25-hydroxy vitamin D, giving doctors a clear picture of whether your level is deficient, insufficient, or sufficient before they advise a supplement dose.`,
+
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+
+    highlights: [
+      "Convenient Home Sample Collection",
+      "No Fasting Required",
+      "Fast Digital Reports",
+      "Affordable, Transparent Pricing",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+
+    test: [
+      "vitamin-d-test",
+      "vitamin-b12-test",
+      "cbc-test",
+      "thyroid-profile-test",
+      "hba1c-test",
+      "lipid-profile",
+      "liver-function-test",
+      "kidney-function-test",
+    ],
+  },
+
+  packages: [
+    "vitamin-d-b12-combo",
+    "vitamin-d3-vitamin-b12-screening",
+    "skin-aura-package-1",
+    "mega-health-checkup-premium-package",
+    "swasthya-mitra-premium-package",
+    "jaanch-heat-shield-advanced",
+  ],
+
+  process: {
+    heading: "How to Get a Vitamin D Test in Chandigarh",
+
+    steps: [
+      {
+        title: "Book Your Test",
+        description:
+          "Book your vitamin D test online or contact Shyam Labs to arrange convenient sample collection in Chandigarh.",
+      },
+      {
+        title: "Schedule Home Collection",
+        description:
+          "Choose a convenient collection time — no fasting needed — and provide your Chandigarh address during booking.",
+      },
+      {
+        title: "Sample Collection",
+        description:
+          "A trained phlebotomist follows appropriate safety and hygiene procedures during the collection visit.",
+      },
+      {
+        title: "Receive Digital Report",
+        description:
+          "Get your vitamin D report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+
+  healthConditions: [
+    "Vitamin D Deficiency Screening",
+    "Bone & Muscle Health Evaluation",
+    "Fatigue & Body Pain Evaluation",
+    "Nutritional Health Monitoring",
+  ],
+
+  whoShouldGetTested: [
+    "Anyone with Persistent Fatigue or Body Pain",
+    "People with Bone or Back Pain",
+    "Individuals with Limited Sun Exposure",
+    "Vegetarians and Older Adults",
+    "People Taking Vitamin D Supplements (to monitor levels)",
+    "Individuals Doing an Annual Health Checkup",
+  ],
+
+  popularSearches: [
+    "Vitamin D Test in Chandigarh",
+    "Vitamin D Test Price Chandigarh",
+    "Vitamin D Test Near Me",
+    "Home Sample Collection Chandigarh",
+    "25 Hydroxy Vitamin D Test Chandigarh",
+    "Diagnostic Lab Near Me Chandigarh",
+    "Vitamin D Test Panchkula",
+    "Vitamin D Test Mohali",
+  ],
+
+  sections: [
+    {
+      title: "Vitamin D Testing Services in Chandigarh",
+      content: [
+        "Residents across Chandigarh can book vitamin D testing through Shyam Labs with convenient home sample collection where service coverage is available.",
+        "Our testing services are designed for working professionals, families, senior citizens, and patients who need routine or follow-up nutritional monitoring.",
+      ],
+    },
+    {
+      title: "Doorstep Blood Collection in Chandigarh",
+      content: [
+        "Our home sample collection service lets you schedule a vitamin D test from home without waiting at a diagnostic centre.",
+        "Trained phlebotomists follow appropriate safety and hygiene procedures during every collection visit.",
+      ],
+    },
+    {
+      title: "Why Choose Shyam Labs for Vitamin D Testing?",
+      content: [
+        "Affordable pricing, convenient sample collection, and digital reporting make Shyam Labs a convenient option for vitamin D testing across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+
+  faq: [
+    {
+      question: "Which areas around Chandigarh are covered for home sample collection?",
+      answer:
+        "Shyam Labs provides home sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+    {
+      question: "Can I book a vitamin D test online in Chandigarh?",
+      answer: "Yes, you can schedule your vitamin D test online or by phone and choose a convenient collection time.",
+    },
+    {
+      question: "What is the vitamin D test price in Chandigarh?",
+      answer: `The vitamin D test is available at an offer price of ₹${getTestPrice('vitamin-d-test')}. Check the pricing page for current offers and booking details.`,
+    },
+    {
+      question: "Is fasting required before a vitamin D test?",
+      answer: "No, fasting is not required before a vitamin D test.",
+    },
+    {
+      question: "How quickly are vitamin D reports available in Chandigarh?",
+      answer: "Vitamin D reports are typically available digitally within 24 hours of sample collection.",
+    },
+    {
+      question: "Can senior citizens book a vitamin D test from home in Chandigarh?",
+      answer:
+        "Yes, home sample collection can be convenient for elderly patients who prefer to avoid travelling to a diagnostic centre, subject to service availability.",
+    },
+  ],
+
+  relatedLocations: [
+    { city: "Panchkula", slug: "/locations/vitamin-d-test-in-panchkula" },
+    { city: "Mohali", slug: "/locations/vitamin-d-test-in-mohali" },
+  ],
+
+  facts: [
+    { label: "Test Price", value: getTestPrice('vitamin-d-test') },
+    { label: "Report Time", value: "24 Hours" },
+    { label: "Collection Service", value: "Doorstep Sample Pickup" },
+    { label: "Report Delivery", value: "Online & WhatsApp Reports" },
+    { label: "Lab Location", value: "Sector 21, Panchkula" },
+  ],
+
+  tags: [
+    "Vitamin D Test Chandigarh",
+    "25 Hydroxy Vitamin D Test Chandigarh",
+    "Pathology Lab Chandigarh",
+    "Home Sample Collection Chandigarh",
+    "Blood Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "Vitamin D Test Panchkula",
+    "Vitamin D Test Mohali",
+    "Vitamin D Test Tricity",
+  ],
+
+  cta: {
+    title: "Book a Vitamin D Test in Chandigarh Today",
+
+    description:
+      "Schedule convenient home sample collection in Chandigarh and receive your vitamin D report digitally from Shyam Budget Friendly Labs.",
+
+    phone: "tel:+919914899300",
+
+    highlights: ["Home Sample Collection", "Affordable Vitamin D Testing", "Fast Digital Reports"],
+  },
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/chandigarh-vitamin-d-test.jpeg",
+
+  heroTitle: "Affordable Vitamin D Testing & Home Sample Collection in Chandigarh",
+
+  heroSubtitle:
+    "Book your vitamin D test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
 }
 ];
 

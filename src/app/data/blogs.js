@@ -1329,338 +1329,1024 @@ export const blogs = [
   },
 },
   {
-    id: 4,
-    slug: "liver-health-lft-test-guide",
-    title: "Liver Function Test (LFT): Early Signs of Liver Damage You Should Know",
-    excerpt: "Learn about liver function tests, symptoms of liver disease, and how early diagnosis can protect your liver health.",
-    category: "Health Tips",
-     author: {
-    name: SITE_CONFIG.fullName, // old schema had this as a plain string — now an object
-    image: SITE_CONFIG.logo, // ⚠️ confirm this is the correct author image path used across other blogs
+  id: 4,
+
+  slug: "liver-health-lft-test-guide",
+
+  title: "LFT Test: Full Form, Normal Range, SGOT SGPT & Price",
+
+  excerpt:
+    "LFT test full form, how to read your report, SGOT and SGPT normal range, causes of high liver enzymes, fatty liver, fasting rules, and price.",
+
+  category: "Health Tips",
+
+  author: {
+    name: SITE_CONFIG.fullName,
+    image: SITE_CONFIG.logo,
   },
-    publishedAt: "June 12, 2026",
-    readingTime: "7 min read",
-    coverImage: "/blogs/liver-test.jpg",
-    featured: false,
-    relatedPackages: [],
-    relatedTests: [],
-    seo: {
-      title: "Liver Function Test (LFT): Early Signs of Liver Damage You Should Know",
-      description: "Learn about liver function tests, symptoms of liver disease, and how early diagnosis can protect your liver health.",
-      keywords: []
-    },
-    quickInfo: {
-      "What You Will Learn": "Liver Function Test (LFT): Early Signs of Liver Damage You Should Know",
-      sample: "Blood",
-      fasting: "May Be Required",
-      reportTime: "Same Day",
-      homeCollection: "Available",
-      recommendedFor: "Yellowing of eyes, Fatigue, Abdominal pain, Dark urine, Loss of appetite",
-      booking: "Online / Phone / WhatsApp"
-    },
-    tags: [
-      "Liver Function Test",
-      "LFT Test",
-      "Liver Health",
-      "SGPT SGOT Test",
-      "Bilirubin Test",
-      "Fatty Liver",
-      "Hepatitis Test",
-      "Liver Disease Symptoms",
-      "Liver Test Price",
-      "LFT Panchkula",
-      "Liver Test Near Me",
-      "Diagnostic Lab",
-      "Pathology Lab",
-      "Home Collection",
-      "Health Screening",
-      "Same Day Report",
-      "Blood Test",
-      "Preventive Health"
+
+  publishedAt: "October 13, 2026",
+
+  readingTime: "11 min read",
+
+  coverImage: "/blogs/lft-test-guide.webp",
+
+  featured: true,
+
+  relatedPackages: [
+    "monsoon-gastro-infection-panel",
+    "swasthya-mitra-basic",
+    "swasthya-mitra-advance",
+    "health-checkup-camp",
+    "executive-full-body-checkup",
+    "fever-panel-basic",
+  ],
+
+  relatedTests: [
+    "liver-function-test",
+    "sgot-test",
+    "sgpt-test",
+    "bilirubin-total",
+    "alkaline-phosphatase-test",
+    "serum-albumin",
+    "kidney-function-test",
+    "hbsag-test",
+  ],
+
+  seo: {
+    // 52 characters
+    title: "LFT Test: Full Form, Normal Range, SGOT SGPT & Price",
+    // 135 characters
+    description:
+      "LFT test guide: full form, SGOT SGPT normal range, high liver enzymes, fatty liver, fasting & price with home collection in Chandigarh.",
+    keywords: [
+      "liver function test",
+      "lft test full form",
+      "lft test price",
+      "sgot normal range",
+      "sgpt normal range",
+      "fatty liver symptoms",
+      "liver profile test",
+      "ggt test",
+      "high sgpt causes",
+      "how to read lft report",
+      "liver function test near me",
+      "liver function test in Chandigarh",
+      "pathology lab near me",
+      "diagnostic lab near me",
+      "blood test home sample collection",
     ],
-    content: [
-      {
-        type: "heading",
-        level: 2,
-        text: "What is an LFT Test?"
-      },
-      {
-        type: "paragraph",
-        text: "A liver function test measures enzymes and proteins that show how well your liver is working."
-      },
-      {
-        type: "paragraph",
-        text: "It helps detect liver damage, infection, and inflammation."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Why Liver Testing is Important"
-      },
-      {
-        type: "paragraph",
-        text: "The liver plays a key role in detoxification and digestion."
-      },
-      {
-        type: "paragraph",
-        text: "Regular testing helps detect problems early before serious damage occurs."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Common Liver Diseases"
-      },
-      {
-        type: "paragraph",
-        text: "Fatty liver, hepatitis, and liver inflammation are commonly detected through LFT tests."
-      }
-    ],
-    faq: [
-      {
-        question: "What does LFT measure?",
-        answer: "It measures liver enzymes, bilirubin, and proteins."
-      },
-      {
-        question: "Is fasting required?",
-        answer: "Sometimes fasting is recommended."
-      }
-    ],
-   cta: {
-  title: "Book Your Liver Function Test Today",
-  description:
-    "Get accurate LFT testing with home sample collection, fast reporting, and experienced lab professionals from Shyam Pathology Lab.",
-  buttonText: "Book LFT Test",
-  whatsappText: "Hi, I want to book a liver function test.",
-  features: [
-    "Experienced Lab",
-    "100+ Tests",
-    "Fast Reports",
-    "Experienced Staff"
-  ]
-}
   },
+
+  quickInfo: {
+    "What You Will Learn": "Liver Function Test (LFT)",
+    price: getTestPrice('liver-function-test'),
+    sample: "Blood",
+    fasting: "Usually Not Required",
+    reportTime: "Same Day",
+    homeCollection: "Available",
+    recommendedFor: "Jaundice, Fatigue, Fatty Liver Concern, Abdominal Pain, Dark Urine, Routine Checkup",
+    booking: "Online / Phone / WhatsApp",
+  },
+
+  tags: [
+    "Liver Function Test",
+    "LFT Test",
+    "LFT Test Full Form",
+    "LFT Test Price",
+    "SGOT Normal Range",
+    "SGPT Normal Range",
+    "Liver Profile Test",
+    "Fatty Liver Symptoms",
+    "High Liver Enzymes",
+    "Bilirubin Test",
+    "GGT Test",
+    "Blood Tests",
+    "Health Checkup",
+    "Liver Function Test in Chandigarh",
+    "Liver Function Test in Panchkula",
+    "Home Sample Collection",
+    "Pathology Lab",
+    "Same Day Report",
+  ],
+
+  content: [
+    {
+      type: "paragraph",
+      text: "A liver function test is often ordered when a doctor wants to know whether your liver is healthy, inflamed, or under stress from fatty liver, alcohol, infection, or medicines. This guide explains the LFT full form, what each value means, normal ranges, what a high result can mean, and what an LFT can and cannot detect.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is a Liver Function Test? (LFT Full Form)",
+    },
+    {
+      type: "paragraph",
+      text: "LFT stands for Liver Function Test. It is a group of blood tests, also called a liver profile or liver panel, that measure enzymes, bilirubin, and proteins in your blood to show how well your liver is working. Strictly speaking, some of these values (enzymes like SGPT and SGOT) show liver cell injury rather than function, while others (albumin, bilirubin) reflect how well the liver is actually performing its jobs.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Does the Liver Do? (7 Key Functions)",
+    },
+    {
+      type: "list",
+      items: [
+        "Makes bile to help digest fats",
+        "Filters blood and breaks down toxins, alcohol, and medicines",
+        "Produces proteins such as albumin and blood-clotting factors",
+        "Processes carbohydrates, fats, and proteins into usable energy",
+        "Stores glucose as glycogen and releases it when needed",
+        "Stores vitamins and minerals such as iron and vitamin A, D, B12",
+        "Makes cholesterol and breaks down old red blood cells (producing bilirubin)",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Liver Function Test List: What Is Included",
+    },
+    {
+      type: "list",
+      items: [
+        "SGOT / AST (Aspartate Aminotransferase)",
+        "SGPT / ALT (Alanine Aminotransferase)",
+        "Alkaline Phosphatase (ALP)",
+        "Total Bilirubin, Direct Bilirubin, Indirect Bilirubin",
+        "Total Protein",
+        "Serum Albumin and Serum Globulin",
+        "A/G Ratio",
+        "GGT (Gamma-Glutamyl Transferase) — sometimes added as a separate test",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "SGOT and SGPT Normal Range",
+    },
+    {
+      type: "paragraph",
+      text: "SGPT (ALT) is more specific to the liver, while SGOT (AST) is also found in muscle and heart, so both are read together. As a general guide for adults:",
+    },
+    {
+      type: "list",
+      items: [
+        "SGPT (ALT): approximately 7-56 U/L",
+        "SGOT (AST): approximately 10-40 U/L",
+        "Values are often slightly higher in men than in women",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Liver Function Test Normal Range Chart",
+    },
+    {
+      type: "list",
+      items: [
+        "Total Bilirubin: approximately 0.2-1.2 mg/dL",
+        "Direct Bilirubin: up to approximately 0.3 mg/dL",
+        "Alkaline Phosphatase (ALP): approximately 44-147 U/L",
+        "Total Protein: approximately 6.0-8.3 g/dL",
+        "Albumin: approximately 3.5-5.0 g/dL",
+        "GGT: approximately 9-48 U/L (varies by sex and lab)",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "These ranges differ between labs and between adults and children, and ALP is normally higher in children, teenagers, and pregnant women. Always compare your result with the range printed on your own report.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How to Read Your LFT Report",
+    },
+    {
+      type: "paragraph",
+      text: "Each line shows your result, the unit, and the lab's reference range, with high or low values usually flagged. Doctors read the pattern rather than a single number: raised SGPT and SGOT point to liver cell injury, raised ALP and GGT point towards the bile ducts, raised bilirubin points to jaundice, and low albumin points towards long-standing liver problems or other causes such as poor nutrition or kidney loss.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Causes High SGPT and SGOT (High Liver Enzymes)?",
+    },
+    {
+      type: "list",
+      items: [
+        "Fatty liver (the most common cause of mildly raised enzymes)",
+        "Alcohol-related liver injury",
+        "Viral hepatitis (A, B, C, E)",
+        "Medicines such as some painkillers, antibiotics, and statins",
+        "Herbal products and supplements",
+        "Gallstones or bile duct blockage",
+        "Intense exercise or muscle injury (can raise SGOT)",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Causes High Bilirubin or Low Albumin?",
+    },
+    {
+      type: "paragraph",
+      text: "High bilirubin can come from liver disease, bile duct blockage, hepatitis, or increased breakdown of red blood cells, and when high enough it causes yellow eyes and skin. Low albumin can reflect long-standing liver disease, but also poor nutrition, kidney protein loss, or chronic inflammation, so it is read alongside other tests.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Fatty Liver Symptoms",
+    },
+    {
+      type: "paragraph",
+      text: "Fatty liver is usually silent. When symptoms appear they are vague:",
+    },
+    {
+      type: "list",
+      items: [
+        "Persistent tiredness or weakness",
+        "Mild discomfort or fullness in the upper right abdomen",
+        "Unexplained weight gain or an enlarged waistline",
+        "Mildly raised liver enzymes found on a routine blood test",
+        "Often no symptoms at all",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can an LFT Detect or Confirm Fatty Liver?",
+    },
+    {
+      type: "paragraph",
+      text: "An LFT can hint at fatty liver when SGPT, SGOT, or GGT are raised, but it cannot confirm it — and plenty of people with fatty liver have completely normal LFT values. Confirming fatty liver needs an abdominal ultrasound or an elastography scan, which your doctor may order if your LFT, weight, or sugar and cholesterol levels suggest it.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Signs of Liver Damage or Poor Liver Function",
+    },
+    {
+      type: "list",
+      items: [
+        "Yellowing of the eyes or skin (jaundice)",
+        "Dark urine and pale stools",
+        "Persistent fatigue and weakness",
+        "Nausea, vomiting, or loss of appetite",
+        "Itchy skin",
+        "Pain or swelling in the abdomen, or swollen legs",
+        "Easy bruising or bleeding",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Early liver disease often causes none of these, which is why a routine LFT is useful if you have risk factors such as obesity, diabetes, heavy alcohol use, or long-term medication.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "When Should You Worry About LFT Results?",
+    },
+    {
+      type: "paragraph",
+      text: "Slightly raised values are common and often settle after the cause is addressed. Results that deserve prompt medical attention include enzymes several times above the upper limit, high bilirubin with visible jaundice, or any abnormal LFT together with symptoms such as dark urine, pale stools, abdominal swelling, confusion, or vomiting blood. There is no single universal 'dangerous' number — your doctor interprets the pattern with your symptoms.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How to Reduce SGPT and Support Your Liver",
+    },
+    {
+      type: "paragraph",
+      text: "Lowering raised enzymes means treating the cause. Common steps include avoiding alcohol, losing excess weight gradually, exercising regularly, cutting back on fried food, sugary drinks, and processed snacks, eating more vegetables, fruit, whole grains, and pulses, and reviewing medicines and supplements with your doctor. No single drink, vitamin, or 'detox' product repairs the liver, and some herbal supplements can actually harm it, so avoid starting new ones without medical advice.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can Liver Function Go Back to Normal?",
+    },
+    {
+      type: "paragraph",
+      text: "Often yes, when the cause is found and removed early — for example stopping alcohol, treating fatty liver through weight loss, or stopping a medicine that was affecting the liver. Advanced scarring (cirrhosis) does not fully reverse, but proper management can slow or stop further damage.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is Fasting Required for a Liver Function Test?",
+    },
+    {
+      type: "paragraph",
+      text: "Usually not. Some labs advise 8-12 hours of fasting, especially when the LFT is combined with blood sugar or a lipid profile, and you should avoid alcohol for at least 24 hours before the test. Plain water is fine.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Is a Liver Function Test Done?",
+    },
+    {
+      type: "paragraph",
+      text: "A small blood sample is drawn from a vein in your arm, which takes only a couple of minutes, and the serum is analysed on an automated analyzer. You can resume normal activities straight away.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "LFT vs CBC vs KFT: What's the Difference?",
+    },
+    {
+      type: "paragraph",
+      text: "A CBC (Complete Blood Count) counts your blood cells and hemoglobin. An LFT checks the liver, and a KFT (Kidney Function Test) checks the kidneys through values like creatinine and urea. They test different organs and are often booked together in a routine health checkup.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can an LFT Detect Hepatitis or Alcohol-Related Liver Damage?",
+    },
+    {
+      type: "paragraph",
+      text: "An LFT shows that the liver is inflamed or injured but not why. Diagnosing viral hepatitis needs specific tests such as HBsAg, anti-HCV, or hepatitis A and E IgM. For alcohol-related injury, doctors look at the pattern — for example SGOT higher than SGPT with a raised GGT — together with your history, but the LFT alone is not a diagnosis.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Liver Function Test in Pregnancy",
+    },
+    {
+      type: "paragraph",
+      text: "Doctors order an LFT in pregnancy mainly when there is severe itching (which can signal cholestasis of pregnancy), upper abdominal pain, severe nausea, or high blood pressure. ALP normally rises during pregnancy because the placenta produces it, so it is interpreted differently.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Liver Function Test Price and Report Time",
+    },
+    {
+      type: "paragraph",
+      text: `Our liver function test is priced at ${getTestPrice('liver-function-test')}, with same-day reports and free home sample collection available — so you don't need to visit the lab in person or wait days for results.`,
+    },
+    {
+      type: "interlinking",
+      title: "Liver Function Test Services & Pricing",
+      description:
+        "Explore LFT details, pricing, and convenient home sample collection services.",
+      items: [
+        {
+          title: "Liver Function Test Price",
+          description:
+            "Check the latest LFT price and available home sample collection options.",
+          href: "/prices/liver-function-test-price-chandigarh",
+        },
+        {
+          title: "Liver Function Test Details",
+          description:
+            "Learn about the LFT, parameters included, sample requirements, and preparation.",
+          href: "/tests/liver-function-test",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Liver Function Test in Panchkula, Chandigarh & Nearby Areas",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Budget Friendly Labs provides accurate liver function testing with convenient home blood sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+    {
+      type: "interlinking",
+      title: "Liver Function Test — Areas We Serve",
+      description:
+        "We provide LFT with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "Liver function test with home sample collection.",
+          href: "/locations/liver-function-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "Liver function test and diagnostic services with home collection.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "Liver function test with same-day report and home collection.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "Liver function test and pathology services.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Key Takeaways",
+    },
+    {
+      type: "list",
+      items: [
+        "LFT stands for Liver Function Test — a panel of enzymes, bilirubin, and proteins measured in one blood sample",
+        "SGPT is the more liver-specific enzyme; SGOT is also found in muscle and heart",
+        "A high enzyme result means the liver is stressed, not what is causing it — the cause needs further evaluation",
+        "An LFT cannot confirm fatty liver or diagnose viral hepatitis on its own",
+        "Fasting is usually not required, but avoid alcohol for 24 hours before the test",
+      ],
+    },
+    {
+      type: "references",
+      items: [
+        {
+          title: "Liver Function Tests",
+          publisher: "MedlinePlus",
+          url: "https://medlineplus.gov/lab-tests/liver-function-tests/",
+        },
+        {
+          title: "Liver Function Tests",
+          publisher: "Mayo Clinic",
+          url: "https://www.mayoclinic.org/tests-procedures/liver-function-tests/about/pac-20394595",
+        },
+      ],
+    },
+  ],
+
+  faq: [
+    {
+      question: "What is the full form of LFT test?",
+      answer:
+        "LFT stands for Liver Function Test — a group of blood tests that measure liver enzymes, bilirubin, and proteins to check how well your liver is working.",
+    },
+    {
+      question: "What is the SGOT and SGPT normal range?",
+      answer:
+        "As a general guide, SGOT (AST) is about 10-40 U/L and SGPT (ALT) is about 7-56 U/L in adults, though ranges vary by lab and sex.",
+    },
+    {
+      question: "What is the normal liver function test range?",
+      answer:
+        "Typical adult values are total bilirubin 0.2-1.2 mg/dL, ALP 44-147 U/L, total protein 6.0-8.3 g/dL, and albumin 3.5-5.0 g/dL. Always compare with the range on your own report.",
+    },
+    {
+      question: "What are the four main liver function tests?",
+      answer:
+        "The core measures are the enzymes SGOT and SGPT, ALP, bilirubin, and the proteins albumin and total protein. Together they show liver injury, bile flow, and the liver's protein production.",
+    },
+    {
+      question: "What causes high SGPT and SGOT?",
+      answer:
+        "Fatty liver, alcohol, viral hepatitis, certain medicines and supplements, and gallstones are common causes. Intense exercise can also raise SGOT.",
+    },
+    {
+      question: "What if my LFT is high?",
+      answer:
+        "Your doctor looks at which values are raised, by how much, and your symptoms, then investigates the cause with further tests such as an ultrasound or hepatitis markers.",
+    },
+    {
+      question: "Can an LFT confirm fatty liver?",
+      answer:
+        "No. A raised SGPT or GGT can suggest it, but many people with fatty liver have normal LFT values. An ultrasound or elastography confirms it.",
+    },
+    {
+      question: "What are the signs of a bad liver?",
+      answer:
+        "Yellow eyes or skin, dark urine, pale stools, fatigue, nausea, itching, abdominal swelling, and easy bruising. Early liver disease often has no symptoms.",
+    },
+    {
+      question: "How can I reduce my SGPT naturally?",
+      answer:
+        "Treat the underlying cause: avoid alcohol, lose excess weight gradually, exercise, eat more vegetables, fruit and whole grains, and review medicines and supplements with your doctor. No single drink or vitamin repairs the liver.",
+    },
+    {
+      question: "Can liver function go back to normal?",
+      answer:
+        "Often yes, when the cause is found and removed early, such as stopping alcohol or treating fatty liver. Advanced scarring (cirrhosis) does not fully reverse.",
+    },
+    {
+      question: "Is fasting required for a liver function test?",
+      answer:
+        "Usually not, though some labs advise 8-12 hours of fasting if it is combined with sugar or lipid tests. Avoid alcohol for 24 hours before the test.",
+    },
+    {
+      question: "How can I check liver function at home?",
+      answer:
+        "Symptoms alone cannot show how well your liver works — only a blood test can. You can book home sample collection so the sample is collected at your doorstep and tested at the lab.",
+    },
+    {
+      question: "What is the difference between CBC and LFT?",
+      answer:
+        "A CBC measures blood cells and hemoglobin, while an LFT measures liver enzymes, bilirubin, and proteins. They check different things and are often ordered together.",
+    },
+    {
+      question: "How much does an LFT test cost?",
+      answer: `Our liver function test is priced at ${getTestPrice('liver-function-test')}, with same-day reports and free home sample collection available.`,
+    },
+  ],
+
+  cta: {
+    title: "Book Liver Function Test",
+    description: "Get accurate LFT testing with doorstep sample collection and same-day reports.",
+    buttonText: "Book Test Now",
+    whatsappText: "Hi, I want to book a liver function test.",
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/liver-function-test",
+  },
+},
   {
-    id: 5,
-    slug: "vitamin-d-test-guide",
-    title: "Vitamin D Test: Are Your Fatigue, Body Pain & Hair Fall Signs of Deficiency?",
-    excerpt: "Feeling tired all the time? Learn how a Vitamin D test can help identify deficiencies causing fatigue, weak bones, muscle pain, and low immunity.",
-    category: "Health Tips",
-     author: {
-    name: SITE_CONFIG.fullName, // old schema had this as a plain string — now an object
-    image: SITE_CONFIG.logo, // ⚠️ confirm this is the correct author image path used across other blogs
+  id: 5,
+
+  slug: "vitamin-d-test-guide",
+
+  title: "Vitamin D Test: Normal Range, Levels, Price & Symptoms",
+
+  excerpt:
+    "Vitamin D test explained: normal range in ng/mL, how to read your results, deficiency symptoms, foods and sunlight, supplements, and price.",
+
+  category: "Health Tips",
+
+  author: {
+    name: SITE_CONFIG.fullName,
+    image: SITE_CONFIG.logo,
   },
-    publishedAt: "June 11, 2026",
-    readingTime: "6 min read",
-    coverImage: "/blogs/vitamin-d-test.jpg",
-    featured: false,
-    relatedPackages: [],
-    relatedTests: [
-      {
-        name: "Fasting Blood Sugar",
-        slug: "fasting-blood-sugar"
-      },
-      {
-        name: "Monsoon Gastro Infection Panel",
-        slug: "monsoon-gastro-infection-panel"
-      },
-      {
-        name: "Paleo Profile Basic New",
-        slug: "paleo-profile-basic-new"
-      },
-      {
-        name: "Aarogyam XL Pro",
-        slug: "aarogyam-xl-pro"
-      },
-      {
-        name: "Aarogyam A Pro",
-        slug: "aarogyam-a-pro"
-      }
+
+  publishedAt: "October 13, 2026",
+
+  readingTime: "11 min read",
+
+  coverImage: "/blogs/vitamin-d-test-guide.webp",
+
+  featured: true,
+
+  relatedPackages: [
+    "vitamin-d-b12-combo",
+    "vitamin-d3-vitamin-b12-screening",
+    "skin-aura-package-1",
+    "mega-health-checkup-premium-package",
+    "swasthya-mitra-premium-package",
+    "jaanch-heat-shield-advanced",
+  ],
+
+  relatedTests: [
+    "vitamin-d-test",
+    "vitamin-b12-test",
+    "serum-calcium",
+    "alkaline-phosphatase-test",
+    "thyroid-profile-test",
+    "cbc-test",
+  ],
+
+  seo: {
+    // 54 characters
+    title: "Vitamin D Test: Normal Range, Levels, Price & Symptoms",
+    // 127 characters
+    description:
+      "Vitamin D test guide: normal range by ng/mL, how to read results, deficiency symptoms, foods, sunlight, price & home collection.",
+    keywords: [
+      "vitamin d test",
+      "vitamin d test price",
+      "vitamin d deficiency symptoms",
+      "vitamin d normal range ng ml",
+      "25 hydroxy vitamin d test",
+      "vitamin d rich foods",
+      "vitamin d foods for vegetarians",
+      "low vitamin d symptoms",
+      "vitamin d deficiency hair fall",
+      "vitamin d deficiency treatment",
+      "vitamin d test near me",
+      "vitamin d test in Chandigarh",
+      "pathology lab near me",
+      "diagnostic lab near me",
+      "blood test home sample collection",
     ],
-    seo: {
-      title: "Vitamin D Test Guide: Symptoms, Deficiency, Normal Levels & Treatment",
-      description: "Learn about Vitamin D deficiency symptoms, fatigue, hair fall, body pain, normal Vitamin D levels, treatment options, and when to get tested.",
-      keywords: [
-        "Vitamin D Test",
-        "Vitamin D Deficiency",
-        "25 OH Vitamin D Test",
-        "Vitamin D Blood Test",
-        "Low Vitamin D Symptoms",
-        "Hair Fall Vitamin D",
-        "Fatigue Vitamin D Deficiency",
-        "Vitamin D Test in Panchkula",
-        "Vitamin D Test Near Me",
-        "Bone Health Test",
-        "Vitamin D Normal Range"
-      ]
-    },
-    quickInfo: {
-      "What You Will Learn": "Vitamin D Test",
-      sample: "Blood",
-      fasting: "Not Required",
-      reportTime: "Same Day",
-      homeCollection: "Available",
-      recommendedFor: "Constant fatigue, Body and muscle pain, Hair fall, Weak bones, Frequent illness, Low energy levels",
-      booking: "Online / Phone / WhatsApp"
-    },
-    tags: [
-      "Vitamin D Test",
-      "Vitamin D Deficiency",
-      "Vitamin D Symptoms",
-      "25 OH Vitamin D Test",
-      "Vitamin D Test Price",
-      "Low Vitamin D Levels",
-      "Vitamin D Normal Range",
-      "Bone Health Test",
-      "Hair Fall and Vitamin D",
-      "Fatigue and Weakness",
-      "Vitamin D Blood Test",
-      "Immunity Health",
-      "Pathology Lab",
-      "Diagnostic Lab",
-      "Vitamin D Test Near Me",
-      "Vitamin D Test in Punjab",
-      "Vitamin D Test in Panchkula",
-      "Vitamin D Test in Haryana",
-      "Vitamin D Test in Chandigarh",
-      "Vitamin D Test in sec 21 panchkula",
-      "Vitamin D Test in Karimpur",
-      "Home Sample Collection",
-      "Same Day Test Report",
-      "Health Checkup Test"
-    ],
-    content: [
-      {
-        type: "heading",
-        level: 2,
-        text: "Always Feeling Tired? It Might Not Be Stress"
-      },
-      {
-        type: "paragraph",
-        text: "Do you wake up feeling exhausted even after a full night's sleep?"
-      },
-      {
-        type: "paragraph",
-        text: "Many people blame stress, work pressure, or lack of rest. However, one of the most overlooked causes of fatigue is Vitamin D deficiency."
-      },
-      {
-        type: "paragraph",
-        text: "Low Vitamin D levels can affect your energy, mood, immunity, muscles, and bone health."
-      },
-      {
-        type: "paragraph",
-        text: "A simple blood test can reveal whether your symptoms are linked to a Vitamin D deficiency."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "What is a Vitamin D Test?"
-      },
-      {
-        type: "paragraph",
-        text: "A Vitamin D test measures the level of Vitamin D present in your blood."
-      },
-      {
-        type: "paragraph",
-        text: "The most commonly recommended test is the 25-Hydroxy Vitamin D (25-OH Vitamin D) test."
-      },
-      {
-        type: "paragraph",
-        text: "This test helps doctors determine whether your Vitamin D levels are normal, insufficient, or deficient."
-      },
-      {
-        type: "paragraph",
-        text: "Early detection allows timely treatment before complications develop."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Why is Vitamin D Important for Your Body?"
-      },
-      {
-        type: "paragraph",
-        text: "Vitamin D plays a critical role in maintaining strong bones, healthy muscles, and a properly functioning immune system."
-      },
-      {
-        type: "paragraph",
-        text: "It helps your body absorb calcium efficiently and supports overall health."
-      },
-      {
-        type: "paragraph",
-        text: "Without adequate Vitamin D, you may experience:"
-      },
-      {
-        type: "list",
-        items: [
-          "Weak bones",
-          "Muscle pain",
-          "Increased fatigue",
-          "Frequent infections",
-          "Hair fall",
-          "Reduced immunity"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "Many people remain unaware of their deficiency for years."
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Who Should Consider a Vitamin D Test?"
-      },
-      {
-        type: "paragraph",
-        text: "You may benefit from testing if you experience:"
-      },
-      {
-        type: "list",
-        items: [
-          "Persistent tiredness",
-          "Bone or joint pain",
-          "Hair thinning",
-          "Muscle weakness",
-          "Frequent illness",
-          "Limited sun exposure"
-        ]
-      },
-      {
-        type: "paragraph",
-        text: "Regular screening is especially useful for older adults, office workers, and individuals with known nutritional deficiencies."
-      },
-   
-    ],
-    faq: [
-      {
-        question: "Is fasting required for a Vitamin D test?",
-        answer: "No. In most cases fasting is not required before a Vitamin D blood test."
-      },
-      {
-        question: "How long does the test take?",
-        answer: "The blood sample collection usually takes only a few minutes."
-      },
-      {
-        question: "What is the normal Vitamin D range?",
-        answer: "Normal ranges may vary by laboratory, but generally levels above 30 ng/mL are considered sufficient."
-      },
-      {
-        question: "Can Vitamin D deficiency cause hair fall?",
-        answer: "Yes. Low Vitamin D levels have been associated with increased hair thinning and hair loss in some individuals."
-      }
-    ],
-   cta: {
-  title: "Book Your Vitamin D Test Today",
-  description:
-    "Get accurate Vitamin D testing with home sample collection, fast reporting, and experienced lab professionals from Shyam Pathology Lab.",
-  buttonText: "Book Vitamin D Test",
-  whatsappText: "Hi, I want to book a Vitamin D test.",
-  features: [
-    "Experienced Lab",
-    "100+ Tests",
-    "Fast Reports",
-    "Experienced Staff"
-  ]
-}
   },
+
+  quickInfo: {
+    "What You Will Learn": "Vitamin D Test (25-OH)",
+    price: getTestPrice('vitamin-d-test'),
+    sample: "Blood",
+    fasting: "Not Required",
+    reportTime: "Same Day",
+    homeCollection: "Available",
+    recommendedFor: "Fatigue, Bone Pain, Muscle Weakness, Hair Fall, Limited Sun Exposure, Routine Checkup",
+    booking: "Online / Phone / WhatsApp",
+  },
+
+  tags: [
+    "Vitamin D Test",
+    "Vitamin D Test Price",
+    "25 Hydroxy Vitamin D",
+    "Vitamin D Normal Range",
+    "Vitamin D Deficiency",
+    "Vitamin D Symptoms",
+    "Vitamin D Rich Foods",
+    "Vitamin D3",
+    "Bone Health",
+    "Blood Tests",
+    "Health Checkup",
+    "Vitamin D Test in Chandigarh",
+    "Vitamin D Test in Panchkula",
+    "Home Sample Collection",
+    "Pathology Lab",
+    "Same Day Report",
+  ],
+
+  content: [
+    {
+      type: "paragraph",
+      text: "Tiredness, aching bones, and general weakness are among the most common reasons people ask for a vitamin D test — and low vitamin D is very common in India despite the sunshine. This guide explains what the test measures, the normal range, how to read your number, what causes deficiency, and what helps.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is a Vitamin D Test? (Meaning and Name)",
+    },
+    {
+      type: "paragraph",
+      text: "A vitamin D test measures how much vitamin D is in your blood. The test is called the 25-hydroxy vitamin D test (25-OH vitamin D), and reports often label it 'Vitamin D Total' or 'Vitamin D3'. Your body converts vitamin D from sun, food, and supplements into 25-hydroxy vitamin D, which is the form that best reflects your overall status. Vitamin D does not have an abbreviation-style 'full form' — the name is simply the vitamin it tests.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin D Test vs Vitamin D3 Test: Are They the Same?",
+    },
+    {
+      type: "paragraph",
+      text: "In most labs, yes. Both usually refer to the 25-hydroxy vitamin D blood test. Some reports show 'Total (D2 + D3)' and others show D3 only, which is why it helps to check which one your report lists if you are comparing results between labs.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Why Is the Vitamin D Test Done?",
+    },
+    {
+      type: "list",
+      items: [
+        "Persistent tiredness, body ache, or muscle weakness",
+        "Bone pain, back pain, or frequent fractures",
+        "Limited sun exposure due to indoor work or covering clothing",
+        "Checking after a deficiency diagnosis, to see whether treatment is working",
+        "Conditions that affect absorption, such as celiac disease, or kidney and liver disease",
+        "Children with growth problems or signs of rickets",
+        "Routine preventive screening alongside vitamin B12",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin D Normal Range (ng/mL and nmol/L)",
+    },
+    {
+      type: "list",
+      items: [
+        "Deficient: below 20 ng/mL (below 50 nmol/L)",
+        "Insufficient: 20-29 ng/mL (50-74 nmol/L)",
+        "Sufficient: 30-100 ng/mL (75-250 nmol/L)",
+        "Possibly too high: above 100 ng/mL (above 250 nmol/L)",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "To convert, multiply ng/mL by 2.5 to get nmol/L. Some labs use slightly different cut-offs, and many label a level below 10 ng/mL as severe deficiency, so always compare with the range printed on your own report. The ranges are the same for men and women.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How to Read Your Vitamin D Test Result",
+    },
+    {
+      type: "paragraph",
+      text: "First check the unit. A value of 44 means a healthy level if it is in ng/mL (inside 30-100), but would be low if it is in nmol/L. Then compare it with the bands above: 6 or 8 ng/mL is severely low and needs treatment under a doctor, 15 is deficient, 25 is insufficient, and 40 is sufficient. Your doctor also considers your symptoms, calcium, and other factors, not the number alone.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Symptoms of Low Vitamin D (in Men and Women)",
+    },
+    {
+      type: "list",
+      items: [
+        "Fatigue and low energy",
+        "Bone pain or lower back pain",
+        "Muscle weakness, aches, or cramps",
+        "Getting sick more often",
+        "Low mood",
+        "Slow healing of wounds",
+        "Hair thinning (a possible association, not a proven sole cause)",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Mild deficiency often causes no symptoms at all, and these signs can have many other causes, so only a blood test can confirm low vitamin D. Symptoms are generally similar in men and women, though women, especially after menopause, are more prone to bone loss.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Does Vitamin D Deficiency Cause Hair Fall, Fatigue, or Body Pain?",
+    },
+    {
+      type: "paragraph",
+      text: "Fatigue, muscle weakness, and bone or body pain are well-recognised effects of significant vitamin D deficiency. Hair fall is less clear: low vitamin D is linked with some types of hair loss, but hair fall usually has several causes, including iron, thyroid, stress, and hormones, so correcting vitamin D alone may not stop it. That is why doctors often test vitamin D, B12, thyroid, and iron together.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Causes Vitamin D Deficiency?",
+    },
+    {
+      type: "list",
+      items: [
+        "Too little sun exposure — indoor work, covering clothing, or heavy sunscreen use",
+        "Darker skin, which makes less vitamin D from the same sunlight",
+        "A diet low in vitamin D, especially for vegetarians without fortified foods",
+        "Air pollution and living in high-rise or shaded homes",
+        "Overweight or obesity",
+        "Older age",
+        "Malabsorption conditions such as celiac disease or inflammatory bowel disease",
+        "Kidney or liver disease, and some long-term medicines",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin D Deficiency Treatment",
+    },
+    {
+      type: "paragraph",
+      text: "Treatment depends on how low your level is. Doctors commonly prescribe a course of vitamin D3, often a weekly high-dose sachet or capsule for several weeks followed by a smaller maintenance dose, and recheck the level after about 3 months. The dose should come from your doctor, because taking very high doses without guidance can push vitamin D and calcium too high.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin D Rich Foods (Including for Vegetarians)",
+    },
+    {
+      type: "paragraph",
+      text: "Few foods are naturally rich in vitamin D. Good sources include fatty fish such as salmon, sardines, and mackerel, egg yolk, and cod liver oil. For vegetarians, options include fortified milk, fortified curd, fortified cereals and oils, and mushrooms exposed to UV light. Because food alone rarely corrects a real deficiency, sunlight and doctor-advised supplements usually do most of the work.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Much Sunlight Do You Need for Vitamin D?",
+    },
+    {
+      type: "paragraph",
+      text: "A common guide is about 15-30 minutes of midday sun on bare arms and legs a few times a week, but the right amount depends on your skin tone, season, location, and how much skin is exposed. Sunscreen, window glass, and pollution reduce production. Longer exposure is not a safe way to catch up, because of sunburn and skin-cancer risk.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is the Best Time to Take Vitamin D?",
+    },
+    {
+      type: "paragraph",
+      text: "Vitamin D is fat-soluble, so it is absorbed better when taken with a meal that contains some fat. The time of day matters far less than taking it consistently as your doctor prescribed.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "High Vitamin D: Symptoms and Toxicity",
+    },
+    {
+      type: "paragraph",
+      text: "Too much vitamin D, almost always from over-using supplements and not from sun or food, can raise blood calcium. Signs include nausea, vomiting, weakness, excessive thirst and urination, confusion, and kidney stones. This is why self-prescribing high-dose tablets without a test is not advisable.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is Fasting Required for a Vitamin D Test?",
+    },
+    {
+      type: "paragraph",
+      text: "No. You can eat and drink normally and have the test at any time of day. Tell the lab if you take vitamin D supplements or high-dose biotin (often in hair and nail products), since biotin can interfere with some assays.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Is the Vitamin D Test Done?",
+    },
+    {
+      type: "paragraph",
+      text: "A small blood sample is drawn from a vein in your arm, which takes only a couple of minutes. The serum is analysed on an automated analyser and the report is usually ready within 24 hours.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Often Should You Test Vitamin D?",
+    },
+    {
+      type: "paragraph",
+      text: "If you are being treated for deficiency, doctors commonly recheck after about 3 months. Without a known problem, people at higher risk often test once a year. There is no need to test more often unless your doctor asks.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin D Test in Pregnancy and for Children",
+    },
+    {
+      type: "paragraph",
+      text: "In pregnancy, doctors may check vitamin D if you have risk factors or symptoms, and often advise supplements as part of routine care. In children, the test is used when there are signs such as bone pain, delayed growth, or rickets. Dosing in both groups should always be set by the doctor.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin D, Calcium, and Vitamin B12: How Are They Related?",
+    },
+    {
+      type: "paragraph",
+      text: "Vitamin D helps your body absorb calcium, so doctors often check calcium (and sometimes ALP) alongside it when bone health is a concern. Vitamin B12 is a separate nutrient with a different job, but both are commonly low in people eating mostly vegetarian diets and both can cause fatigue, which is why they are often tested together.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Does a CBC Test for Vitamin D?",
+    },
+    {
+      type: "paragraph",
+      text: "No. A CBC counts blood cells and hemoglobin. It cannot show vitamin D, which needs its own 25-OH vitamin D test.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin D Test Price and Why It Costs More Than Basic Tests",
+    },
+    {
+      type: "paragraph",
+      text: `The vitamin D test uses specialised analyser reagents and is run in smaller volumes than routine tests, so it costs more than a blood sugar or CBC test everywhere. Our vitamin D test is priced at ${getTestPrice('vitamin-d-test')}, with same-day reports and free home sample collection available.`,
+    },
+    {
+      type: "interlinking",
+      title: "Vitamin D Test Services & Pricing",
+      description:
+        "Explore vitamin D test details, pricing, and convenient home sample collection services.",
+      items: [
+        {
+          title: "Vitamin D Test Price",
+          description:
+            "Check the latest vitamin D test price and available home sample collection options.",
+          href: "/prices/vitamin-d-test-price-chandigarh",
+        },
+        {
+          title: "Vitamin D Test Details",
+          description:
+            "Learn about the vitamin D test, what it measures, sample requirements, and preparation.",
+          href: "/tests/vitamin-d-test",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin D Test in Panchkula, Chandigarh & Nearby Areas",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Budget Friendly Labs provides accurate vitamin D testing with convenient home blood sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+    {
+      type: "interlinking",
+      title: "Vitamin D Test — Areas We Serve",
+      description:
+        "We provide vitamin D testing with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "Vitamin D test with home sample collection.",
+          href: "/locations/vitamin-d-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "Vitamin D test and diagnostic services with home collection.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "Vitamin D test with same-day report and home collection.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "Vitamin D test and pathology services.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Key Takeaways",
+    },
+    {
+      type: "list",
+      items: [
+        "The vitamin D test measures 25-hydroxy vitamin D; 'Vitamin D Total' and 'Vitamin D3' on reports usually mean the same test",
+        "In ng/mL: below 20 is deficient, 20-29 insufficient, 30-100 sufficient; check the unit before judging a number",
+        "Fasting is not required and the test can be done at any time of day",
+        "Low vitamin D is very common in India and often has no symptoms, so only a blood test confirms it",
+        "Supplement doses should come from your doctor — too much vitamin D can be harmful",
+      ],
+    },
+    {
+      type: "references",
+      items: [
+        {
+          title: "Vitamin D Test",
+          publisher: "MedlinePlus",
+          url: "https://medlineplus.gov/lab-tests/vitamin-d-test/",
+        },
+        {
+          title: "Vitamin D: Fact Sheet for Health Professionals",
+          publisher: "NIH Office of Dietary Supplements",
+          url: "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+        },
+        {
+          title: "Vitamin D Deficiency",
+          publisher: "Cleveland Clinic",
+          url: "https://my.clevelandclinic.org/health/diseases/15050-vitamin-d-vitamin-d-deficiency",
+        },
+      ],
+    },
+  ],
+
+  faq: [
+    {
+      question: "What is a vitamin D test called?",
+      answer:
+        "It is called the 25-hydroxy vitamin D test (25-OH vitamin D), often listed on reports as 'Vitamin D Total' or 'Vitamin D3'.",
+    },
+    {
+      question: "What is the normal vitamin D level?",
+      answer:
+        "In ng/mL, below 20 is deficient, 20-29 is insufficient, 30-100 is generally sufficient, and above 100 may be too high. In nmol/L, multiply ng/mL by 2.5.",
+    },
+    {
+      question: "Is a vitamin D level of 44 low?",
+      answer:
+        "No. In ng/mL, 44 is within the sufficient range of 30-100. If your report is in nmol/L, 44 would be low, so check the unit.",
+    },
+    {
+      question: "Is a vitamin D level of 6 or 8 dangerous?",
+      answer:
+        "It is severely low. It is not usually an emergency, but it needs treatment under a doctor's guidance to protect your bones and muscles.",
+    },
+    {
+      question: "How do I read my vitamin D test results?",
+      answer:
+        "Check the unit first, then compare your value with the bands: deficient, insufficient, sufficient, or high. Your doctor also weighs your symptoms and other tests.",
+    },
+    {
+      question: "What are the symptoms of low vitamin D?",
+      answer:
+        "Fatigue, bone or back pain, muscle weakness or cramps, frequent infections, and low mood. Mild deficiency often has no symptoms.",
+    },
+    {
+      question: "Does vitamin D deficiency cause hair fall?",
+      answer:
+        "Low vitamin D is linked with some types of hair loss, but hair fall usually has multiple causes such as iron, thyroid, and stress, so vitamin D may not be the only factor.",
+    },
+    {
+      question: "What are good vitamin D foods for vegetarians?",
+      answer:
+        "Fortified milk, curd, cereals and oils, and UV-exposed mushrooms. Food alone rarely corrects a true deficiency, so sunlight and doctor-advised supplements usually matter more.",
+    },
+    {
+      question: "Is the vitamin D test the same as the vitamin D3 test?",
+      answer:
+        "Usually yes — both refer to the 25-hydroxy vitamin D blood test. Check whether your report says Total (D2 + D3) or D3 only.",
+    },
+    {
+      question: "Is fasting required for a vitamin D test?",
+      answer:
+        "No. You can eat and drink normally and test at any time of day.",
+    },
+    {
+      question: "Can I check vitamin D levels without a blood test?",
+      answer:
+        "Not reliably. Symptoms and sun exposure can suggest risk, but only a blood test shows your actual level.",
+    },
+    {
+      question: "Is vitamin D3 taken daily?",
+      answer:
+        "It depends on the prescription. Treatment courses are often weekly high-dose sachets for a set number of weeks, followed by a smaller maintenance dose. Follow your doctor's schedule.",
+    },
+    {
+      question: "How much does a vitamin D test cost?",
+      answer: `Our vitamin D test is priced at ${getTestPrice('vitamin-d-test')}, with same-day reports and free home sample collection available.`,
+    },
+    {
+      question: "Can I test vitamin D at home?",
+      answer:
+        "You can book home sample collection — a phlebotomist visits your location to collect the blood sample, which is then tested at the lab.",
+    },
+  ],
+
+  cta: {
+    title: "Book Vitamin D Test",
+    description: "Get an accurate 25-OH vitamin D test with doorstep sample collection and same-day reports.",
+    buttonText: "Book Test Now",
+    whatsappText: "Hi, I want to book a vitamin D test.",
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/vitamin-d-test",
+  },
+},
  {
   id: 6,
   slug: "dengue-test-symptoms-guide",

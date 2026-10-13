@@ -118,14 +118,15 @@ backgroundSize: "70px 70px",
   </section>
 
   {/* IMAGE */}
-  <section className="mt-10">
-    <div className="max-w-6xl mx-auto px-5">
-      <div className="relative h-[250px] md:h-[550px] rounded-3xl overflow-hidden shadow-xl">
+  <section className="mt-6 sm:mt-10">
+    <div className="max-w-5xl mx-auto px-4 sm:px-5">
+      <div className="relative aspect-[4/3] sm:aspect-[16/9] max-h-[500px] rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-50 flex items-center justify-center p-2 sm:p-4">
         <Image
-          src={service.image}
+          src={service.image || service.coverImage || "/logo.png"}
           alt={service.title}
           fill
-          className="object-cover"
+          sizes="(max-width: 1024px) 100vw, 1200px"
+          className="object-contain"
         />
       </div>
     </div>
