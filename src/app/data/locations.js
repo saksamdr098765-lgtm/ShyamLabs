@@ -4993,6 +4993,248 @@ The test measures 25-hydroxy vitamin D, giving doctors a clear picture of whethe
 
   heroSubtitle:
     "Book your vitamin D test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
+},
+{
+  id: 16,
+
+  slug: "dengue-test-in-chandigarh",
+
+  city: "Chandigarh",
+
+  state: "Chandigarh",
+
+  title: "Dengue Test in Chandigarh",
+
+  shortDescription:
+    "Looking for a dengue test in Chandigarh? Shyam Labs provides affordable and reliable NS1, IgM & IgG dengue testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
+
+  coverImage: "/locations/chandigarh-dengue-test.jpeg",
+
+  hours: "07:00-20:00",
+
+  areas: ["Chandigarh", "Panchkula", "Mohali"],
+
+  services: ["home-sample-collection"],
+
+  seo: {
+    // 50 characters
+    title: "Dengue Test in Chandigarh | Home Sample Collection",
+    // 138 characters
+    description:
+      "Looking for a dengue test in Chandigarh? Shyam Labs offers affordable NS1, IgM & IgG testing with home sample collection and fast reports.",
+    keywords: [
+      "Dengue Test in Chandigarh",
+      "Dengue Blood Test Chandigarh",
+      "NS1 Antigen Test Chandigarh",
+      "Dengue IgM IgG Test Chandigarh",
+      "Home Sample Collection Chandigarh",
+      "Fever Test Near Me Chandigarh",
+      "Dengue Test Price Chandigarh",
+      "Dengue Test Panchkula",
+      "Dengue Test Mohali",
+      "Dengue Test Tricity",
+    ],
+  },
+
+  overview: {
+    heading: "Affordable Dengue Testing & Home Sample Collection in Chandigarh",
+
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. A dengue test is commonly recommended when fever with body ache, headache, or rash appears during the monsoon and post-monsoon season, when dengue cases typically rise.
+
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+
+      `For people living or working in Chandigarh, home sample collection makes testing easier when you are unwell — schedule a collection at a suitable time and have your sample collected by a trained phlebotomist instead of travelling to a diagnostic centre with a fever.
+
+The dengue test looks for NS1 antigen, IgM, and IgG, which together show whether a fever is due to a current, recent, or past dengue infection. Doctors often add a CBC and platelet count to monitor the illness.`,
+
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+
+    highlights: [
+      "Convenient Home Sample Collection",
+      "No Fasting Required",
+      "Fast Digital Reports",
+      "Affordable, Transparent Pricing",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+
+    test: [
+      "dengue-test",
+      "platelet-count",
+      "cbc-test",
+      "mp-antigen-test",
+      "typhidot-test",
+      "widal-test",
+      "liver-function-test",
+      "esr-test",
+    ],
+  },
+
+  packages: [
+    "fever-panel-basic",
+    "fever-panel-advance",
+    "monsoon-gastro-infection-panel",
+    "health-checkup-camp",
+  ],
+
+  process: {
+    heading: "How to Get a Dengue Test in Chandigarh",
+
+    steps: [
+      {
+        title: "Book Your Test",
+        description:
+          "Book your dengue test online or contact Shyam Labs to arrange convenient sample collection in Chandigarh.",
+      },
+      {
+        title: "Schedule Home Collection",
+        description:
+          "Choose a convenient collection time — no fasting needed — and provide your Chandigarh address during booking.",
+      },
+      {
+        title: "Sample Collection",
+        description:
+          "A trained phlebotomist follows appropriate safety and hygiene procedures during the collection visit.",
+      },
+      {
+        title: "Receive Digital Report",
+        description:
+          "Get your dengue report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+
+  healthConditions: [
+    "Dengue Fever Detection",
+    "Fever Evaluation (Dengue, Malaria, Typhoid)",
+    "Platelet Count Monitoring",
+    "Seasonal Infection Screening",
+  ],
+
+  whoShouldGetTested: [
+    "Anyone with High Fever for More Than 2 Days",
+    "People with Body Ache, Headache, or Pain Behind the Eyes",
+    "Individuals with Skin Rash and Fever",
+    "Children with Fever in Dengue Season",
+    "Pregnant Women with Fever (as advised by a doctor)",
+    "People with a Falling Platelet Count",
+  ],
+
+  popularSearches: [
+    "Dengue Test in Chandigarh",
+    "Dengue Test Price Chandigarh",
+    "Dengue Test Near Me",
+    "Home Sample Collection Chandigarh",
+    "NS1 Antigen Test in Chandigarh",
+    "Fever Test Near Me Chandigarh",
+    "Dengue Test Panchkula",
+    "Dengue Test Mohali",
+  ],
+
+  sections: [
+    {
+      title: "Dengue Testing Services in Chandigarh",
+      content: [
+        "Residents across Chandigarh can book dengue testing through Shyam Labs with convenient home sample collection where service coverage is available.",
+        "Our testing services are designed for families, working professionals, senior citizens, and patients who need a quick fever workup during dengue season.",
+      ],
+    },
+    {
+      title: "Doorstep Blood Collection in Chandigarh",
+      content: [
+        "Our home sample collection service lets you schedule a dengue test from home without travelling to a diagnostic centre while you have a fever.",
+        "Trained phlebotomists follow appropriate safety and hygiene procedures during every collection visit.",
+      ],
+    },
+    {
+      title: "Why Choose Shyam Labs for Dengue Testing?",
+      content: [
+        "Affordable pricing, convenient sample collection, and digital reporting make Shyam Labs a convenient option for dengue testing across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+
+  faq: [
+    {
+      question: "Which areas around Chandigarh are covered for home sample collection?",
+      answer:
+        "Shyam Labs provides home sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+    {
+      question: "Can I book a dengue test online in Chandigarh?",
+      answer: "Yes, you can schedule your dengue test online or by phone and choose a convenient collection time.",
+    },
+    {
+      question: "What is the dengue test price in Chandigarh?",
+      answer: `The dengue test is available at an offer price of ₹${getTestPrice('dengue-test')}. Check the pricing page for current offers and booking details.`,
+    },
+    {
+      question: "Is fasting required before a dengue test?",
+      answer: "No, fasting is not required before a dengue test.",
+    },
+    {
+      question: "How quickly are dengue reports available in Chandigarh?",
+      answer: "Dengue reports are typically available digitally within 24 hours of sample collection.",
+    },
+    {
+      question: "Can children and senior citizens book a dengue test from home in Chandigarh?",
+      answer:
+        "Yes, home sample collection can be convenient for children, elderly patients, and anyone with fever who prefers to avoid travelling to a diagnostic centre, subject to service availability.",
+    },
+  ],
+
+  relatedLocations: [
+    { city: "Panchkula", slug: "/locations/dengue-test-in-panchkula" },
+    { city: "Mohali", slug: "/locations/dengue-test-in-mohali" },
+  ],
+
+  facts: [
+    { label: "Test Price", value: getTestPrice('dengue-test') },
+    { label: "Report Time", value: "24 Hours" },
+    { label: "Collection Service", value: "Doorstep Sample Pickup" },
+    { label: "Report Delivery", value: "Online & WhatsApp Reports" },
+    { label: "Lab Location", value: "Sector 21, Panchkula" },
+  ],
+
+  tags: [
+    "Dengue Test Chandigarh",
+    "NS1 Antigen Test Chandigarh",
+    "Pathology Lab Chandigarh",
+    "Home Sample Collection Chandigarh",
+    "Fever Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "Dengue Test Panchkula",
+    "Dengue Test Mohali",
+    "Dengue Test Tricity",
+  ],
+
+  cta: {
+    title: "Book a Dengue Test in Chandigarh Today",
+
+    description:
+      "Schedule convenient home sample collection in Chandigarh and receive your dengue report digitally from Shyam Budget Friendly Labs.",
+
+    phone: "tel:+919914899300",
+
+    highlights: ["Home Sample Collection", "Affordable Dengue Testing", "Fast Digital Reports"],
+  },
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/chandigarh-dengue-test.jpeg",
+
+  heroTitle: "Affordable Dengue Testing & Home Sample Collection in Chandigarh",
+
+  heroSubtitle:
+    "Book your dengue test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
 }
 ];
 

@@ -2719,20 +2719,305 @@ export const tests = [
 
 {
   slug: "dengue-test",
-  name: "Dengue Test",
+  name: "Dengue Test (NS1, IgM & IgG)",
   shortName: "Dengue",
   category: "Infectious Disease",
   organ: "Immune System",
   sampleType: "Blood",
-  parameterCount: 1,
+  parameterCount: 3,
   fasting: false,
   homeCollection: true,
   popular: true,
+
   description:
-    "Detects dengue infection for early diagnosis and treatment.",
+    "Dengue test detects dengue virus infection using NS1 antigen, IgM and IgG antibodies, helping confirm dengue early and tell recent infection from past exposure.",
+
   price: 600,
   reportTime: "24 Hours",
-   status:"draft"
+  status: "published",
+
+  seo: {
+    // 49 characters
+    title: "Dengue Test in Chandigarh - NS1, IgM, IgG & Price",
+    // 114 characters
+    description:
+      "Book dengue test (NS1, IgM, IgG) in Chandigarh with home sample collection. Check dengue test price & report time.",
+    keywords: [
+      "dengue test",
+      "dengue fever test",
+      "dengue blood test",
+      "dengue test price",
+      "dengue test near me",
+      "dengue test chandigarh",
+      "dengue ns1 antigen test",
+      "dengue igm igg test",
+      "dengue test at home",
+      "dengue test home collection",
+      "dengue rapid test",
+      "dengue serology test",
+    ],
+  },
+
+  hero: {
+    badge: "Home Sample Collection Available",
+
+    title: "Dengue Test (NS1, IgM & IgG) in Chandigarh",
+
+    description:
+      "Book a Dengue Test in Chandigarh and the Tricity with fast report delivery, professional sample collection, and convenient doorstep home collection from Shyam Labs. Check the latest dengue test price and book online.",
+
+    image: "/tests/dengue.webp",
+
+    imageAlt: "Dengue Blood Test - NS1, IgM, IgG in Chandigarh",
+
+    reportTime: "24 Hours",
+
+    homeCollection: "Available",
+
+    trustPoints: [
+      "Professional Sample Collection",
+      "Digital Reports",
+      "Affordable Dengue Test Price",
+      "Quality-Controlled Testing",
+    ],
+
+    bookButton: "Book Dengue Test",
+
+    bookingUrl: "/prices/dengue-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+  },
+
+  quickFacts: {
+    sample: "Blood Sample",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    homeCollection: "Available",
+    ageGroup: "Adults & Children",
+  },
+
+  whyChooseUs: {
+    title: "Why Choose Shyam Labs for Your Dengue Test?",
+
+    description:
+      "Get a dependable dengue test in Chandigarh and the Tricity with easy booking, professional sample collection, convenient home collection, and quick access to your digital report.",
+
+    items: [
+      {
+        title: "Professional Sample Collection",
+        description:
+          "Every blood draw follows proper collection procedures for a comfortable, low-discomfort experience.",
+      },
+      {
+        title: "Standardised Testing Process",
+        description:
+          "Your dengue sample is analysed following standard laboratory protocols.",
+      },
+      {
+        title: "Fast Digital Reports",
+        description:
+          "Your dengue report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
+      },
+      {
+        title: "Home Collection Across Chandigarh & Tricity",
+        description:
+          "Book a dengue test with convenient home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+    ],
+  },
+
+  testDetails: {
+    title: "About the Dengue Test (NS1 Antigen, IgM & IgG)",
+
+    description: [
+      "The dengue test checks your blood for signs of infection with the dengue virus. NS1 antigen is a viral protein found in the blood in the first few days of fever, while IgM and IgG are antibodies your body makes in response — IgM appears first and points to a recent infection, and IgG appears later and points to past exposure.",
+      "Which marker is positive depends on how many days you have had fever, so the three are tested together. A dengue test confirms the infection; it does not show how severe it is. For that, doctors monitor your platelet count and hematocrit with a CBC, which is why a CBC and platelet count are commonly added.",
+    ],
+
+    included: [
+      "Dengue NS1 Antigen",
+      "Dengue IgM Antibody",
+      "Dengue IgG Antibody",
+    ],
+  },
+
+  preparation: {
+    title: "Preparation Before Your Dengue Test",
+
+    description:
+      "A dengue test needs no special preparation — here's what to keep in mind before your appointment.",
+
+    items: [
+      {
+        title: "Dengue Test Fasting Requirement",
+        description:
+          "Fasting is not required. You can eat and drink normally, and the test can be done at any time of day.",
+      },
+      {
+        title: "Note the Day Your Fever Started",
+        description:
+          "Tell the phlebotomist or your doctor how many days you have had fever. It helps interpret which markers (NS1 or antibodies) should be positive.",
+      },
+      {
+        title: "Stay Hydrated and Don't Delay",
+        description:
+          "Drink plenty of fluids and get tested early if fever has lasted more than 2 days with body ache, headache, or rash. Seek urgent care for severe stomach pain, repeated vomiting, or bleeding.",
+      },
+    ],
+  },
+
+  bookingProcess: {
+    title: "How to Book Your Dengue Test in Chandigarh",
+
+    description:
+      "Booking a dengue test with Shyam Labs takes just a few minutes, with convenient home sample collection available across Chandigarh and the Tricity.",
+
+    steps: [
+      {
+        title: "Book Test",
+        description:
+          "Select the Dengue Test and submit your booking request online or over a call.",
+      },
+      {
+        title: "Schedule Sample Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh or Tricity address.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is processed using standard laboratory procedures.",
+      },
+      {
+        title: "Receive Report",
+        description:
+          "Your digital dengue report is sent to you within 24 hours of collection.",
+      },
+    ],
+  },
+
+  pricePreview: {
+    title: "Dengue Test Price",
+
+    description:
+      "Check the latest dengue test price in Chandigarh and book with convenient home sample collection.",
+
+    price: 600,
+
+    priceUrl: "/prices/dengue-test-price-chandigarh",
+  },
+
+  relatedTests: [
+    "platelet-count",
+    "cbc-test",
+    "mp-antigen-test",
+    "typhidot-test",
+    "widal-test",
+    "esr-test",
+  ],
+
+  faq: {
+    title: "Frequently Asked Questions",
+
+    description:
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the dengue test, its results, and booking.",
+
+    items: [
+      {
+        question: "What is a dengue test?",
+        answer:
+          "It is a blood test that looks for the dengue virus (NS1 antigen) or your body's antibodies against it (IgM and IgG) to confirm whether you have, or recently had, dengue.",
+      },
+      {
+        question: "What tests are done for dengue?",
+        answer:
+          "The main tests are NS1 antigen, IgM, and IgG, often done together. A CBC with platelet count is also commonly done to monitor the illness, and PCR is a more specific lab test used in some cases.",
+      },
+      {
+        question: "What do NS1, IgM, and IgG mean?",
+        answer:
+          "NS1 is a viral protein seen in the first days of fever and means current infection. IgM antibodies appear after about day 4-5 and point to a recent infection. IgG appears later and usually points to past exposure.",
+      },
+      {
+        question: "When is the best time to get a dengue test?",
+        answer:
+          "NS1 works best in the first 5 days of fever, and antibody tests (IgM) become more useful after day 5. Don't wait — if fever has lasted more than 2 days with dengue-like symptoms, get tested.",
+      },
+      {
+        question: "What does a positive dengue test mean?",
+        answer:
+          "NS1 positive means current dengue infection. IgM positive means a recent infection. IgG positive alone usually means past infection, but IgM and IgG together can suggest a recent or repeat infection. Your doctor interprets it with your symptoms.",
+      },
+      {
+        question: "What if NS1 is positive and IgM and IgG are negative?",
+        answer:
+          "This is a typical pattern in the first few days of illness — the virus is detectable, but antibodies haven't formed yet. It still counts as a positive dengue result.",
+      },
+      {
+        question: "Can a negative dengue test rule out dengue?",
+        answer:
+          "Not always. A test done too early (for antibodies) or too late (for NS1) can miss it. If symptoms continue, your doctor may repeat the test or use a different marker.",
+      },
+      {
+        question: "Can a CBC confirm dengue?",
+        answer:
+          "No. A CBC can show low platelets, low white cells, and a raised hematocrit, which suggest dengue, but only NS1, IgM/IgG, or PCR confirms it. A CBC can also be normal in the early days.",
+      },
+      {
+        question: "Is fasting required for a dengue test?",
+        answer:
+          "No. You can eat and drink normally and have the test at any time of day.",
+      },
+      {
+        question: "How long does a dengue test take to give results?",
+        answer:
+          "Rapid card tests give results in under an hour at the lab, while lab-based reports are usually ready within 24 hours of sample collection.",
+      },
+      {
+        question: "Can I test for dengue at home?",
+        answer:
+          "You can book home sample collection — a phlebotomist visits you, collects the blood, and the test is done at the lab. Rapid self-test kits exist, but a lab test is more reliable and should guide treatment.",
+      },
+      {
+        question: "Should I get a platelet count along with the dengue test?",
+        answer:
+          "Yes, doctors commonly advise a CBC with platelet count together with the dengue test, since platelets and hematocrit show how the illness is progressing.",
+      },
+      {
+        question: "Is home sample collection available for dengue test in Chandigarh?",
+        answer:
+          "Yes, Shyam Labs provides home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+      {
+        question: "What is the dengue test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current dengue test price and book online with home sample collection.",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Dengue Test in Chandigarh Today",
+
+    description:
+      "Get convenient home sample collection, reliable dengue testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+
+    highlights: [
+      "Home Sample Collection Available",
+      "Fast Report Delivery",
+      "Professional Collection Process",
+    ],
+
+    price: "600",
+
+    priceText: "Check detailed dengue test pricing and booking options.",
+
+    bookingUrl: "/prices/dengue-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+
+    buttonText: "Book Dengue Test",
+  },
 },
 
 {

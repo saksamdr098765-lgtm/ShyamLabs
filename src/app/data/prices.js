@@ -994,7 +994,178 @@ export const prices = [
 
     highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
   },
+},
+{
+  slug: "dengue-test-price-chandigarh",
+
+  seo: {
+    // 50 characters
+    title: "Dengue Test Price in Chandigarh | Book NS1 IgM IgG",
+    description: `Check dengue test price in Chandigarh starting at ₹${getTestPrice('dengue-test')}, with home sample collection, digital reports & easy online booking.`,
+    keywords: [
+      "dengue test price chandigarh",
+      "dengue test cost chandigarh",
+      "dengue blood test price chandigarh",
+      "ns1 antigen test price",
+      "dengue test price near me",
+      "dengue serology test cost",
+      "dengue test panchkula",
+      "dengue test mohali",
+      "dengue test tricity",
+    ],
+  },
+
+  hero: {
+    badge: "Quality Testing Standards",
+
+    title: "Dengue Test Price in Chandigarh",
+
+    subtitle:
+      "Check the Dengue Test (NS1, IgM & IgG) price in Chandigarh with accurate testing and convenient doorstep home sample collection from Shyam Labs.",
+
+    image: "/prices/dengue-test.webp",
+  },
+
+  priceCard: {
+    actualPrice: 900,
+    offerPrice: getTestPrice('dengue-test'),
+    offerText: "Offer Price",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    sampleType: "Blood",
+    homeCollection: true,
+    labVisit: true,
+
+    includes: {
+      title: "Every Booking Includes",
+      items: [
+        "Free Doorstep Home Sample Collection",
+        "Digital Report on WhatsApp & Email",
+        "No Advance Payment Required",
+      ],
+    },
+  },
+
+  whyGetTest: {
+    title: "Why Get a Dengue Test in Chandigarh",
+    description:
+      "Dengue can look like any other fever in the first days. A quick blood test confirms it early, so you can get the right care and monitoring in time.",
+
+    reasons: [
+      {
+        title: "Confirms Dengue Early",
+        description:
+          "NS1 detects the virus in the first days of fever, before antibodies appear.",
+      },
+      {
+        title: "Separates Dengue from Other Fevers",
+        description:
+          "Helps your doctor tell dengue apart from malaria, typhoid, or a common viral fever.",
+      },
+      {
+        title: "Convenient & Affordable",
+        description:
+          "Home sample collection and transparent pricing mean you can get tested while resting at home.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How much does a dengue test cost in Chandigarh?",
+      answer: `The dengue test is available at an offer price of ₹${getTestPrice('dengue-test')} at Shyam Labs, with home sample collection available subject to service coverage.`,
+    },
+    {
+      question: "What does the dengue test price include?",
+      answer:
+        "It covers dengue NS1 antigen, IgM, and IgG testing with a digital report. A CBC and platelet count are separate tests that doctors commonly add.",
+    },
+    {
+      question: "Is home sample collection available in Chandigarh?",
+      answer:
+        "Yes, Shyam Labs provides doorstep home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+    },
+    {
+      question: "Do I need to pay in advance to book a dengue test?",
+      answer:
+        "No advance payment is required — you can pay at the time of sample collection or according to the payment option provided during booking.",
+    },
+    {
+      question: "How soon will I get my dengue report after booking?",
+      answer:
+        "Reports are typically delivered digitally within 24 hours of sample collection.",
+    },
+  ],
+
+  relatedTests: [
+    "dengue-test",
+    "platelet-count",
+    "cbc-test",
+    "mp-antigen-test",
+    "typhidot-test",
+    "widal-test",
+  ],
+
+  interlinks: {
+    badge: "Included Services & Chandigarh Availability",
+
+    heading: "What's Included & Chandigarh Availability",
+
+    description:
+      "Checking the dengue test price? Explore what's included in this price and confirm home collection availability near you in Chandigarh and the Tricity.",
+
+    items: [
+      {
+        title: "What's Included in This Price?",
+        subtitle: "Dengue Test Service Details",
+        description:
+          "See everything included in your dengue test — from sample collection to laboratory analysis and report delivery.",
+        href: "/tests/dengue-test",
+        icon: "FiActivity",
+        badge: "Test Details",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Test Details",
+        tracking: "price-interlink-service",
+      },
+      {
+        title: "Dengue Test Available in Chandigarh",
+        subtitle: "Location & Home Collection",
+        description:
+          "Check dengue test home sample collection availability across Chandigarh and nearby Tricity areas.",
+        href: "/locations/dengue-test-in-chandigarh",
+        icon: "FiMapPin",
+        badge: "Chandigarh Location",
+        badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+        btnText: "Visit Chandigarh Page",
+        tracking: "price-interlink-location",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Dengue Test in Chandigarh Today",
+
+    description:
+      "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
+
+    offerPrice: getTestPrice('dengue-test'),
+
+    actualPrice: 900,
+
+    buttonText: "Book a Test",
+
+    testName: "Dengue Test",
+
+    blogUrl: "/blogs/dengue-test-symptoms-guide",
+
+    serviceUrl: "/tests/dengue-test",
+
+    locationUrl: "/locations/dengue-test-in-chandigarh",
+
+    packageUrl: "/packages",
+
+    highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
+  },
 }
 ];
-
 
