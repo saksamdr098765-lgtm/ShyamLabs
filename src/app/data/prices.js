@@ -1166,6 +1166,195 @@ export const prices = [
 
     highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
   },
+},
+{
+  slug: "typhoid-test-price-chandigarh",
+
+  seo: {
+    // 51 characters
+    title: "Typhoid Test Price in Chandigarh | Widal & Typhidot",
+    description: `Check typhoid test price in Chandigarh: Widal from ₹${getTestPrice('widal-test')}, Typhidot ₹${getTestPrice('typhidot-test')}, with home sample collection & digital reports.`,
+    keywords: [
+      "typhoid test price chandigarh",
+      "typhoid test cost chandigarh",
+      "widal test price chandigarh",
+      "typhidot test price chandigarh",
+      "typhoid blood test price",
+      "typhoid test price near me",
+      "typhoid test panchkula",
+      "typhoid test mohali",
+      "typhoid test tricity",
+    ],
+  },
+
+  hero: {
+    badge: "Quality Testing Standards",
+
+    title: "Typhoid Test Price in Chandigarh",
+
+    subtitle:
+      "Check Widal and Typhidot typhoid test prices in Chandigarh with accurate testing and convenient doorstep home sample collection from Shyam Labs.",
+
+    image: "/prices/typhoid-test.webp",
+  },
+
+  priceCard: {
+    actualPrice: 300,
+    offerPrice: getTestPrice('widal-test'),
+    offerText: "Starting Price",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    sampleType: "Blood",
+    homeCollection: true,
+    labVisit: true,
+
+    includes: {
+      title: "Every Booking Includes",
+      items: [
+        "Free Doorstep Home Sample Collection",
+        "Digital Report on WhatsApp & Email",
+        "No Advance Payment Required",
+      ],
+    },
+  },
+
+  whyGetTest: {
+    title: "Why Get a Typhoid Test in Chandigarh",
+    description:
+      "A fever that lasts several days with weakness and stomach upset needs a proper test — typhoid is treatable, but it needs the right antibiotic at the right time.",
+
+    reasons: [
+      {
+        title: "Confirms the Cause of a Long Fever",
+        description:
+          "Helps your doctor tell typhoid apart from dengue, malaria, or a common viral fever.",
+      },
+      {
+        title: "Two Tests for Different Stages",
+        description:
+          "Typhidot can turn positive from about day 2-3 of fever, while Widal is more useful after about a week.",
+      },
+      {
+        title: "Convenient & Affordable",
+        description:
+          "Home sample collection and transparent pricing mean you can get tested while resting at home.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How much does a typhoid test cost in Chandigarh?",
+      answer: `At Shyam Labs the Widal test is ₹${getTestPrice('widal-test')} and the Typhidot test is ₹${getTestPrice('typhidot-test')}, with home sample collection available subject to service coverage.`,
+    },
+    {
+      question: "Which typhoid test should I choose, Widal or Typhidot?",
+      answer:
+        "Typhidot gives an earlier, quick result, while Widal is more useful after the first week of fever. Your doctor will advise based on how many days of fever you have had.",
+    },
+    {
+      question: "Is a CBC included in the typhoid test price?",
+      answer:
+        "No, a CBC is a separate test that doctors commonly add to monitor the illness.",
+    },
+    {
+      question: "Is home sample collection available in Chandigarh?",
+      answer:
+        "Yes, Shyam Labs provides doorstep home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+    },
+    {
+      question: "Do I need to pay in advance to book a typhoid test?",
+      answer:
+        "No advance payment is required — you can pay at the time of sample collection or according to the payment option provided during booking.",
+    },
+    {
+      question: "How soon will I get my typhoid test report after booking?",
+      answer:
+        "Reports are typically delivered digitally within 24 hours of sample collection.",
+    },
+  ],
+
+  relatedTests: [
+    "widal-test",
+    "typhidot-test",
+    "cbc-test",
+    "dengue-test",
+    "mp-antigen-test",
+    "stool-examination",
+  ],
+
+  interlinks: {
+    badge: "Included Services & Chandigarh Availability",
+
+    heading: "What's Included & Chandigarh Availability",
+
+    description:
+      "Checking the typhoid test price? Explore both tests, what's included, and confirm home collection availability near you in Chandigarh and the Tricity.",
+
+    items: [
+      {
+        title: "Widal Test Details",
+        subtitle: "Widal Test Service Details",
+        description:
+          "See what the Widal test measures, the titre chart, and how to prepare.",
+        href: "/tests/widal-test",
+        icon: "FiActivity",
+        badge: "Widal Test",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Widal Test",
+        tracking: "price-interlink-widal",
+      },
+      {
+        title: "Typhidot Test Details",
+        subtitle: "Typhidot IgM & IgG Service Details",
+        description:
+          "See what Typhidot IgM and IgG detect, how early it turns positive, and how to prepare.",
+        href: "/tests/typhidot-test",
+        icon: "FiActivity",
+        badge: "Typhidot Test",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Typhidot Test",
+        tracking: "price-interlink-typhidot",
+      },
+      {
+        title: "Typhoid Test Available in Chandigarh",
+        subtitle: "Location & Home Collection",
+        description:
+          "Check typhoid test home sample collection availability across Chandigarh and nearby Tricity areas.",
+        href: "/locations/typhoid-test-in-chandigarh",
+        icon: "FiMapPin",
+        badge: "Chandigarh Location",
+        badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+        btnText: "Visit Chandigarh Page",
+        tracking: "price-interlink-location",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Typhoid Test in Chandigarh Today",
+
+    description:
+      "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
+
+    offerPrice: getTestPrice('widal-test'),
+
+    actualPrice: 300,
+
+    buttonText: "Book a Test",
+
+    testName: "Typhoid Test",
+
+    blogUrl: "/blogs/typhoid-test-symptoms-guide",
+
+    serviceUrl: "/tests/widal-test",
+
+    locationUrl: "/locations/typhoid-test-in-chandigarh",
+
+    packageUrl: "/packages",
+
+    highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
+  },
 }
 ];
 

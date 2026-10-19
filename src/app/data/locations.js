@@ -5235,6 +5235,249 @@ The dengue test looks for NS1 antigen, IgM, and IgG, which together show whether
 
   heroSubtitle:
     "Book your dengue test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
+},
+{
+  id: 17,
+
+  slug: "typhoid-test-in-chandigarh",
+
+  city: "Chandigarh",
+
+  state: "Chandigarh",
+
+  title: "Typhoid Test in Chandigarh",
+
+  shortDescription:
+    "Looking for a typhoid test in Chandigarh? Shyam Labs provides affordable and reliable Widal and Typhidot testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
+
+  coverImage: "/locations/chandigarh-typhoid-test.jpeg",
+
+  hours: "07:00-20:00",
+
+  areas: ["Chandigarh", "Panchkula", "Mohali"],
+
+  services: ["home-sample-collection"],
+
+  seo: {
+    // 50 characters
+    title: "Typhoid Test in Chandigarh | Widal & Typhidot Test",
+    // 128 characters
+    description:
+      "Looking for a typhoid test in Chandigarh? Shyam Labs offers Widal and Typhidot tests with home sample collection and fast reports.",
+    keywords: [
+      "Typhoid Test in Chandigarh",
+      "Widal Test Chandigarh",
+      "Typhidot Test Chandigarh",
+      "Typhoid Blood Test Chandigarh",
+      "Home Sample Collection Chandigarh",
+      "Fever Test Near Me Chandigarh",
+      "Typhoid Test Price Chandigarh",
+      "Typhoid Test Panchkula",
+      "Typhoid Test Mohali",
+      "Typhoid Test Tricity",
+    ],
+  },
+
+  overview: {
+    heading: "Affordable Typhoid Testing & Home Sample Collection in Chandigarh",
+
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. A typhoid test is commonly recommended when fever has lasted several days with weakness, headache, or stomach upset, especially during the monsoon and post-monsoon months when waterborne infections rise.
+
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+
+      `For people living or working in Chandigarh, home sample collection makes testing easier when you are unwell — schedule a collection at a suitable time and have your sample collected by a trained phlebotomist instead of travelling to a diagnostic centre with a fever.
+
+We offer both the Widal test and the Typhidot IgM and IgG test. Typhidot can turn positive earlier in the illness, while Widal is more useful after the first week, so your doctor can choose the right one based on how many days of fever you have had.`,
+
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+
+    highlights: [
+      "Widal & Typhidot Testing",
+      "Convenient Home Sample Collection",
+      "No Fasting Required",
+      "Fast Digital Reports",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+
+    test: [
+      "widal-test",
+      "typhidot-test",
+      "cbc-test",
+      "dengue-test",
+      "mp-antigen-test",
+      "stool-examination",
+      "liver-function-test",
+      "platelet-count",
+    ],
+  },
+
+  packages: [
+    "fever-panel-basic",
+    "fever-panel-advance",
+    "monsoon-gastro-infection-panel",
+    "health-checkup-camp",
+  ],
+
+  process: {
+    heading: "How to Get a Typhoid Test in Chandigarh",
+
+    steps: [
+      {
+        title: "Book Your Test",
+        description:
+          "Book your Widal or Typhidot test online or contact Shyam Labs to arrange convenient sample collection in Chandigarh.",
+      },
+      {
+        title: "Schedule Home Collection",
+        description:
+          "Choose a convenient collection time — no fasting needed — and provide your Chandigarh address during booking.",
+      },
+      {
+        title: "Sample Collection",
+        description:
+          "A trained phlebotomist follows appropriate safety and hygiene procedures during the collection visit.",
+      },
+      {
+        title: "Receive Digital Report",
+        description:
+          "Get your typhoid test report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+
+  healthConditions: [
+    "Typhoid (Enteric) Fever Detection",
+    "Fever Evaluation (Typhoid, Dengue, Malaria)",
+    "Waterborne Infection Screening",
+    "Seasonal Infection Monitoring",
+  ],
+
+  whoShouldGetTested: [
+    "Anyone with Fever Lasting More Than 3 Days",
+    "People with Weakness, Headache, or Loss of Appetite",
+    "Individuals with Stomach Pain, Constipation, or Diarrhea with Fever",
+    "Children with Prolonged Fever",
+    "Pregnant Women with Fever (as advised by a doctor)",
+    "People Exposed to Unsafe Food or Water",
+  ],
+
+  popularSearches: [
+    "Typhoid Test in Chandigarh",
+    "Typhoid Test Price Chandigarh",
+    "Typhoid Test Near Me",
+    "Home Sample Collection Chandigarh",
+    "Widal Test in Chandigarh",
+    "Typhidot Test in Chandigarh",
+    "Typhoid Test Panchkula",
+    "Typhoid Test Mohali",
+  ],
+
+  sections: [
+    {
+      title: "Typhoid Testing Services in Chandigarh",
+      content: [
+        "Residents across Chandigarh can book Widal and Typhidot testing through Shyam Labs with convenient home sample collection where service coverage is available.",
+        "Our testing services are designed for families, working professionals, senior citizens, and patients who need a quick fever workup.",
+      ],
+    },
+    {
+      title: "Doorstep Blood Collection in Chandigarh",
+      content: [
+        "Our home sample collection service lets you schedule a typhoid test from home without travelling to a diagnostic centre while you have a fever.",
+        "Trained phlebotomists follow appropriate safety and hygiene procedures during every collection visit.",
+      ],
+    },
+    {
+      title: "Why Choose Shyam Labs for Typhoid Testing?",
+      content: [
+        "Affordable pricing, convenient sample collection, and digital reporting make Shyam Labs a convenient option for typhoid testing across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+
+  faq: [
+    {
+      question: "Which areas around Chandigarh are covered for home sample collection?",
+      answer:
+        "Shyam Labs provides home sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+    {
+      question: "Can I book a typhoid test online in Chandigarh?",
+      answer: "Yes, you can schedule your Widal or Typhidot test online or by phone and choose a convenient collection time.",
+    },
+    {
+      question: "What is the typhoid test price in Chandigarh?",
+      answer: `The Widal test is available at ₹${getTestPrice('widal-test')} and the Typhidot test at ₹${getTestPrice('typhidot-test')}. Check the pricing page for current offers and booking details.`,
+    },
+    {
+      question: "Is fasting required before a typhoid test?",
+      answer: "No, fasting is not required before a Widal or Typhidot test.",
+    },
+    {
+      question: "How quickly are typhoid test reports available in Chandigarh?",
+      answer: "Reports are typically available digitally within 24 hours of sample collection.",
+    },
+    {
+      question: "Can children and senior citizens book a typhoid test from home in Chandigarh?",
+      answer:
+        "Yes, home sample collection can be convenient for children, elderly patients, and anyone with fever who prefers to avoid travelling to a diagnostic centre, subject to service availability.",
+    },
+  ],
+
+  relatedLocations: [
+    { city: "Panchkula", slug: "/locations/typhoid-test-in-panchkula" },
+    { city: "Mohali", slug: "/locations/typhoid-test-in-mohali" },
+  ],
+
+  facts: [
+    { label: "Widal Test Price", value: getTestPrice('widal-test') },
+    { label: "Typhidot Test Price", value: getTestPrice('typhidot-test') },
+    { label: "Report Time", value: "24 Hours" },
+    { label: "Collection Service", value: "Doorstep Sample Pickup" },
+    { label: "Lab Location", value: "Sector 21, Panchkula" },
+  ],
+
+  tags: [
+    "Typhoid Test Chandigarh",
+    "Widal Test Chandigarh",
+    "Typhidot Test Chandigarh",
+    "Pathology Lab Chandigarh",
+    "Home Sample Collection Chandigarh",
+    "Fever Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "Typhoid Test Panchkula",
+    "Typhoid Test Mohali",
+    "Typhoid Test Tricity",
+  ],
+
+  cta: {
+    title: "Book a Typhoid Test in Chandigarh Today",
+
+    description:
+      "Schedule convenient home sample collection in Chandigarh and receive your Widal or Typhidot report digitally from Shyam Budget Friendly Labs.",
+
+    phone: "tel:+919914899300",
+
+    highlights: ["Home Sample Collection", "Affordable Typhoid Testing", "Fast Digital Reports"],
+  },
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/chandigarh-typhoid-test.jpeg",
+
+  heroTitle: "Affordable Typhoid Testing & Home Sample Collection in Chandigarh",
+
+  heroSubtitle:
+    "Book your Widal or Typhidot test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
 }
 ];
 

@@ -2322,34 +2322,589 @@ export const tests = [
   category: "Serology",
   organ: "Immune System",
   sampleType: "Blood",
-  parameterCount: 1,
+  parameterCount: 4,
   fasting: false,
   homeCollection: true,
   popular: true,
+
   description:
-    "Detects antibodies against Salmonella bacteria to help diagnose typhoid fever.",
+    "Widal test measures antibody titres against Salmonella Typhi and Paratyphi to support the diagnosis of typhoid (enteric) fever.",
+
   price: 200,
   reportTime: "24 Hours",
-   status:"draft"
+  status: "published",
+
+  seo: {
+    // 55 characters
+    title: "Widal Test in Chandigarh - Price, Titre Chart & Meaning",
+    // 128 characters
+    description:
+      "Book Widal test in Chandigarh with home sample collection. Check Widal test price, normal range, titre chart & positive meaning.",
+    keywords: [
+      "widal test",
+      "widal test price",
+      "widal test normal range",
+      "widal test positive meaning",
+      "widal test titre chart",
+      "widal test full form",
+      "widal test accuracy",
+      "widal test false positive",
+      "widal vs typhidot",
+      "widal test chandigarh",
+      "typhoid blood test",
+      "typhoid test near me",
+    ],
+  },
+
+  hero: {
+    badge: "Home Sample Collection Available",
+
+    title: "Widal Test for Typhoid in Chandigarh",
+
+    description:
+      "Book a Widal Test in Chandigarh and the Tricity with fast report delivery, professional sample collection, and convenient doorstep home collection from Shyam Labs. Check the latest Widal test price and book online.",
+
+    image: "/tests/widal.webp",
+
+    imageAlt: "Widal Test for Typhoid Fever in Chandigarh",
+
+    reportTime: "24 Hours",
+
+    homeCollection: "Available",
+
+    trustPoints: [
+      "Professional Sample Collection",
+      "Digital Reports",
+      "Affordable Widal Test Price",
+      "Quality-Controlled Testing",
+    ],
+
+    bookButton: "Book Widal Test",
+
+    bookingUrl: "/prices/typhoid-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+  },
+
+  quickFacts: {
+    sample: "Blood Sample",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    homeCollection: "Available",
+    ageGroup: "Adults & Children",
+  },
+
+  whyChooseUs: {
+    title: "Why Choose Shyam Labs for Your Widal Test?",
+
+    description:
+      "Get a dependable Widal test in Chandigarh and the Tricity with easy booking, professional sample collection, convenient home collection, and quick access to your digital report.",
+
+    items: [
+      {
+        title: "Professional Sample Collection",
+        description:
+          "Every blood draw follows proper collection procedures for a comfortable, low-discomfort experience.",
+      },
+      {
+        title: "Standardised Testing Process",
+        description:
+          "Your Widal sample is analysed following standard laboratory protocols.",
+      },
+      {
+        title: "Fast Digital Reports",
+        description:
+          "Your Widal report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
+      },
+      {
+        title: "Home Collection Across Chandigarh & Tricity",
+        description:
+          "Book a Widal test with convenient home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+    ],
+  },
+
+  testDetails: {
+    title: "About the Widal Test (Typhoid Antibody Titre)",
+
+    description: [
+      "The Widal test is named after the French physician Georges Fernand Widal, so it has no abbreviation or 'full form'. It is an agglutination test that measures antibodies your body makes against Salmonella Typhi (the typhoid bacterium) and Salmonella Paratyphi, reported as titres such as 1:80, 1:160, or 1:320.",
+      "A Widal test supports a typhoid diagnosis but cannot confirm it on its own. Antibodies only rise after about a week of fever, past infections and vaccination can cause positive results, and normal baseline titres are higher in areas where typhoid is common. Doctors read the titre together with your symptoms and, where needed, other tests such as Typhidot or blood culture.",
+    ],
+
+    included: [
+      "Salmonella Typhi 'O' (TO) Titre",
+      "Salmonella Typhi 'H' (TH) Titre",
+      "Salmonella Paratyphi 'AH' Titre",
+      "Salmonella Paratyphi 'BH' Titre",
+    ],
+  },
+
+  preparation: {
+    title: "Preparation Before Your Widal Test",
+
+    description:
+      "A Widal test needs no special preparation — here's what to keep in mind before your appointment.",
+
+    items: [
+      {
+        title: "Widal Test Fasting Requirement",
+        description:
+          "Fasting is not required. You can eat and drink normally, and the test can be done at any time of day.",
+      },
+      {
+        title: "Note How Many Days You Have Had Fever",
+        description:
+          "Widal is most useful after the first week of fever. Tell the phlebotomist or your doctor the day your fever started, since a very early test can come back negative.",
+      },
+      {
+        title: "Mention Past Typhoid, Vaccination, or Antibiotics",
+        description:
+          "A previous infection or typhoid vaccine can leave raised titres, so let the lab and your doctor know to help interpret the result correctly.",
+      },
+    ],
+  },
+
+  bookingProcess: {
+    title: "How to Book Your Widal Test in Chandigarh",
+
+    description:
+      "Booking a Widal test with Shyam Labs takes just a few minutes, with convenient home sample collection available across Chandigarh and the Tricity.",
+
+    steps: [
+      {
+        title: "Book Test",
+        description:
+          "Select the Widal Test and submit your booking request online or over a call.",
+      },
+      {
+        title: "Schedule Sample Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh or Tricity address.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is processed using standard laboratory procedures.",
+      },
+      {
+        title: "Receive Report",
+        description:
+          "Your digital Widal report is sent to you within 24 hours of collection.",
+      },
+    ],
+  },
+
+  pricePreview: {
+    title: "Widal Test Price",
+
+    description:
+      "Check the latest Widal test price in Chandigarh and book with convenient home sample collection.",
+
+    price: 200,
+
+    priceUrl: "/prices/typhoid-test-price-chandigarh",
+  },
+
+  relatedTests: [
+    "typhidot-test",
+    "cbc-test",
+    "dengue-test",
+    "mp-antigen-test",
+    "stool-examination",
+    "liver-function-test",
+  ],
+
+  faq: {
+    title: "Frequently Asked Questions",
+
+    description:
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the Widal test, its results, and booking.",
+
+    items: [
+      {
+        question: "What is the full form of the Widal test?",
+        answer:
+          "Widal is not an abbreviation. It is named after French physician Georges Fernand Widal, who described the agglutination test used to support the diagnosis of typhoid fever.",
+      },
+      {
+        question: "What does the Widal test measure?",
+        answer:
+          "It measures antibody titres against Salmonella Typhi 'O' and 'H' antigens and Salmonella Paratyphi 'AH' and 'BH' antigens, reported as dilutions such as 1:80 or 1:160.",
+      },
+      {
+        question: "What is the normal range of the Widal test?",
+        answer:
+          "Typically a titre below 1:80 is considered negative. In areas where typhoid is common, low titres of 1:80 can be present in healthy people, so labs and doctors usually look for 1:160 or higher. Cut-offs vary by lab and region.",
+      },
+      {
+        question: "Is 1:80, 1:160, or 1:320 positive on the Widal test?",
+        answer:
+          "1:80 is often a borderline or baseline value. 1:160 is considered significant by many labs, and 1:320 or higher is more strongly suggestive of typhoid when you also have fever and symptoms. Your doctor interprets it with your clinical picture.",
+      },
+      {
+        question: "What does a positive Widal test mean?",
+        answer:
+          "It means antibodies against typhoid bacteria are present at a significant level, which supports typhoid in someone with a compatible fever. It cannot confirm typhoid alone, because past infection or vaccination can also cause a positive result.",
+      },
+      {
+        question: "After how many days of fever should the Widal test be done?",
+        answer:
+          "Antibodies usually become detectable only after about 7-10 days of fever, so a test in the first few days can be falsely negative. If it was done early, your doctor may repeat it after a few days.",
+      },
+      {
+        question: "Can the Widal test give a false positive?",
+        answer:
+          "Yes. Past typhoid, typhoid vaccination, other infections like malaria or dengue, and normal baseline antibodies in endemic areas can all raise titres without current typhoid.",
+      },
+      {
+        question: "Which is better, Widal or Typhidot?",
+        answer:
+          "Neither is perfect. Typhidot can turn positive earlier and gives a quick result, while Widal is useful after the first week, and a rising titre on repeat testing is more meaningful. Blood culture is the most reliable confirmation. Your doctor chooses based on how many days of fever you have had.",
+      },
+      {
+        question: "Is fasting required for the Widal test?",
+        answer:
+          "No. You can eat and drink normally and have the test at any time of day.",
+      },
+      {
+        question: "How long does the Widal test take?",
+        answer:
+          "Blood collection takes a couple of minutes, and the report is usually ready the same day or within 24 hours.",
+      },
+      {
+        question: "Is home sample collection available for the Widal test in Chandigarh?",
+        answer:
+          "Yes, Shyam Labs provides home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+      {
+        question: "What is the Widal test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current Widal test price and book online with home sample collection.",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Widal Test in Chandigarh Today",
+
+    description:
+      "Get convenient home sample collection, reliable Widal testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+
+    highlights: [
+      "Home Sample Collection Available",
+      "Fast Report Delivery",
+      "Professional Collection Process",
+    ],
+
+    price: "200",
+
+    priceText: "Check detailed typhoid test pricing and booking options.",
+
+    bookingUrl: "/prices/typhoid-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+
+    buttonText: "Book Widal Test",
+  },
 },
-//done
+
 
 {
   slug: "typhidot-test",
-  name: "Typhidot Test",
+  name: "Typhidot Test (IgM & IgG)",
   shortName: "Typhidot",
   category: "Serology",
   organ: "Immune System",
   sampleType: "Blood",
-  parameterCount: 1,
+  parameterCount: 2,
   fasting: false,
   homeCollection: true,
   popular: true,
+
   description:
-    "Rapid blood test for detecting IgM and IgG antibodies against typhoid infection.",
+    "Typhidot test detects IgM and IgG antibodies against Salmonella Typhi, giving a rapid result to help diagnose typhoid fever early.",
+
   price: 400,
   reportTime: "24 Hours",
-   status:"draft"
+  status: "published",
+
+  seo: {
+    // 53 characters
+    title: "Typhidot Test in Chandigarh - Price & IgM IgG Meaning",
+    // 114 characters
+    description:
+      "Book Typhidot test in Chandigarh with home sample collection. Check Typhidot price, IgM IgG meaning & report time.",
+    keywords: [
+      "typhidot test",
+      "typhidot test price",
+      "typhidot igm positive meaning",
+      "typhidot igg positive meaning",
+      "typhidot test normal range",
+      "typhoid igm igg test",
+      "typhoid rapid test",
+      "typhoid antigen test",
+      "typhidot test chandigarh",
+      "typhidot vs blood culture",
+      "typhoid blood test",
+      "typhoid test near me",
+    ],
+  },
+
+  hero: {
+    badge: "Home Sample Collection Available",
+
+    title: "Typhidot Test (IgM & IgG) for Typhoid in Chandigarh",
+
+    description:
+      "Book a Typhidot Test in Chandigarh and the Tricity with fast report delivery, professional sample collection, and convenient doorstep home collection from Shyam Labs. Check the latest Typhidot test price and book online.",
+
+    image: "/tests/typhidot.webp",
+
+    imageAlt: "Typhidot IgM IgG Test for Typhoid Fever in Chandigarh",
+
+    reportTime: "24 Hours",
+
+    homeCollection: "Available",
+
+    trustPoints: [
+      "Professional Sample Collection",
+      "Digital Reports",
+      "Affordable Typhidot Test Price",
+      "Quality-Controlled Testing",
+    ],
+
+    bookButton: "Book Typhidot Test",
+
+    bookingUrl: "/prices/typhoid-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+  },
+
+  quickFacts: {
+    sample: "Blood Sample",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    homeCollection: "Available",
+    ageGroup: "Adults & Children",
+  },
+
+  whyChooseUs: {
+    title: "Why Choose Shyam Labs for Your Typhidot Test?",
+
+    description:
+      "Get a dependable Typhidot test in Chandigarh and the Tricity with easy booking, professional sample collection, convenient home collection, and quick access to your digital report.",
+
+    items: [
+      {
+        title: "Professional Sample Collection",
+        description:
+          "Every blood draw follows proper collection procedures for a comfortable, low-discomfort experience.",
+      },
+      {
+        title: "Standardised Testing Process",
+        description:
+          "Your Typhidot sample is analysed following standard laboratory protocols.",
+      },
+      {
+        title: "Fast Digital Reports",
+        description:
+          "Your Typhidot report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
+      },
+      {
+        title: "Home Collection Across Chandigarh & Tricity",
+        description:
+          "Book a Typhidot test with convenient home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+    ],
+  },
+
+  testDetails: {
+    title: "About the Typhidot Test (Typhoid IgM & IgG)",
+
+    description: [
+      "The Typhidot test is a rapid blood test that detects IgM and IgG antibodies against a protein of Salmonella Typhi, the bacterium that causes typhoid fever. It can turn positive earlier than the Widal test, often within the first 2-3 days of fever, and gives a result quickly.",
+      "IgM suggests a recent infection, IgG alone suggests past exposure, and both together point to an acute or early infection. Typhidot supports a diagnosis but does not replace blood culture, which is the most reliable confirmation. IgM can also stay positive for weeks after recovery, so your doctor reads the result with your symptoms.",
+    ],
+
+    included: [
+      "Typhoid IgM Antibody",
+      "Typhoid IgG Antibody",
+    ],
+  },
+
+  preparation: {
+    title: "Preparation Before Your Typhidot Test",
+
+    description:
+      "A Typhidot test needs no special preparation — here's what to keep in mind before your appointment.",
+
+    items: [
+      {
+        title: "Typhidot Test Fasting Requirement",
+        description:
+          "Fasting is not required. You can eat and drink normally, and the test can be done at any time of day.",
+      },
+      {
+        title: "Note How Many Days You Have Had Fever",
+        description:
+          "Tell the phlebotomist or your doctor the day your fever started, since it helps interpret IgM and IgG results.",
+      },
+      {
+        title: "Mention Antibiotics or a Past Typhoid Episode",
+        description:
+          "Recent antibiotics, a previous typhoid infection, or vaccination can affect interpretation, so share them when you book.",
+      },
+    ],
+  },
+
+  bookingProcess: {
+    title: "How to Book Your Typhidot Test in Chandigarh",
+
+    description:
+      "Booking a Typhidot test with Shyam Labs takes just a few minutes, with convenient home sample collection available across Chandigarh and the Tricity.",
+
+    steps: [
+      {
+        title: "Book Test",
+        description:
+          "Select the Typhidot Test and submit your booking request online or over a call.",
+      },
+      {
+        title: "Schedule Sample Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh or Tricity address.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is processed using standard laboratory procedures.",
+      },
+      {
+        title: "Receive Report",
+        description:
+          "Your digital Typhidot report is sent to you within 24 hours of collection.",
+      },
+    ],
+  },
+
+  pricePreview: {
+    title: "Typhidot Test Price",
+
+    description:
+      "Check the latest Typhidot test price in Chandigarh and book with convenient home sample collection.",
+
+    price: 400,
+
+    priceUrl: "/prices/typhoid-test-price-chandigarh",
+  },
+
+  relatedTests: [
+    "widal-test",
+    "cbc-test",
+    "dengue-test",
+    "mp-antigen-test",
+    "stool-examination",
+    "liver-function-test",
+  ],
+
+  faq: {
+    title: "Frequently Asked Questions",
+
+    description:
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the Typhidot test, its results, and booking.",
+
+    items: [
+      {
+        question: "What is the Typhidot test?",
+        answer:
+          "It is a rapid blood test that detects IgM and IgG antibodies against Salmonella Typhi to help diagnose typhoid fever early. Typhidot is the name of the test, while typhoid is the disease.",
+      },
+      {
+        question: "Are typhoid and Typhidot the same?",
+        answer:
+          "No. Typhoid is the illness caused by Salmonella Typhi. Typhidot is one of the blood tests used to help detect it.",
+      },
+      {
+        question: "What does a positive Typhidot IgM mean?",
+        answer:
+          "It suggests a recent or current typhoid infection, especially with fever and typical symptoms. It is not a final confirmation, because IgM can stay positive for weeks and other infections can occasionally cross-react. Your doctor decides on treatment.",
+      },
+      {
+        question: "What does a positive Typhidot IgG mean?",
+        answer:
+          "IgG alone usually points to past exposure or an older infection. IgM and IgG both positive suggests an acute or early infection.",
+      },
+      {
+        question: "What does a negative Typhidot result mean?",
+        answer:
+          "It means no typhoid antibodies were detected. If you are tested in the first day or two of fever it can still be falsely negative, so your doctor may repeat it or advise a blood culture if symptoms continue.",
+      },
+      {
+        question: "What is the normal range for the Typhidot test?",
+        answer:
+          "Normal is negative (non-reactive) for both IgM and IgG. Some reports show a grade such as 1+ or 2+, with higher grades meaning a stronger reaction.",
+      },
+      {
+        question: "Does a positive Typhidot IgM confirm typhoid?",
+        answer:
+          "It strongly supports it when combined with symptoms, but blood culture is the confirmatory test. Doctors usually start treatment based on the clinical picture plus the test result.",
+      },
+      {
+        question: "Typhidot vs blood culture: which is better?",
+        answer:
+          "Typhidot is fast and turns positive early but is less specific. Blood culture identifies the bacteria and shows which antibiotics work, but takes 2-5 days and works best in the first week before antibiotics. They complement each other.",
+      },
+      {
+        question: "After how many days of fever should I do the Typhidot test?",
+        answer:
+          "It can turn positive within about 2-3 days of fever, earlier than Widal. Don't wait if you have a fever lasting more than 3 days with weakness, headache, or stomach upset.",
+      },
+      {
+        question: "Is fasting required for the Typhidot test?",
+        answer:
+          "No. You can eat and drink normally and have the test at any time of day.",
+      },
+      {
+        question: "How long does the Typhidot test take?",
+        answer:
+          "Rapid testing gives a result within hours, and the digital report is usually ready the same day or within 24 hours.",
+      },
+      {
+        question: "Is home sample collection available for the Typhidot test in Chandigarh?",
+        answer:
+          "Yes, Shyam Labs provides home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+      {
+        question: "What is the Typhidot test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current Typhidot test price and book online with home sample collection.",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Typhidot Test in Chandigarh Today",
+
+    description:
+      "Get convenient home sample collection, reliable Typhidot testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+
+    highlights: [
+      "Home Sample Collection Available",
+      "Fast Report Delivery",
+      "Professional Collection Process",
+    ],
+
+    price: "400",
+
+    priceText: "Check detailed typhoid test pricing and booking options.",
+
+    bookingUrl: "/prices/typhoid-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+
+    buttonText: "Book Typhidot Test",
+  },
 },
 
 // {

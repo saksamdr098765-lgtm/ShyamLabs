@@ -2886,122 +2886,576 @@ export const blogs = [
 },
  {
   id: 7,
+
   slug: "typhoid-test-symptoms-guide",
-  title: "Typhoid Test Guide: Symptoms, Widal Test, Typhi Dot, Blood Culture & When to Get Tested",
-  excerpt: "Learn everything about Typhoid testing including Widal Test, Typhi Dot, Blood Culture, symptoms, diagnosis, preparation, and Typhoid testing in Panchkula.",
+
+  title: "Typhoid Test: Widal vs Typhidot, Normal Range & Price",
+
+  excerpt:
+    "Typhoid test explained: Widal vs Typhidot, how to read titre and IgM IgG results, symptoms, stages, diet, treatment, and price.",
+
   category: "Health Tips",
+
   author: {
     name: SITE_CONFIG.fullName,
     image: SITE_CONFIG.logo,
   },
-  publishedAt: "June 26, 2026",
-  readingTime: "9 min read",
-  coverImage: "/blogs/typhoid-test.png",
-  featured: false,
-  relatedPackages: [],
-  relatedTests: [], // ✅ emptied per request
+
+  publishedAt: "October 18, 2026",
+
+  readingTime: "13 min read",
+
+  coverImage: "/blogs/typhoid-test-guide.webp",
+
+  featured: true,
+
+  relatedPackages: [
+    "fever-panel-basic",
+    "fever-panel-advance",
+    "monsoon-gastro-infection-panel",
+    "health-checkup-camp",
+  ],
+
+  relatedTests: [
+    "widal-test",
+    "typhidot-test",
+    "cbc-test",
+    "dengue-test",
+    "mp-antigen-test",
+    "stool-examination",
+  ],
+
   seo: {
-    title: "Typhoid Test Guide: Widal Test, Typhi Dot, Symptoms & Blood Culture",
-    description: "Know the symptoms of Typhoid fever, Widal Test, Typhi Dot, Blood Culture, preparation, home sample collection, and Typhoid testing in Panchkula.",
+    // 53 characters
+    title: "Typhoid Test: Widal vs Typhidot, Normal Range & Price",
+    // 126 characters
+    description:
+      "Typhoid test guide: Widal vs Typhidot, how to read titre and IgM IgG results, symptoms, diet, treatment & price in Chandigarh.",
     keywords: [
-      "Typhoid Test", "Widal Test", "Typhi Dot Test", "Typhoid Blood Test",
-      "Blood Culture Test", "Typhoid Symptoms", "Typhoid Fever Test",
-      "Typhoid Test in Panchkula", "Typhoid Test Near Me", "Persistent Fever Test", "Salmonella Test"
-    ]
+      "typhoid test price",
+      "typhoid test cost",
+      "widal test",
+      "typhidot test",
+      "typhoid fever symptoms",
+      "typhoid fever treatment",
+      "widal vs typhidot",
+      "widal test positive meaning",
+      "typhidot igm positive meaning",
+      "typhoid diet",
+      "typhoid test near me",
+      "typhoid test in Chandigarh",
+      "pathology lab near me",
+      "diagnostic lab near me",
+      "blood test home sample collection",
+    ],
   },
+
   quickInfo: {
-    "What You Will Learn": "Typhoid Test",
+    "What You Will Learn": "Typhoid Test (Widal & Typhidot)",
+    price: getTestPrice('widal-test'),
     sample: "Blood",
     fasting: "Not Required",
     reportTime: "Same Day",
     homeCollection: "Available",
-    recommendedFor: "Persistent high fever, Headache, Loss of appetite, Weakness, Abdominal pain, Constipation, Diarrhea, Body ache, Nausea, Fatigue",
-    booking: "Online / Phone / WhatsApp"
+    recommendedFor: "Fever for 3+ Days, Weakness, Headache, Stomach Pain, Constipation or Diarrhea",
+    booking: "Online / Phone / WhatsApp",
   },
+
   tags: [
-    "Typhoid Test", "Typhoid Fever", "Widal Test", "Typhi Dot", "Blood Culture",
-    "Salmonella Typhi", "Persistent Fever", "High Fever", "Blood Test",
-    "Typhoid Blood Test", "Diagnostic Lab", "Pathology Lab", "Same Day Report",
-    "Home Sample Collection", "Typhoid Test Near Me", "Typhoid Test in Panchkula",
-    "Typhoid Test in Chandigarh", "Typhoid Test in Mohali", "Typhoid Test in Zirakpur",
-    "Monsoon Diseases", "Seasonal Fever", "Fever Blood Test"
+    "Typhoid Test",
+    "Widal Test",
+    "Typhidot Test",
+    "Typhoid Test Price",
+    "Typhoid Fever Symptoms",
+    "Typhoid Treatment",
+    "Typhoid Diet",
+    "Widal vs Typhidot",
+    "Fever Blood Test",
+    "Monsoon Diseases",
+    "Blood Tests",
+    "Typhoid Test in Chandigarh",
+    "Typhoid Test in Panchkula",
+    "Home Sample Collection",
+    "Pathology Lab",
+    "Same Day Report",
   ],
+
   content: [
-    { type: "heading", level: 2, text: "What Is a Typhoid Test?" },
-    { type: "paragraph", text: "A Typhoid Test is a blood test used to detect infection caused by Salmonella Typhi bacteria." },
-    { type: "paragraph", text: "Typhoid fever is a bacterial infection that spreads through contaminated food and water." },
-    { type: "paragraph", text: "Early diagnosis is important because typhoid symptoms often resemble dengue, malaria, and viral fever." },
-    { type: "paragraph", text: "Doctors recommend Typhoid testing for people with persistent fever, weakness, abdominal discomfort, or digestive symptoms lasting several days." },
-    { type: "paragraph", text: "Timely diagnosis helps doctors begin appropriate antibiotic treatment and prevents serious complications." },
-    { type: "heading", level: 2, text: "What Causes Typhoid?" },
-    { type: "paragraph", text: "Typhoid fever is caused by the bacterium Salmonella Typhi." },
-    { type: "paragraph", text: "The infection spreads through contaminated food, unsafe drinking water, or poor hygiene." },
-    { type: "paragraph", text: "People may become infected after consuming food prepared by someone carrying the bacteria or drinking contaminated water." },
-    { type: "paragraph", text: "Maintaining proper hand hygiene, drinking clean water, and eating hygienically prepared food significantly reduce the risk of typhoid." },
-    { type: "heading", level: 2, text: "Common Symptoms of Typhoid Fever" },
-    { type: "paragraph", text: "Typhoid symptoms usually develop gradually over several days." },
-    { type: "paragraph", text: "Common symptoms include:" },
-    { type: "list", items: ["Persistent high fever", "Headache", "Weakness", "Fatigue", "Loss of appetite", "Abdominal pain", "Constipation or diarrhea", "Muscle pain", "Nausea", "Dry cough"] },
-    { type: "paragraph", text: "Some patients may also experience confusion, dehydration, or intestinal complications if treatment is delayed." },
-    { type: "heading", level: 2, text: "Types of Typhoid Tests" },
-    { type: "paragraph", text: "Doctors may recommend different tests depending on the duration of illness." },
-    { type: "paragraph", text: "Common Typhoid investigations include:" },
-    { type: "list", items: ["Widal Test", "Typhi Dot IgM", "Typhi Dot IgG", "Blood Culture", "Complete Blood Count (CBC)"] },
-    { type: "paragraph", text: "Blood culture is considered the gold standard during the early stage of infection." },
-    { type: "paragraph", text: "Typhi Dot tests help detect antibodies against Salmonella Typhi, while the Widal Test may be used as an additional investigation depending on clinical findings." },
-    { type: "paragraph", text: "Doctors often combine these tests with CBC to evaluate the patient's overall health." },
-    { type: "heading", level: 2, text: "Who Should Get a Typhoid Test?" },
-    { type: "paragraph", text: "A Typhoid Test may be recommended if you have:" },
-    { type: "list", items: ["Fever lasting more than three days", "Persistent weakness", "Headache", "Abdominal pain", "Loss of appetite", "Diarrhea or constipation", "Recent consumption of contaminated food or water", "Travel to areas where typhoid is common"] },
-    { type: "paragraph", text: "Early diagnosis helps prevent severe complications and improves recovery." },
-    { type: "heading", level: 2, text: "Understanding Typhoid Test Results" },
-    { type: "paragraph", text: "Typhoid test results should always be interpreted together with your symptoms, physical examination, and medical history." },
-    { type: "paragraph", text: "Different laboratory tests provide different information:" },
-    { type: "list", items: ["Blood Culture Positive – Confirms the presence of Salmonella Typhi bacteria and is considered the gold standard during the early stage of illness."] },
-    { type: "list", items: ["Typhi Dot IgM Positive – Usually indicates a recent or active Typhoid infection."] },
-    { type: "list", items: ["Typhi Dot IgG Positive – May indicate a previous infection or a later stage of illness."] },
-    { type: "list", items: ["Widal Test – Measures antibodies against Salmonella Typhi. Results should always be interpreted carefully because previous infections, vaccinations, or other illnesses may affect antibody levels."] },
-    { type: "paragraph", text: "Doctors may also review CBC findings because some patients develop reduced white blood cell counts during Typhoid fever." },
-    { type: "paragraph", text: "Your healthcare provider will combine laboratory findings with your symptoms before confirming the diagnosis." },
-    { type: "heading", level: 2, text: "Benefits of Early Diagnosis" },
-    { type: "paragraph", text: "Early diagnosis plays a crucial role in preventing complications associated with Typhoid fever." },
-    { type: "paragraph", text: "Benefits of early testing include:" },
-    { type: "list", items: ["Timely antibiotic treatment", "Faster recovery", "Reduced risk of intestinal bleeding", "Lower risk of intestinal perforation", "Prevention of dehydration", "Reduced spread of infection to others", "Better monitoring of recovery"] },
-    { type: "paragraph", text: "Delaying diagnosis may increase the likelihood of hospitalization and prolonged illness." },
-    { type: "heading", level: 2, text: "How To Prepare For A Typhoid Test" },
-    { type: "paragraph", text: "Typhoid testing usually requires very little preparation." },
-    { type: "paragraph", text: "In most cases:" },
-    { type: "list", items: ["Fasting is not required.", "Drink adequate water before sample collection.", "Inform your doctor about any antibiotics you have recently taken because they may affect Blood Culture results.", "Tell your healthcare provider when your fever started, as this helps determine which laboratory test is most appropriate."] },
-    { type: "paragraph", text: "Blood sample collection generally takes only a few minutes, and most reports are available the same day depending on the test performed." },
-    { type: "heading", level: 2, text: "How Can You Prevent Typhoid?" },
-    { type: "paragraph", text: "Although Typhoid fever is treatable, prevention is always the best approach." },
-    { type: "paragraph", text: "Simple preventive measures include:" },
-    { type: "list", items: ["Drink clean and purified water.", "Wash hands thoroughly before eating.", "Avoid eating food from unhygienic places.", "Wash fruits and vegetables properly.", "Maintain good personal hygiene.", "Consume freshly cooked food whenever possible.", "Consider Typhoid vaccination if recommended by your doctor."] },
-    { type: "paragraph", text: "Following these practices significantly reduces the risk of infection." },
-    { type: "heading", level: 2, text: "Typhoid Testing in Panchkula" },
-    { type: "paragraph", text: "Shyam Pathology Lab offers accurate Typhoid Testing in Panchkula with reliable reports and convenient home blood sample collection services." },
-    { type: "paragraph", text: "Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, and nearby areas can easily book Typhoid testing from home." },
-    { type: "paragraph", text: "Available investigations include:" },
-    { type: "list", items: ["Blood Culture", "Widal Test", "Typhi Dot IgM & IgG", "CBC Test", "Home Sample Collection", "Same-Day Reporting for most tests"] },
-    { type: "paragraph", text: "Accurate diagnosis allows doctors to begin treatment early and helps reduce the risk of serious complications." }
-    // ✅ interlinking block removed
+    {
+      type: "paragraph",
+      text: "A fever that keeps climbing for several days, with weakness and stomach upset, is the classic picture that makes doctors think of typhoid. This guide explains the typhoid tests (Widal, Typhidot, and blood culture), how to read their results, and what to expect from symptoms, treatment, diet, and recovery.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is a Typhoid Test? (Meaning and Test Names)",
+    },
+    {
+      type: "paragraph",
+      text: "A typhoid test checks for infection with Salmonella Typhi, the bacterium that causes typhoid (enteric) fever. There is no single test called 'the typhoid test' — it can mean the Widal test, the Typhidot test, or a blood culture, and doctors often use them together with your symptoms.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Typhoid Test Types",
+    },
+    {
+      type: "list",
+      items: [
+        "Widal test — measures antibody titres; useful after about a week of fever",
+        "Typhidot test — detects IgM and IgG antibodies; a rapid test that can turn positive earlier",
+        "Blood culture — grows the bacteria from your blood; the most reliable confirmation, best in the first week and before antibiotics",
+        "Stool or urine culture — sometimes used later in the illness or to look for carriers",
+        "PCR — detects bacterial DNA; used mainly in specialised labs",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is the Widal Test? (Full Form)",
+    },
+    {
+      type: "paragraph",
+      text: "The Widal test has no full form — it is named after the French physician Georges Fernand Widal. It measures antibodies against Salmonella Typhi 'O' and 'H' antigens, and Paratyphi 'AH' and 'BH' antigens, reported as titres like 1:80, 1:160, or 1:320.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Widal Test Normal Range and Titre Chart",
+    },
+    {
+      type: "list",
+      items: [
+        "Below 1:80: negative (normal)",
+        "1:80: borderline — can be a baseline value in people who live where typhoid is common",
+        "1:160: considered significant by many labs",
+        "1:320 or higher: more strongly suggestive of typhoid, when you also have fever and symptoms",
+        "A four-fold rise between two samples taken 7-10 days apart is the most meaningful pattern",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Cut-offs vary by lab and region, and the ranges are the same for men and women. So a report showing 'typhoid 1:80' or 'TO 1:160' needs to be read with your fever history rather than on its own.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is 1:80, 1:160, or 1:320 Positive on a Widal Test?",
+    },
+    {
+      type: "paragraph",
+      text: "1:80 is usually low-level and often not diagnostic by itself. 1:160 is significant in many labs and, with fever for a week or more, supports typhoid. 1:320 or above is a stronger signal. None of these alone proves typhoid, and a high titre can also remain after a past infection or vaccination.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Accurate Is the Widal Test? Why False Positives Happen",
+    },
+    {
+      type: "paragraph",
+      text: "Widal has limited accuracy. False positives can come from a past typhoid infection, typhoid vaccination, other infections such as malaria or dengue, and normal baseline antibodies in endemic areas. False negatives happen when it is done too early or after antibiotics. That is why a single Widal result is read with the clinical picture and, if needed, repeated.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Widal Test After How Many Days of Fever?",
+    },
+    {
+      type: "paragraph",
+      text: "Antibodies usually become detectable after about 7-10 days of fever, so Widal done in the first few days can be falsely negative. If your first test was early and symptoms continue, doctors often repeat it after several days.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is the Typhidot Test? (IgM and IgG)",
+    },
+    {
+      type: "paragraph",
+      text: "Typhidot is a rapid test that detects IgM and IgG antibodies against Salmonella Typhi. It can turn positive within about 2-3 days of fever and gives a quick result. Remember that Typhidot is the name of a test and typhoid is the disease, so they are not the same thing.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Typhidot Results: What IgM Positive and IgG Positive Mean",
+    },
+    {
+      type: "list",
+      items: [
+        "IgM positive: recent or current infection",
+        "IgM and IgG both positive: acute or early infection",
+        "IgG positive only: past exposure, or a later stage",
+        "Both negative: no antibodies detected — can still be a false negative in the first day or two of fever",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "A positive Typhidot IgM strongly supports typhoid with a matching fever, but it does not confirm it, as IgM can stay positive for weeks and other infections can occasionally cross-react.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Widal vs Typhidot: Which Test Is Better?",
+    },
+    {
+      type: "list",
+      items: [
+        "Typhidot: earlier (about day 2-3), quick result, but less specific and IgM can persist after recovery",
+        "Widal: more useful after the first week, cheaper, but prone to false positives and needs the clinical context or a rising titre",
+        "Blood culture: the most reliable, shows which antibiotic works, but takes 2-5 days and works best before antibiotics",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "No single test is perfect. The better choice depends on how many days of fever you have had, and doctors often combine the result with symptoms and a CBC.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Which Test Can Confirm Typhoid?",
+    },
+    {
+      type: "paragraph",
+      text: "Blood culture is the standard confirmation because it identifies the bacteria itself. Widal and Typhidot are supportive tests that show your immune response. When culture isn't done or the antibiotic has already been started, doctors rely on the combination of symptoms and antibody tests.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can a CBC Detect or Confirm Typhoid?",
+    },
+    {
+      type: "paragraph",
+      text: "No. A CBC cannot confirm typhoid. It may show a low white cell count, mild anemia, or lowered platelets, which fit typhoid but also fit other fevers, and it can be normal. It is added to monitor the illness rather than to diagnose it.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Typhoid Fever Symptoms (Early and Common)",
+    },
+    {
+      type: "list",
+      items: [
+        "Fever that rises step by step over several days, often reaching 103-104°F",
+        "Headache",
+        "Weakness and tiredness",
+        "Loss of appetite",
+        "Stomach pain or bloating",
+        "Constipation or diarrhea",
+        "Dry cough",
+        "Body ache",
+        "Rose spots — small pink spots on the chest or abdomen",
+        "A heart rate that is slower than expected for the fever",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "A fever of 104°F can occur in untreated typhoid and needs medical attention. Children may show only fever and irritability or poor feeding.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Typhoid Fever Stages, Duration, and Incubation Period",
+    },
+    {
+      type: "list",
+      items: [
+        "Incubation: usually 1-3 weeks after exposure, before symptoms start",
+        "Week 1: fever rising step by step, headache, cough, weakness",
+        "Week 2: persistent high fever, stomach symptoms, rose spots, marked weakness",
+        "Week 3: complications become more likely if untreated, such as intestinal bleeding or perforation",
+        "Week 4 onward: slow recovery if untreated; with treatment, fever settles much sooner",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Typhoid vs Dengue vs Malaria vs Viral Fever",
+    },
+    {
+      type: "list",
+      items: [
+        "Typhoid: gradually rising fever, stomach upset, weakness, constipation or diarrhea",
+        "Dengue: sudden high fever, severe body ache, pain behind the eyes, rash, falling platelets",
+        "Malaria: fever with chills and shaking, often in cycles",
+        "Viral fever: milder, short course, often with cold and cough",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Symptoms overlap and two infections can occur together, especially in the monsoon, so doctors rely on tests such as Widal or Typhidot, dengue NS1 and IgM, and malaria antigen rather than symptoms alone.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Causes Typhoid Fever?",
+    },
+    {
+      type: "paragraph",
+      text: "Typhoid spreads through the faecal-oral route: food or water contaminated by the faeces or urine of an infected person or a carrier. Poor sanitation, unsafe street food, uncovered food, and unboiled water are the main risks.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Typhoid Treatment and Antibiotics",
+    },
+    {
+      type: "paragraph",
+      text: "Typhoid is treated with antibiotics prescribed by a doctor, together with rest and plenty of fluids. Commonly used antibiotics include azithromycin and third-generation cephalosporins such as ceftriaxone or cefixime, but resistance is widespread and some older antibiotics no longer work, so the choice depends on local patterns and sometimes culture results. Never self-medicate, and finish the full course even after the fever settles.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is Typhoid 100% Curable? Recovery Time and Seriousness",
+    },
+    {
+      type: "paragraph",
+      text: "Most people recover fully with timely, correct antibiotics. Fever often starts easing in about 3-5 days of the right treatment, but the full course usually runs 7-14 days and weakness can last for weeks. A small number of people relapse or become carriers. Typhoid can be serious if left untreated, with complications such as intestinal bleeding or perforation, which is why early testing matters.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Typhoid Diet: What to Eat and Foods to Avoid",
+    },
+    {
+      type: "paragraph",
+      text: "Eat soft, easily digestible, energy-rich food in small, frequent meals, with plenty of boiled or filtered water, ORS, soups, and coconut water. Good choices include khichdi, rice with dal, boiled potato, banana, curd, toast, and well-cooked vegetables. Avoid spicy, oily, and fried food, raw salads, street food, unwashed fruit, unboiled or unpasteurised milk, and alcohol until you recover.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "When to Go to Hospital",
+    },
+    {
+      type: "list",
+      items: [
+        "Severe or worsening stomach pain",
+        "Black stools or blood in the stool",
+        "Persistent vomiting and inability to drink",
+        "Confusion, extreme drowsiness, or delirium",
+        "Very high fever that does not come down",
+        "Signs of dehydration such as very little urine",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Typhoid Prevention and Vaccine",
+    },
+    {
+      type: "paragraph",
+      text: "Drink boiled or properly filtered water, wash hands with soap before eating and after using the toilet, eat freshly cooked food, and avoid ice and street food of doubtful hygiene. Typhoid conjugate vaccine (TCV) is recommended in areas where typhoid is common and gives longer protection than older vaccines, but no vaccine is 100% effective, so hygiene still matters. Ask your doctor which vaccine suits you or your child.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Typhoid Test for Children and in Pregnancy",
+    },
+    {
+      type: "paragraph",
+      text: "Children with fever lasting more than 3 days, especially with stomach upset or poor feeding, should be tested. Pregnant women with persistent fever should see a doctor promptly, since typhoid in pregnancy needs timely treatment and the doctor must choose an antibiotic that is safe for pregnancy.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is Fasting Required? Can I Test for Typhoid at Home?",
+    },
+    {
+      type: "paragraph",
+      text: "No fasting or preparation is needed for Widal or Typhidot. Typhoid cannot be confirmed by symptoms or by home rapid kits reliably, but you can book home sample collection — a phlebotomist collects the blood and the test is done at the lab, with the report usually ready the same day or within 24 hours.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Typhoid Test Price and Report Time",
+    },
+    {
+      type: "paragraph",
+      text: `Our Widal test is priced at ${getTestPrice('widal-test')} and the Typhidot test at ${getTestPrice('typhidot-test')}, with same-day reports and free home sample collection available. A CBC is a separate test that doctors commonly add.`,
+    },
+    {
+      type: "interlinking",
+      title: "Typhoid Test Services & Pricing",
+      description:
+        "Explore Widal and Typhidot test details, pricing, and convenient home sample collection services.",
+      items: [
+        {
+          title: "Typhoid Test Price",
+          description:
+            "Check the latest Widal and Typhidot prices and home sample collection options.",
+          href: "/prices/typhoid-test-price-chandigarh",
+        },
+        {
+          title: "Widal Test Details",
+          description:
+            "Learn about the Widal test, titre chart, sample requirements, and preparation.",
+          href: "/tests/widal-test",
+        },
+        {
+          title: "Typhidot Test Details",
+          description:
+            "Learn about the Typhidot IgM and IgG test, what it detects, and preparation.",
+          href: "/tests/typhidot-test",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Typhoid Test in Panchkula, Chandigarh & Nearby Areas",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Budget Friendly Labs provides accurate typhoid testing with convenient home blood sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+    {
+      type: "interlinking",
+      title: "Typhoid Test — Areas We Serve",
+      description:
+        "We provide Widal and Typhidot testing with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "Typhoid test with home sample collection.",
+          href: "/locations/typhoid-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "Typhoid test and diagnostic services with home collection.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "Typhoid test with same-day report and home collection.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "Typhoid test and pathology services.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Key Takeaways",
+    },
+    {
+      type: "list",
+      items: [
+        "Widal and Typhidot are supportive tests; blood culture is the most reliable confirmation",
+        "Typhidot can turn positive from about day 2-3 of fever, while Widal is more useful after about day 7-10",
+        "A Widal titre of 1:80 is often borderline, 1:160 is significant in many labs, and 1:320 or higher is more suggestive",
+        "Typhoid and Typhidot are not the same — one is the disease, the other a test",
+        "Most people recover fully with the right antibiotic from a doctor, so don't self-medicate or delay testing",
+      ],
+    },
+    {
+      type: "references",
+      items: [
+        {
+          title: "Typhoid",
+          publisher: "World Health Organization",
+          url: "https://www.who.int/news-room/fact-sheets/detail/typhoid",
+        },
+        {
+          title: "About Typhoid Fever and Paratyphoid Fever",
+          publisher: "CDC",
+          url: "https://www.cdc.gov/typhoid-fever/about/index.html",
+        },
+        {
+          title: "Typhoid Fever",
+          publisher: "MedlinePlus",
+          url: "https://medlineplus.gov/typhoidfever.html",
+        },
+      ],
+    },
   ],
+
   faq: [
-    { question: "When should I get a Typhoid Test?", answer: "A Typhoid Test is recommended if you have a persistent fever lasting more than three days, weakness, abdominal discomfort, headache, or digestive symptoms. Your doctor will decide which test is most appropriate based on your symptoms and illness duration." },
-    { question: "Which test is best for Typhoid?", answer: "Blood Culture is considered the gold standard during the early stage of infection. Depending on the duration of illness, your doctor may also recommend Typhi Dot or Widal testing." },
-    { question: "Is fasting required before a Typhoid Test?", answer: "No. Fasting is generally not required before Typhoid blood tests." },
-    { question: "Can Typhoid and Dengue occur together?", answer: "Yes. In some cases, a person may have both infections simultaneously, especially during the monsoon season. Your doctor may recommend multiple blood tests to identify the exact cause of fever." },
-    { question: "How long does a Typhoid Test take?", answer: "Blood sample collection usually takes only a few minutes. Report availability depends on the test performed, with many results available on the same day." },
-    { question: "Can I book a Typhoid Test at home in Panchkula?", answer: "Yes. Shyam Pathology Lab provides convenient home blood sample collection services for Typhoid testing in Panchkula and nearby areas." },
-    { question: "Can Typhoid be cured if detected early?", answer: "Yes. Early diagnosis and appropriate antibiotic treatment prescribed by a qualified doctor usually result in complete recovery and help prevent serious complications." }
+    {
+      question: "What is the typhoid test name?",
+      answer:
+        "Typhoid is checked with the Widal test, the Typhidot test (IgM and IgG), or a blood culture. Doctors often combine them with your symptoms.",
+    },
+    {
+      question: "Are typhoid and Typhidot the same?",
+      answer:
+        "No. Typhoid is the disease caused by Salmonella Typhi, while Typhidot is a blood test used to help detect it.",
+    },
+    {
+      question: "Which test is better, Widal or Typhidot?",
+      answer:
+        "Typhidot can turn positive earlier and gives a quick result, while Widal is useful after the first week. Neither is perfect, and blood culture is the most reliable confirmation.",
+    },
+    {
+      question: "What is the normal range of the Widal test?",
+      answer:
+        "A titre below 1:80 is generally negative. 1:80 is often borderline, 1:160 is significant in many labs, and 1:320 or higher is more strongly suggestive. Cut-offs vary by lab.",
+    },
+    {
+      question: "Is 1:160 or 1:320 typhoid positive?",
+      answer:
+        "1:160 is significant in many labs and 1:320 is a stronger signal, especially with fever for a week or more. Neither alone proves typhoid, so your doctor interprets it with your symptoms.",
+    },
+    {
+      question: "What does Widal 1:80 mean?",
+      answer:
+        "It is usually a low-level or borderline titre and can be a normal baseline in areas where typhoid is common. It rarely confirms typhoid by itself.",
+    },
+    {
+      question: "Does Typhidot IgM positive mean typhoid?",
+      answer:
+        "It suggests a recent or current typhoid infection, especially with fever and typical symptoms, but it is not a final confirmation. Your doctor decides on treatment.",
+    },
+    {
+      question: "What does IgM and IgG positive mean in typhoid?",
+      answer:
+        "IgM points to a recent infection and IgG to past exposure. Both positive together suggest an acute or early infection.",
+    },
+    {
+      question: "Which test can confirm typhoid?",
+      answer:
+        "Blood culture, which identifies the bacteria in your blood, is the standard confirmation. Widal and Typhidot are supportive.",
+    },
+    {
+      question: "Can a CBC detect typhoid?",
+      answer:
+        "No. A CBC may show a low white cell count or anemia, but it cannot confirm typhoid.",
+    },
+    {
+      question: "What are the symptoms of typhoid?",
+      answer:
+        "Step-wise rising fever, headache, weakness, loss of appetite, stomach pain, constipation or diarrhea, dry cough, body ache, and sometimes rose spots on the chest or abdomen.",
+    },
+    {
+      question: "Is typhoid 100% curable, and can it recover in 5 days?",
+      answer:
+        "Most people recover fully with timely, correct antibiotics. Fever may start easing in about 3-5 days, but the full course is usually 7-14 days and weakness can last longer.",
+    },
+    {
+      question: "Is typhoid very serious?",
+      answer:
+        "It can be if untreated, with complications such as intestinal bleeding or perforation. With early diagnosis and proper treatment most people recover well.",
+    },
+    {
+      question: "How much does a typhoid test cost?",
+      answer: `Our Widal test is priced at ${getTestPrice('widal-test')} and the Typhidot test at ${getTestPrice('typhidot-test')}, with same-day reports and free home sample collection available.`,
+    },
+    {
+      question: "Can I test for typhoid at home?",
+      answer:
+        "You can book home sample collection so the blood is collected at your doorstep and tested at the lab, which is more reliable than home rapid kits.",
+    },
   ],
+
   cta: {
-    title: "Book Your Typhoid Test Today",
-    description: "Get accurate Typhoid testing with Blood Culture, Widal Test, Typhi Dot, home sample collection, and fast reporting from Shyam Pathology Lab.",
-    buttonText: "Book Typhoid Test",
+    title: "Book Typhoid Test",
+    description: "Get accurate Widal and Typhidot testing with doorstep sample collection and same-day reports.",
+    buttonText: "Book Test Now",
     whatsappText: "Hi, I want to book a typhoid test.",
-    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"]
-  }
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/typhidot-test",
+  },
 },
 {
   id: 8,
