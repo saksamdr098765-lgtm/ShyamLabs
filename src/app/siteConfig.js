@@ -12,7 +12,7 @@ export const SITE_CONFIG = {
   logo: "/logo.png",
   ogImage: "/og-image.png",
   favicon: "/favicon.ico",
-
+ hours: "08:00-17:00",
   phone: "+919914899300",
   whatsapp: "+919914899300",
   email: "Shyambudgetfriendlylabs@gmail.com",

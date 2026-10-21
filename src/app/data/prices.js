@@ -1355,6 +1355,179 @@ export const prices = [
 
     highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
   },
+},
+{
+  slug: "hba1c-test-price-chandigarh",
+
+  seo: {
+    // 44 characters
+    title: "HbA1c Test Price in Chandigarh | Book Online",
+    description: `Check HbA1c test price in Chandigarh starting at ₹${getTestPrice('hba1c-test')}, with home sample collection, no fasting needed & digital reports.`,
+    keywords: [
+      "hba1c test price chandigarh",
+      "hba1c test cost chandigarh",
+      "hba1c test price near me",
+      "glycated hemoglobin test price",
+      "affordable hba1c test chandigarh",
+      "diabetes test price chandigarh",
+      "hba1c test panchkula",
+      "hba1c test mohali",
+      "hba1c test tricity",
+    ],
+  },
+
+  hero: {
+    badge: "Quality Testing Standards",
+
+    title: "HbA1c Test Price in Chandigarh",
+
+    subtitle:
+      "Check the HbA1c (glycated hemoglobin) test price in Chandigarh with accurate testing and convenient doorstep home sample collection from Shyam Labs.",
+
+    image: "/prices/hba1c-test.webp",
+  },
+
+  priceCard: {
+    actualPrice: 525,
+    offerPrice: getTestPrice('hba1c-test'),
+    offerText: "Offer Price",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    sampleType: "Blood",
+    homeCollection: true,
+    labVisit: true,
+
+    includes: {
+      title: "Every Booking Includes",
+      items: [
+        "Free Doorstep Home Sample Collection",
+        "Digital Report on WhatsApp & Email",
+        "No Advance Payment Required",
+      ],
+    },
+  },
+
+  whyGetTest: {
+    title: "Why Get an HbA1c Test in Chandigarh",
+    description:
+      "Diabetes and prediabetes often cause no symptoms. HbA1c is the simplest way to see your 2-3 month average sugar, with no fasting needed.",
+
+    reasons: [
+      {
+        title: "Screens for Prediabetes and Diabetes",
+        description:
+          "Helps catch high blood sugar early, when lifestyle changes work best.",
+      },
+      {
+        title: "Tracks Diabetes Control",
+        description:
+          "Shows whether your treatment is working over the past 2-3 months, not just on one day.",
+      },
+      {
+        title: "Convenient & Affordable",
+        description:
+          "No fasting, home sample collection, and transparent pricing make it easy to test at a time that suits you.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How much does an HbA1c test cost in Chandigarh?",
+      answer: `The HbA1c test is available at an offer price of ₹${getTestPrice('hba1c-test')} at Shyam Labs, with home sample collection available subject to service coverage.`,
+    },
+    {
+      question: "Is fasting needed before the HbA1c test?",
+      answer:
+        "No, fasting is not required. You can have the test at any time of day.",
+    },
+    {
+      question: "Is home sample collection available in Chandigarh?",
+      answer:
+        "Yes, Shyam Labs provides doorstep home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+    },
+    {
+      question: "Do I need to pay in advance to book an HbA1c test?",
+      answer:
+        "No advance payment is required — you can pay at the time of sample collection or according to the payment option provided during booking.",
+    },
+    {
+      question: "How soon will I get my HbA1c report after booking?",
+      answer:
+        "Reports are typically delivered digitally within 24 hours of sample collection.",
+    },
+  ],
+
+  relatedTests: [
+    "hba1c-test",
+    "blood-sugar-test",
+    "glucose-tolerance-test",
+    "kidney-function-test",
+    "lipid-profile",
+    "urine-examination",
+  ],
+
+  interlinks: {
+    badge: "Included Services & Chandigarh Availability",
+
+    heading: "What's Included & Chandigarh Availability",
+
+    description:
+      "Checking the HbA1c test price? Explore what's included in this price and confirm home collection availability near you in Chandigarh and the Tricity.",
+
+    items: [
+      {
+        title: "What's Included in This Price?",
+        subtitle: "HbA1c Test Service Details",
+        description:
+          "See everything included in your HbA1c test — from sample collection to laboratory analysis and report delivery.",
+        href: "/tests/hba1c-test",
+        icon: "FiActivity",
+        badge: "Test Details",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Test Details",
+        tracking: "price-interlink-service",
+      },
+      {
+        title: "HbA1c Test Available in Chandigarh",
+        subtitle: "Location & Home Collection",
+        description:
+          "Check HbA1c test home sample collection availability across Chandigarh and nearby Tricity areas.",
+        href: "/locations/hba1c-test-in-chandigarh",
+        icon: "FiMapPin",
+        badge: "Chandigarh Location",
+        badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+        btnText: "Visit Chandigarh Page",
+        tracking: "price-interlink-location",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your HbA1c Test in Chandigarh Today",
+
+    description:
+      "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
+
+    offerPrice: getTestPrice('hba1c-test'),
+
+    actualPrice: 525,
+
+    buttonText: "Book a Test",
+
+    testName: "HbA1c Test",
+
+    blogUrl: "/blogs/hba1c-diabetes-test-guide",
+
+    serviceUrl: "/tests/hba1c-test",
+
+    locationUrl: "/locations/hba1c-test-in-chandigarh",
+
+    packageUrl: "/packages",
+
+    highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
+  },
 }
 ];
+
 

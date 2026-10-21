@@ -1,3 +1,4 @@
+import SITE_CONFIG from "../siteConfig";
 import { getTestPrice } from "./tests";
 
 export const locations = [
@@ -13,9 +14,8 @@ export const locations = [
   shortDescription:
     "Looking for a blood test in Chandigarh? Shyam Budget Friendly Labs offers affordable pathology services, home sample collection, CBC tests, thyroid tests, diabetes screening, vitamin tests, and full body health checkups with accurate reports.",
 
-  coverImage: "/locations/chandigarh.jpeg",
 
-  hours: "07:00-20:00",
+  hours: SITE_CONFIG.hours,
 
   areas: [
     "Sector 17",
@@ -303,20 +303,7 @@ At Shyam Budget Friendly Labs, we focus on delivering accurate diagnostics, affo
     }
   ],
 
-  relatedLocations: [
-    {
-      city: "Panchkula",
-      slug: "/locations/panchkula"
-    },
-    {
-      city: "Ambala",
-      slug: "/locations/ambala"
-    },
-    {
-      city: "Patiala",
-      slug: "/locations/patiala"
-    }
-  ],
+
 
   facts: [
     {
@@ -379,9 +366,9 @@ At Shyam Budget Friendly Labs, we focus on delivering accurate diagnostics, affo
   shortDescription:
     "Looking for a blood test in Ambala? Shyam Budget Friendly Labs offers affordable pathology services, home sample collection, CBC tests, thyroid tests, diabetes screening, vitamin tests, and full body health checkups with accurate reports.",
 
-  coverImage: "/locations/ambala.webp",
 
-  hours: "07:00-20:00",
+
+ hours: SITE_CONFIG.hours,
 
   areas: [
     "Ambala City",
@@ -669,20 +656,7 @@ At Shyam Budget Friendly Labs, we focus on affordable pricing, dependable diagno
     }
   ],
 
-  relatedLocations: [
-    {
-      city: "Chandigarh",
-      slug: "/locations/chandigarh"
-    },
-    {
-      city: "Panchkula",
-      slug: "/locations/panchkula"
-    },
-    {
-      city: "Patiala",
-      slug: "/locations/patiala"
-    }
-  ],
+
 
   facts: [
     {
@@ -748,9 +722,9 @@ At Shyam Budget Friendly Labs, we focus on affordable pricing, dependable diagno
   shortDescription:
     "Looking for a blood test in Patiala? Shyam Budget Friendly Labs offers affordable pathology services, home sample collection, CBC tests, thyroid tests, diabetes screening, vitamin tests, and full body health checkups with accurate reports.",
 
-  coverImage: "/locations/patiala.jpg",
 
-  hours: "07:00-20:00",
+
+  hours: SITE_CONFIG.hours,
 
   areas: [
     "Urban Estate",
@@ -1038,20 +1012,7 @@ At Shyam Budget Friendly Labs, we focus on affordable pricing, dependable diagno
     }
   ],
 
-  relatedLocations: [
-    {
-      city: "Chandigarh",
-      slug: "/locations/chandigarh"
-    },
-    {
-      city: "Panchkula",
-      slug: "/locations/panchkula"
-    },
-    {
-      city: "Ambala",
-      slug: "/locations/ambala"
-    }
-  ],
+
 
   facts: [
     {
@@ -1117,9 +1078,9 @@ At Shyam Budget Friendly Labs, we focus on affordable pricing, dependable diagno
   shortDescription:
     "Looking for a blood test in Rajpura? Shyam Budget Friendly Labs offers affordable pathology services, home sample collection, CBC tests, thyroid tests, diabetes screening, vitamin tests, and full body health checkups with accurate reports.",
 
-  coverImage: "/locations/rajpura.jpg",
 
-  hours: "07:00-20:00",
+
+  hours: SITE_CONFIG.hours,
 
   areas: [
     "Rajpura Town",
@@ -1407,20 +1368,7 @@ Shyam Budget Friendly Labs is committed to making quality diagnostic testing aff
     }
   ],
 
-  relatedLocations: [
-    {
-      city: "Patiala",
-      slug: "/locations/patiala"
-    },
-    {
-      city: "Chandigarh",
-      slug: "/locations/chandigarh"
-    },
-    {
-      city: "Panchkula",
-      slug: "/locations/panchkula"
-    }
-  ],
+
 
   facts: [
     {
@@ -1486,9 +1434,9 @@ Shyam Budget Friendly Labs is committed to making quality diagnostic testing aff
   shortDescription:
     "Looking for a blood test in Panchkula? Shyam Budget Friendly Labs offers affordable pathology services, home sample collection, CBC tests, thyroid tests, diabetes screening, vitamin tests, and full body health checkups with accurate reports.",
 
-  coverImage: "/locations/panchkula.jpg",
+ 
 
-  hours: "07:00-20:00",
+  hours: SITE_CONFIG.hours,
 
   areas: [
     "Sector 5",
@@ -1790,20 +1738,7 @@ At Shyam Budget Friendly Labs, we focus on affordable pricing, professional samp
     }
   ],
 
-  relatedLocations: [
-    {
-      city: "Chandigarh",
-      slug: "/locations/chandigarh"
-    },
-    {
-      city: "Ambala",
-      slug: "/locations/ambala"
-    },
-    {
-      city: "Patiala",
-      slug: "/locations/patiala"
-    }
-  ],
+
 
   facts: [
     {
@@ -1870,9 +1805,9 @@ At Shyam Budget Friendly Labs, we focus on affordable pricing, professional samp
   shortDescription:
     "Looking for a blood test in Mohali? Shyam Budget Friendly Labs offers affordable pathology services, home sample collection, CBC tests, thyroid tests, diabetes screening, vitamin tests, and full body health checkups with accurate reports.",
 
-  coverImage: "/locations/mohali.png",
+ 
 
-  hours: "07:00-20:00",
+  hours: SITE_CONFIG.hours,
 
   areas: [
     "Phase 3B2",
@@ -2159,20 +2094,7 @@ At Shyam Budget Friendly Labs, we focus on accurate diagnostics, affordable pric
     }
   ],
 
-  relatedLocations: [
-    {
-      city: "Chandigarh",
-      slug: "/locations/chandigarh"
-    },
-    {
-      city: "Panchkula",
-      slug: "/locations/panchkula"
-    },
-    {
-      city: "Rajpura",
-      slug: "/locations/rajpura"
-    }
-  ],
+
 
   facts: [
     {
@@ -2239,9 +2161,9 @@ At Shyam Budget Friendly Labs, we focus on accurate diagnostics, affordable pric
   shortDescription:
     "Book affordable blood tests in Zirakpur with Shyam Budget Friendly Labs. Get home sample collection, CBC test, thyroid profile, HbA1c diabetes test, vitamin D & B12 tests, lipid profile, full body checkups, and accurate digital pathology reports.",
 
-  coverImage: "/locations/zirakpur.png",
+ 
 
-  hours: "07:00-20:00",
+  hours: SITE_CONFIG.hours,
 
   areas: [
     "VIP Road",
@@ -2545,20 +2467,7 @@ At Shyam Budget Friendly Labs, our goal is to provide accurate diagnostics, affo
     }
   ],
 
-  relatedLocations: [
-    {
-      city: "Chandigarh",
-      slug: "/locations/chandigarh"
-    },
-    {
-      city: "Mohali",
-      slug: "/locations/mohali"
-    },
-    {
-      city: "Panchkula",
-      slug: "/locations/panchkula"
-    }
-  ],
+ 
 
   facts: [
     {
@@ -2624,9 +2533,9 @@ At Shyam Budget Friendly Labs, our goal is to provide accurate diagnostics, affo
   shortDescription:
     "Book affordable blood tests in Pinjore with Shyam Budget Friendly Labs. Get home sample collection, CBC Test, Thyroid Profile, HbA1c Diabetes Test, Vitamin D & B12 Tests, Lipid Profile, Full Body Health Checkups, Kidney Function Tests, Liver Function Tests, and accurate digital pathology reports across Pinjore and nearby areas.",
 
-  coverImage: "/locations/pinjore.webp",
 
-  hours: "07:00-20:00",
+
+  hours: SITE_CONFIG.hours,
 
   areas: [
     "Pinjore Gardens",
@@ -2934,20 +2843,7 @@ Patients receive accurate pathology reports digitally through WhatsApp, email, a
     }
   ],
 
-  relatedLocations: [
-    {
-      city: "Panchkula",
-      slug: "/locations/panchkula"
-    },
-    {
-      city: "Kalka",
-      slug: "/locations/kalka"
-    },
-    {
-      city: "Chandigarh",
-      slug: "/locations/chandigarh"
-    }
-  ],
+ 
 
   tags: [
     "Blood Test in Pinjore",
@@ -2991,9 +2887,8 @@ Patients receive accurate pathology reports digitally through WhatsApp, email, a
   shortDescription:
     "Book affordable blood tests in Kalka with Shyam Budget Friendly Labs. Get home sample collection, CBC Test, Blood Sugar Test, Thyroid Profile, HbA1c Diabetes Test, Vitamin D & B12 Tests, Lipid Profile, Kidney Function Test, Liver Function Test, Urine Tests, Full Body Health Checkups, and accurate pathology reports across Kalka and nearby areas.",
 
-  coverImage: "/locations/kalka.webp",
 
-  hours: "07:00-20:00",
+  hours: SITE_CONFIG.hours,
 
   areas: [
     "Railway Road",
@@ -3359,28 +3254,7 @@ By combining experienced healthcare professionals, modern laboratory practices, 
     "Chandimandir"
   ],
 
-  relatedLocations: [
-    {
-      city: "Panchkula",
-      slug: "/locations/panchkula"
-    },
-    {
-      city: "Pinjore",
-      slug: "/locations/pinjore"
-    },
-    {
-      city: "Chandigarh",
-      slug: "/locations/chandigarh"
-    },
-    {
-      city: "Zirakpur",
-      slug: "/locations/zirakpur"
-    },
-    {
-      city: "Parwanoo",
-      slug: "/locations/parwanoo"
-    }
-  ],
+
 
   popularSearches: [
     "Blood Test in Kalka",
@@ -3457,9 +3331,9 @@ By combining experienced healthcare professionals, modern laboratory practices, 
   shortDescription:
     "Book affordable blood tests in New Chandigarh (Mullanpur) with Shyam Budget Friendly Labs. Get home sample collection, CBC Test, Blood Sugar Test, Thyroid Profile, HbA1c Diabetes Test, Vitamin D & B12 Tests, Lipid Profile, Kidney Function Test, Liver Function Test, Urine Tests, Full Body Health Checkups, and accurate pathology reports across New Chandigarh, Mullanpur, Omaxe New Chandigarh, DLF Hyde Park, Eco City, and nearby areas.",
 
-  coverImage: "/locations/new-chandigarh-mullanpur.webp",
 
-  hours: "07:00-20:00",
+
+  hours: SITE_CONFIG.hours,
 
   areas: [
     "Omaxe New Chandigarh",
@@ -3682,28 +3556,7 @@ By combining experienced healthcare professionals, modern laboratory practices, 
     }
   ],
 
-  relatedLocations: [
-    {
-      city: "Chandigarh",
-      slug: "/locations/chandigarh"
-    },
-    {
-      city: "Mohali",
-      slug: "/locations/mohali"
-    },
-    {
-      city: "Panchkula",
-      slug: "/locations/panchkula"
-    },
-    {
-      city: "Kharar",
-      slug: "/locations/kharar"
-    },
-    {
-      city: "Dera Bassi",
-      slug: "/locations/dera-bassi"
-    }
-  ]
+
 },
 {
   id: 11,
@@ -3719,15 +3572,11 @@ By combining experienced healthcare professionals, modern laboratory practices, 
   shortDescription:
     "Looking for a CBC test in Chandigarh? Shyam Labs provides affordable and reliable Complete Blood Count testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
 
-  coverImage: "/locations/chandigarh-cbc-test.jpeg",
+  
 
-  hours: "07:00-20:00",
+  hours: SITE_CONFIG.hours,
 
-  areas: [
-    "Chandigarh",
-    "Panchkula",
-    "Mohali",
-  ],
+ areas: ["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
 
   services: [
     "home-sample-collection",
@@ -3891,13 +3740,7 @@ CBC testing can help assess parameters such as hemoglobin, red blood cells, whit
     },
   ],
 
-  nearbyAreas: [
-    "Chandigarh",
-    "Panchkula",
-    "Mohali",
-    "kalka",
-    "zirakpur",
-  ],
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
 
   faq: [
     {
@@ -3949,16 +3792,7 @@ CBC testing can help assess parameters such as hemoglobin, red blood cells, whit
     },
   ],
 
-  relatedLocations: [
-    {
-      city: "Panchkula",
-      slug: "/locations/cbc-test-in-panchkula",
-    },
-    {
-      city: "Mohali",
-      slug: "/locations/cbc-test-in-mohali",
-    },
-  ],
+ 
 
   facts: [
     {
@@ -4034,11 +3868,11 @@ CBC testing can help assess parameters such as hemoglobin, red blood cells, whit
   shortDescription:
     "Looking for a thyroid test in Chandigarh? Shyam Labs provides affordable and reliable T3, T4 & TSH testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
 
-  coverImage: "/locations/chandigarh-thyroid-test.jpeg",
+ 
 
-  hours: "07:00-20:00",
+  hours: SITE_CONFIG.hours,
 
-  areas: ["Chandigarh", "Panchkula", "Mohali"],
+  areas:["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
 
   services: ["home-sample-collection"],
 
@@ -4188,7 +4022,7 @@ Thyroid testing evaluates TSH, T3, and T4 levels, giving doctors useful informat
     },
   ],
 
-  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+  nearbyAreas:["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
 
   faq: [
     {
@@ -4219,10 +4053,7 @@ Thyroid testing evaluates TSH, T3, and T4 levels, giving doctors useful informat
     },
   ],
 
-  relatedLocations: [
-    { city: "Panchkula", slug: "/locations/thyroid-test-in-panchkula" },
-    { city: "Mohali", slug: "/locations/thyroid-test-in-mohali" },
-  ],
+
 
   facts: [
     { label: "Test Price", value: getTestPrice('thyroid-profile-test') },
@@ -4278,11 +4109,11 @@ Thyroid testing evaluates TSH, T3, and T4 levels, giving doctors useful informat
   shortDescription:
     "Looking for a lipid profile (cholesterol) test in Chandigarh? Shyam Labs provides affordable and reliable LDL, HDL & triglyceride testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
  
-  coverImage: "/locations/chandigarh-lipid-profile-test.jpeg",
+
  
-  hours: "07:00-20:00",
+  hours: SITE_CONFIG.hours,
  
-  areas: ["Chandigarh", "Panchkula", "Mohali"],
+  areas: ["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
  
   services: ["home-sample-collection"],
  
@@ -4432,7 +4263,7 @@ Lipid profile testing evaluates Total Cholesterol, LDL, HDL, Triglycerides, and 
     },
   ],
  
-  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+  nearbyAreas:["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
  
   faq: [
     {
@@ -4463,10 +4294,7 @@ Lipid profile testing evaluates Total Cholesterol, LDL, HDL, Triglycerides, and 
     },
   ],
  
-  relatedLocations: [
-    { city: "Panchkula", slug: "/locations/lipid-profile-test-in-panchkula" },
-    { city: "Mohali", slug: "/locations/lipid-profile-test-in-mohali" },
-  ],
+
  
   facts: [
     { label: "Test Price", value: getTestPrice('lipid-profile') },
@@ -4523,11 +4351,11 @@ Lipid profile testing evaluates Total Cholesterol, LDL, HDL, Triglycerides, and 
   shortDescription:
     "Looking for a liver function test (LFT) in Chandigarh? Shyam Labs provides affordable and reliable SGOT, SGPT & bilirubin testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
 
-  coverImage: "/locations/chandigarh-liver-function-test.jpeg",
 
-  hours: "07:00-20:00",
 
-  areas: ["Chandigarh", "Panchkula", "Mohali"],
+  hours: SITE_CONFIG.hours,
+
+  areas:["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
 
   services: ["home-sample-collection"],
 
@@ -4677,7 +4505,7 @@ A liver function test evaluates enzymes such as SGOT and SGPT, along with ALP, b
     },
   ],
 
-  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
 
   faq: [
     {
@@ -4765,11 +4593,11 @@ A liver function test evaluates enzymes such as SGOT and SGPT, along with ALP, b
   shortDescription:
     "Looking for a vitamin D test in Chandigarh? Shyam Labs provides affordable and reliable 25-OH vitamin D testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
 
-  coverImage: "/locations/chandigarh-vitamin-d-test.jpeg",
 
-  hours: "07:00-20:00",
 
-  areas: ["Chandigarh", "Panchkula", "Mohali"],
+  hours: SITE_CONFIG.hours,
+
+  areas:["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
 
   services: ["home-sample-collection"],
 
@@ -4918,7 +4746,7 @@ The test measures 25-hydroxy vitamin D, giving doctors a clear picture of whethe
     },
   ],
 
-  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
 
   faq: [
     {
@@ -4949,10 +4777,7 @@ The test measures 25-hydroxy vitamin D, giving doctors a clear picture of whethe
     },
   ],
 
-  relatedLocations: [
-    { city: "Panchkula", slug: "/locations/vitamin-d-test-in-panchkula" },
-    { city: "Mohali", slug: "/locations/vitamin-d-test-in-mohali" },
-  ],
+
 
   facts: [
     { label: "Test Price", value: getTestPrice('vitamin-d-test') },
@@ -5008,11 +4833,11 @@ The test measures 25-hydroxy vitamin D, giving doctors a clear picture of whethe
   shortDescription:
     "Looking for a dengue test in Chandigarh? Shyam Labs provides affordable and reliable NS1, IgM & IgG dengue testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
 
-  coverImage: "/locations/chandigarh-dengue-test.jpeg",
 
-  hours: "07:00-20:00",
 
-  areas: ["Chandigarh", "Panchkula", "Mohali"],
+  hours: SITE_CONFIG.hours,
+
+  areas: ["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
 
   services: ["home-sample-collection"],
 
@@ -5160,7 +4985,7 @@ The dengue test looks for NS1 antigen, IgM, and IgG, which together show whether
     },
   ],
 
-  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
 
   faq: [
     {
@@ -5191,10 +5016,7 @@ The dengue test looks for NS1 antigen, IgM, and IgG, which together show whether
     },
   ],
 
-  relatedLocations: [
-    { city: "Panchkula", slug: "/locations/dengue-test-in-panchkula" },
-    { city: "Mohali", slug: "/locations/dengue-test-in-mohali" },
-  ],
+
 
   facts: [
     { label: "Test Price", value: getTestPrice('dengue-test') },
@@ -5250,11 +5072,11 @@ The dengue test looks for NS1 antigen, IgM, and IgG, which together show whether
   shortDescription:
     "Looking for a typhoid test in Chandigarh? Shyam Labs provides affordable and reliable Widal and Typhidot testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
 
-  coverImage: "/locations/chandigarh-typhoid-test.jpeg",
 
-  hours: "07:00-20:00",
 
-  areas: ["Chandigarh", "Panchkula", "Mohali"],
+  hours: SITE_CONFIG.hours,
+
+  areas: ["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
 
   services: ["home-sample-collection"],
 
@@ -5402,7 +5224,7 @@ We offer both the Widal test and the Typhidot IgM and IgG test. Typhidot can tur
     },
   ],
 
-  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
 
   faq: [
     {
@@ -5433,10 +5255,6 @@ We offer both the Widal test and the Typhidot IgM and IgG test. Typhidot can tur
     },
   ],
 
-  relatedLocations: [
-    { city: "Panchkula", slug: "/locations/typhoid-test-in-panchkula" },
-    { city: "Mohali", slug: "/locations/typhoid-test-in-mohali" },
-  ],
 
   facts: [
     { label: "Widal Test Price", value: getTestPrice('widal-test') },
@@ -5478,6 +5296,245 @@ We offer both the Widal test and the Typhidot IgM and IgG test. Typhidot can tur
 
   heroSubtitle:
     "Book your Widal or Typhidot test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
+},
+{
+  id: 18,
+
+  slug: "hba1c-test-in-chandigarh",
+
+  city: "Chandigarh",
+
+  state: "Chandigarh",
+
+  title: "HbA1c Test in Chandigarh",
+
+  shortDescription:
+    "Looking for an HbA1c test in Chandigarh? Shyam Labs provides affordable and reliable glycated hemoglobin testing with convenient home sample collection, no fasting needed, and fast digital reports across Chandigarh and nearby Tricity areas.",
+
+
+  hours: SITE_CONFIG.hours,
+
+  areas: ["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
+
+  services: ["home-sample-collection"],
+
+  seo: {
+    // 49 characters
+    title: "HbA1c Test in Chandigarh | Home Sample Collection",
+    // 135 characters
+    description:
+      "Looking for an HbA1c test in Chandigarh? Shyam Labs offers affordable testing with home sample collection, no fasting and fast reports.",
+    keywords: [
+      "HbA1c Test in Chandigarh",
+      "Glycated Hemoglobin Test Chandigarh",
+      "Diabetes Blood Test Chandigarh",
+      "HbA1c Test Price Chandigarh",
+      "Home Sample Collection Chandigarh",
+      "Diagnostic Lab Near Me Chandigarh",
+      "HbA1c Test Panchkula",
+      "HbA1c Test Mohali",
+      "HbA1c Test Tricity",
+    ],
+  },
+
+  overview: {
+    heading: "Affordable HbA1c Testing & Home Sample Collection in Chandigarh",
+
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. An HbA1c test is recommended for diabetes screening, for people with prediabetes or a family history of diabetes, and for anyone with diabetes who needs to check how well their sugar has been controlled over the past few months.
+
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+
+      `For people living or working in Chandigarh, home sample collection makes regular diabetes monitoring easier — and because HbA1c needs no fasting, you can schedule a collection at any time that suits you, with a trained phlebotomist visiting instead of you travelling to a diagnostic centre.
+
+The test shows your average blood sugar over the past 2-3 months, giving doctors a reliable picture of whether your diabetes treatment is working or whether prediabetes is progressing.`,
+
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+
+    highlights: [
+      "Convenient Home Sample Collection",
+      "No Fasting Required",
+      "Fast Digital Reports",
+      "Affordable, Transparent Pricing",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+
+    test: [
+      "hba1c-test",
+      "blood-sugar-test",
+      "lipid-profile",
+      "kidney-function-test",
+      "thyroid-profile-test",
+      "liver-function-test",
+      "cbc-test",
+      "urine-examination",
+    ],
+  },
+
+  packages: [
+    "essential-health-tests",
+    "swasthya-mitra-advance",
+    "swasthya-mitra-premium-package",
+    "fasting-blood-sugar",
+    "random-blood-sugar",
+    "health-checkup-camp",
+  ],
+
+  process: {
+    heading: "How to Get an HbA1c Test in Chandigarh",
+
+    steps: [
+      {
+        title: "Book Your Test",
+        description:
+          "Book your HbA1c test online or contact Shyam Labs to arrange convenient sample collection in Chandigarh.",
+      },
+      {
+        title: "Schedule Home Collection",
+        description:
+          "Choose a convenient collection time — no fasting needed — and provide your Chandigarh address during booking.",
+      },
+      {
+        title: "Sample Collection",
+        description:
+          "A trained phlebotomist follows appropriate safety and hygiene procedures during the collection visit.",
+      },
+      {
+        title: "Receive Digital Report",
+        description:
+          "Get your HbA1c report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+
+  healthConditions: [
+    "Diabetes Screening & Diagnosis",
+    "Prediabetes Detection",
+    "Diabetes Control Monitoring",
+    "Long-Term Blood Sugar Tracking",
+  ],
+
+  whoShouldGetTested: [
+    "Adults with a Family History of Diabetes",
+    "People with Prediabetes",
+    "People with Diabetes (every 3-6 months)",
+    "Individuals with Excess Weight or a Sedentary Lifestyle",
+    "People with Frequent Thirst, Urination, or Fatigue",
+    "Individuals Doing an Annual Health Checkup",
+  ],
+
+  popularSearches: [
+    "HbA1c Test in Chandigarh",
+    "HbA1c Test Price Chandigarh",
+    "HbA1c Test Near Me",
+    "Home Sample Collection Chandigarh",
+    "Diabetes Blood Test in Chandigarh",
+    "Diagnostic Lab Near Me Chandigarh",
+    "HbA1c Test Panchkula",
+    "HbA1c Test Mohali",
+  ],
+
+  sections: [
+    {
+      title: "HbA1c Testing Services in Chandigarh",
+      content: [
+        "Residents across Chandigarh can book HbA1c testing through Shyam Labs with convenient home sample collection where service coverage is available.",
+        "Our testing services are designed for working professionals, families, senior citizens, and patients who need routine or regular diabetes monitoring.",
+      ],
+    },
+    {
+      title: "Doorstep Blood Collection in Chandigarh",
+      content: [
+        "Our home sample collection service lets you schedule an HbA1c test from home without waiting at a diagnostic centre.",
+        "Trained phlebotomists follow appropriate safety and hygiene procedures during every collection visit.",
+      ],
+    },
+    {
+      title: "Why Choose Shyam Labs for HbA1c Testing?",
+      content: [
+        "Affordable pricing, convenient sample collection, and digital reporting make Shyam Labs a convenient option for HbA1c testing across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali","kalka","Pinjore","Derrabassi","Zirakpur"],
+
+  faq: [
+    {
+      question: "Which areas around Chandigarh are covered for home sample collection?",
+      answer:
+        "Shyam Labs provides home sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+    {
+      question: "Can I book an HbA1c test online in Chandigarh?",
+      answer: "Yes, you can schedule your HbA1c test online or by phone and choose a convenient collection time.",
+    },
+    {
+      question: "What is the HbA1c test price in Chandigarh?",
+      answer: `The HbA1c test is available at an offer price of ₹${getTestPrice('hba1c-test')}. Check the pricing page for current offers and booking details.`,
+    },
+    {
+      question: "Is fasting required before an HbA1c test?",
+      answer: "No, fasting is not required before an HbA1c test.",
+    },
+    {
+      question: "How quickly are HbA1c reports available in Chandigarh?",
+      answer: "HbA1c reports are typically available digitally within 24 hours of sample collection.",
+    },
+    {
+      question: "Can senior citizens book an HbA1c test from home in Chandigarh?",
+      answer:
+        "Yes, home sample collection can be convenient for elderly patients who prefer to avoid travelling to a diagnostic centre, subject to service availability.",
+    },
+  ],
+
+ 
+
+  facts: [
+    { label: "Test Price", value: getTestPrice('hba1c-test') },
+    { label: "Report Time", value: "24 Hours" },
+    { label: "Collection Service", value: "Doorstep Sample Pickup" },
+    { label: "Fasting", value: "Not Required" },
+    { label: "Lab Location", value: "Sector 21, Panchkula" },
+  ],
+
+  tags: [
+    "HbA1c Test Chandigarh",
+    "Glycated Hemoglobin Test Chandigarh",
+    "Pathology Lab Chandigarh",
+    "Diabetes Blood Test Chandigarh",
+    "Home Sample Collection Chandigarh",
+    "Blood Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "HbA1c Test Panchkula",
+    "HbA1c Test Mohali",
+    "HbA1c Test Tricity",
+  ],
+
+  cta: {
+    title: "Book an HbA1c Test in Chandigarh Today",
+
+    description:
+      "Schedule convenient home sample collection in Chandigarh and receive your HbA1c report digitally from Shyam Budget Friendly Labs.",
+
+    phone: "tel:+919914899300",
+
+    highlights: ["Home Sample Collection", "Affordable HbA1c Testing", "Fast Digital Reports"],
+  },
+
+  author: "Shyam Budget Friendly Labs",
+
+
+  heroTitle: "Affordable HbA1c Testing & Home Sample Collection in Chandigarh",
+
+  heroSubtitle:
+    "Book your HbA1c test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
 }
 ];
 

@@ -3030,7 +3030,312 @@ export const tests = [
   reportTime: "24 Hours",
    status:"draft"
 },
+{
+  slug: "hba1c-test",
+  name: "HbA1c Test (Glycated Hemoglobin)",
+  shortName: "HbA1c",
+  category: "Biochemistry",
+  organ: "Pancreas",
+  sampleType: "Blood",
+  parameterCount: 2,
+  fasting: false,
+  homeCollection: true,
+  popular: true,
 
+  description:
+    "HbA1c test shows your average blood sugar over the past 2-3 months and is used to diagnose prediabetes and diabetes and to monitor diabetes control.",
+
+  price: 350,
+  reportTime: "24 Hours",
+  status: "published",
+
+  seo: {
+    // 47 characters
+    title: "HbA1c Test in Chandigarh - Price & Normal Range",
+    // 120 characters
+    description:
+      "Book HbA1c test in Chandigarh with home sample collection. No fasting needed. Check HbA1c price, normal range & meaning.",
+    keywords: [
+      "hba1c test",
+      "hba1c test price",
+      "hba1c test cost",
+      "hba1c normal range",
+      "hba1c test near me",
+      "hba1c test at home",
+      "hba1c test chandigarh",
+      "glycated hemoglobin test",
+      "hba1c blood test",
+      "hba1c normal range chart",
+      "diabetes blood test",
+      "hba1c test full form",
+    ],
+  },
+
+  hero: {
+    badge: "Home Sample Collection Available",
+
+    title: "HbA1c Test (Glycated Hemoglobin) in Chandigarh",
+
+    description:
+      "Book an HbA1c Test in Chandigarh and the Tricity with fast report delivery, professional sample collection, and convenient doorstep home collection from Shyam Labs. No fasting needed. Check the latest HbA1c test price and book online.",
+
+    image: "/tests/hba1c.webp",
+
+    imageAlt: "HbA1c Blood Test for Diabetes in Chandigarh",
+
+    reportTime: "24 Hours",
+
+    homeCollection: "Available",
+
+    trustPoints: [
+      "Professional Sample Collection",
+      "Digital Reports",
+      "Affordable HbA1c Test Price",
+      "Quality-Controlled Testing",
+    ],
+
+    bookButton: "Book HbA1c Test",
+
+    bookingUrl: "/prices/hba1c-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+  },
+
+  quickFacts: {
+    sample: "Blood Sample",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    homeCollection: "Available",
+    ageGroup: "Adults & Children",
+  },
+
+  whyChooseUs: {
+    title: "Why Choose Shyam Labs for Your HbA1c Test?",
+
+    description:
+      "Get a dependable HbA1c test in Chandigarh and the Tricity with easy booking, professional sample collection, convenient home collection, and quick access to your digital report.",
+
+    items: [
+      {
+        title: "Professional Sample Collection",
+        description:
+          "Every blood draw follows proper collection procedures for a comfortable, low-discomfort experience.",
+      },
+      {
+        title: "Standardised Testing Process",
+        description:
+          "Your HbA1c sample is analysed on calibrated equipment following standard laboratory protocols.",
+      },
+      {
+        title: "Fast Digital Reports",
+        description:
+          "Your HbA1c report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
+      },
+      {
+        title: "Home Collection Across Chandigarh & Tricity",
+        description:
+          "Book an HbA1c test with convenient home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+    ],
+  },
+
+  testDetails: {
+    title: "About the HbA1c Test (Glycated Hemoglobin)",
+
+    description: [
+      "HbA1c (also called glycated or glycosylated hemoglobin, or A1c) shows the percentage of your hemoglobin that has sugar attached to it. Because red blood cells live for about three months, the result reflects your average blood sugar over roughly the past 2-3 months, not just today.",
+      "That makes it useful for diagnosing prediabetes and diabetes and for checking how well diabetes is controlled. It does not show day-to-day swings or low sugar episodes, and conditions such as anemia or hemoglobin variants can make it read falsely high or low, so doctors often use it alongside fasting and post-meal sugar tests.",
+    ],
+
+    included: [
+      "HbA1c (Glycated Hemoglobin) %",
+      "Estimated Average Glucose (eAG)",
+    ],
+  },
+
+  preparation: {
+    title: "Preparation Before Your HbA1c Test",
+
+    description:
+      "An HbA1c test needs no special preparation — here's what to keep in mind before your appointment.",
+
+    items: [
+      {
+        title: "HbA1c Test Fasting Requirement",
+        description:
+          "Fasting is not required. You can eat and drink normally, including water, and the test can be done at any time of day.",
+      },
+      {
+        title: "Continue Your Medicines",
+        description:
+          "Take your diabetes medicines as usual unless your doctor tells you otherwise, since the test is meant to show your real day-to-day control.",
+      },
+      {
+        title: "Mention Anemia, Recent Blood Loss, or Transfusion",
+        description:
+          "Iron deficiency, other anemias, recent blood loss or transfusion, and hemoglobin conditions can affect HbA1c, so tell the lab and your doctor.",
+      },
+    ],
+  },
+
+  bookingProcess: {
+    title: "How to Book Your HbA1c Test in Chandigarh",
+
+    description:
+      "Booking an HbA1c test with Shyam Labs takes just a few minutes, with convenient home sample collection available across Chandigarh and the Tricity.",
+
+    steps: [
+      {
+        title: "Book Test",
+        description:
+          "Select the HbA1c Test and submit your booking request online or over a call.",
+      },
+      {
+        title: "Schedule Sample Collection",
+        description:
+          "Choose a convenient collection time — no fasting needed — and provide your Chandigarh or Tricity address.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is processed using standard laboratory procedures.",
+      },
+      {
+        title: "Receive Report",
+        description:
+          "Your digital HbA1c report is sent to you within 24 hours of collection.",
+      },
+    ],
+  },
+
+  pricePreview: {
+    title: "HbA1c Test Price",
+
+    description:
+      "Check the latest HbA1c test price in Chandigarh and book with convenient home sample collection.",
+
+    price: 350,
+
+    priceUrl: "/prices/hba1c-test-price-chandigarh",
+  },
+
+  relatedTests: [
+    "blood-sugar-test",
+    "glucose-tolerance-test",
+    "kidney-function-test",
+    "lipid-profile",
+    "urine-examination",
+    "thyroid-profile-test",
+  ],
+
+  faq: {
+    title: "Frequently Asked Questions",
+
+    description:
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the HbA1c test, its results, and booking.",
+
+    items: [
+      {
+        question: "What is the HbA1c test, and what is its full form?",
+        answer:
+          "HbA1c stands for hemoglobin A1c, also called glycated (or glycosylated) hemoglobin. It shows your average blood sugar over the past 2-3 months.",
+      },
+      {
+        question: "What is the normal HbA1c range?",
+        answer:
+          "Below 5.7% is normal, 5.7-6.4% is prediabetes, and 6.5% or above is in the diabetes range. These ranges are the same for men and women.",
+      },
+      {
+        question: "What does an HbA1c of 5.7 or 6.5 mean?",
+        answer:
+          "5.7% is the lower edge of prediabetes. 6.5% is the diagnostic threshold for diabetes, usually confirmed with a repeat test. In someone already treated for diabetes, 6.5% is good control.",
+      },
+      {
+        question: "What HbA1c is good for a person with diabetes?",
+        answer:
+          "For many adults the usual goal is below 7%, but your doctor sets a personal target. Older adults or people with other illnesses may have a slightly higher target, such as 7.5-8%.",
+      },
+      {
+        question: "Is HbA1c 7.2, 7.6, or 9.5 normal?",
+        answer:
+          "None of these is in the non-diabetic range. 7.2% is slightly above the usual 7% goal for people with diabetes, 7.6% is a little higher, and 9.5% means poor control that needs prompt medical review.",
+      },
+      {
+        question: "What is a dangerously high HbA1c?",
+        answer:
+          "There is no single cut-off, but values above about 9% show poor control and values of 10-12% or more carry a high risk of complications. Seek urgent care with extreme thirst, vomiting, drowsiness, or confusion, whatever the number.",
+      },
+      {
+        question: "Is fasting required for the HbA1c test?",
+        answer:
+          "No. You can eat and drink normally, including water, and have the test at any time of day.",
+      },
+      {
+        question: "How often should HbA1c be tested?",
+        answer:
+          "Typically every 3 months if your treatment changed or targets aren't met, at least twice a year if stable, yearly with prediabetes, and about every 3 years for routine screening if normal.",
+      },
+      {
+        question: "What time period does HbA1c show?",
+        answer:
+          "About the past 2-3 months, with the most recent 4-6 weeks counting the most.",
+      },
+      {
+        question: "Can HbA1c be falsely high or low?",
+        answer:
+          "Yes. Iron deficiency and vitamin B12 deficiency can raise it, while recent blood loss, hemolytic anemia, and some hemoglobin variants can lower it. Kidney disease and pregnancy also affect it.",
+      },
+      {
+        question: "HbA1c vs fasting blood sugar: which is better?",
+        answer:
+          "They show different things. Fasting and post-meal sugar show your glucose at one moment, while HbA1c shows the 2-3 month average. Doctors often use them together.",
+      },
+      {
+        question: "Can I test HbA1c at home?",
+        answer:
+          "You can book home sample collection so the blood is collected at your doorstep and tested at the lab. Home finger-prick kits exist, but a lab test is more reliable for diagnosis.",
+      },
+      {
+        question: "How long does the HbA1c report take?",
+        answer:
+          "Reports are usually ready the same day or within 24 hours of sample collection.",
+      },
+      {
+        question: "Is home sample collection available for HbA1c test in Chandigarh?",
+        answer:
+          "Yes, Shyam Labs provides home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+      {
+        question: "What is the HbA1c test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current HbA1c test price and book online with home sample collection.",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your HbA1c Test in Chandigarh Today",
+
+    description:
+      "Get convenient home sample collection, reliable HbA1c testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+
+    highlights: [
+      "Home Sample Collection Available",
+      "Fast Report Delivery",
+      "Professional Collection Process",
+    ],
+
+    price: "350",
+
+    priceText: "Check detailed HbA1c test pricing and booking options.",
+
+    bookingUrl: "/prices/hba1c-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+
+    buttonText: "Book HbA1c Test",
+  },
+},
 {
   slug: "hcv-test",
   name: "Hepatitis C Virus Test",

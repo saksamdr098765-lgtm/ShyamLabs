@@ -3459,111 +3459,568 @@ export const blogs = [
 },
 {
   id: 8,
+
   slug: "hba1c-diabetes-test-guide",
-  title: "HbA1c Test Guide: Normal Range, Diabetes Diagnosis, Results & When You Need One",
-  excerpt: "Learn everything about the HbA1c blood test including normal HbA1c levels, diabetes diagnosis, preparation, interpretation, symptoms, and HbA1c testing in Panchkula.",
+
+  title: "HbA1c Test: Normal Range, Chart, Price & How to Lower",
+
+  excerpt:
+    "HbA1c test explained: full form, normal range by age, what 5.7, 6.5 and 7.5 mean, average sugar chart, fasting rules, price, and how to lower it.",
+
   category: "Health Tips",
+
   author: {
     name: SITE_CONFIG.fullName,
     image: SITE_CONFIG.logo,
   },
-  publishedAt: "July 2, 2026",
-  readingTime: "8 min read",
-  coverImage: "/blogs/hba1c-test.png",
-  featured: false,
-  relatedPackages: [],
-  relatedTests: [], // ✅ emptied per request
+
+  publishedAt: "October 21, 2026",
+
+  readingTime: "12 min read",
+
+  coverImage: "/blogs/hba1c-test-guide.webp",
+
+  featured: true,
+
+  relatedPackages: [
+    "essential-health-tests",
+    "swasthya-mitra-advance",
+    "swasthya-mitra-premium-package",
+    "fasting-blood-sugar",
+    "random-blood-sugar",
+    "health-checkup-camp",
+  ],
+
+  relatedTests: [
+    "hba1c-test",
+    "blood-sugar-test",
+    "glucose-tolerance-test",
+    "kidney-function-test",
+    "lipid-profile",
+    "urine-examination",
+  ],
+
   seo: {
-    title: "HbA1c Test Guide: Normal Range, Diabetes Test & HbA1c in Panchkula",
-    description: "Know the HbA1c normal range, diabetes diagnosis, blood sugar monitoring, preparation, symptoms, and HbA1c testing in Panchkula with home sample collection.",
+    // 53 characters
+    title: "HbA1c Test: Normal Range, Chart, Price & How to Lower",
+    // 115 characters
+    description:
+      "HbA1c test guide: full form, normal range by age, 5.7 and 6.5 meaning, eAG chart, fasting, price & how to lower it.",
     keywords: [
-      "HbA1c Test", "HbA1c Blood Test", "Diabetes Test", "Blood Sugar Test",
-      "HbA1c Normal Range", "Diabetes Screening", "Diabetes Blood Test",
-      "HbA1c Test in Panchkula", "HbA1c Test Near Me", "Sugar Test", "Diabetes Monitoring Test"
-    ]
+      "hba1c test",
+      "hba1c normal range",
+      "hba1c test cost",
+      "hba1c normal range chart",
+      "hba1c 5.7 meaning",
+      "hba1c to average blood sugar conversion",
+      "how to lower hba1c",
+      "foods to lower hba1c",
+      "high hba1c causes",
+      "prediabetes symptoms",
+      "hba1c vs random blood sugar",
+      "hba1c test in Chandigarh",
+      "pathology lab near me",
+      "diagnostic lab near me",
+      "blood test home sample collection",
+    ],
   },
+
   quickInfo: {
-    "What You Will Learn": "HbA1c Test",
+    "What You Will Learn": "HbA1c Test (Glycated Hemoglobin)",
+    price: getTestPrice('hba1c-test'),
     sample: "Blood",
-    fasting: "Usually Not Required",
+    fasting: "Not Required",
     reportTime: "Same Day",
     homeCollection: "Available",
-    recommendedFor: "Frequent urination, Excessive thirst, Blurred vision, Slow wound healing, Fatigue, Unexplained weight loss",
-    booking: "Online / Phone / WhatsApp"
+    recommendedFor: "Diabetes Screening, Prediabetes, Diabetes Monitoring, Family History of Diabetes, Routine Checkup",
+    booking: "Online / Phone / WhatsApp",
   },
+
   tags: [
-    "HbA1c Test", "Diabetes Test", "Blood Sugar Test", "Diabetes Screening",
-    "HbA1c Normal Range", "Sugar Test", "Blood Glucose Test", "Diabetes Monitoring",
-    "Type 2 Diabetes", "Prediabetes", "HbA1c Test Near Me", "HbA1c Test in Panchkula",
-    "HbA1c Test in Chandigarh", "HbA1c Test in Punjab", "Diagnostic Lab", "Pathology Lab",
-    "Health Checkup", "Home Sample Collection", "Same Day Report"
+    "HbA1c Test",
+    "HbA1c Normal Range",
+    "HbA1c Test Price",
+    "Glycated Hemoglobin",
+    "Diabetes Test",
+    "Prediabetes",
+    "Blood Sugar",
+    "HbA1c Chart",
+    "How to Lower HbA1c",
+    "Blood Tests",
+    "Health Checkup",
+    "HbA1c Test in Chandigarh",
+    "HbA1c Test in Panchkula",
+    "Home Sample Collection",
+    "Pathology Lab",
+    "Same Day Report",
   ],
+
   content: [
-    { type: "heading", level: 2, text: "What Is an HbA1c Test?" },
-    { type: "paragraph", text: "The HbA1c Test, also called the Glycated Hemoglobin Test, measures your average blood sugar level over the past two to three months." },
-    { type: "paragraph", text: "Unlike a regular blood sugar test, HbA1c provides a long-term picture of glucose control and helps diagnose diabetes and prediabetes." },
-    { type: "paragraph", text: "Doctors frequently recommend this test for diabetes screening and monitoring treatment effectiveness." },
-    { type: "heading", level: 2, text: "Why Is HbA1c Important?" },
-    { type: "paragraph", text: "High blood sugar often develops gradually and may not cause noticeable symptoms in the early stages." },
-    { type: "paragraph", text: "The HbA1c Test helps detect elevated blood sugar before serious complications such as kidney disease, nerve damage, eye problems, and heart disease develop." },
-    { type: "paragraph", text: "Regular monitoring allows timely lifestyle changes and treatment." },
-    { type: "heading", level: 2, text: "Who Should Get an HbA1c Test?" },
-    { type: "paragraph", text: "Doctors recommend HbA1c testing for adults over 35, individuals who are overweight, people with a family history of diabetes, pregnant women when advised, and anyone experiencing symptoms of high blood sugar." },
-    { type: "paragraph", text: "Patients already diagnosed with diabetes should undergo regular HbA1c testing to monitor treatment response." },
-    { type: "heading", level: 2, text: "Symptoms of High Blood Sugar" },
-    { type: "paragraph", text: "Common symptoms include:" },
-    { type: "list", items: ["Frequent urination"] },
-    { type: "list", items: ["Excessive thirst"] },
-    { type: "list", items: ["Increased hunger"] },
-    { type: "list", items: ["Fatigue"] },
-    { type: "list", items: ["Blurred vision"] },
-    { type: "list", items: ["Slow wound healing"] },
-    { type: "list", items: ["Frequent infections"] },
-    { type: "list", items: ["Unexplained weight loss"] },
-    { type: "paragraph", text: "Many people with diabetes may not notice symptoms until blood sugar becomes significantly elevated." },
-    { type: "heading", level: 2, text: "HbA1c Normal Range" },
-    { type: "paragraph", text: "General HbA1c reference values are:" },
-    { type: "list", items: ["Below 5.7% — Normal"] },
-    { type: "list", items: ["5.7% to 6.4% — Prediabetes"] },
-    { type: "list", items: ["6.5% or above — Diabetes"] },
-    { type: "paragraph", text: "Results should always be interpreted together with your symptoms and other blood sugar tests." },
-    { type: "heading", level: 2, text: "Understanding HbA1c Results" },
-    { type: "paragraph", text: "A higher HbA1c value indicates that blood sugar has remained elevated over the previous two to three months." },
-    { type: "paragraph", text: "Doctors use HbA1c results to diagnose diabetes, evaluate treatment effectiveness, and adjust medications when necessary." },
-    { type: "paragraph", text: "Regular monitoring helps reduce the risk of diabetes-related complications." },
-    { type: "heading", level: 2, text: "Benefits of Regular HbA1c Testing" },
-    { type: "paragraph", text: "Benefits include:" },
-    { type: "list", items: ["Early diagnosis of diabetes"] },
-    { type: "list", items: ["Better blood sugar control"] },
-    { type: "list", items: ["Reduced risk of complications"] },
-    { type: "list", items: ["Monitoring treatment effectiveness"] },
-    { type: "list", items: ["Improved long-term health"] },
-    { type: "paragraph", text: "Routine HbA1c testing is an essential part of preventive healthcare for individuals at risk of diabetes." },
-    { type: "heading", level: 2, text: "How To Prepare For An HbA1c Test" },
-    { type: "paragraph", text: "Most HbA1c tests do not require fasting." },
-    { type: "paragraph", text: "Stay hydrated before the test and inform your doctor about any medications or medical conditions." },
-    { type: "paragraph", text: "Blood sample collection usually takes only a few minutes." },
-    { type: "heading", level: 2, text: "HbA1c Test in Panchkula" },
-    { type: "paragraph", text: "Shyam Pathology Lab provides accurate HbA1c Testing in Panchkula with convenient home blood sample collection." },
-    { type: "paragraph", text: "Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, and nearby areas can book diabetes testing from home and receive reliable same-day reports." },
-    { type: "paragraph", text: "Early diagnosis helps prevent diabetes complications and supports better long-term health." }
-    // ✅ interlinking block removed
+    {
+      type: "paragraph",
+      text: "A single blood sugar reading only tells you about one moment. The HbA1c test shows the bigger picture — your average blood sugar over the past two to three months — which is why it is the standard test for diagnosing diabetes and tracking how well it is controlled. This guide covers the full form, normal range, what each number means, and how to bring it down.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is the HbA1c Test? (Full Form and Meaning)",
+    },
+    {
+      type: "paragraph",
+      text: "HbA1c stands for hemoglobin A1c, and it is also called glycated or glycosylated hemoglobin, or simply A1c. Hemoglobin is the protein in red blood cells, and when sugar in your blood sticks to it the result is glycated hemoglobin. The more sugar in your blood over time, the higher the percentage of hemoglobin that is glycated.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Does the HbA1c Test Show?",
+    },
+    {
+      type: "paragraph",
+      text: "It reflects your average blood sugar over about the past 2-3 months, with the most recent 4-6 weeks counting the most. It does not show today's sugar, daily ups and downs, or low sugar episodes, which is why it is not a replacement for fasting or post-meal sugar tests.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Why Is the HbA1c Test Done?",
+    },
+    {
+      type: "list",
+      items: [
+        "To screen for prediabetes and diabetes, including in adults with a family history, excess weight, or a sedentary lifestyle",
+        "To diagnose diabetes (a result of 6.5% or above, usually confirmed on repeat)",
+        "To check how well diabetes treatment is working",
+        "To help decide whether medicines or lifestyle plans need changing",
+        "As part of a routine annual health checkup",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "HbA1c Normal Range Chart",
+    },
+    {
+      type: "list",
+      items: [
+        "Normal: below 5.7%",
+        "Prediabetes: 5.7% to 6.4%",
+        "Diabetes: 6.5% or above",
+        "Typical goal for many adults with diabetes: below 7% (your doctor sets your own target)",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "These diagnostic ranges are the same for men and women. After eating or fasting does not change them either, because HbA1c is not affected by your last meal.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "HbA1c Normal Range by Age",
+    },
+    {
+      type: "list",
+      items: [
+        "Adults (diagnosis): the same cut-offs at every adult age — 5.7% and 6.5%",
+        "Adults with diabetes: goal usually below 7%",
+        "Older adults or those with other serious illnesses: a slightly looser goal, often 7.5-8%, to avoid low sugar",
+        "Children and teens with type 1 diabetes: a target set by their pediatric diabetes team, commonly around 7% or lower",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Does HbA1c 5.7, 6.5, 7.2, 7.5, 7.6, or 9.5 Mean?",
+    },
+    {
+      type: "list",
+      items: [
+        "5.7%: the start of the prediabetes range — a warning to act on lifestyle now",
+        "6.5%: the diabetes threshold if you are not already diagnosed; good control if you already are",
+        "7.2%: slightly above the usual 7% goal, often acceptable for some people with diabetes",
+        "7.5% and 7.6%: in the diabetes range, with an average sugar of roughly 170-175 mg/dL",
+        "9.5%: poor control — average sugar above 220 mg/dL — that needs prompt medical review",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "HbA1c to Average Blood Sugar Conversion (eAG Chart)",
+    },
+    {
+      type: "paragraph",
+      text: "Your doctor can estimate your average glucose (eAG) from HbA1c with this formula: eAG in mg/dL = 28.7 × HbA1c − 46.7. Using it:",
+    },
+    {
+      type: "list",
+      items: [
+        "HbA1c 5.7% ≈ 117 mg/dL",
+        "HbA1c 6.5% ≈ 140 mg/dL",
+        "HbA1c 7% ≈ 154 mg/dL",
+        "HbA1c 8% ≈ 183 mg/dL",
+        "HbA1c 9% ≈ 212 mg/dL",
+        "HbA1c 10% ≈ 240 mg/dL",
+        "HbA1c 12% ≈ 298 mg/dL",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is a Dangerously High HbA1c?",
+    },
+    {
+      type: "paragraph",
+      text: "There is no single danger number. As a rough guide, above about 9% shows poor control, and 10-12% or more is associated with a high risk of eye, kidney, nerve, and heart complications. Whatever the number, extreme thirst, repeated vomiting, rapid breathing, drowsiness, or confusion need urgent medical care.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Low HbA1c: What Does It Mean?",
+    },
+    {
+      type: "paragraph",
+      text: "A very low HbA1c can mean frequent low-sugar episodes from diabetes medicines, but it can also come from anemia with fast red cell turnover, recent blood loss or transfusion, pregnancy, or certain hemoglobin variants. A low value should be reviewed by a doctor rather than assumed to be good news.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Symptoms of High HbA1c, Diabetes, and Prediabetes",
+    },
+    {
+      type: "list",
+      items: [
+        "Increased thirst and frequent urination",
+        "Fatigue",
+        "Blurred vision",
+        "Slow-healing cuts and frequent infections",
+        "Unexplained weight loss",
+        "Tingling or numbness in the feet",
+        "Dark, velvety skin patches on the neck or armpits (a sign of insulin resistance)",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Prediabetes and early type 2 diabetes often cause no symptoms at all, which is exactly why screening matters.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Causes a High HbA1c?",
+    },
+    {
+      type: "list",
+      items: [
+        "Diabetes or prediabetes that is not well controlled",
+        "A diet high in sugar, refined carbohydrates, and sugary drinks",
+        "Low physical activity and excess weight",
+        "Missed or inadequate diabetes medicines",
+        "Infections, steroids, and other medicines that raise blood sugar",
+        "Iron or vitamin B12 deficiency, which can make the test read higher than the true average",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "HbA1c vs Fasting, PPBS, Random Sugar, and GTT",
+    },
+    {
+      type: "list",
+      items: [
+        "HbA1c: 2-3 month average, no fasting needed, but affected by anemia and hemoglobin variants",
+        "Fasting blood sugar: your glucose after 8-12 hours without food, a single moment",
+        "PPBS: glucose 2 hours after a meal, showing how your body handles food",
+        "Random blood sugar: glucose at any time, useful when diabetes symptoms are present",
+        "Glucose tolerance test: a timed test after a glucose drink, used in pregnancy and when other tests are unclear",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "They answer different questions, so doctors often combine HbA1c with fasting or post-meal sugar for a fuller picture.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is Fasting Required for an HbA1c Test? Can You Drink Water?",
+    },
+    {
+      type: "paragraph",
+      text: "No. You can eat and drink normally, including water, and have the test at any time of day. If it is booked together with a fasting sugar or lipid profile, you will be asked to fast for those tests, but not for the HbA1c itself.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Often Should HbA1c Be Tested?",
+    },
+    {
+      type: "list",
+      items: [
+        "Diabetes with stable control: at least twice a year",
+        "Treatment recently changed or goals not met: every 3 months",
+        "Prediabetes: about once a year",
+        "Normal result with risk factors: every 1-3 years",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Accurate Is HbA1c? Why It Can Read Falsely High or Low",
+    },
+    {
+      type: "paragraph",
+      text: "HbA1c is a reliable, convenient test, but anything that changes how long red cells live can skew it. Iron deficiency anemia and vitamin B12 deficiency can raise it, while recent blood loss, hemolytic anemia, and some hemoglobin variants such as thalassemia trait can lower it. Kidney disease and pregnancy also affect it. In these cases doctors rely more on fasting and post-meal sugar readings.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "HbA1c in Pregnancy and Children",
+    },
+    {
+      type: "paragraph",
+      text: "In pregnancy, HbA1c is less reliable because red cell turnover changes, and gestational diabetes is usually screened with a glucose challenge or tolerance test, though HbA1c may be checked early to spot pre-existing diabetes. In children, HbA1c is used mainly to monitor type 1 diabetes, with targets set by the pediatric team.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How to Lower HbA1c: What Actually Works",
+    },
+    {
+      type: "list",
+      items: [
+        "Take diabetes medicines exactly as prescribed, and never stop or change them on your own",
+        "Cut back on sugary drinks, sweets, and refined flour, and watch portion sizes of rice and roti",
+        "Eat more vegetables, pulses, whole grains, and protein, with fiber at every meal",
+        "Aim for about 150 minutes of brisk activity a week, plus a short walk after meals",
+        "Lose excess weight gradually — even 5-10% helps",
+        "Sleep well, manage stress, and avoid smoking",
+        "Check your sugars as advised and repeat HbA1c after about 3 months",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Because HbA1c reflects 2-3 months, real change shows over about three months, not days. Many people see a meaningful improvement in that time, though how much depends on where you start and your treatment.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Foods to Lower HbA1c and a Simple Diet Plan",
+    },
+    {
+      type: "paragraph",
+      text: "No single food lowers HbA1c on its own, but the overall pattern does. Build a plate with half non-starchy vegetables, a quarter protein such as dal, paneer, eggs, fish, or chicken, and a quarter whole grains like millets, oats, or whole wheat roti. Choose whole fruit over juice, add nuts and seeds, and limit white rice, maida, fried snacks, and sweets. This plate method is a flexible alternative to a fixed diabetes diet chart, which your doctor or dietitian can tailor to you.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can You Reduce HbA1c from 7.5 to 5?",
+    },
+    {
+      type: "paragraph",
+      text: "Aiming for 5 is usually unrealistic and unnecessary for someone with diabetes, and pushing too low with medicines can cause dangerous low sugar. The usual goal is below 7%, or the target your doctor sets, and getting from 7.5% to about 7% is a sensible first step through diet, activity, and treatment adjustment.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can I Test HbA1c at Home?",
+    },
+    {
+      type: "paragraph",
+      text: "Home finger-prick kits exist, but they are less reliable than a lab test for diagnosis. A better option is home sample collection, where a phlebotomist collects your blood at your doorstep and the test is run at the lab, usually with the report ready the same day.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Is the HbA1c Test Done?",
+    },
+    {
+      type: "paragraph",
+      text: "A small blood sample is drawn from a vein in your arm, which takes a couple of minutes, and no preparation is needed. The report usually shows your HbA1c percentage and the estimated average glucose.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "HbA1c Test Price and Report Time",
+    },
+    {
+      type: "paragraph",
+      text: `Our HbA1c test is priced at ${getTestPrice('hba1c-test')}, with same-day reports and free home sample collection available — so you don't need to visit the lab in person or wait days for results.`,
+    },
+    {
+      type: "interlinking",
+      title: "HbA1c Test Services & Pricing",
+      description:
+        "Explore HbA1c test details, pricing, and convenient home sample collection services.",
+      items: [
+        {
+          title: "HbA1c Test Price",
+          description:
+            "Check the latest HbA1c test price and available home sample collection options.",
+          href: "/prices/hba1c-test-price-chandigarh",
+        },
+        {
+          title: "HbA1c Test Details",
+          description:
+            "Learn about the HbA1c test, what it measures, sample requirements, and preparation.",
+          href: "/tests/hba1c-test",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "HbA1c Test in Panchkula, Chandigarh & Nearby Areas",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Budget Friendly Labs provides accurate HbA1c testing with convenient home blood sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+    {
+      type: "interlinking",
+      title: "HbA1c Test — Areas We Serve",
+      description:
+        "We provide HbA1c testing with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "HbA1c test with home sample collection.",
+          href: "/locations/hba1c-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "HbA1c test and diagnostic services with home collection.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "HbA1c test with same-day report and home collection.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "HbA1c test and pathology services.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Key Takeaways",
+    },
+    {
+      type: "list",
+      items: [
+        "HbA1c shows your average blood sugar over about 2-3 months, so it needs no fasting",
+        "Below 5.7% is normal, 5.7-6.4% is prediabetes, and 6.5% or above is the diabetes range",
+        "The usual goal for adults with diabetes is below 7%, but your doctor sets your own target",
+        "Iron or B12 deficiency, anemia, and hemoglobin variants can make HbA1c read falsely high or low",
+        "Lowering HbA1c takes about 3 months of consistent diet, activity, and medicines as prescribed",
+      ],
+    },
+    {
+      type: "references",
+      items: [
+        {
+          title: "The A1C Test & Diabetes",
+          publisher: "NIDDK, National Institutes of Health",
+          url: "https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test-diabetes",
+        },
+        {
+          title: "Hemoglobin A1C (HbA1c) Test",
+          publisher: "MedlinePlus",
+          url: "https://medlineplus.gov/lab-tests/hemoglobin-a1c-hba1c-test/",
+        },
+        {
+          title: "A1C Test",
+          publisher: "Mayo Clinic",
+          url: "https://www.mayoclinic.org/tests-procedures/a1c-test/about/pac-20384643",
+        },
+      ],
+    },
   ],
+
   faq: [
-    { question: "Is fasting required for an HbA1c Test?", answer: "No. In most cases fasting is not required before an HbA1c Test." },
-    { question: "What does an HbA1c Test measure?", answer: "It measures your average blood sugar level over the previous two to three months." },
-    { question: "Can HbA1c diagnose diabetes?", answer: "Yes. HbA1c is one of the standard tests used to diagnose diabetes and prediabetes." },
-    { question: "How often should HbA1c be tested?", answer: "Most people with diabetes should have an HbA1c Test every three to six months as recommended by their doctor." },
-    { question: "Can I book an HbA1c Test at home in Panchkula?", answer: "Yes. Shyam Pathology Lab provides home blood sample collection for HbA1c testing in Panchkula and nearby areas." },
-    { question: "Is HbA1c more accurate than a fasting blood sugar test?", answer: "HbA1c reflects average blood sugar over several months, while fasting blood sugar measures glucose at a single point in time. Doctors often use both tests together." }
+    {
+      question: "What is the full form of HbA1c?",
+      answer:
+        "HbA1c stands for hemoglobin A1c, also called glycated or glycosylated hemoglobin. It shows your average blood sugar over the past 2-3 months.",
+    },
+    {
+      question: "What is the normal HbA1c level?",
+      answer:
+        "Below 5.7% is normal, 5.7-6.4% is prediabetes, and 6.5% or above is the diabetes range. The ranges are the same for men and women.",
+    },
+    {
+      question: "What is a good HbA1c by age?",
+      answer:
+        "The diagnostic cut-offs are the same for all adults. For treatment, most adults with diabetes aim for below 7%, while older adults or those with other illnesses may have a slightly higher target of around 7.5-8%.",
+    },
+    {
+      question: "Is HbA1c 6.5 normal?",
+      answer:
+        "No, 6.5% is the diabetes threshold if you are not already diagnosed, usually confirmed with a repeat test. For someone already treated for diabetes, 6.5% is good control.",
+    },
+    {
+      question: "Is HbA1c 7.2, 7.6, or 9.5 normal?",
+      answer:
+        "None are in the non-diabetic range. 7.2% is slightly above the usual goal, 7.6% is a little higher, and 9.5% means poor control that needs prompt review by your doctor.",
+    },
+    {
+      question: "What is the danger zone for HbA1c?",
+      answer:
+        "Above about 9% shows poor control, and 10-12% or more carries a high risk of complications. Seek urgent care for extreme thirst, repeated vomiting, drowsiness, or confusion.",
+    },
+    {
+      question: "What does an HbA1c of 7.5 mean?",
+      answer:
+        "It is in the diabetes range and corresponds to an average blood sugar of about 169 mg/dL. It is a little above the usual 7% goal, so it is worth reviewing your plan with your doctor.",
+    },
+    {
+      question: "How do I convert HbA1c to average blood sugar?",
+      answer:
+        "Use eAG (mg/dL) = 28.7 × HbA1c − 46.7. For example, an HbA1c of 7% is about 154 mg/dL, and 8% is about 183 mg/dL.",
+    },
+    {
+      question: "Is fasting required for the HbA1c test?",
+      answer:
+        "No. You can eat and drink normally, including water, and have the test at any time of day.",
+    },
+    {
+      question: "How often should HbA1c be done?",
+      answer:
+        "Every 3 months if treatment changed or goals aren't met, at least twice a year if stable, yearly with prediabetes, and every 1-3 years for routine screening if normal.",
+    },
+    {
+      question: "How can I reduce my HbA1c?",
+      answer:
+        "Take medicines as prescribed, cut sugary drinks and refined carbs, eat more vegetables, pulses, and whole grains, exercise regularly, lose excess weight, and recheck after about 3 months.",
+    },
+    {
+      question: "Can HbA1c be falsely high?",
+      answer:
+        "Yes. Iron or vitamin B12 deficiency can raise it, while recent blood loss, hemolytic anemia, and some hemoglobin variants can lower it.",
+    },
+    {
+      question: "HbA1c vs random blood sugar: which is better?",
+      answer:
+        "They show different things. Random sugar is a single moment and varies with meals, while HbA1c shows the 2-3 month average. Doctors often use both.",
+    },
+    {
+      question: "How much does an HbA1c test cost?",
+      answer: `Our HbA1c test is priced at ${getTestPrice('hba1c-test')}, with same-day reports and free home sample collection available.`,
+    },
+    {
+      question: "Can I test HbA1c at home?",
+      answer:
+        "You can book home sample collection so the blood is collected at your doorstep and tested at the lab, which is more reliable than home finger-prick kits.",
+    },
   ],
+
   cta: {
-    title: "Book Your HbA1c Test Today",
-    description: "Get accurate HbA1c testing with home sample collection and same-day reporting from Shyam Pathology Lab.",
-    buttonText: "Book HbA1c Test",
-    whatsappText: "Hi, I want to book a hba1c test.",
-    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"]
-  }
+    title: "Book HbA1c Test",
+    description: "Get an accurate HbA1c test with doorstep sample collection and same-day reports. No fasting needed.",
+    buttonText: "Book Test Now",
+    whatsappText: "Hi, I want to book an HbA1c test.",
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/hba1c-test",
+  },
 },
 {
   id: 9,
