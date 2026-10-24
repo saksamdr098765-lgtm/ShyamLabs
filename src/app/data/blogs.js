@@ -4022,108 +4022,536 @@ export const blogs = [
     serviceLink: "/tests/hba1c-test",
   },
 },
-{
+ {
   id: 9,
+
   slug: "vitamin-b12-test-guide",
-  title: "Vitamin B12 Test Guide: Symptoms, Normal Range, Deficiency & When to Get Tested",
-  excerpt: "Learn about Vitamin B12 deficiency symptoms, normal Vitamin B12 levels, causes, treatment, preparation, and Vitamin B12 testing in Panchkula.",
+
+  title: "Vitamin B12 Test: Normal Range, Symptoms, Foods & Price",
+
+  excerpt:
+    "Vitamin B12 test explained: normal range in pg/mL, deficiency symptoms, causes, vegetarian sources, tablets vs injection, and price.",
+
   category: "Health Tips",
+
   author: {
     name: SITE_CONFIG.fullName,
     image: SITE_CONFIG.logo,
   },
-  publishedAt: "July 2, 2026",
-  readingTime: "8 min read",
-  coverImage: "/blogs/vitamin-b12-test.png",
-  featured: false,
-  relatedPackages: [],
-  relatedTests: [], // ✅ emptied per request
+
+  publishedAt: "October 22, 2026",
+
+  readingTime: "12 min read",
+
+  coverImage: "/blogs/vitamin-b12-test-guide.webp",
+
+  featured: true,
+
+  relatedPackages: [
+    "vitamin-d-b12-combo",
+    "vitamin-d3-vitamin-b12-screening",
+    "swasthya-mitra-premium-package",
+    "skin-aura-package-1",
+    "mega-health-checkup-premium-package",
+    "women-basic-profile-utsh",
+  ],
+
+  relatedTests: [
+    "vitamin-b12-test",
+    "vitamin-d-test",
+    "cbc-test",
+    "peripheral-blood-film",
+    "hba1c-test",
+    "thyroid-profile-test",
+  ],
+
   seo: {
-    title: "Vitamin B12 Test Guide: Symptoms, Normal Range & Vitamin B12 Test",
-    description: "Know Vitamin B12 deficiency symptoms, normal levels, fatigue, numbness, anemia, preparation, home sample collection, and Vitamin B12 testing in Panchkula.",
+    // 55 characters
+    title: "Vitamin B12 Test: Normal Range, Symptoms, Foods & Price",
+    // 117 characters
+    description:
+      "Vitamin B12 test guide: normal range in pg/mL, deficiency symptoms, vegetarian sources, tablets vs injection & price.",
     keywords: [
-      "Vitamin B12 Test", "Vitamin B12 Blood Test", "Vitamin B12 Deficiency",
-      "Vitamin B12 Normal Range", "Vitamin B12 Test Near Me", "Vitamin B12 Test in Panchkula",
-      "B12 Deficiency Symptoms", "Megaloblastic Anemia Test", "Vitamin B12 Levels",
-      "Fatigue Blood Test", "Numbness Vitamin B12"
-    ]
+      "vitamin b12 test",
+      "vitamin b12 test price",
+      "vitamin b12 normal range",
+      "vitamin b12 deficiency symptoms",
+      "vitamin b12 rich foods",
+      "vitamin b12 vegetarian sources",
+      "vitamin b12 deficiency treatment",
+      "vitamin b12 injection",
+      "methylcobalamin vs cyanocobalamin",
+      "vitamin b12 deficiency and metformin",
+      "vitamin b12 test near me",
+      "vitamin b12 test in Chandigarh",
+      "pathology lab near me",
+      "diagnostic lab near me",
+      "blood test home sample collection",
+    ],
   },
+
   quickInfo: {
-    "What You Will Learn": "Vitamin B12 Test",
+    "What You Will Learn": "Vitamin B12 Test (Serum Cobalamin)",
+    price: getTestPrice('vitamin-b12-test'),
     sample: "Blood",
-    fasting: "Not Required",
+    fasting: "Usually Not Required",
     reportTime: "Same Day",
     homeCollection: "Available",
-    recommendedFor: "Persistent fatigue, Weakness, Numbness in hands and feet, Memory problems, Pale skin, Difficulty walking, Shortness of breath, Mood changes",
-    booking: "Online / Phone / WhatsApp"
+    recommendedFor: "Fatigue, Numbness or Tingling, Anemia, Memory Problems, Vegetarians, Metformin Users, Routine Checkup",
+    booking: "Online / Phone / WhatsApp",
   },
+
   tags: [
-    "Vitamin B12 Test", "Vitamin B12 Deficiency", "Vitamin B12 Blood Test", "Vitamin B12 Levels",
-    "Anemia Test", "Fatigue", "Numbness", "Memory Problems", "Vitamin B12 Test Near Me",
-    "Vitamin B12 Test in Panchkula", "Vitamin B12 Test in Chandigarh", "Vitamin B12 Test in Punjab",
-    "Diagnostic Lab", "Pathology Lab", "Health Checkup", "Blood Test", "Home Sample Collection", "Same Day Report"
+    "Vitamin B12 Test",
+    "Vitamin B12 Test Price",
+    "Vitamin B12 Normal Range",
+    "Vitamin B12 Deficiency",
+    "B12 Symptoms",
+    "Vitamin B12 Foods",
+    "Cobalamin Test",
+    "Methylcobalamin",
+    "Blood Tests",
+    "Health Checkup",
+    "Vitamin B12 Test in Chandigarh",
+    "Vitamin B12 Test in Panchkula",
+    "Home Sample Collection",
+    "Pathology Lab",
+    "Same Day Report",
   ],
+
   content: [
-    { type: "heading", level: 2, text: "What Is a Vitamin B12 Test?" },
-    { type: "paragraph", text: "A Vitamin B12 Test measures the amount of Vitamin B12 in your blood." },
-    { type: "paragraph", text: "Vitamin B12 is essential for healthy nerve function, DNA production, and red blood cell formation." },
-    { type: "paragraph", text: "Doctors commonly recommend this test to diagnose Vitamin B12 deficiency and certain types of anemia." },
-    { type: "heading", level: 2, text: "Why Is Vitamin B12 Important?" },
-    { type: "paragraph", text: "Vitamin B12 plays a vital role in maintaining healthy nerves, producing red blood cells, and supporting brain function." },
-    { type: "paragraph", text: "Low Vitamin B12 levels may lead to fatigue, weakness, numbness, memory problems, and anemia." },
-    { type: "paragraph", text: "Early detection helps prevent long-term neurological complications." },
-    { type: "heading", level: 2, text: "Symptoms of Vitamin B12 Deficiency" },
-    { type: "paragraph", text: "Common symptoms include:" },
-    { type: "list", items: ["Fatigue"] },
-    { type: "list", items: ["Weakness"] },
-    { type: "list", items: ["Tingling or numbness"] },
-    { type: "list", items: ["Difficulty walking"] },
-    { type: "list", items: ["Pale skin"] },
-    { type: "list", items: ["Memory loss"] },
-    { type: "list", items: ["Depression"] },
-    { type: "list", items: ["Shortness of breath"] },
-    { type: "paragraph", text: "Some people may have deficiency without obvious symptoms." },
-    { type: "heading", level: 2, text: "Who Should Get Tested?" },
-    { type: "paragraph", text: "Vitamin B12 testing is recommended for older adults, vegetarians, vegans, people with digestive disorders, patients taking long-term metformin or acid-reducing medicines, and anyone experiencing symptoms of Vitamin B12 deficiency." },
-    { type: "heading", level: 2, text: "Vitamin B12 Normal Range" },
-    { type: "paragraph", text: "Typical reference ranges are:" },
-    { type: "list", items: ["Above 200 pg/mL — Normal"] },
-    { type: "list", items: ["150–200 pg/mL — Borderline"] },
-    { type: "list", items: ["Below 150 pg/mL — Deficient"] },
-    { type: "paragraph", text: "Results should always be interpreted by your healthcare provider." },
-    { type: "heading", level: 2, text: "Understanding Test Results" },
-    { type: "paragraph", text: "Low Vitamin B12 levels may indicate dietary deficiency, poor absorption, pernicious anemia, or gastrointestinal disorders." },
-    { type: "paragraph", text: "Doctors may recommend additional tests such as folate, CBC, or methylmalonic acid depending on your condition." },
-    { type: "heading", level: 2, text: "Benefits of Early Detection" },
-    { type: "paragraph", text: "Early testing helps diagnose deficiency before permanent nerve damage develops." },
-    { type: "paragraph", text: "Benefits include:" },
-    { type: "list", items: ["Better energy"] },
-    { type: "list", items: ["Healthy nerves"] },
-    { type: "list", items: ["Improved brain function"] },
-    { type: "list", items: ["Prevention of anemia"] },
-    { type: "list", items: ["Monitoring treatment"] },
-    { type: "heading", level: 2, text: "How To Prepare For A Vitamin B12 Test" },
-    { type: "paragraph", text: "Usually no fasting is required." },
-    { type: "paragraph", text: "Drink water normally and inform your doctor about Vitamin B12 supplements or injections before testing." },
-    { type: "heading", level: 2, text: "Vitamin B12 Test in Panchkula" },
-    { type: "paragraph", text: "Shyam Pathology Lab offers accurate Vitamin B12 Testing in Panchkula with home blood sample collection." },
-    { type: "paragraph", text: "Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, and nearby areas can book testing from home and receive reliable same-day reports." }
-    // ✅ interlinking block removed
+    {
+      type: "paragraph",
+      text: "Constant tiredness, tingling in the hands and feet, and trouble concentrating are classic reasons doctors check vitamin B12 — and low B12 is very common in India, especially among vegetarians. This guide explains the test, the normal range, what causes deficiency, and how it is treated.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is a Vitamin B12 Test? (Meaning and Name)",
+    },
+    {
+      type: "paragraph",
+      text: "A vitamin B12 test measures the level of B12 in your blood. It is also called the serum vitamin B12 test or cobalamin test. B12 is not an abbreviation, so there is no 'full form' — the name simply refers to the vitamin itself. It helps your body make red blood cells and keeps your nerves and brain working properly.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Why Is the Vitamin B12 Test Done?",
+    },
+    {
+      type: "list",
+      items: [
+        "Persistent tiredness or weakness",
+        "Tingling, numbness, or a 'pins and needles' feeling in hands or feet",
+        "Anemia, especially with large red blood cells on a CBC",
+        "Memory problems, brain fog, or low mood",
+        "A vegetarian or vegan diet",
+        "Long-term use of metformin or acid-reducing medicines",
+        "Older age, stomach or bowel surgery, celiac disease, or Crohn's disease",
+        "Routine checking alongside vitamin D",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin B12 Normal Range (pg/mL Chart)",
+    },
+    {
+      type: "list",
+      items: [
+        "Deficient: below 200 pg/mL (below about 148 pmol/L)",
+        "Borderline: 200-300 pg/mL (about 148-221 pmol/L)",
+        "Normal: about 300-900 pg/mL (about 221-664 pmol/L)",
+        "High: above about 900 pg/mL",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "To convert pg/mL to pmol/L, multiply by 0.738. Many labs print a normal range of roughly 200-900 pg/mL, so a result that is 'normal' on the report can still be at the low end. The range is similar for men and women, and levels tend to drift lower with age, so always compare with the range on your own report.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How to Read Your Vitamin B12 Report: Is 200 or 300 Normal?",
+    },
+    {
+      type: "paragraph",
+      text: "Your report shows a number in pg/mL beside the lab's reference range. A level of 200 is at the lower limit and is generally treated as deficient or borderline. A level of 300 is at the low end of normal, but if you have symptoms your doctor may still check homocysteine or MMA, which rise when B12 is genuinely low even though the blood level looks acceptable.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Does a High Vitamin B12 Level Mean? Is High Better?",
+    },
+    {
+      type: "paragraph",
+      text: "High is not 'better' — normal is the goal. A high result most often comes from B12 tablets or injections, and excess B12 is generally harmless because the body clears it. A high level with no supplement use deserves a doctor's review, because it can occasionally be linked with liver disease, kidney disease, or certain blood disorders.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Symptoms of Low Vitamin B12 (in Men and Women)",
+    },
+    {
+      type: "list",
+      items: [
+        "Fatigue and weakness",
+        "Pale or slightly yellow skin",
+        "Tingling or numbness in the hands and feet",
+        "Difficulty walking or loss of balance",
+        "Memory problems, confusion, or low mood",
+        "A sore, red tongue and mouth ulcers",
+        "Shortness of breath and dizziness",
+        "Blurred vision",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Symptoms are broadly the same in men and women. Mild deficiency may cause nothing noticeable, and nerve symptoms can appear before anemia does.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "B12 Deficiency and Numbness, Fatigue, Memory Loss, and Hair Fall",
+    },
+    {
+      type: "paragraph",
+      text: "Numbness and tingling happen because B12 protects nerves, fatigue comes from the anemia and low energy, and memory problems or brain fog from its role in the brain. Hair fall is less clear-cut: low B12 may contribute indirectly through anemia and poor nutrition, but hair loss usually has several causes, so doctors also check vitamin D, iron, and thyroid.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Causes Vitamin B12 Deficiency?",
+    },
+    {
+      type: "list",
+      items: [
+        "A vegetarian or vegan diet, since B12 comes only from animal foods and fortified foods",
+        "Pernicious anemia, an autoimmune condition that stops B12 absorption",
+        "Reduced stomach acid, especially in older adults or with long-term acidity medicines",
+        "Long-term metformin use",
+        "Stomach or small bowel surgery",
+        "Celiac disease, Crohn's disease, or other absorption problems",
+        "Heavy alcohol use",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "B12 Deficiency with Metformin and Acidity Medicines",
+    },
+    {
+      type: "paragraph",
+      text: "Metformin, used for diabetes, can lower B12 absorption over years of use, and so can acid-reducing medicines such as pantoprazole, omeprazole, and ranitidine-type drugs. If you take them long-term, a periodic B12 check makes sense. Never stop these medicines on your own — talk to your doctor if your level is low.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin B12 Deficiency Anemia and CBC",
+    },
+    {
+      type: "paragraph",
+      text: "Low B12 can cause megaloblastic anemia, where red blood cells are fewer and larger than normal. A CBC may show low hemoglobin and a high MCV, and a blood film can show characteristic cells, which point towards B12 or folate deficiency. But a CBC cannot confirm it, and B12 deficiency can exist with a normal CBC, so the B12 test itself is needed.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "B12 and Folate: Why Both Matter",
+    },
+    {
+      type: "paragraph",
+      text: "Folate and B12 work together to make red blood cells, and either deficiency can cause the same anemia. This matters for safety: taking folic acid alone can improve the anemia while a B12 deficiency continues to damage nerves unnoticed, which is why doctors check B12 before or along with folate.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin B12 vs Vitamin D Deficiency: How the Symptoms Differ",
+    },
+    {
+      type: "list",
+      items: [
+        "Both: tiredness, weakness, low mood",
+        "More typical of low B12: tingling or numbness, balance problems, memory problems, sore tongue, anemia",
+        "More typical of low vitamin D: bone pain, muscle aches and cramps, frequent infections",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Because they overlap and both are common, doctors often order the B12 and vitamin D tests together.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin B12 Deficiency Treatment: Tablets vs Injection",
+    },
+    {
+      type: "paragraph",
+      text: "Treatment depends on how low your level is and why. Oral B12 tablets in high doses work well for most people, even with some absorption problems, because a small fraction is absorbed passively. Injections are usually reserved for severe deficiency, nerve symptoms, pernicious anemia, or poor absorption, often as a short loading course followed by maintenance. Your doctor decides the form and dose, and fixes the underlying cause where possible.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Methylcobalamin vs Cyanocobalamin: Which Is Better?",
+    },
+    {
+      type: "paragraph",
+      text: "Both raise B12 effectively. Cyanocobalamin is the stable, widely studied and cheaper form that the body converts, while methylcobalamin is a natural active form often marketed for nerve health. Studies have not clearly shown one to be better for correcting deficiency, so the choice usually comes down to your doctor's preference and cost.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin B12 Tablet Dose and Best Time to Take It",
+    },
+    {
+      type: "paragraph",
+      text: "The body needs only about 2.4 mcg a day, yet treatment tablets contain far more, commonly 500-1500 mcg, because only a small share is absorbed. The dose should be set by your doctor based on your level. The time of day matters little — pick a consistent time, with or without food, and take it as prescribed.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Long Does It Take to Correct B12 Deficiency?",
+    },
+    {
+      type: "paragraph",
+      text: "Energy and blood counts often begin improving within a few weeks, and anemia usually corrects over about two months. Nerve symptoms recover more slowly, sometimes over many months, and may not recover fully if the deficiency was long-standing. Doctors typically recheck the level after about 3 months.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin B12 Rich Foods and Vegetarian Sources",
+    },
+    {
+      type: "paragraph",
+      text: "The richest sources are animal foods: liver, clams and shellfish, fatty fish such as salmon and sardines, meat, and chicken. For vegetarians, the dependable sources are milk, curd, buttermilk, paneer, and cheese, eggs if you eat them, and B12-fortified foods such as cereals, plant milks, and nutritional yeast. Seaweed, tempeh, and fermented foods are not reliable sources.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Are 2 Eggs Enough for B12? How to Get 100% of Your Needs",
+    },
+    {
+      type: "paragraph",
+      text: "Two eggs give roughly 1-1.2 mcg of B12, which is about half of the daily 2.4 mcg need, so eggs alone aren't enough. A mix of dairy, eggs, fish, or meat usually covers it, while strict vegetarians and vegans generally need fortified foods or a doctor-advised supplement, plus a periodic blood test.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is Fasting Required for a Vitamin B12 Test?",
+    },
+    {
+      type: "paragraph",
+      text: "Usually not, although some labs suggest a short fast. What matters more is telling the lab about B12 tablets or injections, which raise your level and can hide a deficiency, and about biotin, which can interfere with the assay. Don't stop prescribed treatment before the test unless your doctor says so.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Is the Vitamin B12 Test Done?",
+    },
+    {
+      type: "paragraph",
+      text: "A small blood sample is drawn from a vein in your arm, which takes a couple of minutes. The serum is analysed on an automated analyser and the report is usually ready within 24 hours.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin B12 Test in Pregnancy, Children, and Older Adults",
+    },
+    {
+      type: "paragraph",
+      text: "In pregnancy and breastfeeding, B12 matters for the baby's nervous system, so doctors check it in vegetarians and women with symptoms or anemia. In children, deficiency is more likely in vegetarian families and can affect growth and development. Older adults are at higher risk because stomach acid falls with age, so testing is sensible with fatigue, numbness, or memory problems.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can I Check B12 at Home?",
+    },
+    {
+      type: "paragraph",
+      text: "Symptoms cannot confirm B12 deficiency, and they overlap with many other conditions, so a blood test is needed. You can book home sample collection, where a phlebotomist collects your blood at your doorstep and the test is done at the lab.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin B12 Test Price and Report Time",
+    },
+    {
+      type: "paragraph",
+      text: `Our vitamin B12 test is priced at ${getTestPrice('vitamin-b12-test')}, with same-day reports and free home sample collection available. You can also pick the Vitamin D & B12 combo package to check both together.`,
+    },
+    {
+      type: "interlinking",
+      title: "Vitamin B12 Test Services & Pricing",
+      description:
+        "Explore vitamin B12 test details, pricing, and convenient home sample collection services.",
+      items: [
+        {
+          title: "Vitamin B12 Test Price",
+          description:
+            "Check the latest vitamin B12 test price and available home sample collection options.",
+          href: "/prices/vitamin-b12-test-price-chandigarh",
+        },
+        {
+          title: "Vitamin B12 Test Details",
+          description:
+            "Learn about the vitamin B12 test, what it measures, sample requirements, and preparation.",
+          href: "/tests/vitamin-b12-test",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vitamin B12 Test in Panchkula, Chandigarh & Nearby Areas",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Budget Friendly Labs provides accurate vitamin B12 testing with convenient home blood sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+    {
+      type: "interlinking",
+      title: "Vitamin B12 Test — Areas We Serve",
+      description:
+        "We provide vitamin B12 testing with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "Vitamin B12 test with home sample collection.",
+          href: "/locations/vitamin-b12-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "Vitamin B12 test and diagnostic services with home collection.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "Vitamin B12 test with same-day report and home collection.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "Vitamin B12 test and pathology services.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Key Takeaways",
+    },
+    {
+      type: "list",
+      items: [
+        "Below 200 pg/mL is deficient, 200-300 is borderline, and about 300-900 is normal on most reports",
+        "Low B12 is common in vegetarians, older adults, and people on long-term metformin or acid-reducing medicines",
+        "A CBC can hint at B12 anemia but cannot confirm it — the B12 test itself is needed",
+        "Tablets work for most people; injections are kept for severe deficiency, nerve symptoms, or poor absorption",
+        "Don't take folic acid alone for anemia, and don't self-prescribe B12 doses without a test",
+      ],
+    },
+    {
+      type: "references",
+      items: [
+        {
+          title: "Vitamin B12: Fact Sheet for Health Professionals",
+          publisher: "NIH Office of Dietary Supplements",
+          url: "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+        },
+        {
+          title: "Vitamin B12 Test",
+          publisher: "MedlinePlus",
+          url: "https://medlineplus.gov/lab-tests/vitamin-b12-test/",
+        },
+        {
+          title: "Vitamin B12 or Folate Deficiency Anaemia",
+          publisher: "NHS",
+          url: "https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/",
+        },
+      ],
+    },
   ],
+
   faq: [
-    { question: "Is fasting required for a Vitamin B12 Test?", answer: "No. Fasting is usually not required." },
-    { question: "Can Vitamin B12 deficiency cause fatigue?", answer: "Yes. Fatigue is one of the most common symptoms of Vitamin B12 deficiency." },
-    { question: "Can low Vitamin B12 cause numbness?", answer: "Yes. Long-term deficiency may damage nerves and cause tingling or numbness." },
-    { question: "Who is at risk of Vitamin B12 deficiency?", answer: "Older adults, vegetarians, vegans, and people with digestive disorders are at higher risk." },
-    { question: "Can I book a Vitamin B12 Test at home in Panchkula?", answer: "Yes. Home sample collection is available through Shyam Pathology Lab." }
+    {
+      question: "What is the vitamin B12 test called?",
+      answer:
+        "It is called the serum vitamin B12 test, or cobalamin test. B12 is not an abbreviation, so there is no full form.",
+    },
+    {
+      question: "What is the normal vitamin B12 level?",
+      answer:
+        "On most reports about 200-900 pg/mL is the reference range. Below 200 is deficient, 200-300 is borderline, and about 300-900 is normal.",
+    },
+    {
+      question: "Is a B12 level of 300 normal?",
+      answer:
+        "It is at the low end of normal. If you have symptoms, your doctor may check homocysteine or MMA to be sure you aren't functionally deficient.",
+    },
+    {
+      question: "What are the first signs of B12 deficiency?",
+      answer:
+        "Tiredness, weakness, pale skin, tingling or numbness in the hands and feet, a sore tongue, and trouble concentrating.",
+    },
+    {
+      question: "What causes low vitamin B12?",
+      answer:
+        "A vegetarian or vegan diet, pernicious anemia, low stomach acid, long-term metformin or acid-reducing medicines, stomach or bowel surgery, and absorption disorders.",
+    },
+    {
+      question: "Is a vitamin B12 test part of a CBC?",
+      answer:
+        "No. A CBC can show anemia with large red cells that suggests B12 deficiency, but only the B12 blood test confirms it.",
+    },
+    {
+      question: "What does a high B12 level mean?",
+      answer:
+        "Usually B12 supplements or injections. A high level without supplements should be reviewed by a doctor, as it can occasionally relate to liver or kidney disease.",
+    },
+    {
+      question: "Is fasting required for a vitamin B12 test?",
+      answer:
+        "Usually not. Tell the lab about any B12 supplements, injections, or biotin before the test.",
+    },
+    {
+      question: "Which is better, methylcobalamin or cyanocobalamin?",
+      answer:
+        "Both correct deficiency effectively. Cyanocobalamin is more stable and cheaper, while methylcobalamin is a natural active form. Studies haven't shown a clear winner, so your doctor chooses.",
+    },
+    {
+      question: "How long does it take to correct B12 deficiency?",
+      answer:
+        "Energy and blood counts often improve in a few weeks and anemia in about two months. Nerve symptoms can take months and may not fully recover if the deficiency was long-standing.",
+    },
+    {
+      question: "Which foods are rich in vitamin B12, including for vegetarians?",
+      answer:
+        "Liver, shellfish, fish, meat, and chicken, plus milk, curd, paneer, cheese, eggs, and B12-fortified cereals or plant milks for vegetarians.",
+    },
+    {
+      question: "Are 2 eggs enough for B12?",
+      answer:
+        "No. Two eggs give about 1-1.2 mcg, roughly half of the 2.4 mcg daily need, so you need other sources too.",
+    },
+    {
+      question: "How much does a vitamin B12 test cost?",
+      answer: `Our vitamin B12 test is priced at ${getTestPrice('vitamin-b12-test')}, with same-day reports and free home sample collection available.`,
+    },
+    {
+      question: "Can I check my B12 at home?",
+      answer:
+        "Only a blood test can confirm it. You can book home sample collection so the blood is collected at your doorstep and tested at the lab.",
+    },
   ],
+
   cta: {
-    title: "Book Your Vitamin B12 Test Today",
-    description: "Get accurate Vitamin B12 testing with home sample collection and same-day reporting from Shyam Pathology Lab.",
-    buttonText: "Book Vitamin B12 Test",
-    whatsappText: "Hi, I want to book a vitamin b12 test.",
-    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"]
-  }
+    title: "Book Vitamin B12 Test",
+    description: "Get an accurate vitamin B12 test with doorstep sample collection and same-day reports.",
+    buttonText: "Book Test Now",
+    whatsappText: "Hi, I want to book a vitamin B12 test.",
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/vitamin-b12-test",
+  },
 },
  
 {

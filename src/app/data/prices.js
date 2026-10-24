@@ -1527,7 +1527,178 @@ export const prices = [
 
     highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
   },
+},
+{
+  slug: "vitamin-b12-test-price-chandigarh",
+
+  seo: {
+    // 50 characters
+    title: "Vitamin B12 Test Price in Chandigarh | Book Online",
+    description: `Check vitamin B12 test price in Chandigarh starting at ₹${getTestPrice('vitamin-b12-test')}, with home sample collection, digital reports & easy online booking.`,
+    keywords: [
+      "vitamin b12 test price chandigarh",
+      "vitamin b12 test cost chandigarh",
+      "vitamin b12 blood test price",
+      "vitamin b12 test price near me",
+      "affordable vitamin b12 test chandigarh",
+      "vitamin d3 and b12 test price",
+      "vitamin b12 test panchkula",
+      "vitamin b12 test mohali",
+      "vitamin b12 test tricity",
+    ],
+  },
+
+  hero: {
+    badge: "Quality Testing Standards",
+
+    title: "Vitamin B12 Test Price in Chandigarh",
+
+    subtitle:
+      "Check the Vitamin B12 test price in Chandigarh with accurate testing and convenient doorstep home sample collection from Shyam Labs.",
+
+    image: "/prices/vitamin-b12-test.webp",
+  },
+
+  priceCard: {
+    actualPrice: 600,
+    offerPrice: getTestPrice('vitamin-b12-test'),
+    offerText: "Offer Price",
+    reportTime: "24 Hours",
+    fasting: "Usually Not Required",
+    sampleType: "Blood",
+    homeCollection: true,
+    labVisit: true,
+
+    includes: {
+      title: "Every Booking Includes",
+      items: [
+        "Free Doorstep Home Sample Collection",
+        "Digital Report on WhatsApp & Email",
+        "No Advance Payment Required",
+      ],
+    },
+  },
+
+  whyGetTest: {
+    title: "Why Get a Vitamin B12 Test in Chandigarh",
+    description:
+      "Low B12 is very common and can cause lasting nerve problems if missed. A simple blood test shows your level before you start any supplement.",
+
+    reasons: [
+      {
+        title: "Finds Hidden Deficiency",
+        description:
+          "Helps identify low B12 behind tiredness, tingling, anemia, or memory problems.",
+      },
+      {
+        title: "Important for Vegetarians and Metformin Users",
+        description:
+          "Vegetarians, older adults, and people on long-term metformin or acid-reducing medicines are most at risk.",
+      },
+      {
+        title: "Convenient & Affordable",
+        description:
+          "Home sample collection and transparent pricing make it easy to get tested without visiting a lab in person.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How much does a vitamin B12 test cost in Chandigarh?",
+      answer: `The vitamin B12 test is available at an offer price of ₹${getTestPrice('vitamin-b12-test')} at Shyam Labs, with home sample collection available subject to service coverage.`,
+    },
+    {
+      question: "Is there a combined vitamin D and B12 package?",
+      answer:
+        "Yes, our Vitamin D & B12 Combo checks both together, which is often better value if you need both tests. See the packages page for the current price.",
+    },
+    {
+      question: "Is fasting needed before the vitamin B12 test?",
+      answer:
+        "Usually not. Tell us about any B12 supplements, injections, or biotin when you book.",
+    },
+    {
+      question: "Is home sample collection available in Chandigarh?",
+      answer:
+        "Yes, Shyam Labs provides doorstep home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+    },
+    {
+      question: "How soon will I get my vitamin B12 report after booking?",
+      answer:
+        "Reports are typically delivered digitally within 24 hours of sample collection.",
+    },
+  ],
+
+  relatedTests: [
+    "vitamin-b12-test",
+    "vitamin-d-test",
+    "cbc-test",
+    "peripheral-blood-film",
+    "hba1c-test",
+    "thyroid-profile-test",
+  ],
+
+  interlinks: {
+    badge: "Included Services & Chandigarh Availability",
+
+    heading: "What's Included & Chandigarh Availability",
+
+    description:
+      "Checking the vitamin B12 test price? Explore what's included in this price and confirm home collection availability near you in Chandigarh and the Tricity.",
+
+    items: [
+      {
+        title: "What's Included in This Price?",
+        subtitle: "Vitamin B12 Test Service Details",
+        description:
+          "See everything included in your vitamin B12 test — from sample collection to laboratory analysis and report delivery.",
+        href: "/tests/vitamin-b12-test",
+        icon: "FiActivity",
+        badge: "Test Details",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Test Details",
+        tracking: "price-interlink-service",
+      },
+      {
+        title: "Vitamin B12 Test Available in Chandigarh",
+        subtitle: "Location & Home Collection",
+        description:
+          "Check vitamin B12 test home sample collection availability across Chandigarh and nearby Tricity areas.",
+        href: "/locations/vitamin-b12-test-in-chandigarh",
+        icon: "FiMapPin",
+        badge: "Chandigarh Location",
+        badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+        btnText: "Visit Chandigarh Page",
+        tracking: "price-interlink-location",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Vitamin B12 Test in Chandigarh Today",
+
+    description:
+      "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
+
+    offerPrice: getTestPrice('vitamin-b12-test'),
+
+    actualPrice: 600,
+
+    buttonText: "Book a Test",
+
+    testName: "Vitamin B12 Test",
+
+    blogUrl: "/blogs/vitamin-b12-test-guide",
+
+    serviceUrl: "/tests/vitamin-b12-test",
+
+    locationUrl: "/locations/vitamin-b12-test-in-chandigarh",
+
+    packageUrl: "/packages",
+
+    highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
+  },
 }
 ];
-
 

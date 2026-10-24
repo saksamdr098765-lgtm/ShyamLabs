@@ -384,6 +384,305 @@ export const tests = [
     buttonText: "Book Vitamin D Test",
   },
 },
+{
+  slug: "vitamin-b12-test",
+  name: "Vitamin B12 Test (Serum Cobalamin)",
+  shortName: "Vitamin B12",
+  category: "Vitamin Test",
+  organ: "Nutrition",
+  sampleType: "Blood",
+  parameterCount: 1,
+  fasting: false,
+  homeCollection: true,
+  popular: true,
+
+  description:
+    "Vitamin B12 test measures the level of B12 (cobalamin) in your blood to check for deficiency, which can cause fatigue, anemia, numbness, and memory problems.",
+
+  price: 400,
+  reportTime: "24 Hours",
+  status: "published",
+
+  seo: {
+    // 52 characters
+    title: "Vitamin B12 Test in Chandigarh - Price & Normal Range",
+    // 120 characters
+    description:
+      "Book vitamin B12 test in Chandigarh with home sample collection. Check B12 test price, normal range & deficiency levels.",
+    keywords: [
+      "vitamin b12 test",
+      "vitamin b12 test price",
+      "vitamin b12 test cost",
+      "vitamin b12 normal range",
+      "vitamin b12 blood test",
+      "serum vitamin b12 test",
+      "cobalamin test",
+      "vitamin b12 test chandigarh",
+      "vitamin b12 test near me",
+      "vitamin b12 test at home",
+      "low vitamin b12 level",
+      "vitamin b12 and vitamin d test",
+    ],
+  },
+
+  hero: {
+    badge: "Home Sample Collection Available",
+
+    title: "Vitamin B12 Test in Chandigarh",
+
+    description:
+      "Book a Vitamin B12 Test in Chandigarh and the Tricity with fast report delivery, professional sample collection, and convenient doorstep home collection from Shyam Labs. Check the latest vitamin B12 test price and book online.",
+
+    image: "/tests/vitamin-b12.webp",
+
+    imageAlt: "Vitamin B12 Blood Test (Serum Cobalamin) in Chandigarh",
+
+    reportTime: "24 Hours",
+
+    homeCollection: "Available",
+
+    trustPoints: [
+      "Professional Sample Collection",
+      "Digital Reports",
+      "Affordable Vitamin B12 Test Price",
+      "Quality-Controlled Testing",
+    ],
+
+    bookButton: "Book Vitamin B12 Test",
+
+    bookingUrl: "/prices/vitamin-b12-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+  },
+
+  quickFacts: {
+    sample: "Blood Sample",
+    reportTime: "24 Hours",
+    fasting: "Usually Not Required",
+    homeCollection: "Available",
+    ageGroup: "Adults & Children",
+  },
+
+  whyChooseUs: {
+    title: "Why Choose Shyam Labs for Your Vitamin B12 Test?",
+
+    description:
+      "Get a dependable vitamin B12 test in Chandigarh and the Tricity with easy booking, professional sample collection, convenient home collection, and quick access to your digital report.",
+
+    items: [
+      {
+        title: "Professional Sample Collection",
+        description:
+          "Every blood draw follows proper collection procedures for a comfortable, low-discomfort experience.",
+      },
+      {
+        title: "Standardised Testing Process",
+        description:
+          "Your B12 sample is analysed on calibrated equipment following standard laboratory protocols.",
+      },
+      {
+        title: "Fast Digital Reports",
+        description:
+          "Your vitamin B12 report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
+      },
+      {
+        title: "Home Collection Across Chandigarh & Tricity",
+        description:
+          "Book a vitamin B12 test with convenient home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+    ],
+  },
+
+  testDetails: {
+    title: "About the Vitamin B12 Test (Serum Cobalamin)",
+
+    description: [
+      "The vitamin B12 test measures the amount of B12 (also called cobalamin) in your blood. B12 helps make red blood cells, keeps nerves healthy, and supports memory and mood, and your body cannot make it — it comes only from animal foods, fortified foods, and supplements.",
+      "Low B12 is common in vegetarians, older adults, people on long-term metformin or acid-reducing medicines, and anyone with an absorption problem. A result in the borderline range can still be linked with symptoms, in which case doctors may add tests such as homocysteine or MMA, and a CBC to look for B12-related anemia.",
+    ],
+
+    included: [
+      "Serum Vitamin B12 (Cobalamin)",
+    ],
+  },
+
+  preparation: {
+    title: "Preparation Before Your Vitamin B12 Test",
+
+    description:
+      "A vitamin B12 test needs very little preparation — here's what to keep in mind before your appointment.",
+
+    items: [
+      {
+        title: "Vitamin B12 Test Fasting Requirement",
+        description:
+          "Fasting is usually not required, though some labs advise an 6-8 hour fast. Our team will confirm when you book, especially if other tests are booked with it.",
+      },
+      {
+        title: "Tell the Lab About B12 Supplements or Injections",
+        description:
+          "A recent B12 tablet or injection raises your blood level for days to weeks and can hide a true deficiency. Mention it, and don't stop prescribed treatment unless your doctor advises.",
+      },
+      {
+        title: "Mention Biotin or Hair-Skin-Nail Supplements",
+        description:
+          "High-dose biotin can interfere with some lab assays, including B12. If you take it, let the lab know when you book.",
+      },
+    ],
+  },
+
+  bookingProcess: {
+    title: "How to Book Your Vitamin B12 Test in Chandigarh",
+
+    description:
+      "Booking a vitamin B12 test with Shyam Labs takes just a few minutes, with convenient home sample collection available across Chandigarh and the Tricity.",
+
+    steps: [
+      {
+        title: "Book Test",
+        description:
+          "Select the Vitamin B12 Test and submit your booking request online or over a call.",
+      },
+      {
+        title: "Schedule Sample Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh or Tricity address.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is processed using standard laboratory procedures.",
+      },
+      {
+        title: "Receive Report",
+        description:
+          "Your digital vitamin B12 report is sent to you within 24 hours of collection.",
+      },
+    ],
+  },
+
+  pricePreview: {
+    title: "Vitamin B12 Test Price",
+
+    description:
+      "Check the latest vitamin B12 test price in Chandigarh and book with convenient home sample collection.",
+
+    price: 400,
+
+    priceUrl: "/prices/vitamin-b12-test-price-chandigarh",
+  },
+
+  relatedTests: [
+    "vitamin-d-test",
+    "cbc-test",
+    "peripheral-blood-film",
+    "hba1c-test",
+    "thyroid-profile-test",
+  ],
+
+  faq: {
+    title: "Frequently Asked Questions",
+
+    description:
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the vitamin B12 test, its results, and booking.",
+
+    items: [
+      {
+        question: "What is a vitamin B12 test, and what is it called?",
+        answer:
+          "It is a blood test that measures serum vitamin B12, also called cobalamin. It shows whether your B12 level is low, borderline, normal, or high.",
+      },
+      {
+        question: "What is the normal vitamin B12 range?",
+        answer:
+          "Many labs use about 200-900 pg/mL (roughly 148-664 pmol/L) as the normal range. Below 200 pg/mL is generally considered deficient and 200-300 pg/mL is borderline. Always check the range on your own report.",
+      },
+      {
+        question: "Is a B12 level of 200 or 300 normal?",
+        answer:
+          "200 pg/mL sits at the lower limit and is often treated as deficient or borderline. 300 is at the low end of normal, but if you have symptoms your doctor may still check homocysteine or MMA to be sure.",
+      },
+      {
+        question: "What are the first signs of B12 deficiency?",
+        answer:
+          "Tiredness, weakness, pale skin, tingling or numbness in the hands and feet, a sore tongue, and trouble concentrating. Mild deficiency can have no symptoms.",
+      },
+      {
+        question: "Is fasting required for a vitamin B12 test?",
+        answer:
+          "Usually not, though some labs advise a short fast. Tell the lab about any B12 supplements or injections, and about biotin, which can interfere with the test.",
+      },
+      {
+        question: "Does a CBC test check vitamin B12?",
+        answer:
+          "No. A CBC can show anemia with large red cells (high MCV), which suggests B12 or folate deficiency, but only the B12 test confirms it.",
+      },
+      {
+        question: "Which test is done to confirm B12 deficiency?",
+        answer:
+          "Serum vitamin B12 is the standard first test. If the result is borderline, doctors may add MMA or homocysteine, which rise when B12 is truly low.",
+      },
+      {
+        question: "What does a high vitamin B12 level mean?",
+        answer:
+          "Most often it comes from supplements or injections. A high level with no supplement use is worth discussing with a doctor, as it can occasionally relate to liver or kidney disease or certain blood disorders.",
+      },
+      {
+        question: "Why do vegetarians and people on metformin get low B12?",
+        answer:
+          "B12 comes only from animal foods and fortified foods, so vegetarians and vegans are at risk. Long-term metformin and acid-reducing medicines can reduce B12 absorption.",
+      },
+      {
+        question: "What is the B12 and D3 test?",
+        answer:
+          "It is a combined check of vitamin B12 and vitamin D (D3), two nutrients that are commonly low and whose deficiency symptoms overlap, such as tiredness and weakness.",
+      },
+      {
+        question: "Can I check B12 at home?",
+        answer:
+          "Symptoms can't confirm B12 deficiency, only a blood test can. You can book home sample collection so the blood is collected at your doorstep and tested at the lab.",
+      },
+      {
+        question: "How long does the vitamin B12 report take?",
+        answer:
+          "Reports are usually available within 24 hours of sample collection.",
+      },
+      {
+        question: "Is home sample collection available for vitamin B12 test in Chandigarh?",
+        answer:
+          "Yes, Shyam Labs provides home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+      {
+        question: "What is the vitamin B12 test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current vitamin B12 test price and book online with home sample collection.",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Vitamin B12 Test in Chandigarh Today",
+
+    description:
+      "Get convenient home sample collection, reliable vitamin B12 testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+
+    highlights: [
+      "Home Sample Collection Available",
+      "Fast Report Delivery",
+      "Professional Collection Process",
+    ],
+
+    price: "400",
+
+    priceText: "Check detailed vitamin B12 test pricing and booking options.",
+
+    bookingUrl: "/prices/vitamin-b12-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+
+    buttonText: "Book Vitamin B12 Test",
+  },
+},
  {
   slug: "thyroid-profile-test",
   name: "Thyroid Profile Test",

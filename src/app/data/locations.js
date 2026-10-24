@@ -5535,6 +5535,249 @@ The test shows your average blood sugar over the past 2-3 months, giving doctors
 
   heroSubtitle:
     "Book your HbA1c test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
+},
+ {
+  id: 19,
+
+  slug: "vitamin-b12-test-in-chandigarh",
+
+  city: "Chandigarh",
+
+  state: "Chandigarh",
+
+  title: "Vitamin B12 Test in Chandigarh",
+
+  shortDescription:
+    "Looking for a vitamin B12 test in Chandigarh? Shyam Labs provides affordable and reliable serum B12 testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
+
+  coverImage: "/locations/chandigarh-vitamin-b12-test.jpeg",
+
+  hours: "07:00-20:00",
+
+  areas: ["Chandigarh", "Panchkula", "Mohali"],
+
+  services: ["home-sample-collection"],
+
+  seo: {
+    // 48 characters
+    title: "Vitamin B12 Test in Chandigarh | Home Collection",
+    // 128 characters
+    description:
+      "Looking for a vitamin B12 test in Chandigarh? Shyam Labs offers affordable testing with home sample collection and fast reports.",
+    keywords: [
+      "Vitamin B12 Test in Chandigarh",
+      "Serum Vitamin B12 Test Chandigarh",
+      "Cobalamin Test Chandigarh",
+      "Vitamin B12 Test Price Chandigarh",
+      "Home Sample Collection Chandigarh",
+      "Diagnostic Lab Near Me Chandigarh",
+      "Vitamin B12 Test Panchkula",
+      "Vitamin B12 Test Mohali",
+      "Vitamin B12 Test Tricity",
+    ],
+  },
+
+  overview: {
+    heading: "Affordable Vitamin B12 Testing & Home Sample Collection in Chandigarh",
+
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. A vitamin B12 test is commonly recommended for persistent tiredness, tingling or numbness in the hands and feet, anemia, or memory problems, and it is often part of routine checkups for vegetarians and people on long-term metformin or acid-reducing medicines.
+
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+
+      `Low B12 is common in a region with many vegetarian households, because B12 comes only from animal foods and fortified foods. Home sample collection makes testing easier — schedule a collection at a suitable time and have your sample collected by a trained phlebotomist instead of visiting a diagnostic centre.
+
+The test measures serum vitamin B12, helping doctors decide whether you are deficient, borderline, or normal before advising tablets or injections. It is often booked together with vitamin D, which has overlapping symptoms.`,
+
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+
+    highlights: [
+      "Convenient Home Sample Collection",
+      "Combine with Vitamin D Test",
+      "Fast Digital Reports",
+      "Affordable, Transparent Pricing",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+
+    test: [
+      "vitamin-b12-test",
+      "vitamin-d-test",
+      "cbc-test",
+      "hba1c-test",
+      "thyroid-profile-test",
+      "lipid-profile",
+      "liver-function-test",
+      "kidney-function-test",
+    ],
+  },
+
+  packages: [
+    "vitamin-d-b12-combo",
+    "vitamin-d3-vitamin-b12-screening",
+    "swasthya-mitra-premium-package",
+    "skin-aura-package-1",
+    "mega-health-checkup-premium-package",
+    "women-basic-profile-utsh",
+  ],
+
+  process: {
+    heading: "How to Get a Vitamin B12 Test in Chandigarh",
+
+    steps: [
+      {
+        title: "Book Your Test",
+        description:
+          "Book your vitamin B12 test online or contact Shyam Labs to arrange convenient sample collection in Chandigarh.",
+      },
+      {
+        title: "Schedule Home Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh address during booking.",
+      },
+      {
+        title: "Sample Collection",
+        description:
+          "A trained phlebotomist follows appropriate safety and hygiene procedures during the collection visit.",
+      },
+      {
+        title: "Receive Digital Report",
+        description:
+          "Get your vitamin B12 report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+
+  healthConditions: [
+    "Vitamin B12 Deficiency Screening",
+    "B12-Related Anemia Evaluation",
+    "Nerve Symptom Evaluation (Numbness, Tingling)",
+    "Nutritional Health Monitoring",
+  ],
+
+  whoShouldGetTested: [
+    "Anyone with Persistent Fatigue or Weakness",
+    "People with Tingling or Numbness in Hands or Feet",
+    "Vegetarians and Vegans",
+    "People on Long-Term Metformin or Acidity Medicines",
+    "Older Adults with Memory Problems",
+    "Individuals Doing an Annual Health Checkup",
+  ],
+
+  popularSearches: [
+    "Vitamin B12 Test in Chandigarh",
+    "Vitamin B12 Test Price Chandigarh",
+    "Vitamin B12 Test Near Me",
+    "Home Sample Collection Chandigarh",
+    "Serum Vitamin B12 Test Chandigarh",
+    "Diagnostic Lab Near Me Chandigarh",
+    "Vitamin B12 Test Panchkula",
+    "Vitamin B12 Test Mohali",
+  ],
+
+  sections: [
+    {
+      title: "Vitamin B12 Testing Services in Chandigarh",
+      content: [
+        "Residents across Chandigarh can book vitamin B12 testing through Shyam Labs with convenient home sample collection where service coverage is available.",
+        "Our testing services are designed for working professionals, families, senior citizens, and patients who need routine or follow-up nutritional monitoring.",
+      ],
+    },
+    {
+      title: "Doorstep Blood Collection in Chandigarh",
+      content: [
+        "Our home sample collection service lets you schedule a vitamin B12 test from home without waiting at a diagnostic centre.",
+        "Trained phlebotomists follow appropriate safety and hygiene procedures during every collection visit.",
+      ],
+    },
+    {
+      title: "Why Choose Shyam Labs for Vitamin B12 Testing?",
+      content: [
+        "Affordable pricing, convenient sample collection, and digital reporting make Shyam Labs a convenient option for vitamin B12 testing across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+
+  faq: [
+    {
+      question: "Which areas around Chandigarh are covered for home sample collection?",
+      answer:
+        "Shyam Labs provides home sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+    {
+      question: "Can I book a vitamin B12 test online in Chandigarh?",
+      answer: "Yes, you can schedule your vitamin B12 test online or by phone and choose a convenient collection time.",
+    },
+    {
+      question: "What is the vitamin B12 test price in Chandigarh?",
+      answer: `The vitamin B12 test is available at an offer price of ₹${getTestPrice('vitamin-b12-test')}. Check the pricing page for current offers and booking details.`,
+    },
+    {
+      question: "Is fasting required before a vitamin B12 test?",
+      answer: "Usually not. Our team will confirm when you book and ask about any B12 supplements or biotin you take.",
+    },
+    {
+      question: "How quickly are vitamin B12 reports available in Chandigarh?",
+      answer: "Vitamin B12 reports are typically available digitally within 24 hours of sample collection.",
+    },
+    {
+      question: "Can senior citizens book a vitamin B12 test from home in Chandigarh?",
+      answer:
+        "Yes, home sample collection can be convenient for elderly patients who prefer to avoid travelling to a diagnostic centre, subject to service availability.",
+    },
+  ],
+
+  relatedLocations: [
+    { city: "Panchkula", slug: "/locations/vitamin-b12-test-in-panchkula" },
+    { city: "Mohali", slug: "/locations/vitamin-b12-test-in-mohali" },
+  ],
+
+  facts: [
+    { label: "Test Price", value: getTestPrice('vitamin-b12-test') },
+    { label: "Report Time", value: "24 Hours" },
+    { label: "Collection Service", value: "Doorstep Sample Pickup" },
+    { label: "Report Delivery", value: "Online & WhatsApp Reports" },
+    { label: "Lab Location", value: "Sector 21, Panchkula" },
+  ],
+
+  tags: [
+    "Vitamin B12 Test Chandigarh",
+    "Serum Vitamin B12 Test Chandigarh",
+    "Pathology Lab Chandigarh",
+    "Home Sample Collection Chandigarh",
+    "Blood Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "Vitamin B12 Test Panchkula",
+    "Vitamin B12 Test Mohali",
+    "Vitamin B12 Test Tricity",
+  ],
+
+  cta: {
+    title: "Book a Vitamin B12 Test in Chandigarh Today",
+
+    description:
+      "Schedule convenient home sample collection in Chandigarh and receive your vitamin B12 report digitally from Shyam Budget Friendly Labs.",
+
+    phone: "tel:+919914899300",
+
+    highlights: ["Home Sample Collection", "Affordable B12 Testing", "Fast Digital Reports"],
+  },
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/chandigarh-vitamin-b12-test.jpeg",
+
+  heroTitle: "Affordable Vitamin B12 Testing & Home Sample Collection in Chandigarh",
+
+  heroSubtitle:
+    "Book your vitamin B12 test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
 }
 ];
 
