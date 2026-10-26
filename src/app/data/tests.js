@@ -1669,20 +1669,311 @@ export const tests = [
 
 {
   slug: "kidney-function-test",
-  name: "Kidney Function Test",
-  shortName: "RFT/KFT",
+  name: "Kidney Function Test (KFT / RFT)",
+  shortName: "KFT / RFT",
   category: "Kidney Function",
   organ: "Kidney",
   sampleType: "Blood",
-  parameterCount: 6,
+  parameterCount: 8,
   fasting: false,
   homeCollection: true,
   popular: true,
+
   description:
-    "Comprehensive kidney profile to evaluate kidney function, electrolyte balance and overall renal health.",
+    "Kidney Function Test (KFT), also called RFT or kidney profile, measures creatinine, urea, uric acid, eGFR, and electrolytes to show how well your kidneys filter waste.",
+
   price: 500,
   reportTime: "24 Hours",
-   status:"draft"
+  status: "published",
+
+  seo: {
+    // 51 characters
+    title: "KFT Test in Chandigarh - Kidney Function Test Price",
+    // 124 characters
+    description:
+      "Book KFT (kidney function test) in Chandigarh with home sample collection. Check KFT price, normal range, creatinine & urea.",
+    keywords: [
+      "kft test",
+      "kidney function test",
+      "rft test",
+      "kft test price",
+      "kidney function test price",
+      "kft test normal range",
+      "kft test chandigarh",
+      "kft test near me",
+      "kidney profile test",
+      "creatinine normal range",
+      "urea normal range",
+      "kft test full form",
+    ],
+  },
+
+  hero: {
+    badge: "Home Sample Collection Available",
+
+    title: "Kidney Function Test (KFT) in Chandigarh",
+
+    description:
+      "Book a Kidney Function Test (KFT / RFT) in Chandigarh and the Tricity with fast report delivery, professional sample collection, and convenient doorstep home collection from Shyam Labs. Check the latest KFT price and book online.",
+
+    image: "/tests/kidney-function-test.webp",
+
+    imageAlt: "Kidney Function Test (KFT) - Creatinine, Urea, eGFR in Chandigarh",
+
+    reportTime: "24 Hours",
+
+    homeCollection: "Available",
+
+    trustPoints: [
+      "Professional Sample Collection",
+      "Digital Reports",
+      "Affordable KFT Price",
+      "Quality-Controlled Testing",
+    ],
+
+    bookButton: "Book KFT Test",
+
+    bookingUrl: "/prices/kidney-function-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+  },
+
+  quickFacts: {
+    sample: "Blood Sample",
+    reportTime: "24 Hours",
+    fasting: "Usually Not Required",
+    homeCollection: "Available",
+    ageGroup: "Adults & Children",
+  },
+
+  whyChooseUs: {
+    title: "Why Choose Shyam Labs for Your Kidney Function Test?",
+
+    description:
+      "Get a dependable KFT in Chandigarh and the Tricity with easy booking, professional sample collection, convenient home collection, and quick access to your digital report.",
+
+    items: [
+      {
+        title: "Professional Sample Collection",
+        description:
+          "Every blood draw follows proper collection procedures for a comfortable, low-discomfort experience.",
+      },
+      {
+        title: "Standardised Testing Process",
+        description:
+          "Your KFT sample is analysed on calibrated equipment following standard laboratory protocols.",
+      },
+      {
+        title: "Fast Digital Reports",
+        description:
+          "Your KFT report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
+      },
+      {
+        title: "Home Collection Across Chandigarh & Tricity",
+        description:
+          "Book a KFT with convenient home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+    ],
+  },
+
+  testDetails: {
+    title: "About the Kidney Function Test (KFT Full Form: Kidney Function Test)",
+
+    description: [
+      "KFT stands for Kidney Function Test and is the same thing as RFT (Renal Function Test) or a kidney profile. It is a group of blood tests — creatinine, urea, BUN, uric acid, eGFR, and electrolytes such as sodium and potassium — that show how well your kidneys are filtering waste and balancing fluids.",
+      "A KFT is a screening and monitoring tool: it can show reduced kidney function and help stage chronic kidney disease, but it does not detect kidney infection or stones, and it cannot diagnose diabetes. Early kidney damage can be missed, so doctors often add a urine test for protein or albumin, especially in people with diabetes or high blood pressure.",
+    ],
+
+    included: [
+      "Blood Urea",
+      "Blood Urea Nitrogen (BUN)",
+      "Serum Creatinine",
+      "eGFR (calculated)",
+      "Uric Acid",
+      "Sodium",
+      "Potassium",
+      "Chloride",
+    ],
+  },
+
+  preparation: {
+    title: "Preparation Before Your Kidney Function Test",
+
+    description:
+      "A KFT needs very little preparation — here's what to keep in mind before your appointment.",
+
+    items: [
+      {
+        title: "KFT Fasting Requirement",
+        description:
+          "Fasting is usually not required, and you can eat before the test. Some labs advise 8-12 hours of fasting only when the KFT is booked with blood sugar or a lipid profile. Our team will confirm when you book.",
+      },
+      {
+        title: "Avoid a Heavy Meat Meal and Creatine Supplements",
+        description:
+          "A large meal of cooked meat, protein shakes, or creatine supplements can temporarily raise creatinine. Eat normally but skip these on the day, and avoid intense exercise for 24 hours.",
+      },
+      {
+        title: "Stay Hydrated and Mention Your Medicines",
+        description:
+          "Drink water normally, since dehydration can raise creatinine and urea. Tell the phlebotomist about painkillers, antibiotics, blood pressure medicines, or supplements you take, and don't stop them without advice.",
+      },
+    ],
+  },
+
+  bookingProcess: {
+    title: "How to Book Your Kidney Function Test in Chandigarh",
+
+    description:
+      "Booking a KFT with Shyam Labs takes just a few minutes, with convenient home sample collection available across Chandigarh and the Tricity.",
+
+    steps: [
+      {
+        title: "Book Test",
+        description:
+          "Select the Kidney Function Test and submit your booking request online or over a call.",
+      },
+      {
+        title: "Schedule Sample Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh or Tricity address.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is processed using standard laboratory procedures.",
+      },
+      {
+        title: "Receive Report",
+        description:
+          "Your digital KFT report is sent to you within 24 hours of collection.",
+      },
+    ],
+  },
+
+  pricePreview: {
+    title: "Kidney Function Test Price",
+
+    description:
+      "Check the latest KFT price in Chandigarh and book with convenient home sample collection.",
+
+    price: 500,
+
+    priceUrl: "/prices/kidney-function-test-price-chandigarh",
+  },
+
+  relatedTests: [
+    "serum-creatinine",
+    "blood-urea",
+    "uric-acid-test",
+    "electrolyte-profile",
+    "urine-examination",
+    "hba1c-test",
+    "liver-function-test",
+  ],
+
+  faq: {
+    title: "Frequently Asked Questions",
+
+    description:
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the kidney function test, its results, and booking.",
+
+    items: [
+      {
+        question: "What is the full form of KFT test?",
+        answer:
+          "KFT stands for Kidney Function Test. It is the same as RFT (Renal Function Test) or a kidney profile.",
+      },
+      {
+        question: "Which tests are done under KFT?",
+        answer:
+          "A standard KFT includes blood urea, BUN, serum creatinine, eGFR, uric acid, and electrolytes such as sodium, potassium, and chloride. Some labs add calcium or phosphorus.",
+      },
+      {
+        question: "Are KFT and creatinine the same?",
+        answer:
+          "No. Creatinine is one part of the KFT. The full KFT also checks urea, uric acid, eGFR, and electrolytes.",
+      },
+      {
+        question: "What is the normal range for KFT?",
+        answer:
+          "Typical adult values are creatinine 0.7-1.3 mg/dL in men and 0.6-1.1 mg/dL in women, urea 15-40 mg/dL, BUN 7-20 mg/dL, uric acid 3.5-7.2 mg/dL in men and 2.6-6.0 mg/dL in women, and eGFR above 90. Always check your own report.",
+      },
+      {
+        question: "What if my KFT is high?",
+        answer:
+          "A high creatinine or urea can come from dehydration, a high-protein diet, medicines, or kidney disease. Your doctor repeats the test and looks at your eGFR, urine tests, and symptoms before concluding.",
+      },
+      {
+        question: "Is 70% kidney function (eGFR 70) normal?",
+        answer:
+          "An eGFR of about 70 is mildly reduced and can be a normal age-related value in older adults. By itself it is not kidney disease unless there is other evidence of damage, such as protein in the urine. Your doctor will decide.",
+      },
+      {
+        question: "Can KFT detect kidney damage or kidney failure?",
+        answer:
+          "It can show reduced kidney function, including kidney failure when creatinine is high and eGFR is very low. Early damage may need a urine albumin test, since creatinine can stay normal until a lot of function is lost.",
+      },
+      {
+        question: "Can KFT detect kidney infection or diabetes?",
+        answer:
+          "No to both. Kidney or urinary infection needs a urine test and culture, and diabetes needs blood sugar or HbA1c. KFT is used to check whether diabetes or blood pressure is affecting your kidneys.",
+      },
+      {
+        question: "Is uric acid included in KFT?",
+        answer:
+          "Yes, uric acid is part of the KFT at Shyam Labs.",
+      },
+      {
+        question: "Is fasting required for the KFT test, and can I eat before it?",
+        answer:
+          "Usually no, and you can eat normally. Avoid a large cooked-meat meal, protein or creatine supplements, and hard exercise beforehand, as they can raise creatinine temporarily.",
+      },
+      {
+        question: "What is the difference between KFT and LFT?",
+        answer:
+          "KFT checks the kidneys, while LFT checks the liver. They test different organs and are often booked together in a routine checkup.",
+      },
+      {
+        question: "Why is a KFT done before a CT scan?",
+        answer:
+          "Contrast dye used in some CT scans can strain the kidneys, so doctors check creatinine and eGFR first to make sure it is safe.",
+      },
+      {
+        question: "Is home sample collection available for KFT in Chandigarh?",
+        answer:
+          "Yes, Shyam Labs provides home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+      {
+        question: "What is the KFT test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current kidney function test price and book online with home sample collection.",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Kidney Function Test in Chandigarh Today",
+
+    description:
+      "Get convenient home sample collection, reliable KFT testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+
+    highlights: [
+      "Home Sample Collection Available",
+      "Fast Report Delivery",
+      "Professional Collection Process",
+    ],
+
+    price: "500",
+
+    priceText: "Check detailed KFT pricing and booking options.",
+
+    bookingUrl: "/prices/kidney-function-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+
+    buttonText: "Book KFT Test",
+  },
 },
 
 {

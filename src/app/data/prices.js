@@ -1699,6 +1699,183 @@ export const prices = [
 
     highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
   },
+},
+{
+  slug: "kidney-function-test-price-chandigarh",
+
+  seo: {
+    // 51 characters
+    title: "KFT Test Price in Chandigarh | Kidney Function Test",
+    description: `Check KFT (kidney function test) price in Chandigarh starting at ₹${getTestPrice('kidney-function-test')}, with home sample collection, digital reports & easy online booking.`,
+    keywords: [
+      "kft test price chandigarh",
+      "kidney function test price chandigarh",
+      "kft test cost chandigarh",
+      "rft test price",
+      "kft test price near me",
+      "kft with electrolytes test price",
+      "kft test panchkula",
+      "kft test mohali",
+      "kft test tricity",
+    ],
+  },
+
+  hero: {
+    badge: "Quality Testing Standards",
+
+    title: "KFT (Kidney Function Test) Price in Chandigarh",
+
+    subtitle:
+      "Check the Kidney Function Test (KFT / RFT) price in Chandigarh with accurate testing and convenient doorstep home sample collection from Shyam Labs.",
+
+    image: "/prices/kidney-function-test.webp",
+  },
+
+  priceCard: {
+    actualPrice: 750,
+    offerPrice: getTestPrice('kidney-function-test'),
+    offerText: "Offer Price",
+    reportTime: "24 Hours",
+    fasting: "Usually Not Required",
+    sampleType: "Blood",
+    homeCollection: true,
+    labVisit: true,
+
+    includes: {
+      title: "Every Booking Includes",
+      items: [
+        "Free Doorstep Home Sample Collection",
+        "Digital Report on WhatsApp & Email",
+        "No Advance Payment Required",
+      ],
+    },
+  },
+
+  whyGetTest: {
+    title: "Why Get a Kidney Function Test in Chandigarh",
+    description:
+      "Kidney disease usually causes no symptoms until it is advanced. A simple blood test shows how well your kidneys are working, so problems can be caught early.",
+
+    reasons: [
+      {
+        title: "Early Check for Diabetes & High BP",
+        description:
+          "Helps catch kidney strain from diabetes or high blood pressure, the two leading causes of kidney disease.",
+      },
+      {
+        title: "Checks Creatinine, Urea, Uric Acid & Electrolytes",
+        description:
+          "One report covers the main markers of kidney function and fluid balance.",
+      },
+      {
+        title: "Convenient & Affordable",
+        description:
+          "Home sample collection and transparent pricing make it easy to get tested without visiting a lab in person.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How much does a KFT test cost in Chandigarh?",
+      answer: `The kidney function test is available at an offer price of ₹${getTestPrice('kidney-function-test')} at Shyam Labs, with home sample collection available subject to service coverage.`,
+    },
+    {
+      question: "What is included in the KFT price?",
+      answer:
+        "The KFT covers blood urea, BUN, creatinine, eGFR, uric acid, and electrolytes (sodium, potassium, chloride), along with a digital report. A urine routine test is a separate test.",
+    },
+    {
+      question: "Is fasting needed before the KFT?",
+      answer:
+        "Usually not. Avoid a heavy cooked-meat meal, protein or creatine supplements, and intense exercise on the day.",
+    },
+    {
+      question: "Is home sample collection available in Chandigarh?",
+      answer:
+        "Yes, Shyam Labs provides doorstep home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+    },
+    {
+      question: "Do I need to pay in advance to book a KFT?",
+      answer:
+        "No advance payment is required — you can pay at the time of sample collection or according to the payment option provided during booking.",
+    },
+    {
+      question: "How soon will I get my KFT report after booking?",
+      answer:
+        "Reports are typically delivered digitally within 24 hours of sample collection.",
+    },
+  ],
+
+  relatedTests: [
+    "kidney-function-test",
+    "serum-creatinine",
+    "blood-urea",
+    "uric-acid-test",
+    "electrolyte-profile",
+    "urine-examination",
+    "hba1c-test",
+  ],
+
+  interlinks: {
+    badge: "Included Services & Chandigarh Availability",
+
+    heading: "What's Included & Chandigarh Availability",
+
+    description:
+      "Checking the KFT price? Explore what's included in this price and confirm home collection availability near you in Chandigarh and the Tricity.",
+
+    items: [
+      {
+        title: "What's Included in This Price?",
+        subtitle: "Kidney Function Test Service Details",
+        description:
+          "See everything included in your KFT — from sample collection to laboratory analysis and report delivery.",
+        href: "/tests/kidney-function-test",
+        icon: "FiActivity",
+        badge: "Test Details",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Test Details",
+        tracking: "price-interlink-service",
+      },
+      {
+        title: "KFT Available in Chandigarh",
+        subtitle: "Location & Home Collection",
+        description:
+          "Check KFT home sample collection availability across Chandigarh and nearby Tricity areas.",
+        href: "/locations/kidney-function-test-in-chandigarh",
+        icon: "FiMapPin",
+        badge: "Chandigarh Location",
+        badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+        btnText: "Visit Chandigarh Page",
+        tracking: "price-interlink-location",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Kidney Function Test in Chandigarh Today",
+
+    description:
+      "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
+
+    offerPrice: getTestPrice('kidney-function-test'),
+
+    actualPrice: 750,
+
+    buttonText: "Book a Test",
+
+    testName: "Kidney Function Test",
+
+    blogUrl: "/blogs/kidney-function-test-kft-guide",
+
+    serviceUrl: "/tests/kidney-function-test",
+
+    locationUrl: "/locations/kidney-function-test-in-chandigarh",
+
+    packageUrl: "/packages",
+
+    highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
+  },
 }
 ];
-

@@ -5778,6 +5778,251 @@ The test measures serum vitamin B12, helping doctors decide whether you are defi
 
   heroSubtitle:
     "Book your vitamin B12 test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
+},
+{
+  id: 20,
+
+  slug: "kidney-function-test-in-chandigarh",
+
+  city: "Chandigarh",
+
+  state: "Chandigarh",
+
+  title: "Kidney Function Test (KFT) in Chandigarh",
+
+  shortDescription:
+    "Looking for a kidney function test (KFT) in Chandigarh? Shyam Labs provides affordable and reliable creatinine, urea, uric acid and electrolyte testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
+
+  coverImage: "/locations/chandigarh-kidney-function-test.jpeg",
+
+  hours: "07:00-20:00",
+
+  areas: ["Chandigarh", "Panchkula", "Mohali"],
+
+  services: ["home-sample-collection"],
+
+  seo: {
+    // 47 characters
+    title: "KFT Test in Chandigarh | Home Sample Collection",
+    // 138 characters
+    description:
+      "Looking for a kidney function test (KFT) in Chandigarh? Shyam Labs offers affordable testing with home sample collection and fast reports.",
+    keywords: [
+      "KFT Test in Chandigarh",
+      "Kidney Function Test Chandigarh",
+      "RFT Test Chandigarh",
+      "Creatinine Test Chandigarh",
+      "Home Sample Collection Chandigarh",
+      "Diagnostic Lab Near Me Chandigarh",
+      "KFT Test Price Chandigarh",
+      "KFT Test Panchkula",
+      "KFT Test Mohali",
+      "KFT Test Tricity",
+    ],
+  },
+
+  overview: {
+    heading: "Affordable Kidney Function Testing & Home Sample Collection in Chandigarh",
+
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. A kidney function test is commonly recommended for people with diabetes or high blood pressure, for swelling or changes in urination, for those using painkillers regularly, and as part of routine annual health checkups.
+
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+
+      `For people living or working in Chandigarh, home sample collection makes regular kidney monitoring more convenient — schedule a collection at a suitable time and have your sample collected by a trained phlebotomist instead of visiting a diagnostic centre.
+
+The KFT evaluates creatinine, urea, uric acid, eGFR, and electrolytes, giving doctors useful information when assessing kidney health, medication safety, and the effects of diabetes or high blood pressure on the kidneys.`,
+
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+
+    highlights: [
+      "Convenient Home Sample Collection",
+      "Creatinine, Urea, Uric Acid & Electrolytes",
+      "Fast Digital Reports",
+      "Affordable, Transparent Pricing",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+
+    test: [
+      "kidney-function-test",
+      "serum-creatinine",
+      "uric-acid-test",
+      "hba1c-test",
+      "liver-function-test",
+      "lipid-profile",
+      "urine-examination",
+      "cbc-test",
+    ],
+  },
+
+  packages: [
+    "swasthya-mitra-basic",
+    "swasthya-mitra-advance",
+    "health-checkup-camp",
+    "jaanch-heat-shield-basic",
+    "senior-citizen-male-package",
+    "executive-full-body-checkup",
+  ],
+
+  process: {
+    heading: "How to Get a Kidney Function Test in Chandigarh",
+
+    steps: [
+      {
+        title: "Book Your Test",
+        description:
+          "Book your kidney function test online or contact Shyam Labs to arrange convenient sample collection in Chandigarh.",
+      },
+      {
+        title: "Schedule Home Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh address during booking.",
+      },
+      {
+        title: "Sample Collection",
+        description:
+          "A trained phlebotomist follows appropriate safety and hygiene procedures during the collection visit.",
+      },
+      {
+        title: "Receive Digital Report",
+        description:
+          "Get your KFT report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+
+  healthConditions: [
+    "Kidney Function Screening",
+    "Diabetes & Hypertension Kidney Monitoring",
+    "Chronic Kidney Disease Monitoring",
+    "High Uric Acid & Gout Evaluation",
+  ],
+
+  whoShouldGetTested: [
+    "People with Diabetes or High Blood Pressure",
+    "Anyone with Swelling of Feet or Face",
+    "People with Foamy Urine or Changes in Urination",
+    "Regular Users of Painkillers",
+    "People with Kidney Stones or a Family History of Kidney Disease",
+    "Individuals Doing an Annual Health Checkup",
+  ],
+
+  popularSearches: [
+    "KFT Test in Chandigarh",
+    "KFT Test Price Chandigarh",
+    "Kidney Function Test Near Me",
+    "Home Sample Collection Chandigarh",
+    "RFT Test in Chandigarh",
+    "Diagnostic Lab Near Me Chandigarh",
+    "KFT Test Panchkula",
+    "KFT Test Mohali",
+  ],
+
+  sections: [
+    {
+      title: "Kidney Function Testing Services in Chandigarh",
+      content: [
+        "Residents across Chandigarh can book kidney function testing through Shyam Labs with convenient home sample collection where service coverage is available.",
+        "Our testing services are designed for working professionals, families, senior citizens, and patients who need routine or regular kidney monitoring.",
+      ],
+    },
+    {
+      title: "Doorstep Blood Collection in Chandigarh",
+      content: [
+        "Our home sample collection service lets you schedule a kidney function test from home without waiting at a diagnostic centre.",
+        "Trained phlebotomists follow appropriate safety and hygiene procedures during every collection visit.",
+      ],
+    },
+    {
+      title: "Why Choose Shyam Labs for Kidney Function Testing?",
+      content: [
+        "Affordable pricing, convenient sample collection, and digital reporting make Shyam Labs a convenient option for KFT across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+
+  faq: [
+    {
+      question: "Which areas around Chandigarh are covered for home sample collection?",
+      answer:
+        "Shyam Labs provides home sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+    {
+      question: "Can I book a kidney function test online in Chandigarh?",
+      answer: "Yes, you can schedule your kidney function test online or by phone and choose a convenient collection time.",
+    },
+    {
+      question: "What is the KFT test price in Chandigarh?",
+      answer: `The kidney function test is available at an offer price of ₹${getTestPrice('kidney-function-test')}. Check the pricing page for current offers and booking details.`,
+    },
+    {
+      question: "Is fasting required before a kidney function test?",
+      answer: "Usually not. Avoid a heavy cooked-meat meal, protein or creatine supplements, and hard exercise before the test. Our team will guide you when you book.",
+    },
+    {
+      question: "How quickly are KFT reports available in Chandigarh?",
+      answer: "KFT reports are typically available digitally within 24 hours of sample collection.",
+    },
+    {
+      question: "Can senior citizens book a KFT from home in Chandigarh?",
+      answer:
+        "Yes, home sample collection can be convenient for elderly patients who prefer to avoid travelling to a diagnostic centre, subject to service availability.",
+    },
+  ],
+
+  relatedLocations: [
+    { city: "Panchkula", slug: "/locations/kidney-function-test-in-panchkula" },
+    { city: "Mohali", slug: "/locations/kidney-function-test-in-mohali" },
+  ],
+
+  facts: [
+    { label: "Test Price", value: getTestPrice('kidney-function-test') },
+    { label: "Report Time", value: "24 Hours" },
+    { label: "Collection Service", value: "Doorstep Sample Pickup" },
+    { label: "Report Delivery", value: "Online & WhatsApp Reports" },
+    { label: "Lab Location", value: "Sector 21, Panchkula" },
+  ],
+
+  tags: [
+    "KFT Test Chandigarh",
+    "Kidney Function Test Chandigarh",
+    "RFT Test Chandigarh",
+    "Pathology Lab Chandigarh",
+    "Home Sample Collection Chandigarh",
+    "Blood Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "KFT Test Panchkula",
+    "KFT Test Mohali",
+    "KFT Test Tricity",
+  ],
+
+  cta: {
+    title: "Book a Kidney Function Test in Chandigarh Today",
+
+    description:
+      "Schedule convenient home sample collection in Chandigarh and receive your KFT report digitally from Shyam Budget Friendly Labs.",
+
+    phone: "tel:+919914899300",
+
+    highlights: ["Home Sample Collection", "Affordable KFT Testing", "Fast Digital Reports"],
+  },
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/chandigarh-kidney-function-test.jpeg",
+
+  heroTitle: "Affordable Kidney Function Testing & Home Sample Collection in Chandigarh",
+
+  heroSubtitle:
+    "Book your kidney function test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
 }
 ];
 

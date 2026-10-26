@@ -4556,157 +4556,569 @@ export const blogs = [
  
 {
   id: 10,
+
   slug: "kidney-function-test-kft-guide",
-  title: "Kidney Function Test (KFT): Creatinine, Urea, eGFR, Normal Range & Kidney Health Guide",
-  excerpt: "Learn everything about Kidney Function Tests including Creatinine, Blood Urea, eGFR, symptoms, preparation, normal ranges, kidney disease, and KFT testing in Panchkula.",
+
+  title: "KFT Test: Full Form, Normal Range, Creatinine & Price",
+
+  excerpt:
+    "KFT test explained: full form, normal range for creatinine, urea, uric acid and eGFR, causes of a high KFT, kidney disease symptoms, diet, and price.",
+
   category: "Health Tips",
+
   author: {
     name: SITE_CONFIG.fullName,
     image: SITE_CONFIG.logo,
   },
-  publishedAt: "July 11, 2026",
-  readingTime: "10 min read",
-  coverImage: "/blogs/kidney-function-test.webp",
-  featured: false,
-  relatedPackages: [],
-  relatedTests: [], // ✅ emptied per request
+
+  publishedAt: "October 26, 2026",
+
+  readingTime: "13 min read",
+
+  coverImage: "/blogs/kft-test-guide.webp",
+
+  featured: true,
+
+  relatedPackages: [
+    "swasthya-mitra-basic",
+    "swasthya-mitra-advance",
+    "health-checkup-camp",
+    "jaanch-heat-shield-basic",
+    "senior-citizen-male-package",
+    "executive-full-body-checkup",
+  ],
+
+  relatedTests: [
+    "kidney-function-test",
+    "serum-creatinine",
+    "blood-urea",
+    "uric-acid-test",
+    "electrolyte-profile",
+    "urine-examination",
+    "hba1c-test",
+  ],
+
   seo: {
-    title: "Kidney Function Test (KFT): Creatinine, Urea, eGFR & Kidney Test Guide",
-    description: "Know Kidney Function Test normal ranges, Creatinine, Urea, eGFR, kidney disease symptoms, preparation, home sample collection, and Kidney Function Testing in Panchkula.",
+    // 53 characters
+    title: "KFT Test: Full Form, Normal Range, Creatinine & Price",
+    // 124 characters
+    description:
+      "KFT test guide: full form, normal range, creatinine, urea, uric acid & eGFR, high KFT causes, fasting & price in Chandigarh.",
     keywords: [
-      "Kidney Function Test", "KFT Test", "Kidney Function Blood Test", "Kidney Profile Test",
-      "Creatinine Test", "Blood Urea Test", "eGFR Test", "Renal Function Test",
-      "Kidney Disease Test", "Kidney Test Near Me", "Kidney Function Test in Panchkula",
-      "Creatinine Normal Range", "Kidney Health Test", "Chronic Kidney Disease Test",
-      "Kidney Blood Test", "Best Kidney Test Lab"
-    ]
+      "kft test",
+      "kft test full form",
+      "kidney function test",
+      "rft test",
+      "creatinine normal range",
+      "urea normal range",
+      "uric acid test",
+      "egfr normal range",
+      "kidney disease symptoms",
+      "high creatinine causes",
+      "how to improve kidney function",
+      "kft test in Chandigarh",
+      "pathology lab near me",
+      "diagnostic lab near me",
+      "blood test home sample collection",
+    ],
   },
+
   quickInfo: {
-    "What You Will Learn": "Kidney Function Test",
+    "What You Will Learn": "Kidney Function Test (KFT)",
+    price: getTestPrice('kidney-function-test'),
     sample: "Blood",
     fasting: "Usually Not Required",
     reportTime: "Same Day",
     homeCollection: "Available",
-    recommendedFor: "Swelling of feet or ankles, Frequent urination, Reduced urine output, Foamy urine, Blood in urine, Persistent fatigue, Loss of appetite, Nausea, High blood pressure, Difficulty concentrating, Shortness of breath, Muscle cramps",
-    booking: "Online / Phone / WhatsApp"
+    recommendedFor: "Diabetes, High Blood Pressure, Swelling, Foamy Urine, Fatigue, Kidney Stones, Routine Checkup",
+    booking: "Online / Phone / WhatsApp",
   },
+
   tags: [
-    "Kidney Function Test", "KFT Test", "Kidney Test", "Renal Function Test", "Creatinine Test",
-    "Blood Urea Test", "eGFR Test", "Kidney Disease", "Chronic Kidney Disease", "Kidney Failure",
-    "Kidney Health", "Diabetes Kidney Disease", "High Blood Pressure Kidney", "Blood Test",
-    "Diagnostic Lab", "Pathology Lab", "Kidney Test Near Me", "Kidney Test in Panchkula",
-    "Kidney Test in Chandigarh", "Kidney Test in Mohali", "Kidney Test in Zirakpur",
-    "Kidney Test in Karimpur", "Home Sample Collection", "Same Day Report", "Preventive Health Checkup"
+    "KFT Test",
+    "Kidney Function Test",
+    "RFT Test",
+    "KFT Test Price",
+    "KFT Normal Range",
+    "Creatinine Normal Range",
+    "Urea Normal Range",
+    "Uric Acid Test",
+    "eGFR",
+    "Kidney Disease Symptoms",
+    "High Creatinine",
+    "Blood Tests",
+    "Health Checkup",
+    "KFT Test in Chandigarh",
+    "KFT Test in Panchkula",
+    "Home Sample Collection",
+    "Pathology Lab",
+    "Same Day Report",
   ],
+
   content: [
-    { type: "heading", level: 2, text: "What Is a Kidney Function Test?" },
-    { type: "paragraph", text: "A Kidney Function Test (KFT), also known as a Renal Function Test (RFT), is a group of blood tests that evaluates how efficiently your kidneys filter waste products and maintain the body's fluid and electrolyte balance." },
-    { type: "paragraph", text: "Healthy kidneys remove toxins, excess water, and waste materials from the bloodstream while maintaining proper levels of minerals, salts, and blood pressure." },
-    { type: "paragraph", text: "A Kidney Function Test commonly measures Creatinine, Blood Urea, Blood Urea Nitrogen (BUN), Uric Acid, and estimates the Glomerular Filtration Rate (eGFR)." },
-    { type: "paragraph", text: "Doctors recommend this test to detect kidney disease early, monitor chronic kidney disorders, evaluate treatment response, and assess kidney damage caused by diabetes, hypertension, or certain medications." },
-    { type: "paragraph", text: "Since kidney disease often develops silently without noticeable symptoms, regular Kidney Function Testing plays a vital role in preventive healthcare." },
-    { type: "heading", level: 2, text: "Why Are Kidneys Important?" },
-    { type: "paragraph", text: "The kidneys are two bean-shaped organs located on either side of the spine just below the rib cage." },
-    { type: "paragraph", text: "Although small in size, they perform several life-sustaining functions every day." },
-    { type: "paragraph", text: "Healthy kidneys continuously filter waste products, toxins, and excess fluid from your blood before converting them into urine." },
-    { type: "paragraph", text: "They also regulate blood pressure, maintain electrolyte balance, produce hormones responsible for red blood cell production, activate Vitamin D for healthy bones, and help control the body's acid-base balance." },
-    { type: "paragraph", text: "When kidney function declines, harmful waste begins to accumulate in the bloodstream, increasing the risk of serious complications such as chronic kidney disease, cardiovascular disease, anemia, electrolyte imbalance, and kidney failure." },
-    { type: "paragraph", text: "Routine Kidney Function Testing helps identify problems before irreversible kidney damage occurs." },
-    { type: "heading", level: 2, text: "What Does a Kidney Function Test Measure?" },
-    { type: "paragraph", text: "A Kidney Function Test consists of several blood investigations that help doctors understand how efficiently your kidneys are working." },
-    { type: "paragraph", text: "The most commonly measured parameters include:" },
-    { type: "list", items: ["Serum Creatinine – A waste product produced by muscles. Healthy kidneys remove creatinine from the bloodstream. Elevated creatinine levels may indicate reduced kidney function."] },
-    { type: "list", items: ["Blood Urea – Urea is produced when the body breaks down protein. High blood urea levels may suggest dehydration, kidney disease, or impaired kidney filtration."] },
-    { type: "list", items: ["Blood Urea Nitrogen (BUN) – BUN provides additional information about kidney performance and hydration status."] },
-    { type: "list", items: ["Estimated Glomerular Filtration Rate (eGFR) – eGFR estimates how well the kidneys are filtering blood. It is one of the most important indicators of kidney health."] },
-    { type: "list", items: ["Uric Acid – Elevated uric acid levels may increase the risk of kidney stones, gout, and reduced kidney function."] },
-    { type: "list", items: ["Electrolytes – Sodium, potassium, chloride, and bicarbonate may also be evaluated because kidney disease often affects electrolyte balance."] },
-    { type: "paragraph", text: "Doctors interpret these results together rather than relying on a single value. Your age, sex, medical history, medications, hydration status, and other laboratory findings are considered before making a diagnosis." },
-    { type: "paragraph", text: "A Kidney Function Test provides valuable information for diagnosing kidney disease, monitoring treatment, and preventing serious complications." },
-    { type: "heading", level: 2, text: "Who Should Get a Kidney Function Test?" },
-    { type: "paragraph", text: "Anyone can benefit from routine kidney screening, but certain individuals have a significantly higher risk of developing kidney disease." },
-    { type: "paragraph", text: "Doctors commonly recommend a Kidney Function Test for:" },
-    { type: "list", items: ["Adults above 40 years of age", "People with diabetes", "Individuals with high blood pressure", "Patients with heart disease", "People with obesity", "Individuals with recurrent kidney stones", "Patients with urinary tract infections", "People taking long-term painkillers or certain medications", "Individuals with a family history of kidney disease", "Smokers", "Older adults", "Anyone experiencing symptoms suggestive of kidney dysfunction"] },
-    { type: "paragraph", text: "People living with diabetes and hypertension are particularly vulnerable because these conditions are among the leading causes of chronic kidney disease worldwide." },
-    { type: "paragraph", text: "Routine testing allows kidney damage to be detected early—often before noticeable symptoms develop—giving doctors the opportunity to begin treatment that may slow or prevent further kidney damage." },
-    { type: "paragraph", text: "Even healthy individuals should consider periodic Kidney Function Testing as part of a preventive health checkup, especially if they have lifestyle or family-related risk factors." },
-    { type: "heading", level: 2, text: "Symptoms of Kidney Disease" },
-    { type: "paragraph", text: "Kidney disease is often called a \"silent disease\" because many people experience no symptoms during its early stages." },
-    { type: "paragraph", text: "As kidney function gradually declines, waste products begin accumulating in the bloodstream, leading to various symptoms." },
-    { type: "paragraph", text: "Common signs that may require a Kidney Function Test include:" },
-    { type: "list", items: ["Swelling of the feet, ankles, or face", "Persistent fatigue", "Weakness", "Reduced urine output", "Frequent urination, especially at night", "Foamy urine", "Blood in urine", "Difficulty concentrating", "Loss of appetite", "Nausea or vomiting", "Persistent itching", "Muscle cramps", "High blood pressure", "Shortness of breath", "Puffiness around the eyes"] },
-    { type: "paragraph", text: "These symptoms do not always indicate kidney disease, but they should never be ignored." },
-    { type: "paragraph", text: "Prompt laboratory testing helps doctors identify whether the kidneys are functioning normally or whether additional investigations are required." },
-    { type: "paragraph", text: "Early diagnosis significantly improves treatment outcomes and reduces the risk of permanent kidney damage." },
-    { type: "heading", level: 2, text: "Normal Kidney Function Test Values" },
-    { type: "paragraph", text: "Kidney Function Test reports contain several important measurements that help evaluate kidney health." },
-    { type: "paragraph", text: "Although reference ranges may vary slightly between laboratories, general guidelines include:" },
-    { type: "list", items: ["Serum Creatinine (Male): 0.7–1.3 mg/dL", "Serum Creatinine (Female): 0.6–1.1 mg/dL", "Blood Urea: 15–40 mg/dL", "Blood Urea Nitrogen (BUN): 7–20 mg/dL", "eGFR: Above 90 mL/min/1.73m²", "Uric Acid (Male): 3.5–7.2 mg/dL", "Uric Acid (Female): 2.6–6.0 mg/dL"] },
-    { type: "paragraph", text: "Values outside these ranges do not always mean serious kidney disease." },
-    { type: "paragraph", text: "Temporary dehydration, medications, strenuous exercise, dietary protein intake, pregnancy, age, and certain medical conditions may also influence laboratory results." },
-    { type: "paragraph", text: "For this reason, Kidney Function Test reports should always be interpreted by a qualified healthcare professional who considers your complete medical history and clinical condition." },
-    { type: "heading", level: 2, text: "Understanding Creatinine, Urea & eGFR" },
-    { type: "paragraph", text: "Creatinine, Blood Urea, and eGFR are among the most important indicators used to evaluate kidney function." },
-    { type: "paragraph", text: "Serum Creatinine rises when the kidneys become less efficient at removing waste products from the bloodstream. Persistently elevated creatinine levels may indicate kidney damage or reduced filtration." },
-    { type: "paragraph", text: "Blood Urea reflects the body's protein metabolism. Increased urea levels may occur because of kidney disease, dehydration, gastrointestinal bleeding, or excessive protein intake. Low levels are less common but may occur in certain liver disorders or poor nutritional status." },
-    { type: "paragraph", text: "Estimated Glomerular Filtration Rate (eGFR) is calculated using serum creatinine along with age and sex. It estimates how effectively your kidneys filter blood." },
-    { type: "paragraph", text: "General interpretation of eGFR includes:" },
-    { type: "list", items: ["Above 90 — Normal kidney function", "60–89 — Mild reduction in kidney function", "30–59 — Moderate kidney disease", "15–29 — Severe kidney disease", "Below 15 — Kidney failure requiring urgent specialist care"] },
-    { type: "paragraph", text: "Doctors never rely on a single laboratory value alone." },
-    { type: "paragraph", text: "They evaluate creatinine, urea, eGFR, urine examination, blood pressure, diabetes status, imaging studies, symptoms, and previous reports together before confirming a diagnosis." },
-    { type: "paragraph", text: "Regular monitoring of these values helps detect kidney disease early, assess treatment effectiveness, and reduce the risk of long-term complications such as chronic kidney disease or kidney failure." },
-    { type: "heading", level: 2, text: "Common Causes of Kidney Damage" },
-    { type: "paragraph", text: "Kidney disease can develop gradually over many years or occur suddenly because of injury, infection, or reduced blood flow." },
-    { type: "paragraph", text: "Understanding the causes of kidney damage helps individuals take preventive measures and seek timely medical care." },
-    { type: "paragraph", text: "Some of the most common causes include:" },
-    { type: "list", items: ["Diabetes – High blood sugar can damage the tiny blood vessels responsible for filtering waste from the blood. Diabetes is the leading cause of chronic kidney disease worldwide."] },
-    { type: "list", items: ["High Blood Pressure (Hypertension) – Persistently elevated blood pressure places excessive stress on kidney blood vessels, reducing their filtering ability over time."] },
-    { type: "list", items: ["Kidney Stones – Recurrent kidney stones may block urine flow and increase the risk of kidney infection or long-term kidney damage if left untreated."] },
-    { type: "list", items: ["Urinary Tract Infections (UTIs) – Severe or untreated urinary tract infections can spread to the kidneys, causing inflammation and permanent scarring."] },
-    { type: "list", items: ["Glomerulonephritis – This condition involves inflammation of the kidney's filtering units (glomeruli) and may result from infections, autoimmune diseases, or unknown causes."] },
-    { type: "list", items: ["Polycystic Kidney Disease (PKD) – An inherited disorder in which multiple fluid-filled cysts gradually replace healthy kidney tissue."] },
-    { type: "list", items: ["Long-Term Use of Painkillers – Frequent use of certain pain-relieving medicines (NSAIDs) may reduce blood flow to the kidneys and contribute to chronic kidney damage."] },
-    { type: "list", items: ["Dehydration – Severe or prolonged dehydration can temporarily reduce kidney function and may worsen existing kidney disease."] },
-    { type: "list", items: ["Autoimmune Disorders – Diseases such as lupus may attack healthy kidney tissue, causing inflammation and impaired function."] },
-    { type: "list", items: ["Heart Disease – Reduced blood circulation caused by heart disease may decrease blood supply to the kidneys, affecting their ability to filter waste."] },
-    { type: "paragraph", text: "Maintaining healthy blood sugar, controlling blood pressure, drinking adequate water, avoiding unnecessary medications, eating a balanced diet, exercising regularly, and undergoing routine health checkups can significantly reduce the risk of kidney disease." },
-    { type: "paragraph", text: "Early Kidney Function Testing allows doctors to detect abnormalities before permanent kidney damage develops." },
-    { type: "heading", level: 2, text: "How To Prepare For A Kidney Function Test" },
-    { type: "paragraph", text: "Most Kidney Function Tests require very little preparation." },
-    { type: "paragraph", text: "However, following a few simple precautions helps ensure more accurate laboratory results." },
-    { type: "paragraph", text: "Before your Kidney Function Test:" },
-    { type: "list", items: ["Drink sufficient water unless your doctor has advised fluid restriction.", "Continue taking medications only as directed by your doctor.", "Inform the laboratory if you are taking medicines that may affect kidney function, including painkillers, antibiotics, blood pressure medications, or diuretics.", "Avoid strenuous exercise for 24 hours before the test because intense physical activity may temporarily increase creatinine levels.", "Avoid excessive alcohol consumption before sample collection.", "Inform your doctor if you are pregnant or have recently undergone radiological procedures involving contrast dye."] },
-    { type: "paragraph", text: "In most cases, fasting is not required for a Kidney Function Test." },
-    { type: "paragraph", text: "However, if your doctor has ordered additional investigations such as Blood Sugar or Lipid Profile along with Kidney Function Testing, fasting instructions may differ." },
-    { type: "paragraph", text: "Blood sample collection usually takes only a few minutes, and most reports are available on the same day depending on the tests performed." },
-    { type: "paragraph", text: "Following your healthcare provider's instructions helps ensure reliable and clinically useful results." },
-    { type: "heading", level: 2, text: "Kidney Function Testing in Panchkula" },
-    { type: "paragraph", text: "Shyam Pathology Lab provides accurate Kidney Function Testing (KFT) in Panchkula with reliable reporting and convenient home blood sample collection services." },
-    { type: "paragraph", text: "Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, Kalka, and nearby areas can book Kidney Function Tests from the comfort of their homes." },
-    { type: "paragraph", text: "Our laboratory offers comprehensive kidney health screening, including:" },
-    { type: "list", items: ["Serum Creatinine", "Blood Urea", "Blood Urea Nitrogen (BUN)", "Estimated Glomerular Filtration Rate (eGFR)", "Uric Acid Testing", "Electrolyte Testing", "Home Sample Collection", "Same-Day Reporting for most investigations"] },
-    { type: "paragraph", text: "Kidney diseases often progress silently without noticeable symptoms." },
-    { type: "paragraph", text: "Regular Kidney Function Testing helps identify early abnormalities, supports timely medical intervention, and reduces the risk of chronic kidney disease and kidney failure." },
-    { type: "paragraph", text: "Our experienced pathology team follows strict quality standards to provide accurate and dependable diagnostic reports that doctors can confidently use for treatment planning." }
-    // ✅ interlinking block removed
+    {
+      type: "paragraph",
+      text: "Kidney disease is usually silent until it is advanced, which makes the kidney function test one of the most useful routine checks — especially if you have diabetes, high blood pressure, or use painkillers often. This guide explains the KFT full form, what each value means, normal ranges, and what to do about a high result.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is a Kidney Function Test? (KFT Full Form)",
+    },
+    {
+      type: "paragraph",
+      text: "KFT stands for Kidney Function Test. It is the same as RFT (Renal Function Test) or a kidney profile. It is a group of blood tests that show how well your kidneys filter waste products such as creatinine and urea out of your blood and keep your electrolytes balanced.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "KFT Test List: Which Tests Are Included?",
+    },
+    {
+      type: "list",
+      items: [
+        "Serum creatinine",
+        "Blood urea and BUN (blood urea nitrogen)",
+        "eGFR (estimated glomerular filtration rate), calculated from creatinine",
+        "Uric acid",
+        "Sodium, potassium, and chloride (electrolytes)",
+        "Calcium and phosphorus in some labs",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Uric acid is part of our KFT, and an electrolyte panel is included so you don't need a separate test. Creatinine on its own is just one piece of the KFT, not the whole test.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Why Is a KFT Done?",
+    },
+    {
+      type: "list",
+      items: [
+        "Routine screening in people with diabetes or high blood pressure",
+        "Symptoms such as swelling, foamy urine, fatigue, or changes in urination",
+        "Long-term use of painkillers (NSAIDs) or other kidney-affecting medicines",
+        "Kidney stones, recurrent urinary infections, or a family history of kidney disease",
+        "Before certain scans that use contrast dye, such as a CT scan",
+        "Monitoring known chronic kidney disease",
+        "As part of an annual health checkup",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "KFT Normal Range Chart",
+    },
+    {
+      type: "list",
+      items: [
+        "Serum creatinine: 0.7-1.3 mg/dL (men), 0.6-1.1 mg/dL (women)",
+        "Blood urea: 15-40 mg/dL",
+        "BUN: 7-20 mg/dL",
+        "Uric acid: 3.5-7.2 mg/dL (men), 2.6-6.0 mg/dL (women)",
+        "eGFR: above 90 mL/min/1.73 m²",
+        "Sodium: 135-145 mmol/L",
+        "Potassium: 3.5-5.1 mmol/L",
+        "Chloride: 98-107 mmol/L",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Ranges differ slightly between labs, and between men and women, children and adults. Creatinine is naturally lower in children and in pregnancy and higher in people with a lot of muscle, so always compare with the range printed on your own report.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is eGFR, and What Do the CKD Stages Mean?",
+    },
+    {
+      type: "paragraph",
+      text: "eGFR estimates how much blood your kidneys filter each minute, using your creatinine, age, and sex. Doctors group it into chronic kidney disease (CKD) stages, which require the reduced function to persist for more than three months:",
+    },
+    {
+      type: "list",
+      items: [
+        "Stage 1: 90 or above, with other signs of kidney damage",
+        "Stage 2: 60-89, mildly reduced",
+        "Stage 3a: 45-59, mild to moderately reduced",
+        "Stage 3b: 30-44, moderately to severely reduced",
+        "Stage 4: 15-29, severely reduced",
+        "Stage 5: below 15, kidney failure",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is 70% Kidney Function (eGFR 70) Normal?",
+    },
+    {
+      type: "paragraph",
+      text: "An eGFR of 70 is mildly reduced. It is common and often normal for older adults, because filtration slowly declines with age. On its own it is not kidney disease unless there is other evidence of damage, such as protein in the urine, so doctors usually repeat it and add a urine test.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Causes High Creatinine?",
+    },
+    {
+      type: "list",
+      items: [
+        "Dehydration",
+        "Acute kidney injury or chronic kidney disease",
+        "A very high-protein diet or heavy red meat intake",
+        "Creatine supplements and intense exercise",
+        "Medicines such as NSAID painkillers, some antibiotics, and some blood pressure drugs",
+        "Urinary blockage from stones or an enlarged prostate",
+        "A large muscle mass, which naturally raises creatinine",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "High Creatinine Symptoms",
+    },
+    {
+      type: "paragraph",
+      text: "A high creatinine often causes no symptoms until kidney function is quite reduced. When symptoms appear they include tiredness, swelling of the feet or face, reduced or changed urine output, nausea, loss of appetite, itching, and muscle cramps.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How to Reduce Creatinine",
+    },
+    {
+      type: "paragraph",
+      text: "Treat the cause rather than the number. Drink enough water unless your doctor has restricted fluids, avoid NSAID painkillers and unnecessary supplements, skip creatine and protein-powder products, keep blood pressure and blood sugar under control, and follow the diet your doctor or kidney specialist advises. Be careful with 'creatinine-lowering' herbal products — some can harm the kidneys.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Causes High Urea (and Low Urea)?",
+    },
+    {
+      type: "paragraph",
+      text: "High urea can come from dehydration, a high-protein diet, kidney disease, bleeding in the gut, heart failure, steroids, or a urinary blockage. Low urea is less common and can reflect liver disease, poor nutrition, or drinking a lot of fluid.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "High Uric Acid: Symptoms and Foods to Avoid",
+    },
+    {
+      type: "paragraph",
+      text: "High uric acid often has no symptoms. When it builds up it can cause gout, with sudden severe pain and swelling in a joint, often the big toe, and it can form kidney stones. Foods to limit are organ meats, red meat, shellfish, beer and other alcohol, and sugary drinks. Drink plenty of water, favour vegetables, whole grains, and low-fat dairy, and ask your doctor about medicines if levels stay high.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Kidney Disease Symptoms and Early Signs of Kidney Failure",
+    },
+    {
+      type: "list",
+      items: [
+        "Swelling in the feet, ankles, or around the eyes",
+        "Foamy or bubbly urine",
+        "Passing much more or much less urine, especially at night",
+        "Blood in the urine",
+        "Persistent tiredness and weakness",
+        "Nausea, vomiting, or loss of appetite",
+        "Itching and muscle cramps",
+        "Shortness of breath and high blood pressure",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Early kidney disease usually has no symptoms at all, so waiting for them can mean missing years of treatable damage.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can KFT Detect Kidney Damage or Kidney Failure?",
+    },
+    {
+      type: "paragraph",
+      text: "Yes, to a point. A high creatinine and low eGFR show reduced kidney function, including kidney failure. But creatinine can stay normal until a substantial part of function is lost, so early damage is better caught with a urine albumin (microalbumin) test, which is why people with diabetes or high blood pressure are advised to have both.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can KFT Detect Kidney Infection, Stones, or Diabetes?",
+    },
+    {
+      type: "list",
+      items: [
+        "Kidney or urinary infection: no — needs a urine routine test and urine culture",
+        "Kidney stones: no — needs an ultrasound or CT scan; a KFT may be normal even with stones",
+        "Diabetes: no — needs blood sugar or HbA1c, though KFT shows whether diabetes is affecting your kidneys",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is the Most Accurate Test for Kidney Function?",
+    },
+    {
+      type: "paragraph",
+      text: "The most accurate measure is a directly measured GFR, which is a specialised test used in selected cases. In everyday practice doctors use eGFR from creatinine, sometimes with cystatin C when creatinine is unreliable, together with a urine albumin test and, when needed, a kidney ultrasound. Creatinine clearance (a 24-hour urine collection) is an older alternative.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "KFT vs LFT vs CBC: What's the Difference?",
+    },
+    {
+      type: "paragraph",
+      text: "A KFT checks the kidneys, an LFT checks the liver, and a CBC counts your blood cells and hemoglobin. They test different organs and are often booked together in a general health checkup.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How to Improve Kidney Function and Foods for Healthy Kidneys",
+    },
+    {
+      type: "paragraph",
+      text: "Kidney function lost to chronic disease generally does not come back, but you can slow further loss and sometimes see improvement when the cause is temporary, such as dehydration, a medicine, or a blockage. Keep blood pressure and sugar controlled, stay active, avoid smoking, limit salt, avoid regular NSAIDs, and eat a balanced diet of vegetables, fruit, whole grains, and pulses with moderate protein.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Foods to Avoid for Kidney Patients",
+    },
+    {
+      type: "paragraph",
+      text: "People with kidney disease are usually advised to cut salt and processed food such as pickles, papad, and packaged snacks, limit cola drinks and excess red meat, and avoid star fruit entirely. Whether to limit potassium-rich foods like bananas, potatoes, tomatoes, and coconut water, or phosphorus-rich foods, depends on your stage and blood levels, so follow your kidney specialist's advice rather than a generic list.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is Fasting Required for a KFT? Can You Eat Before It?",
+    },
+    {
+      type: "paragraph",
+      text: "Usually not, and you can eat normally. Avoid a large cooked-meat meal, protein or creatine supplements, and hard exercise beforehand, because they can temporarily raise creatinine. Some labs advise fasting only when the KFT is booked with blood sugar or lipid tests.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "KFT in Diabetes, High Blood Pressure, Pregnancy, and Older Adults",
+    },
+    {
+      type: "paragraph",
+      text: "People with diabetes or high blood pressure should check kidney function at least once a year. In pregnancy, creatinine normally falls because filtration rises, so a value that looks normal in a non-pregnant adult can be abnormal in pregnancy. In older adults eGFR drifts down with age, and in children creatinine ranges are lower, so results need age-specific interpretation.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Why Is a KFT Done Before a CT Scan?",
+    },
+    {
+      type: "paragraph",
+      text: "Some CT scans use contrast dye, which can strain kidneys that are already working poorly. Checking creatinine and eGFR first tells the doctor whether the scan is safe or needs extra precautions.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can I Do a Kidney Function Test at Home?",
+    },
+    {
+      type: "paragraph",
+      text: "You can book home sample collection, where a phlebotomist collects your blood at your doorstep and the test is run at the lab, with the report usually ready the same day or within 24 hours. Home urine dipsticks only give a rough screen for protein or blood and are no substitute for a KFT.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "KFT Test Price and Report Time",
+    },
+    {
+      type: "paragraph",
+      text: `Our kidney function test is priced at ${getTestPrice('kidney-function-test')}, with same-day reports and free home sample collection available. A urine routine test and a blood sugar or HbA1c test are separate and commonly added.`,
+    },
+    {
+      type: "interlinking",
+      title: "KFT Services & Pricing",
+      description:
+        "Explore kidney function test details, pricing, and convenient home sample collection services.",
+      items: [
+        {
+          title: "KFT Test Price",
+          description:
+            "Check the latest KFT price and available home sample collection options.",
+          href: "/prices/kidney-function-test-price-chandigarh",
+        },
+        {
+          title: "KFT Test Details",
+          description:
+            "Learn about the kidney function test, parameters included, sample requirements, and preparation.",
+          href: "/tests/kidney-function-test",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "KFT Test in Panchkula, Chandigarh & Nearby Areas",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Budget Friendly Labs provides accurate kidney function testing with convenient home blood sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+    {
+      type: "interlinking",
+      title: "KFT Test — Areas We Serve",
+      description:
+        "We provide kidney function testing with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "Kidney function test with home sample collection.",
+          href: "/locations/kidney-function-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "Kidney function test and diagnostic services with home collection.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "Kidney function test with same-day report and home collection.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "Kidney function test and pathology services.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Key Takeaways",
+    },
+    {
+      type: "list",
+      items: [
+        "KFT, RFT, and kidney profile are the same test; creatinine is only one part of it",
+        "Creatinine, urea, uric acid, eGFR, and electrolytes are read together, not one at a time",
+        "A high creatinine can be from dehydration, diet, or medicines, so doctors repeat it and add urine tests before diagnosing kidney disease",
+        "KFT cannot detect infection, stones, or diabetes, and creatinine can stay normal in early kidney damage",
+        "Fasting is usually not needed, but skip heavy meat meals and creatine supplements on the day",
+      ],
+    },
+    {
+      type: "references",
+      items: [
+        {
+          title: "Kidney Function Tests",
+          publisher: "MedlinePlus",
+          url: "https://medlineplus.gov/lab-tests/kidney-function-tests/",
+        },
+        {
+          title: "Estimated Glomerular Filtration Rate (eGFR)",
+          publisher: "National Kidney Foundation",
+          url: "https://www.kidney.org/kidney-topics/estimated-glomerular-filtration-rate-egfr",
+        },
+        {
+          title: "Tests & Diagnosis for Chronic Kidney Disease",
+          publisher: "NIDDK, National Institutes of Health",
+          url: "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/tests-diagnosis",
+        },
+      ],
+    },
   ],
+
   faq: [
-    { question: "What is a Kidney Function Test?", answer: "A Kidney Function Test (KFT) is a group of blood tests that evaluate how well your kidneys remove waste products and maintain fluid and electrolyte balance." },
-    { question: "Is fasting required before a Kidney Function Test?", answer: "Usually, fasting is not required. However, if other blood tests are being performed at the same time, your doctor may recommend fasting." },
-    { question: "What does high creatinine indicate?", answer: "High creatinine levels may suggest reduced kidney function, dehydration, certain medications, or other medical conditions. Results should always be interpreted by your doctor." },
-    { question: "What is eGFR?", answer: "Estimated Glomerular Filtration Rate (eGFR) measures how efficiently your kidneys filter blood and is one of the most important indicators of kidney health." },
-    { question: "Who should get a Kidney Function Test?", answer: "People with diabetes, high blood pressure, kidney stones, urinary infections, heart disease, a family history of kidney disease, or symptoms such as swelling, fatigue, or abnormal urination should consider Kidney Function Testing." },
-    { question: "Can kidney disease develop without symptoms?", answer: "Yes. Early kidney disease often develops silently, making routine Kidney Function Testing essential for early diagnosis." },
-    { question: "How often should Kidney Function Tests be performed?", answer: "The frequency depends on your age, medical history, and risk factors. Individuals with diabetes, hypertension, or chronic kidney disease usually require regular monitoring as advised by their doctor." },
-    { question: "Can I book a Kidney Function Test at home in Panchkula?", answer: "Yes. Shyam Pathology Lab offers convenient home blood sample collection for Kidney Function Testing in Panchkula and nearby areas." }
+    {
+      question: "What is the full form of KFT test?",
+      answer:
+        "KFT stands for Kidney Function Test. It is the same as RFT (Renal Function Test) or a kidney profile.",
+    },
+    {
+      question: "What does a KFT test include?",
+      answer:
+        "Blood urea, BUN, serum creatinine, eGFR, uric acid, and electrolytes such as sodium, potassium, and chloride. Some labs add calcium or phosphorus.",
+    },
+    {
+      question: "Are KFT and RFT the same?",
+      answer:
+        "Yes. Kidney Function Test and Renal Function Test are two names for the same set of blood tests.",
+    },
+    {
+      question: "How much KFT is normal?",
+      answer:
+        "Typical adult values are creatinine 0.7-1.3 mg/dL (men) or 0.6-1.1 mg/dL (women), urea 15-40 mg/dL, uric acid 3.5-7.2 mg/dL (men) or 2.6-6.0 mg/dL (women), and eGFR above 90.",
+    },
+    {
+      question: "What happens if KFT is high?",
+      answer:
+        "A high value can come from dehydration, diet, medicines, or kidney disease. Your doctor repeats the test and checks eGFR and urine tests before concluding.",
+    },
+    {
+      question: "Is 70% kidney function normal?",
+      answer:
+        "An eGFR of about 70 is mildly reduced and common with age. By itself it isn't kidney disease without other signs of damage, such as protein in the urine.",
+    },
+    {
+      question: "Can KFT detect kidney damage?",
+      answer:
+        "It shows reduced kidney function, but creatinine can stay normal in early damage, so a urine albumin test is often added, especially in diabetes or high blood pressure.",
+    },
+    {
+      question: "Can KFT detect kidney failure?",
+      answer:
+        "Yes. A high creatinine with a very low eGFR points to kidney failure, and your doctor will confirm and stage it.",
+    },
+    {
+      question: "Can KFT detect diabetes?",
+      answer:
+        "No. Diabetes is diagnosed with blood sugar or HbA1c. KFT shows whether diabetes is affecting your kidneys.",
+    },
+    {
+      question: "Can KFT detect kidney infection?",
+      answer:
+        "No. Kidney or urinary infection needs a urine routine test and urine culture, and a KFT can be normal.",
+    },
+    {
+      question: "Is uric acid included in KFT?",
+      answer:
+        "Yes, uric acid is part of the KFT at Shyam Labs.",
+    },
+    {
+      question: "Can I eat before a KFT test?",
+      answer:
+        "Yes, fasting is usually not needed. Avoid a large cooked-meat meal, protein or creatine supplements, and hard exercise beforehand.",
+    },
+    {
+      question: "What is the difference between KFT and LFT?",
+      answer:
+        "KFT checks kidney function and LFT checks liver function. They test different organs and are often ordered together.",
+    },
+    {
+      question: "What is the most accurate test for kidney function?",
+      answer:
+        "A directly measured GFR is the most accurate, but in practice doctors use eGFR from creatinine, sometimes with cystatin C, plus a urine albumin test.",
+    },
+    {
+      question: "How much does a KFT test cost?",
+      answer: `Our kidney function test is priced at ${getTestPrice('kidney-function-test')}, with same-day reports and free home sample collection available.`,
+    },
+    {
+      question: "Why is KFT done before a CT scan?",
+      answer:
+        "Contrast dye can strain the kidneys, so doctors check creatinine and eGFR first to make sure the scan is safe.",
+    },
   ],
+
   cta: {
-    title: "Book Your Kidney Function Test Today",
-    description: "Monitor your kidney health with accurate Kidney Function Testing, home sample collection, and fast reporting from Shyam Pathology Lab.",
-    buttonText: "Book Kidney Function Test",
+    title: "Book Kidney Function Test",
+    description: "Get accurate KFT testing with doorstep sample collection and same-day reports.",
+    buttonText: "Book Test Now",
     whatsappText: "Hi, I want to book a kidney function test.",
-    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"]
-  }
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/kidney-function-test",
+  },
 },
 {
   id: 11,
