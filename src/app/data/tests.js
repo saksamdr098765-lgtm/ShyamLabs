@@ -20,23 +20,302 @@ export const tests = [
   // =========================
   // HAEMATOLOGY
   // =========================
-  {
-    slug: "mp-antigen-test",
-    name: "MP Antigen Test",
-    shortName: "MP Antigen",
-    category: "Haematology",
-    organ: "Blood",
-    sampleType: "Blood",
-    parameterCount: 1,
-    fasting: false,
-    homeCollection: true,
-    popular: false,
+ {
+  slug: "mp-antigen-test",
+  name: "Malaria Antigen Test (MP Antigen)",
+  shortName: "MP Antigen",
+  category: "Haematology",
+  organ: "Blood",
+  sampleType: "Blood",
+  parameterCount: 2,
+  fasting: false,
+  homeCollection: true,
+  popular: true,
+
+  description:
+    "Malaria antigen test (MP test) detects Plasmodium vivax and falciparum parasite antigens in your blood for quick diagnosis of malaria.",
+
+  price: 150,
+  reportTime: "24 Hours",
+  status: "published",
+
+  seo: {
+    // 52 characters
+    title: "Malaria Test in Chandigarh - MP Antigen Test & Price",
+    // 121 characters
     description:
-      "Detects malaria parasite antigen for early diagnosis of malaria infection.",
-    price: 150,
-    reportTime: "24 Hours",
-    status:"draft"
+      "Book malaria test (MP antigen) in Chandigarh with home sample collection. Check malaria test price, results & report time.",
+    keywords: [
+      "malaria test",
+      "mp antigen test",
+      "malaria antigen test",
+      "mp test full form",
+      "malaria blood test",
+      "malaria test price",
+      "malaria test near me",
+      "malaria test chandigarh",
+      "malaria rapid test",
+      "malaria test at home",
+      "vivax and falciparum test",
+      "malaria parasite test",
+    ],
   },
+
+  hero: {
+    badge: "Home Sample Collection Available",
+
+    title: "Malaria Antigen Test (MP Test) in Chandigarh",
+
+    description:
+      "Book a Malaria Antigen Test in Chandigarh and the Tricity with fast report delivery, professional sample collection, and convenient doorstep home collection from Shyam Labs. Check the latest malaria test price and book online.",
+
+    image: "/tests/malaria.webp",
+
+    imageAlt: "Malaria Antigen Test (MP Test) for Vivax and Falciparum in Chandigarh",
+
+    reportTime: "24 Hours",
+
+    homeCollection: "Available",
+
+    trustPoints: [
+      "Professional Sample Collection",
+      "Digital Reports",
+      "Affordable Malaria Test Price",
+      "Quality-Controlled Testing",
+    ],
+
+    bookButton: "Book Malaria Test",
+
+    bookingUrl: "/prices/malaria-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+  },
+
+  quickFacts: {
+    sample: "Blood Sample",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    homeCollection: "Available",
+    ageGroup: "Adults & Children",
+  },
+
+  whyChooseUs: {
+    title: "Why Choose Shyam Labs for Your Malaria Test?",
+
+    description:
+      "Get a dependable malaria test in Chandigarh and the Tricity with easy booking, professional sample collection, convenient home collection, and quick access to your digital report.",
+
+    items: [
+      {
+        title: "Professional Sample Collection",
+        description:
+          "Every blood draw follows proper collection procedures for a comfortable, low-discomfort experience.",
+      },
+      {
+        title: "Standardised Testing Process",
+        description:
+          "Your malaria sample is analysed following standard laboratory protocols.",
+      },
+      {
+        title: "Fast Digital Reports",
+        description:
+          "Your malaria report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
+      },
+      {
+        title: "Home Collection Across Chandigarh & Tricity",
+        description:
+          "Book a malaria test with convenient home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+    ],
+  },
+
+  testDetails: {
+    title: "About the Malaria Antigen Test (MP Test)",
+
+    description: [
+      "MP stands for Malaria Parasite. The malaria antigen test is a rapid blood test that looks for proteins released by the malaria parasite, and it reports whether Plasmodium vivax or Plasmodium falciparum antigens are present. Malaria is spread by the bite of infected female Anopheles mosquitoes.",
+      "The antigen test gives a clear positive or negative answer and is useful for quick diagnosis. A negative result does not completely rule malaria out, especially if the test was done very early, so if fever with chills continues your doctor may repeat the test or advise a blood smear. A CBC is often added, since low platelets and anemia are common in malaria.",
+    ],
+
+    included: [
+      "Plasmodium vivax (P. vivax) Antigen",
+      "Plasmodium falciparum (P. falciparum) Antigen",
+    ],
+  },
+
+  preparation: {
+    title: "Preparation Before Your Malaria Test",
+
+    description:
+      "A malaria test needs no special preparation — here's what to keep in mind before your appointment.",
+
+    items: [
+      {
+        title: "Malaria Test Fasting Requirement",
+        description:
+          "Fasting is not required. You can eat and drink normally, and the test can be done at any time of day.",
+      },
+      {
+        title: "Test While You Have Fever",
+        description:
+          "Parasites are easiest to detect during or soon after a fever spike with chills. Don't wait for several days of fever before getting tested.",
+      },
+      {
+        title: "Tell Us About Antimalarial or Antibiotic Use",
+        description:
+          "If you have already taken antimalarial medicines, mention it, since treatment can make the result less reliable.",
+      },
+    ],
+  },
+
+  bookingProcess: {
+    title: "How to Book Your Malaria Test in Chandigarh",
+
+    description:
+      "Booking a malaria test with Shyam Labs takes just a few minutes, with convenient home sample collection available across Chandigarh and the Tricity.",
+
+    steps: [
+      {
+        title: "Book Test",
+        description:
+          "Select the Malaria Antigen Test and submit your booking request online or over a call.",
+      },
+      {
+        title: "Schedule Sample Collection",
+        description:
+          "Choose a convenient collection time and provide your Chandigarh or Tricity address.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is processed using standard laboratory procedures.",
+      },
+      {
+        title: "Receive Report",
+        description:
+          "Your digital malaria report is sent to you within 24 hours of collection.",
+      },
+    ],
+  },
+
+  pricePreview: {
+    title: "Malaria Test Price",
+
+    description:
+      "Check the latest malaria test price in Chandigarh and book with convenient home sample collection.",
+
+    price: 150,
+
+    priceUrl: "/prices/malaria-test-price-chandigarh",
+  },
+
+  relatedTests: [
+    "cbc-test",
+    "platelet-count",
+    "peripheral-blood-film",
+    "dengue-test",
+    "typhidot-test",
+    "widal-test",
+  ],
+
+  faq: {
+    title: "Frequently Asked Questions",
+
+    description:
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the malaria test, its results, and booking.",
+
+    items: [
+      {
+        question: "What is the full form of the MP test?",
+        answer:
+          "MP stands for Malaria Parasite. The MP test checks your blood for the malaria parasite or its antigens.",
+      },
+      {
+        question: "What is a malaria test, and what are the types?",
+        answer:
+          "It is a blood test that detects the malaria parasite. The main types are the rapid antigen (RDT) test, blood smear microscopy, QBC, and PCR.",
+      },
+      {
+        question: "What does the malaria antigen test detect?",
+        answer:
+          "It detects antigens of Plasmodium vivax and Plasmodium falciparum, the two main malaria species in India, and reports each as positive or negative.",
+      },
+      {
+        question: "What does a positive malaria test mean?",
+        answer:
+          "It means malaria parasite antigens were found, so you have a current infection. See a doctor the same day, because the species matters for choosing treatment.",
+      },
+      {
+        question: "What does a negative malaria test mean?",
+        answer:
+          "No malaria antigen was detected in that sample. A very early test or a low parasite count can still miss malaria, so if fever with chills continues your doctor may repeat the test.",
+      },
+      {
+        question: "What is the normal result of an MP test?",
+        answer:
+          "Normal is negative, meaning no parasite or antigen is detected.",
+      },
+      {
+        question: "What does ++ or +++ mean in a malaria test?",
+        answer:
+          "Those grades come from blood smear microscopy and estimate how many parasites are present — more plus signs mean a heavier infection. The rapid antigen test only reports positive or negative.",
+      },
+      {
+        question: "Can the malaria test be a false negative?",
+        answer:
+          "Yes. It can happen if the test is done too early, when parasite levels are low, after antimalarial treatment, or because of a technical issue. Repeating the test or adding a blood smear helps.",
+      },
+      {
+        question: "Can a CBC confirm malaria?",
+        answer:
+          "No. A CBC often shows low platelets and anemia in malaria, but only a malaria test confirms it.",
+      },
+      {
+        question: "Is fasting required for the malaria test?",
+        answer:
+          "No. You can eat and drink normally and have the test at any time of day.",
+      },
+      {
+        question: "How long does the malaria test take?",
+        answer:
+          "Rapid testing takes about 20-30 minutes at the lab, and the digital report is usually ready the same day or within 24 hours.",
+      },
+      {
+        question: "Is home sample collection available for the malaria test in Chandigarh?",
+        answer:
+          "Yes, Shyam Labs provides home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+      {
+        question: "What is the malaria test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current malaria test price and book online with home sample collection.",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Malaria Test in Chandigarh Today",
+
+    description:
+      "Get convenient home sample collection, reliable malaria testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+
+    highlights: [
+      "Home Sample Collection Available",
+      "Fast Report Delivery",
+      "Professional Collection Process",
+    ],
+
+    price: "150",
+
+    priceText: "Check detailed malaria test pricing and booking options.",
+
+    bookingUrl: "/prices/malaria-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+
+    buttonText: "Book Malaria Test",
+  },
+},
    {
     slug: "esr-test",
     name: "Erythrocyte Sedimentation Rate",

@@ -6023,6 +6023,248 @@ The KFT evaluates creatinine, urea, uric acid, eGFR, and electrolytes, giving do
 
   heroSubtitle:
     "Book your kidney function test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
+},
+{
+  id: 21,
+
+  slug: "malaria-test-in-chandigarh",
+
+  city: "Chandigarh",
+
+  state: "Chandigarh",
+
+  title: "Malaria Test in Chandigarh",
+
+  shortDescription:
+    "Looking for a malaria test in Chandigarh? Shyam Labs provides affordable and reliable MP antigen testing for vivax and falciparum malaria with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
+
+  coverImage: "/locations/chandigarh-malaria-test.jpeg",
+
+  hours: "07:00-20:00",
+
+  areas: ["Chandigarh", "Panchkula", "Mohali"],
+
+  services: ["home-sample-collection"],
+
+  seo: {
+    // 51 characters
+    title: "Malaria Test in Chandigarh | Home Sample Collection",
+    // 124 characters
+    description:
+      "Looking for a malaria test in Chandigarh? Shyam Labs offers MP antigen testing with home sample collection and fast reports.",
+    keywords: [
+      "Malaria Test in Chandigarh",
+      "MP Antigen Test Chandigarh",
+      "Malaria Blood Test Chandigarh",
+      "Malaria Rapid Test Chandigarh",
+      "Home Sample Collection Chandigarh",
+      "Fever Test Near Me Chandigarh",
+      "Malaria Test Price Chandigarh",
+      "Malaria Test Panchkula",
+      "Malaria Test Mohali",
+      "Malaria Test Tricity",
+    ],
+  },
+
+  overview: {
+    heading: "Affordable Malaria Testing & Home Sample Collection in Chandigarh",
+
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. A malaria test is commonly recommended when fever comes with shaking chills and sweating, particularly during the monsoon and post-monsoon months when mosquito-borne infections rise.
+
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+
+      `For people living or working in Chandigarh, home sample collection makes testing easier when you are unwell — schedule a collection at a suitable time and have your sample collected by a trained phlebotomist instead of travelling to a diagnostic centre with a fever.
+
+The malaria antigen (MP) test checks for Plasmodium vivax and falciparum antigens and gives a quick positive or negative answer. Doctors often add a CBC and platelet count, and may combine it with dengue and typhoid tests when the cause of fever is unclear.`,
+
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+
+    highlights: [
+      "Vivax & Falciparum Antigen Testing",
+      "Convenient Home Sample Collection",
+      "No Fasting Required",
+      "Fast Digital Reports",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+
+    test: [
+      "mp-antigen-test",
+      "cbc-test",
+      "platelet-count",
+      "dengue-test",
+      "typhidot-test",
+      "widal-test",
+      "peripheral-blood-film",
+      "liver-function-test",
+    ],
+  },
+
+  packages: [
+    "fever-panel-basic",
+    "fever-panel-advance",
+    "monsoon-gastro-infection-panel",
+    "health-checkup-camp",
+  ],
+
+  process: {
+    heading: "How to Get a Malaria Test in Chandigarh",
+
+    steps: [
+      {
+        title: "Book Your Test",
+        description:
+          "Book your malaria test online or contact Shyam Labs to arrange convenient sample collection in Chandigarh.",
+      },
+      {
+        title: "Schedule Home Collection",
+        description:
+          "Choose a convenient collection time — no fasting needed — and provide your Chandigarh address during booking.",
+      },
+      {
+        title: "Sample Collection",
+        description:
+          "A trained phlebotomist follows appropriate safety and hygiene procedures during the collection visit.",
+      },
+      {
+        title: "Receive Digital Report",
+        description:
+          "Get your malaria report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+
+  healthConditions: [
+    "Malaria Detection (Vivax & Falciparum)",
+    "Fever Evaluation (Malaria, Dengue, Typhoid)",
+    "Platelet & Anemia Monitoring",
+    "Seasonal Infection Screening",
+  ],
+
+  whoShouldGetTested: [
+    "Anyone with Fever and Shaking Chills",
+    "People with Fever, Sweating, Headache, and Body Ache",
+    "Children with Fever and Vomiting in Monsoon Season",
+    "Pregnant Women with Fever (as advised by a doctor)",
+    "People Who Recently Travelled to a Malaria-Prone Area",
+    "People with a Falling Platelet Count",
+  ],
+
+  popularSearches: [
+    "Malaria Test in Chandigarh",
+    "Malaria Test Price Chandigarh",
+    "Malaria Test Near Me",
+    "Home Sample Collection Chandigarh",
+    "MP Antigen Test in Chandigarh",
+    "Fever Test Near Me Chandigarh",
+    "Malaria Test Panchkula",
+    "Malaria Test Mohali",
+  ],
+
+  sections: [
+    {
+      title: "Malaria Testing Services in Chandigarh",
+      content: [
+        "Residents across Chandigarh can book malaria testing through Shyam Labs with convenient home sample collection where service coverage is available.",
+        "Our testing services are designed for families, working professionals, senior citizens, and patients who need a quick fever workup during mosquito season.",
+      ],
+    },
+    {
+      title: "Doorstep Blood Collection in Chandigarh",
+      content: [
+        "Our home sample collection service lets you schedule a malaria test from home without travelling to a diagnostic centre while you have a fever.",
+        "Trained phlebotomists follow appropriate safety and hygiene procedures during every collection visit.",
+      ],
+    },
+    {
+      title: "Why Choose Shyam Labs for Malaria Testing?",
+      content: [
+        "Affordable pricing, convenient sample collection, and digital reporting make Shyam Labs a convenient option for malaria testing across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+
+  faq: [
+    {
+      question: "Which areas around Chandigarh are covered for home sample collection?",
+      answer:
+        "Shyam Labs provides home sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+    {
+      question: "Can I book a malaria test online in Chandigarh?",
+      answer: "Yes, you can schedule your malaria test online or by phone and choose a convenient collection time.",
+    },
+    {
+      question: "What is the malaria test price in Chandigarh?",
+      answer: `The malaria antigen test is available at an offer price of ₹${getTestPrice('mp-antigen-test')}. Check the pricing page for current offers and booking details.`,
+    },
+    {
+      question: "Is fasting required before a malaria test?",
+      answer: "No, fasting is not required before a malaria test.",
+    },
+    {
+      question: "How quickly are malaria reports available in Chandigarh?",
+      answer: "Malaria reports are typically available digitally within 24 hours of sample collection.",
+    },
+    {
+      question: "Can children and senior citizens book a malaria test from home in Chandigarh?",
+      answer:
+        "Yes, home sample collection can be convenient for children, elderly patients, and anyone with fever who prefers to avoid travelling to a diagnostic centre, subject to service availability.",
+    },
+  ],
+
+  relatedLocations: [
+    { city: "Panchkula", slug: "/locations/malaria-test-in-panchkula" },
+    { city: "Mohali", slug: "/locations/malaria-test-in-mohali" },
+  ],
+
+  facts: [
+    { label: "Test Price", value: getTestPrice('mp-antigen-test') },
+    { label: "Report Time", value: "24 Hours" },
+    { label: "Collection Service", value: "Doorstep Sample Pickup" },
+    { label: "Report Delivery", value: "Online & WhatsApp Reports" },
+    { label: "Lab Location", value: "Sector 21, Panchkula" },
+  ],
+
+  tags: [
+    "Malaria Test Chandigarh",
+    "MP Antigen Test Chandigarh",
+    "Pathology Lab Chandigarh",
+    "Home Sample Collection Chandigarh",
+    "Fever Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "Malaria Test Panchkula",
+    "Malaria Test Mohali",
+    "Malaria Test Tricity",
+  ],
+
+  cta: {
+    title: "Book a Malaria Test in Chandigarh Today",
+
+    description:
+      "Schedule convenient home sample collection in Chandigarh and receive your malaria report digitally from Shyam Budget Friendly Labs.",
+
+    phone: "tel:+919914899300",
+
+    highlights: ["Home Sample Collection", "Affordable Malaria Testing", "Fast Digital Reports"],
+  },
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/chandigarh-malaria-test.jpeg",
+
+  heroTitle: "Affordable Malaria Testing & Home Sample Collection in Chandigarh",
+
+  heroSubtitle:
+    "Book your malaria test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
 }
 ];
 

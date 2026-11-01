@@ -5122,153 +5122,564 @@ export const blogs = [
 },
 {
   id: 11,
+
   slug: "malaria-test-symptoms-treatment-guide",
-  title: "Malaria Test Guide: Symptoms, Causes, Diagnosis, Treatment & Prevention",
-  excerpt: "Learn about malaria symptoms, causes, diagnosis, blood tests, treatment, prevention, complications, and malaria testing in Panchkula.",
+
+  title: "Malaria Test: MP Test, Results, Symptoms & Price",
+
+  excerpt:
+    "Malaria test explained: MP test full form, types of malaria test, how to read results, symptoms, warning signs, treatment, and price.",
+
   category: "Health Tips",
+
   author: {
     name: SITE_CONFIG.fullName,
     image: SITE_CONFIG.logo,
   },
-  publishedAt: "July 11, 2026",
-  readingTime: "11 min read",
-  coverImage: "/blogs/malaria-test.webp",
-  featured: false,
-  relatedPackages: [],
-  relatedTests: [], // ✅ emptied per request
+
+  publishedAt: "October 30, 2026",
+
+  readingTime: "13 min read",
+
+  coverImage: "/blogs/malaria-test-guide.webp",
+
+  featured: true,
+
+  relatedPackages: [
+    "fever-panel-basic",
+    "fever-panel-advance",
+    "monsoon-gastro-infection-panel",
+    "health-checkup-camp",
+  ],
+
+  relatedTests: [
+    "mp-antigen-test",
+    "cbc-test",
+    "platelet-count",
+    "peripheral-blood-film",
+    "dengue-test",
+    "typhidot-test",
+    "widal-test",
+  ],
+
   seo: {
-    title: "Malaria Test Guide | Symptoms, Blood Test & Treatment",
-    description: "Know malaria symptoms, mosquito transmission, malaria blood tests, diagnosis, treatment, prevention, and home sample collection in Panchkula.",
+    // 48 characters
+    title: "Malaria Test: MP Test, Results, Symptoms & Price",
+    // 125 characters
+    description:
+      "Malaria test guide: MP test full form, types of test, how to read results (+, ++), symptoms, treatment & price in Chandigarh.",
     keywords: [
-      "Malaria Test", "Malaria Blood Test", "Malaria Symptoms", "Malaria Parasite Test",
-      "Rapid Malaria Test", "MP Test", "Malaria Diagnosis", "Malaria Treatment",
-      "Malaria Prevention", "Malaria Test Near Me", "Malaria Test in Panchkula",
-      "Fever Blood Test", "Mosquito Borne Disease", "Plasmodium Infection",
-      "Peripheral Smear Malaria", "Best Pathology Lab for Malaria Test"
-    ]
+      "malaria test",
+      "mp test full form",
+      "mp antigen test",
+      "malaria antigen test",
+      "malaria rapid test",
+      "thick and thin smear malaria",
+      "malaria fever symptoms",
+      "malaria fever pattern",
+      "vivax malaria relapse",
+      "malaria vs dengue",
+      "malaria test price",
+      "malaria test in Chandigarh",
+      "pathology lab near me",
+      "diagnostic lab near me",
+      "blood test home sample collection",
+    ],
   },
+
   quickInfo: {
-    "What You Will Learn": "Malaria Test",
+    "What You Will Learn": "Malaria Test (MP Antigen)",
+    price: getTestPrice('mp-antigen-test'),
     sample: "Blood",
     fasting: "Not Required",
     reportTime: "Same Day",
     homeCollection: "Available",
-    recommendedFor: "High Fever, Chills, Sweating, Headache, Body Pain, Muscle Pain, Fatigue, Vomiting, Nausea, Loss of Appetite, Abdominal Pain, Weakness",
-    booking: "Online / Phone / WhatsApp"
+    recommendedFor: "Fever with Chills, Sweating, Headache, Body Ache, Fever in Monsoon Season",
+    booking: "Online / Phone / WhatsApp",
   },
+
   tags: [
-    "Malaria", "Malaria Test", "Malaria Blood Test", "Rapid Malaria Test", "MP Test",
-    "Peripheral Smear", "Mosquito Disease", "Fever Test", "Blood Test", "Diagnostic Lab",
-    "Pathology Lab", "Malaria Test Panchkula", "Malaria Test Chandigarh", "Malaria Test Mohali",
-    "Malaria Test Zirakpur", "Home Sample Collection", "Same Day Report", "Monsoon Diseases",
-    "Infectious Diseases", "Healthcare"
+    "Malaria Test",
+    "MP Test",
+    "MP Antigen Test",
+    "Malaria Antigen Test",
+    "Malaria Rapid Test",
+    "Malaria Symptoms",
+    "Vivax Malaria",
+    "Falciparum Malaria",
+    "Fever Blood Test",
+    "Monsoon Diseases",
+    "Blood Tests",
+    "Malaria Test in Chandigarh",
+    "Malaria Test in Panchkula",
+    "Home Sample Collection",
+    "Pathology Lab",
+    "Same Day Report",
   ],
+
   content: [
-    { type: "heading", level: 2, text: "What Is Malaria?" },
-    { type: "paragraph", text: "Malaria is a serious mosquito-borne infectious disease caused by Plasmodium parasites. Humans become infected when bitten by an infected female Anopheles mosquito carrying the parasite." },
-    { type: "paragraph", text: "Once inside the body, the parasite first infects the liver and then enters the bloodstream, where it destroys red blood cells. This leads to symptoms such as fever, chills, sweating, headache, fatigue, and body aches." },
-    { type: "paragraph", text: "Malaria remains one of the most common infectious diseases in tropical and subtropical countries, including India. During the monsoon season, the number of malaria cases usually increases because stagnant water provides ideal breeding grounds for mosquitoes." },
-    { type: "paragraph", text: "Early diagnosis using a Malaria Blood Test is extremely important because prompt treatment prevents severe complications such as cerebral malaria, anemia, kidney failure, breathing problems, and multi-organ damage." },
-    { type: "paragraph", text: "If you experience recurrent fever with chills—especially during or after the rainy season—you should consult a healthcare professional and undergo malaria testing as soon as possible." },
-    { type: "heading", level: 2, text: "How Does Malaria Spread?" },
-    { type: "paragraph", text: "Malaria spreads primarily through the bite of an infected female Anopheles mosquito." },
-    { type: "paragraph", text: "When the mosquito bites a person, Plasmodium parasites enter the bloodstream and travel to the liver, where they multiply before infecting red blood cells." },
-    { type: "paragraph", text: "Malaria does not usually spread through casual contact such as shaking hands, sharing food, coughing, or sneezing." },
-    { type: "paragraph", text: "In rare situations, malaria may also spread through infected blood transfusions, organ transplantation, contaminated needles, or from a pregnant mother to her baby." },
-    { type: "paragraph", text: "Mosquitoes breed in stagnant water found around homes, construction sites, open containers, coolers, and drains. Eliminating mosquito breeding sites is one of the most effective ways to reduce malaria transmission." },
-    { type: "paragraph", text: "Using mosquito nets, insect repellents, wearing full-sleeved clothing, and keeping surroundings clean are simple but highly effective preventive measures." },
-    { type: "heading", level: 2, text: "Types of Malaria" },
-    { type: "paragraph", text: "Malaria is caused by different species of the Plasmodium parasite. Although all types affect the red blood cells, some are more severe than others." },
-    { type: "paragraph", text: "The five species known to infect humans include:" },
-    { type: "list", items: ["Plasmodium falciparum – The most dangerous form of malaria. It can rapidly cause severe illness, cerebral malaria, organ failure, and even death if not treated promptly."] },
-    { type: "list", items: ["Plasmodium vivax – The most common cause of malaria in India. It generally causes less severe disease than P. falciparum but has the ability to remain dormant in the liver, leading to relapses months after the initial infection."] },
-    { type: "list", items: ["Plasmodium malariae – A less common species that may cause prolonged, mild infections lasting for several years if left untreated."] },
-    { type: "list", items: ["Plasmodium ovale – Found mainly in parts of Africa and capable of causing relapsing malaria due to dormant liver stages."] },
-    { type: "list", items: ["Plasmodium knowlesi – Primarily infects monkeys but can occasionally infect humans in certain parts of Southeast Asia. It can progress rapidly and requires prompt diagnosis."] },
-    { type: "paragraph", text: "Identifying the specific Plasmodium species helps doctors select the most effective treatment and determine the likelihood of recurrence or complications." },
-    { type: "paragraph", text: "Modern diagnostic laboratories use Rapid Malaria Antigen Tests along with Peripheral Blood Smear Examination to accurately identify malaria parasites." },
-    { type: "heading", level: 2, text: "Symptoms of Malaria" },
-    { type: "paragraph", text: "Malaria symptoms usually develop between 7 and 30 days after being bitten by an infected mosquito, although the incubation period may vary depending on the parasite species." },
-    { type: "paragraph", text: "The classic symptom of malaria is a recurring cycle of chills, high fever, and heavy sweating. However, symptoms can differ from person to person." },
-    { type: "paragraph", text: "Common symptoms include:" },
-    { type: "list", items: ["High fever that may come and go", "Severe chills and shivering", "Excessive sweating", "Headache", "Muscle pain", "Joint pain", "Weakness and fatigue", "Nausea and vomiting", "Loss of appetite", "Abdominal pain", "Diarrhea in some patients", "Rapid heartbeat", "Pale skin due to anemia"] },
-    { type: "paragraph", text: "Severe malaria may present with:" },
-    { type: "list", items: ["Difficulty breathing", "Confusion", "Seizures", "Unconsciousness", "Jaundice", "Kidney failure", "Severe anemia", "Low blood pressure", "Bleeding disorders"] },
-    { type: "paragraph", text: "Children, elderly individuals, pregnant women, and people with weakened immune systems are at greater risk of developing severe malaria." },
-    { type: "paragraph", text: "Anyone experiencing high fever with chills, particularly during the rainy season or after traveling to a malaria-prone area, should seek immediate medical attention and undergo malaria testing." },
-    { type: "heading", level: 2, text: "When Should You Get a Malaria Test?" },
-    { type: "paragraph", text: "Early diagnosis is one of the most important factors in preventing serious complications from malaria." },
-    { type: "paragraph", text: "Doctors recommend a Malaria Blood Test if you experience:" },
-    { type: "list", items: ["Fever with chills", "Fever occurring every 48–72 hours", "Persistent headache with body pain", "Fever after mosquito exposure", "Fever after visiting a malaria-endemic region", "Unexplained fatigue", "Vomiting with fever", "Sudden weakness", "Low platelet count detected on a CBC", "Symptoms that resemble dengue or typhoid"] },
-    { type: "paragraph", text: "Malaria shares many symptoms with dengue, typhoid, viral fever, influenza, and COVID-19. Because these illnesses require different treatments, laboratory confirmation is essential." },
-    { type: "paragraph", text: "Doctors often recommend a combination of investigations such as:" },
-    { type: "list", items: ["Malaria Parasite Test", "Rapid Malaria Antigen Test", "Complete Blood Count (CBC)", "Dengue NS1 Antigen Test", "Typhoid Test"] },
-    { type: "paragraph", text: "Prompt testing allows treatment to begin before the infection progresses to severe malaria or causes complications affecting the brain, kidneys, liver, or lungs." },
-    { type: "heading", level: 2, text: "Malaria Blood Tests" },
-    { type: "paragraph", text: "Several laboratory tests are available to diagnose malaria accurately." },
-    { type: "paragraph", text: "The most commonly used tests include:" },
-    { type: "paragraph", text: "• Rapid Malaria Antigen Test (RMAT) This test detects malaria-specific proteins in the blood and produces results within a short time. It is widely used for rapid diagnosis." },
-    { type: "paragraph", text: "• Peripheral Blood Smear Examination A laboratory specialist examines blood under a microscope to identify malaria parasites and determine the Plasmodium species responsible for infection. It remains the gold standard for malaria diagnosis." },
-    { type: "paragraph", text: "• Complete Blood Count (CBC) Although CBC cannot diagnose malaria directly, it often reveals low platelet count, anemia, and reduced white blood cell counts that support the diagnosis." },
-    { type: "paragraph", text: "• Polymerase Chain Reaction (PCR) PCR testing is highly sensitive and can detect very small amounts of parasite DNA. It is generally reserved for specialized laboratories." },
-    { type: "paragraph", text: "• Quantitative Buffy Coat (QBC) Test Some laboratories use QBC technology for faster microscopic detection of malaria parasites." },
-    { type: "paragraph", text: "Doctors may recommend repeating the malaria test if symptoms strongly suggest malaria but the initial report is negative, since parasite levels may be too low to detect during the early stage of infection." },
-    { type: "paragraph", text: "Early laboratory confirmation enables faster treatment and greatly improves recovery outcomes." },
-    { type: "heading", level: 2, text: "Difference Between Malaria, Dengue & Typhoid" },
-    { type: "paragraph", text: "Malaria, dengue, and typhoid are among the most common causes of fever in India, particularly during the monsoon season. Since their early symptoms are often similar, it is difficult to distinguish between them without laboratory testing." },
-    { type: "paragraph", text: "Although all three illnesses may cause fever, body aches, weakness, and headache, they are caused by completely different organisms and require different treatments." },
-    { type: "paragraph", text: "Malaria is caused by Plasmodium parasites and spreads through the bite of infected female Anopheles mosquitoes." },
-    { type: "paragraph", text: "Dengue is caused by the Dengue virus and spreads through Aedes mosquitoes that usually bite during the daytime." },
-    { type: "paragraph", text: "Typhoid is caused by the bacterium Salmonella Typhi and spreads through contaminated food and drinking water." },
-    { type: "paragraph", text: "Some key differences include:" },
-    { type: "list", items: ["Malaria commonly causes recurring fever with chills, shivering, and heavy sweating."] },
-    { type: "list", items: ["Dengue often presents with sudden high fever, severe headache, pain behind the eyes, muscle pain, skin rash, and a significant drop in platelet count."] },
-    { type: "list", items: ["Typhoid usually causes gradually increasing fever, abdominal pain, constipation or diarrhea, weakness, and loss of appetite."] },
-    { type: "paragraph", text: "Doctors often recommend a combination of investigations such as CBC, Malaria Parasite Test, Dengue NS1 Antigen Test, Dengue IgM/IgG Antibody Test, and Typhoid Test (Widal or TyphiDot) to identify the exact cause of fever." },
-    { type: "paragraph", text: "Accurate diagnosis ensures appropriate treatment and prevents unnecessary medications or delayed care." },
-    { type: "heading", level: 2, text: "Treatment for Malaria" },
-    { type: "paragraph", text: "Malaria is a treatable disease when diagnosed early." },
-    { type: "paragraph", text: "Treatment depends on several factors, including the Plasmodium species, severity of infection, patient age, pregnancy status, and local treatment guidelines." },
-    { type: "paragraph", text: "Doctors usually prescribe antimalarial medications that effectively eliminate the parasite from the bloodstream. In some cases, additional medicines may be required to prevent relapse, especially for Plasmodium vivax infections." },
-    { type: "paragraph", text: "Supportive treatment may include:" },
-    { type: "list", items: ["Adequate hydration", "Medicines to reduce fever", "Rest", "Nutritional support", "Monitoring blood counts", "Hospitalization for severe malaria"] },
-    { type: "paragraph", text: "Patients with severe malaria may require intravenous medications, oxygen therapy, blood transfusion, kidney support, or intensive care monitoring." },
-    { type: "paragraph", text: "It is extremely important to complete the full course of prescribed medication even if symptoms improve within a few days." },
-    { type: "paragraph", text: "Self-medication should be avoided because incorrect treatment may lead to drug resistance, treatment failure, or serious complications." },
-    { type: "paragraph", text: "Anyone experiencing worsening symptoms such as confusion, breathing difficulty, seizures, persistent vomiting, or reduced urine output should seek emergency medical attention immediately." },
-    { type: "heading", level: 2, text: "How Can Malaria Be Prevented?" },
-    { type: "paragraph", text: "Preventing mosquito bites remains the most effective way to reduce the risk of malaria." },
-    { type: "paragraph", text: "Simple preventive measures include:" },
-    { type: "list", items: ["Sleep under mosquito nets, especially during the rainy season.", "Apply mosquito repellents to exposed skin.", "Wear full-sleeved clothing and long trousers in the evening and at night.", "Install mosquito screens on doors and windows.", "Remove stagnant water from coolers, flower pots, buckets, old tyres, and water tanks.", "Keep water storage containers properly covered.", "Maintain clean surroundings to prevent mosquito breeding.", "Use mosquito coils, vaporizers, or insecticide sprays where appropriate.", "Seek early medical evaluation for any unexplained fever."] },
-    { type: "paragraph", text: "Travellers visiting malaria-endemic regions may also require preventive antimalarial medicines based on medical advice." },
-    { type: "paragraph", text: "Community awareness, mosquito control measures, and prompt diagnosis remain essential for reducing malaria transmission and protecting public health." },
-    { type: "heading", level: 2, text: "Malaria Testing in Panchkula" },
-    { type: "paragraph", text: "Shyam Pathology Lab offers accurate and reliable Malaria Blood Testing in Panchkula with fast reporting and convenient home sample collection." },
-    { type: "paragraph", text: "Our experienced laboratory team performs malaria investigations using modern diagnostic methods to ensure dependable results for patients and healthcare professionals." },
-    { type: "paragraph", text: "We provide:" },
-    { type: "list", items: ["Rapid Malaria Antigen Test", "Malaria Parasite (MP) Test", "Peripheral Blood Smear Examination", "Complete Blood Count (CBC)", "Platelet Count", "Dengue & Typhoid Fever Panels", "Home Blood Sample Collection", "Same-Day Reports for most routine investigations"] },
-    { type: "paragraph", text: "Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Pinjore, Kalka, Karimpur, and nearby areas can conveniently book malaria testing from home." },
-    { type: "paragraph", text: "During the monsoon season, timely diagnosis becomes especially important because malaria cases often increase. Early testing allows prompt treatment and significantly reduces the risk of severe complications." },
-    { type: "paragraph", text: "If you develop fever with chills, body pain, or excessive sweating, consult a healthcare professional and consider getting a Malaria Blood Test without delay." }
-    // ✅ interlinking block removed
+    {
+      type: "paragraph",
+      text: "Fever with shaking chills and heavy sweating, especially in the monsoon months, is the classic reason to test for malaria. This guide explains the MP test, the different types of malaria test, how to read the result (including what ++ and +++ mean), and the symptoms and warning signs that need urgent care.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is a Malaria Test? (MP Test Full Form)",
+    },
+    {
+      type: "paragraph",
+      text: "A malaria test is a blood test that checks for the malaria parasite, called Plasmodium, which spreads through the bite of infected female Anopheles mosquitoes. MP stands for Malaria Parasite, so the 'MP test' simply means a test for malaria parasites in your blood.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Types of Malaria Test",
+    },
+    {
+      type: "list",
+      items: [
+        "Rapid antigen test (RDT, also called the MP antigen test) — detects parasite proteins in about 20-30 minutes",
+        "Peripheral blood smear — thick and thin films examined under a microscope; the traditional standard",
+        "QBC (quantitative buffy coat) test — a fluorescent-dye microscopy method that is quick to read",
+        "PCR — detects the parasite's genetic material; the most sensitive and can identify the species, but is lab-based and used in selected cases",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is the MP Antigen Test (Rapid Diagnostic Test)?",
+    },
+    {
+      type: "paragraph",
+      text: "The MP antigen test uses a small blood sample on a test card to look for antigens made by the parasite. It usually reports Plasmodium falciparum and Plasmodium vivax separately as positive or negative, which matters because they are treated differently. It is quick and widely used, but it only gives a yes-or-no answer and does not count parasites.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Thick and Thin Smear: What They Show",
+    },
+    {
+      type: "paragraph",
+      text: "On a blood smear, the thick film makes it easier to spot parasites at low numbers, while the thin film shows the parasite's shape so the species can be identified and the share of infected red cells counted. Microscopy is also what produces the +, ++, +++ grading, but it depends on the skill of the person reading the slide.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Which Test Is Best for Malaria? Which Test Confirms It?",
+    },
+    {
+      type: "paragraph",
+      text: "No single test is best in every situation. The rapid antigen test is fast and convenient for first diagnosis. Microscopy confirms the species and parasite load, and PCR is the most sensitive when results are unclear. If your antigen test is negative but fever with chills continues, your doctor may repeat it or add a smear rather than assume it is not malaria.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "When Should You Get a Malaria Test? Best Time and Days of Fever",
+    },
+    {
+      type: "paragraph",
+      text: "Unlike dengue or typhoid, malaria testing is not tied to a particular day of fever. Test as soon as you have fever with chills, ideally during or just after a fever spike, when parasites are easiest to detect. Don't wait for several days of fever, and if the first test is negative while symptoms continue, repeat it after 12-24 hours.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How to Read a Malaria Test Report",
+    },
+    {
+      type: "list",
+      items: [
+        "Antigen (RDT) report: Plasmodium vivax and Plasmodium falciparum are each shown as positive or negative",
+        "Smear report: 'parasites seen' or 'not seen', with the species and a parasite grade",
+        "Negative or 'MP not detected': no parasite found in that sample",
+        "Positive: a current infection — see a doctor the same day",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Does ++ or +++ Mean in a Malaria Report?",
+    },
+    {
+      type: "paragraph",
+      text: "On a smear, plus signs estimate parasite density: + means 1-10 parasites per 100 microscope fields, ++ means 11-100 per 100 fields, +++ means 1-10 per field, and ++++ means more than 10 per field. More plus signs mean a heavier infection and higher risk, especially with falciparum. How serious it is also depends on the species, your symptoms, and whether you are pregnant or a child, so any positive result needs prompt treatment.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is the Normal Range for an MP Test?",
+    },
+    {
+      type: "paragraph",
+      text: "There is no numeric range. A normal result is negative: no malaria parasite or antigen detected.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can a Malaria Test Be a False Negative?",
+    },
+    {
+      type: "paragraph",
+      text: "Yes. Reasons include testing too early, very low parasite levels, antimalarial medicines taken before the test, and technical errors. Rapid tests can also stay positive for a while after treatment, so a positive result soon after treatment doesn't always mean a new infection. If symptoms persist after a negative result, repeat testing or smear microscopy is the safer step.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can a CBC Confirm Malaria? Platelet Count in Malaria",
+    },
+    {
+      type: "paragraph",
+      text: "A CBC cannot confirm malaria. It often shows low platelets, anemia, and sometimes a low white cell count, all of which fit malaria but also fit dengue and other fevers. Low platelets are common and usually recover after treatment, but a CBC is useful for monitoring, so it is commonly added to a fever workup.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Malaria Fever Symptoms (Adults, Children, and Early Signs)",
+    },
+    {
+      type: "list",
+      items: [
+        "Fever with shaking chills",
+        "Heavy sweating as the fever falls",
+        "Headache",
+        "Body and muscle ache",
+        "Nausea and vomiting",
+        "Weakness and tiredness",
+        "Pale skin from anemia",
+        "In children: fever with vomiting, irritability, poor feeding, or drowsiness",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Malaria Fever Pattern and Stages of an Attack",
+    },
+    {
+      type: "paragraph",
+      text: "A typical malaria attack has three stages: a cold stage with chills and shivering, a hot stage with a high fever and headache, and a sweating stage as the temperature falls and you feel exhausted. In some types the attack repeats every 2 days, and in others every 3 days, but falciparum malaria often causes an irregular or continuous fever, so a missing pattern doesn't rule malaria out.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Malaria Incubation Period and How Long the Fever Lasts",
+    },
+    {
+      type: "paragraph",
+      text: "Symptoms usually start about 7-30 days after an infectious bite, depending on the species. Without treatment, attacks keep recurring for days to weeks, while with proper antimalarial treatment the fever usually settles within 2-3 days.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Vivax vs Falciparum Malaria, Relapse, and Cerebral Malaria",
+    },
+    {
+      type: "list",
+      items: [
+        "Plasmodium vivax: common in India; usually less severe, but can relapse weeks or months later because dormant forms stay in the liver",
+        "Plasmodium falciparum: the more dangerous species; can progress quickly to severe disease",
+        "Vivax relapse: prevented with a full radical-cure course prescribed by a doctor, usually after a G6PD test",
+        "Cerebral malaria: falciparum infection affecting the brain, causing confusion, seizures, or loss of consciousness — a medical emergency",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Malaria Complications",
+    },
+    {
+      type: "paragraph",
+      text: "Untreated or delayed falciparum malaria can cause severe anemia, cerebral malaria, kidney failure, breathing difficulty, jaundice, very low blood sugar, and shock. Early testing and prompt treatment are what prevent these.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "7 Warning Signs of Malaria: When to Go to Hospital",
+    },
+    {
+      type: "list",
+      items: [
+        "Confusion, extreme drowsiness, or fainting",
+        "Seizures",
+        "Fast or difficult breathing",
+        "Repeated vomiting and inability to keep fluids down",
+        "Yellow eyes or skin (jaundice)",
+        "Very little or very dark urine",
+        "Bleeding, severe weakness, or being too weak to sit or stand",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Any of these needs immediate hospital care, with or without a test result.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Malaria vs Dengue vs Typhoid vs Viral Fever",
+    },
+    {
+      type: "list",
+      items: [
+        "Malaria: fever with chills and shaking, often followed by heavy sweating, sometimes in cycles",
+        "Dengue: sudden high fever, severe body ache, pain behind the eyes, rash, and falling platelets",
+        "Typhoid: fever that climbs gradually over days, with stomach upset and weakness",
+        "Viral fever: milder, short, often with cold and cough",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "They overlap and can occur together in the monsoon, so doctors confirm with a malaria test, dengue NS1 and IgM, and a Typhidot or Widal test rather than relying on symptoms alone.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Malaria Treatment, and Is Malaria 100% Curable?",
+    },
+    {
+      type: "paragraph",
+      text: "Malaria is curable with the right antimalarial medicine started early. The drug depends on the species, how severe the illness is, and whether you are pregnant, so it must be prescribed by a doctor, and severe malaria needs hospital treatment with injectable medicine. Never self-medicate, and complete the full course, including the radical-cure course for vivax, to prevent relapse. Falciparum malaria can be fatal if treatment is delayed.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Happens If the Malaria Test Is Positive?",
+    },
+    {
+      type: "paragraph",
+      text: "See a doctor the same day with your report. They will identify the species, assess how sick you are, start the matching treatment, and may order a CBC and other tests. Take every dose as prescribed, even after the fever stops.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Malaria Recovery Time",
+    },
+    {
+      type: "paragraph",
+      text: "Fever usually settles within 2-3 days of effective treatment, but tiredness and weakness can last a week or two. Recovery from anemia and a low platelet count takes a little longer, and vivax needs the full follow-up course to stay relapse-free.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Malaria Diet: What to Eat",
+    },
+    {
+      type: "paragraph",
+      text: "Eat light, easily digestible food and drink plenty of fluids such as ORS, coconut water, soups, and boiled water. Khichdi, dal-rice, banana, curd, and cooked vegetables are gentle choices, and eggs, pulses, and iron-rich foods help rebuild strength and blood once you are recovering. Avoid oily, spicy food and alcohol until you are better.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Malaria Mosquito, Season in India, and Prevention",
+    },
+    {
+      type: "paragraph",
+      text: "Malaria is spread by female Anopheles mosquitoes, which bite mainly from dusk to dawn and breed in stagnant water such as puddles, ponds, and waterlogged areas. In India, cases rise during and after the monsoon, roughly from July to November. Reduce risk by clearing standing water, sleeping under a net, using repellents, wearing full sleeves in the evening, fitting window screens, and asking your doctor about preventive medicines before travelling to high-risk areas.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Malaria Test in Pregnancy and for Children",
+    },
+    {
+      type: "paragraph",
+      text: "Malaria in pregnancy raises the risk of severe anemia, miscarriage, and low birth weight, so a pregnant woman with fever should be tested promptly and treated with medicines the doctor knows are safe in pregnancy. Children can become seriously ill faster, and their symptoms can be vague, so fever with vomiting, drowsiness, or poor feeding in malaria season should be tested without delay.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is Fasting Required? Can I Test for Malaria at Home?",
+    },
+    {
+      type: "paragraph",
+      text: "No fasting or preparation is needed. Symptoms and home self-test kits can't reliably confirm malaria, but you can book home sample collection — a phlebotomist collects the blood at your doorstep and the test is done at the lab, with the report usually ready the same day.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Malaria Test Price and Report Time",
+    },
+    {
+      type: "paragraph",
+      text: `Our malaria antigen test is priced at ${getTestPrice('mp-antigen-test')}, with same-day reports and free home sample collection available. A CBC and platelet count are separate tests that doctors commonly add.`,
+    },
+    {
+      type: "interlinking",
+      title: "Malaria Test Services & Pricing",
+      description:
+        "Explore malaria test details, pricing, and convenient home sample collection services.",
+      items: [
+        {
+          title: "Malaria Test Price",
+          description:
+            "Check the latest malaria test price and available home sample collection options.",
+          href: "/prices/malaria-test-price-chandigarh",
+        },
+        {
+          title: "Malaria Test Details",
+          description:
+            "Learn about the malaria antigen test, what it detects, sample requirements, and preparation.",
+          href: "/tests/mp-antigen-test",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Malaria Test in Panchkula, Chandigarh & Nearby Areas",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Budget Friendly Labs provides accurate malaria testing with convenient home blood sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+    {
+      type: "interlinking",
+      title: "Malaria Test — Areas We Serve",
+      description:
+        "We provide malaria testing with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "Malaria test with home sample collection.",
+          href: "/locations/malaria-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "Malaria test and diagnostic services with home collection.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "Malaria test with same-day report and home collection.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "Malaria test and pathology services.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Key Takeaways",
+    },
+    {
+      type: "list",
+      items: [
+        "MP stands for Malaria Parasite; the MP antigen test reports vivax and falciparum as positive or negative",
+        "Test as soon as you have fever with chills — there is no waiting period like dengue or typhoid, and repeat if negative but fever continues",
+        "The +, ++, +++ grades come from smear microscopy and show parasite density, not the antigen test",
+        "A CBC cannot confirm malaria, though low platelets and anemia are common",
+        "Malaria is curable with prompt, doctor-prescribed treatment; confusion, seizures, breathing trouble, or repeated vomiting need hospital care",
+      ],
+    },
+    {
+      type: "references",
+      items: [
+        {
+          title: "Malaria",
+          publisher: "World Health Organization",
+          url: "https://www.who.int/news-room/fact-sheets/detail/malaria",
+        },
+        {
+          title: "About Malaria",
+          publisher: "CDC",
+          url: "https://www.cdc.gov/malaria/about/index.html",
+        },
+        {
+          title: "Malaria",
+          publisher: "MedlinePlus",
+          url: "https://medlineplus.gov/malaria.html",
+        },
+      ],
+    },
   ],
+
   faq: [
-    { question: "What is a Malaria Test?", answer: "A Malaria Test is a blood test used to detect Plasmodium parasites or malaria antigens in the bloodstream for accurate diagnosis." },
-    { question: "How is malaria diagnosed?", answer: "Malaria is diagnosed using Rapid Malaria Antigen Tests, Peripheral Blood Smear Examination, and other laboratory investigations recommended by your doctor." },
-    { question: "Can malaria be cured completely?", answer: "Yes. Most malaria infections can be treated successfully when diagnosed early and managed with appropriate antimalarial medicines." },
-    { question: "Is fasting required before a malaria blood test?", answer: "No. Fasting is generally not required before a Malaria Blood Test." },
-    { question: "Can malaria and dengue occur together?", answer: "Yes. Although uncommon, a person may be infected with both malaria and dengue simultaneously, making laboratory testing extremely important." },
-    { question: "How long does a malaria test take?", answer: "Rapid Malaria Tests provide results quickly, while microscopic examination and confirmatory investigations may take a few hours depending on the laboratory." },
-    { question: "When should I get tested for malaria?", answer: "Anyone experiencing fever with chills, sweating, headache, or body aches—especially during the rainy season or after mosquito exposure—should consult a doctor and consider malaria testing." },
-    { question: "Can I book a Malaria Test at home in Panchkula?", answer: "Yes. Shyam Pathology Lab provides home blood sample collection for Malaria Testing across Panchkula, Chandigarh, Mohali, Zirakpur, and nearby areas." }
+    {
+      question: "What is the full form of the MP test?",
+      answer:
+        "MP stands for Malaria Parasite. The MP test checks your blood for the malaria parasite or its antigens.",
+    },
+    {
+      question: "What are the types of malaria test?",
+      answer:
+        "The rapid antigen test (RDT), blood smear microscopy (thick and thin film), QBC, and PCR.",
+    },
+    {
+      question: "Which test confirms malaria?",
+      answer:
+        "A positive rapid antigen test, a blood smear showing parasites, or PCR. A CBC cannot confirm malaria.",
+    },
+    {
+      question: "What is a positive malaria test?",
+      answer:
+        "It means malaria parasites or their antigens were found, so you have a current infection. See a doctor the same day, because the species decides the treatment.",
+    },
+    {
+      question: "What does ++ mean in a malaria test?",
+      answer:
+        "It is a smear grade showing a moderate parasite load, about 11-100 parasites per 100 microscope fields. More plus signs mean a heavier infection.",
+    },
+    {
+      question: "Is malaria +++ serious?",
+      answer:
+        "+++ means a high parasite density, which raises risk, especially with falciparum. Any positive result needs prompt treatment, and you should seek care urgently if you have warning signs.",
+    },
+    {
+      question: "What is the normal range for an MP test?",
+      answer:
+        "There is no numeric range. A normal result is negative, meaning no parasite or antigen detected.",
+    },
+    {
+      question: "What does a negative malaria test mean?",
+      answer:
+        "No malaria was detected in that sample. It can still be a false negative if done too early or with a low parasite count, so repeat testing if fever and chills continue.",
+    },
+    {
+      question: "Can a CBC confirm malaria?",
+      answer:
+        "No. A CBC often shows low platelets and anemia in malaria, but only a malaria test confirms it.",
+    },
+    {
+      question: "How can I confirm if I have malaria?",
+      answer:
+        "Only a blood test can: a rapid antigen test, blood smear, or PCR. Symptoms alone can't confirm it.",
+    },
+    {
+      question: "What are the 7 warning signs of malaria?",
+      answer:
+        "Confusion or drowsiness, seizures, fast or difficult breathing, repeated vomiting, yellow eyes or skin, very little or dark urine, and bleeding or severe weakness. Any of these needs hospital care.",
+    },
+    {
+      question: "Is malaria 100% curable?",
+      answer:
+        "Yes, with prompt and correct antimalarial treatment. Falciparum can be fatal if delayed, and vivax needs a full course to prevent relapse.",
+    },
+    {
+      question: "Is fasting required for the malaria test?",
+      answer:
+        "No. You can eat and drink normally and have the test at any time of day.",
+    },
+    {
+      question: "How much does a malaria test cost?",
+      answer: `Our malaria antigen test is priced at ${getTestPrice('mp-antigen-test')}, with same-day reports and free home sample collection available.`,
+    },
+    {
+      question: "How can I check for malaria at home?",
+      answer:
+        "Symptoms can't confirm it, and home kits are less reliable. Book home sample collection so the blood is collected at your doorstep and tested at the lab.",
+    },
   ],
+
   cta: {
-    title: "Book Your Malaria Blood Test Today",
-    description: "Get accurate Malaria Blood Testing with home sample collection, experienced laboratory professionals, and fast reporting from Shyam Pathology Lab.",
-    buttonText: "Book Malaria Test",
+    title: "Book Malaria Test",
+    description: "Get an accurate malaria antigen test with doorstep sample collection and same-day reports.",
+    buttonText: "Book Test Now",
     whatsappText: "Hi, I want to book a malaria test.",
-    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"]
-  }
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/mp-antigen-test",
+  },
 },
 {
   id: 12,

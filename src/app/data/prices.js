@@ -1877,5 +1877,183 @@ export const prices = [
 
     highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
   },
+},
+{
+  slug: "malaria-test-price-chandigarh",
+
+  seo: {
+    // 50 characters
+    title: "Malaria Test Price in Chandigarh | MP Antigen Test",
+    description: `Check malaria test price in Chandigarh starting at ₹${getTestPrice('mp-antigen-test')}, with home sample collection, digital reports & easy online booking.`,
+    keywords: [
+      "malaria test price chandigarh",
+      "malaria test cost chandigarh",
+      "mp test price",
+      "malaria antigen test price",
+      "malaria test price near me",
+      "malaria test price in india",
+      "malaria test panchkula",
+      "malaria test mohali",
+      "malaria test tricity",
+    ],
+  },
+
+  hero: {
+    badge: "Quality Testing Standards",
+
+    title: "Malaria Test Price in Chandigarh",
+
+    subtitle:
+      "Check the Malaria Antigen (MP) test price in Chandigarh with accurate testing and convenient doorstep home sample collection from Shyam Labs.",
+
+    image: "/prices/malaria-test.webp",
+  },
+
+  priceCard: {
+    actualPrice: 225,
+    offerPrice: getTestPrice('mp-antigen-test'),
+    offerText: "Offer Price",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    sampleType: "Blood",
+    homeCollection: true,
+    labVisit: true,
+
+    includes: {
+      title: "Every Booking Includes",
+      items: [
+        "Free Doorstep Home Sample Collection",
+        "Digital Report on WhatsApp & Email",
+        "No Advance Payment Required",
+      ],
+    },
+  },
+
+  whyGetTest: {
+    title: "Why Get a Malaria Test in Chandigarh",
+    description:
+      "Fever with chills in the monsoon season can be malaria, and falciparum malaria can turn serious quickly. A quick blood test gives a clear answer so treatment can start in time.",
+
+    reasons: [
+      {
+        title: "Quick, Clear Answer",
+        description:
+          "The rapid antigen test shows whether vivax or falciparum malaria parasites are present.",
+      },
+      {
+        title: "Separates Malaria from Other Fevers",
+        description:
+          "Helps your doctor tell malaria apart from dengue, typhoid, or a common viral fever.",
+      },
+      {
+        title: "Convenient & Affordable",
+        description:
+          "Home sample collection and transparent pricing mean you can get tested while resting at home.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How much does a malaria test cost in Chandigarh?",
+      answer: `The malaria antigen test is available at an offer price of ₹${getTestPrice('mp-antigen-test')} at Shyam Labs, with home sample collection available subject to service coverage.`,
+    },
+    {
+      question: "What is included in the malaria test price?",
+      answer:
+        "It covers Plasmodium vivax and falciparum antigen testing with a digital report. A CBC and platelet count are separate tests that doctors commonly add.",
+    },
+    {
+      question: "Is fasting needed before the malaria test?",
+      answer:
+        "No, fasting is not required. Test as soon as you have fever with chills.",
+    },
+    {
+      question: "Is home sample collection available in Chandigarh?",
+      answer:
+        "Yes, Shyam Labs provides doorstep home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+    },
+    {
+      question: "Do I need to pay in advance to book a malaria test?",
+      answer:
+        "No advance payment is required — you can pay at the time of sample collection or according to the payment option provided during booking.",
+    },
+    {
+      question: "How soon will I get my malaria report after booking?",
+      answer:
+        "Reports are typically delivered digitally within 24 hours of sample collection.",
+    },
+  ],
+
+  relatedTests: [
+    "mp-antigen-test",
+    "cbc-test",
+    "platelet-count",
+    "dengue-test",
+    "typhidot-test",
+    "widal-test",
+  ],
+
+  interlinks: {
+    badge: "Included Services & Chandigarh Availability",
+
+    heading: "What's Included & Chandigarh Availability",
+
+    description:
+      "Checking the malaria test price? Explore what's included in this price and confirm home collection availability near you in Chandigarh and the Tricity.",
+
+    items: [
+      {
+        title: "What's Included in This Price?",
+        subtitle: "Malaria Test Service Details",
+        description:
+          "See everything included in your malaria test — from sample collection to laboratory analysis and report delivery.",
+        href: "/tests/mp-antigen-test",
+        icon: "FiActivity",
+        badge: "Test Details",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Test Details",
+        tracking: "price-interlink-service",
+      },
+      {
+        title: "Malaria Test Available in Chandigarh",
+        subtitle: "Location & Home Collection",
+        description:
+          "Check malaria test home sample collection availability across Chandigarh and nearby Tricity areas.",
+        href: "/locations/malaria-test-in-chandigarh",
+        icon: "FiMapPin",
+        badge: "Chandigarh Location",
+        badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+        btnText: "Visit Chandigarh Page",
+        tracking: "price-interlink-location",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Malaria Test in Chandigarh Today",
+
+    description:
+      "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
+
+    offerPrice: getTestPrice('mp-antigen-test'),
+
+    actualPrice: 225,
+
+    buttonText: "Book a Test",
+
+    testName: "Malaria Test",
+
+    blogUrl: "/blogs/malaria-test-symptoms-treatment-guide",
+
+    serviceUrl: "/tests/mp-antigen-test",
+
+    locationUrl: "/locations/malaria-test-in-chandigarh",
+
+    packageUrl: "/packages",
+
+    highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
+  },
 }
 ];
+
