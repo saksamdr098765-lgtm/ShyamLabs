@@ -5683,116 +5683,586 @@ export const blogs = [
 },
 {
   id: 12,
+
   slug: "blood-sugar-test-guide",
-  title: "Blood Sugar Test Guide: Normal Range, Fasting, PPBS, RBS & Diabetes Diagnosis",
-  excerpt: "Learn everything about Blood Sugar Tests including Fasting Blood Sugar (FBS), Postprandial Blood Sugar (PPBS), Random Blood Sugar (RBS), normal ranges, diabetes symptoms, preparation, and Blood Sugar Testing in Panchkula.",
+
+  title: "Blood Sugar Test: Normal Range Chart, FBS, PPBS & RBS",
+
+  excerpt:
+    "Blood sugar test explained: FBS, PPBS and RBS full forms, normal range chart, fasting rules, dangerous levels, symptoms of high and low sugar, and price.",
+
   category: "Health Tips",
+
   author: {
     name: SITE_CONFIG.fullName,
     image: SITE_CONFIG.logo,
   },
-  publishedAt: "July 15, 2026",
-  readingTime: "8 min read",
-  coverImage: "/blogs/blood-sugar-test.webp",
-  featured: false,
-  relatedPackages: [],
-  relatedTests: [], // ✅ emptied per request
+
+  publishedAt: "November 02, 2026",
+
+  readingTime: "13 min read",
+
+  coverImage: "/blogs/blood-sugar-test-guide.webp",
+
+  featured: true,
+
+  relatedPackages: [
+    "fasting-blood-sugar",
+    "random-blood-sugar",
+    "essential-health-tests",
+    "swasthya-mitra-basic",
+    "health-checkup-camp",
+    "mega-health-checkup-advance-package",
+  ],
+
+  relatedTests: [
+    "blood-sugar-test",
+    "hba1c-test",
+    "glucose-tolerance-test",
+    "glucose-challenge-test",
+    "lipid-profile",
+    "kidney-function-test",
+    "urine-examination",
+  ],
+
   seo: {
-    title: "Blood Sugar Test Guide: Fasting, PPBS, RBS, Normal Range & Diabetes Test",
-    description: "Know Blood Sugar Test normal ranges, fasting sugar levels, PPBS, RBS, diabetes symptoms, preparation, home sample collection, and Blood Sugar Testing in Panchkula.",
+    // 53 characters
+    title: "Blood Sugar Test: Normal Range Chart, FBS, PPBS & RBS",
+    // 118 characters
+    description:
+      "Blood sugar test guide: normal range chart, FBS PPBS RBS full form, fasting rules, dangerous levels, symptoms & price.",
     keywords: [
-      "Blood Sugar Test", "Blood Glucose Test", "Fasting Blood Sugar Test", "FBS Test",
-      "Postprandial Blood Sugar Test", "PPBS Test", "Random Blood Sugar Test", "RBS Test",
-      "Diabetes Blood Test", "Blood Sugar Test in Panchkula", "Blood Sugar Test Near Me",
-      "Blood Sugar Normal Range"
-    ]
+      "blood sugar test",
+      "blood sugar normal range chart",
+      "fasting blood sugar normal range",
+      "fbs test full form",
+      "ppbs test full form",
+      "rbs test full form",
+      "random blood sugar normal range",
+      "blood sugar level after eating",
+      "high blood sugar symptoms",
+      "low blood sugar symptoms",
+      "blood sugar test near me",
+      "blood sugar test in Chandigarh",
+      "pathology lab near me",
+      "diagnostic lab near me",
+      "blood test home sample collection",
+    ],
   },
+
   quickInfo: {
-    "What You Will Learn": "Blood Sugar Test",
+    "What You Will Learn": "Blood Sugar Test (FBS, PPBS, RBS)",
+    price: getTestPrice('blood-sugar-test'),
     sample: "Blood",
-    fasting: "Required for FBS",
+    fasting: "Required for Fasting Sugar Only",
     reportTime: "Same Day",
     homeCollection: "Available",
-    recommendedFor: "Frequent urination, Excessive thirst, Blurred vision, Fatigue, Slow wound healing, Unexplained weight loss, Frequent infections, Increased hunger",
-    booking: "Online / Phone / WhatsApp"
+    recommendedFor: "Diabetes Screening, Frequent Thirst or Urination, Family History of Diabetes, Routine Checkup",
+    booking: "Online / Phone / WhatsApp",
   },
+
   tags: [
-    "Blood Sugar Test", "Blood Glucose Test", "Fasting Blood Sugar", "FBS Test", "PPBS Test",
-    "Random Blood Sugar", "RBS Test", "Diabetes Test", "Blood Sugar Normal Range",
-    "Prediabetes Test", "Type 2 Diabetes", "Diabetes Screening", "Blood Sugar Test Near Me",
-    "Blood Sugar Test in Panchkula", "Blood Sugar Test in Chandigarh", "Blood Sugar Test in Punjab",
-    "Blood Test", "Diagnostic Lab", "Pathology Lab", "Health Checkup", "Home Sample Collection", "Same Day Report"
+    "Blood Sugar Test",
+    "Blood Sugar Normal Range",
+    "Fasting Blood Sugar",
+    "PPBS Test",
+    "Random Blood Sugar",
+    "Sugar Test Price",
+    "Diabetes Blood Test",
+    "High Blood Sugar Symptoms",
+    "Low Blood Sugar Symptoms",
+    "Blood Tests",
+    "Health Checkup",
+    "Blood Sugar Test in Chandigarh",
+    "Blood Sugar Test in Panchkula",
+    "Home Sample Collection",
+    "Pathology Lab",
+    "Same Day Report",
   ],
+
   content: [
-    { type: "heading", level: 2, text: "What Is a Blood Sugar Test?" },
-    { type: "paragraph", text: "A Blood Sugar Test, also known as a Blood Glucose Test, measures the amount of glucose present in your bloodstream." },
-    { type: "paragraph", text: "Glucose is your body's primary source of energy. It comes from the food you eat and is regulated by the hormone insulin." },
-    { type: "paragraph", text: "Doctors recommend Blood Sugar Testing to diagnose diabetes, identify prediabetes, monitor existing diabetes, and evaluate how effectively treatment is controlling blood sugar levels." },
-    { type: "paragraph", text: "Because high blood sugar often develops silently, regular testing helps detect diabetes before serious complications occur." },
-    { type: "heading", level: 2, text: "Types of Blood Sugar Tests" },
-    { type: "paragraph", text: "Several blood sugar tests are available depending on your symptoms and your doctor's recommendation." },
-    { type: "paragraph", text: "The most commonly performed tests include:" },
-    { type: "list", items: ["Fasting Blood Sugar (FBS) – Measures blood glucose after fasting for 8–12 hours."] },
-    { type: "list", items: ["Postprandial Blood Sugar (PPBS) – Measures blood sugar exactly two hours after a meal."] },
-    { type: "list", items: ["Random Blood Sugar (RBS) – Can be performed at any time regardless of meals."] },
-    { type: "list", items: ["HbA1c Test – Measures the average blood sugar level over the previous two to three months."] },
-    { type: "paragraph", text: "Each test provides different information and helps doctors diagnose or monitor diabetes accurately." },
-    { type: "heading", level: 2, text: "Who Should Get a Blood Sugar Test?" },
-    { type: "paragraph", text: "A Blood Sugar Test is recommended for people who have symptoms of diabetes or are at increased risk." },
-    { type: "paragraph", text: "Testing is commonly advised for:" },
-    { type: "list", items: ["Adults over 35 years of age", "Individuals who are overweight or obese", "People with a family history of diabetes", "Individuals with high blood pressure or high cholesterol", "Pregnant women when advised by their doctor", "People with sedentary lifestyles", "Anyone experiencing symptoms of high blood sugar"] },
-    { type: "paragraph", text: "Regular screening allows diabetes to be detected before complications develop." },
-    { type: "heading", level: 2, text: "Symptoms of High Blood Sugar" },
-    { type: "paragraph", text: "High blood sugar may not always cause noticeable symptoms during the early stages." },
-    { type: "paragraph", text: "Common warning signs include:" },
-    { type: "list", items: ["Frequent urination", "Excessive thirst", "Increased hunger", "Fatigue", "Blurred vision", "Slow wound healing", "Frequent infections", "Unexplained weight loss", "Tingling in the hands or feet"] },
-    { type: "paragraph", text: "If you experience these symptoms, your doctor may recommend Blood Sugar Testing." },
-    { type: "heading", level: 2, text: "Blood Sugar Normal Range" },
-    { type: "paragraph", text: "Understanding your blood sugar report helps identify whether glucose levels are normal." },
-    { type: "paragraph", text: "General reference values include:" },
-    { type: "list", items: ["Fasting Blood Sugar: 70–99 mg/dL", "Prediabetes: 100–125 mg/dL", "Diabetes: 126 mg/dL or higher", "Postprandial Blood Sugar (2 Hours): Less than 140 mg/dL", "Random Blood Sugar: Usually below 200 mg/dL"] },
-    { type: "paragraph", text: "Reference ranges may vary slightly between laboratories, and your doctor will interpret the results based on your symptoms and medical history." },
-    { type: "heading", level: 2, text: "Understanding Blood Sugar Test Results" },
-    { type: "paragraph", text: "Blood Sugar Test results should always be interpreted by a qualified healthcare professional." },
-    { type: "paragraph", text: "Generally:" },
-    { type: "list", items: ["Normal values indicate healthy glucose regulation."] },
-    { type: "list", items: ["Prediabetes suggests blood sugar is higher than normal but not yet in the diabetic range."] },
-    { type: "list", items: ["Diabetes is diagnosed when blood sugar exceeds recommended diagnostic limits or when confirmed with additional testing."] },
-    { type: "paragraph", text: "Doctors may recommend repeat testing or an HbA1c Test to confirm the diagnosis and determine long-term blood sugar control." },
-    { type: "heading", level: 2, text: "Benefits of Regular Blood Sugar Testing" },
-    { type: "paragraph", text: "Routine Blood Sugar Testing provides several important health benefits." },
-    { type: "paragraph", text: "These include:" },
-    { type: "list", items: ["Early detection of diabetes", "Identification of prediabetes", "Better diabetes management", "Monitoring treatment effectiveness", "Reduced risk of complications affecting the heart, kidneys, eyes, and nerves", "Support for healthier lifestyle choices"] },
-    { type: "paragraph", text: "Regular screening plays an important role in preventive healthcare." },
-    { type: "heading", level: 2, text: "How To Prepare For A Blood Sugar Test" },
-    { type: "paragraph", text: "Preparation depends on the type of Blood Sugar Test being performed." },
-    { type: "list", items: ["Fasting Blood Sugar (FBS): Avoid eating or drinking anything except water for 8–12 hours before the test."] },
-    { type: "list", items: ["Postprandial Blood Sugar (PPBS): Blood is collected exactly two hours after starting your meal."] },
-    { type: "list", items: ["Random Blood Sugar (RBS): No fasting is required."] },
-    { type: "paragraph", text: "Stay hydrated and inform your doctor about any medications you are taking, as some medicines may affect blood sugar levels." },
-    { type: "heading", level: 2, text: "Blood Sugar Testing in Panchkula" },
-    { type: "paragraph", text: "Shyam Pathology Lab provides accurate Blood Sugar Testing in Panchkula with reliable reports and convenient home blood sample collection." },
-    { type: "paragraph", text: "Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, and nearby areas can easily book Blood Sugar Tests from home." },
-    { type: "paragraph", text: "Available investigations include:" },
-    { type: "list", items: ["Fasting Blood Sugar (FBS)", "Postprandial Blood Sugar (PPBS)", "Random Blood Sugar (RBS)", "HbA1c Test", "Home Sample Collection", "Same-Day Reporting for most tests"] },
-    { type: "paragraph", text: "Early diagnosis helps prevent diabetes-related complications and supports better long-term health." }
-    // ✅ interlinking block removed
+    {
+      type: "paragraph",
+      text: "A blood sugar test is the quickest way to check for diabetes and prediabetes, and one of the cheapest tests you can do. This guide explains the three types — fasting, post-meal, and random — the normal range chart, what counts as dangerous, and how to prepare so your result is accurate.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is a Blood Sugar Test? (Meaning and Full Form)",
+    },
+    {
+      type: "paragraph",
+      text: "A blood sugar test, also called a blood glucose test, measures the glucose in your blood at the moment the sample is taken. Glucose is your body's main fuel, and it is regulated by insulin. The test is used to screen for diabetes and prediabetes, to diagnose them, and to monitor how well diabetes is controlled.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Types of Blood Sugar Test: FBS, PPBS, and RBS Full Form",
+    },
+    {
+      type: "list",
+      items: [
+        "FBS — Fasting Blood Sugar: after 8-12 hours without food",
+        "PPBS — Post-Prandial Blood Sugar: 2 hours after a meal",
+        "RBS — Random Blood Sugar: at any time, regardless of meals",
+        "HbA1c — the '3-month sugar test' showing your 2-3 month average",
+        "OGTT — Oral Glucose Tolerance Test: glucose measured after a measured glucose drink",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Many Hours Fasting for FBS, and PPBS After How Many Hours?",
+    },
+    {
+      type: "paragraph",
+      text: "For a fasting sugar test, avoid food for 8-12 hours, with only plain water allowed. For the post-prandial test, eat your usual meal, note the time you start eating, and the sample is taken exactly 2 hours later. Random sugar needs no timing at all.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Blood Sugar Normal Range Chart",
+    },
+    {
+      type: "list",
+      items: [
+        "Fasting: 70-99 mg/dL",
+        "2 hours after a meal (PPBS): below 140 mg/dL",
+        "Random: generally below 140 mg/dL",
+        "Low (hypoglycemia): below 70 mg/dL",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "These ranges apply to adults, are the same for men and women, and are used for children too, though a child's targets are set by a pediatrician. Reference ranges can differ slightly between labs, so compare with the range on your own report.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Prediabetes and Diabetes Blood Sugar Range",
+    },
+    {
+      type: "list",
+      items: [
+        "Fasting 100-125 mg/dL: prediabetes (impaired fasting glucose)",
+        "Fasting 126 mg/dL or above: diabetes range",
+        "2 hours after a meal or glucose drink 140-199 mg/dL: prediabetes",
+        "2 hours after a meal or glucose drink 200 mg/dL or above: diabetes range",
+        "Random 200 mg/dL or above with symptoms such as thirst and frequent urination: diabetes",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "One high reading is not enough to diagnose diabetes in someone without symptoms; doctors confirm it with a repeat test, and often an HbA1c.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Blood Sugar Targets for People with Diabetes",
+    },
+    {
+      type: "paragraph",
+      text: "For many adults with diabetes the usual goals are about 80-130 mg/dL before meals and below 180 mg/dL one to two hours after a meal. Your doctor may set different targets depending on your age, medicines, and other conditions, so follow the personal targets you have been given.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is 140, 170, 200, 230, 250, or 350 Normal?",
+    },
+    {
+      type: "list",
+      items: [
+        "140: the upper limit of normal after a meal or random, but high when fasting",
+        "170 fasting: diabetes range",
+        "200: diabetes range if fasting, random with symptoms, or 2 hours after a meal",
+        "230, 250: clearly high — needs a doctor's review the same or next day",
+        "350: very high — needs prompt medical attention",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Blood Sugar Level Is Dangerous?",
+    },
+    {
+      type: "paragraph",
+      text: "On the low side, below 70 mg/dL is low and below 54 mg/dL is serious, and very low sugar can cause confusion, fits, or loss of consciousness. On the high side there is no single number, but readings above about 300 mg/dL, or any high reading with vomiting, stomach pain, drowsiness, fast breathing, or fruity-smelling breath, need urgent care.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Blood Sugar 300, 400, or 70: What Does It Mean and What to Do?",
+    },
+    {
+      type: "list",
+      items: [
+        "300: recheck, drink water, take your prescribed medicines, and call your doctor the same day; go to hospital if you are vomiting, drowsy, or breathing fast",
+        "400: a medical emergency until proven otherwise — seek care the same day, immediately if you feel unwell",
+        "70: the lower limit of normal; if you take insulin or diabetes tablets, treat it as the start of low sugar — take fast-acting sugar such as glucose or juice, recheck in 15 minutes, and follow your doctor's plan",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "High Blood Sugar Symptoms (7 Signs)",
+    },
+    {
+      type: "list",
+      items: [
+        "Increased thirst",
+        "Frequent urination",
+        "Fatigue",
+        "Blurred vision",
+        "Slow-healing cuts and frequent infections",
+        "Unexplained weight loss with increased hunger",
+        "Tingling or numbness in the feet",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Prediabetes and early diabetes often cause no symptoms, which is why testing matters.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Low Blood Sugar (Hypoglycemia) Symptoms",
+    },
+    {
+      type: "list",
+      items: [
+        "Shakiness and sweating",
+        "Fast heartbeat",
+        "Sudden hunger",
+        "Dizziness and headache",
+        "Irritability, anxiety, or confusion",
+        "Pale skin and weakness",
+        "In severe cases, seizures or loss of consciousness",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Causes High Blood Sugar?",
+    },
+    {
+      type: "list",
+      items: [
+        "Diabetes or prediabetes",
+        "A diet high in sugar, refined flour, and sugary drinks",
+        "Low physical activity and excess weight",
+        "Missed diabetes medicines",
+        "Illness, infection, or stress",
+        "Steroids and some other medicines",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Can I Drink Water or Tea Before a Blood Sugar Test?",
+    },
+    {
+      type: "paragraph",
+      text: "Plain water is fine and encouraged before a fasting sugar test. Avoid tea and coffee, especially with milk or sugar, as well as juice, because they can change the result. If you take insulin or diabetes tablets, ask your doctor what to do with your morning dose rather than skipping it or fasting for longer than advised.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Best Time for a Blood Sugar Test, and When Sugar Is Highest",
+    },
+    {
+      type: "paragraph",
+      text: "Fasting sugar is best done in the early morning before breakfast. Post-meal sugar is checked 2 hours after you start eating, and random sugar can be done any time. Blood sugar normally peaks 1-2 hours after a meal, and in many people with diabetes it can also be higher in the early morning because of hormones released before waking.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Often Should Blood Sugar Be Checked?",
+    },
+    {
+      type: "list",
+      items: [
+        "Healthy adults: a screening test about every 3 years from around age 35, sooner with risk factors",
+        "Prediabetes: about once a year",
+        "Diabetes: as your doctor advises — commonly fasting and post-meal checks, plus HbA1c every 3-6 months",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Fasting vs PPBS vs Random Sugar vs HbA1c",
+    },
+    {
+      type: "list",
+      items: [
+        "Fasting: your baseline glucose",
+        "PPBS: how well your body handles a meal",
+        "Random: a quick snapshot, useful when symptoms are present",
+        "HbA1c: your 2-3 month average, no fasting needed",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "They answer different questions, so doctors often combine a sugar test with HbA1c. The '3 month sugar test' people search for is the HbA1c.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Which Tests Confirm Diabetes? (The 5 Tests)",
+    },
+    {
+      type: "list",
+      items: [
+        "Fasting plasma glucose",
+        "2-hour post-meal or oral glucose tolerance test",
+        "Random glucose with typical symptoms",
+        "HbA1c",
+        "Supporting tests such as urine ketones or kidney and lipid tests, depending on your situation",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Blood Sugar Test in Pregnancy (Gestational Diabetes)",
+    },
+    {
+      type: "paragraph",
+      text: "Pregnant women are usually screened around 24-28 weeks, sooner if they have risk factors. Common methods are a glucose challenge test, a glucose tolerance test, or in India a single 75 g glucose test with a 2-hour value of 140 mg/dL or more. Your doctor chooses the method, and untreated gestational diabetes can affect both mother and baby.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Blood Sugar Test for Children and the Elderly",
+    },
+    {
+      type: "paragraph",
+      text: "Children are tested when they have symptoms such as excessive thirst, frequent urination, or weight loss, and their targets are set by a pediatrician. In older adults the diagnostic cut-offs are the same, but treatment goals are often a little looser to avoid dangerous lows.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How to Read a Blood Sugar Report",
+    },
+    {
+      type: "paragraph",
+      text: "Look for 'Glucose, Fasting', 'Glucose, PP', or 'Glucose, Random' in mg/dL, beside the lab's reference range. Blood for sugar is collected in a special tube with a preservative, because glucose in an unpreserved sample keeps falling as cells use it. Blood glucose is not part of a CBC.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Glucometer vs Lab Test: How to Check Blood Sugar at Home",
+    },
+    {
+      type: "paragraph",
+      text: "A glucometer uses a finger-prick drop of blood and is handy for monitoring, but its reading can differ from a lab by up to about 15%. To use one, wash and dry your hands, prick the side of a fingertip, and touch the drop to the strip. There is no reliable way to check blood sugar 'naturally' from symptoms, so use a meter for monitoring and a lab test for diagnosis, and book home sample collection if you'd rather not travel.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Foods to Lower Blood Sugar and a Simple Diet Plan",
+    },
+    {
+      type: "paragraph",
+      text: "No single food lowers blood sugar on its own, but the overall pattern does. Fill half your plate with non-starchy vegetables, a quarter with protein such as dal, paneer, eggs, or fish, and a quarter with whole grains. Multigrain, jowar, bajra, or ragi roti is a better choice than refined-flour roti, and smaller portions of rice help. Cut sugary drinks, sweets, and fried snacks, and ask your doctor or dietitian to tailor a diet chart for you.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Blood Sugar Test Price and Report Time",
+    },
+    {
+      type: "paragraph",
+      text: `Our blood sugar test is priced at ${getTestPrice('blood-sugar-test')}, with same-day reports and free home sample collection available. The HbA1c (3-month sugar) test is a separate test.`,
+    },
+    {
+      type: "interlinking",
+      title: "Blood Sugar Test Services & Pricing",
+      description:
+        "Explore blood sugar test details, pricing, and convenient home sample collection services.",
+      items: [
+        {
+          title: "Blood Sugar Test Price",
+          description:
+            "Check the latest blood sugar test price and available home sample collection options.",
+          href: "/prices/blood-sugar-test-price-chandigarh",
+        },
+        {
+          title: "Blood Sugar Test Details",
+          description:
+            "Learn about fasting, post-meal, and random sugar tests, sample requirements, and preparation.",
+          href: "/tests/blood-sugar-test",
+        },
+        {
+          title: "HbA1c Test",
+          description:
+            "See the 3-month average sugar test and how it complements a blood sugar test.",
+          href: "/tests/hba1c-test",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Blood Sugar Test in Panchkula, Chandigarh & Nearby Areas",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Budget Friendly Labs provides accurate blood sugar testing with convenient home blood sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+    {
+      type: "interlinking",
+      title: "Blood Sugar Test — Areas We Serve",
+      description:
+        "We provide blood sugar testing with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "Blood sugar test with home sample collection.",
+          href: "/locations/blood-sugar-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "Blood sugar test and diagnostic services with home collection.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "Blood sugar test with same-day report and home collection.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "Blood sugar test and pathology services.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Key Takeaways",
+    },
+    {
+      type: "list",
+      items: [
+        "FBS, PPBS, and RBS mean fasting, post-prandial (2 hours after a meal), and random blood sugar",
+        "Normal: fasting 70-99, after a meal below 140, random generally below 140 mg/dL",
+        "Fasting 126 or above, or 200 or above after a meal, falls in the diabetes range and needs confirmation",
+        "Only plain water before a fasting test; ask your doctor about morning diabetes medicines",
+        "A glucometer is for monitoring; a lab test is for diagnosis, and HbA1c shows the 3-month average",
+      ],
+    },
+    {
+      type: "references",
+      items: [
+        {
+          title: "Diagnosis of Diabetes and Prediabetes",
+          publisher: "NIDDK, National Institutes of Health",
+          url: "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis",
+        },
+        {
+          title: "Blood Glucose Test",
+          publisher: "MedlinePlus",
+          url: "https://medlineplus.gov/lab-tests/blood-glucose-test/",
+        },
+        {
+          title: "Diagnosis",
+          publisher: "American Diabetes Association",
+          url: "https://diabetes.org/about-diabetes/diagnosis",
+        },
+      ],
+    },
   ],
+
   faq: [
-    { question: "Is fasting required for a Blood Sugar Test?", answer: "Fasting is required only for a Fasting Blood Sugar (FBS) Test. Random Blood Sugar (RBS) and Postprandial Blood Sugar (PPBS) have different preparation requirements." },
-    { question: "What is the normal fasting blood sugar level?", answer: "A normal fasting blood sugar level is generally between 70 and 99 mg/dL." },
-    { question: "What is the difference between FBS and PPBS?", answer: "FBS measures blood sugar after fasting for 8–12 hours, while PPBS measures blood sugar two hours after eating a meal." },
-    { question: "Can a Blood Sugar Test diagnose diabetes?", answer: "Yes. Blood Sugar Tests help diagnose diabetes and prediabetes. Your doctor may also recommend an HbA1c Test for confirmation." },
-    { question: "How often should I check my blood sugar?", answer: "The frequency depends on your health condition and your doctor's advice. People with diabetes often require regular monitoring." },
-    { question: "Can I book a Blood Sugar Test at home in Panchkula?", answer: "Yes. Shyam Pathology Lab offers convenient home blood sample collection for Blood Sugar Testing in Panchkula and nearby areas." }
+    {
+      question: "What is the full form of FBS, PPBS, and RBS?",
+      answer:
+        "FBS is Fasting Blood Sugar, PPBS is Post-Prandial Blood Sugar (2 hours after a meal), and RBS is Random Blood Sugar (any time of day).",
+    },
+    {
+      question: "What is the normal blood sugar level?",
+      answer:
+        "Fasting 70-99 mg/dL, 2 hours after a meal below 140 mg/dL, and random generally below 140 mg/dL.",
+    },
+    {
+      question: "What is the fasting blood sugar normal range?",
+      answer:
+        "70-99 mg/dL. 100-125 is prediabetes and 126 or above is the diabetes range.",
+    },
+    {
+      question: "What is the normal blood sugar level after eating?",
+      answer:
+        "Below 140 mg/dL two hours after a meal. 140-199 is prediabetes and 200 or above is the diabetes range.",
+    },
+    {
+      question: "Is a 200 blood sugar level normal in fasting?",
+      answer:
+        "No. A fasting value of 126 mg/dL or more is in the diabetes range, so 200 fasting needs a doctor's review soon.",
+    },
+    {
+      question: "Is fasting sugar 170 normal?",
+      answer:
+        "No. 170 fasting is in the diabetes range. See a doctor to confirm and plan treatment.",
+    },
+    {
+      question: "Is sugar 250 or 350 normal?",
+      answer:
+        "No. Both are clearly high. 250 needs a doctor's review the same or next day, and 350 needs prompt medical attention, urgently with vomiting, drowsiness, or fast breathing.",
+    },
+    {
+      question: "What level of blood sugar is dangerous?",
+      answer:
+        "Below 54 mg/dL is serious low sugar, and above about 300 mg/dL, or any high reading with vomiting, stomach pain, drowsiness, or fast breathing, needs urgent care.",
+    },
+    {
+      question: "How many hours fasting for a blood sugar test?",
+      answer:
+        "8-12 hours with only plain water. Avoid tea, coffee, juice, and sugary drinks.",
+    },
+    {
+      question: "Can I drink water before a blood sugar test?",
+      answer:
+        "Yes, plain water is fine and encouraged.",
+    },
+    {
+      question: "How many hours after a meal is the PP sugar test done?",
+      answer:
+        "Exactly 2 hours after you start eating the meal.",
+    },
+    {
+      question: "What is the best time to check blood sugar?",
+      answer:
+        "Fasting sugar is best in the morning before food, and post-meal sugar 2 hours after eating. For monitoring, your doctor tells you when.",
+    },
+    {
+      question: "Is blood glucose on a CBC?",
+      answer:
+        "No. A CBC counts blood cells. Blood sugar needs its own glucose test.",
+    },
+    {
+      question: "What is a 3 month sugar test?",
+      answer:
+        "It is the HbA1c test, which shows your average blood sugar over the past 2-3 months and needs no fasting.",
+    },
+    {
+      question: "How much does a blood sugar test cost?",
+      answer: `Our blood sugar test is priced at ${getTestPrice('blood-sugar-test')}, with same-day reports and free home sample collection available.`,
+    },
+    {
+      question: "Can I test sugar at home?",
+      answer:
+        "You can use a glucometer for monitoring, but a lab test is more reliable for diagnosis. You can also book home sample collection so the blood is collected at your doorstep.",
+    },
   ],
+
   cta: {
-    title: "Book Your Blood Sugar Test Today",
-    description: "Get accurate Blood Sugar Testing with home sample collection, fast reporting, and trusted diagnostic services from Shyam Pathology Lab.",
-    buttonText: "Book Blood Sugar Test",
+    title: "Book Blood Sugar Test",
+    description: "Get an accurate fasting, post-meal, or random blood sugar test with doorstep sample collection and same-day reports.",
+    buttonText: "Book Test Now",
     whatsappText: "Hi, I want to book a blood sugar test.",
-    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"]
-  }
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/blood-sugar-test",
+  },
 },
 {
   id: 13,

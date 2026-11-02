@@ -6265,6 +6265,251 @@ The malaria antigen (MP) test checks for Plasmodium vivax and falciparum antigen
 
   heroSubtitle:
     "Book your malaria test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
+},
+ {
+  id: 22,
+
+  slug: "blood-sugar-test-in-chandigarh",
+
+  city: "Chandigarh",
+
+  state: "Chandigarh",
+
+  title: "Blood Sugar Test in Chandigarh",
+
+  shortDescription:
+    "Looking for a blood sugar test in Chandigarh? Shyam Labs provides affordable and reliable fasting, post-meal and random sugar testing with convenient home sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
+
+  coverImage: "/locations/chandigarh-blood-sugar-test.jpeg",
+
+  hours: "07:00-20:00",
+
+  areas: ["Chandigarh", "Panchkula", "Mohali"],
+
+  services: ["home-sample-collection"],
+
+  seo: {
+    // 48 characters
+    title: "Blood Sugar Test in Chandigarh | Home Collection",
+    // 137 characters
+    description:
+      "Looking for a blood sugar test in Chandigarh? Shyam Labs offers fasting, PP and random sugar tests with home collection and fast reports.",
+    keywords: [
+      "Blood Sugar Test in Chandigarh",
+      "Fasting Blood Sugar Test Chandigarh",
+      "PPBS Test Chandigarh",
+      "Sugar Test Near Me Chandigarh",
+      "Home Sample Collection Chandigarh",
+      "Diagnostic Lab Near Me Chandigarh",
+      "Blood Sugar Test Price Chandigarh",
+      "Blood Sugar Test Panchkula",
+      "Blood Sugar Test Mohali",
+      "Blood Sugar Test Tricity",
+    ],
+  },
+
+  overview: {
+    heading: "Affordable Blood Sugar Testing & Home Sample Collection in Chandigarh",
+
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. A blood sugar test is recommended for diabetes screening, for people with a family history of diabetes or excess weight, for anyone with increased thirst or frequent urination, and for people with diabetes who need regular monitoring.
+
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+
+      `For people living or working in Chandigarh, home sample collection makes regular sugar checks more convenient — schedule an early-morning slot for fasting sugar, or a visit 2 hours after your meal for the post-meal test, and have your sample collected by a trained phlebotomist instead of visiting a diagnostic centre.
+
+We offer fasting, post-prandial, and random blood sugar tests, and many people add an HbA1c to see their 2-3 month average alongside the single-moment sugar reading.`,
+
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+
+    highlights: [
+      "Fasting, PP & Random Sugar Tests",
+      "Convenient Home Sample Collection",
+      "Early-Morning Collection Slots",
+      "Fast Digital Reports",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+
+    test: [
+      "blood-sugar-test",
+      "hba1c-test",
+      "lipid-profile",
+      "kidney-function-test",
+      "thyroid-profile-test",
+      "liver-function-test",
+      "cbc-test",
+      "urine-examination",
+    ],
+  },
+
+  packages: [
+    "fasting-blood-sugar",
+    "random-blood-sugar",
+    "essential-health-tests",
+    "swasthya-mitra-basic",
+    "health-checkup-camp",
+    "mega-health-checkup-advance-package",
+  ],
+
+  process: {
+    heading: "How to Get a Blood Sugar Test in Chandigarh",
+
+    steps: [
+      {
+        title: "Book Your Test",
+        description:
+          "Book your fasting, post-meal, or random sugar test online or contact Shyam Labs to arrange convenient sample collection in Chandigarh.",
+      },
+      {
+        title: "Schedule Home Collection",
+        description:
+          "Choose an early-morning slot for fasting sugar, or a time 2 hours after your meal for PP, and provide your Chandigarh address.",
+      },
+      {
+        title: "Sample Collection",
+        description:
+          "A trained phlebotomist follows appropriate safety and hygiene procedures during the collection visit.",
+      },
+      {
+        title: "Receive Digital Report",
+        description:
+          "Get your blood sugar report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+
+  healthConditions: [
+    "Diabetes Screening & Diagnosis",
+    "Prediabetes Detection",
+    "Diabetes Monitoring",
+    "Gestational Diabetes Screening",
+  ],
+
+  whoShouldGetTested: [
+    "Adults with a Family History of Diabetes",
+    "People with Increased Thirst or Frequent Urination",
+    "Individuals with Excess Weight or a Sedentary Lifestyle",
+    "People with Diabetes or Prediabetes",
+    "Pregnant Women (as advised by a doctor)",
+    "Individuals Doing an Annual Health Checkup",
+  ],
+
+  popularSearches: [
+    "Blood Sugar Test in Chandigarh",
+    "Blood Sugar Test Price Chandigarh",
+    "Sugar Test Near Me",
+    "Home Sample Collection Chandigarh",
+    "Fasting Blood Sugar Test in Chandigarh",
+    "Diagnostic Lab Near Me Chandigarh",
+    "Blood Sugar Test Panchkula",
+    "Blood Sugar Test Mohali",
+  ],
+
+  sections: [
+    {
+      title: "Blood Sugar Testing Services in Chandigarh",
+      content: [
+        "Residents across Chandigarh can book blood sugar testing through Shyam Labs with convenient home sample collection where service coverage is available.",
+        "Our testing services are designed for working professionals, families, senior citizens, and patients who need routine or regular sugar monitoring.",
+      ],
+    },
+    {
+      title: "Doorstep Blood Collection in Chandigarh",
+      content: [
+        "Our home sample collection service lets you schedule a blood sugar test from home without waiting at a diagnostic centre.",
+        "Trained phlebotomists follow appropriate safety and hygiene procedures during every collection visit.",
+      ],
+    },
+    {
+      title: "Why Choose Shyam Labs for Blood Sugar Testing?",
+      content: [
+        "Affordable pricing, convenient sample collection, and digital reporting make Shyam Labs a convenient option for blood sugar testing across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+
+  faq: [
+    {
+      question: "Which areas around Chandigarh are covered for home sample collection?",
+      answer:
+        "Shyam Labs provides home sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+    {
+      question: "Can I book a blood sugar test online in Chandigarh?",
+      answer: "Yes, you can schedule your blood sugar test online or by phone and choose a convenient collection time.",
+    },
+    {
+      question: "What is the blood sugar test price in Chandigarh?",
+      answer: `The blood sugar test is available at an offer price of ₹${getTestPrice('blood-sugar-test')}. Check the pricing page for current offers and booking details.`,
+    },
+    {
+      question: "Is fasting required before a blood sugar test?",
+      answer: "Only for the fasting sugar test (8-12 hours, plain water allowed). Random sugar needs no fasting, and the PP test is done 2 hours after a meal.",
+    },
+    {
+      question: "How quickly are blood sugar reports available in Chandigarh?",
+      answer: "Blood sugar reports are typically available digitally within 24 hours of sample collection.",
+    },
+    {
+      question: "Can senior citizens book a blood sugar test from home in Chandigarh?",
+      answer:
+        "Yes, home sample collection can be convenient for elderly patients who prefer to avoid travelling to a diagnostic centre, subject to service availability.",
+    },
+  ],
+
+  relatedLocations: [
+    { city: "Panchkula", slug: "/locations/blood-sugar-test-in-panchkula" },
+    { city: "Mohali", slug: "/locations/blood-sugar-test-in-mohali" },
+  ],
+
+  facts: [
+    { label: "Test Price", value: getTestPrice('blood-sugar-test') },
+    { label: "Report Time", value: "24 Hours" },
+    { label: "Collection Service", value: "Doorstep Sample Pickup" },
+    { label: "Report Delivery", value: "Online & WhatsApp Reports" },
+    { label: "Lab Location", value: "Sector 21, Panchkula" },
+  ],
+
+  tags: [
+    "Blood Sugar Test Chandigarh",
+    "Fasting Blood Sugar Test Chandigarh",
+    "PPBS Test Chandigarh",
+    "Pathology Lab Chandigarh",
+    "Home Sample Collection Chandigarh",
+    "Blood Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "Blood Sugar Test Panchkula",
+    "Blood Sugar Test Mohali",
+    "Blood Sugar Test Tricity",
+  ],
+
+  cta: {
+    title: "Book a Blood Sugar Test in Chandigarh Today",
+
+    description:
+      "Schedule convenient home sample collection in Chandigarh and receive your blood sugar report digitally from Shyam Budget Friendly Labs.",
+
+    phone: "tel:+919914899300",
+
+    highlights: ["Home Sample Collection", "Affordable Sugar Testing", "Fast Digital Reports"],
+  },
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/chandigarh-blood-sugar-test.jpeg",
+
+  heroTitle: "Affordable Blood Sugar Testing & Home Sample Collection in Chandigarh",
+
+  heroSubtitle:
+    "Book your blood sugar test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
 }
 ];
 

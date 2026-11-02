@@ -1650,191 +1650,175 @@ export const tests = [
      status:"draft"
   },
 
-{
+ {
   slug: "blood-sugar-test",
- 
   name: "Blood Sugar Test",
- 
   shortName: "FBS / PPBS / RBS",
- 
   category: "Biochemistry",
- 
   organ: "Pancreas",
- 
   sampleType: "Blood",
- 
   parameterCount: 1,
- 
   fasting: false,
-  // Set at test level as "not always required" since Random Blood
-  // Sugar (the most commonly booked variant) needs no fasting.
-  // Fasting/PP-specific rules are called out in `preparation` below.
- 
+  // Set at test level as "not always required" since Random Blood Sugar
+  // (the most commonly booked variant) needs no fasting. Fasting and
+  // post-meal rules are explained in `preparation` below.
   homeCollection: true,
- 
   popular: true,
- 
+
   description:
-    "Blood Sugar test measures glucose levels in your blood — as Fasting, Post-Prandial, or Random Sugar — to screen for and monitor diabetes.",
- 
+    "Blood Sugar test measures glucose in your blood — as Fasting (FBS), Post-Prandial (PPBS), or Random (RBS) sugar — to screen for and monitor diabetes.",
+
   price: 49,
- 
   reportTime: "24 Hours",
- 
   status: "published",
- 
+
   seo: {
-    title: "Blood Sugar Test - Price, Normal Range | Book Sugar Test",
-    // 58 chars
- 
+    // 53 characters
+    title: "Blood Sugar Test in Chandigarh - Price & Normal Range",
+    // 126 characters
     description:
-      "Book a Blood Sugar test (Fasting/Random/PP) with home sample collection. Check blood sugar test price, normal range, and same-day digital reports.",
-    // 150 chars
- 
+      "Book blood sugar test (fasting, PP or random) in Chandigarh with home sample collection. Check sugar test price & normal range.",
     keywords: [
       "blood sugar test",
-      "blood sugar test price",
+      "sugar test",
       "fasting blood sugar test",
+      "ppbs test",
       "random blood sugar test",
-      "post prandial blood sugar test",
+      "blood sugar test price",
       "blood sugar test near me",
-      "blood sugar normal range",
       "blood sugar test at home",
-      "sugar test price",
+      "blood sugar normal range",
+      "blood sugar test chandigarh",
       "diabetes blood test",
+      "blood glucose test",
     ],
   },
- 
+
   hero: {
     badge: "Home Sample Collection Available",
- 
-    title: "Blood Sugar Test - Fasting, Random & PP",
- 
+
+    title: "Blood Sugar Test (Fasting, PP & Random) in Chandigarh",
+
     description:
-      "Book a Blood Sugar Test near you with fast report delivery, professional sample collection, and convenient home collection services. Check blood sugar test price and book online.",
- 
+      "Book a Blood Sugar Test in Chandigarh and the Tricity with fast report delivery, professional sample collection, and convenient doorstep home collection from Shyam Labs. Check the latest blood sugar test price and book online.",
+
     image: "/tests/blood-sugar.webp",
- 
-    imageAlt: "Blood Sugar Test - Fasting, Random & Post-Prandial",
- 
+
+    imageAlt: "Blood Sugar Test - Fasting, Post-Prandial and Random in Chandigarh",
+
     reportTime: "24 Hours",
- 
+
     homeCollection: "Available",
- 
+
     trustPoints: [
       "Professional Sample Collection",
       "Digital Reports",
       "Affordable Blood Sugar Test Price",
       "Quality-Controlled Testing",
     ],
- 
+
     bookButton: "Book Blood Sugar Test",
- 
-    bookingUrl: "/prices/blood-sugar-hba1c-test-price-garhshankar",
- 
-    phone: "tel:+918968038602",
+
+    bookingUrl: "/prices/blood-sugar-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
   },
- 
+
   quickFacts: {
     sample: "Blood Sample",
- 
     reportTime: "24 Hours",
- 
     fasting: "Required for Fasting Sugar Only",
- 
     homeCollection: "Available",
- 
     ageGroup: "Adults & Children",
   },
- 
+
   whyChooseUs: {
-    title: "Why Choose Our Blood Sugar Test Service?",
- 
+    title: "Why Choose Shyam Labs for Your Blood Sugar Test?",
+
     description:
-      "Get a reliable blood sugar test near you with convenient booking, professional sample collection, and easy access to digital reports.",
- 
+      "Get a dependable blood sugar test in Chandigarh and the Tricity with easy booking, professional sample collection, convenient home collection, and quick access to your digital report.",
+
     items: [
       {
         title: "Professional Sample Collection",
         description:
-          "Samples are collected using proper procedures for a comfortable testing experience.",
+          "Every blood draw follows proper collection procedures for a comfortable, low-discomfort experience.",
       },
       {
-        title: "Quality Testing Process",
+        title: "Standardised Testing Process",
         description:
-          "Your blood sugar test is processed using standardized laboratory procedures for accurate results.",
+          "Your sugar sample is analysed on calibrated equipment following standard laboratory protocols.",
       },
       {
         title: "Fast Digital Reports",
         description:
-          "Receive your blood sugar test report conveniently after completion of testing.",
+          "Your blood sugar report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
       },
       {
-        title: "Home Collection Available",
+        title: "Home Collection Across Chandigarh & Tricity",
         description:
-          "Book blood sugar test home sample collection from your home at a convenient time.",
+          "Book a blood sugar test with convenient home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
       },
     ],
   },
- 
+
   testDetails: {
-    title: "About Blood Sugar Test (Fasting, Random & Post-Prandial)",
- 
+    title: "About the Blood Sugar Test (Fasting, Post-Prandial & Random)",
+
     description: [
-      "A Blood Sugar test measures the amount of glucose circulating in your blood at the time of sample collection. It can be taken as Fasting Blood Sugar (FBS, after 8-12 hours without food), Random Blood Sugar (RBS, any time of day), or Post-Prandial Blood Sugar (PPBS, 2 hours after a meal).",
- 
-      "This test helps healthcare professionals screen for and monitor diabetes and prediabetes, and is often ordered alongside HbA1c for a complete picture of both current and long-term blood sugar control.",
+      "A blood sugar (blood glucose) test measures the amount of glucose in your blood at the moment the sample is taken. It can be done as Fasting Blood Sugar (FBS, after 8-12 hours without food), Post-Prandial Blood Sugar (PPBS, 2 hours after a meal), or Random Blood Sugar (RBS, at any time of day).",
+      "It helps screen for and monitor prediabetes and diabetes. Because it shows glucose at one moment, doctors often pair it with HbA1c, which shows your average over 2-3 months. In pregnancy, a glucose challenge or glucose tolerance test is used to screen for gestational diabetes.",
     ],
- 
+
     included: [
       "Fasting Blood Sugar (FBS)",
-      "Random Blood Sugar (RBS)",
       "Post-Prandial Blood Sugar (PPBS)",
+      "Random Blood Sugar (RBS)",
       "Glucose Level (mg/dL)",
     ],
   },
- 
+
   preparation: {
-    title: "Preparation Before Blood Sugar Test",
- 
+    title: "Preparation Before Your Blood Sugar Test",
+
     description:
-      "Preparation depends on which type of sugar test is ordered — follow these instructions for a smooth sample collection experience.",
- 
+      "Preparation depends on which sugar test you book — follow these instructions for a smooth sample collection.",
+
     items: [
       {
-        title: "Fasting Blood Sugar Requirement",
+        title: "Fasting Blood Sugar (FBS)",
         description:
-          "Fasting for 8-12 hours (water is fine) is required before a Fasting Blood Sugar test. No fasting is needed for Random Blood Sugar or HbA1c.",
+          "Do not eat or drink anything except plain water for 8-12 hours beforehand. Avoid tea, coffee, juice, and anything with sugar. If you take insulin or diabetes tablets, ask your doctor what to do with your morning dose.",
       },
       {
-        title: "Post-Prandial Timing",
+        title: "Post-Prandial Blood Sugar (PPBS)",
         description:
-          "For a Post-Prandial (PP) test, the sample is collected exactly 2 hours after starting a meal — note your meal start time when booking.",
+          "Eat your usual meal and note the time you start eating. The sample is collected exactly 2 hours later. Don't skip the meal, and rest rather than exercise during the 2 hours.",
       },
       {
-        title: "Inform About Medications",
+        title: "Random Blood Sugar (RBS)",
         description:
-          "Inform the healthcare professional about any diabetes medication, insulin, or supplements you are taking, as timing can affect results.",
+          "No preparation needed — the test can be done at any time, whether or not you have eaten.",
       },
     ],
   },
- 
+
   bookingProcess: {
-    title: "How to Book Your Blood Sugar Test",
- 
+    title: "How to Book Your Blood Sugar Test in Chandigarh",
+
     description:
-      "Book your blood sugar test easily with a simple process and get your sample collected at your preferred time.",
- 
+      "Booking a blood sugar test with Shyam Labs takes just a few minutes, with convenient home sample collection available across Chandigarh and the Tricity.",
+
     steps: [
       {
         title: "Book Test",
         description:
-          "Choose Fasting, Random, or PP Blood Sugar and submit your booking request online or contact our team.",
+          "Choose Fasting, Post-Prandial, or Random Blood Sugar and submit your booking request online or over a call.",
       },
       {
-        title: "Sample Collection",
+        title: "Schedule Sample Collection",
         description:
-          "Our trained professional collects the sample safely from your location, at the correct fasting or post-meal timing.",
+          "Choose a convenient time — early morning for fasting, or 2 hours after your meal for PP — and provide your Chandigarh or Tricity address.",
       },
       {
         title: "Laboratory Testing",
@@ -1844,101 +1828,126 @@ export const tests = [
       {
         title: "Receive Report",
         description:
-          "Get your digital blood sugar test report after the test is completed.",
+          "Your digital blood sugar report is sent to you within 24 hours of collection.",
       },
     ],
   },
- 
+
   pricePreview: {
     title: "Blood Sugar Test Price",
- 
+
     description:
-      "Check the latest blood sugar test price near you and book your test with convenient home sample collection.",
- 
+      "Check the latest blood sugar test price in Chandigarh and book with convenient home sample collection.",
+
     price: 49,
- 
-    priceUrl: "/prices/blood-sugar-hba1c-test-price-garhshankar",
+
+    priceUrl: "/prices/blood-sugar-test-price-chandigarh",
   },
- 
+
   relatedTests: [
     "hba1c-test",
+    "glucose-tolerance-test",
+    "glucose-challenge-test",
     "lipid-profile",
     "kidney-function-test",
-    "liver-function-test",
-    "thyroid-profile-test",
     "urine-examination",
   ],
- 
+
   faq: {
     title: "Frequently Asked Questions",
- 
+
     description:
-      "Find answers to common questions about the blood sugar test, its price, results, and booking.",
- 
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the blood sugar test, its results, and booking.",
+
     items: [
+      {
+        question: "What is the full form of FBS, PPBS, and RBS?",
+        answer:
+          "FBS is Fasting Blood Sugar, PPBS is Post-Prandial Blood Sugar (after a meal), and RBS is Random Blood Sugar (any time of day).",
+      },
       {
         question: "What is the normal blood sugar range?",
         answer:
-          "Normal Fasting Blood Sugar is 70-100 mg/dL, and normal Random or Post-Prandial Blood Sugar is below 140 mg/dL. Values above these ranges may indicate prediabetes or diabetes.",
+          "Fasting: 70-99 mg/dL. 2 hours after a meal: below 140 mg/dL. Random: generally below 140 mg/dL. Values above these may point to prediabetes or diabetes, which your doctor confirms.",
       },
       {
-        question: "Do I need to fast before a blood sugar test?",
+        question: "What fasting and post-meal sugar levels mean prediabetes or diabetes?",
         answer:
-          "Fasting for 8-12 hours is required only for a Fasting Blood Sugar test. Random Blood Sugar can be done any time without fasting, and Post-Prandial is timed 2 hours after a meal instead.",
+          "Fasting 100-125 mg/dL is prediabetes and 126 mg/dL or above is the diabetes range. After a meal, 140-199 mg/dL is prediabetes and 200 mg/dL or above is the diabetes range. Diagnosis usually needs a repeat test.",
       },
       {
-        question: "What is the difference between FBS, RBS, and PPBS?",
+        question: "Is a sugar level of 140, 170, 200, or 250 normal?",
         answer:
-          "FBS (Fasting Blood Sugar) is measured after 8-12 hours without food, RBS (Random Blood Sugar) can be measured at any time, and PPBS (Post-Prandial Blood Sugar) is measured 2 hours after eating.",
+          "140 is the upper limit of normal after a meal but high if fasting. 170 fasting and 200 or 250 at any time are in the diabetes range and need a doctor's review.",
       },
       {
-        question: "Is a blood sugar level of 140 normal?",
+        question: "How many hours of fasting are needed for a fasting sugar test?",
         answer:
-          "A reading of 140 mg/dL sits at the upper edge of normal for a random or post-meal test, but would be considered high if taken fasting. Share the test type and timing with your doctor for accurate interpretation.",
+          "8-12 hours with only plain water allowed. Avoid tea, coffee, juice, and sugary drinks.",
       },
       {
-        question: "How long does it take to receive the blood sugar test report?",
+        question: "How many hours after a meal is the PP sugar test done?",
         answer:
-          "Blood sugar reports are usually available within 24 hours after sample collection and laboratory processing, often much sooner for routine bookings.",
+          "Exactly 2 hours after you start eating your meal.",
       },
       {
-        question: "Is home sample collection available for blood sugar test?",
+        question: "Can I drink water or tea before a blood sugar test?",
         answer:
-          "Yes, home sample collection is available for Fasting, Random, and Post-Prandial Blood Sugar tests. You can book an appointment and choose a convenient collection time.",
+          "Plain water is fine and encouraged. Avoid tea and coffee, especially with milk or sugar, because they can change the result.",
       },
       {
-        question: "What is the blood sugar test price?",
+        question: "What is the difference between fasting, PP, and random sugar?",
         answer:
-          "You can check the latest blood sugar test price on our pricing page and book online with home sample collection.",
+          "Fasting shows your baseline glucose, PP shows how your body handles a meal, and random shows glucose at any moment. HbA1c shows the 2-3 month average.",
       },
       {
-        question: "Should I get HbA1c along with a blood sugar test?",
+        question: "What blood sugar level is dangerous?",
         answer:
-          "Many doctors recommend HbA1c alongside a blood sugar test since HbA1c reflects your 3-month average, while blood sugar shows your level at that specific moment — together they give a fuller picture of diabetes control.",
+          "Below 70 mg/dL is low and below 54 mg/dL is serious. Above 300 mg/dL, or any high reading with vomiting, abdominal pain, drowsiness, or fast breathing, needs urgent medical care.",
+      },
+      {
+        question: "Is blood glucose shown on a CBC?",
+        answer:
+          "No. A CBC counts blood cells. Blood sugar needs its own glucose test.",
+      },
+      {
+        question: "Is a glucometer as accurate as a lab test?",
+        answer:
+          "A glucometer is good for day-to-day monitoring but can differ from a lab result by up to about 15%. For diagnosis, a lab test is more reliable.",
+      },
+      {
+        question: "Is home sample collection available for blood sugar test in Chandigarh?",
+        answer:
+          "Yes, Shyam Labs provides home sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+      {
+        question: "What is the blood sugar test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current blood sugar test price and book online with home sample collection.",
       },
     ],
   },
- 
+
   cta: {
-    title: "Book Your Blood Sugar Test Today",
- 
+    title: "Book Your Blood Sugar Test in Chandigarh Today",
+
     description:
-      "Get convenient sample collection, reliable blood sugar testing, and easy access to your reports.",
- 
+      "Get convenient home sample collection, reliable blood sugar testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+
     highlights: [
       "Home Sample Collection Available",
       "Fast Report Delivery",
       "Professional Collection Process",
     ],
- 
+
     price: "49",
- 
+
     priceText: "Check detailed blood sugar test pricing and booking options.",
- 
-    bookingUrl: "/prices/blood-sugar-hba1c-test-price-garhshankar",
- 
-    phone: "tel:+918968038602",
- 
+
+    bookingUrl: "/prices/blood-sugar-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+
     buttonText: "Book Blood Sugar Test",
   },
 },

@@ -2054,6 +2054,183 @@ export const prices = [
 
     highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
   },
+},
+ {
+  slug: "blood-sugar-test-price-chandigarh",
+
+  seo: {
+    // 50 characters
+    title: "Blood Sugar Test Price in Chandigarh | Book Online",
+    description: `Check blood sugar test price in Chandigarh starting at ₹${getTestPrice('blood-sugar-test')}, with home sample collection, digital reports & easy online booking.`,
+    keywords: [
+      "blood sugar test price chandigarh",
+      "sugar test price chandigarh",
+      "blood sugar test cost chandigarh",
+      "ppbs test price",
+      "fasting blood sugar test price",
+      "blood sugar test price near me",
+      "blood sugar test panchkula",
+      "blood sugar test mohali",
+      "blood sugar test tricity",
+    ],
+  },
+
+  hero: {
+    badge: "Quality Testing Standards",
+
+    title: "Blood Sugar Test Price in Chandigarh",
+
+    subtitle:
+      "Check the Blood Sugar (Fasting, PP & Random) test price in Chandigarh with accurate testing and convenient doorstep home sample collection from Shyam Labs.",
+
+    image: "/prices/blood-sugar-test.webp",
+  },
+
+  priceCard: {
+    actualPrice: 99,
+    offerPrice: getTestPrice('blood-sugar-test'),
+    offerText: "Offer Price",
+    reportTime: "24 Hours",
+    fasting: "Required for Fasting Sugar Only",
+    sampleType: "Blood",
+    homeCollection: true,
+    labVisit: true,
+
+    includes: {
+      title: "Every Booking Includes",
+      items: [
+        "Free Doorstep Home Sample Collection",
+        "Digital Report on WhatsApp & Email",
+        "No Advance Payment Required",
+      ],
+    },
+  },
+
+  whyGetTest: {
+    title: "Why Get a Blood Sugar Test in Chandigarh",
+    description:
+      "Diabetes and prediabetes often cause no symptoms. A blood sugar test is the simplest and most affordable way to check, whether you have risk factors or just want a routine screen.",
+
+    reasons: [
+      {
+        title: "Quick, Affordable Diabetes Screening",
+        description:
+          "Fasting, post-meal, or random sugar gives a fast read on your glucose.",
+      },
+      {
+        title: "Helps You Monitor Diabetes",
+        description:
+          "Track how your diet, medicines, and lifestyle are affecting your sugar.",
+      },
+      {
+        title: "Convenient & Affordable",
+        description:
+          "Home sample collection and transparent pricing make it easy to get tested at the right time, such as early morning for fasting.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How much does a blood sugar test cost in Chandigarh?",
+      answer: `The blood sugar test is available at an offer price of ₹${getTestPrice('blood-sugar-test')} at Shyam Labs, with home sample collection available subject to service coverage.`,
+    },
+    {
+      question: "Is the price for one sugar test or all three?",
+      answer:
+        "The price covers one test: fasting, post-prandial, or random sugar. If you book more than one, each is charged separately. HbA1c is a separate test.",
+    },
+    {
+      question: "Is fasting needed before the blood sugar test?",
+      answer:
+        "Only for fasting sugar (8-12 hours, plain water allowed). Random sugar needs no fasting, and the PP test is done 2 hours after a meal.",
+    },
+    {
+      question: "Is home sample collection available in Chandigarh?",
+      answer:
+        "Yes, Shyam Labs provides doorstep home sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+    },
+    {
+      question: "Do I need to pay in advance to book a blood sugar test?",
+      answer:
+        "No advance payment is required — you can pay at the time of sample collection or according to the payment option provided during booking.",
+    },
+    {
+      question: "How soon will I get my blood sugar report after booking?",
+      answer:
+        "Reports are typically delivered digitally within 24 hours of sample collection.",
+    },
+  ],
+
+  relatedTests: [
+    "blood-sugar-test",
+    "hba1c-test",
+    "glucose-tolerance-test",
+    "glucose-challenge-test",
+    "lipid-profile",
+    "kidney-function-test",
+  ],
+
+  interlinks: {
+    badge: "Included Services & Chandigarh Availability",
+
+    heading: "What's Included & Chandigarh Availability",
+
+    description:
+      "Checking the blood sugar test price? Explore what's included in this price and confirm home collection availability near you in Chandigarh and the Tricity.",
+
+    items: [
+      {
+        title: "What's Included in This Price?",
+        subtitle: "Blood Sugar Test Service Details",
+        description:
+          "See everything included in your blood sugar test — from sample collection to laboratory analysis and report delivery.",
+        href: "/tests/blood-sugar-test",
+        icon: "FiActivity",
+        badge: "Test Details",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Test Details",
+        tracking: "price-interlink-service",
+      },
+      {
+        title: "Blood Sugar Test Available in Chandigarh",
+        subtitle: "Location & Home Collection",
+        description:
+          "Check blood sugar test home sample collection availability across Chandigarh and nearby Tricity areas.",
+        href: "/locations/blood-sugar-test-in-chandigarh",
+        icon: "FiMapPin",
+        badge: "Chandigarh Location",
+        badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+        btnText: "Visit Chandigarh Page",
+        tracking: "price-interlink-location",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Blood Sugar Test in Chandigarh Today",
+
+    description:
+      "Affordable pricing, fast digital reports, and convenient doorstep home sample collection across Chandigarh and the Tricity.",
+
+    offerPrice: getTestPrice('blood-sugar-test'),
+
+    actualPrice: 99,
+
+    buttonText: "Book a Test",
+
+    testName: "Blood Sugar Test",
+
+    blogUrl: "/blogs/blood-sugar-test-guide",
+
+    serviceUrl: "/tests/blood-sugar-test",
+
+    locationUrl: "/locations/blood-sugar-test-in-chandigarh",
+
+    packageUrl: "/packages",
+
+    highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
+  },
 }
 ];
 
