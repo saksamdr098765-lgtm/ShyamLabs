@@ -2231,6 +2231,182 @@ export const prices = [
 
     highlights: ["Home Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
   },
+},
+{
+  slug: "urine-test-price-chandigarh",
+
+  seo: {
+    // 52 characters
+    title: "Urine Test Price in Chandigarh | Urine Routine & R/M",
+    description: `Check urine routine test price in Chandigarh starting at ₹${getTestPrice('urine-examination')}, with easy sample collection, digital reports & online booking.`,
+    keywords: [
+      "urine test price chandigarh",
+      "urine routine test price chandigarh",
+      "urine test cost chandigarh",
+      "urine r m test price",
+      "urinalysis test price",
+      "urine test price near me",
+      "urine test panchkula",
+      "urine test mohali",
+      "urine test tricity",
+    ],
+  },
+
+  hero: {
+    badge: "Quality Testing Standards",
+
+    title: "Urine Test Price in Chandigarh",
+
+    subtitle:
+      "Check the Urine Routine & Microscopy (Urine R/M) test price in Chandigarh with accurate testing and convenient sample collection from Shyam Labs.",
+
+    image: "/prices/urine-test.webp",
+  },
+
+  priceCard: {
+    actualPrice: 165,
+    offerPrice: getTestPrice('urine-examination'),
+    offerText: "Offer Price",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    sampleType: "Urine",
+    homeCollection: true,
+    labVisit: true,
+
+    includes: {
+      title: "Every Booking Includes",
+      items: [
+        "18 Parameters Including Microscopy",
+        "Digital Report on WhatsApp & Email",
+        "No Advance Payment Required",
+      ],
+    },
+  },
+
+  whyGetTest: {
+    title: "Why Get a Urine Test in Chandigarh",
+    description:
+      "A single urine sample is a quick, affordable first check for urinary infection, kidney problems, diabetes, and liver issues.",
+
+    reasons: [
+      {
+        title: "Checks for UTI and Kidney Problems",
+        description:
+          "Pus cells, bacteria, protein, and blood in urine are early clues to infection or kidney trouble.",
+      },
+      {
+        title: "Useful for Diabetes and Routine Checkups",
+        description:
+          "Sugar and ketones in urine can flag high blood sugar, and it is a standard part of annual health checkups.",
+      },
+      {
+        title: "Quick & Affordable",
+        description:
+          "No fasting needed, and the report is usually ready the same day.",
+      },
+    ],
+  },
+
+  faqs: [
+    {
+      question: "How much does a urine test cost in Chandigarh?",
+      answer: `The urine routine and microscopy test is available at an offer price of ₹${getTestPrice('urine-examination')} at Shyam Labs.`,
+    },
+    {
+      question: "What is included in the urine test price?",
+      answer:
+        "It covers 18 parameters: colour, appearance, pH, specific gravity, protein, glucose, ketones, blood, bilirubin, urobilinogen, nitrite, leukocyte esterase, RBC, pus cells, epithelial cells, casts, crystals, and bacteria. Urine culture is a separate test.",
+    },
+    {
+      question: "Is fasting needed before the urine test?",
+      answer:
+        "No, fasting is not required. A first-morning midstream sample is best.",
+    },
+    {
+      question: "Can I collect the urine sample at home?",
+      answer:
+        "Yes, in a sterile container using the midstream method. Ask us at booking about doorstep pickup in your area.",
+    },
+    {
+      question: "Do I need to pay in advance to book a urine test?",
+      answer:
+        "No advance payment is required — you can pay at the time of sample handover or according to the payment option provided during booking.",
+    },
+    {
+      question: "How soon will I get my urine report?",
+      answer:
+        "Reports are typically delivered digitally within 24 hours of the sample reaching the lab.",
+    },
+  ],
+
+  relatedTests: [
+    "urine-examination",
+    "kidney-function-test",
+    "blood-sugar-test",
+    "hba1c-test",
+    "liver-function-test",
+    "cbc-test",
+  ],
+
+  interlinks: {
+    badge: "Included Services & Chandigarh Availability",
+
+    heading: "What's Included & Chandigarh Availability",
+
+    description:
+      "Checking the urine test price? Explore what's included in this price and confirm sample collection availability near you in Chandigarh and the Tricity.",
+
+    items: [
+      {
+        title: "What's Included in This Price?",
+        subtitle: "Urine Test Service Details",
+        description:
+          "See all 18 parameters in your urine test, how to collect the sample, and how to prepare.",
+        href: "/tests/urine-examination",
+        icon: "FiActivity",
+        badge: "Test Details",
+        badgeColor: "bg-teal-100 text-teal-800 border-teal-200",
+        btnText: "Explore Test Details",
+        tracking: "price-interlink-service",
+      },
+      {
+        title: "Urine Test Available in Chandigarh",
+        subtitle: "Location & Sample Collection",
+        description:
+          "Check urine test sample collection availability across Chandigarh and nearby Tricity areas.",
+        href: "/locations/urine-test-in-chandigarh",
+        icon: "FiMapPin",
+        badge: "Chandigarh Location",
+        badgeColor: "bg-sky-100 text-sky-800 border-sky-200",
+        btnText: "Visit Chandigarh Page",
+        tracking: "price-interlink-location",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Urine Test in Chandigarh Today",
+
+    description:
+      "Affordable pricing, fast digital reports, and convenient sample collection across Chandigarh and the Tricity.",
+
+    offerPrice: getTestPrice('urine-examination'),
+
+    actualPrice: 165,
+
+    buttonText: "Book a Test",
+
+    testName: "Urine Test",
+
+    blogUrl: "/blogs/urine-routine-test-guide",
+
+    serviceUrl: "/tests/urine-examination",
+
+    locationUrl: "/locations/urine-test-in-chandigarh",
+
+    packageUrl: "/packages",
+
+    highlights: ["Easy Sample Collection", "Digital Report", "Affordable Rate", "Fast Turnaround"],
+  },
 }
 ];
-

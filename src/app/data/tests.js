@@ -4781,7 +4781,7 @@ export const tests = [
 
 {
   slug: "urine-examination",
-  name: "Urine Examination",
+  name: "Urine Routine & Microscopy (Urine R/M)",
   shortName: "Urine Routine",
   category: "Urine Test",
   organ: "Kidney",
@@ -4790,11 +4790,306 @@ export const tests = [
   fasting: false,
   homeCollection: true,
   popular: true,
+
   description:
-    "Routine urine examination used to detect urinary tract infections, kidney disorders, diabetes and other metabolic conditions.",
+    "Urine routine and microscopy test checks the colour, chemistry, and cells in your urine to detect urinary tract infection, kidney problems, diabetes, and other conditions.",
+
   price: 110,
   reportTime: "24 Hours",
-   status:"draft"
+  status: "published",
+
+  seo: {
+    // 55 characters
+    title: "Urine Routine Test in Chandigarh - Price & Normal Range",
+    // 121 characters
+    description:
+      "Book urine routine and microscopy test in Chandigarh with home sample collection. Check urine test price & normal values.",
+    keywords: [
+      "urine test",
+      "urine routine test",
+      "urine routine and microscopy test",
+      "urine r m test",
+      "urine examination",
+      "urinalysis test",
+      "urine test price",
+      "urine routine test price",
+      "urine test near me",
+      "urine test chandigarh",
+      "urine routine test normal range",
+      "urine test for uti",
+    ],
+  },
+
+  hero: {
+    badge: "Easy Sample Collection Available",
+
+    title: "Urine Routine & Microscopy Test in Chandigarh",
+
+    description:
+      "Book a Urine Routine and Microscopy test in Chandigarh and the Tricity with fast report delivery and convenient sample collection from Shyam Labs. Check the latest urine test price and book online.",
+
+    image: "/tests/urine-routine.webp",
+
+    imageAlt: "Urine Routine and Microscopy Test in Chandigarh",
+
+    reportTime: "24 Hours",
+
+    homeCollection: "Available",
+
+    trustPoints: [
+      "Easy Sample Collection",
+      "Digital Reports",
+      "Affordable Urine Test Price",
+      "Quality-Controlled Testing",
+    ],
+
+    bookButton: "Book Urine Test",
+
+    bookingUrl: "/prices/urine-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+  },
+
+  quickFacts: {
+    sample: "Urine Sample",
+    reportTime: "24 Hours",
+    fasting: "Not Required",
+    homeCollection: "Available",
+    ageGroup: "Adults & Children",
+  },
+
+  whyChooseUs: {
+    title: "Why Choose Shyam Labs for Your Urine Test?",
+
+    description:
+      "Get a dependable urine routine test in Chandigarh and the Tricity with easy booking, simple sample collection, and quick access to your digital report.",
+
+    items: [
+      {
+        title: "Simple Sample Collection",
+        description:
+          "Collect your sample at home in a sterile container using the midstream method, and we guide you through it when you book.",
+      },
+      {
+        title: "Standardised Testing Process",
+        description:
+          "Your urine sample is analysed following standard laboratory protocols, including both chemical and microscopic examination.",
+      },
+      {
+        title: "Fast Digital Reports",
+        description:
+          "Your urine report is shared digitally as soon as testing is complete — no waiting in line to collect a printout.",
+      },
+      {
+        title: "Convenient for Chandigarh & Tricity",
+        description:
+          "Book a urine test with convenient sample collection across Chandigarh and nearby Tricity areas, subject to service availability.",
+      },
+    ],
+  },
+
+  testDetails: {
+    title: "About the Urine Routine & Microscopy Test (Urine R/M)",
+
+    description: [
+      "Urine R/M stands for Urine Routine and Microscopy, also called urine examination or urinalysis. It looks at your urine in three ways: its physical appearance (colour, clarity, specific gravity, pH), its chemistry on a dipstick (protein, glucose, ketones, blood, bilirubin, nitrite, leukocyte esterase), and what is seen under the microscope (red cells, pus cells, epithelial cells, casts, crystals, bacteria).",
+      "It is a screening test, not a final diagnosis. It can point towards urinary tract infection, kidney disease, diabetes, or liver problems, and your doctor then confirms with follow-up tests. If infection is suspected, doctors may advise a urine culture and sensitivity, which is a separate test, and a KFT or blood sugar test for kidney or sugar concerns.",
+    ],
+
+    included: [
+      "Colour",
+      "Appearance (Clarity)",
+      "pH",
+      "Specific Gravity",
+      "Protein (Albumin)",
+      "Glucose (Sugar)",
+      "Ketones",
+      "Blood",
+      "Bilirubin",
+      "Urobilinogen",
+      "Nitrite",
+      "Leukocyte Esterase",
+      "RBC (Red Blood Cells)",
+      "Pus Cells (WBC)",
+      "Epithelial Cells",
+      "Casts",
+      "Crystals",
+      "Bacteria",
+    ],
+  },
+
+  preparation: {
+    title: "Preparation Before Your Urine Test",
+
+    description:
+      "A urine routine test needs no fasting — a clean, correctly collected sample is what matters most.",
+
+    items: [
+      {
+        title: "Urine Test Fasting Requirement",
+        description:
+          "Fasting is not required. Drink water normally, but avoid drinking a very large amount just before collecting, as it can dilute the sample.",
+      },
+      {
+        title: "Collect a Clean Midstream Sample",
+        description:
+          "Wash your hands, clean the genital area, let the first part of urine go into the toilet, then collect the middle of the stream in a sterile container. A first-morning sample is ideal.",
+      },
+      {
+        title: "Things to Avoid Beforehand",
+        description:
+          "Avoid heavy exercise for 24 hours and high-dose vitamin C, which can interfere with the dipstick. Avoid collecting during your period, and mention any medicines you take. Hand the sample in within 1-2 hours, or keep it refrigerated if there is a delay.",
+      },
+    ],
+  },
+
+  bookingProcess: {
+    title: "How to Book Your Urine Test in Chandigarh",
+
+    description:
+      "Booking a urine test with Shyam Labs takes just a few minutes, and we explain how to collect and hand over your sample.",
+
+    steps: [
+      {
+        title: "Book Test",
+        description:
+          "Select the Urine Routine & Microscopy test and submit your booking request online or over a call.",
+      },
+      {
+        title: "Collect Your Sample",
+        description:
+          "Collect a midstream sample in a sterile container as advised, and ask us at booking about doorstep pickup in your area.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is processed using standard laboratory procedures, including microscopy.",
+      },
+      {
+        title: "Receive Report",
+        description:
+          "Your digital urine report is sent to you within 24 hours of the sample reaching the lab.",
+      },
+    ],
+  },
+
+  pricePreview: {
+    title: "Urine Test Price",
+
+    description:
+      "Check the latest urine routine test price in Chandigarh and book with convenient sample collection.",
+
+    price: 110,
+
+    priceUrl: "/prices/urine-test-price-chandigarh",
+  },
+
+  relatedTests: [
+    "kidney-function-test",
+    "blood-sugar-test",
+    "hba1c-test",
+    "liver-function-test",
+    "cbc-test",
+    "serum-creatinine",
+  ],
+
+  faq: {
+    title: "Frequently Asked Questions",
+
+    description:
+      "Answers to the questions patients in Chandigarh and the Tricity most often ask about the urine test, its results, and booking.",
+
+    items: [
+      {
+        question: "What is a urine routine test, and what is its full form?",
+        answer:
+          "Urine routine test means Urine Routine and Microscopy (Urine R/M), also called urine examination or urinalysis. It checks the urine's appearance, chemistry, and cells.",
+      },
+      {
+        question: "What can a urine test detect?",
+        answer:
+          "It can point to urinary tract infection, kidney problems, diabetes, liver or bile duct problems, dehydration, and blood in the urine. It screens for these but doesn't diagnose them on its own.",
+      },
+      {
+        question: "What are normal urine test values?",
+        answer:
+          "Typically pale yellow and clear, pH 4.5-8.0, specific gravity 1.005-1.030, negative for protein, sugar, ketones, blood, bilirubin, nitrite and leukocyte esterase, RBC 0-2 per field and pus cells 0-5 per field. Ranges vary slightly between labs.",
+      },
+      {
+        question: "What is the normal range for pus cells in urine?",
+        answer:
+          "About 0-5 pus cells per high-power field. More than that suggests infection or inflammation, though samples from women are often contaminated and need to be repeated if the result is unclear.",
+      },
+      {
+        question: "What does protein or sugar in urine mean?",
+        answer:
+          "A trace of protein can be temporary, but persistent protein may point to kidney disease, diabetes, or high blood pressure. Sugar in urine usually appears when blood sugar is above about 180 mg/dL and needs a blood sugar test to confirm diabetes.",
+      },
+      {
+        question: "What do nitrite and leukocyte esterase positive mean?",
+        answer:
+          "Leukocyte esterase positive suggests white cells and inflammation, and nitrite positive suggests bacteria. Together with pus cells they point towards a urinary tract infection.",
+      },
+      {
+        question: "Can a urine routine test confirm a UTI?",
+        answer:
+          "It strongly suggests one. A urine culture and sensitivity, which is a separate test your doctor may advise, identifies the bacteria and shows which antibiotics work.",
+      },
+      {
+        question: "Is fasting required for a urine test?",
+        answer:
+          "No. You can eat and drink normally, though a first-morning sample is preferred.",
+      },
+      {
+        question: "How do I collect a midstream urine sample?",
+        answer:
+          "Wash your hands and clean the genital area, pass the first part of the urine into the toilet, collect the middle part in a sterile container, and hand it in within 1-2 hours.",
+      },
+      {
+        question: "What should I avoid before a urine test?",
+        answer:
+          "Heavy exercise for 24 hours, high-dose vitamin C, and drinking an unusually large amount of water. Avoid collecting during your period, and mention any medicines.",
+      },
+      {
+        question: "How long does the urine test report take?",
+        answer:
+          "Reports are usually ready the same day or within 24 hours.",
+      },
+      {
+        question: "Can I collect my urine sample at home?",
+        answer:
+          "Yes. Collect it in a sterile container using the midstream method, and ask us at booking about doorstep pickup in your area.",
+      },
+      {
+        question: "What is the urine test price in Chandigarh?",
+        answer:
+          "Check our pricing page for the current urine routine test price and book online.",
+      },
+    ],
+  },
+
+  cta: {
+    title: "Book Your Urine Test in Chandigarh Today",
+
+    description:
+      "Get convenient sample collection, reliable urine testing, and fast access to your digital report with Shyam Labs serving Chandigarh and the Tricity.",
+
+    highlights: [
+      "Easy Sample Collection",
+      "Fast Report Delivery",
+      "Professional Testing Process",
+    ],
+
+    price: "110",
+
+    priceText: "Check detailed urine test pricing and booking options.",
+
+    bookingUrl: "/prices/urine-test-price-chandigarh",
+
+    phone: "tel:+919914899300",
+
+    buttonText: "Book Urine Test",
+  },
 },
 //done
 

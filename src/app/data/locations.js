@@ -6510,6 +6510,249 @@ We offer fasting, post-prandial, and random blood sugar tests, and many people a
 
   heroSubtitle:
     "Book your blood sugar test from the comfort of your home with convenient sample collection, reliable testing, and fast digital report delivery.",
+},
+{
+  id: 23,
+
+  slug: "urine-test-in-chandigarh",
+
+  city: "Chandigarh",
+
+  state: "Chandigarh",
+
+  title: "Urine Test in Chandigarh",
+
+  shortDescription:
+    "Looking for a urine test in Chandigarh? Shyam Labs provides affordable and reliable urine routine and microscopy testing with convenient sample collection and fast digital reports across Chandigarh and nearby Tricity areas.",
+
+  coverImage: "/locations/chandigarh-urine-test.jpeg",
+
+  hours: "07:00-20:00",
+
+  areas: ["Chandigarh", "Panchkula", "Mohali"],
+
+  services: ["home-sample-collection"],
+
+  seo: {
+    // 53 characters
+    title: "Urine Test in Chandigarh | Urine Routine & Microscopy",
+    // 131 characters
+    description:
+      "Looking for a urine test in Chandigarh? Shyam Labs offers urine routine and microscopy with easy sample collection and fast reports.",
+    keywords: [
+      "Urine Test in Chandigarh",
+      "Urine Routine Test Chandigarh",
+      "Urine R/M Test Chandigarh",
+      "Urinalysis Chandigarh",
+      "Diagnostic Lab Near Me Chandigarh",
+      "Urine Test Price Chandigarh",
+      "Urine Test Panchkula",
+      "Urine Test Mohali",
+      "Urine Test Tricity",
+    ],
+  },
+
+  overview: {
+    heading: "Affordable Urine Testing & Easy Sample Collection in Chandigarh",
+
+    paragraphs: [
+      `Chandigarh is a major healthcare and residential hub in the Tricity, serving families, students, working professionals, senior citizens, and patients from nearby Panchkula and Mohali. A urine routine test is commonly recommended for burning or frequent urination, cloudy or bloody urine, suspected urinary infection, kidney and diabetes monitoring, pregnancy checkups, and routine annual health checkups.
+
+Shyam Budget Friendly Labs is based at Booth No. 199, Sector 21, Panchkula, Haryana, and provides convenient diagnostic testing and sample collection services for Chandigarh and nearby Tricity areas, subject to service availability.`,
+
+      `For people living or working in Chandigarh, giving a urine sample is simple — collect a clean midstream sample in a sterile container at home, and ask us at booking about doorstep pickup in your area. No fasting is needed, and a first-morning sample is ideal.
+
+The test checks 18 parameters, including colour, protein, sugar, ketones, blood, nitrite, pus cells, and bacteria, giving doctors a quick first look at your urinary tract, kidneys, and general health.`,
+
+      `At Shyam Labs, our focus is on affordable pricing, convenient collection, reliable testing processes, and digital report delivery. Our Sector 21 Panchkula location also makes the laboratory conveniently positioned for customers across the Chandigarh Tricity region.`,
+    ],
+
+    highlights: [
+      "18-Parameter Urine R/M Test",
+      "Easy Sample Collection",
+      "No Fasting Required",
+      "Fast Digital Reports",
+      "Chandigarh & Tricity Service Coverage",
+    ],
+  },
+
+  popularTests: {
+    heading: "Popular Blood Tests Near Chandigarh",
+
+    test: [
+      "urine-examination",
+      "kidney-function-test",
+      "blood-sugar-test",
+      "hba1c-test",
+      "liver-function-test",
+      "cbc-test",
+      "lipid-profile",
+      "thyroid-profile-test",
+    ],
+  },
+
+  packages: [
+    "swasthya-mitra-basic",
+    "swasthya-mitra-advance",
+    "fever-panel-basic",
+    "fever-panel-advance",
+    "health-checkup-camp",
+    "mega-health-checkup-advance-package",
+  ],
+
+  process: {
+    heading: "How to Get a Urine Test in Chandigarh",
+
+    steps: [
+      {
+        title: "Book Your Test",
+        description:
+          "Book your urine routine test online or contact Shyam Labs to arrange sample collection in Chandigarh.",
+      },
+      {
+        title: "Collect Your Sample",
+        description:
+          "Collect a clean midstream sample in a sterile container, preferably first thing in the morning, and ask us about doorstep pickup.",
+      },
+      {
+        title: "Laboratory Testing",
+        description:
+          "Your sample is tested for 18 parameters, including chemical dipstick and microscopy, following standard laboratory procedures.",
+      },
+      {
+        title: "Receive Digital Report",
+        description:
+          "Get your urine report digitally through WhatsApp, email, or online access — usually within 24 hours.",
+      },
+    ],
+  },
+
+  healthConditions: [
+    "Urinary Tract Infection Screening",
+    "Kidney Health Screening",
+    "Diabetes & Ketone Monitoring",
+    "Liver & Bile Duct Clues (Bilirubin)",
+  ],
+
+  whoShouldGetTested: [
+    "Anyone with Burning or Frequent Urination",
+    "People with Cloudy, Dark, Foamy, or Bloody Urine",
+    "People with Diabetes or High Blood Pressure",
+    "Pregnant Women (as advised by a doctor)",
+    "Children with Unexplained Fever",
+    "Individuals Doing an Annual Health Checkup",
+  ],
+
+  popularSearches: [
+    "Urine Test in Chandigarh",
+    "Urine Test Price Chandigarh",
+    "Urine Test Near Me",
+    "Urine Routine Test in Chandigarh",
+    "Urinalysis Chandigarh",
+    "Diagnostic Lab Near Me Chandigarh",
+    "Urine Test Panchkula",
+    "Urine Test Mohali",
+  ],
+
+  sections: [
+    {
+      title: "Urine Testing Services in Chandigarh",
+      content: [
+        "Residents across Chandigarh can book urine routine testing through Shyam Labs with convenient sample collection where service coverage is available.",
+        "Our testing services are designed for working professionals, families, senior citizens, and patients who need a quick first check for infection, kidney health, or diabetes.",
+      ],
+    },
+    {
+      title: "Simple Sample Collection in Chandigarh",
+      content: [
+        "A urine test needs only a clean midstream sample in a sterile container, and we explain how to collect it correctly so it doesn't need repeating.",
+        "Ask us at booking about doorstep pickup in your area, subject to service availability.",
+      ],
+    },
+    {
+      title: "Why Choose Shyam Labs for Urine Testing?",
+      content: [
+        "Affordable pricing, simple sample collection, and digital reporting make Shyam Labs a convenient option for urine testing across Chandigarh and the Tricity.",
+        "Our laboratory is located at Booth No. 199, Sector 21, Panchkula, Haryana, providing a convenient Tricity location for customers in Chandigarh and nearby areas.",
+      ],
+    },
+  ],
+
+  nearbyAreas: ["Chandigarh", "Panchkula", "Mohali", "Kalka", "Zirakpur"],
+
+  faq: [
+    {
+      question: "Which areas around Chandigarh are covered for sample collection?",
+      answer:
+        "Shyam Labs provides sample collection services in Chandigarh and nearby Tricity areas including Panchkula and Mohali, subject to service availability.",
+    },
+    {
+      question: "Can I book a urine test online in Chandigarh?",
+      answer: "Yes, you can schedule your urine test online or by phone and choose a convenient time.",
+    },
+    {
+      question: "What is the urine test price in Chandigarh?",
+      answer: `The urine routine and microscopy test is available at an offer price of ₹${getTestPrice('urine-examination')}. Check the pricing page for current offers and booking details.`,
+    },
+    {
+      question: "Is fasting required before a urine test?",
+      answer: "No, fasting is not required before a urine routine test.",
+    },
+    {
+      question: "How quickly are urine reports available in Chandigarh?",
+      answer: "Urine reports are typically available digitally within 24 hours of the sample reaching the lab.",
+    },
+    {
+      question: "Can senior citizens and children get a urine test through Shyam Labs?",
+      answer:
+        "Yes. A urine test is suitable for all ages, and we can guide you on collecting a clean sample for children and elderly patients, subject to service availability.",
+    },
+  ],
+
+  relatedLocations: [
+    { city: "Panchkula", slug: "/locations/urine-test-in-panchkula" },
+    { city: "Mohali", slug: "/locations/urine-test-in-mohali" },
+  ],
+
+  facts: [
+    { label: "Test Price", value: getTestPrice('urine-examination') },
+    { label: "Report Time", value: "24 Hours" },
+    { label: "Parameters Tested", value: "18" },
+    { label: "Fasting", value: "Not Required" },
+    { label: "Lab Location", value: "Sector 21, Panchkula" },
+  ],
+
+  tags: [
+    "Urine Test Chandigarh",
+    "Urine Routine Test Chandigarh",
+    "Urinalysis Chandigarh",
+    "Pathology Lab Chandigarh",
+    "Blood Test Near Me Chandigarh",
+    "Diagnostic Centre Chandigarh",
+    "Urine Test Panchkula",
+    "Urine Test Mohali",
+    "Urine Test Tricity",
+  ],
+
+  cta: {
+    title: "Book a Urine Test in Chandigarh Today",
+
+    description:
+      "Schedule your urine routine test and receive your report digitally from Shyam Budget Friendly Labs.",
+
+    phone: "tel:+919914899300",
+
+    highlights: ["Easy Sample Collection", "Affordable Urine Testing", "Fast Digital Reports"],
+  },
+
+  author: "Shyam Budget Friendly Labs",
+
+  image: "/locations/chandigarh-urine-test.jpeg",
+
+  heroTitle: "Affordable Urine Testing & Easy Sample Collection in Chandigarh",
+
+  heroSubtitle:
+    "Book your urine routine and microscopy test with simple sample collection, reliable testing, and fast digital report delivery.",
 }
 ];
 

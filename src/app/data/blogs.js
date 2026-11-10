@@ -6266,107 +6266,565 @@ export const blogs = [
 },
 {
   id: 13,
+
   slug: "urine-routine-test-guide",
-  title: "Urine Routine Test Guide: Normal Range, UTI, Kidney Health, Results & When You Need One",
-  excerpt: "Learn everything about Urine Routine & Microscopy Tests including normal values, UTI symptoms, kidney disease, diabetes screening, urine test preparation, and urine testing in Panchkula.",
+
+  title: "Urine Routine Test: Normal Range, Pus Cells & Price",
+
+  excerpt:
+    "Urine routine test explained: normal values chart, what pus cells, protein, sugar and ketones mean, UTI signs, how to collect a sample, and price.",
+
   category: "Health Tips",
+
   author: {
     name: SITE_CONFIG.fullName,
     image: SITE_CONFIG.logo,
   },
-  publishedAt: "July 15, 2026",
-  readingTime: "8 min read",
-  coverImage: "/blogs/urine-routine-test.webp",
-  featured: false,
-  relatedPackages: [],
-  relatedTests: [], // ✅ emptied per request
+
+  publishedAt: "November 09, 2026",
+
+  readingTime: "13 min read",
+
+  coverImage: "/blogs/urine-routine-test-guide.webp",
+
+  featured: true,
+
+  relatedPackages: [
+    "swasthya-mitra-basic",
+    "swasthya-mitra-advance",
+    "fever-panel-basic",
+    "fever-panel-advance",
+    "health-checkup-camp",
+    "mega-health-checkup-advance-package",
+  ],
+
+  relatedTests: [
+    "urine-examination",
+    "kidney-function-test",
+    "blood-sugar-test",
+    "hba1c-test",
+    "liver-function-test",
+    "cbc-test",
+  ],
+
   seo: {
-    title: "Urine Routine Test Guide: Normal Range, UTI Detection & Kidney Health",
-    description: "Know urine routine test normal values, urine infection symptoms, kidney disease indicators, diabetes screening, home sample collection, and urine testing in Panchkula.",
+    // 51 characters
+    title: "Urine Routine Test: Normal Range, Pus Cells & Price",
+    // 120 characters
+    description:
+      "Urine routine test guide: normal values chart, pus cells, protein, sugar, ketones, UTI signs, sample collection & price.",
     keywords: [
-      "Urine Routine Test", "Urine Examination", "Urine Microscopy Test", "Routine Urine Test",
-      "Urine Test for UTI", "Urine Test Normal Range", "Urine Protein Test", "Urine Sugar Test",
-      "Urine Test in Panchkula", "Urine Test Near Me", "Kidney Urine Test", "Urine Infection Test"
-    ]
+      "urine routine test",
+      "urine test",
+      "urine routine and microscopy test",
+      "urine routine test normal range",
+      "pus cells in urine normal range",
+      "leukocyte esterase in urine",
+      "epithelial cells in urine",
+      "protein in urine meaning",
+      "uti symptoms",
+      "urine test for uti",
+      "urine test near me",
+      "urine test in Chandigarh",
+      "pathology lab near me",
+      "diagnostic lab near me",
+      "blood test home sample collection",
+    ],
   },
+
   quickInfo: {
-    "What You Will Learn": "Urine Routine Test",
+    "What You Will Learn": "Urine Routine & Microscopy Test",
+    price: getTestPrice('urine-examination'),
     sample: "Urine",
     fasting: "Not Required",
     reportTime: "Same Day",
     homeCollection: "Sample Can Be Collected at Home",
-    recommendedFor: "Burning sensation while urinating, Frequent urination, Blood in urine, Cloudy urine, Lower abdominal pain, Back pain, Fever with urinary symptoms, Foamy urine",
-    booking: "Online / Phone / WhatsApp"
+    recommendedFor: "Burning Urination, Frequent Urination, Cloudy or Foamy Urine, Blood in Urine, Routine Checkup",
+    booking: "Online / Phone / WhatsApp",
   },
+
   tags: [
-    "Urine Routine Test", "Urine Test", "Urine Microscopy", "Routine Urine Examination", "UTI Test",
-    "Urine Infection Test", "Kidney Health", "Kidney Disease Test", "Urine Sugar Test",
-    "Protein in Urine", "Blood in Urine", "Urine Test Near Me", "Urine Test in Panchkula",
-    "Urine Test in Chandigarh", "Urine Test in Punjab", "Diagnostic Lab", "Pathology Lab",
-    "Health Checkup", "Home Sample Collection", "Same Day Report"
+    "Urine Routine Test",
+    "Urine Test",
+    "Urinalysis",
+    "Urine R/M",
+    "Pus Cells in Urine",
+    "Protein in Urine",
+    "Sugar in Urine",
+    "UTI Symptoms",
+    "Urine Test Price",
+    "Blood Tests",
+    "Health Checkup",
+    "Urine Test in Chandigarh",
+    "Urine Test in Panchkula",
+    "Pathology Lab",
+    "Same Day Report",
   ],
+
   content: [
-    { type: "heading", level: 2, text: "What Is a Urine Routine Test?" },
-    { type: "paragraph", text: "A Urine Routine Test, also called a Routine Urine Examination (R/E) or Urinalysis, is one of the most commonly prescribed laboratory investigations." },
-    { type: "paragraph", text: "It evaluates the physical appearance, chemical composition, and microscopic contents of urine to provide important information about your overall health." },
-    { type: "paragraph", text: "Doctors commonly recommend this test to diagnose urinary tract infections (UTIs), kidney disorders, diabetes, dehydration, and several other medical conditions." },
-    { type: "paragraph", text: "Since many diseases show early changes in urine, routine urine testing plays an important role in preventive healthcare." },
-    { type: "heading", level: 2, text: "What Does a Urine Test Check?" },
-    { type: "paragraph", text: "A Urine Routine Test evaluates multiple parameters to assess your urinary system and general health." },
-    { type: "paragraph", text: "The examination typically includes:" },
-    { type: "list", items: ["Color and Appearance", "Specific Gravity", "pH Level", "Protein", "Glucose (Sugar)", "Ketones", "Blood", "Bilirubin", "Nitrite", "Leukocyte Esterase", "Red Blood Cells (RBC)", "White Blood Cells (WBC)", "Epithelial Cells", "Casts", "Crystals", "Bacteria"] },
-    { type: "paragraph", text: "Together, these findings help doctors identify infections, kidney disease, diabetes, dehydration, and other health conditions." },
-    { type: "heading", level: 2, text: "Who Should Get a Urine Routine Test?" },
-    { type: "paragraph", text: "Doctors may recommend a Urine Routine Test for individuals experiencing urinary symptoms or during routine health screening." },
-    { type: "paragraph", text: "The test is commonly advised for:" },
-    { type: "list", items: ["People with burning while urinating", "Frequent urination", "Blood in urine", "Lower abdominal pain", "Suspected urinary tract infection (UTI)", "Kidney disease evaluation", "Diabetes monitoring", "Pregnancy checkups", "Annual health checkups"] },
-    { type: "paragraph", text: "Routine urine testing is often included in preventive health packages because it can detect several conditions before symptoms become severe." },
-    { type: "heading", level: 2, text: "Common Symptoms That Need a Urine Test" },
-    { type: "paragraph", text: "A Urine Routine Test may be recommended if you experience:" },
-    { type: "list", items: ["Burning sensation while passing urine", "Frequent urge to urinate", "Blood in urine", "Cloudy or foul-smelling urine", "Lower abdominal pain", "Back or flank pain", "Fever with urinary symptoms", "Difficulty passing urine", "Swelling of legs or face", "Foamy urine"] },
-    { type: "paragraph", text: "These symptoms may indicate urinary tract infections, kidney disorders, or other medical conditions requiring evaluation." },
-    { type: "heading", level: 2, text: "Normal Urine Test Values" },
-    { type: "paragraph", text: "Normal urine findings generally include:" },
-    { type: "list", items: ["Color: Pale Yellow to Amber", "Appearance: Clear", "pH: 4.5–8.0", "Specific Gravity: 1.005–1.030", "Protein: Negative", "Glucose: Negative", "Ketones: Negative", "Blood: Negative", "Nitrite: Negative", "RBC: 0–2 /HPF", "WBC: 0–5 /HPF"] },
-    { type: "paragraph", text: "Normal ranges may vary slightly between laboratories. Your doctor will interpret the report along with your symptoms and medical history." },
-    { type: "heading", level: 2, text: "Understanding Urine Test Results" },
-    { type: "paragraph", text: "A Urine Routine Test provides valuable information about your health." },
-    { type: "paragraph", text: "Some common findings include:" },
-    { type: "list", items: ["Protein in urine may indicate kidney disease.", "Glucose in urine can suggest diabetes.", "Increased WBCs or bacteria often indicate a urinary tract infection.", "Blood in urine may occur due to infection, kidney stones, or other medical conditions.", "Ketones may appear in uncontrolled diabetes or prolonged fasting.", "Crystals may suggest an increased risk of kidney stones."] },
-    { type: "paragraph", text: "Abnormal findings should always be interpreted by a qualified healthcare professional." },
-    { type: "heading", level: 2, text: "Benefits of Regular Urine Testing" },
-    { type: "paragraph", text: "Routine urine testing offers several important health benefits." },
-    { type: "paragraph", text: "These include:" },
-    { type: "list", items: ["Early detection of urinary tract infections", "Identification of kidney disorders", "Screening for diabetes", "Monitoring kidney function", "Detecting dehydration", "Supporting routine health checkups", "Monitoring ongoing medical treatment"] },
-    { type: "paragraph", text: "Because the test is simple, affordable, and non-invasive, it is one of the most frequently recommended laboratory investigations." },
-    { type: "heading", level: 2, text: "How To Prepare For A Urine Test" },
-    { type: "paragraph", text: "A Urine Routine Test usually requires very little preparation." },
-    { type: "paragraph", text: "For the most accurate results:" },
-    { type: "list", items: ["Collect a clean midstream urine sample whenever possible.", "Use a sterile urine container.", "Avoid contamination of the sample.", "Inform your doctor about any medications you are taking.", "Drink adequate water unless your doctor advises otherwise."] },
-    { type: "paragraph", text: "In most cases, fasting is not required before a routine urine examination." },
-    { type: "heading", level: 2, text: "Urine Testing in Panchkula" },
-    { type: "paragraph", text: "Shyam Pathology Lab provides accurate Urine Routine & Microscopy Testing in Panchkula with reliable reporting and convenient home sample collection support." },
-    { type: "paragraph", text: "Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, and nearby areas can easily book urine testing." },
-    { type: "paragraph", text: "Our laboratory offers:" },
-    { type: "list", items: ["Urine Routine Examination", "Urine Microscopy", "Urine Sugar Test", "Urine Protein Test", "Urine Pregnancy Test", "Urine Culture (when advised)", "Same-Day Reporting for most tests"] },
-    { type: "paragraph", text: "Early diagnosis helps doctors identify infections, kidney disorders, and metabolic diseases before serious complications develop." }
-    // ✅ interlinking block removed
+    {
+      type: "paragraph",
+      text: "A urine routine test is one of the cheapest and most informative tests there is. A single sample can hint at a urinary infection, kidney trouble, diabetes, or liver problems. This guide explains what the report contains, the normal values, what each abnormal finding can mean, and how to give a sample that won't need repeating.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Is a Urine Routine Test? (Urine R/M Full Form)",
+    },
+    {
+      type: "paragraph",
+      text: "Urine routine test means Urine Routine and Microscopy (Urine R/M), also called urine examination or urinalysis. It examines your urine in three ways: how it looks, what chemicals are in it, and what is visible under a microscope.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "What Does the Urine Test Include?",
+    },
+    {
+      type: "list",
+      items: [
+        "Physical: colour, clarity, specific gravity, and pH",
+        "Chemical (dipstick): protein, glucose, ketones, blood, bilirubin, urobilinogen, nitrite, and leukocyte esterase",
+        "Microscopic: red blood cells, pus cells, epithelial cells, casts, crystals, bacteria, and yeast",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Why Is a Urine Test Done?",
+    },
+    {
+      type: "list",
+      items: [
+        "Burning or frequent urination, or suspected urinary tract infection",
+        "Cloudy, bloody, dark, or foamy urine",
+        "Screening for kidney disease, especially with diabetes or high blood pressure",
+        "Monitoring diabetes (glucose and ketones)",
+        "Suspected liver or bile duct problems",
+        "Antenatal checkups in pregnancy",
+        "Before surgery and in routine health checkups",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Normal Urine Test Values Chart",
+    },
+    {
+      type: "list",
+      items: [
+        "Colour: pale yellow to amber",
+        "Appearance: clear",
+        "pH: 4.5-8.0",
+        "Specific gravity: 1.005-1.030",
+        "Protein, glucose, ketones, blood, bilirubin: negative",
+        "Nitrite and leukocyte esterase: negative",
+        "RBC: 0-2 per high-power field",
+        "Pus cells (WBC): 0-5 per high-power field",
+        "Epithelial cells: few",
+        "Casts, crystals, bacteria, yeast: none or very few",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Values vary slightly between labs, and men and women share the same ranges, though women's samples more often show extra epithelial cells because of contamination. A trace of protein or a few crystals is not always abnormal.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How to Read a Urine Test Report",
+    },
+    {
+      type: "paragraph",
+      text: "Each line shows what was found beside the normal range. 'Nil', 'absent', or 'negative' means normal; '+' signs (1+ to 4+) show how much of a substance is present. An abnormal line does not mean disease on its own — doctors read the pattern, for example pus cells plus nitrite plus bacteria for infection. A 'bad' result is usually one that needs a follow-up test rather than a diagnosis.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Pus Cells in Urine: Normal Range and Meaning",
+    },
+    {
+      type: "paragraph",
+      text: "Pus cells are white blood cells. About 0-5 per high-power field is normal. Higher counts suggest infection or inflammation of the urinary tract, kidney, or prostate. If the sample was contaminated, which is common in women, the count can be falsely high, so a clean repeat sample may be asked for.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Epithelial Cells in Urine: What Do They Mean?",
+    },
+    {
+      type: "paragraph",
+      text: "Epithelial cells are lining cells shed from the skin and urinary tract. A few squamous epithelial cells are normal. Many of them usually mean the sample was contaminated and should be recollected as a clean midstream sample, whereas deeper kidney tubular cells are more significant and are reported separately.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Leukocyte Esterase and Nitrite Positive: What Do They Mean?",
+    },
+    {
+      type: "paragraph",
+      text: "Leukocyte esterase is an enzyme from white cells, so a positive result points to inflammation. Nitrite is made when some bacteria break down urinary nitrate, so a positive result points to bacteria. Both positive together with pus cells strongly suggest a urinary tract infection, though a negative nitrite doesn't rule one out because not every germ makes it.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Blood (RBC) in Urine: Causes",
+    },
+    {
+      type: "list",
+      items: [
+        "Urinary tract infection",
+        "Kidney or bladder stones",
+        "Kidney or bladder conditions, or an enlarged prostate",
+        "Menstrual blood contaminating the sample",
+        "Strenuous exercise or injury",
+        "Blood-thinning medicines",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Visible blood in the urine, or blood that appears repeatedly, always needs a doctor's evaluation, usually with an ultrasound.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Protein and Albumin in Urine",
+    },
+    {
+      type: "paragraph",
+      text: "Trace protein can be temporary — from fever, exercise, dehydration, or standing for long. Persistent protein may point to kidney disease, diabetes, or high blood pressure, and foamy urine can be a sign. Doctors confirm with a urine albumin-to-creatinine ratio (microalbumin) or a 24-hour urine protein, which are separate tests, along with a KFT.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Sugar (Glucose) in Urine: Causes and Meaning",
+    },
+    {
+      type: "paragraph",
+      text: "Glucose spills into urine when blood sugar rises above about 180 mg/dL, so it can be a clue to uncontrolled diabetes. It can also occur with a low kidney threshold for sugar, in pregnancy, and with some diabetes medicines such as SGLT2 inhibitors. Urine sugar cannot diagnose diabetes — blood sugar or HbA1c is needed.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Ketones in Urine: What Do They Mean?",
+    },
+    {
+      type: "paragraph",
+      text: "Ketones appear when the body burns fat for energy, for example during fasting, a very low-carbohydrate diet, vomiting, fever, or pregnancy sickness. In someone with diabetes, ketones together with high blood sugar, nausea, or fast breathing can signal diabetic ketoacidosis and need urgent care.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Bilirubin, Crystals, Casts, Bacteria, and Yeast in Urine",
+    },
+    {
+      type: "list",
+      items: [
+        "Bilirubin: not normally present; suggests liver or bile duct problems, and often comes with dark urine — an LFT is the next step",
+        "Crystals: often harmless and related to diet or dehydration, but persistent large amounts can go with kidney stones",
+        "Casts: hyaline casts can be normal, while cellular or granular casts point to kidney disease",
+        "Bacteria: with pus cells suggests infection, but can also be contamination",
+        "Yeast: seen with diabetes, antibiotic use, or genital yeast infection",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Urine pH and Specific Gravity Normal Range",
+    },
+    {
+      type: "paragraph",
+      text: "pH of 4.5-8.0 is normal and varies with diet; persistently alkaline urine can go with some infections and stones. Specific gravity of 1.005-1.030 shows how concentrated the urine is. High values suggest dehydration, or sugar or protein in the urine, while consistently low values can mean overhydration or a kidney concentrating problem.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Urine Colour and Appearance: Dark, Cloudy, Foamy, and Smelly Urine",
+    },
+    {
+      type: "list",
+      items: [
+        "Pale yellow: normal",
+        "Dark yellow or amber: usually dehydration",
+        "Orange: dehydration, some medicines, or liver and bile problems",
+        "Red or pink: blood, beetroot, or some medicines",
+        "Brown or cola-coloured: liver disease, severe dehydration, or muscle breakdown",
+        "Cloudy: infection, phosphates, crystals, or pus",
+        "Foamy: fast stream or protein in the urine",
+        "Strong smell: dehydration, infection, or certain foods; a sweet or fruity smell can go with high ketones",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "UTI Symptoms, Burning Urination, and Frequent Urination",
+    },
+    {
+      type: "list",
+      items: [
+        "Burning or pain while passing urine",
+        "A frequent, urgent need to urinate, often in small amounts",
+        "Cloudy, foul-smelling, or bloody urine",
+        "Lower abdominal or pelvic discomfort",
+        "Fever, chills, or back and flank pain — which may mean the kidney is involved and needs prompt care",
+      ],
+    },
+    {
+      type: "paragraph",
+      text: "Burning can also come from concentrated urine, stones, or genital infections, and frequent urination from diabetes, high fluid or caffeine intake, an enlarged prostate, or pregnancy, so the urine test helps sort out which it is.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Which Infections Show Up in Urine? Do You Need a Urine Culture?",
+    },
+    {
+      type: "paragraph",
+      text: "A urine routine test can suggest urinary tract infection by showing pus cells, bacteria, leukocyte esterase, and nitrite. A urine culture and sensitivity, a separate test your doctor may advise, grows the bacteria and shows which antibiotics work. It is usually advised for repeated infections, infection in pregnancy, men and children, or when treatment hasn't worked, and the sample is best collected before antibiotics are started.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Urine Test for Kidney Disease, Diabetes, and Dehydration",
+    },
+    {
+      type: "list",
+      items: [
+        "Kidney disease: protein, blood, and casts in urine raise suspicion; a KFT and urine albumin test confirm",
+        "Diabetes: glucose and ketones are supportive only; blood sugar and HbA1c diagnose it",
+        "Dehydration: dark colour, high specific gravity, and sometimes ketones",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Is Fasting Required? What to Avoid Before a Urine Test",
+    },
+    {
+      type: "paragraph",
+      text: "No fasting is needed. Avoid heavy exercise for 24 hours, high-dose vitamin C (which can interfere with the dipstick), and an unusually large amount of water just before. Don't collect during your period, and tell the lab about medicines. A first-morning sample is ideal because it is the most concentrated, but any time works.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How to Collect a Midstream Urine Sample",
+    },
+    {
+      type: "list",
+      items: [
+        "Wash your hands and open the sterile container without touching the inside",
+        "Women: clean the genital area front to back; men: retract the foreskin if present and clean the tip",
+        "Start urinating into the toilet and let the first part go",
+        "Collect the middle part of the stream in the container, about half to three-quarters full",
+        "Close the lid, label it, and hand it in within 1-2 hours, or keep it refrigerated if there is a delay",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "How Fast Is a Urine Test? Report Time and Home Collection",
+    },
+    {
+      type: "paragraph",
+      text: "The dipstick part takes minutes, and the full report with microscopy is usually ready the same day or within 24 hours. You can collect the sample at home in a sterile container, and you can ask us at booking about doorstep pickup. Home dipstick strips from a pharmacy give a rough screen but cannot do microscopy, so a lab test is better when you have symptoms.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Urine Test in Pregnancy, Children, Men, and Women",
+    },
+    {
+      type: "paragraph",
+      text: "In pregnancy a urine test checks for protein (a sign of high blood pressure complications), sugar, and infection, and doctors take urinary infections seriously because they can affect the pregnancy. In children, urinary infection can show up only as fever or irritability, and getting a clean sample takes care. Men and women use the same ranges, but women's samples are more often contaminated and may need repeating.",
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Urine Test Price and Report Time",
+    },
+    {
+      type: "paragraph",
+      text: `Our urine routine and microscopy test is priced at ${getTestPrice('urine-examination')}, with same-day reports available. Urine culture, urine pregnancy, and 24-hour urine tests are separate tests, so ask your doctor which you need.`,
+    },
+    {
+      type: "interlinking",
+      title: "Urine Test Services & Pricing",
+      description:
+        "Explore urine routine test details, pricing, and convenient sample collection services.",
+      items: [
+        {
+          title: "Urine Test Price",
+          description:
+            "Check the latest urine routine test price and sample collection options.",
+          href: "/prices/urine-test-price-chandigarh",
+        },
+        {
+          title: "Urine Test Details",
+          description:
+            "Learn about the urine routine and microscopy test, parameters included, and preparation.",
+          href: "/tests/urine-examination",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Urine Test in Panchkula, Chandigarh & Nearby Areas",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Budget Friendly Labs provides accurate urine routine testing with convenient sample collection for patients across Panchkula, Chandigarh, Mohali, Zirakpur, Sector 21 Panchkula, Karimpur, Pinjore, and Kalka.",
+    },
+    {
+      type: "interlinking",
+      title: "Urine Test — Areas We Serve",
+      description:
+        "We provide urine routine testing with sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "Urine routine test with convenient sample collection.",
+          href: "/locations/urine-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "Urine test and diagnostic services.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "Urine test with same-day report.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "Urine test and pathology services.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Key Takeaways",
+    },
+    {
+      type: "list",
+      items: [
+        "Urine R/M checks appearance, chemistry, and microscopy; it screens but does not diagnose on its own",
+        "Normal: negative for protein, sugar, ketones, blood, nitrite and leukocyte esterase, RBC 0-2 and pus cells 0-5 per field",
+        "Many epithelial cells usually mean a contaminated sample — a clean midstream collection avoids repeat tests",
+        "Sugar in urine suggests high blood sugar but cannot diagnose diabetes; protein in urine needs a kidney follow-up",
+        "No fasting is needed; a first-morning, midstream sample handed in within 1-2 hours is best",
+      ],
+    },
+    {
+      type: "references",
+      items: [
+        {
+          title: "Urinalysis",
+          publisher: "MedlinePlus",
+          url: "https://medlineplus.gov/lab-tests/urinalysis/",
+        },
+        {
+          title: "Urinalysis",
+          publisher: "Mayo Clinic",
+          url: "https://www.mayoclinic.org/tests-procedures/urinalysis/about/pac-20384907",
+        },
+        {
+          title: "Urinalysis",
+          publisher: "Cleveland Clinic",
+          url: "https://my.clevelandclinic.org/health/diagnostics/17893-urinalysis",
+        },
+      ],
+    },
   ],
+
   faq: [
-    { question: "Is fasting required for a Urine Routine Test?", answer: "No. Fasting is generally not required before a Urine Routine Test." },
-    { question: "Can a Urine Test detect a urinary tract infection (UTI)?", answer: "Yes. A Urine Routine Test can detect signs of infection such as increased white blood cells, bacteria, nitrites, and leukocyte esterase. Your doctor may recommend a urine culture for confirmation." },
-    { question: "What does protein in urine indicate?", answer: "Protein in urine may indicate kidney disease, diabetes, high blood pressure, or other medical conditions that require further evaluation." },
-    { question: "Can a Urine Test detect diabetes?", answer: "Yes. Glucose or ketones found in urine may suggest diabetes, although additional blood tests are usually required for confirmation." },
-    { question: "How long does a Urine Routine Test take?", answer: "Providing the urine sample takes only a few minutes, and most reports are available on the same day." },
-    { question: "Can I collect my urine sample at home?", answer: "Yes. You can collect the sample at home using a clean sterile container and submit it to the laboratory according to the instructions provided." }
+    {
+      question: "What is a urine routine test and what can it detect?",
+      answer:
+        "Urine routine and microscopy checks the urine's appearance, chemistry, and cells. It can point to infection, kidney problems, diabetes, liver problems, and dehydration, but doesn't diagnose them on its own.",
+    },
+    {
+      question: "What are normal urine test results?",
+      answer:
+        "Pale yellow and clear urine, pH 4.5-8.0, specific gravity 1.005-1.030, negative for protein, sugar, ketones, blood, nitrite and leukocyte esterase, RBC 0-2 and pus cells 0-5 per field.",
+    },
+    {
+      question: "What is the normal range of pus cells in urine?",
+      answer:
+        "About 0-5 per high-power field. Higher counts suggest infection or inflammation, though contaminated samples can read falsely high.",
+    },
+    {
+      question: "What does it mean if pus cells and bacteria are found in urine?",
+      answer:
+        "Together they suggest a urinary tract infection. Your doctor may advise a urine culture and sensitivity to pick the right antibiotic.",
+    },
+    {
+      question: "What do epithelial cells in urine mean?",
+      answer:
+        "A few are normal. Many usually mean the sample was contaminated and needs to be recollected as a clean midstream sample.",
+    },
+    {
+      question: "What does leukocyte esterase positive mean?",
+      answer:
+        "It means white cells are present, pointing to inflammation, commonly urinary tract infection, especially with a positive nitrite.",
+    },
+    {
+      question: "What causes protein in urine?",
+      answer:
+        "Temporary causes include fever, exercise, and dehydration. Persistent protein can point to kidney disease, diabetes, or high blood pressure and needs a kidney follow-up.",
+    },
+    {
+      question: "What does sugar in urine mean?",
+      answer:
+        "Usually blood sugar is above about 180 mg/dL, so it can be a clue to diabetes. It can't diagnose diabetes — a blood sugar or HbA1c test is needed.",
+    },
+    {
+      question: "What are the causes of blood in urine?",
+      answer:
+        "Infection, kidney or bladder stones, kidney or prostate conditions, menstrual contamination, exercise, and blood thinners. Visible or repeated blood needs a doctor's review.",
+    },
+    {
+      question: "What are the symptoms of a UTI?",
+      answer:
+        "Burning while urinating, frequent urgent urination, cloudy or foul-smelling urine, and lower abdominal discomfort. Fever or back pain suggests the kidney is involved and needs prompt care.",
+    },
+    {
+      question: "Is fasting required for a urine test?",
+      answer:
+        "No. A first-morning sample is preferred, but any time works.",
+    },
+    {
+      question: "How do I collect a midstream urine sample?",
+      answer:
+        "Wash your hands and clean the genital area, let the first part of the urine go into the toilet, collect the middle part in a sterile container, and hand it in within 1-2 hours.",
+    },
+    {
+      question: "What should I avoid before a urine test?",
+      answer:
+        "Heavy exercise for 24 hours, high-dose vitamin C, and drinking a very large amount of water just before. Avoid collecting during your period.",
+    },
+    {
+      question: "How much does a urine test cost?",
+      answer: `Our urine routine and microscopy test is priced at ${getTestPrice('urine-examination')}, with same-day reports available.`,
+    },
+    {
+      question: "Can I check urine at home?",
+      answer:
+        "Pharmacy dipstick strips give a rough screen but can't do microscopy. For symptoms, a lab test is more reliable, and you can collect the sample at home in a sterile container.",
+    },
   ],
+
   cta: {
-    title: "Book Your Urine Routine Test Today",
-    description: "Get accurate Urine Routine & Microscopy Testing with reliable reports, convenient sample collection, and trusted diagnostic services from Shyam Pathology Lab.",
-    buttonText: "Book Urine Test",
+    title: "Book Urine Test",
+    description: "Get an accurate urine routine and microscopy test with easy sample collection and same-day reports.",
+    buttonText: "Book Test Now",
     whatsappText: "Hi, I want to book a urine test.",
-    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"]
-  }
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/urine-examination",
+  },
 },
 {
   id: 14,
@@ -6382,8 +6840,24 @@ export const blogs = [
   readingTime: "10 min read",
   coverImage: "/blogs/low-hemoglobin-guide.webp",
   featured: false,
-  relatedPackages: [],
-  relatedTests: [], // ✅ emptied per request
+  relatedPackages: [
+    "swasthya-mitra-premium-package",
+    "essential-health-tests",
+    "senior-citizen-male-package",
+    "senior-citizen-female-package",
+    "health-checkup-camp",
+    "fever-panel-basic",
+  ],
+  relatedTests: [
+    "cbc-test",
+    "platelet-count",
+    "esr-test",
+    "peripheral-blood-film",
+    "vitamin-b12-test",
+    "kidney-function-test",
+    "liver-function-test",
+    "blood-sugar-test",
+  ],
   seo: {
     title: "Why Is My Hemoglobin Low? Causes, Symptoms & Treatment",
     description: "Know the common causes of low hemoglobin including iron deficiency, vitamin deficiency, blood loss, kidney disease, symptoms, diagnosis, treatment, and CBC testing.",
@@ -6394,7 +6868,8 @@ export const blogs = [
     ]
   },
   quickInfo: {
-    "What You Will Learn": "Low Hemoglobin",
+    "What You Will Learn": "Low Hemoglobin (CBC & Anemia)",
+    price: getTestPrice('cbc-test'),
     sample: "Blood",
     fasting: "Not Required",
     reportTime: "Same Day",
@@ -6471,8 +6946,70 @@ export const blogs = [
     { type: "paragraph", text: "Our CBC test measures hemoglobin along with several important blood parameters including red blood cell count, white blood cell count, platelet count, hematocrit, MCV, MCH, and MCHC, providing a comprehensive overview of your blood health." },
     { type: "paragraph", text: "Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Pinjore, Kalka, and nearby areas can easily book their blood tests online or schedule doorstep sample collection." },
     { type: "paragraph", text: "If your CBC indicates low hemoglobin, additional investigations such as Iron Studies, Serum Ferritin, Vitamin B12 Test, Folate Test, Kidney Function Test (KFT), and Liver Function Test (LFT) may be recommended to determine the underlying cause." },
-    { type: "paragraph", text: "Early diagnosis helps prevent complications and allows timely treatment for anemia and other blood disorders." }
-    // ✅ interlinking block removed
+    { type: "paragraph", text: "Early diagnosis helps prevent complications and allows timely treatment for anemia and other blood disorders." },
+    {
+      type: "interlinking",
+      title: "Hemoglobin & CBC Test Services & Pricing",
+      description:
+        "Explore CBC test details, hemoglobin pricing, and convenient home sample collection options across the Tricity.",
+      items: [
+        {
+          title: "CBC Test Price",
+          description:
+            "Check the latest CBC and hemoglobin test prices with home sample collection options.",
+          href: "/prices/cbc-test-price-chandigarh",
+        },
+        {
+          title: "CBC Test Details",
+          description:
+            "Learn about the complete blood count, parameters checked (Hb, RBC, WBC, Platelets), and preparation.",
+          href: "/tests/cbc-test",
+        },
+        {
+          title: "Blood Test Price in Panchkula",
+          description:
+            "Compare full routine blood test prices and diagnostic health checkup packages.",
+          href: "/prices/blood-test-price-panchkula",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "CBC Test & Hemoglobin Testing — Areas We Serve",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Pathology Lab provides accurate Complete Blood Count (CBC) and hemoglobin blood testing with convenient doorstep sample collection across the following locations.",
+    },
+    {
+      type: "interlinking",
+      title: "CBC Test — Areas We Serve",
+      description:
+        "We provide CBC (Complete Blood Count) and hemoglobin test with home sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "CBC test and hemoglobin check with home sample collection.",
+          href: "/locations/cbc-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "CBC test and diagnostic pathology services with home collection.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "CBC test with same-day report and home sample collection.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "CBC test and complete blood health checkup services.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    }
   ],
   faq: [
     { question: "What is considered a low hemoglobin level?", answer: "Generally, hemoglobin below 13.5 g/dL in adult men and below 12 g/dL in adult women is considered low. Normal ranges may vary slightly between laboratories." },
@@ -6487,7 +7024,9 @@ export const blogs = [
     description: "Get accurate hemoglobin testing with a Complete Blood Count (CBC), fast reports, affordable pricing, and convenient home sample collection from Shyam Pathology Lab.",
     buttonText: "Book CBC Test",
     whatsappText: "Hi, I want to book a cbc test.",
-    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"]
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/cbc-test",
+    serviceName: "CBC Test",
   }
 },
 {
@@ -6504,8 +7043,24 @@ export const blogs = [
   readingTime: "9 min read",
   coverImage: "/blogs/high-cholesterol-guide.webp",
   featured: false,
-  relatedPackages: [],
-  relatedTests: [], // ✅ emptied per request
+  relatedPackages: [
+    "lipid-profile-test",
+    "jaanch-heart-screening",
+    "jaanch-heart-advanced",
+    "jaanch-heart-comprehensive",
+    "essential-health-tests",
+    "executive-full-body-checkup",
+  ],
+  relatedTests: [
+    "lipid-profile",
+    "total-cholesterol",
+    "triglycerides-test",
+    "hdl-cholesterol",
+    "ldl-cholesterol",
+    "vldl-cholesterol",
+    "blood-sugar-test",
+    "hba1c-test",
+  ],
   seo: {
     title: "What Causes High Cholesterol? | Symptoms, Prevention & Lipid Profile",
     description: "Know the causes of high cholesterol, LDL, HDL, triglycerides, symptoms, prevention, and when to get a Lipid Profile Test.",
@@ -6517,7 +7072,8 @@ export const blogs = [
     ]
   },
   quickInfo: {
-    "What You Will Learn": "What Causes High Cholesterol",
+    "What You Will Learn": "What Causes High Cholesterol (Lipid Profile)",
+    price: getTestPrice('lipid-profile'),
     sample: "Blood",
     fasting: "9-12 Hours (if advised)",
     reportTime: "Same Day",
@@ -6580,8 +7136,70 @@ export const blogs = [
     { type: "paragraph", text: "Patients from Panchkula, Chandigarh, Mohali, Zirakpur, Pinjore, Kalka, and surrounding areas can easily book cholesterol testing online or by phone." },
     { type: "paragraph", text: "Our laboratory provides:" },
     { type: "list", items: ["Complete Lipid Profile", "Total Cholesterol", "LDL Cholesterol", "HDL Cholesterol", "Triglycerides", "VLDL Cholesterol", "Preventive Heart Health Packages", "Home Blood Sample Collection", "Same-Day Reports for most routine investigations"] },
-    { type: "paragraph", text: "Regular cholesterol testing allows early detection of cardiovascular risk factors, enabling timely lifestyle changes and medical treatment before serious complications occur." }
-    // ✅ interlinking block removed
+    { type: "paragraph", text: "Regular cholesterol testing allows early detection of cardiovascular risk factors, enabling timely lifestyle changes and medical treatment before serious complications occur." },
+    {
+      type: "interlinking",
+      title: "Lipid Profile & Cholesterol Test Services & Pricing",
+      description:
+        "Explore lipid profile test details, cholesterol testing rates, and convenient home sample collection options across the Tricity.",
+      items: [
+        {
+          title: "Lipid Profile Test Price",
+          description:
+            "Check the latest lipid profile and cholesterol test price with doorstep collection.",
+          href: "/prices/lipid-profile-test-price-chandigarh",
+        },
+        {
+          title: "Lipid Profile Test Details",
+          description:
+            "Learn about parameters tested (Total Cholesterol, HDL, LDL, Triglycerides) and fasting guidelines.",
+          href: "/tests/lipid-profile",
+        },
+        {
+          title: "Blood Test Price in Panchkula",
+          description:
+            "Explore full body health checkup and cardiovascular test pricing.",
+          href: "/prices/blood-test-price-panchkula",
+        },
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "Lipid Profile & Cholesterol Test — Areas We Serve",
+    },
+    {
+      type: "paragraph",
+      text: "Shyam Pathology Lab provides accurate lipid profile and cholesterol blood testing with convenient home sample collection across the following locations.",
+    },
+    {
+      type: "interlinking",
+      title: "Lipid Profile Test — Areas We Serve",
+      description:
+        "We provide lipid profile and cholesterol testing with home blood sample collection across the following locations.",
+      items: [
+        {
+          title: "Chandigarh",
+          description: "Lipid profile and cholesterol test with doorstep sample collection.",
+          href: "/locations/lipid-profile-test-in-chandigarh",
+        },
+        {
+          title: "Mohali",
+          description: "Lipid panel and cardiovascular diagnostic tests with home collection.",
+          href: "/locations/mohali",
+        },
+        {
+          title: "Panchkula",
+          description: "Cholesterol testing with accurate lab analysis and same-day reports.",
+          href: "/locations/panchkula",
+        },
+        {
+          title: "Zirakpur",
+          description: "Preventive heart health checkups and blood sample collection.",
+          href: "/locations/zirakpur",
+        },
+      ],
+    }
   ],
   faq: [
     { question: "What causes high cholesterol?", answer: "High cholesterol can result from unhealthy eating habits, obesity, lack of exercise, smoking, diabetes, hypothyroidism, kidney disease, excessive alcohol consumption, and inherited genetic conditions." },
@@ -6596,7 +7214,9 @@ export const blogs = [
     description: "Monitor your cholesterol levels with an accurate Lipid Profile Test, experienced laboratory professionals, affordable pricing, home sample collection, and reliable reports from Shyam Pathology Lab.",
     buttonText: "Book Lipid Profile Test",
     whatsappText: "Hi, I want to book a lipid profile test.",
-    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"]
+    features: ["Experienced Lab", "100+ Tests", "Fast Reports", "Experienced Staff"],
+    serviceLink: "/tests/lipid-profile",
+    serviceName: "Lipid Profile Test",
   }
 }
 ];
